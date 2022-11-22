@@ -13,6 +13,7 @@
 		5594A9B6292CC392003A776E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5594A9B4292CC392003A776E /* Main.storyboard */; };
 		5594A9B8292CC394003A776E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5594A9B7292CC394003A776E /* Assets.xcassets */; };
 		5594A9BB292CC394003A776E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5594A9B9292CC394003A776E /* LaunchScreen.storyboard */; };
+		5594A9C4292D9897003A776E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5594A9C3292D9897003A776E /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		5594A9B7292CC394003A776E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5594A9BA292CC394003A776E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5594A9BC292CC394003A776E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5594A9C3292D9897003A776E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		5594A9A2292CC392003A776E = {
 			isa = PBXGroup;
 			children = (
+				5594A9C3292D9897003A776E /* README.md */,
 				5594A9AD292CC392003A776E /* Constraints-Webview_1 */,
 				5594A9AC292CC392003A776E /* Products */,
 			);
@@ -56,6 +59,7 @@
 		5594A9AD292CC392003A776E /* Constraints-Webview_1 */ = {
 			isa = PBXGroup;
 			children = (
+				5594A9C2292D95F4003A776E /* New Group */,
 				5594A9AE292CC392003A776E /* AppDelegate.swift */,
 				5594A9B0292CC392003A776E /* SceneDelegate.swift */,
 				5594A9B2292CC392003A776E /* ViewController.swift */,
@@ -65,6 +69,13 @@
 				5594A9BC292CC394003A776E /* Info.plist */,
 			);
 			path = "Constraints-Webview_1";
+			sourceTree = "<group>";
+		};
+		5594A9C2292D95F4003A776E /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +138,7 @@
 			files = (
 				5594A9BB292CC394003A776E /* LaunchScreen.storyboard in Resources */,
 				5594A9B8292CC394003A776E /* Assets.xcassets in Resources */,
+				5594A9C4292D9897003A776E /* README.md in Resources */,
 				5594A9B6292CC392003A776E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
