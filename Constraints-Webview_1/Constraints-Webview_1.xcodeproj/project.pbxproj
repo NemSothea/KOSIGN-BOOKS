@@ -14,6 +14,7 @@
 		5594A9B8292CC394003A776E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5594A9B7292CC394003A776E /* Assets.xcassets */; };
 		5594A9BB292CC394003A776E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5594A9B9292CC394003A776E /* LaunchScreen.storyboard */; };
 		5594A9C4292D9897003A776E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5594A9C3292D9897003A776E /* README.md */; };
+		5594A9C6292D9F96003A776E /* CONTENT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5594A9C5292D9F96003A776E /* CONTENT.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		5594A9BA292CC394003A776E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5594A9BC292CC394003A776E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5594A9C3292D9897003A776E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		5594A9C5292D9F96003A776E /* CONTENT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CONTENT.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +61,7 @@
 		5594A9AD292CC392003A776E /* Constraints-Webview_1 */ = {
 			isa = PBXGroup;
 			children = (
-				5594A9C2292D95F4003A776E /* New Group */,
+				5594A9C2292D95F4003A776E /* Model */,
 				5594A9AE292CC392003A776E /* AppDelegate.swift */,
 				5594A9B0292CC392003A776E /* SceneDelegate.swift */,
 				5594A9B2292CC392003A776E /* ViewController.swift */,
@@ -71,11 +73,12 @@
 			path = "Constraints-Webview_1";
 			sourceTree = "<group>";
 		};
-		5594A9C2292D95F4003A776E /* New Group */ = {
+		5594A9C2292D95F4003A776E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				5594A9C5292D9F96003A776E /* CONTENT.swift */,
 			);
-			path = "New Group";
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +156,7 @@
 				5594A9B3292CC392003A776E /* ViewController.swift in Sources */,
 				5594A9AF292CC392003A776E /* AppDelegate.swift in Sources */,
 				5594A9B1292CC392003A776E /* SceneDelegate.swift in Sources */,
+				5594A9C6292D9F96003A776E /* CONTENT.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
