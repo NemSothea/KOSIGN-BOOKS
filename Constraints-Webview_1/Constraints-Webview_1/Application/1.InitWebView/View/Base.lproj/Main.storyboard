@@ -72,7 +72,7 @@
         <!--View Controller-->
         <scene sceneID="CNp-9a-QQO">
             <objects>
-                <viewController id="bbU-cg-4ox" customClass="ViewController" customModule="Constraints_Webview_1" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewController" id="bbU-cg-4ox" customClass="ViewController" customModule="Constraints_Webview_1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KVy-ib-njD">
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -95,6 +95,9 @@
                             <constraint firstItem="DZ5-TA-fKX" firstAttribute="leading" secondItem="04X-zI-3eI" secondAttribute="leading" id="yhj-ar-iX5"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="webKitView" destination="DZ5-TA-fKX" id="LeA-dU-YXL"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8If-r0-rwv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

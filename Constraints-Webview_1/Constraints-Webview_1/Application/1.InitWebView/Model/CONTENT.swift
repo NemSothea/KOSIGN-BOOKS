@@ -15,7 +15,7 @@ struct CONTENT {
 
 enum CONTENT_TYPE  {
     
-    case InitWebView
+    case InitWebKitView
     case LoadURL
     case WKNavigationDelegate
     case Cookies

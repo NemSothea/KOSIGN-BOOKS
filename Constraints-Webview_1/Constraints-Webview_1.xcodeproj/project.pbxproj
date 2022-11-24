@@ -18,6 +18,10 @@
 		5594A9D2292DB288003A776E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5594A9D1292DB288003A776E /* MainViewController.swift */; };
 		5594A9D4292DB32E003A776E /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5594A9D3292DB32E003A776E /* TableViewCell.swift */; };
 		5594A9D6292DB4AC003A776E /* ContentVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5594A9D5292DB4AC003A776E /* ContentVM.swift */; };
+		5594A9D8292EE84D003A776E /* Encodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5594A9D7292EE84D003A776E /* Encodable.swift */; };
+		5594A9DA292EEDE2003A776E /* Share.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5594A9D9292EEDE2003A776E /* Share.swift */; };
+		5594A9DD292EF435003A776E /* WebKitSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5594A9DC292EF435003A776E /* WebKitSB.storyboard */; };
+		5594A9DF292EF44B003A776E /* WebKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5594A9DE292EF44B003A776E /* WebKitViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +38,10 @@
 		5594A9D1292DB288003A776E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		5594A9D3292DB32E003A776E /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		5594A9D5292DB4AC003A776E /* ContentVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentVM.swift; sourceTree = "<group>"; };
+		5594A9D7292EE84D003A776E /* Encodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encodable.swift; sourceTree = "<group>"; };
+		5594A9D9292EEDE2003A776E /* Share.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Share.swift; sourceTree = "<group>"; };
+		5594A9DC292EF435003A776E /* WebKitSB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WebKitSB.storyboard; sourceTree = "<group>"; };
+		5594A9DE292EF44B003A776E /* WebKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebKitViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +114,8 @@
 		5594A9C9292DA6E0003A776E /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				5594A9D7292EE84D003A776E /* Encodable.swift */,
+				5594A9D9292EEDE2003A776E /* Share.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -132,6 +142,7 @@
 		5594A9CC292DA791003A776E /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				5594A9DB292EF40B003A776E /* 2.LoadURL */,
 				5594A9CB292DA755003A776E /* 1.InitWebView */,
 				5594A9B9292CC394003A776E /* LaunchScreen.storyboard */,
 			);
@@ -152,6 +163,15 @@
 				5594A9B7292CC394003A776E /* Assets.xcassets */,
 			);
 			path = Resource;
+			sourceTree = "<group>";
+		};
+		5594A9DB292EF40B003A776E /* 2.LoadURL */ = {
+			isa = PBXGroup;
+			children = (
+				5594A9DC292EF435003A776E /* WebKitSB.storyboard */,
+				5594A9DE292EF44B003A776E /* WebKitViewController.swift */,
+			);
+			path = 2.LoadURL;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -215,6 +235,7 @@
 				5594A9BB292CC394003A776E /* LaunchScreen.storyboard in Resources */,
 				5594A9B8292CC394003A776E /* Assets.xcassets in Resources */,
 				5594A9C4292D9897003A776E /* README.md in Resources */,
+				5594A9DD292EF435003A776E /* WebKitSB.storyboard in Resources */,
 				5594A9B6292CC392003A776E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -230,9 +251,12 @@
 				5594A9AF292CC392003A776E /* AppDelegate.swift in Sources */,
 				5594A9B1292CC392003A776E /* SceneDelegate.swift in Sources */,
 				5594A9D4292DB32E003A776E /* TableViewCell.swift in Sources */,
+				5594A9DA292EEDE2003A776E /* Share.swift in Sources */,
 				5594A9D6292DB4AC003A776E /* ContentVM.swift in Sources */,
 				5594A9C6292D9F96003A776E /* CONTENT.swift in Sources */,
 				5594A9D2292DB288003A776E /* MainViewController.swift in Sources */,
+				5594A9DF292EF44B003A776E /* WebKitViewController.swift in Sources */,
+				5594A9D8292EE84D003A776E /* Encodable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -43,6 +43,19 @@ extension MainViewController : UITableViewDelegate, UITableViewDataSource {
         
         return cell
     }
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ViewController") as! ViewController
+        guard let webKitType = self.contentVM.recordContent?[indexPath.row].type else
+        {
+            return
+        }
+        switch webKitType {
+        case .LoadURL :
+            break
+        default :
+            self.navigationController?.pushViewController(vc, animated: true)
+        }
+        
+    }
     
 }
