@@ -18,6 +18,29 @@ class MainViewController: UIViewController {
         self.contentVM.loadContent()
         // Do any additional setup after loading the view.
     }
+    /**
+            FUNCTION LoadURL with Param
+     */
+    private func loadURLWithParam() {
+        let vc = UIStoryboard(name: "WebKitSB", bundle: nil).instantiateViewController(withIdentifier: "WebKitViewController") as! WebKitViewController
+        let url = "https://biztrip-dev.appplay.co.kr/biztrip_mpoint_gate.act"
+        let jsonString = Share.callBizPoint().encodeToJsonString
+        vc.urlString = "\(url)?JSONData=\(jsonString)"
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
+    /**
+            FUNCTION  WKNavigationDelegate, Cookies
+     */
+    private func webKitViewAction() {
+        
+        let vc = UIStoryboard(name: "WebKitSB", bundle: nil).instantiateViewController(withIdentifier: "WebKitViewController") as! WebKitViewController
+        let  domainUrl  = "https://approval-dev.appplay.co.kr//MApprGateway/APPROVAL_DTL_101.act"
+        let param       = "APPR_SEQ_NO=856721&POPUP_YN=N"
+        vc.urlString    = domainUrl
+        vc.param        = param
+        vc.webKitType   = .Cookie_WebView
+        self.navigationController?.pushViewController(vc, animated: true)
+    }
     
     /*
     // MARK: - Navigation
@@ -51,7 +74,9 @@ extension MainViewController : UITableViewDelegate, UITableViewDataSource {
         }
         switch webKitType {
         case .LoadURL :
-            break
+            self.loadURLWithParam()
+        case .WKNavigationDelegate,.Cookies :
+            self.webKitViewAction()
         default :
             self.navigationController?.pushViewController(vc, animated: true)
         }

@@ -21,6 +21,6 @@ struct BIZ_POINT : Encodable {
 struct Share  {
     static func callBizPoint() -> BIZ_POINT {
         
-        return BIZ_POINT(PTL_ID: "PTL_51",CHNL_ID:"CHNL_1",USE_INTT_ID: "UTLZ_1709060902735",USER_ID:"simdemo01t",USER_NM:"심관리자s",PTL_URL: "https://mg-dev.bizplay.co.kr/")
+        return BIZ_POINT(PTL_ID : "PTL_51",CHNL_ID : "CHNL_1", USE_INTT_ID : "UTLZ_1709060902735",USER_ID:"simdemo01t",USER_NM : "심관리자s",PTL_URL : "https://mg-dev.bizplay.co.kr/")
     }
 }

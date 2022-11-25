@@ -22,6 +22,8 @@
 		5594A9DA292EEDE2003A776E /* Share.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5594A9D9292EEDE2003A776E /* Share.swift */; };
 		5594A9DD292EF435003A776E /* WebKitSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5594A9DC292EF435003A776E /* WebKitSB.storyboard */; };
 		5594A9DF292EF44B003A776E /* WebKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5594A9DE292EF44B003A776E /* WebKitViewController.swift */; };
+		5594A9E229304F08003A776E /* WebKitHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5594A9E129304F08003A776E /* WebKitHelper.swift */; };
+		5594A9E429309A0E003A776E /* CookieConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5594A9E329309A0E003A776E /* CookieConfiguration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		5594A9D9292EEDE2003A776E /* Share.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Share.swift; sourceTree = "<group>"; };
 		5594A9DC292EF435003A776E /* WebKitSB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = WebKitSB.storyboard; sourceTree = "<group>"; };
 		5594A9DE292EF44B003A776E /* WebKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebKitViewController.swift; sourceTree = "<group>"; };
+		5594A9E129304F08003A776E /* WebKitHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebKitHelper.swift; sourceTree = "<group>"; };
+		5594A9E329309A0E003A776E /* CookieConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieConfiguration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +120,8 @@
 			children = (
 				5594A9D7292EE84D003A776E /* Encodable.swift */,
 				5594A9D9292EEDE2003A776E /* Share.swift */,
+				5594A9E129304F08003A776E /* WebKitHelper.swift */,
+				5594A9E329309A0E003A776E /* CookieConfiguration.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -249,11 +255,13 @@
 			files = (
 				5594A9B3292CC392003A776E /* ViewController.swift in Sources */,
 				5594A9AF292CC392003A776E /* AppDelegate.swift in Sources */,
+				5594A9E429309A0E003A776E /* CookieConfiguration.swift in Sources */,
 				5594A9B1292CC392003A776E /* SceneDelegate.swift in Sources */,
 				5594A9D4292DB32E003A776E /* TableViewCell.swift in Sources */,
 				5594A9DA292EEDE2003A776E /* Share.swift in Sources */,
 				5594A9D6292DB4AC003A776E /* ContentVM.swift in Sources */,
 				5594A9C6292D9F96003A776E /* CONTENT.swift in Sources */,
+				5594A9E229304F08003A776E /* WebKitHelper.swift in Sources */,
 				5594A9D2292DB288003A776E /* MainViewController.swift in Sources */,
 				5594A9DF292EF44B003A776E /* WebKitViewController.swift in Sources */,
 				5594A9D8292EE84D003A776E /* Encodable.swift in Sources */,
