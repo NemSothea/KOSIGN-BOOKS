@@ -24,6 +24,7 @@
 		5594A9DF292EF44B003A776E /* WebKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5594A9DE292EF44B003A776E /* WebKitViewController.swift */; };
 		5594A9E229304F08003A776E /* WebKitHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5594A9E129304F08003A776E /* WebKitHelper.swift */; };
 		5594A9E429309A0E003A776E /* CookieConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5594A9E329309A0E003A776E /* CookieConfiguration.swift */; };
+		55AEA5412935DA1F00824B87 /*  WKNavigationDelegate .swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AEA5402935DA1F00824B87 /*  WKNavigationDelegate .swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		5594A9DE292EF44B003A776E /* WebKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebKitViewController.swift; sourceTree = "<group>"; };
 		5594A9E129304F08003A776E /* WebKitHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebKitHelper.swift; sourceTree = "<group>"; };
 		5594A9E329309A0E003A776E /* CookieConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieConfiguration.swift; sourceTree = "<group>"; };
+		55AEA5402935DA1F00824B87 /*  WKNavigationDelegate .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " WKNavigationDelegate .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				5594A9D9292EEDE2003A776E /* Share.swift */,
 				5594A9E129304F08003A776E /* WebKitHelper.swift */,
 				5594A9E329309A0E003A776E /* CookieConfiguration.swift */,
+				55AEA5402935DA1F00824B87 /*  WKNavigationDelegate .swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -255,6 +258,7 @@
 			files = (
 				5594A9B3292CC392003A776E /* ViewController.swift in Sources */,
 				5594A9AF292CC392003A776E /* AppDelegate.swift in Sources */,
+				55AEA5412935DA1F00824B87 /*  WKNavigationDelegate .swift in Sources */,
 				5594A9E429309A0E003A776E /* CookieConfiguration.swift in Sources */,
 				5594A9B1292CC392003A776E /* SceneDelegate.swift in Sources */,
 				5594A9D4292DB32E003A776E /* TableViewCell.swift in Sources */,

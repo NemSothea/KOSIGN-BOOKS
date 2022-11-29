@@ -26,4 +26,20 @@ extension WebKitViewController {
         //2. Store cookie in HTTPCookieStore
         HTTPCookieStorage.shared.setCookie(cookies)
     }
+    func getCookieFromWebsiteDataStore() {
+        webKitView.configuration.websiteDataStore.httpCookieStore.getAllCookies { cookies in
+            let cookieDict = HTTPCookie.requestHeaderFields(with: cookies)
+            if let cookieStr = cookieDict["Cookie"] {
+                print("Cookies ::: \(cookieStr)")
+            }
+        }
+    }
+    func getCookiesFromSpecificURL(url : URL) {
+        if let cookie = HTTPCookieStorage.shared.cookies(for: url) {
+            let cookieDict = HTTPCookie.requestHeaderFields(with: cookie)
+            if let cookieStr = cookieDict["Cookie"] {
+                print("Cookie :: :: \(cookieStr)")
+            }
+        }
+    }
 }

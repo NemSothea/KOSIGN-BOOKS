@@ -8,7 +8,7 @@
 import UIKit
 import WebKit
 
-class WebKitViewController : UIViewController {
+class WebKitViewController : UIViewController{
 
     @IBOutlet weak var webKitView : WKWebView!
     
@@ -25,11 +25,11 @@ class WebKitViewController : UIViewController {
     }
     private func setupBaseWebKitView() {
         switch webKitType {
-        case .Cookie_WebView:
-            self.setWebKitCookie()
+        case .Cookie_WebView:break
+//            self.setWebKitCookie()
         default : break
         }
-        
+        self.webKitView.navigationDelegate = self
         self.loadURL()
     }
     private func loadURL() {
@@ -42,7 +42,8 @@ class WebKitViewController : UIViewController {
             urlRequest?.httpMethod  = "POST"
             urlRequest?.httpBody    = myParam.data(using: .utf8)
         }
-        
+        getCookieFromWebsiteDataStore()
+        getCookiesFromSpecificURL(url: urlLoad)
         self.AddHeader()
         
         _ = webKitView.load(urlRequest!)
@@ -56,8 +57,15 @@ class WebKitViewController : UIViewController {
             }
             
         }
+        //-Add UserAgent
+        let getUserAgent = "Mozilla/5.0 (iPhone; U; CPU iPhone OS \(UIDevice.current.systemVersion) like Mac OS X; ko-kr) AppleWebKit/605.1.15 (KHTML, like Gecko)"
+        urlRequest?.addValue(getUserAgent, forHTTPHeaderField: "User-Agent")
+        
+        //Content type for supporting HTML request
+        urlRequest?.addValue("application/x-www-form-urlencoded", forHTTPHeaderField: "Content-Type")
+      
     }
-    
+
 
     /*
     // MARK: - Navigation
