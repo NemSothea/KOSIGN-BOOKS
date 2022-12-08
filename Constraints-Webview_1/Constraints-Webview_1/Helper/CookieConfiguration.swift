@@ -15,8 +15,10 @@ extension WebKitViewController {
     func setWebKitCookie() {
         let cookies = HTTPCookie(properties: [
             .version: 0,
+            .value : "E091155CA5E96C30FBE36AF7FC92522A",
             .name : "JSESSIONID",
-            .value:"approval-dev.appplay.co.kr",
+            .domain:"approval-dev.appplay.co.kr",
+            .path : "/",
             .expires : Date().addingTimeInterval(31536000)
         ])!
         

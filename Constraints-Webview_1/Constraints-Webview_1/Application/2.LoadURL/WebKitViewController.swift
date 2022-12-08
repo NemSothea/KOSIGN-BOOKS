@@ -25,8 +25,8 @@ class WebKitViewController : UIViewController{
     }
     private func setupBaseWebKitView() {
         switch webKitType {
-        case .Cookie_WebView:break
-//            self.setWebKitCookie()
+        case .Cookie_WebView:
+            self.setWebKitCookie()
         default : break
         }
         self.webKitView.navigationDelegate = self
@@ -42,8 +42,8 @@ class WebKitViewController : UIViewController{
             urlRequest?.httpMethod  = "POST"
             urlRequest?.httpBody    = myParam.data(using: .utf8)
         }
-        getCookieFromWebsiteDataStore()
-        getCookiesFromSpecificURL(url: urlLoad)
+//        getCookieFromWebsiteDataStore()
+//        getCookiesFromSpecificURL(url: urlLoad)
         self.AddHeader()
         
         _ = webKitView.load(urlRequest!)
@@ -64,6 +64,19 @@ class WebKitViewController : UIViewController{
         //Content type for supporting HTML request
         urlRequest?.addValue("application/x-www-form-urlencoded", forHTTPHeaderField: "Content-Type")
       
+    }
+    
+    
+    func sessionTimeOutError() {
+        
+        let alert = UIAlertController(title: "", message: "Session Timeout", preferredStyle: .alert)
+        let okAction = UIAlertAction(title: "OK", style: .default) {
+            (action) in
+            self.navigationController?.popViewController(animated: true)
+        }
+        alert.addAction(okAction)
+        self.present(alert, animated: true)
+        
     }
 
 

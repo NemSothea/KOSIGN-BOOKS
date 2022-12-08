@@ -8,5 +8,8 @@
 import Foundation
 import WebKit
 extension WebKitViewController :  WKNavigationDelegate  {
-    
+//    func webView(_ webView: WKWebView, decidePolicyFor navigationAction: WKNavigationAction) async -> WKNavigationActionPolicy {
+//        print("--------- decide Policy ----------")
+//        
+//    }
 }
