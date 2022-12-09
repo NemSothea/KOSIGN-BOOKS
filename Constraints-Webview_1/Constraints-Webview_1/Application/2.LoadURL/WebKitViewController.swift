@@ -65,8 +65,16 @@ class WebKitViewController : UIViewController{
         urlRequest?.addValue("application/x-www-form-urlencoded", forHTTPHeaderField: "Content-Type")
       
     }
-    
-    
+    func handleAction(webView : WKWebView, actionCode : String, actionData : [String: Any]?) {
+        let actionCD = ActionCode(rawValue: actionCode) ?? .empty
+        self.processActionCode(actionCode: actionCD, actionData: actionData)
+    }
+    func processActionCode(actionCode : ActionCode, actionData : [String : Any]?) {
+        switch actionCode {
+        case .empty : break
+        case .ac_1004 : self.sessionTimeOutError()
+        }
+    }
     func sessionTimeOutError() {
         
         let alert = UIAlertController(title: "", message: "Session Timeout", preferredStyle: .alert)
@@ -77,6 +85,19 @@ class WebKitViewController : UIViewController{
         alert.addAction(okAction)
         self.present(alert, animated: true)
         
+    }
+    func isItunesURL(_ urlString : String) -> Bool {
+        return isMatch(urlString, "\\/\\/itunes\\.apple\\.com\\/")  || isMatch(urlString, "\\/\\/apps\\.apple\\.com\\/")
+    }
+    func isMatch(_ urlString : String, _ pattern : String) -> Bool {
+        
+        let regex = try! NSRegularExpression(pattern: pattern,options: [])
+        let result = regex.matches(in: urlString,options: [], range: NSRange(location: 0, length: urlString.count))
+        
+        return result.count > 0
+    }
+    func canExecuteApplication(_ urlScheme : URL) -> Bool {
+        return UIApplication.shared.canOpenURL(urlScheme)
     }
 
 

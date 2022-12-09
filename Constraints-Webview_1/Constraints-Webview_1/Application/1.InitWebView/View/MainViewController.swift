@@ -72,6 +72,7 @@ extension MainViewController : UITableViewDelegate, UITableViewDataSource {
         {
             return
         }
+        vc.webKitType = webKitType
         switch webKitType {
         case .LoadURL :
             self.loadURLWithParam()

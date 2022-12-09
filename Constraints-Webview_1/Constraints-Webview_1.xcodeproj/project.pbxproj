@@ -24,6 +24,11 @@
 		5594A9DF292EF44B003A776E /* WebKitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5594A9DE292EF44B003A776E /* WebKitViewController.swift */; };
 		5594A9E229304F08003A776E /* WebKitHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5594A9E129304F08003A776E /* WebKitHelper.swift */; };
 		5594A9E429309A0E003A776E /* CookieConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5594A9E329309A0E003A776E /* CookieConfiguration.swift */; };
+		55A0E14A2942EECA00311DB6 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A0E1492942EECA00311DB6 /* String.swift */; };
+		55A0E14F2942F49400311DB6 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 55A0E14B2942F49400311DB6 /* index.html */; };
+		55A0E1502942F49400311DB6 /* styles.css in Resources */ = {isa = PBXBuildFile; fileRef = 55A0E14C2942F49400311DB6 /* styles.css */; };
+		55A0E1512942F49400311DB6 /* testJavaScript.html in Resources */ = {isa = PBXBuildFile; fileRef = 55A0E14D2942F49400311DB6 /* testJavaScript.html */; };
+		55A0E1522942F49400311DB6 /* script.js in Resources */ = {isa = PBXBuildFile; fileRef = 55A0E14E2942F49400311DB6 /* script.js */; };
 		55AEA5412935DA1F00824B87 /*  WKNavigationDelegate .swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AEA5402935DA1F00824B87 /*  WKNavigationDelegate .swift */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +52,11 @@
 		5594A9DE292EF44B003A776E /* WebKitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebKitViewController.swift; sourceTree = "<group>"; };
 		5594A9E129304F08003A776E /* WebKitHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebKitHelper.swift; sourceTree = "<group>"; };
 		5594A9E329309A0E003A776E /* CookieConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CookieConfiguration.swift; sourceTree = "<group>"; };
+		55A0E1492942EECA00311DB6 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		55A0E14B2942F49400311DB6 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		55A0E14C2942F49400311DB6 /* styles.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = styles.css; sourceTree = "<group>"; };
+		55A0E14D2942F49400311DB6 /* testJavaScript.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = testJavaScript.html; sourceTree = "<group>"; };
+		55A0E14E2942F49400311DB6 /* script.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = script.js; sourceTree = "<group>"; };
 		55AEA5402935DA1F00824B87 /*  WKNavigationDelegate .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " WKNavigationDelegate .swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -125,6 +135,7 @@
 				5594A9E129304F08003A776E /* WebKitHelper.swift */,
 				5594A9E329309A0E003A776E /* CookieConfiguration.swift */,
 				55AEA5402935DA1F00824B87 /*  WKNavigationDelegate .swift */,
+				55A0E1492942EECA00311DB6 /* String.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -169,6 +180,10 @@
 		5594A9D0292DA865003A776E /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				55A0E14B2942F49400311DB6 /* index.html */,
+				55A0E14E2942F49400311DB6 /* script.js */,
+				55A0E14C2942F49400311DB6 /* styles.css */,
+				55A0E14D2942F49400311DB6 /* testJavaScript.html */,
 				5594A9B7292CC394003A776E /* Assets.xcassets */,
 			);
 			path = Resource;
@@ -242,10 +257,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5594A9BB292CC394003A776E /* LaunchScreen.storyboard in Resources */,
+				55A0E1522942F49400311DB6 /* script.js in Resources */,
 				5594A9B8292CC394003A776E /* Assets.xcassets in Resources */,
 				5594A9C4292D9897003A776E /* README.md in Resources */,
+				55A0E14F2942F49400311DB6 /* index.html in Resources */,
 				5594A9DD292EF435003A776E /* WebKitSB.storyboard in Resources */,
+				55A0E1512942F49400311DB6 /* testJavaScript.html in Resources */,
 				5594A9B6292CC392003A776E /* Main.storyboard in Resources */,
+				55A0E1502942F49400311DB6 /* styles.css in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +279,7 @@
 				5594A9AF292CC392003A776E /* AppDelegate.swift in Sources */,
 				55AEA5412935DA1F00824B87 /*  WKNavigationDelegate .swift in Sources */,
 				5594A9E429309A0E003A776E /* CookieConfiguration.swift in Sources */,
+				55A0E14A2942EECA00311DB6 /* String.swift in Sources */,
 				5594A9B1292CC392003A776E /* SceneDelegate.swift in Sources */,
 				5594A9D4292DB32E003A776E /* TableViewCell.swift in Sources */,
 				5594A9DA292EEDE2003A776E /* Share.swift in Sources */,
