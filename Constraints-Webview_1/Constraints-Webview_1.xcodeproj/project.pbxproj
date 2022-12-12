@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		556046F92946B0AB007DFC10 /* HelperVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556046F82946B0AB007DFC10 /* HelperVC.swift */; };
 		5594A9AF292CC392003A776E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5594A9AE292CC392003A776E /* AppDelegate.swift */; };
 		5594A9B1292CC392003A776E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5594A9B0292CC392003A776E /* SceneDelegate.swift */; };
 		5594A9B3292CC392003A776E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5594A9B2292CC392003A776E /* ViewController.swift */; };
@@ -33,6 +34,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		556046F82946B0AB007DFC10 /* HelperVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperVC.swift; sourceTree = "<group>"; };
 		5594A9AB292CC392003A776E /* Constraints-Webview_1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Constraints-Webview_1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5594A9AE292CC392003A776E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5594A9B0292CC392003A776E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				5594A9E329309A0E003A776E /* CookieConfiguration.swift */,
 				55AEA5402935DA1F00824B87 /*  WKNavigationDelegate .swift */,
 				55A0E1492942EECA00311DB6 /* String.swift */,
+				556046F82946B0AB007DFC10 /* HelperVC.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -278,6 +281,7 @@
 				5594A9B3292CC392003A776E /* ViewController.swift in Sources */,
 				5594A9AF292CC392003A776E /* AppDelegate.swift in Sources */,
 				55AEA5412935DA1F00824B87 /*  WKNavigationDelegate .swift in Sources */,
+				556046F92946B0AB007DFC10 /* HelperVC.swift in Sources */,
 				5594A9E429309A0E003A776E /* CookieConfiguration.swift in Sources */,
 				55A0E14A2942EECA00311DB6 /* String.swift in Sources */,
 				5594A9B1292CC392003A776E /* SceneDelegate.swift in Sources */,

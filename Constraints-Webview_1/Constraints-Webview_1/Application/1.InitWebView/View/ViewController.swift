@@ -29,9 +29,9 @@ class ViewController: UIViewController {
         case .LoadLocalHTMLString:
             self.loadLocalHTMLString()
         case .LoadJavaScriptMethod:
-            break
+            self.configureEvaluateJavaScript()
         case .InjectJavaScriptCode:
-            break
+            self.configureUserScript()
         case .CallBackFromJavaScript:
             break
         default:break
@@ -63,5 +63,6 @@ class ViewController: UIViewController {
     private func loadLocalHTMLString() {
         webKitView.loadHTMLString("<h1 style=color:red> HELLO WORLD</h1>", baseURL: nil)
     }
+  
 }
 
