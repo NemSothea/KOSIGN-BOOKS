@@ -33,7 +33,7 @@ class ViewController: UIViewController {
         case .InjectJavaScriptCode:
             self.configureUserScript()
         case .CallBackFromJavaScript:
-            break
+            self.scriptMessage()
         default:break
         }
         
