@@ -3,16 +3,18 @@
 
 1. ArrayModeWithTableView
 
-2. LoadDataAnimation
+2. AddDeleteUpdateRow
 
-3. CollectionInSideTableView
+3. LoadDataAnimation
 
-4. TableViewWithSection
+4. CollectionInSideTableView
 
-5. HeaderAndFooter
+5. TableViewWithSection
 
-6. ReusableXibFile
+6. HeaderAndFooter
 
-7. Pagination
+7. ReusableXibFile
+
+8. Pagination
 
 9. TableViewCell
