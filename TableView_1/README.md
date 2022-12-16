@@ -15,4 +15,4 @@
 
 7. Pagination
 
-9 TableViewCell
+9. TableViewCell
