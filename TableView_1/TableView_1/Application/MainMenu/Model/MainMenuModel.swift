@@ -20,7 +20,7 @@ enum ItemType : String, CaseIterable {
     
 }
 
-struct MainMenuMode <T> {
+struct MainMenuModel <T> {
     
     var value : T?
     
