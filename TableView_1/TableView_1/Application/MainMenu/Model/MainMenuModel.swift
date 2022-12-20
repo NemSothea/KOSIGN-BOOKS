@@ -8,7 +8,7 @@
 import Foundation
 enum ItemType : String, CaseIterable {
     
-    case ArrayModeWithTableView
+    case ArrayModelWithTableView
     case AddDeleteUpdateRow
     case LoadDataAnimation
     case CollectionInSideTableView

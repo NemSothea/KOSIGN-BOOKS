@@ -8,7 +8,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Main Menu View Controller-->
+        <!--TableView-->
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="MainMenuViewController" customModule="TableView_1" customModuleProvider="target" sceneMemberID="viewController">
@@ -20,15 +20,36 @@
                                 <rect key="frame" x="0.0" y="103" width="393" height="749"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="81" id="hqv-BZ-ZP8">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="Menucell" rowHeight="81" id="hqv-BZ-ZP8" customClass="MenuTableViewCell" customModule="TableView_1" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="50" width="393" height="81"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hqv-BZ-ZP8" id="4ox-8t-NMu">
                                             <rect key="frame" x="0.0" y="0.0" width="393" height="81"/>
                                             <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="crg-g9-Rfm">
+                                                    <rect key="frame" x="40" y="31" width="313" height="19"/>
+                                                    <fontDescription key="fontDescription" name="TrebuchetMS" family="Trebuchet MS" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="crg-g9-Rfm" firstAttribute="top" secondItem="4ox-8t-NMu" secondAttribute="topMargin" constant="20" id="9KH-T3-s7W"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="crg-g9-Rfm" secondAttribute="trailing" constant="20" id="Iur-qn-z28"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="crg-g9-Rfm" secondAttribute="bottom" constant="20" id="QtI-BQ-8lS"/>
+                                                <constraint firstItem="crg-g9-Rfm" firstAttribute="leading" secondItem="4ox-8t-NMu" secondAttribute="leadingMargin" constant="20" id="Sfl-3l-mo0"/>
+                                            </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="titleLabel" destination="crg-g9-Rfm" id="7VB-Tk-dON"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="BYZ-38-t0r" id="qs6-JQ-alG"/>
+                                    <outlet property="delegate" destination="BYZ-38-t0r" id="q8Y-zI-tOm"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -40,7 +61,10 @@
                             <constraint firstItem="oSq-h4-eYP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="dXC-Oi-ooL"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" id="kNe-fS-Lyl"/>
+                    <navigationItem key="navigationItem" title="TableView" id="kNe-fS-Lyl"/>
+                    <connections>
+                        <outlet property="tableView" destination="oSq-h4-eYP" id="vok-cL-tKf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -51,8 +75,8 @@
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="KCb-HB-QBO" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="jcv-Ml-7yC">
-                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="jcv-Ml-7yC">
+                        <rect key="frame" x="0.0" y="59" width="393" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>

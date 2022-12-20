@@ -56,12 +56,43 @@ extension MainMenuViewController : UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        return UITableViewCell()
+        
+        let menuData = mainMenuVM.cells[indexPath.row].value as! MenuInfo
+        let menuCell = tableView.dequeueReusableCell(withIdentifier: "Menucell") as! MenuTableViewCell
+        menuCell.titleLabel.text = menuData.title
+
+        return menuCell
     }
     
     /*
         MARK :- TableViewDelegate
      */
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let menuDataType = mainMenuVM.cells[indexPath.row].value as! MenuInfo
+        
+        switch menuDataType.rowType {
+            
+        case .ArrayModelWithTableView:
+            break
+        case .AddDeleteUpdateRow:
+            break
+        case .LoadDataAnimation:
+            break
+        case .CollectionInSideTableView:
+            break
+        case .TableViewWithSection:
+            break
+        case .HeaderAndFooter:
+            break
+        case .ReusableXibFile:
+            break
+        case .Pagination:
+            break
+        case .TableViewCell:
+            break
+        }
+        
+    }
     
     
 }

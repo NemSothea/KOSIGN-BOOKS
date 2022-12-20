@@ -8,7 +8,11 @@
 import UIKit
 
 class MenuTableViewCell: UITableViewCell {
-
+    /*
+        MARK :- @IBOutlet
+     */
+    @IBOutlet weak var titleLabel : UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
