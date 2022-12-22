@@ -14,7 +14,7 @@ class MainMenuViewModel {
         
         cells = []
         
-        cells.append(MainMenuModel<Any>(value: MenuInfo(title: "1. TableView with Array Data", rowType: .ArrayModeWithTableView)))
+        cells.append(MainMenuModel<Any>(value: MenuInfo(title: "1. TableView with Array Data", rowType: .ArrayModelWithTableView)))
         
         cells.append(MainMenuModel<Any>(value: MenuInfo(title: "2. Add, Delete && Update TableView", rowType: .AddDeleteUpdateRow)))
         
