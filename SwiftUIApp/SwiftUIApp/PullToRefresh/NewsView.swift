@@ -9,18 +9,33 @@ import SwiftUI
 
 struct NewsView: View {
     
-    @State private var news = [NewsModel(id: 0, title: "Want the latest news?", strap: "Pull to refresh!")]
+    @State private var news = [NewsModel(id: 0, title: "Want the latest news?", strap: "Pull to refresh!", main_image: "https://www.hackingwithswift.com/resize/300/uploads/wwdc-21@2x.jpg")]
     
     var body: some View {
         NavigationStack {
             List(news) { news in
-                VStack(alignment:.leading) {
-                    Text(news.title)
-                        .font(.headline)
+                HStack {
+                    AsyncImage(url: URL(string: news.main_image)) { image in
+                        image.resizable()
+                    } placeholder: {
+                        ProgressView()
+                    }
+                    .frame(width: 40,height: 40)
                     
-                    Text(news.strap)
-                        .foregroundColor(.secondary)
+                    VStack(alignment:.leading) {
+                        
+                        Text(news.title)
+                            .font(.headline)
+                        
+                        Text(news.strap)
+                            .foregroundColor(.secondary)
+                        
+                            
+                    }
                 }
+
+                .listRowSeparatorTint(.red)
+               
             }
             .refreshable {
                 do {

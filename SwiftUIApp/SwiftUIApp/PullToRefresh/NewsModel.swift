@@ -8,8 +8,9 @@
 import Foundation
 struct NewsModel : Decodable, Identifiable {
     
-    let id      : Int
-    let title   : String
-    let strap   : String
+    let id          : Int
+    let title       : String
+    let strap       : String
+    let main_image  : String
     
 }
