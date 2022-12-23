@@ -8,12 +8,47 @@
 import UIKit
 
 class ContactViewController: UIViewController {
+    
+    /*
+        MARK :- @IBOutlet
+     */
+    @IBOutlet weak var addItem : UIBarButtonItem!
+    
+    
+    /*
+        MARK :- Variable
+     */
+    private var contactVM   = ContactViewModel()
+    var isShow : Bool       = true
+    
 
+    /*
+        MARK :- ViewController LifeCyle
+     */
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        self.contactVM.initContactCellData()
+        self.addItem.isHidden = isShow
     }
+    
+    /*
+        MARK :- IBAction
+     */
+    
+    
+    
+    
+    
+    
+    
+    /*
+        MARK :- Function
+     */
+    
+    
+    
     
 
     /*
@@ -26,4 +61,37 @@ class ContactViewController: UIViewController {
     }
     */
 
+}
+/*
+    MARK :- Extension
+           
+ */
+    
+extension ContactViewController : UITableViewDataSource {
+    /*
+        - UITableViewDataSource -> numberOfRowsInSection
+        - UITableViewDataSource -> cellForRowAt
+     */
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return self.contactVM.contactCells.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let contactData =  self.contactVM.contactCells[indexPath.row].value as! ContactInfo
+        
+        switch contactData.rowType {
+
+        case .Profile :
+            
+            let profileCell = tableView.dequeueReusableCell(withIdentifier: "ContactCell") as! ContactCell
+            profileCell.profileConfigure(data: contactData)
+            
+            return profileCell
+            
+        default:
+            return UITableViewCell()
+        }
+    }
+    
+    
 }

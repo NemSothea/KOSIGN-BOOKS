@@ -19,7 +19,7 @@ struct ContactInfo {
     
     var phone_number : String
     var contact_name : String
-    var next_name    : String
+    var neck_name    : String
     var profile_img  : String
     var rowType      : RowType
     

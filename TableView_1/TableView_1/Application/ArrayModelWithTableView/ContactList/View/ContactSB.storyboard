@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="pO6-Vx-ntK">
-    <device id="retina6_72" orientation="portrait" appearance="light"/>
+    <device id="retina6_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -11,9 +11,9 @@
         <!--Contact-->
         <scene sceneID="s0d-6b-0kx">
             <objects>
-                <viewController id="Y6W-OH-hqX" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ContactViewController" id="Y6W-OH-hqX" customClass="ContactViewController" customModule="TableView_1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5EZ-qb-Rvc">
-                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="bCK-sn-lhd">
@@ -21,7 +21,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="141" id="hZQ-zz-dwM">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ContactCell" rowHeight="141" id="hZQ-zz-dwM" customClass="ContactCell" customModule="TableView_1" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="50" width="393" height="141"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hZQ-zz-dwM" id="x47-IG-MOk">
@@ -40,6 +40,12 @@
                                                         <constraint firstAttribute="height" constant="100" id="haM-Dl-I5X"/>
                                                         <constraint firstAttribute="width" constant="100" id="xpF-Ef-kbB"/>
                                                     </constraints>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                            <integer key="value" value="5"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.clipsToBounds" value="YES"/>
+                                                    </userDefinedRuntimeAttributes>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="@locas" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fi3-By-bIS">
                                                     <rect key="frame" x="140" y="60.666666666666657" width="223" height="20"/>
@@ -69,8 +75,14 @@
                                                 <constraint firstItem="I15-QA-LKE" firstAttribute="leading" secondItem="fi3-By-bIS" secondAttribute="leading" id="zY4-sJ-ZKq"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="contactName" destination="sp4-D7-Ntw" id="Mbb-Ly-wRb"/>
+                                            <outlet property="contactPhone" destination="I15-QA-LKE" id="dFj-lQ-zIy"/>
+                                            <outlet property="neckName" destination="fi3-By-bIS" id="2vz-oy-eWn"/>
+                                            <outlet property="profileImg" destination="Oyg-1O-Z84" id="F5Y-ZX-A2k"/>
+                                        </connections>
                                     </tableViewCell>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="95" id="W2a-K2-KLd">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ContactDetailCell" rowHeight="95" id="W2a-K2-KLd" customClass="ContactDetailCell" customModule="TableView_1" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="191" width="393" height="95"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="W2a-K2-KLd" id="peX-MJ-hP4">
@@ -144,8 +156,21 @@
                                                 <constraint firstItem="Z4i-sA-DKc" firstAttribute="top" secondItem="sEA-x0-XJc" secondAttribute="bottom" constant="1.6666666666666643" id="ojC-gp-Hlx"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="callBtn" destination="JcK-gd-ikf" id="9rC-Xi-mcg"/>
+                                            <outlet property="contactDetailName" destination="DKt-5Q-YR6" id="EDJ-4c-Ljb"/>
+                                            <outlet property="contactDetailPhone" destination="Z4i-sA-DKc" id="qG7-ep-tKd"/>
+                                            <outlet property="deleteBtn" destination="ecj-zp-kbx" id="9Rp-va-RNu"/>
+                                            <outlet property="neckDetailName" destination="sEA-x0-XJc" id="CDn-59-DZi"/>
+                                            <outlet property="profileDetailImg" destination="S35-ry-GWG" id="B8G-Us-nxi"/>
+                                            <outlet property="updateBtn" destination="Zem-X2-BR7" id="6rO-EH-6x1"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="Y6W-OH-hqX" id="Lqv-RF-Ec4"/>
+                                    <outlet property="delegate" destination="Y6W-OH-hqX" id="Wel-oX-agf"/>
+                                </connections>
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vDu-zF-Fre"/>
@@ -154,6 +179,9 @@
                     <navigationItem key="navigationItem" title="Contact" id="l2a-Hv-WPM">
                         <barButtonItem key="rightBarButtonItem" title="Add" id="olN-6V-pIN"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="addItem" destination="olN-6V-pIN" id="hYv-kA-rCV"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -165,7 +193,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="pO6-Vx-ntK" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" largeTitles="YES" id="ZQz-hd-z8K">
-                        <rect key="frame" x="0.0" y="59" width="430" height="96"/>
+                        <rect key="frame" x="0.0" y="47" width="428" height="96"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>

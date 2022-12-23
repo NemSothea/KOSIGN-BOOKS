@@ -72,8 +72,11 @@ extension MainMenuViewController : UITableViewDelegate, UITableViewDataSource {
         
         switch menuDataType.rowType {
             
-        case .ArrayModelWithTableView:
-            break
+        case .ArrayModelWithTableView :
+            
+            let vc = storyBoard(withStoryBoardName: "ContactSB", identifier: "ContactViewController") as! ContactViewController
+            self.navigationController?.pushViewController(vc, animated: true)
+            
         case .AddDeleteUpdateRow:
             break
         case .LoadDataAnimation:
