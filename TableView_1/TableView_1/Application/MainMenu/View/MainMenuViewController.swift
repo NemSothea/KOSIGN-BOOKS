@@ -78,7 +78,10 @@ extension MainMenuViewController : UITableViewDelegate, UITableViewDataSource {
             self.navigationController?.pushViewController(vc, animated: true)
             
         case .AddDeleteUpdateRow:
-            break
+            let vc = storyBoard(withStoryBoardName: "ContactSB", identifier: "ContactViewController") as! ContactViewController
+            vc.isShow = false
+            self.navigationController?.pushViewController(vc, animated: true)
+            
         case .LoadDataAnimation:
             break
         case .CollectionInSideTableView:

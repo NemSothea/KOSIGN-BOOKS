@@ -17,6 +17,7 @@ class ContactDetailCell: UITableViewCell {
     @IBOutlet weak var neckDetailName     : UILabel!
     @IBOutlet weak var contactDetailPhone : UILabel!
     
+    @IBOutlet weak var stackView          : UIStackView!
     @IBOutlet weak var callBtn            : UIButton!
     @IBOutlet weak var updateBtn          : UIButton!
     @IBOutlet weak var deleteBtn          : UIButton!

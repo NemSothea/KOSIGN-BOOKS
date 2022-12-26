@@ -87,7 +87,7 @@ extension ContactViewController : UITableViewDataSource {
             profileCell.profileConfigure(data: contactData)
             
             return profileCell
-            
+        
         default:
             return UITableViewCell()
         }
