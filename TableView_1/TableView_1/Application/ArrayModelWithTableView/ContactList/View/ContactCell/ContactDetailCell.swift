@@ -33,5 +33,16 @@ class ContactDetailCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+    func contactDetailConfigurCell(data : ContactInfo, isShow : Bool) {
+        
+        self.profileDetailImg.image     = UIImage(named: data.profile_img)
+        self.contactDetailName.text     = data.contact_name
+        self.neckDetailName.text        = data.neck_name
+        self.contactDetailPhone.text    = data.phone_number
+        self.callBtn.isHidden           = isShow
+        self.updateBtn.isHidden         = isShow
+        self.deleteBtn.isHidden         = isShow
+        
+    }
 
 }

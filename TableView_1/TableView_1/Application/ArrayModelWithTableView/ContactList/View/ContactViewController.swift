@@ -12,7 +12,8 @@ class ContactViewController: UIViewController {
     /*
         MARK :- @IBOutlet
      */
-    @IBOutlet weak var addItem : UIBarButtonItem!
+    @IBOutlet weak var addItem      : UIBarButtonItem!
+    @IBOutlet weak var tableView    : UITableView!
     
     
     /*
@@ -30,7 +31,10 @@ class ContactViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         self.contactVM.initContactCellData()
+        self.tableView.estimatedRowHeight = 80
+        self.tableView.rowHeight = UITableView.automaticDimension
         self.addItem.isHidden = isShow
+        
     }
     
     /*
@@ -67,7 +71,7 @@ class ContactViewController: UIViewController {
            
  */
     
-extension ContactViewController : UITableViewDataSource {
+extension ContactViewController : UITableViewDataSource, UITableViewDelegate {
     /*
         - UITableViewDataSource -> numberOfRowsInSection
         - UITableViewDataSource -> cellForRowAt
@@ -75,22 +79,28 @@ extension ContactViewController : UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return self.contactVM.contactCells.count
     }
-    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let contactData =  self.contactVM.contactCells[indexPath.row].value as! ContactInfo
         
         switch contactData.rowType {
 
         case .Profile :
-            
-            let profileCell = tableView.dequeueReusableCell(withIdentifier: "ContactCell") as! ContactCell
+            let profileCell = tableView.dequeueReusableCell(withIdentifier: "ContactCell", for: indexPath)  as! ContactCell
             profileCell.profileConfigure(data: contactData)
             
             return profileCell
-        
-        default:
-            return UITableViewCell()
+        case .Contact :
+            let contactDetailCell = tableView.dequeueReusableCell(withIdentifier: "ContactDetailCell", for: indexPath) as! ContactDetailCell
+            contactDetailCell.contactDetailConfigurCell(data: contactData, isShow: isShow)
+            return contactDetailCell
         }
+        
+    }
+    /*
+        - heightForRowAt
+     */
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return UITableView.automaticDimension
     }
     
     
