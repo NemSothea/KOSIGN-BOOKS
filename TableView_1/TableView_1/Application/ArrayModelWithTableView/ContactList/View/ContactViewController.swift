@@ -71,7 +71,7 @@ class ContactViewController: UIViewController {
            
  */
     
-extension ContactViewController : UITableViewDataSource, UITableViewDelegate {
+extension ContactViewController : UITableViewDataSource {
     /*
         - UITableViewDataSource -> numberOfRowsInSection
         - UITableViewDataSource -> cellForRowAt
@@ -81,27 +81,19 @@ extension ContactViewController : UITableViewDataSource, UITableViewDelegate {
     }
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let contactData =  self.contactVM.contactCells[indexPath.row].value as! ContactInfo
-        
         switch contactData.rowType {
 
         case .Profile :
             let profileCell = tableView.dequeueReusableCell(withIdentifier: "ContactCell", for: indexPath)  as! ContactCell
             profileCell.profileConfigure(data: contactData)
-            
+
             return profileCell
-        case .Contact :
+      
+        default :
             let contactDetailCell = tableView.dequeueReusableCell(withIdentifier: "ContactDetailCell", for: indexPath) as! ContactDetailCell
             contactDetailCell.contactDetailConfigurCell(data: contactData, isShow: isShow)
             return contactDetailCell
         }
         
     }
-    /*
-        - heightForRowAt
-     */
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return UITableView.automaticDimension
-    }
-    
-    
 }

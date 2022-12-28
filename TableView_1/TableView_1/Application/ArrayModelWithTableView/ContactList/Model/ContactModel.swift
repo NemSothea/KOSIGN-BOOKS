@@ -6,10 +6,12 @@
 //
 
 import Foundation
+
 enum RowType : String, CaseIterable {
     case Profile
     case Contact
 }
+
 struct ContactModel <T> {
     
     var value : T?
