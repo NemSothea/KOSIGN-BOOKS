@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		55002D0F294FDE2100C690C2 /* MainMenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55002D0E294FDE2100C690C2 /* MainMenViewModel.swift */; };
 		55002D12294FED1900C690C2 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55002D11294FED1900C690C2 /* MenuTableViewCell.swift */; };
+		553C7E092962996800BC68FF /* CustomPopupVC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 553C7E082962996800BC68FF /* CustomPopupVC.storyboard */; };
+		553C7E0B2962997F00BC68FF /* CustomPopupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553C7E0A2962997F00BC68FF /* CustomPopupVC.swift */; };
 		5549D77A29513BE8000AEB19 /* ContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5549D77929513BE8000AEB19 /* ContactModel.swift */; };
 		5549D77C29513C86000AEB19 /* ContactViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5549D77B29513C86000AEB19 /* ContactViewModel.swift */; };
 		5549D77E29513F63000AEB19 /* ContactSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5549D77D29513F63000AEB19 /* ContactSB.storyboard */; };
@@ -29,6 +31,8 @@
 /* Begin PBXFileReference section */
 		55002D0E294FDE2100C690C2 /* MainMenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenViewModel.swift; sourceTree = "<group>"; };
 		55002D11294FED1900C690C2 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		553C7E082962996800BC68FF /* CustomPopupVC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CustomPopupVC.storyboard; sourceTree = "<group>"; };
+		553C7E0A2962997F00BC68FF /* CustomPopupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPopupVC.swift; sourceTree = "<group>"; };
 		5549D77929513BE8000AEB19 /* ContactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactModel.swift; sourceTree = "<group>"; };
 		5549D77B29513C86000AEB19 /* ContactViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactViewModel.swift; sourceTree = "<group>"; };
 		5549D77D29513F63000AEB19 /* ContactSB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ContactSB.storyboard; sourceTree = "<group>"; };
@@ -115,6 +119,8 @@
 		5549D77729513743000AEB19 /* CustomPopup */ = {
 			isa = PBXGroup;
 			children = (
+				553C7E082962996800BC68FF /* CustomPopupVC.storyboard */,
+				553C7E0A2962997F00BC68FF /* CustomPopupVC.swift */,
 			);
 			path = CustomPopup;
 			sourceTree = "<group>";
@@ -289,6 +295,7 @@
 				557BE26E294BEA2F001D4DAC /* LaunchScreen.storyboard in Resources */,
 				557BE26B294BEA2F001D4DAC /* Assets.xcassets in Resources */,
 				557BE281294BFC85001D4DAC /* README.md in Resources */,
+				553C7E092962996800BC68FF /* CustomPopupVC.storyboard in Resources */,
 				557BE269294BEA2E001D4DAC /* MainMenuSB.storyboard in Resources */,
 				5549D77E29513F63000AEB19 /* ContactSB.storyboard in Resources */,
 			);
@@ -305,6 +312,7 @@
 				55002D0F294FDE2100C690C2 /* MainMenViewModel.swift in Sources */,
 				5549D77C29513C86000AEB19 /* ContactViewModel.swift in Sources */,
 				557BE266294BEA2E001D4DAC /* MainMenuViewController.swift in Sources */,
+				553C7E0B2962997F00BC68FF /* CustomPopupVC.swift in Sources */,
 				5582BB86295522C600C15F5D /* ContactDetailCell.swift in Sources */,
 				55002D12294FED1900C690C2 /* MenuTableViewCell.swift in Sources */,
 				557BE27E294BF5BD001D4DAC /* MainMenuModel.swift in Sources */,

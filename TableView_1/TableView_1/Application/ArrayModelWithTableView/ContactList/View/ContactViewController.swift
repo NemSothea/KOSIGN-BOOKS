@@ -40,6 +40,9 @@ class ContactViewController: UIViewController {
     /*
         MARK :- IBAction
      */
+    @IBAction func addNewContact(_ sender : Any) {
+        
+    }
     
     
     
@@ -52,7 +55,12 @@ class ContactViewController: UIViewController {
      */
     
     
-    
+    /*
+        MARK :- Objc
+     */
+    @objc private func deleleContact(_ sender : Any) {
+        
+    }
     
 
     /*
