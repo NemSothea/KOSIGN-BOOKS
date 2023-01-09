@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="bCK-sn-lhd">
-                                <rect key="frame" x="0.0" y="44" width="320" height="524"/>
+                                <rect key="frame" x="0.0" y="92.5" width="320" height="475.5"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ContactCell" rowHeight="140" id="hZQ-zz-dwM" customClass="ContactCell" customModule="TableView_1" customModuleProvider="target">
@@ -196,7 +196,11 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Contact" id="l2a-Hv-WPM">
-                        <barButtonItem key="rightBarButtonItem" title="Add" id="olN-6V-pIN"/>
+                        <barButtonItem key="rightBarButtonItem" title="Add" id="olN-6V-pIN">
+                            <connections>
+                                <action selector="addNewContact:" destination="Y6W-OH-hqX" id="f7n-6B-frQ"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="addItem" destination="olN-6V-pIN" id="hYv-kA-rCV"/>

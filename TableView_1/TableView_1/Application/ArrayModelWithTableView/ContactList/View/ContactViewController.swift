@@ -42,6 +42,10 @@ class ContactViewController: UIViewController {
      */
     @IBAction func addNewContact(_ sender : Any) {
         
+        if let addContactVC = storyBoard(withStoryBoardName: "CustomPopupVC", identifier: "CustomPopupVC") as? CustomPopupVC {
+            self.present(addContactVC, animated: true)
+        }
+        
     }
     
     

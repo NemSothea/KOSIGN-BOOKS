@@ -18,3 +18,6 @@
 8. Pagination
 
 9. TableViewCell
+
+1. Problem with pod init
+-> https://stackoverflow.com/questions/71546216/pod-init-cause-runtimeerror-xcodeproj-unknown-object-version

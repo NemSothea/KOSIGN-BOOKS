@@ -6,13 +6,15 @@
 //
 
 import UIKit
+import IQKeyboardManagerSwift
 
 class CustomPopupVC: UIViewController {
 
     /*
      @IBOutlet
      */
-    @IBOutlet weak var imgLogo              : UIView!
+    @IBOutlet weak var mainView             : UIView!
+    @IBOutlet weak var imgLogo              : UIImageView!
     @IBOutlet weak var txtFieldUserName     : UITextField!
     @IBOutlet weak var txtFieldPhoneNumber  : UITextField!
     
@@ -23,21 +25,31 @@ class CustomPopupVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.view.viewWithTag(101)?.addGestureRecognizer(UIPanGestureRecognizer(target: self, action: #selector(didTap(sender:))))
+        configIQKeyboard : do {
+            IQKeyboardManager.shared.enable = true
+            IQKeyboardManager.shared.shouldResignOnTouchOutside = true
+            IQKeyboardManager.shared.toolbarDoneBarButtonItemText = "Done"
+        }
         
+        
+        let tap = UITapGestureRecognizer(target: self, action: #selector(didTap(_:)))
+        self.mainView.addGestureRecognizer(tap)
+        self.view.addSubview(self.mainView)
         
     }
+  
     /*
         MARK :-  @IBAction
      */
     @IBAction func didTapAdd(_ sender : UIButton) {
-        
+        print("Did me")
     }
     
     /*
         MARK :-  @Objc
      */
-    @objc func didTap(sender : UIGestureRecognizer) {
+    @objc func didTap(_ sender : UIPanGestureRecognizer? = nil) {
+        print("Did Gesture")
         self.dismiss(animated: true)
     }
 
