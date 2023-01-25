@@ -3,6 +3,7 @@
 This for SwiftUI of iOS development. 
 
 ** First Edition 
+-> https://github.com/twostraws/iDine
 1. Introduction
 A brief explanation of the basics of SwiftUI
 
