@@ -48,12 +48,6 @@ class ContactViewController: UIViewController {
         
     }
     
-    
-    
-    
-    
-    
-    
     /*
         MARK :- Function
      */

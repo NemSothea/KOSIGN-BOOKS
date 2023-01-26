@@ -1,16 +1,20 @@
 PODS:
+  - AnyFormatKit (2.5.2)
   - IQKeyboardManagerSwift (6.5.10)
 
 DEPENDENCIES:
+  - AnyFormatKit
   - IQKeyboardManagerSwift
 
 SPEC REPOS:
   trunk:
+    - AnyFormatKit
     - IQKeyboardManagerSwift
 
 SPEC CHECKSUMS:
+  AnyFormatKit: b0dbb2a5f2fe7a0fc97f401f8a219a47ee63a335
   IQKeyboardManagerSwift: 52962c76ab33532f15ad9f3ff4e5715eda5335bb
 
-PODFILE CHECKSUM: e282c7eb5a1b51ce6c53b35c2ecf8682ca5d4bf8
+PODFILE CHECKSUM: b5db4ffa6536b86c25ea7fdc4896de0302d0515d
 
 COCOAPODS: 1.11.3

@@ -7,5 +7,6 @@ target 'TableView_1' do
 
   # Pods for TableView_1
  pod 'IQKeyboardManagerSwift'
+ pod 'AnyFormatKit'
 
 end

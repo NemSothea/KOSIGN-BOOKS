@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lfC-Dv-dCJ">
-                                <rect key="frame" x="67" y="273" width="280" height="350"/>
+                                <rect key="frame" x="67" y="248" width="280" height="400"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="person.circle" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="JWX-IV-OtD">
                                         <rect key="frame" x="90" y="20.5" width="100" height="99"/>
@@ -26,15 +26,23 @@
                                             <constraint firstAttribute="height" constant="100" id="MCd-7P-oFY"/>
                                         </constraints>
                                     </imageView>
+                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Please input nickName" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3oL-Xb-T0Q">
+                                        <rect key="frame" x="19" y="172" width="242" height="25"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="25" id="fwV-Dw-DMO"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x0u-oi-xL8" userLabel="LineView">
-                                        <rect key="frame" x="19" y="162" width="242" height="1"/>
+                                        <rect key="frame" x="19" y="212" width="242" height="1"/>
                                         <color key="backgroundColor" red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="0.49870340713602029" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1" id="DdU-60-Vpc"/>
                                         </constraints>
                                     </view>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Please input username" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NuK-wp-JMN">
-                                        <rect key="frame" x="19" y="178" width="242" height="25"/>
+                                        <rect key="frame" x="19" y="228" width="242" height="25"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="25" id="2TK-x0-1Uq"/>
                                         </constraints>
@@ -42,29 +50,29 @@
                                         <textInputTraits key="textInputTraits"/>
                                     </textField>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4QF-AC-yBr" userLabel="LineView">
-                                        <rect key="frame" x="19" y="218" width="242" height="1"/>
+                                        <rect key="frame" x="19" y="268" width="242" height="1"/>
                                         <color key="backgroundColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="0.4987034071" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1" id="E7g-WI-kIt"/>
                                         </constraints>
                                     </view>
                                     <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Please input phonenumber" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nJ2-1v-yPi">
-                                        <rect key="frame" x="19" y="234" width="242" height="25"/>
+                                        <rect key="frame" x="19" y="284" width="242" height="25"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="25" id="WKx-VR-FLr"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits" textContentType="tel"/>
+                                        <textInputTraits key="textInputTraits" keyboardType="phonePad" textContentType="tel"/>
                                     </textField>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WDF-HY-zL4" userLabel="LineView">
-                                        <rect key="frame" x="19" y="274" width="242" height="1"/>
+                                        <rect key="frame" x="19" y="324" width="242" height="1"/>
                                         <color key="backgroundColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="0.4987034071" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1" id="q7t-89-XBx"/>
                                         </constraints>
                                     </view>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PmQ-xS-1YL">
-                                        <rect key="frame" x="19" y="295" width="242" height="40"/>
+                                        <rect key="frame" x="19" y="345" width="242" height="40"/>
                                         <color key="backgroundColor" red="0.08235294118" green="0.28235294119999998" blue="0.61176470589999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="uWV-dm-NtX"/>
@@ -80,39 +88,52 @@
                                         </userDefinedRuntimeAttributes>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add new contact" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w42-da-4FT">
-                                        <rect key="frame" x="69.5" y="128" width="141" height="22"/>
+                                        <rect key="frame" x="69.5" y="128" width="141" height="18"/>
                                         <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AkR-V9-4a8" userLabel="LineView">
+                                        <rect key="frame" x="19" y="156" width="242" height="1"/>
+                                        <color key="backgroundColor" red="0.77647058820000003" green="0.77647058820000003" blue="0.7843137255" alpha="0.4987034071" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1" id="lQR-G3-uYc"/>
+                                        </constraints>
+                                    </view>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <constraints>
+                                    <constraint firstItem="AkR-V9-4a8" firstAttribute="top" secondItem="w42-da-4FT" secondAttribute="bottom" constant="10" id="1iq-kX-vjF"/>
                                     <constraint firstItem="JWX-IV-OtD" firstAttribute="centerX" secondItem="lfC-Dv-dCJ" secondAttribute="centerX" id="CBw-mw-bqd"/>
+                                    <constraint firstAttribute="trailing" secondItem="3oL-Xb-T0Q" secondAttribute="trailing" constant="19" id="CfD-Pa-YQh"/>
                                     <constraint firstAttribute="width" constant="280" id="Chp-qf-lxh"/>
                                     <constraint firstAttribute="trailing" secondItem="4QF-AC-yBr" secondAttribute="trailing" constant="19" id="CkE-zW-IRb"/>
                                     <constraint firstItem="4QF-AC-yBr" firstAttribute="top" secondItem="NuK-wp-JMN" secondAttribute="bottom" constant="15" id="Dm5-VH-22n"/>
                                     <constraint firstItem="w42-da-4FT" firstAttribute="top" secondItem="JWX-IV-OtD" secondAttribute="bottom" constant="8" id="EcN-eE-YUJ"/>
                                     <constraint firstItem="nJ2-1v-yPi" firstAttribute="leading" secondItem="lfC-Dv-dCJ" secondAttribute="leading" constant="19" id="Gla-k3-pTJ"/>
                                     <constraint firstAttribute="trailing" secondItem="x0u-oi-xL8" secondAttribute="trailing" constant="19" id="HMv-Jj-VBu"/>
-                                    <constraint firstItem="x0u-oi-xL8" firstAttribute="top" secondItem="w42-da-4FT" secondAttribute="bottom" constant="12" id="Hme-iC-0Wh"/>
                                     <constraint firstItem="nJ2-1v-yPi" firstAttribute="top" secondItem="4QF-AC-yBr" secondAttribute="bottom" constant="15" id="ICR-cA-AOm"/>
                                     <constraint firstItem="PmQ-xS-1YL" firstAttribute="leading" secondItem="lfC-Dv-dCJ" secondAttribute="leading" constant="19" id="KIC-Yj-R5N"/>
-                                    <constraint firstAttribute="height" constant="350" id="PcS-gD-9gZ"/>
+                                    <constraint firstAttribute="height" constant="400" id="PcS-gD-9gZ"/>
                                     <constraint firstItem="JWX-IV-OtD" firstAttribute="top" secondItem="lfC-Dv-dCJ" secondAttribute="top" constant="20" id="R2H-sn-J38"/>
                                     <constraint firstItem="WDF-HY-zL4" firstAttribute="top" secondItem="nJ2-1v-yPi" secondAttribute="bottom" constant="15" id="RfF-uN-aaM"/>
+                                    <constraint firstItem="3oL-Xb-T0Q" firstAttribute="top" secondItem="AkR-V9-4a8" secondAttribute="bottom" constant="15" id="Tz4-cN-JSZ"/>
                                     <constraint firstItem="WDF-HY-zL4" firstAttribute="leading" secondItem="lfC-Dv-dCJ" secondAttribute="leading" constant="19" id="UNW-ie-5e3"/>
                                     <constraint firstAttribute="trailing" secondItem="nJ2-1v-yPi" secondAttribute="trailing" constant="19" id="WkN-q5-6oC"/>
                                     <constraint firstAttribute="trailing" secondItem="WDF-HY-zL4" secondAttribute="trailing" constant="19" id="Wqd-qU-LEh"/>
                                     <constraint firstAttribute="bottom" secondItem="PmQ-xS-1YL" secondAttribute="bottom" constant="15" id="XVX-wp-Wl9"/>
                                     <constraint firstItem="NuK-wp-JMN" firstAttribute="top" secondItem="x0u-oi-xL8" secondAttribute="bottom" constant="15" id="blA-uw-9oQ"/>
+                                    <constraint firstItem="AkR-V9-4a8" firstAttribute="leading" secondItem="lfC-Dv-dCJ" secondAttribute="leading" constant="19" id="cCE-NY-ADE"/>
                                     <constraint firstItem="x0u-oi-xL8" firstAttribute="leading" secondItem="lfC-Dv-dCJ" secondAttribute="leading" constant="19" id="cYd-n7-iDi"/>
                                     <constraint firstAttribute="trailing" secondItem="NuK-wp-JMN" secondAttribute="trailing" constant="19" id="dMT-1Q-edl"/>
+                                    <constraint firstItem="3oL-Xb-T0Q" firstAttribute="leading" secondItem="lfC-Dv-dCJ" secondAttribute="leading" constant="19" id="g3c-Q7-Gfn"/>
                                     <constraint firstItem="NuK-wp-JMN" firstAttribute="leading" secondItem="lfC-Dv-dCJ" secondAttribute="leading" constant="19" id="hPy-Cj-anW"/>
                                     <constraint firstItem="PmQ-xS-1YL" firstAttribute="top" secondItem="WDF-HY-zL4" secondAttribute="bottom" constant="20" id="iN6-uw-Z58"/>
                                     <constraint firstItem="w42-da-4FT" firstAttribute="centerX" secondItem="lfC-Dv-dCJ" secondAttribute="centerX" id="iTc-wJ-GL7"/>
+                                    <constraint firstItem="x0u-oi-xL8" firstAttribute="top" secondItem="3oL-Xb-T0Q" secondAttribute="bottom" constant="15" id="kRM-kE-LK4"/>
                                     <constraint firstItem="4QF-AC-yBr" firstAttribute="leading" secondItem="lfC-Dv-dCJ" secondAttribute="leading" constant="19" id="nl9-Sq-W5p"/>
                                     <constraint firstAttribute="trailing" secondItem="PmQ-xS-1YL" secondAttribute="trailing" constant="19" id="rek-Qc-Buy"/>
+                                    <constraint firstAttribute="trailing" secondItem="AkR-V9-4a8" secondAttribute="trailing" constant="19" id="uax-jH-b2Y"/>
                                 </constraints>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">

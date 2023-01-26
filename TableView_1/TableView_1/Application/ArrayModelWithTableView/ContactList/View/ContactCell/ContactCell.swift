@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import AnyFormatKit
 
 class ContactCell: UITableViewCell {
     /*
@@ -20,6 +21,10 @@ class ContactCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        self.profileImg.layer.borderWidth = 0.5
+        self.profileImg.layer.masksToBounds = false
+        self.profileImg.layer.cornerRadius = self.profileImg.frame.height / 2
+        self.profileImg.clipsToBounds = true
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -32,7 +37,7 @@ class ContactCell: UITableViewCell {
         self.profileImg.image   = UIImage(named: data.profile_img)
         self.contactName.text   = data.contact_name
         self.neckName.text      = data.neck_name
-        self.contactPhone.text  = data.phone_number
+        self.contactPhone.text  =  DefaultTextInputFormatter(textPattern: "(###) - ### - ####").format(data.phone_number)
         
     }
 

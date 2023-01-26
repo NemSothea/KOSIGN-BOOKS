@@ -18,6 +18,11 @@ class CustomPopupVC: UIViewController {
     @IBOutlet weak var txtFieldUserName     : UITextField!
     @IBOutlet weak var txtFieldPhoneNumber  : UITextField!
     
+    /*
+        MARK : - Variables
+     */
+    
+    
 
     /*
             MARK :- ViewController - LifeCycle
@@ -35,6 +40,16 @@ class CustomPopupVC: UIViewController {
         let tap = UITapGestureRecognizer(target: self, action: #selector(didTap(_:)))
         self.mainView.addGestureRecognizer(tap)
         self.view.addSubview(self.mainView)
+        
+    }
+    /*
+        MARK :-  Function
+     */
+    func alertInputInfo() {
+        
+        let alert = UIAlertController(title : "InCorrect Input",message: "Please check your input..", preferredStyle: .alert)
+        alert.addAction(UIAlertAction(title: "Ok", style: .default))
+        self.present(alert, animated: true)
         
     }
   

@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import AnyFormatKit
 
 class ContactDetailCell: UITableViewCell {
     
@@ -26,6 +27,9 @@ class ContactDetailCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        self.profileDetailImg.layer.masksToBounds = false
+        self.profileDetailImg.layer.cornerRadius = self.profileDetailImg.frame.height / 2
+        self.profileDetailImg.clipsToBounds = true
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
@@ -38,7 +42,7 @@ class ContactDetailCell: UITableViewCell {
         self.profileDetailImg.image     = UIImage(named: data.profile_img)
         self.contactDetailName.text     = data.contact_name
         self.neckDetailName.text        = data.neck_name
-        self.contactDetailPhone.text    = data.phone_number
+        self.contactDetailPhone.text    = DefaultTextInputFormatter(textPattern:"(###) - ### - ####").format(data.phone_number)
         self.callBtn.isHidden           = isShow
         self.updateBtn.isHidden         = isShow
         self.deleteBtn.isHidden         = isShow
