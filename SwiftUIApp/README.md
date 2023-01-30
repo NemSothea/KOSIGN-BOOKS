@@ -90,3 +90,8 @@ How to understand and fix common SwiftUI errors
 
 Thank you.
 
+-> @State is greate for simple properties that belong to a specific view and never get used
+outside that view.
+-> ObservedObject is more complex properties, or shared across multiple views and should comform 
+ObservavleObject. but the easiest is using the @Published property wrapper.
+
