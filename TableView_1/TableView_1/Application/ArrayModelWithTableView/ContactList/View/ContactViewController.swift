@@ -31,9 +31,9 @@ class ContactViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         self.contactVM.initContactCellData()
-        self.tableView.estimatedRowHeight = 80
-        self.tableView.rowHeight = UITableView.automaticDimension
-        self.addItem.isHidden = isShow
+        self.tableView.estimatedRowHeight   = 80
+        self.tableView.rowHeight            = UITableView.automaticDimension
+        self.addItem.isHidden               = isShow
         
     }
     

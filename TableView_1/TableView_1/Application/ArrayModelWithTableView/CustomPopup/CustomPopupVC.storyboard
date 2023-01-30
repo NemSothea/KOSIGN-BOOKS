@@ -86,6 +86,9 @@
                                             </userDefinedRuntimeAttribute>
                                             <userDefinedRuntimeAttribute type="boolean" keyPath="layer.clipsToBounds" value="YES"/>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <action selector="didTapAdd:" destination="Y6W-OH-hqX" eventType="touchUpInside" id="MBc-Mc-YXm"/>
+                                        </connections>
                                     </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Add new contact" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w42-da-4FT">
                                         <rect key="frame" x="69.5" y="128" width="141" height="18"/>
@@ -153,6 +156,7 @@
                     <connections>
                         <outlet property="imgLogo" destination="JWX-IV-OtD" id="PMT-fQ-xi3"/>
                         <outlet property="mainView" destination="lfC-Dv-dCJ" id="hAZ-C9-VDL"/>
+                        <outlet property="txtFieldNickName" destination="3oL-Xb-T0Q" id="jQZ-Li-ZPV"/>
                         <outlet property="txtFieldPhoneNumber" destination="nJ2-1v-yPi" id="NLD-33-aSj"/>
                         <outlet property="txtFieldUserName" destination="NuK-wp-JMN" id="INC-Ti-31Q"/>
                     </connections>

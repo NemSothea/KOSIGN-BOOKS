@@ -28,8 +28,8 @@ class ContactDetailCell: UITableViewCell {
         super.awakeFromNib()
         // Initialization code
         self.profileDetailImg.layer.masksToBounds = false
-        self.profileDetailImg.layer.cornerRadius = self.profileDetailImg.frame.height / 2
-        self.profileDetailImg.clipsToBounds = true
+        self.profileDetailImg.layer.cornerRadius  = self.profileDetailImg.frame.height / 2
+        self.profileDetailImg.clipsToBounds       = true
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

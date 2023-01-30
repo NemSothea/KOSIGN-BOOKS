@@ -21,10 +21,10 @@ class ContactCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-        self.profileImg.layer.borderWidth = 0.5
+        self.profileImg.layer.borderWidth   = 0.5
         self.profileImg.layer.masksToBounds = false
-        self.profileImg.layer.cornerRadius = self.profileImg.frame.height / 2
-        self.profileImg.clipsToBounds = true
+        self.profileImg.layer.cornerRadius  = self.profileImg.frame.height / 2
+        self.profileImg.clipsToBounds       = true
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

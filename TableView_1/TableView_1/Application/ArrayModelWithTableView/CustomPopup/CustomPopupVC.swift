@@ -8,6 +8,8 @@
 import UIKit
 import IQKeyboardManagerSwift
 
+typealias CompletionpopUpInput = (String,String,String) -> Void
+
 class CustomPopupVC: UIViewController {
 
     /*
@@ -15,6 +17,7 @@ class CustomPopupVC: UIViewController {
      */
     @IBOutlet weak var mainView             : UIView!
     @IBOutlet weak var imgLogo              : UIImageView!
+    @IBOutlet weak var txtFieldNickName     : UITextField!
     @IBOutlet weak var txtFieldUserName     : UITextField!
     @IBOutlet weak var txtFieldPhoneNumber  : UITextField!
     
@@ -22,7 +25,7 @@ class CustomPopupVC: UIViewController {
         MARK : - Variables
      */
     
-    
+    var saveCompletion : CompletionpopUpInput = { _,_,_ in }
 
     /*
             MARK :- ViewController - LifeCycle
@@ -45,12 +48,24 @@ class CustomPopupVC: UIViewController {
     /*
         MARK :-  Function
      */
-    func alertInputInfo() {
+    private func alertInputInfo() {
         
-        let alert = UIAlertController(title : "InCorrect Input",message: "Please check your input..", preferredStyle: .alert)
+        let alert = UIAlertController(title : "InCorrect Input",message: "Please check your \(checkInput())..", preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "Ok", style: .default))
         self.present(alert, animated: true)
         
+    }
+    private func checkInput() -> String {
+        var input = "Input"
+        let nickName = txtFieldNickName.text ?? "", userName = txtFieldUserName.text ?? "", phoneNumber = txtFieldPhoneNumber.text ?? ""
+        if nickName.isEmpty {
+            input = "nick name"
+        }else if userName.isEmpty {
+            input = "User name"
+        }else if phoneNumber.isEmpty {
+            input = "Phone number"
+        }
+        return input
     }
   
     /*
@@ -58,8 +73,15 @@ class CustomPopupVC: UIViewController {
      */
     @IBAction func didTapAdd(_ sender : UIButton) {
         print("Did me")
+        let nickName = txtFieldNickName.text ?? "", userName = txtFieldUserName.text ?? "", phoneNumber = txtFieldPhoneNumber.text ?? ""
+        if !nickName.isEmpty && !userName.isEmpty && !phoneNumber.isEmpty {
+            self.saveCompletion(nickName, userName, phoneNumber)
+            self.dismiss(animated: true)
+        }else {
+            self.alertInputInfo()
+        }
     }
-    
+   
     /*
         MARK :-  @Objc
      */
