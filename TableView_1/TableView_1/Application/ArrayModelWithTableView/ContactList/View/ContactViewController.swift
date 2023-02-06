@@ -43,6 +43,17 @@ class ContactViewController: UIViewController {
     @IBAction func addNewContact(_ sender : Any) {
         
         if let addContactVC = storyBoard(withStoryBoardName: "CustomPopupVC", identifier: "CustomPopupVC") as? CustomPopupVC {
+            addContactVC.saveCompletion = { nickName,userName,phoneNumber in
+                self.contactVM.addNewContact(nickName: nickName, userName: userName, phoneNumber: phoneNumber)
+                
+                //TODO : add new contact in ViewModel
+                let lastIndex = self.contactVM.contactCells.count - 1
+                self.tableView.beginUpdates()
+                
+                self.tableView.insertRows(at: [IndexPath.init(item: lastIndex, section: 0)], with: .automatic)
+                
+                self.tableView.endUpdates()
+            }
             self.present(addContactVC, animated: true)
         }
         
