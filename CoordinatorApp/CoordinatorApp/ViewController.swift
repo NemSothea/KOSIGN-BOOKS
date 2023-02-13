@@ -16,6 +16,7 @@ class ViewController: UIViewController, StoryBoarded {
         // Do any additional setup after loading the view.
         view.backgroundColor = .yellow
     }
+    
     @IBAction func clickTap(_ sender : UIButton) {
         gotoMain?(true)
     }

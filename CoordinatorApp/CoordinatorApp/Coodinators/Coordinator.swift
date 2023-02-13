@@ -31,11 +31,18 @@ public protocol Coordinator : AnyObject {
 
 }
 public extension Coordinator {
-    
+    /* TODO :
+        - Add a child coordinator to the parent, preventing it from getting dealocated in memory.
+        - Parameter  childCoordinator : The coordinator to keep allocated in memory.
+     */
     func addChildCoordinator(_ childCoordinator : Coordinator) {
         childCoordinators.append(childCoordinator)
     }
     
+    /* TODO :
+        - Remove a child coordinator to the parent,releasing it from memory.
+        - Parameter  childCoordinator : The coordinator to release.
+     */
     func removeChildCoordinator(_ childCoordinator : Coordinator) {
         childCoordinators = childCoordinators.filter{ $0 !== childCoordinator}
     }

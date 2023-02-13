@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55591B042999BDCE00023195 /* ReadingQuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55591B032999BDCE00023195 /* ReadingQuestionModel.swift */; };
 		5590500929947E5700FE3F0D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5590500829947E5700FE3F0D /* README.md */; };
 		5590500B29948BF900FE3F0D /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5590500A29948BF900FE3F0D /* MainCoordinator.swift */; };
 		5590500D29948CB800FE3F0D /* StoryBoarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5590500C29948CB800FE3F0D /* StoryBoarded.swift */; };
@@ -20,9 +21,13 @@
 		55A99C7329937DA100AD4FA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55A99C7229937DA100AD4FA6 /* Assets.xcassets */; };
 		55A99C7629937DA100AD4FA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55A99C7429937DA100AD4FA6 /* LaunchScreen.storyboard */; };
 		55A99C8229938B1100AD4FA6 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A99C8129938B1100AD4FA6 /* Coordinator.swift */; };
+		55BBF3AF2995D18F00A7E991 /* BookMarkTapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BBF3AE2995D18F00A7E991 /* BookMarkTapVC.swift */; };
+		55BBF3B129962C4000A7E991 /* FavoriteCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BBF3B029962C4000A7E991 /* FavoriteCoordinator.swift */; };
+		55BBF3B329962D4A00A7E991 /* FavoriteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BBF3B229962D4A00A7E991 /* FavoriteVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		55591B032999BDCE00023195 /* ReadingQuestionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingQuestionModel.swift; sourceTree = "<group>"; };
 		5590500829947E5700FE3F0D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5590500A29948BF900FE3F0D /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		5590500C29948CB800FE3F0D /* StoryBoarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryBoarded.swift; sourceTree = "<group>"; };
@@ -38,6 +43,9 @@
 		55A99C7529937DA100AD4FA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55A99C7729937DA100AD4FA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55A99C8129938B1100AD4FA6 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		55BBF3AE2995D18F00A7E991 /* BookMarkTapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookMarkTapVC.swift; sourceTree = "<group>"; };
+		55BBF3B029962C4000A7E991 /* FavoriteCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCoordinator.swift; sourceTree = "<group>"; };
+		55BBF3B229962D4A00A7E991 /* FavoriteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +59,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		55591B012999BD5700023195 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				55591B032999BDCE00023195 /* ReadingQuestionModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		55591B052999C11500023195 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		559050132994C7D700FE3F0D /* ChildCoordinator */ = {
 			isa = PBXGroup;
 			children = (
 				559050152994C81A00FE3F0D /* BookmarkCoordinator.swift */,
+				55BBF3B029962C4000A7E991 /* FavoriteCoordinator.swift */,
 			);
 			path = ChildCoordinator;
 			sourceTree = "<group>";
@@ -79,6 +103,8 @@
 		55A99C6829937D9F00AD4FA6 /* CoordinatorApp */ = {
 			isa = PBXGroup;
 			children = (
+				55591B052999C11500023195 /* ViewModel */,
+				55591B012999BD5700023195 /* Model */,
 				55A99C802993851500AD4FA6 /* TabBarViewController */,
 				55A99C7F299381B600AD4FA6 /* StoryBoard */,
 				55A99C7E29937FDE00AD4FA6 /* ViewController */,
@@ -108,6 +134,8 @@
 		55A99C7E29937FDE00AD4FA6 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				55BBF3AE2995D18F00A7E991 /* BookMarkTapVC.swift */,
+				55BBF3B229962D4A00A7E991 /* FavoriteVC.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -200,14 +228,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55591B042999BDCE00023195 /* ReadingQuestionModel.swift in Sources */,
 				55A99C8229938B1100AD4FA6 /* Coordinator.swift in Sources */,
 				559050162994C81A00FE3F0D /* BookmarkCoordinator.swift in Sources */,
+				55BBF3AF2995D18F00A7E991 /* BookMarkTapVC.swift in Sources */,
 				55A99C6E29937D9F00AD4FA6 /* ViewController.swift in Sources */,
+				55BBF3B329962D4A00A7E991 /* FavoriteVC.swift in Sources */,
 				559050122994B66F00FE3F0D /* TabBarCoordinator.swift in Sources */,
 				55A99C6A29937D9F00AD4FA6 /* AppDelegate.swift in Sources */,
 				559050102994AD4700FE3F0D /* MainTabBarViewController.swift in Sources */,
 				5590500D29948CB800FE3F0D /* StoryBoarded.swift in Sources */,
 				5590500B29948BF900FE3F0D /* MainCoordinator.swift in Sources */,
+				55BBF3B129962C4000A7E991 /* FavoriteCoordinator.swift in Sources */,
 				55A99C6C29937D9F00AD4FA6 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -354,7 +386,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1.0.0;
 				DEVELOPMENT_TEAM = 62EMNW6G6D;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CoordinatorApp/Info.plist;
@@ -367,7 +399,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = co.kr.kosignbook.CoordinatorApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -382,7 +414,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1.0.0;
 				DEVELOPMENT_TEAM = 62EMNW6G6D;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CoordinatorApp/Info.plist;
@@ -395,7 +427,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = co.kr.kosignbook.CoordinatorApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

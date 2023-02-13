@@ -11,6 +11,10 @@ class MainTabBarController : UITabBarController, StoryBoarded {
     
     weak var coordinator : TabBarCoordinator!
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+    
     
     
     

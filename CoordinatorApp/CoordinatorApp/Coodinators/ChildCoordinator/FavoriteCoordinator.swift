@@ -1,12 +1,13 @@
 //
-//  BookmarksCoordinator.swift
+//  FavoritCoordinator.swift
 //  CoordinatorApp
 //
-//  Created by Bizplay on 2023/02/09.
+//  Created by Bizplay on 2023/02/10.
 //
 
 import UIKit
-class BookmarkCoordinator : Coordinator {
+
+class FavoriteCoordinator : Coordinator {
     
     weak var parentCoordinators : TabBarCoordinator?
     
@@ -14,16 +15,18 @@ class BookmarkCoordinator : Coordinator {
     
     var navigationViewController: UINavigationController
     
-    init(navigationViewController: UINavigationController) {
+    init(navigationViewController : UINavigationController) {
         self.navigationViewController = navigationViewController
     }
-    func start() {
     
-        let vc = BookMarkTapVC.instatiate()
+    func start() {
+        
+        let vc = FavoriteVC.instatiate()
         vc.coordinator = self
-        vc.tabBarItem = UITabBarItem(tabBarSystemItem: .bookmarks, tag: 0)
+        vc.tabBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 1)
         self.navigationViewController.pushViewController(vc, animated: true)
         
     }
+    
+    
 }
-
