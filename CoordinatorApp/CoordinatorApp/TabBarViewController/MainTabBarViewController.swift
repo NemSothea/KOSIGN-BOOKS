@@ -15,7 +15,4 @@ class MainTabBarController : UITabBarController, StoryBoarded {
         super.viewDidLoad()
     }
     
-    
-    
-    
 }

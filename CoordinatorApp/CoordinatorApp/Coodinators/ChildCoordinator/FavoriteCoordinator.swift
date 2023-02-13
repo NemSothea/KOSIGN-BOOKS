@@ -21,7 +21,7 @@ class FavoriteCoordinator : Coordinator {
     
     func start() {
         
-        let vc = FavoriteVC.instatiate()
+        let vc = FavoriteTabVC.instatiate()
         vc.coordinator = self
         vc.tabBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 1)
         self.navigationViewController.pushViewController(vc, animated: true)

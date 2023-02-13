@@ -7,13 +7,13 @@
 
 import UIKit
 
-class FavoriteVC : UIViewController, StoryBoarded {
+class FavoriteTabVC : UIViewController, StoryBoarded {
     
     weak var coordinator : FavoriteCoordinator?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .orange
+        
     }
     
 }

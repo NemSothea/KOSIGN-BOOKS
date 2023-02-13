@@ -1,0 +1,15 @@
+{
+ "data" : {
+       "questions" : [
+            {
+                "correctAnswer" : "2"
+                "option_1"      : "잠시"
+                "option_2"      : "미리"
+                "option_3"      : "거의"
+                "option_4"      : "아직"
+                "question"      : "주말에는 영화표를 구하기 어려워서( ) 샀다.(3점)"
+                "isQuestionImage": "n"
+            }
+       ]
+    }
+}

@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		55591B042999BDCE00023195 /* ReadingQuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55591B032999BDCE00023195 /* ReadingQuestionModel.swift */; };
+		55591B082999D14400023195 /* Question24.json in Resources */ = {isa = PBXBuildFile; fileRef = 55591B072999D14400023195 /* Question24.json */; };
+		55591B0C2999F8F600023195 /* BookMarkTabTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55591B0B2999F8F600023195 /* BookMarkTabTableViewCell.swift */; };
+		55591B11299A071A00023195 /* ReadingQuestionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55591B10299A071A00023195 /* ReadingQuestionVC.swift */; };
+		55591B15299A07CF00023195 /* ResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55591B14299A07CF00023195 /* ResultVC.swift */; };
 		5590500929947E5700FE3F0D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5590500829947E5700FE3F0D /* README.md */; };
 		5590500B29948BF900FE3F0D /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5590500A29948BF900FE3F0D /* MainCoordinator.swift */; };
 		5590500D29948CB800FE3F0D /* StoryBoarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5590500C29948CB800FE3F0D /* StoryBoarded.swift */; };
@@ -21,13 +25,17 @@
 		55A99C7329937DA100AD4FA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55A99C7229937DA100AD4FA6 /* Assets.xcassets */; };
 		55A99C7629937DA100AD4FA6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55A99C7429937DA100AD4FA6 /* LaunchScreen.storyboard */; };
 		55A99C8229938B1100AD4FA6 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A99C8129938B1100AD4FA6 /* Coordinator.swift */; };
-		55BBF3AF2995D18F00A7E991 /* BookMarkTapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BBF3AE2995D18F00A7E991 /* BookMarkTapVC.swift */; };
+		55BBF3AF2995D18F00A7E991 /* BookMarkTabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BBF3AE2995D18F00A7E991 /* BookMarkTabVC.swift */; };
 		55BBF3B129962C4000A7E991 /* FavoriteCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BBF3B029962C4000A7E991 /* FavoriteCoordinator.swift */; };
-		55BBF3B329962D4A00A7E991 /* FavoriteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BBF3B229962D4A00A7E991 /* FavoriteVC.swift */; };
+		55BBF3B329962D4A00A7E991 /* FavoriteTabVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BBF3B229962D4A00A7E991 /* FavoriteTabVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		55591B032999BDCE00023195 /* ReadingQuestionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingQuestionModel.swift; sourceTree = "<group>"; };
+		55591B072999D14400023195 /* Question24.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Question24.json; sourceTree = "<group>"; };
+		55591B0B2999F8F600023195 /* BookMarkTabTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookMarkTabTableViewCell.swift; sourceTree = "<group>"; };
+		55591B10299A071A00023195 /* ReadingQuestionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingQuestionVC.swift; sourceTree = "<group>"; };
+		55591B14299A07CF00023195 /* ResultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultVC.swift; sourceTree = "<group>"; };
 		5590500829947E5700FE3F0D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5590500A29948BF900FE3F0D /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		5590500C29948CB800FE3F0D /* StoryBoarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryBoarded.swift; sourceTree = "<group>"; };
@@ -43,9 +51,9 @@
 		55A99C7529937DA100AD4FA6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55A99C7729937DA100AD4FA6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55A99C8129938B1100AD4FA6 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
-		55BBF3AE2995D18F00A7E991 /* BookMarkTapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookMarkTapVC.swift; sourceTree = "<group>"; };
+		55BBF3AE2995D18F00A7E991 /* BookMarkTabVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookMarkTabVC.swift; sourceTree = "<group>"; };
 		55BBF3B029962C4000A7E991 /* FavoriteCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCoordinator.swift; sourceTree = "<group>"; };
-		55BBF3B229962D4A00A7E991 /* FavoriteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteVC.swift; sourceTree = "<group>"; };
+		55BBF3B229962D4A00A7E991 /* FavoriteTabVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteTabVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +80,55 @@
 			children = (
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		55591B062999D0A100023195 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				55591B072999D14400023195 /* Question24.json */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		55591B092999F8B700023195 /* BookMarkTabCell */ = {
+			isa = PBXGroup;
+			children = (
+				55591B0B2999F8F600023195 /* BookMarkTabTableViewCell.swift */,
+			);
+			path = BookMarkTabCell;
+			sourceTree = "<group>";
+		};
+		55591B0D299A069600023195 /* BookMark */ = {
+			isa = PBXGroup;
+			children = (
+				55591B092999F8B700023195 /* BookMarkTabCell */,
+				55BBF3AE2995D18F00A7E991 /* BookMarkTabVC.swift */,
+			);
+			path = BookMark;
+			sourceTree = "<group>";
+		};
+		55591B0E299A06A700023195 /* Favorite */ = {
+			isa = PBXGroup;
+			children = (
+				55BBF3B229962D4A00A7E991 /* FavoriteTabVC.swift */,
+			);
+			path = Favorite;
+			sourceTree = "<group>";
+		};
+		55591B0F299A06DC00023195 /* Reading */ = {
+			isa = PBXGroup;
+			children = (
+				55591B10299A071A00023195 /* ReadingQuestionVC.swift */,
+			);
+			path = Reading;
+			sourceTree = "<group>";
+		};
+		55591B12299A079400023195 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				55591B14299A07CF00023195 /* ResultVC.swift */,
+			);
+			path = Result;
 			sourceTree = "<group>";
 		};
 		559050132994C7D700FE3F0D /* ChildCoordinator */ = {
@@ -103,6 +160,7 @@
 		55A99C6829937D9F00AD4FA6 /* CoordinatorApp */ = {
 			isa = PBXGroup;
 			children = (
+				55591B062999D0A100023195 /* Helper */,
 				55591B052999C11500023195 /* ViewModel */,
 				55591B012999BD5700023195 /* Model */,
 				55A99C802993851500AD4FA6 /* TabBarViewController */,
@@ -134,8 +192,10 @@
 		55A99C7E29937FDE00AD4FA6 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				55BBF3AE2995D18F00A7E991 /* BookMarkTapVC.swift */,
-				55BBF3B229962D4A00A7E991 /* FavoriteVC.swift */,
+				55591B12299A079400023195 /* Result */,
+				55591B0F299A06DC00023195 /* Reading */,
+				55591B0E299A06A700023195 /* Favorite */,
+				55591B0D299A069600023195 /* BookMark */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -216,6 +276,7 @@
 			files = (
 				55A99C7629937DA100AD4FA6 /* LaunchScreen.storyboard in Resources */,
 				55A99C7329937DA100AD4FA6 /* Assets.xcassets in Resources */,
+				55591B082999D14400023195 /* Question24.json in Resources */,
 				5590500929947E5700FE3F0D /* README.md in Resources */,
 				55A99C7129937D9F00AD4FA6 /* Main.storyboard in Resources */,
 			);
@@ -229,14 +290,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				55591B042999BDCE00023195 /* ReadingQuestionModel.swift in Sources */,
+				55591B15299A07CF00023195 /* ResultVC.swift in Sources */,
 				55A99C8229938B1100AD4FA6 /* Coordinator.swift in Sources */,
 				559050162994C81A00FE3F0D /* BookmarkCoordinator.swift in Sources */,
-				55BBF3AF2995D18F00A7E991 /* BookMarkTapVC.swift in Sources */,
+				55BBF3AF2995D18F00A7E991 /* BookMarkTabVC.swift in Sources */,
 				55A99C6E29937D9F00AD4FA6 /* ViewController.swift in Sources */,
-				55BBF3B329962D4A00A7E991 /* FavoriteVC.swift in Sources */,
+				55BBF3B329962D4A00A7E991 /* FavoriteTabVC.swift in Sources */,
 				559050122994B66F00FE3F0D /* TabBarCoordinator.swift in Sources */,
+				55591B0C2999F8F600023195 /* BookMarkTabTableViewCell.swift in Sources */,
 				55A99C6A29937D9F00AD4FA6 /* AppDelegate.swift in Sources */,
 				559050102994AD4700FE3F0D /* MainTabBarViewController.swift in Sources */,
+				55591B11299A071A00023195 /* ReadingQuestionVC.swift in Sources */,
 				5590500D29948CB800FE3F0D /* StoryBoarded.swift in Sources */,
 				5590500B29948BF900FE3F0D /* MainCoordinator.swift in Sources */,
 				55BBF3B129962C4000A7E991 /* FavoriteCoordinator.swift in Sources */,
