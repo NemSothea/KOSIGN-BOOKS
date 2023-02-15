@@ -20,10 +20,10 @@ class BookmarkCoordinator : Coordinator {
     func start() {
     
         let vc = BookMarkTabVC.instatiate()
-        vc.coordinator = self
         vc.tabBarItem = UITabBarItem(tabBarSystemItem: .bookmarks, tag: 0)
         self.navigationViewController.pushViewController(vc, animated: true)
         
     }
+   
 }
 

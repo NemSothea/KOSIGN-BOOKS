@@ -1,15 +1,17 @@
 {
   "images" : [
     {
+      "filename" : "00CommonAppBarMainBackIconGrey.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Purple Neon Icons Homescreen Wallpaper (1).png",
+      "filename" : "00CommonAppBarMainBackIconGrey@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
+      "filename" : "00CommonAppBarMainBackIconGrey@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }

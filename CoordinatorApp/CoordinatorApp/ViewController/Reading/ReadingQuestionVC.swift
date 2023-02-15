@@ -8,12 +8,32 @@
 import UIKit
 
 class ReadingQuestionVC: UIViewController {
-
+    
+    @IBOutlet weak var topikTitle   : UILabel!
+    
+    private var questionsVM         = QuestionViewModel()
+    var quesitions                  : [QuestionViewModel]?
+    
+    var answerSelected   = false
+    var isCorrectAnswer  = false
+    var  points          = 0
+    var index            = 0
+    var headerTitle      = ""
+    var indexTopik       = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
+        self.topikTitle.text = headerTitle
+        
+        self.questionsVM.getData(index: indexTopik)
+        
+    }
+    @IBAction func exitTap(_ sender : UIButton) {
+        
+        self.dismiss(animated: true)
+        
     }
     /*
     // MARK: - Navigation

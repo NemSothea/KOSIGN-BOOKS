@@ -14,7 +14,7 @@ class ViewController: UIViewController, StoryBoarded {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        view.backgroundColor = .yellow
+
     }
     
     @IBAction func clickTap(_ sender : UIButton) {

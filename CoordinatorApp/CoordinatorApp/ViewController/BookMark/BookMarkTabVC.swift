@@ -8,17 +8,18 @@
 import UIKit
 
 class BookMarkTabVC : UIViewController, StoryBoarded {
-    @IBOutlet weak var myTableView: UITableView!
     
-    weak var coordinator            : BookmarkCoordinator?
+    @IBOutlet weak var myTableView : UITableView!
+    
     
     private var TOPIKQuestionArray  = ["TOPIK II READING 24th"]
     
     
     override func viewDidLoad() {
          super.viewDidLoad()
-    }
     
+    }
+
 }
 
 extension BookMarkTabVC : UITableViewDataSource, UITableViewDelegate {
@@ -34,7 +35,11 @@ extension BookMarkTabVC : UITableViewDataSource, UITableViewDelegate {
         return cell
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        
+        guard let vc = storyboard?.instantiateViewController(withIdentifier: "ReadingQuestionVC") as? ReadingQuestionVC else { return }
+        vc.modalPresentationStyle = .fullScreen
+        vc.headerTitle  = TOPIKQuestionArray[indexPath.row]
+        vc.index        = indexPath.row
+        self.navigationController?.present(vc, animated: true)
     }
     
     

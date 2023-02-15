@@ -9,7 +9,6 @@ import UIKit
 
 class FavoriteTabVC : UIViewController, StoryBoarded {
     
-    weak var coordinator : FavoriteCoordinator?
     
     override func viewDidLoad() {
         super.viewDidLoad()
