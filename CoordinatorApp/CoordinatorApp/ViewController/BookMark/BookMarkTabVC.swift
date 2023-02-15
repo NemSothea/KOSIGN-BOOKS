@@ -19,6 +19,10 @@ class BookMarkTabVC : UIViewController, StoryBoarded {
          super.viewDidLoad()
     
     }
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.myTableView.reloadData()
+    }
 
 }
 
