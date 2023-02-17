@@ -44,6 +44,12 @@ class ReadingQuestionCollectionViewCell: UICollectionViewCell {
             
         }
     }
+    override func prepareForReuse() {
+        updateBorder(myView: optionA)
+        updateBorder(myView: optionB)
+        updateBorder(myView: optionC)
+        updateBorder(myView: optionD)
+    }
     @IBAction func onClickOptionA(_ sender : Any) {
         var isCorrect = false
         if correctionAnswer == setValues?.option_1 {
@@ -80,22 +86,22 @@ class ReadingQuestionCollectionViewCell: UICollectionViewCell {
     func changeBorder(selectedOption : SelectionOption) {
         switch selectedOption {
         case .optionA :
-            updateBorder(myView: optionA,borderWidth: 4)
+            updateBorder(myView: optionA,borderWidth: 2)
             updateBorder(myView: optionB)
             updateBorder(myView: optionC)
             updateBorder(myView: optionD)
         case .optionB :
-            updateBorder(myView: optionB,borderWidth: 4)
+            updateBorder(myView: optionB,borderWidth: 2)
             updateBorder(myView: optionA)
             updateBorder(myView: optionC)
             updateBorder(myView: optionD)
         case .optionC :
-            updateBorder(myView: optionC,borderWidth: 4)
+            updateBorder(myView: optionC,borderWidth: 2)
             updateBorder(myView: optionA)
             updateBorder(myView: optionB)
             updateBorder(myView: optionD)
         case .optionD :
-            updateBorder(myView: optionD,borderWidth: 4)
+            updateBorder(myView: optionD,borderWidth: 2)
             updateBorder(myView: optionA)
             updateBorder(myView: optionB)
             updateBorder(myView: optionC)
@@ -105,7 +111,7 @@ class ReadingQuestionCollectionViewCell: UICollectionViewCell {
     
     func updateBorder(myView : UIView, borderWidth : CGFloat = 0) {
         myView.layer.borderWidth = borderWidth
-        myView.layer.borderColor = UIColor.random().cgColor
+        myView.layer.borderColor = UIColor.white.cgColor
     }
     
     

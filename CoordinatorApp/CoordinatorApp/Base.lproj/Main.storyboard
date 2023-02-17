@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="W18-4N-kyb">
     <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
@@ -36,8 +36,11 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Learn • Take Quiz • Repeat" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L6C-5B-H2X">
-                                <rect key="frame" x="10" y="299.66666666666669" width="394" height="23.333333333333314"/>
-                                <fontDescription key="fontDescription" name="AvenirNext-Medium" family="Avenir Next" pointSize="17"/>
+                                <rect key="frame" x="10" y="293" width="394" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="cGa-lG-cuf"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Medium" family="Apple SD Gothic Neo" pointSize="17"/>
                                 <color key="textColor" name="Button Color"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -57,7 +60,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quiz App" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jfr-Cs-pdu">
-                                <rect key="frame" x="10" y="239.66666666666663" width="394" height="50"/>
+                                <rect key="frame" x="10" y="233" width="394" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="FjG-ha-uGd"/>
                                 </constraints>
@@ -66,7 +69,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ideas" translatesAutoresizingMaskIntoConstraints="NO" id="BAV-3k-Ybb">
-                                <rect key="frame" x="157" y="109.66666666666669" width="100" height="100"/>
+                                <rect key="frame" x="157" y="103" width="100" height="100"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="L9P-yD-IH3"/>
                                     <constraint firstAttribute="width" constant="100" id="xf8-Kp-7zJ"/>
@@ -94,10 +97,11 @@
                             <constraint firstItem="BAV-3k-Ybb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="moZ-3I-V7j"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="Gyn-KM-Sm6"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-348" y="-426"/>
+            <point key="canvasLocation" x="557.97101449275362" y="-426.35869565217394"/>
         </scene>
         <!--Book Mark TabVC-->
         <scene sceneID="2i5-zu-qSI">
@@ -142,6 +146,7 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
+                                            <outlet property="icon" destination="DCu-vl-k0p" id="8Li-FC-xaq"/>
                                             <outlet property="title" destination="JN0-7C-CLh" id="QEA-Xm-65E"/>
                                         </connections>
                                     </tableViewCell>
@@ -167,7 +172,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8ST-Dh-alx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="400.00000000000006" y="-827.00892857142856"/>
+            <point key="canvasLocation" x="1307.2463768115942" y="-827.44565217391312"/>
         </scene>
         <!--Reading QuestionVC-->
         <scene sceneID="XiG-sp-IHW">
@@ -190,6 +195,11 @@
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Exit"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <action selector="exitTap:" destination="7a7-yP-xdC" eventType="touchUpInside" id="vIq-jS-eb6"/>
                                 </connections>
@@ -204,59 +214,72 @@
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Next"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="nextTap:" destination="7a7-yP-xdC" eventType="touchUpInside" id="JVU-4r-rlX"/>
+                                </connections>
                             </button>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="tbH-XX-Ges">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uAH-Ec-q2z">
+                                <rect key="frame" x="75" y="10" width="264" height="24"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Medium" family="Apple SD Gothic Neo" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="tbH-XX-Ges">
                                 <rect key="frame" x="0.0" y="40" width="414" height="696"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="pfN-fL-ki9">
-                                    <size key="itemSize" width="341" height="671"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="pfN-fL-ki9">
+                                    <size key="itemSize" width="410" height="671"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ReadingQuestionCollectionViewCell" id="k1g-oI-XAg" customClass="ReadingQuestionCollectionViewCell" customModule="CoordinatorApp" customModuleProvider="target">
-                                        <rect key="frame" x="36.666666666666664" y="0.0" width="341" height="671"/>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="k1g-oI-XAg" customClass="ReadingQuestionCollectionViewCell" customModule="CoordinatorApp" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="12.666666666666666" width="410" height="671"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="cIG-jX-z6m">
-                                            <rect key="frame" x="0.0" y="0.0" width="341" height="671"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="410" height="671"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Default navigation back button is empty Default navigation back button is empty" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s24-oF-oO3">
-                                                    <rect key="frame" x="5" y="30" width="336" height="41"/>
+                                                    <rect key="frame" x="5" y="30" width="405" height="41"/>
                                                     <fontDescription key="fontDescription" name="AppleSDGothicNeo-Medium" family="Apple SD Gothic Neo" pointSize="17"/>
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ACl-mg-6O9">
-                                                    <rect key="frame" x="0.0" y="101" width="341" height="245"/>
+                                                    <rect key="frame" x="5" y="101" width="400" height="81.666666666666686"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sFA-7z-MFY">
-                                                            <rect key="frame" x="0.0" y="0.0" width="341" height="245"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="400" height="81.666666666666671"/>
                                                             <string key="text">Default navigation back button is empty Default navigation back button is empty Default navigation back button is empty Default navigation back button is empty</string>
                                                             <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="17"/>
                                                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ugc-6s-Wnl">
-                                                            <rect key="frame" x="0.0" y="0.0" width="341" height="0.0"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="400" height="0.0"/>
                                                         </imageView>
                                                     </subviews>
                                                 </stackView>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="jLO-e2-ked">
-                                                    <rect key="frame" x="0.0" y="376" width="341" height="290"/>
+                                                    <rect key="frame" x="10" y="212.66666666666663" width="390" height="230"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="by1-i4-1dJ" customClass="UIControl">
-                                                            <rect key="frame" x="0.0" y="0.0" width="341" height="50"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="390" height="50"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Default navigation back button is empty Default navigation back button is empty" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sIE-ru-vtb">
-                                                                    <rect key="frame" x="10" y="0.0" width="331" height="50"/>
+                                                                    <rect key="frame" x="10" y="0.0" width="380" height="50"/>
                                                                     <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="16"/>
                                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                             </subviews>
-                                                            <color key="backgroundColor" systemColor="systemTealColor"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="50" id="2LN-Pe-Wjb"/>
                                                                 <constraint firstItem="sIE-ru-vtb" firstAttribute="leading" secondItem="by1-i4-1dJ" secondAttribute="leading" constant="10" id="4kV-B1-5Rv"/>
@@ -269,16 +292,15 @@
                                                             </connections>
                                                         </view>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lEp-Yt-SxI" customClass="UIControl">
-                                                            <rect key="frame" x="0.0" y="60" width="341" height="50"/>
+                                                            <rect key="frame" x="0.0" y="60.000000000000028" width="390" height="50"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Default navigation back button is empty Default navigation back button is empty" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="axq-nd-hlG">
-                                                                    <rect key="frame" x="10" y="0.0" width="331" height="50"/>
+                                                                    <rect key="frame" x="10" y="0.0" width="380" height="50"/>
                                                                     <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="16"/>
                                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                             </subviews>
-                                                            <color key="backgroundColor" red="1" green="0.75686274509999996" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <constraints>
                                                                 <constraint firstItem="axq-nd-hlG" firstAttribute="leading" secondItem="lEp-Yt-SxI" secondAttribute="leading" constant="10" id="6RC-Rm-DGJ"/>
                                                                 <constraint firstAttribute="trailing" secondItem="axq-nd-hlG" secondAttribute="trailing" id="8mu-Zt-lS9"/>
@@ -290,16 +312,15 @@
                                                             </connections>
                                                         </view>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SnG-07-ZUb" customClass="UIControl">
-                                                            <rect key="frame" x="0.0" y="120" width="341" height="50"/>
+                                                            <rect key="frame" x="0.0" y="120.00000000000003" width="390" height="50"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Default navigation back button is empty Default navigation back button is empty" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="leJ-FG-pfP">
-                                                                    <rect key="frame" x="10" y="0.0" width="331" height="50"/>
+                                                                    <rect key="frame" x="10" y="0.0" width="380" height="50"/>
                                                                     <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="16"/>
                                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                             </subviews>
-                                                            <color key="backgroundColor" name="Button Color"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="trailing" secondItem="leJ-FG-pfP" secondAttribute="trailing" id="J87-Au-B3L"/>
                                                                 <constraint firstAttribute="bottom" secondItem="leJ-FG-pfP" secondAttribute="bottom" id="kPn-cZ-Xx7"/>
@@ -311,16 +332,15 @@
                                                             </connections>
                                                         </view>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NLu-Oz-qVe" customClass="UIControl">
-                                                            <rect key="frame" x="0.0" y="180" width="341" height="50"/>
+                                                            <rect key="frame" x="0.0" y="180.00000000000003" width="390" height="50"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Default navigation back button is empty Default navigation back button is empty" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zOy-OC-1pg">
-                                                                    <rect key="frame" x="10" y="0.0" width="331" height="50"/>
+                                                                    <rect key="frame" x="10" y="0.0" width="380" height="50"/>
                                                                     <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="16"/>
                                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                             </subviews>
-                                                            <color key="backgroundColor" red="1" green="0.75686274509999996" blue="0.027450980390000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <constraints>
                                                                 <constraint firstItem="zOy-OC-1pg" firstAttribute="leading" secondItem="NLu-Oz-qVe" secondAttribute="leading" constant="10" id="2Hs-4T-lSp"/>
                                                                 <constraint firstItem="zOy-OC-1pg" firstAttribute="top" secondItem="NLu-Oz-qVe" secondAttribute="top" id="7cu-iv-cBb"/>
@@ -331,12 +351,6 @@
                                                                 <action selector="onClickOptionD:" destination="k1g-oI-XAg" eventType="touchUpInside" id="l3t-F6-D8X"/>
                                                             </connections>
                                                         </view>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NVU-0N-zYc">
-                                                            <rect key="frame" x="0.0" y="240" width="341" height="50"/>
-                                                            <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="17"/>
-                                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                            <nil key="highlightedColor"/>
-                                                        </label>
                                                     </subviews>
                                                 </stackView>
                                             </subviews>
@@ -344,16 +358,16 @@
                                                 <constraint firstAttribute="trailing" secondItem="s24-oF-oO3" secondAttribute="trailing" id="C8a-8F-Zxw"/>
                                                 <constraint firstItem="jLO-e2-ked" firstAttribute="top" secondItem="ACl-mg-6O9" secondAttribute="bottom" constant="30" id="TCK-Hh-shY"/>
                                                 <constraint firstItem="s24-oF-oO3" firstAttribute="leading" secondItem="cIG-jX-z6m" secondAttribute="leading" constant="5" id="TaE-VM-QI0"/>
-                                                <constraint firstAttribute="trailing" secondItem="jLO-e2-ked" secondAttribute="trailing" id="bJf-5d-4Ib"/>
+                                                <constraint firstAttribute="trailing" secondItem="jLO-e2-ked" secondAttribute="trailing" constant="10" id="bJf-5d-4Ib"/>
                                                 <constraint firstItem="s24-oF-oO3" firstAttribute="top" secondItem="cIG-jX-z6m" secondAttribute="top" constant="30" id="cOO-ZK-7og"/>
-                                                <constraint firstItem="ACl-mg-6O9" firstAttribute="leading" secondItem="cIG-jX-z6m" secondAttribute="leading" id="eoV-dI-HGB"/>
-                                                <constraint firstAttribute="trailing" secondItem="ACl-mg-6O9" secondAttribute="trailing" id="gq4-4O-XHe"/>
-                                                <constraint firstAttribute="bottom" secondItem="jLO-e2-ked" secondAttribute="bottom" constant="5" id="pGp-Lo-xtQ"/>
-                                                <constraint firstItem="jLO-e2-ked" firstAttribute="leading" secondItem="cIG-jX-z6m" secondAttribute="leading" id="rja-Kb-Q25"/>
+                                                <constraint firstItem="ACl-mg-6O9" firstAttribute="leading" secondItem="cIG-jX-z6m" secondAttribute="leading" constant="5" id="eoV-dI-HGB"/>
+                                                <constraint firstAttribute="trailing" secondItem="ACl-mg-6O9" secondAttribute="trailing" constant="5" id="gq4-4O-XHe"/>
+                                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="jLO-e2-ked" secondAttribute="bottom" constant="5" id="pGp-Lo-xtQ"/>
+                                                <constraint firstItem="jLO-e2-ked" firstAttribute="leading" secondItem="cIG-jX-z6m" secondAttribute="leading" constant="10" id="rja-Kb-Q25"/>
                                                 <constraint firstItem="ACl-mg-6O9" firstAttribute="top" secondItem="s24-oF-oO3" secondAttribute="bottom" constant="30" id="wiZ-Cd-uVO"/>
                                             </constraints>
                                         </collectionViewCellContentView>
-                                        <size key="customSize" width="341" height="671"/>
+                                        <size key="customSize" width="410" height="671"/>
                                         <connections>
                                             <outlet property="option1" destination="sIE-ru-vtb" id="30r-Zp-QL0"/>
                                             <outlet property="option2" destination="axq-nd-hlG" id="tUH-vk-ZID"/>
@@ -369,12 +383,6 @@
                                     </collectionViewCell>
                                 </cells>
                             </collectionView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uAH-Ec-q2z">
-                                <rect key="frame" x="75" y="10.000000000000002" width="264" height="20.666666666666671"/>
-                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Medium" family="Apple SD Gothic Neo" pointSize="17"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="jzW-BE-7hQ"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -390,7 +398,7 @@
                             <constraint firstAttribute="bottom" secondItem="2JK-Gm-SCb" secondAttribute="bottom" id="fsx-Sv-XHD"/>
                             <constraint firstItem="tbH-XX-Ges" firstAttribute="top" secondItem="73n-lg-KD1" secondAttribute="bottom" id="fxq-wg-0to"/>
                             <constraint firstItem="uAH-Ec-q2z" firstAttribute="top" secondItem="jzW-BE-7hQ" secondAttribute="top" constant="10" id="g7n-mg-yzb"/>
-                            <constraint firstAttribute="bottom" secondItem="tbH-XX-Ges" secondAttribute="bottom" id="oMT-P0-nzH"/>
+                            <constraint firstItem="jzW-BE-7hQ" firstAttribute="bottom" secondItem="tbH-XX-Ges" secondAttribute="bottom" id="oMT-P0-nzH"/>
                             <constraint firstItem="jzW-BE-7hQ" firstAttribute="trailing" secondItem="q24-aG-9Yw" secondAttribute="trailing" constant="15" id="t6g-Tv-NQb"/>
                             <constraint firstItem="2JK-Gm-SCb" firstAttribute="top" secondItem="eX1-Ki-r69" secondAttribute="top" id="ty1-NQ-rzK"/>
                             <constraint firstItem="q24-aG-9Yw" firstAttribute="top" secondItem="jzW-BE-7hQ" secondAttribute="top" constant="10" id="weL-fB-dfv"/>
@@ -404,7 +412,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kmh-Yn-ZyW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1418.4000000000001" y="-827.58620689655174"/>
+            <point key="canvasLocation" x="2324.6376811594205" y="-828.26086956521749"/>
         </scene>
         <!--ResultVC-->
         <scene sceneID="3Ha-zr-aWa">
@@ -473,6 +481,9 @@
                                 <buttonConfiguration key="configuration" style="plain" title="Back to Home">
                                     <fontDescription key="titleFontDescription" name="AppleSDGothicNeo-Medium" family="Apple SD Gothic Neo" pointSize="20"/>
                                 </buttonConfiguration>
+                                <connections>
+                                    <action selector="backHomeTap:" destination="3eJ-RI-UX5" eventType="touchUpInside" id="yM6-YD-J5E"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ovz-26-uiR"/>
@@ -498,10 +509,13 @@
                             <constraint firstItem="3Sv-6p-iWY" firstAttribute="centerX" secondItem="wgO-wf-3BO" secondAttribute="centerX" id="vd1-UU-JCy"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="points" destination="PAi-zZ-eXZ" id="0OQ-k3-X4f"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zdz-vQ-jZO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2238" y="-457"/>
+            <point key="canvasLocation" x="3144.9275362318845" y="-457.33695652173918"/>
         </scene>
         <!--Favorite TabVC-->
         <scene sceneID="HIT-Bg-Muz">
@@ -516,7 +530,25 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EhN-KG-0Xx" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="426" y="-44"/>
+            <point key="canvasLocation" x="1331.8840579710145" y="-44.021739130434788"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="I0P-7S-Pdi">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="W18-4N-kyb" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="lLK-IV-f8F">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="dM8-ZA-66A"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="l0t-4C-PW3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-349.27536231884062" y="-426.35869565217394"/>
         </scene>
     </scenes>
     <resources>
@@ -533,9 +565,6 @@
         </systemColor>
         <systemColor name="systemPinkColor">
             <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemTealColor">
-            <color red="0.18823529411764706" green="0.69019607843137254" blue="0.7803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

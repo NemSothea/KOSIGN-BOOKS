@@ -7,15 +7,24 @@
 
 import UIKit
 
-class ResultVC: UIViewController {
+class ResultVC: UIViewController, StoryBoarded {
 
+    @IBOutlet weak var points   : UILabel!
+    
+    
+    var point                   = 0
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        self.points.text = "\(point)"
     }
     
-
+    @IBAction func backHomeTap(_ sender: Any) {
+        
+        self.presentingViewController?.presentingViewController?.dismiss(animated: true, completion: nil)
+    }
+    
     /*
     // MARK: - Navigation
 

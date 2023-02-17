@@ -23,7 +23,7 @@ class ReadingQuestionVC: UIViewController {
     
     var answerSelected   = false
     var isCorrectAnswer  = false
-    var  points          = 0
+    var points           = 0
     var index            = 0
     var headerTitle      = ""
     var indexTopik       = 0
@@ -43,7 +43,6 @@ class ReadingQuestionVC: UIViewController {
             self.collectionView.dataSource  = self
             self.collectionView.reloadData()
         }
-        print("ReadingQuestionModel.QuestionModel \(questionsVM.data)")
         
     }
     /* MARK :-
@@ -53,6 +52,29 @@ class ReadingQuestionVC: UIViewController {
         
         self.dismiss(animated: true)
         
+    }
+    @IBAction func nextTap(_ sender : UIButton) {
+        if !answerSelected {
+            let alert = UIAlertController(title: "សូម ជ្រើសរើស", message: "សូម ជ្រើសរើស ចំលើយ ណា មួយ មុន ផ្លាស់ប្តូរ ទៅ សំនួរ ផ្សេង", preferredStyle: .alert)
+            let okAction = UIAlertAction(title: "មិនអីទេ", style: .default)
+            alert.addAction(okAction)
+            present(alert, animated: true,completion: nil)
+            return
+        }
+        answerSelected = false
+        if isCorrectAnswer {
+            points += 1
+        }
+        print(index)
+        if index<(self.questionsVM.data?.questions?.count ?? 0) - 1 {
+            index += 1
+            self.collectionView.scrollToItem(at: IndexPath(row: index, section: 0), at: .right, animated: true)
+        }else {
+            guard let resultVC = storyboard?.instantiateViewController(withIdentifier: "ResultVC") as? ResultVC else {return}
+            resultVC.point = points
+            resultVC.modalPresentationStyle = .fullScreen
+            self.present(resultVC, animated: true)
+        }
     }
 
 }
@@ -66,7 +88,7 @@ extension ReadingQuestionVC : UICollectionViewDelegate, UICollectionViewDataSour
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
-        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "ReadingQuestionCollectionViewCell", for: indexPath) as? ReadingQuestionCollectionViewCell else {
+        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as? ReadingQuestionCollectionViewCell else {
             return ReadingQuestionCollectionViewCell()
         }
         cell.optionA.layer.cornerRadius = 5

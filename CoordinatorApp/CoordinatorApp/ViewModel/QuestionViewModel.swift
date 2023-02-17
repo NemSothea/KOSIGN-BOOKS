@@ -15,14 +15,16 @@ class QuestionViewModel {
      
      */
     func getData(index : Int) {
-        var Questions = "24"
+        
+        var i = "24"
         switch index {
         case 0 :
-            Questions = "24"
+            i = "24"
         default :
             break
         }
-        self.data =  Bundle.main.decode(ReadingQuestionModel.QuestionModel.self, from:"Question\(Questions).json")
+        
+        self.data =  Bundle.main.decode(ReadingQuestionModel.QuestionModel.self, from:"Question\(i).json")
         
     }
     
