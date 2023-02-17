@@ -23,8 +23,9 @@ class ReadingQuestionVC: UIViewController {
     
     var answerSelected   = false
     var isCorrectAnswer  = false
-    var points           = 0
+    var correctAwswer    = 0
     var index            = 0
+    var totalScore       = 0
     var headerTitle      = ""
     var indexTopik       = 0
     
@@ -63,14 +64,15 @@ class ReadingQuestionVC: UIViewController {
         }
         answerSelected = false
         if isCorrectAnswer {
-            points += 1
+            correctAwswer += 1
+            totalScore += Int(self.questionsVM.data?.questions?[index].score ?? "") ?? 0
         }
         if index<(self.questionsVM.data?.questions?.count ?? 0) - 1 {
             index += 1
             self.collectionView.scrollToItem(at: IndexPath(row: index, section: 0), at: .right, animated: true)
         }else {
             guard let resultVC = storyboard?.instantiateViewController(withIdentifier: "ResultVC") as? ResultVC else {return}
-            resultVC.data          = ["\(points)","\(self.questionsVM.data?.questions?.count ?? 0)"]
+            resultVC.data          = ["\(totalScore)","\(correctAwswer)","\(self.questionsVM.data?.questions?.count ?? 0)"]
             resultVC.modalPresentationStyle = .fullScreen
             self.present(resultVC, animated: true)
         }

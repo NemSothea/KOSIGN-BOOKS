@@ -8,18 +8,21 @@
 import UIKit
 
 class ResultVC: UIViewController, StoryBoarded {
-
-    @IBOutlet weak var points       : UILabel!
-    @IBOutlet weak var questions    : UILabel!
     
+    @IBOutlet weak var score    : UILabel!
+    @IBOutlet weak var correct       : UILabel!
+    @IBOutlet weak var questions    : UILabel!
+  
     var data = [String]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        self.points.text    = "\(data[0])"
-        self.questions.text      = "\(data[1])"
+        self.score.text = "\(data[0])"
+        self.correct.text    = "\(data[1])"
+        self.questions.text      = "\(data[2])"
+        
         
     }
     
