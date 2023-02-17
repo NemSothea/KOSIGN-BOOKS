@@ -55,6 +55,12 @@ class ReadingQuestionVC: UIViewController {
         
     }
     @IBAction func nextTap(_ sender : UIButton) {
+        /*TESTING
+        if index<(self.questionsVM.data?.questions?.count ?? 0) - 1 {
+            index += 1
+            self.collectionView.scrollToItem(at: IndexPath(row: index, section: 0), at: .right, animated: true)
+        }
+        */
         if !answerSelected {
             let alert = UIAlertController(title: "សូម ជ្រើសរើស", message: "សូម ជ្រើសរើស ចំលើយ ណា មួយ មុន ផ្លាស់ប្តូរ ទៅ សំនួរ ផ្សេង", preferredStyle: .alert)
             let okAction = UIAlertAction(title: "មិនអីទេ", style: .default)
@@ -76,6 +82,7 @@ class ReadingQuestionVC: UIViewController {
             resultVC.modalPresentationStyle = .fullScreen
             self.present(resultVC, animated: true)
         }
+         
     }
 
 }
