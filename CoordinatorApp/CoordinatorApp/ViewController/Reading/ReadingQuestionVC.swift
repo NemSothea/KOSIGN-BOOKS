@@ -65,13 +65,12 @@ class ReadingQuestionVC: UIViewController {
         if isCorrectAnswer {
             points += 1
         }
-        print(index)
         if index<(self.questionsVM.data?.questions?.count ?? 0) - 1 {
             index += 1
             self.collectionView.scrollToItem(at: IndexPath(row: index, section: 0), at: .right, animated: true)
         }else {
             guard let resultVC = storyboard?.instantiateViewController(withIdentifier: "ResultVC") as? ResultVC else {return}
-            resultVC.point = points
+            resultVC.data          = ["\(points)","\(self.questionsVM.data?.questions?.count ?? 0)"]
             resultVC.modalPresentationStyle = .fullScreen
             self.present(resultVC, animated: true)
         }

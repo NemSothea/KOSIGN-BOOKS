@@ -9,15 +9,18 @@ import UIKit
 
 class ResultVC: UIViewController, StoryBoarded {
 
-    @IBOutlet weak var points   : UILabel!
+    @IBOutlet weak var points       : UILabel!
+    @IBOutlet weak var questions    : UILabel!
     
+    var data = [String]()
     
-    var point                   = 0
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        self.points.text = "\(point)"
+        self.points.text    = "\(data[0])"
+        self.questions.text      = "\(data[1])"
+        
     }
     
     @IBAction func backHomeTap(_ sender: Any) {

@@ -86,22 +86,22 @@ class ReadingQuestionCollectionViewCell: UICollectionViewCell {
     func changeBorder(selectedOption : SelectionOption) {
         switch selectedOption {
         case .optionA :
-            updateBorder(myView: optionA,borderWidth: 2)
+            updateBorder(myView: optionA,borderWidth: 1)
             updateBorder(myView: optionB)
             updateBorder(myView: optionC)
             updateBorder(myView: optionD)
         case .optionB :
-            updateBorder(myView: optionB,borderWidth: 2)
+            updateBorder(myView: optionB,borderWidth: 1)
             updateBorder(myView: optionA)
             updateBorder(myView: optionC)
             updateBorder(myView: optionD)
         case .optionC :
-            updateBorder(myView: optionC,borderWidth: 2)
+            updateBorder(myView: optionC,borderWidth: 1)
             updateBorder(myView: optionA)
             updateBorder(myView: optionB)
             updateBorder(myView: optionD)
         case .optionD :
-            updateBorder(myView: optionD,borderWidth: 2)
+            updateBorder(myView: optionD,borderWidth: 1)
             updateBorder(myView: optionA)
             updateBorder(myView: optionB)
             updateBorder(myView: optionC)

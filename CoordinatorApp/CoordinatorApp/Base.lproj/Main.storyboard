@@ -511,6 +511,7 @@
                     </view>
                     <connections>
                         <outlet property="points" destination="PAi-zZ-eXZ" id="0OQ-k3-X4f"/>
+                        <outlet property="questions" destination="3So-tu-mKF" id="IAl-VU-64P"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zdz-vQ-jZO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
