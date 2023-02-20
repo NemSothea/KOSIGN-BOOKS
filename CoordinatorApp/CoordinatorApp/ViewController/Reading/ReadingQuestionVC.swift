@@ -44,6 +44,7 @@ class ReadingQuestionVC: UIViewController {
             self.collectionView.dataSource  = self
             self.collectionView.reloadData()
         }
+      
         
     }
     /* MARK :-
@@ -72,6 +73,12 @@ class ReadingQuestionVC: UIViewController {
         if isCorrectAnswer {
             correctAwswer += 1
             totalScore += Int(self.questionsVM.data?.questions?[index].score ?? "") ?? 0
+        }else {
+            let alert = UIAlertController(title: "សូម ព្យាយាម ម្តង ទៀត", message: "ចំលើយ ដែលបាន ជ្រើសរើស  មិនត្រឹមត្រូវ ទេ", preferredStyle: .alert)
+            let okAction = UIAlertAction(title: "អូខេ", style: .default)
+            alert.addAction(okAction)
+            present(alert, animated: true,completion: nil)
+            return
         }
         if index<(self.questionsVM.data?.questions?.count ?? 0) - 1 {
             index += 1

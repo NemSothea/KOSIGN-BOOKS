@@ -17,6 +17,7 @@ class ReadingQuestionCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var sectionLabel     : UILabel!
     @IBOutlet weak var questionLabel    : UILabel!
+    @IBOutlet weak var questionImg      : UIImageView!
     
     @IBOutlet weak var option1          : UILabel!
     @IBOutlet weak var option2          : UILabel!
@@ -42,6 +43,20 @@ class ReadingQuestionCollectionViewCell: UICollectionViewCell {
             self.option4.text       = setValues?.option_4
             correctionAnswer        = setValues?.correctAnswer
             
+        }
+    }
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        
+    }
+    
+    func configureCell() {
+        if self.setValues?.isImg == "y" {
+            self.questionImg.image = UIImage(named: "\(setValues?.question ?? "")")
+            self.questionImg.isHidden = false
+        }else {
+            self.questionImg.isHidden = true
         }
     }
     override func prepareForReuse() {

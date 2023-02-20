@@ -260,12 +260,13 @@
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ACl-mg-6O9">
                                                     <rect key="frame" x="5" y="101" width="400" height="81.666666666666686"/>
                                                     <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sFA-7z-MFY">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sFA-7z-MFY">
                                                             <rect key="frame" x="0.0" y="0.0" width="400" height="81.666666666666671"/>
                                                             <string key="text">Default navigation back button is empty Default navigation back button is empty Default navigation back button is empty Default navigation back button is empty</string>
                                                             <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="17"/>
                                                             <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
+                                                            <size key="shadowOffset" width="0.0" height="1"/>
                                                         </label>
                                                         <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ugc-6s-Wnl">
                                                             <rect key="frame" x="0.0" y="0.0" width="400" height="0.0"/>
@@ -382,6 +383,7 @@
                                             <outlet property="optionB" destination="lEp-Yt-SxI" id="dJm-Mo-DJb"/>
                                             <outlet property="optionC" destination="SnG-07-ZUb" id="sfo-Ax-xMW"/>
                                             <outlet property="optionD" destination="NLu-Oz-qVe" id="vNB-jn-9nW"/>
+                                            <outlet property="questionImg" destination="Ugc-6s-Wnl" id="pay-jd-gFn"/>
                                             <outlet property="questionLabel" destination="sFA-7z-MFY" id="cuY-f9-QVo"/>
                                             <outlet property="sectionLabel" destination="s24-oF-oO3" id="1eF-GO-1sh"/>
                                         </connections>
