@@ -257,24 +257,36 @@
                                                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="ACl-mg-6O9">
-                                                    <rect key="frame" x="5" y="101" width="400" height="81.666666666666686"/>
+                                                <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ACl-mg-6O9">
+                                                    <rect key="frame" x="5" y="101" width="400" height="228"/>
                                                     <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sFA-7z-MFY">
-                                                            <rect key="frame" x="0.0" y="0.0" width="400" height="81.666666666666671"/>
-                                                            <string key="text">Default navigation back button is empty Default navigation back button is empty Default navigation back button is empty Default navigation back button is empty</string>
-                                                            <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="17"/>
-                                                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sFA-7z-MFY">
+                                                            <rect key="frame" x="0.0" y="0.0" width="0.0" height="228"/>
+                                                            <attributedString key="attributedText">
+                                                                <fragment>
+                                                                    <string key="content">Default navigation back button is empty Default navigation back button is empty Default navigation back button is empty Default navigation back button is empty</string>
+                                                                    <attributes>
+                                                                        <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                        <font key="NSFont" size="17" name="AppleSDGothicNeo-Regular"/>
+                                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="1.2" tighteningFactorForTruncation="0.0"/>
+                                                                    </attributes>
+                                                                </fragment>
+                                                            </attributedString>
                                                             <nil key="highlightedColor"/>
                                                             <size key="shadowOffset" width="0.0" height="1"/>
                                                         </label>
-                                                        <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Ugc-6s-Wnl">
-                                                            <rect key="frame" x="0.0" y="0.0" width="400" height="0.0"/>
+                                                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" image="35_7_img.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ugc-6s-Wnl">
+                                                            <rect key="frame" x="0.0" y="0.0" width="400" height="228"/>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                                    <integer key="value" value="5"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                            </userDefinedRuntimeAttributes>
                                                         </imageView>
                                                     </subviews>
                                                 </stackView>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="jLO-e2-ked">
-                                                    <rect key="frame" x="10" y="212.66666666666663" width="390" height="230"/>
+                                                    <rect key="frame" x="10" y="359" width="390" height="230"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="by1-i4-1dJ" customClass="UIControl">
                                                             <rect key="frame" x="0.0" y="0.0" width="390" height="50"/>
@@ -298,7 +310,7 @@
                                                             </connections>
                                                         </view>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lEp-Yt-SxI" customClass="UIControl">
-                                                            <rect key="frame" x="0.0" y="60.000000000000028" width="390" height="50"/>
+                                                            <rect key="frame" x="0.0" y="60" width="390" height="50"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Default navigation back button is empty Default navigation back button is empty" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="axq-nd-hlG">
                                                                     <rect key="frame" x="10" y="0.0" width="380" height="50"/>
@@ -318,7 +330,7 @@
                                                             </connections>
                                                         </view>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SnG-07-ZUb" customClass="UIControl">
-                                                            <rect key="frame" x="0.0" y="120.00000000000003" width="390" height="50"/>
+                                                            <rect key="frame" x="0.0" y="120" width="390" height="50"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Default navigation back button is empty Default navigation back button is empty" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="leJ-FG-pfP">
                                                                     <rect key="frame" x="10" y="0.0" width="380" height="50"/>
@@ -338,7 +350,7 @@
                                                             </connections>
                                                         </view>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NLu-Oz-qVe" customClass="UIControl">
-                                                            <rect key="frame" x="0.0" y="180.00000000000003" width="390" height="50"/>
+                                                            <rect key="frame" x="0.0" y="180" width="390" height="50"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Default navigation back button is empty Default navigation back button is empty" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zOy-OC-1pg">
                                                                     <rect key="frame" x="10" y="0.0" width="380" height="50"/>
@@ -578,6 +590,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="35_7_img.png" width="766" height="228"/>
         <image name="Purple Neon Icons Homescreen Wallpaper" width="540" height="960"/>
         <image name="Purple Neon Icons Homescreen Wallpaper 1" width="540" height="960"/>
         <image name="clock.badge.questionmark.fill" catalog="system" width="128" height="114"/>

@@ -36,7 +36,16 @@ class ReadingQuestionCollectionViewCell: UICollectionViewCell {
         didSet {
             
             self.sectionLabel.text  = setValues?.sections
-            self.questionLabel.text = setValues?.question
+            
+            if self.setValues?.isImg == "y" {
+                self.questionImg.isHidden = false
+                self.questionImg.image = UIImage(named: setValues?.question ?? "")
+            }else {
+                self.questionImg.isHidden = true
+                self.questionImg.image = nil
+                self.questionLabel.text = setValues?.question
+            }
+            
             self.option1.text       = setValues?.option_1
             self.option2.text       = setValues?.option_2
             self.option3.text       = setValues?.option_3
@@ -49,15 +58,6 @@ class ReadingQuestionCollectionViewCell: UICollectionViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         
-    }
-    
-    func configureCell() {
-        if self.setValues?.isImg == "y" {
-            self.questionImg.image = UIImage(named: "\(setValues?.question ?? "")")
-            self.questionImg.isHidden = false
-        }else {
-            self.questionImg.isHidden = true
-        }
     }
     override func prepareForReuse() {
         updateBorder(myView: optionA)
