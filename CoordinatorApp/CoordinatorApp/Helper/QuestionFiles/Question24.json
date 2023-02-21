@@ -6,6 +6,7 @@
             "option_2"      : "②    미리",
             "option_3"      : "③    거의",
             "option_4"      : "④    아직",
+            "detail"        : "I bought it in advance because it was difficult to get a movie ticket on the weekend.",
             "correctAnswer" : "②    미리",
             "score"         : "3",
             "isImg"         : "n"
@@ -16,6 +17,7 @@
             "option_2"      : "②    소문",
             "option_3"      : "③    기억",
             "option_4"      : "④    고장",
+            "detail"        : "I can't remember where I put the key.",
             "correctAnswer" : "③    기억",
             "score"         : "3",
             "isImg"         : "n"
@@ -26,6 +28,7 @@
             "option_2"      : "②    짓는",
             "option_3"      : "③    믿는",
             "option_4"      : "④    찾는",
+            "detail"        : "As the temperature suddenly drops, the number of cold patients visiting the hospital is rising.",
             "correctAnswer" : "④    찾는",
             "score"         : "3",
             "isImg"         : "n"
@@ -36,6 +39,7 @@
             "option_2"      : "②    솔직하게",
             "option_3"      : "③    중요하게",
             "option_4"      : "④    편리하게",
+            "detail"        : "When consulting, it's better to answer honestly to what the counselor asks.",
             "correctAnswer" : "②    솔직하게",
             "score"         : "3",
             "isImg"         : "n"
@@ -46,6 +50,7 @@
             "option_2"      : "②    감정",
             "option_3"      : "③    상상",
             "option_4"      : "④    욕심",
+            "detail"        : "People live hard with hope for the future.",
             "correctAnswer" : "①    희망",
             "score"         : "4",
             "isImg"         : "n"
@@ -56,6 +61,7 @@
             "option_2"      : "②    순서",
             "option_3"      : "③    결과",
             "option_4"      : "④    단계",
+            "detail"        : "People who came to vote are waiting in line for their turn.",
             "correctAnswer" : "④    단계",
             "score"         : "3",
             "isImg"         : "n"
@@ -66,6 +72,7 @@
             "option_2"      : "②    지나면서",
             "option_3"      : "③    향하면서",
             "option_4"      : "④    변하면서",
+            "detail"        : "As the world changed rapidly due to the development of science, people's lives have changed a lot.",
             "correctAnswer" : "④    변하면서",
             "score"         : "3",
             "isImg"         : "n"
@@ -76,6 +83,7 @@
             "option_2"      : "②    바르게",
             "option_3"      : "③    낯설게",
             "option_4"      : "④    흔하게",
+            "detail"        : "It shouldn't be seen easily (= lightly) just because it's a small wound.",
             "correctAnswer" : "①    가볍게",
             "score"         : "4",
             "isImg"         : "n"
@@ -86,6 +94,7 @@
             "option_2"      : "②    적어도",
             "option_3"      : "③    절대로",
             "option_4"      : "④    당연히",
+            "detail"        : "He never breaks a promise to a client no matter what happens.",
             "correctAnswer" : "③    절대로",
             "score"         : "4",
             "isImg"         : "n"
@@ -96,6 +105,7 @@
             "option_2"      : "②    넣다",
             "option_3"      : "③    가지다",
             "option_4"      : "④    남기다",
+            "detail"        : "Put things that you don't use in the warehouse. I just put my bag and the rest was all in the car. I need to think about it while.",
             "correctAnswer" : "①    두다",
             "score"         : "3",
             "isImg"         : "n"
@@ -107,6 +117,7 @@
             "option_2"      : "②    쏟다",
             "option_3"      : "③    따르다",
             "option_4"      : "④    채우다",
+            "detail"        : "Filled the bottle with orange juice and put it in the bag. My mother wrote a letter with all her heart. I sent it to fill the CD with beautiful music.",
             "correctAnswer" : "④    채우다",
             "score"         : "3",
             "isImg"         : "n"
@@ -118,6 +129,7 @@
             "option_2"      : "②    뽑아",
             "option_3"      : "③    주워",
             "option_4"      : "④    떼어",
+            "detail"        : " I put the name tags of the people attending the meeting on the seats.",
             "correctAnswer" : "④    떼어",
             "score"         : "3",
             "isImg"         : "n"
@@ -129,6 +141,7 @@
             "option_2"      : "②    싱싱해서",
             "option_3"      : "③    튼튼해서",
             "option_4"      : "④    단단해서",
+            "detail"        : "This table has weak legs, so you can't put heavy objects on.",
             "correctAnswer" : "④    튼튼해서",
             "score"         : "4",
             "isImg"         : "n"
@@ -140,6 +153,7 @@
             "option_2"      : "②    가깝다니요",
             "option_3"      : "③    가까운데요",
             "option_4"      : "④    가깝거든요",
+            "detail"        : "What are you going to take to the airport tomorrow? I will take a bus The bus stop is close to my house.",
             "correctAnswer" : "④    가깝거든요",
             "score"         : "3",
             "isImg"         : "n"
@@ -151,6 +165,7 @@
             "option_2"      : "②    키우려면",
             "option_3"      : "③    키우기에",
             "option_4"      : "④    키울수록",
+            "detail"        : "What should I do to grow this flower well? Put it in a sunny place, and give me water once every two days.",
             "correctAnswer" : "②    키우려면",
             "score"         : "4",
             "isImg"         : "n"
@@ -162,6 +177,7 @@
             "option_2"      : "②    만큼",
             "option_3"      : "③    까지",
             "option_4"      : "④    마저",
+            "detail"        : "You must have had a hard time preparing for the exhibition. My colleagues and juniors helped me a lot, so it wasn't as hard as I thought.",
             "correctAnswer" : "②    만큼",
             "score"         : "3",
             "isImg"         : "n"
@@ -173,6 +189,7 @@
             "option_2"      : "②    잘못될 리가 없어요",
             "option_3"      : "③    잘못될 수밖에 없어요",
             "option_4"      : "④    잘못되는 수가 있어요",
+            "detail"        : "I made a reservation by phone and went to the restaurant, but there was no reservation. Did you say Sometimes it can be wrong if you make a reservation by phone.",
             "correctAnswer" : "④    잘못되는 수가 있어요",
             "score"         : "3",
             "isImg"         : "n"
@@ -184,6 +201,7 @@
         "option_2"      : "②    벗어나기만 해도",
         "option_3"      : "③    벗어나나 마나",
         "option_4"      : "④    벗어났을 정도로",
+        "detail"        : "It's been a long time since I've been outdoors and I feel very refreshed. Yes, the air is really different just by getting out of town a little bit.",
         "correctAnswer" : "③    벗어나나 마나",
         "score"         : "3",
         "isImg"         : "n"
@@ -195,6 +213,7 @@
             "option_2"      : "②    들어오다 보면",
             "option_3"      : "③    들어오고 나니까",
             "option_4"      : "④    들어올 게 아니라",
+            "detail"        : "A : I'm on my way home now. Do you need anything.\nB : That's good for you. Please buy me some digestive medicine on the way in.",
             "correctAnswer" : "①    들어오다가",
             "score"         : "4",
             "isImg"         : "n"
@@ -206,6 +225,7 @@
             "option_2"      : "②    가 보는 대신에",
             "option_3"      : "③    가 본다고 해도",
             "option_4"      : "④    가 보려던 참에",
+            "detail"        : "A : I think it's a little expensive, so should we look around somewhere else?\nB : I don't know. Wouldn't the prices be the same if we go somewhere else?",
             "correctAnswer" : "③    가 본다고 해도",
             "score"         : "4",
             "isImg"         : "n"
@@ -217,6 +237,7 @@
             "option_2"      : "②    돌아왔으면 해요",
             "option_3"      : "③    돌아오는 셈이에요",
             "option_4"      : "④    돌아오기 마련이에요",
+            "detail"        : "A : I'm sorry I couldn't finish my work.\nB : No, it's not. I hope you get well and come back soon.",
             "correctAnswer" : "②    돌아왔으면 해요",
             "score"         : "3",
             "isImg"         : "n"
@@ -228,6 +249,7 @@
             "option_2"      : "②    첫날에 비해서",
             "option_3"      : "③    첫날이라면 몰라도",
             "option_4"      : "④    첫날이라서 그런지",
+            "detail"        : "A : I heard you started a free gymnastics class at the children's playground in the apartment complex.\nB : Yes, I also went yesterday, and there weren't that many people because it was the first day.\nA : Really? Then should I go this evening, too?\nB : It would be nice to go together. You don't have to go far to work out. You're close. It's nice to work out and get close to your neighbors.",
             "correctAnswer" : "④    첫날이라서 그런지",
             "score"         : "3",
             "isImg"         : "n"
@@ -239,6 +261,7 @@
             "option_2"      : "②    오히려",
             "option_3"      : "③    무조건",
             "option_4"      : "④    일부러",
+            "detail"        : "A : I heard you started a free gymnastics class at the children's playground in the apartment complex.\nB : Yes, I also went yesterday, and there weren't that many people because it was the first day.\nA : Really? Then should I go this evening, too?\nB : It would be nice to go together. You don't have to go far to work out. You're close. It's nice to work out and get close to your neighbors.",
             "correctAnswer" : "④    일부러",
             "score"         : "3",
             "isImg"         : "n"
@@ -250,6 +273,7 @@
             "option_2"      : "②    다툰 듯한",
             "option_3"      : "③    다툰 척하는",
             "option_4"      : "④    다투고 있는",
+            "detail"        : "Everyone must have at least one experience of hearing advice from others and arguing because they couldn't hold back their anger for a moment. The other person said it in a good way, but they feels bad because they thinks they is pointing out they fault. However, if you think about it carefully, advice makes you realize wrong habits or attitudes that you did not know. Like the story.",
             "correctAnswer" : "①    다투고 만",
             "score"         : "3",
             "isImg"         : "n"
@@ -261,6 +285,7 @@
         "option_2"      : "②    앓던 이가 빠진 것 같다",
         "option_3"      : "③    입에 쓴 약이 병에는 좋다",
         "option_4"      : "④    윗물이 맑아야 아랫물이 맑다",
+        "detail"        : "Everyone must have at least one experience of hearing advice from others and arguing because they couldn't hold back their anger for a moment. The other person said it in a good way, but they feels bad because they thinks they is pointing out they fault. However, if you think about it carefully, advice makes you realize wrong habits or attitudes that you did not know. Like the story.",
         "correctAnswer" : "③    입에 쓴 약이 병에는 좋다",
         "score"         : "3",
         "isImg"         : "n"

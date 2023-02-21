@@ -56,15 +56,15 @@ class ReadingQuestionVC: UIViewController {
         
     }
     @IBAction func nextTap(_ sender : UIButton) {
-        //TESTING
+        /*TESTING
         if index<(self.questionsVM.data?.questions?.count ?? 0) - 1 {
             index += 1
             self.collectionView.scrollToItem(at: IndexPath(row: index, section: 0), at: .right, animated: true)
         }
-        /*
+       */
         if !answerSelected {
-            let alert = UIAlertController(title: "សូម ជ្រើសរើស", message: "សូម ជ្រើសរើស ចំលើយ ណា មួយ មុន ផ្លាស់ប្តូរ ទៅ សំនួរ ផ្សេង", preferredStyle: .alert)
-            let okAction = UIAlertAction(title: "មិនអីទេ", style: .default)
+            let alert = UIAlertController(title: "알림", message: "선택하주기 바랍니다", preferredStyle: .alert)
+            let okAction = UIAlertAction(title: "확인", style: .default)
             alert.addAction(okAction)
             present(alert, animated: true,completion: nil)
             return
@@ -74,8 +74,8 @@ class ReadingQuestionVC: UIViewController {
             correctAwswer += 1
             totalScore += Int(self.questionsVM.data?.questions?[index].score ?? "") ?? 0
         }else {
-            let alert = UIAlertController(title: "សូម ព្យាយាម ម្តង ទៀត", message: "ចំលើយ ដែលបាន ជ្រើសរើស  មិនត្រឹមត្រូវ ទេ", preferredStyle: .alert)
-            let okAction = UIAlertAction(title: "អូខេ", style: .default)
+            let alert = UIAlertController(title: "자세하기", message: "\(self.questionsVM.data?.questions?[index].detail ?? "")", preferredStyle: .alert)
+            let okAction = UIAlertAction(title: "확인", style: .default)
             alert.addAction(okAction)
             present(alert, animated: true,completion: nil)
             return
@@ -89,7 +89,7 @@ class ReadingQuestionVC: UIViewController {
             resultVC.modalPresentationStyle = .fullScreen
             self.present(resultVC, animated: true)
         }
-         */
+         
     }
 
 }

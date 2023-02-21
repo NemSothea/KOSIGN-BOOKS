@@ -20,6 +20,7 @@ struct ReadingQuestionModel : Codable {
         var option_3        : String?
         var option_4        : String?
         var question        : String?
+        var detail          : String?
         var sections        : String?
         var score           : String?
         var isImg           : String?

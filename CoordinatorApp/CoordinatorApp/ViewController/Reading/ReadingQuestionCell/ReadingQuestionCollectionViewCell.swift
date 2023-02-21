@@ -38,6 +38,7 @@ class ReadingQuestionCollectionViewCell: UICollectionViewCell {
             self.sectionLabel.text  = setValues?.sections
             
             if self.setValues?.isImg == "y" {
+                self.questionLabel.text = nil
                 self.questionImg.isHidden = false
                 self.questionImg.image = UIImage(named: setValues?.question ?? "")
             }else {
