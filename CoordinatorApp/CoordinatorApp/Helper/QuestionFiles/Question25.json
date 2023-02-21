@@ -6,7 +6,7 @@
             "option_2"      : "②    남았다",
             "option_3"      : "③    떠났다",
             "option_4"      : "④    나왔다",
-            "detail"        : "",
+            "detail"        : "I bought the things I needed cheaply and have some money left.",
             "correctAnswer" : "②    남았다",
             "score"         : "3",
             "isImg"         : "n"
@@ -17,7 +17,7 @@
             "option_2"      : "②    아직",
             "option_3"      : "③    제발",
             "option_4"      : "④    별로",
-            "detail"        : "",
+            "detail"        : "I felt better and better while I was talking with my friend about something interesting.",
             "correctAnswer" : "①    점점",
             "score"         : "3",
             "isImg"         : "n"
@@ -28,7 +28,7 @@
             "option_2"      : "②    따라야",
             "option_3"      : "③    돌아야",
             "option_4"      : "④    이어야",
-            "detail"        : "",
+            "detail"        : "I had to go around the parking lot to find a place to park.",
             "correctAnswer" : "③    돌아야",
             "score"         : "3",
             "isImg"         : "n"
@@ -39,7 +39,7 @@
             "option_2"      : "②    그립다",
             "option_3"      : "③    불쌍하다",
             "option_4"      : "④    안타깝다",
-            "detail"        : "",
+            "detail"        : "I miss my family in my hometown because I am sick.",
             "correctAnswer" : "③    불쌍하다",
             "score"         : "3",
             "isImg"         : "n"
@@ -50,7 +50,7 @@
             "option_2"      : "②   자격",
             "option_3"      : "③   요청",
             "option_4"      : "④   정신",
-            "detail"        : "",
+            "detail"        : "The role of a teacher is to teach students and lead them on the right path.",
             "correctAnswer" : "①   역할",
             "score"         : "4",
             "isImg"         : "n"
@@ -61,7 +61,7 @@
             "option_2"      : "②    익숙해서",
             "option_3"      : "③    가벼워서",
             "option_4"      : "④    부드러워서",
-            "detail"        : "",
+            "detail"        : "This meat is so soft that it seems to be good for everyone to eat.",
             "correctAnswer" : "④    부드러워서",
             "score"         : "3",
             "isImg"         : "n"
@@ -72,7 +72,7 @@
             "option_2"      : "②    가득",
             "option_3"      : "③    더욱",
             "option_4"      : "④    살짝",
-            "detail"        : "",
+            "detail"        : "There were a lot of things full in the warehouse, so I couldn't go inside.",
             "correctAnswer" : "②    가득",
             "score"         : "4",
             "isImg"         : "n"
@@ -83,7 +83,7 @@
             "option_2"      : "②    채운",
             "option_3"      : "③    담은",
             "option_4"      : "④    이룬",
-            "detail"        : "",
+            "detail"        : "Seeing the flowers in full bloom, I can feel the value of growing them with sincerity.",
             "correctAnswer" : "②    채운",
             "score"         : "4",
             "isImg"         : "n"
@@ -94,29 +94,29 @@
             "option_2"      : "②    재주",
             "option_3"      : "③    적성",
             "option_4"      : "④    흥미",
-            "detail"        : "",
+            "detail"        : "He is popular among his friends because of his ability to make people laugh.",
             "correctAnswer" : "②    재주",
             "score"         : "4",
             "isImg"         : "n"
         },
         {   "sections"      : "※ [10~11] 다음 ( )에 공통적으로 들어갈 동사를 고르십시오. ",
-            "question"      : "10.(4점)\n  안개 때문에 사고가 () 길이 많이 막혔다. 노래를 부르는 데에 자신감이 (). 옷을 사자마자 얼룩이 () 속상했다.",
+            "question"      : "10.(4점)\n  안개 때문에 사고가 (  ) 길이 많이 막혔다. 노래를 부르는 데에 자신감이 (  ). 옷을 사자마자 얼룩이 (  ) 속상했다.",
             "option_1"      : "①    묻다",
             "option_2"      : "②    나다",
             "option_3"      : "③    생기다",
             "option_4"      : "④    커지다",
-            "detail"        : "",
+            "detail"        : "There was an accident because of the fog, and the road was blocked a lot. I feel confident in singing. As soon as I bought the clothes, there was a stain and I was upset.",
             "correctAnswer" : "③    생기다",
             "score"         : "4",
             "isImg"         : "n"
         },
         {   "sections"      : "※ [10~11] 다음 ( )에 공통적으로 들어갈 동사를 고르십시오. ",
-            "question"      : "11.(3점)\n 팔을 위로 () 팔 운동을 했다. 영수 씨, 죄송한데 가방을 좀 () 주실래요? 딸은 결혼식을 () 후 곧바로 신혼여행을 갔다.",
+            "question"      : "11.(3점)\n 팔을 위로 (    ) 팔 운동을 했다. 영수 씨, 죄송한데 가방을 좀 (  ) 주실래요? 딸은 결혼식을 (   ) 후 곧바로 신혼여행을 갔다.",
             "option_1"      : "①    받다",
             "option_2"      : "②    들다",
             "option_3"      : "③    마치다",
             "option_4"      : "④    올리다",
-            "detail"        : "",
+            "detail"        : "I put my arms up and did arm exercises. Youngsoo, I'm sorry, but could you put your bag up? The daughter went on a honeymoon right after the wedding.",
             "correctAnswer" : "④    올리다",
             "score"         : "3",
             "isImg"         : "n"
@@ -127,7 +127,7 @@
             "option_2"      : "②   분명하다",
             "option_3"      : "③   정확하다",
             "option_4"      : "④   충분하다",
-            "detail"        : "",
+            "detail"        : "It's exam period, so we don't have enough time to get together and practice.",
             "correctAnswer" : "①   적당하다",
             "score"         : "3",
             "isImg"         : "n"
@@ -138,7 +138,7 @@
             "option_2"      : "②    가라앉는지",
             "option_3"      : "③    흔들리는지",
             "option_4"      : "④    쓰러지는지",
-            "detail"        : "",
+            "detail"        : "It's amazing how such a heavy ship floats in the water.",
             "correctAnswer" : "②    가라앉는지",
             "score"         : "4",
             "isImg"         : "n"
@@ -149,7 +149,7 @@
             "option_2"      : "②    도착했는데요",
             "option_3"      : "③    도착했을걸요",
             "option_4"      : "④    도착했으니까요",
-            "detail"        : "",
+            "detail"        : "A : Have we arrived at the airport by now?\nB : I think we've arrived. It's already been two hours since we left.",
             "correctAnswer" : "①    도착했군요",
             "score"         : "3",
             "isImg"         : "n"
@@ -160,7 +160,7 @@
             "option_2"      : "②    드셔야",
             "option_3"      : "③    드시더니",
             "option_4"      : "④    드시든지",
-            "detail"        : "",
+            "detail"        : "A :  When should I take this medicine?\nB : It doesn't matter when you eat it, but breakfast is better.",
             "correctAnswer" : "④    드시든지",
             "score"         : "4",
             "isImg"         : "n"
@@ -171,7 +171,7 @@
             "option_2"      : "②    만나야지요",
             "option_3"      : "③    만나려고요",
             "option_4"      : "④    만나고말고요",
-            "detail"        : "",
+            "detail"        : "A :  When should I take this medicine?\nB : It doesn't matter when you eat it, but breakfast is better.",
             "correctAnswer" : "①    만나던데요",
             "score"         : "3",
             "isImg"         : "n"
@@ -182,7 +182,7 @@
             "option_2"      : "②    따뜻할 뿐이에요",
             "option_3"      : "③    따뜻할 리가 없어요",
             "option_4"      : "④    따뜻하기만 하면 돼요",
-            "detail"        : "",
+            "detail"        : "A : Have you seen Assistant Manager Lee? I have something to discuss urgently, but he's not here.\nB : I saw a customer on the first floor earlier.",
             "correctAnswer" : "④    따뜻하기만 하면 돼요",
             "score"         : "3",
             "isImg"         : "n"
@@ -193,7 +193,7 @@
             "option_2"      : "②    물어보느라고",
             "option_3"      : "③    물어보나 마나",
             "option_4"      : "④    물어볼 뿐만 아니라",
-            "detail"        : "",
+            "detail"        : "A : Should I ask him to hang out with me tomorrow?\nB : Ask me or not I won't go. He said he had an exam tomorrow.",
             "correctAnswer" : "③    물어보나 마나",
             "score"         : "3",
             "isImg"         : "n"
@@ -204,7 +204,7 @@
             "option_2"      : "②    떠드는 채로",
             "option_3"      : "③    떠드는 바람에",
             "option_4"      : "④    떠드는 덕분에",
-            "detail"        : "",
+            "detail"        : "A: Did you enjoy today's lecture?\nB : No. I couldn't concentrate because people were making so much noise.",
             "correctAnswer" : "③    떠드는 바람에",
             "score"         : "4",
             "isImg"         : "n"
@@ -215,7 +215,7 @@
             "option_2"      : "②    공부할 만해요",
             "option_3"      : "③    공부하는 편이에요",
             "option_4"      : "④    공부하는 모양이에요",
-            "detail"        : "",
+            "detail"        : "A : What does the kid do? I think they came in earlier.\nB : I guess you study in your room because it's quiet.",
             "correctAnswer" : "④    공부하는 모양이에요",
             "score"         : "3",
             "isImg"         : "n"
@@ -226,7 +226,7 @@
             "option_2"      : "②    먹으러 갈게",
             "option_3"      : "③    먹은 셈 칠게",
             "option_4"      : "④    먹은 줄 알았어",
-            "detail"        : "",
+            "detail"        : "A : Thanks for your help. I'll treat you to dinner tonight.\nB : No, it's not. It's not a big deal. I'll think I just ate today.",
             "correctAnswer" : "③    먹은 셈 칠게",
             "score"         : "3",
             "isImg"         : "n"
@@ -237,7 +237,7 @@
             "option_2"      : "②    저절로",
             "option_3"      : "③    소중히",
             "option_4"      : "④    여전히",
-            "detail"        : "",
+            "detail"        : "A : I heard you went to the reunion yesterday. What was that like?\nB : It's been a few years since I've been there. It's still comfortable and nice because they're my childhood friends.\nA : Do you often have alumni meetings?\nB : No, it's not.About once a year. be busy with each other It's hard to see each other often.",
             "correctAnswer" : "④    여전히",
             "score"         : "3",
             "isImg"         : "n"
@@ -248,7 +248,7 @@
             "option_2"      : "②    사는 한편",
             "option_3"      : "③    살다 보면",
             "option_4"      : "④    살 테니까",
-            "detail"        : "",
+            "detail"        : "A : I heard you went to the reunion yesterday. What was that like?\nB : It's been a few years since I've been there. It's still comfortable and nice because they're my childhood friends.\nA : Do you often have alumni meetings?\nB : No, it's not.About once a year. be busy with each other It's hard to see each other often.",
             "correctAnswer" : "③    살다 보면",
             "score"         : "3",
             "isImg"         : "n"
@@ -259,7 +259,7 @@
             "option_2"      : "②    원숭이도 나무에서 떨어진다",
             "option_3"      : "③    고래 싸움에 새우 등 터진다",
             "option_4"      : "④    개구리 올챙이 적 생각 못 한다",
-            "detail"        : "",
+            "detail"        : "I was surprised while watching the news last night. An announcer with 30 years of experience made a mistake by misrepresenting the name of a foreign politician on a live broadcast. The announcer, who had never made such a mistake, was very embarrassed. Looking at the announcer's appearance, I suddenly remembered the saying, 'Even a monkey falls from a tree'.No matter how familiar you are, you can make a mistake unless you are careful.",
             "correctAnswer" : "②    원숭이도 나무에서 떨어진다",
             "score"         : "3",
             "isImg"         : "n"
@@ -270,7 +270,7 @@
             "option_2"      : "②    조심하지 않을지라도",
             "option_3"      : "③    조심하지 않는다길래",
             "option_4"      : "④    조심하지 않기는 하지만",
-            "detail"        : "",
+            "detail"        : "I was surprised while watching the news last night. An announcer with 30 years of experience made a mistake by misrepresenting the name of a foreign politician on a live broadcast. The announcer, who had never made such a mistake, was very embarrassed. Looking at the announcer's appearance, I suddenly remembered the saying, 'Even a monkey falls from a tree'.No matter how familiar you are, you can make a mistake unless you are careful.",
             "correctAnswer" : "①    조심하지 않는 한",
             "score"         : "3",
             "isImg"         : "n"
