@@ -63,7 +63,7 @@ class ReadingQuestionVC: UIViewController {
         }
        */
         if !answerSelected {
-            let alert = UIAlertController(title: "알림", message: "선택하주기 바랍니다", preferredStyle: .alert)
+            let alert = UIAlertController(title: "알림", message: "선택해주기 바랍니다", preferredStyle: .alert)
             let okAction = UIAlertAction(title: "확인", style: .default)
             alert.addAction(okAction)
             present(alert, animated: true,completion: nil)
