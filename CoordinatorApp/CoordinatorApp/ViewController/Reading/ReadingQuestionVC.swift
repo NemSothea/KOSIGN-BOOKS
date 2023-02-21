@@ -74,10 +74,9 @@ class ReadingQuestionVC: UIViewController {
             correctAwswer += 1
             totalScore += Int(self.questionsVM.data?.questions?[index].score ?? "") ?? 0
         }else {
-            let alert = UIAlertController(title: "자세하기", message: "\(self.questionsVM.data?.questions?[index].detail ?? "")", preferredStyle: .alert)
-            let okAction = UIAlertAction(title: "확인", style: .default)
-            alert.addAction(okAction)
-            present(alert, animated: true,completion: nil)
+            guard let popUpVC = storyboard?.instantiateViewController(withIdentifier: "PopupVC") as? PopupVC else { return }
+            popUpVC.detail = self.questionsVM.data?.questions?[index].detail ?? ""
+            self.present(popUpVC, animated: true)
             return
         }
         if index<(self.questionsVM.data?.questions?.count ?? 0) - 1 {

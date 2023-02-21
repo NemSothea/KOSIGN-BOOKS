@@ -588,6 +588,112 @@
             </objects>
             <point key="canvasLocation" x="-349.27536231884062" y="-426.35869565217394"/>
         </scene>
+        <!--PopupVC-->
+        <scene sceneID="gig-CO-7Aa">
+            <objects>
+                <viewController storyboardIdentifier="PopupVC" id="zZd-DM-lsA" customClass="PopupVC" customModule="CoordinatorApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BQO-K6-44O">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o4Y-P8-tN4" customClass="LocalizedButton" customModule="Bizcard4IPPP" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xj7-3K-tU9">
+                                <rect key="frame" x="7" y="236" width="400" height="500"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L2Y-6y-E8b">
+                                        <rect key="frame" x="30" y="60.000000000000007" width="350" height="117.66666666666669"/>
+                                        <mutableString key="text">Everyone must have at least one experience of hearing advice from others and arguing because they couldn't hold back their anger for a moment. The other person said it in a good way, but they feels bad because they thinks they is pointing out they fault. However, if you think about it carefully, advice makes you realize wrong habits or attitudes that you did not know. Like the story.</mutableString>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="14"/>
+                                        <color key="textColor" red="0.24313725489999999" green="0.2666666667" blue="0.28627450980000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4vJ-63-Yc6" userLabel="LineView">
+                                        <rect key="frame" x="-0.33333333333334281" y="405" width="401" height="1"/>
+                                        <color key="backgroundColor" red="0.92156862750000001" green="0.92156862750000001" blue="0.92156862750000001" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1" id="LxA-u4-tfI"/>
+                                        </constraints>
+                                    </view>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="84a-Fv-43q">
+                                        <rect key="frame" x="42" y="444" width="316" height="29"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vU6-vc-IY3">
+                                                <rect key="frame" x="0.0" y="0.0" width="316" height="29"/>
+                                                <color key="backgroundColor" red="0.79607843140000001" green="0.2901960784" blue="0.30196078430000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="14"/>
+                                                <state key="normal" title="확인">
+                                                    <color key="titleColor" red="0.92156862750000001" green="0.92156862750000001" blue="0.92156862750000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                </state>
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                        <integer key="value" value="5"/>
+                                                    </userDefinedRuntimeAttribute>
+                                                </userDefinedRuntimeAttributes>
+                                                <connections>
+                                                    <action selector="tapClick:" destination="zZd-DM-lsA" eventType="touchUpInside" id="DQu-nU-gvQ"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="알림" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GfX-B6-DuF">
+                                        <rect key="frame" x="24" y="22" width="26" height="18"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="15"/>
+                                        <color key="textColor" red="0.047058823530000002" green="0.25490196079999999" blue="0.60392156860000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="4vJ-63-Yc6" firstAttribute="top" relation="greaterThanOrEqual" secondItem="L2Y-6y-E8b" secondAttribute="bottom" constant="10" id="1Cr-iF-6vh"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="GfX-B6-DuF" secondAttribute="trailing" constant="20" symbolic="YES" id="6Qn-V4-aDe"/>
+                                    <constraint firstItem="GfX-B6-DuF" firstAttribute="leading" secondItem="Xj7-3K-tU9" secondAttribute="leading" constant="24" id="8mU-ZQ-qB6"/>
+                                    <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="L2Y-6y-E8b" secondAttribute="trailing" constant="20" symbolic="YES" id="9OF-Ye-Euw"/>
+                                    <constraint firstItem="GfX-B6-DuF" firstAttribute="top" secondItem="Xj7-3K-tU9" secondAttribute="top" constant="22" id="BPI-Wc-0wo"/>
+                                    <constraint firstAttribute="bottom" secondItem="84a-Fv-43q" secondAttribute="bottom" constant="27" id="Jg1-UN-yto"/>
+                                    <constraint firstItem="4vJ-63-Yc6" firstAttribute="centerX" secondItem="84a-Fv-43q" secondAttribute="centerX" id="S11-pQ-hAI"/>
+                                    <constraint firstItem="L2Y-6y-E8b" firstAttribute="leading" secondItem="Xj7-3K-tU9" secondAttribute="leading" constant="30" id="YjN-ni-EoE"/>
+                                    <constraint firstAttribute="width" constant="400" id="a3H-Yo-Qz1"/>
+                                    <constraint firstItem="4vJ-63-Yc6" firstAttribute="leading" secondItem="Xj7-3K-tU9" secondAttribute="leading" constant="-0.5" id="b1f-2d-MHo"/>
+                                    <constraint firstAttribute="bottom" secondItem="4vJ-63-Yc6" secondAttribute="bottom" constant="94" id="e3t-j3-BPh"/>
+                                    <constraint firstAttribute="height" constant="500" id="fKf-Cz-Psz"/>
+                                    <constraint firstAttribute="trailing" secondItem="84a-Fv-43q" secondAttribute="trailing" constant="42" id="hWE-9A-5g5"/>
+                                    <constraint firstItem="84a-Fv-43q" firstAttribute="leading" secondItem="Xj7-3K-tU9" secondAttribute="leading" constant="42" id="o5j-Xj-tlA"/>
+                                    <constraint firstItem="L2Y-6y-E8b" firstAttribute="top" secondItem="Xj7-3K-tU9" secondAttribute="top" constant="60" id="rXi-nZ-2SZ"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="IWS-6N-z11"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="IWS-6N-z11" firstAttribute="bottom" secondItem="o4Y-P8-tN4" secondAttribute="bottom" id="13Z-eN-YR1"/>
+                            <constraint firstItem="Xj7-3K-tU9" firstAttribute="centerY" secondItem="BQO-K6-44O" secondAttribute="centerY" id="8L8-Gh-8U6"/>
+                            <constraint firstItem="o4Y-P8-tN4" firstAttribute="top" secondItem="IWS-6N-z11" secondAttribute="top" id="E3K-Aq-QSg"/>
+                            <constraint firstItem="IWS-6N-z11" firstAttribute="bottom" secondItem="Xj7-3K-tU9" secondAttribute="bottom" id="Jpx-ga-62C"/>
+                            <constraint firstItem="o4Y-P8-tN4" firstAttribute="leading" secondItem="BQO-K6-44O" secondAttribute="leading" id="N44-Bj-Lcw"/>
+                            <constraint firstItem="Xj7-3K-tU9" firstAttribute="centerX" secondItem="BQO-K6-44O" secondAttribute="centerX" id="Tfd-Iz-iTY"/>
+                            <constraint firstItem="o4Y-P8-tN4" firstAttribute="trailing" secondItem="IWS-6N-z11" secondAttribute="trailing" id="ape-ek-LjB"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="8L8-Gh-8U6"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="contentLabel" destination="L2Y-6y-E8b" id="PQM-JK-FYJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="aOe-qX-6Hm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2204" y="-18"/>
+        </scene>
     </scenes>
     <resources>
         <image name="35_7_img.png" width="766" height="228"/>
