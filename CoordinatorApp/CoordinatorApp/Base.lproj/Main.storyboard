@@ -598,14 +598,15 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="o4Y-P8-tN4" customClass="LocalizedButton" customModule="Bizcard4IPPP" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xj7-3K-tU9">
                                 <rect key="frame" x="7" y="236" width="400" height="500"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L2Y-6y-E8b">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L2Y-6y-E8b">
                                         <rect key="frame" x="30" y="60.000000000000007" width="350" height="117.66666666666669"/>
                                         <mutableString key="text">Everyone must have at least one experience of hearing advice from others and arguing because they couldn't hold back their anger for a moment. The other person said it in a good way, but they feels bad because they thinks they is pointing out they fault. However, if you think about it carefully, advice makes you realize wrong habits or attitudes that you did not know. Like the story.</mutableString>
-                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="14"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Medium" family="Apple SD Gothic Neo" pointSize="14"/>
                                         <color key="textColor" red="0.24313725489999999" green="0.2666666667" blue="0.28627450980000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
@@ -644,7 +645,7 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="1" alpha="0.90000000000000002" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstItem="4vJ-63-Yc6" firstAttribute="top" relation="greaterThanOrEqual" secondItem="L2Y-6y-E8b" secondAttribute="bottom" constant="10" id="1Cr-iF-6vh"/>
                                     <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="GfX-B6-DuF" secondAttribute="trailing" constant="20" symbolic="YES" id="6Qn-V4-aDe"/>
