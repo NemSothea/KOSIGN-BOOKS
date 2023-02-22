@@ -6,7 +6,7 @@
             "option_2"      : "②   인기",
             "option_3"      : "③   주위",
             "option_4"      : "④   결과",
-            "detail"        : "",
+            "detail"        : "The (results) of the writing contest held last week came out a while ago.",
             "correctAnswer" : "④   결과",
             "score"         : "3",
             "isImg"         : "n"
@@ -18,7 +18,7 @@
             "option_3"      : "③   그만두고",
             "option_4"      : "④   지나가고",
             "correctAnswer" : "③   그만두고",
-            "detail"        : "",
+            "detail"        : "Manager Kim quit the company and started his own business.",
             "score"         : "3",
             "isImg"         : "n"
         },
@@ -28,7 +28,7 @@
             "option_2"      : "②   먼저",
             "option_3"      : "③   만약",
             "option_4"      : "④   아마",
-            "detail"        : "",
+            "detail"        : "The friend I met after a long time felt awkward like the person I met for the first time.",
             "correctAnswer" : "①   마치",
             "score"         : "3",
             "isImg"         : "n"
@@ -40,7 +40,7 @@
             "option_2"      : "②   닿지",
             "option_3"      : "③   떨리지",
             "option_4"      : "④   빠지지",
-            "detail"        : "",
+            "detail"        : "It's hard to take out the book because I can't reach the top of the desk.",
             "correctAnswer" : "②   닿지",
             "score"         : "3",
             "isImg"         : "n"
@@ -51,7 +51,7 @@
             "option_2"      : "②    고소하게",
             "option_3"      : "③    자세하게",
             "option_4"      : "④    소중하게",
-            "detail"        : "",
+            "detail"        : "The school playground is always full of students who are always (existing) running.",
             "correctAnswer" : "①    활발하게",
             "score"         : "4",
             "isImg"         : "n"
@@ -63,7 +63,7 @@
             "option_2"      : "②   일으켜",
             "option_3"      : "③   돌보아",
             "option_4"      : "④   이끌어",
-            "detail"        : "",
+            "detail"        : "He always warms up his neighbors who are in need.",
             "correctAnswer" : "③   돌보아",
             "score"         : "3",
             "isImg"         : "n"
@@ -75,7 +75,7 @@
             "option_2"      : "②   심리",
             "option_3"      : "③   정도",
             "option_4"      : "④   태도",
-            "detail"        : "",
+            "detail"        : "Working in the same office got better for the two of them.",
             "correctAnswer" : "①   관계",
             "score"         : "4",
             "isImg"         : "n"
@@ -87,7 +87,7 @@
             "option_2"      : "②   위험했다",
             "option_3"      : "③   어두웠다",
             "option_4"      : "④   차가웠다",
-            "detail"        : "",
+            "detail"        : "The basement didn't have any sunlight at all, so even during the day (it was dark).",
             "correctAnswer" : "③   어두웠다",
             "score"         : "4",
             "isImg"         : "n"
@@ -99,7 +99,7 @@
             "option_2"      : "②   금방",
             "option_3"      : "③   무척",
             "option_4"      : "④   마구",
-            "detail"        : "",
+            "detail"        : "You shouldn't throw away the trash because there's no one to see it.",
             "correctAnswer" : "④   마구",
             "score"         : "4",
             "isImg"         : "n"
@@ -111,7 +111,7 @@
             "option_2"      : "②   놀다",
             "option_3"      : "③   다니다",
             "option_4"      : "④   머무르다",
-            "detail"        : "",
+            "detail"        : "He has been playing at his relative's house for a few days. I overslept today because I was playing at school. My baby always plays with toys.",
             "correctAnswer" : "②   놀다",
             "score"         : "4",
             "isImg"         : "n"
@@ -123,7 +123,7 @@
             "option_2"      : "②    얻다",
             "option_3"      : "③    주다",
             "option_4"      : "④    사다",
-            "detail"        : "",
+            "detail"        : "Get a room near the company with a friend's introduction. I went to my friend's house and got a puppy. Nowadays, there are many people who get information on the Internet.",
             "correctAnswer" : "②    얻다",
             "score"         : "3",
             "isImg"         : "n"
@@ -135,7 +135,7 @@
             "option_2"      : "②   다린",
             "option_3"      : "③   마른",
             "option_4"      : "④   묻은",
-            "detail"        : "",
+            "detail"        : "If you don't wash wet clothes right away, the color of the clothes may change.",
             "correctAnswer" : "③   마른",
             "score"         : "3",
             "isImg"         : "n"
@@ -147,7 +147,7 @@
             "option_2"      : "②   피로하다",
             "option_3"      : "③   궁금하다",
             "option_4"      : "④   답답하다",
-            "detail"        : "",
+            "detail"        : " I feel refreshed because I said everything I wanted to say to my friend.",
             "correctAnswer" : "④   답답하다",
             "score"         : "4",
             "isImg"         : "n"
@@ -159,7 +159,7 @@
             "option_2"      : "②   드리더니",
             "option_3"      : "③   드리거든",
             "option_4"      : "④   드리는 대로",
-            "detail"        : "",
+            "detail"        : "A : What would be good if I gave an adult gift? Me : I don't know I think your favorite tea or snacks would be fine.",
             "correctAnswer" : "①   드린다면",
             "score"         : "3",
             "isImg"         : "n"
@@ -171,7 +171,7 @@
             "option_2"      : "②   최고잖아요",
             "option_3"      : "③   최고였네요",
             "option_4"      : "④   최고라니요",
-            "detail"        : "",
+            "detail"        : "A : What shall we have for lunch? Let's go eat cold noodles are the best in summer.",
             "correctAnswer" : "②   최고잖아요",
             "score"         : "4",
             "isImg"         : "n"
@@ -183,7 +183,7 @@
             "option_2"      : "②   조차",
             "option_3"      : "③   밖에",
             "option_4"      : "④   이라도",
-            "detail"        : "",
+            "detail"        : "A : It's been a long time since we met, but it's a pity that we're going to break up soon. Me : me too But I was really happy to see your face even for a moment.",
             "correctAnswer" : "④   이라도",
             "score"         : "3",
             "isImg"         : "n"
@@ -195,7 +195,7 @@
             "option_2"      : "②   닫으려던 참이에요",
             "option_3"      : "③   닫았을지도 몰라요",
             "option_4"      : "④   닫았을 리가 없어요",
-            "detail"        : "",
+            "detail"        : "A: The museum must have opened today, right? Me: Check it out and go. It might have been closed because it's Monday.",
             "correctAnswer" : "③   닫았을지도 몰라요",
             "score"         : "3",
             "isImg"         : "n"
@@ -207,7 +207,7 @@
             "option_2"      : "②   많더라도",
             "option_3"      : "③   많다 보니",
             "option_4"      : "④   많은 걸 보니까",
-            "detail"        : "",
+            "detail"        : "A: I think you must write down what you have to do. Me : Yes. Sometimes I forget what I have to do (with a lot of work).",
             "correctAnswer" : "③   많다 보니",
             "score"         : "3",
             "isImg"         : "n"
@@ -219,7 +219,7 @@
             "option_2"      : "②   하느라고",
             "option_3"      : "③   할 정도로",
             "option_4"      : "④   할 만해서",
-            "detail"        : "",
+            "detail"        : "A : You always come to work out in the evening. Me: I don't have time to work (because I do) during the day.",
             "correctAnswer" : "②   하느라고",
             "score"         : "4",
             "isImg"         : "n"
@@ -231,7 +231,7 @@
             "option_2"      : "②   다녔으므로",
             "option_3"      : "③   다닐 뿐이라서",
             "option_4"      : "④   다닐 수밖에 없어서",
-            "detail"        : "",
+            "detail"        : "A : The camera looks very good. How about using it? Me : Everything is good. But it's heavy, so it's a little uncomfortable to carry (when you're walking).",
             "correctAnswer" : "①   다니기에",
             "score"         : "3",
             "isImg"         : "n"
@@ -243,7 +243,7 @@
             "option_2"      : "②   중고라고 하려면",
             "option_3"      : "③   중고인 셈이라서",
             "option_4"      : "④   중고일 뿐만 아니라",
-            "detail"        : "",
+            "detail"        : "A : (I heard it's used) I thought the bike was old, but it's clean. Me: My ex-owner didn't ride a few times, so it's like a new one.",
             "correctAnswer" : "①   중고라고 해서",
             "score"         : "3",
             "isImg"         : "n"
@@ -255,7 +255,7 @@
             "option_2"      : "②   예전이었더라면",
             "option_3"      : "③   예전이라고 치고",
             "option_4"      : "④   예전만 못하지만",
-            "detail"        : "",
+            "detail"        : "A : I think there are many students who learn to play the guitar these days. Me: I also played the guitar hard when I was in school. It's not as good as it used to be, but if you have a sheet music, you can still hit it like that. A : I envy you. If you have time, can you teach me? Me : Of course. I will teach you (Normally) If you learn about a month or two, you can play simple songs.",
             "correctAnswer" : "④   예전만 못하지만",
             "score"         : "3",
             "isImg"         : "n"
@@ -267,7 +267,7 @@
             "option_2"      : "②   보통",
             "option_3"      : "③   온통",
             "option_4"      : "④   제법",
-            "detail"        : "",
+            "detail"        : "A : I think there are many students who learn to play the guitar these days. Me: I also played the guitar hard when I was in school. It's not as good as it used to be, but if you have a sheet music, you can still hit it like that. A : I envy you. If you have time, can you teach me? Me : Of course. I will teach you (Normally) If you learn about a month or two, you can play simple songs.",
             "correctAnswer" : "②   보통",
             "score"         : "3",
             "isImg"         : "n"
@@ -279,7 +279,7 @@
             "option_2"      : "②   놓친 고기가 더 크다",
             "option_3"      : "③   남의 떡이 더 커 보인다",
             "option_4"      : "④   사촌이 땅을 사면 배가 아프다",
-            "detail"        : "",
+            "detail"        : "When children are given snacks in kindergarten, each child alternates between their own snacks and other children's snacks and make a sad expression. As the saying goes, 'Other people's rice cakes look bigger,' because children think their own food is small even if they put the same food. Adults are often dissatisfied because they find it difficult to do the same thing. When comparing mine with others, it seems that it is difficult for children as well as rational adults to make objective judgments.",
             "correctAnswer" : "③   남의 떡이 더 커 보인다",
             "score"         : "3",
             "isImg"         : "n"
@@ -291,7 +291,7 @@
             "option_2"      : "②  하면서도",
             "option_3"      : "③  하다가는",
             "option_4"      : "④  하려고야",
-            "detail"        : "",
+            "detail"        : "When children are given snacks in kindergarten, each child alternates between their own snacks and other children's snacks and make a sad expression. As the saying goes, 'Other people's rice cakes look bigger,' because children think their own food is small even if they put the same food. Adults are often dissatisfied because they find it difficult to do the same thing. When comparing mine with others, it seems that it is difficult for children as well as rational adults to make objective judgments.",
             "correctAnswer" : "②  하면서도",
             "score"         : "3",
             "isImg"         : "n"
