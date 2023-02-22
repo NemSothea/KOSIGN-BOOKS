@@ -8,9 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		553AF9DE299F6EE4006C6EC0 /* ListeningViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553AF9DD299F6EE4006C6EC0 /* ListeningViewModel.swift */; };
+		553B24C129A5B51500F4ED4A /* PopupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553B24C029A5B51500F4ED4A /* PopupCell.swift */; };
 		55450204299C5FFB000B48B6 /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55450203299C5FFB000B48B6 /* Bundle.swift */; };
 		55450206299C6090000B48B6 /* QuestionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55450205299C6090000B48B6 /* QuestionViewModel.swift */; };
 		55484BB029A47BC0005DBE68 /* PopupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55484BAF29A47BC0005DBE68 /* PopupVC.swift */; };
+		55484BB229A4A552005DBE68 /* ListeningQuestionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55484BB129A4A552005DBE68 /* ListeningQuestionVC.swift */; };
 		55591B042999BDCE00023195 /* Reading24QuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55591B032999BDCE00023195 /* Reading24QuestionModel.swift */; };
 		55591B082999D14400023195 /* Question24.json in Resources */ = {isa = PBXBuildFile; fileRef = 55591B072999D14400023195 /* Question24.json */; };
 		55591B0C2999F8F600023195 /* BookMarkTabTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55591B0B2999F8F600023195 /* BookMarkTabTableViewCell.swift */; };
@@ -56,9 +58,11 @@
 
 /* Begin PBXFileReference section */
 		553AF9DD299F6EE4006C6EC0 /* ListeningViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListeningViewModel.swift; sourceTree = "<group>"; };
+		553B24C029A5B51500F4ED4A /* PopupCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupCell.swift; sourceTree = "<group>"; };
 		55450203299C5FFB000B48B6 /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
 		55450205299C6090000B48B6 /* QuestionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewModel.swift; sourceTree = "<group>"; };
 		55484BAF29A47BC0005DBE68 /* PopupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupVC.swift; sourceTree = "<group>"; };
+		55484BB129A4A552005DBE68 /* ListeningQuestionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListeningQuestionVC.swift; sourceTree = "<group>"; };
 		55591B032999BDCE00023195 /* Reading24QuestionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reading24QuestionModel.swift; sourceTree = "<group>"; };
 		55591B072999D14400023195 /* Question24.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Question24.json; sourceTree = "<group>"; };
 		55591B0B2999F8F600023195 /* BookMarkTabTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookMarkTabTableViewCell.swift; sourceTree = "<group>"; };
@@ -196,13 +200,14 @@
 			path = Favorite;
 			sourceTree = "<group>";
 		};
-		55591B0F299A06DC00023195 /* Reading */ = {
+		55591B0F299A06DC00023195 /* Questions */ = {
 			isa = PBXGroup;
 			children = (
 				55E64E6C299B7A55004481E3 /* ReadingQuestionCell */,
 				55591B10299A071A00023195 /* ReadingQuestionVC.swift */,
+				55484BB129A4A552005DBE68 /* ListeningQuestionVC.swift */,
 			);
-			path = Reading;
+			path = Questions;
 			sourceTree = "<group>";
 		};
 		55591B12299A079400023195 /* Result */ = {
@@ -276,7 +281,7 @@
 			children = (
 				55484BAD29A47B70005DBE68 /* Popup */,
 				55591B12299A079400023195 /* Result */,
-				55591B0F299A06DC00023195 /* Reading */,
+				55591B0F299A06DC00023195 /* Questions */,
 				55591B0E299A06A700023195 /* Favorite */,
 				55591B0D299A069600023195 /* BookMark */,
 			);
@@ -303,6 +308,7 @@
 			isa = PBXGroup;
 			children = (
 				55E64E6D299B7A7D004481E3 /* ReadingQuestionCollectionViewCell.swift */,
+				553B24C029A5B51500F4ED4A /* PopupCell.swift */,
 			);
 			path = ReadingQuestionCell;
 			sourceTree = "<group>";
@@ -420,12 +426,14 @@
 				55BBF3B329962D4A00A7E991 /* FavoriteTabVC.swift in Sources */,
 				559050122994B66F00FE3F0D /* TabBarCoordinator.swift in Sources */,
 				55591B0C2999F8F600023195 /* BookMarkTabTableViewCell.swift in Sources */,
+				55484BB229A4A552005DBE68 /* ListeningQuestionVC.swift in Sources */,
 				55A99C6A29937D9F00AD4FA6 /* AppDelegate.swift in Sources */,
 				559050102994AD4700FE3F0D /* MainTabBarViewController.swift in Sources */,
 				55484BB029A47BC0005DBE68 /* PopupVC.swift in Sources */,
 				553AF9DE299F6EE4006C6EC0 /* ListeningViewModel.swift in Sources */,
 				55591B11299A071A00023195 /* ReadingQuestionVC.swift in Sources */,
 				55591B19299A293600023195 /* UIColor.swift in Sources */,
+				553B24C129A5B51500F4ED4A /* PopupCell.swift in Sources */,
 				5590500D29948CB800FE3F0D /* StoryBoarded.swift in Sources */,
 				55450206299C6090000B48B6 /* QuestionViewModel.swift in Sources */,
 				55E64E6E299B7A7D004481E3 /* ReadingQuestionCollectionViewCell.swift in Sources */,

@@ -6,6 +6,7 @@
             "option_2"      : "②  먹거나",
             "option_3"      : "③  먹고 나서",
             "option_4"      : "④  먹다 보면",
+            "detail"        : "Yesterday, I went to the library immediately after having lunch with my friends.",
             "correctAnswer" : "③  먹고 나서",
             "score"         : "2",
             "isImg"         : "n"
@@ -16,6 +17,7 @@
             "option_2"      : "②  찾으려면",
             "option_3"      : "③  구하도록",
             "option_4"      : "④  구하느라고",
+            "detail"        : "I was a little busy during vacation to find a house to move out.",
             "correctAnswer" : "④  구하느라고",
             "score"         : "2",
             "isImg"         : "n"
@@ -26,6 +28,7 @@
             "option_2"      : "②  날까 봐",
             "option_3"      : "③  나는 대로",
             "option_4"      : "④  나는 대신에",
+            "detail"        : "The performance I watched yesterday was so touching that it made me cry.",
             "correctAnswer" : "①  날 만큼",
             "score"         : "2",
             "isImg"         : "n"
@@ -36,7 +39,8 @@
             "option_2"      : "②  사이라면 좋겠다",
             "option_3"      : "③  사이일지도 모른다",
             "option_4"      : "④  사이라고 볼 수 없다",
-            "correctAnswer" : "①  날 만큼",
+            "detail"        : "The two have known each other for a long time, but they are just co-workers.",
+            "correctAnswer" : "①  사이에 불과하다",
             "score"         : "2",
             "isImg"         : "n"
         },
@@ -46,6 +50,7 @@
             "option_2"      : "②  사전",
             "option_3"      : "③  시계",
             "option_4"      : "④  연필",
+            "detail"        : "",
             "correctAnswer" : "①  신문",
             "score"         : "2",
             "isImg"         : "y"
@@ -56,6 +61,7 @@
             "option_2"      : "②  병원",
             "option_3"      : "③  박물관",
             "option_4"      : "④  대사관",
+            "detail"        : "",
             "correctAnswer" : "②  병원",
             "score"         : "2",
             "isImg"         : "y"
@@ -66,6 +72,7 @@
             "option_2"      : "②  공원 소개",
             "option_3"      : "③  날씨 정보",
             "option_4"      : "④  여행 계획",
+            "detail"        : "",
             "correctAnswer" : "①  환경 보호",
             "score"         : "2",
             "isImg"         : "y"
@@ -76,6 +83,7 @@
             "option_2"      : "②  모집 안내",
             "option_3"      : "③  문의 방법",
             "option_4"      : "④  사용 방법",
+            "detail"        : "",
             "correctAnswer" : "③  문의 방법",
             "score"         : "2",
             "isImg"         : "y"
@@ -86,6 +94,7 @@
             "option_2"      : "②  이 행사는 이번에 처음 열리는 행사이다.",
             "option_3"      : "③  특별권을 사면 놀이 시설 이용료가 할인된다.",
             "option_4"      : "④  지하철을 타고 가면 입장권을 싸게 살 수 있다.",
+            "detail"        : "",
             "correctAnswer" : "④  지하철을 타고 가면 입장권을 싸게 살 수 있다.",
             "score"         : "2",
             "isImg"         : "y"
@@ -96,6 +105,7 @@
             "option_2"      : "②  인터넷에서 산 사람이 가게에서 산 사람보다 더 많다.",
             "option_3"      : "③  가게에서 산 사람보다 아는 사람한테서 받은 사람이 더 적다.",
             "option_4"      : "④  아는 사람한테서 동물을 데리고 온 사람은 전체의 반이 넘는다.",
+            "detail"        : "",
             "correctAnswer" : "①  주인 없는 동물을 데려와 키우는 사람이 가장 적다.",
             "score"         : "2",
             "isImg"         : "y"
@@ -106,6 +116,7 @@
             "option_2"      : "②  얼마 전 추억의 문화 공간이 새로 만들어졌다.",
             "option_3"      : "③  추억극장은 입장료가 없기 때문에 인기가 많다.",
             "option_4"      : "④  추억극장에서는 최근에 나온 영화도 볼 수 있다.",
+            "detail"        : "Recently, there has been a cultural space where you can experience the 70s and 80s. The newly opened 'Memory Theater' in Seoul is that place.For a mere 2,000 won admission fee, anyone of all ages can watch the movie that was popular at the time, and eat simple snacks such as coffee, tea, and snacks.Inside the theater, movie posters and movie tickets of memories are displayed.",
             "correctAnswer" : "②  얼마 전 추억의 문화 공간이 새로 만들어졌다.",
             "score"         : "2",
             "isImg"         : "n"
@@ -116,6 +127,7 @@
             "option_2"      : "②  가면을 쓰면 현실을 더 잘 볼 수 있다.",
             "option_3"      : "③  가면으로 원하던 모습을 표현할 수 있다.",
             "option_4"      : "④  힘을 자랑하기 위해서 호랑이 가면을 쓴다.",
+            "detail"        : "Sometimes people want to be a different me. I can express my feelings through a mask, but if I wear a mask,It's for a while, but I can express myself that is different from reality.For example, if a weak person wears a tiger mask, I think he is as strong as a tiger.So, you act like a really strong person, and through this, you are satisfied with yourself.",
             "correctAnswer" : "③  가면으로 원하던 모습을 표현할 수 있다.",
             "score"         : "2",
             "isImg"         : "n"
@@ -126,6 +138,7 @@
             "option_2"      : "②  (다)-(라)-(나)-(가)",
             "option_3"      : "③  (라)-(가)-(나)-(다)",
             "option_4"      : "④  (라)-(나)-(가)-(다)",
+            "detail"        : "There are many ways to recycle plastic bottles. One of them is to make athletes' uniforms. It is light and cool if you make sportswear using plastic bottles. Also, the cost of making materials is low because they are cheap.",
             "correctAnswer" : "①  (다)-(나)-(라)-(가)",
             "score"         : "2",
             "isImg"         : "n"
@@ -136,17 +149,19 @@
             "option_2"      : "②  (다)-(라)-(나)-(가)",
             "option_3"      : "③  (라)-(가)-(나)-(다)",
             "option_4"      : "④  (라)-(나)-(가)-(다)",
+            "detail"        : "As soon as the man was about to get on the train, a shoe came off and fell down. The man tried to pick up his shoes, but the train started moving.The man then took off his other shoe and dropped it next to it. It was because I thought that someone could wear it only if the shoes matched.",
             "correctAnswer" : "④  (라)-(나)-(가)-(다)",
             "score"         : "2",
             "isImg"         : "n"
         },
         {   "sections"      : "※ [13~15] (   ) 다음 글 또는 도표의 내용과 같은 것을 고르십시오.(각 2점)",
             "question"      : "Q15.\n(가)희망택시 지원 사업은 버스 운행에 비해 훨씬 적은 예산이 든다.\n(나)그러므로 택시 요금을 지원하더라도 정부는 예산을 아낄 수 있다.\n(다)이 택시의 이용 요금은 1,10원이고 추가 요금은 정부에서 부담한다.\n(라)버스가 다니지 않는 시골 마을에 주민들을 위한 희망택시가 등장했다",
-            "option_1"      : "①  (나)-(다)-(라)-(가)",
-            "option_2"      : "②  (다)-(라)-(나)-(가)",
-            "option_3"      : "③  (라)-(가)-(나)-(다)",
-            "option_4"      : "④  (라)-(나)-(가)-(다)",
-            "correctAnswer" : "④  (라)-(나)-(가)-(다)",
+            "option_1"      : "①  (가)-(라)-(나)-(다)",
+            "option_2"      : "②  (가)-(다)-(라)-(나)",
+            "option_3"      : "③  (라)-(나)-(다)-(가)",
+            "option_4"      : "④  (라)-(다)-(가)-(나)",
+            "detail"        : "Hope taxis for residents have appeared in rural villages where buses do not run. The taxi fare is 1,100 won and the additional fee is paid by the government. The Hope Taxi Support Project costs much less than the bus service. Therefore, the government can save money even if it supports taxi fares.",
+            "correctAnswer" : "④  (라)-(다)-(가)-(나)",
             "score"         : "2",
             "isImg"         : "n"
         },
@@ -156,6 +171,7 @@
             "option_2"      : "②  회사에서보다 집에 있을 때",
             "option_3"      : "③  복잡한 업무가 주어졌을 때",
             "option_4"      : "④  인간관계에 어려움을 느낄 때",
+            "detail"        : "People get stressed in various situations. In particular, I am under a lot of stress at a company that has a lot of work and complicated human relationships. However, married working women are more stressed (when they are at home than at work). The reason is that the burden of housework and childcare felt by women is still high.",
             "correctAnswer" : "②  회사에서보다 집에 있을 때",
             "score"         : "2",
             "isImg"         : "n"
@@ -166,7 +182,8 @@
             "option_2"      : "②  보름달처럼 밝은 빛을 가지고 있지 않다.",
             "option_3"      : "③  오래 지나지 않아 크고 환한 보름달이 된다.",
             "option_4"      : "④  어두운 면과 밝은 면을 모두 포함하고 있다",
-            "correctAnswer" : "③  가면으로 원하던 모습을 표현할 수 있다.",
+            "detail"        : "On Chuseok, there is a bright and round full moon. However, the songpyeon eaten during Chuseok is in the shape of a half moon, not a full moon. This is because the half moon means a better future than the present. In other words, the full moon is bright and complete in shape, but it gets smaller and smaller over time, whereas the half moon (which becomes a large and bright full moon after a long time). As such, the half-moon shape of Songpyeon contains hope that everything will develop in the future.",
+            "correctAnswer" : "③  오래 지나지 않아 크고 환한 보름달이 된다.",
             "score"         : "2",
             "isImg"         : "n"
         },
@@ -176,6 +193,7 @@
             "option_2"      : "②  식탁을 아름답게 꾸미는",
             "option_3"      : "③  나쁜 식사 습관을 고치는",
             "option_4"      : "④  바른 식사 예절을 배우는",
+            "detail"        : "Now it is easy to solve the problem of indigestion by eating fast food. This is because a fork that controls the speed of meals has been developed. This fork measures the speed of eating by the number of times it enters the mouth per minute. So if the meal is fast, the fork sounds a warning. In the future, the fork is expected to help (break bad eating habits).",
             "correctAnswer" : "③  나쁜 식사 습관을 고치는",
             "score"         : "2",
             "isImg"         : "n"
@@ -186,6 +204,7 @@
             "option_2"      : "②  또한",
             "option_3"      : "③  그래도",
             "option_4"      : "④  그러면",
+            "detail"        : "Chemicals are also used to cook fruits quickly. However, fruits cooked with chemicals are often ripe on the outside but not well-cooked on the inside. So, fruits cooked with chemicals usually taste and smell less than naturally aged fruits. ",
             "correctAnswer" : "②  또한",
             "score"         : "2",
             "isImg"         : "n"
@@ -197,6 +216,7 @@
             "option_3"      : "③  화학 물질을 사용하면 과일이 속까지 잘 익는다.",
             "option_4"      : "④  자연 숙성 과일이 인공 숙성 과일보다 맛이 더 낫다.",
             "correctAnswer" : "④  자연 숙성 과일이 인공 숙성 과일보다 맛이 더 낫다.",
+            "detail"        : "Chemicals are also used to cook fruits quickly. However, fruits cooked with chemicals are often ripe on the outside but not well-cooked on the inside. So, fruits cooked with chemicals usually taste and smell less than naturally aged fruits. ",
             "score"         : "2",
             "isImg"         : "n"
         },
@@ -206,6 +226,7 @@
             "option_2"      : "②  콧대만 높아지고",
             "option_3"      : "③  눈치만 빨라지고",
             "option_4"      : "④  비행기만 태우고",
+            "detail"        : "People usually think that when they make a choice, if they choose from a number of things, they will be able to make a better choice. So I try to collect a lot of information when I need to make a choice. However, as the number of choices increases, the amount of worries increases. It's a situation where you only have a headache and you can't make a decision. Efforts to make a choice without regrets will result in hindering the choice.",
             "correctAnswer" : "①  골치만 아프고",
             "score"         : "2",
             "isImg"         : "n"
@@ -216,6 +237,7 @@
             "option_2"      : "②  선택의 폭이 넓어지면 결정이 더 어려워진다.",
             "option_3"      : "③  선택을 할 때는 먼저 방해 요인을 없애야 한다.",
             "option_4"      : "④  후회 없는 선택을 하려면 풍부한 정보가 필요하다.",
+            "detail"        : "People usually think that when they make a choice, if they choose from a number of things, they will be able to make a better choice. So I try to collect a lot of information when I need to make a choice. However, as the number of choices increases, the amount of worries increases. It's a situation where you only have a headache and you can't make a decision. Efforts to make a choice without regrets will result in hindering the choice.",
             "correctAnswer" : "②  선택의 폭이 넓어지면 결정이 더 어려워진다.",
             "score"         : "2",
             "isImg"         : "n"
@@ -226,6 +248,7 @@
             "option_2"      : "②  섭섭하다",
             "option_3"      : "③  부끄럽다",
             "option_4"      : "④  당황하다",
+            "detail"        : "The situation of the company I run has become more and more difficult. It was damaged by a fire in the factory and a significant decrease in sales. I had no choice but to reduce the number of employees. I couldn't say anything for a long time even though I gathered the employees together. The moment I closed my eyes and barely tried to open my mouth, 'Mr. President!' An employee called me. The employee said, sticking out a white envelope in front of me. “You have had a hard time because of the difficult company life. We collected 10 percent of our salary because we thought it would be helpful for a difficult company. It’s a small amount of money, but I hope it helps run the company.” At that moment, I felt as if I had gained the world.",
             "correctAnswer" : "①  곤란하다",
             "score"         : "2",
             "isImg"         : "n"
@@ -236,6 +259,7 @@
             "option_2"      : "②  나는 회사에서 일할 새로운 직원들을 뽑았다.",
             "option_3"      : "③  직원들이 월급의 일부를 걷어 회사를 도왔다.",
             "option_4"      : "④  흰 봉투 안에는 직원들이 쓴 편지가 들어 있었다.",
+            "detail"        : "The situation of the company I run has become more and more difficult. It was damaged by a fire in the factory and a significant decrease in sales. I had no choice but to reduce the number of employees. I couldn't say anything for a long time even though I gathered the employees together. The moment I closed my eyes and barely tried to open my mouth, 'Mr. President!' An employee called me. The employee said, sticking out a white envelope in front of me. “You have had a hard time because of the difficult company life. We collected 10 percent of our salary because we thought it would be helpful for a difficult company. It’s a small amount of money, but I hope it helps run the company.” At that moment, I felt as if I had gained the world.",
             "correctAnswer" : "③  직원들이 월급의 일부를 걷어 회사를 도왔다.",
             "score"         : "2",
             "isImg"         : "n"
@@ -246,6 +270,7 @@
             "option_2"      : "②  허리 건강을 위해서는 가방을 메지 않는 것이 좋다.",
             "option_3"      : "③ 가방을 계속 같은 방향으로 메면 허리 건강에 좋지 않다.",
             "option_4"      : "④  가방을 오랫동안 메는 것은 허리 건강에 해가 될 수 있다.",
+            "detail"        : "Carrying a bag on one side, waist health If you keep the ‘red fire’ bag in the same direction, it is not good for your back health.",
             "correctAnswer" : "③ 가방을 계속 같은 방향으로 메면 허리 건강에 좋지 않다.",
             "score"         : "2",
             "isImg"         : "n"
@@ -256,6 +281,7 @@
             "option_2"      : "②  간판의 모양을 통일시켜야 사람들이 한눈에 볼 수 있다.",
             "option_3"      : "③ 눈에 띄는 간판을 만들기 위해 사람들이 노력하고 있다.",
             "option_4"      : "④  지나치게 큰 간판은 지나다니는 사람들에게 방해가 된다.",
+            "detail"        : "A sign with a unique shape, a sign with a different shape that attracts the attention of passersby, is attracting people's attention.",
             "correctAnswer" : "①  색다른 모양의 간판이 사람들의 눈길을 사로잡고 있다.",
             "score"         : "2",
             "isImg"         : "n"
@@ -264,9 +290,10 @@
             "question"      : "27. 취업률 석 달째 제자리걸음,정부의 현실적인 대책 필요해 ............... ",
             "option_1"      : "①  정부의 새 대책으로 취업률이 올라가게 될 것이다.",
             "option_2"      : "②  정부의 대책으로 취업률이 더 이상 떨어지지 않았다.",
-            "option_3"      : "③ 취업률의 변화가 심하여 정부가 대책을 마련하고 있다.",
+            "option_3"      : "③  취업률의 변화가 심하여 정부가 대책을 마련하고 있다.",
             "option_4"      : "④  취업률을 높일 수 있는 정부의 실현 가능한 대책이 요구된다.",
             "correctAnswer" : "④  취업률을 높일 수 있는 정부의 실현 가능한 대책이 요구된다.",
+            "detail"        : "The employment rate has been in place for three months, and the government needs realistic measures. The employment rate has not dropped any more due to the government's measures.",
             "score"         : "2",
             "isImg"         : "n"
         }
