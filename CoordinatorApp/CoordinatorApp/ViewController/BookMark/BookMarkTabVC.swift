@@ -16,7 +16,7 @@ class BookMarkTabVC : UIViewController, StoryBoarded {
     
     override func viewDidLoad() {
          super.viewDidLoad()
-       
+        self.questionsVM.initReadingData()
     
     }
     override func viewWillAppear(_ animated: Bool) {

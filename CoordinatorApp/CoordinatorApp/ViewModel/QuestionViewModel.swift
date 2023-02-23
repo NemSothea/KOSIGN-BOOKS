@@ -6,6 +6,15 @@
 //
 
 import UIKit
+enum QuestionType: String {
+    case Reading
+    case Listening
+    case Writing
+}
+struct QuestionModel  {
+    var questions        : [String]?
+    var questionType    : QuestionType
+}
 
 class QuestionViewModel {
     
@@ -14,21 +23,25 @@ class QuestionViewModel {
         - index 1 = Question24
      
      */
-     var TOPIKQuestionArray  =
-    [
-        "TOPIK II READING 24th",
-        "TOPIK II READING 25th",
-        "TOPIK II READING 26th",
-        "TOPIK II READING 27th",
-        "TOPIK II READING 28th",
-        "TOPIK II READING 29th",
-        "TOPIK II READING 30th",
-        "TOPIK II READING 31th",
-        "TOPIK II READING 32th",
-        "TOPIK II READING 33th",
-        "TOPIK II READING 34th",
-        "TOPIK II READING 35th",
-    ]
+     var TOPIKQuestionArray  = [String]()
+ 
+    func initReadingData() {
+        TOPIKQuestionArray = [
+            "TOPIK II READING 24th",
+            "TOPIK II READING 25th",
+            "TOPIK II READING 26th",
+            "TOPIK II READING 27th",
+            "TOPIK II READING 28th",
+            "TOPIK II READING 29th",
+            "TOPIK II READING 30th",
+            "TOPIK II READING 31th",
+            "TOPIK II READING 32th",
+            "TOPIK II READING 33th",
+            "TOPIK II READING 34th",
+            "TOPIK II READING 35th",
+            "TOPIK II READING 64th",
+        ]
+    }
     
     func getData(index : Int) {
         
