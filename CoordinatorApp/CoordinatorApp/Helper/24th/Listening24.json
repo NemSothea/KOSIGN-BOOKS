@@ -2,7 +2,7 @@
     "questions" : [
         {
             "sections"      : "※ [1~2] 다음을 듣고 알맞은 그림을 고르십시오. (각 3점)",
-            "question"      : "1.(3점)",
+            "question"      : "24_1_img",
             "option_1"      : "① ",
             "option_2"      : "② ",
             "option_3"      : "③ ",
@@ -14,7 +14,7 @@
         },
         {
             "sections"      : "※ [1~2] 다음을 듣고 알맞은 그림을 고르십시오. (각 3점)",
-            "question"      : "2.(3점)",
+            "question"      : "24_2_img",
             "option_1"      : "① ",
             "option_2"      : "② ",
             "option_3"      : "③ ",
