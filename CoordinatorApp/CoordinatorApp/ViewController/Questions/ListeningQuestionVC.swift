@@ -14,6 +14,9 @@ class ListeningQuestionVC: UIViewController {
         - @IBOutlet
      */
     @IBOutlet weak var topikTitle       : UILabel!
+    @IBOutlet weak var pauseBtn         : UIButton!
+    @IBOutlet weak var playBtn          : UIButton!
+    
     @IBOutlet weak var collectionView   : UICollectionView!
     
     
@@ -51,9 +54,32 @@ class ListeningQuestionVC: UIViewController {
     /* MARK :-
         - @IBAction
      */
+    
+    @IBAction func playTap(_ sender: UIButton) {
+        self.listeningVM.playOrPause()
+        
+        if self.listeningVM.isPlaying {
+            self.playBtn.setImage(UIImage(systemName: "pause.fill"), for:.normal)
+        }else {
+            self.playBtn.setImage(UIImage(systemName: "play.fill"), for:.normal)
+        }
+        
+    }
+    
     @IBAction func exitTap(_ sender : UIButton) {
         
-        self.dismiss(animated: true)
+        let alert = UIAlertController(title: "내용\n", message: "확신 합니까?\n", preferredStyle: .alert)
+       
+        let cancelAction = UIAlertAction(title: "취소", style: .cancel) { (_) in
+           return
+        }
+        let okAction = UIAlertAction(title: "넵", style: .default) { (_) in
+            self.dismiss(animated: true)
+        }
+        alert.addAction(cancelAction)
+        alert.addAction(okAction)
+        present(alert, animated: true,completion: nil)
+       
         
     }
     @IBAction func nextTap(_ sender : UIButton) {

@@ -51,10 +51,19 @@ class ReadingQuestionVC: UIViewController {
         - @IBAction
      */
     @IBAction func exitTap(_ sender : UIButton) {
-        
-        self.dismiss(animated: true)
+        let alert = UIAlertController(title: "내용\n", message: "확신 합니까?\n", preferredStyle: .alert)
+        let okAction = UIAlertAction(title: "넵", style: .default) { (_) in
+            self.dismiss(animated: true)
+        }
+        let cancelAction = UIAlertAction(title: "취소", style: .cancel) { (_) in
+           return
+        }
+        alert.addAction(cancelAction)
+        alert.addAction(okAction)
+        present(alert, animated: true,completion: nil)
         
     }
+    
     @IBAction func nextTap(_ sender : UIButton) {
         /*TESTING
         if index<(self.questionsVM.data?.questions?.count ?? 0) - 1 {
