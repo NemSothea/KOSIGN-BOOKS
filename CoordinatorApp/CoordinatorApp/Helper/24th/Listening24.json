@@ -34,8 +34,7 @@
             "detail"        : "Man : Are you off work now?\nWoman : No. I'm going to the store for a while. Do you want me to buy you anything you need?",
             "other"         : "n",
             "correctAnswer" : "② 그러면 빵하고 우유 좀 부탁해요.",
-            "score"         : "3",
-            "isImg"         : "n"
+            "score"         : "3"
         },
         {
             "sections"      : "※ [3~6]다음 대화를 잘 듣고 이어 질 수있는 말을 고르십시오",
@@ -335,5 +334,4 @@
             "score"         : "3"
         }
     ]
-   
 }

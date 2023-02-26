@@ -1,0 +1,36 @@
+{
+    "questions" : [
+        {   "sections"      : "※ [1~3] 다음을 듣고 알맞은 그림을 고르십시오. (각 2점)",
+            "question"      : "35_1_img",
+            "option_1"      : "①  ",
+            "option_2"      : "②  ",
+            "option_3"      : "③  ",
+            "option_4"      : "④  ",
+            "detail"        : "Woman : Can you take a look at this? I spilled coffee on my clothes.\nMan : Shall we take a look? Well......, it will be clean if you wash it. Until when should I do it for you?\nWoman : Please do it by tomorrow.",
+            "correctAnswer" : "②  ",
+            "score"         : "2"
+        },
+        {   "sections"      : "※ [1~3] 다음을 듣고 알맞은 그림을 고르십시오. (각 2점)",
+            "question"      : "35_2_img",
+            "option_1"      : "①  ",
+            "option_2"      : "②  ",
+            "option_3"      : "③  ",
+            "option_4"      : "④  ",
+            "detail"        : "",
+            "correctAnswer" : "④  ",
+            "score"         : "2"
+        },
+        {   "sections"      : "※ [1~3] 다음을 듣고 알맞은 그림을 고르십시오. (각 2점)",
+            "question"      : "35_3_img",
+            "option_1"      : "①  먹든지",
+            "option_2"      : "②  먹거나",
+            "option_3"      : "③  먹고 나서",
+            "option_4"      : "④  먹다 보면",
+            "detail"        : "Woman : Can you take a look at this? I spilled coffee on my clothes.\nMan : Shall we take a look? Well......, it will be clean if you wash it. Until when should I do it for you?\nWoman : Please do it by tomorrow.",
+            "correctAnswer" : "③  먹고 나서",
+            "score"         : "2"
+        }
+        
+    ]
+   
+}

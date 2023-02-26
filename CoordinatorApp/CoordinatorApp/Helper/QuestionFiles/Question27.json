@@ -6,6 +6,7 @@
             "option_2"      : "②   약간",
             "option_3"      : "③   벌써",
             "option_4"      : "④   훨씬",
+            "detail"        : "",
             "correctAnswer" : "③   벌써",
             "score"         : "3",
             "isImg"         : "n"
@@ -16,6 +17,7 @@
             "option_2"      : "②   모습",
             "option_3"      : "③   실력",
             "option_4"      : "④   방향",
+            "detail"        : "",
             "correctAnswer" : "①   방법",
             "score"         : "3",
             "isImg"         : "n"
@@ -26,6 +28,7 @@
             "option_2"      : "②   따랐다",
             "option_3"      : "③   가졌다",
             "option_4"      : "④   덜었다",
+            "detail"        : "",
             "correctAnswer" : "①   외웠다",
             "score"         : "3",
             "isImg"         : "n"
@@ -37,6 +40,7 @@
             "option_2"      : "②   넘어서",
             "option_3"      : "③   들어서",
             "option_4"      : "④   떠나서",
+            "detail"        : "",
             "correctAnswer" : "②   넘어서",
             "score"         : "3",
             "isImg"         : "n"
@@ -47,6 +51,7 @@
             "option_2"      : "②   다양한",
             "option_3"      : "③   가득한",
             "option_4"      : "④   소중한",
+            "detail"        : "",
             "correctAnswer" : "②   다양한",
             "score"         : "4",
             "isImg"         : "n"
@@ -58,6 +63,7 @@
             "option_2"      : "②   씻었다",
             "option_3"      : "③   마련했다",
             "option_4"      : "④   정리했다",
+            "detail"        : "",
             "correctAnswer" : "④   정리했다",
             "score"         : "3",
             "isImg"         : "n"
@@ -69,6 +75,7 @@
             "option_2"      : "②   몹시",
             "option_3"      : "③   자꾸",
             "option_4"      : "④   괜히",
+            "detail"        : "",
             "correctAnswer" : "②   몹시",
             "score"         : "3",
             "isImg"         : "n"
@@ -80,6 +87,7 @@
             "option_2"      : "②   현실",
             "option_3"      : "③   장래",
             "option_4"      : "④   변화",
+            "detail"        : "",
             "correctAnswer" : "③   장래",
             "score"         : "4",
             "isImg"         : "n"
@@ -91,6 +99,7 @@
             "option_2"      : "②   낯선",
             "option_3"      : "③   새로운",
             "option_4"      : "④   아쉬운",
+            "detail"        : "",
             "correctAnswer" : "①   바른",
             "score"         : "4",
             "isImg"         : "n"
@@ -102,6 +111,7 @@
             "option_2"      : "②   풀다",
             "option_3"      : "③   놓다",
             "option_4"      : "④   펴다",
+            "detail"        : "",
             "correctAnswer" : "③   놓다",
             "score"         : "4",
             "isImg"         : "n"
@@ -113,6 +123,7 @@
             "option_2"      : "②   내다",
             "option_3"      : "③   구하다",
             "option_4"      : "④   살피다",
+            "detail"        : "",
             "correctAnswer" : "③   구하다",
             "score"         : "3",
             "isImg"         : "n"
@@ -124,6 +135,7 @@
             "option_2"      : "②   오르면",
             "option_3"      : "③   빠지면",
             "option_4"      : "④   걸리면",
+            "detail"        : "",
             "correctAnswer" : "①   이기면",
             "score"         : "3",
             "isImg"         : "n"
@@ -135,6 +147,7 @@
             "option_2"      : "②    자세한",
             "option_3"      : "③    심각한",
             "option_4"      : "④    적당한",
+            "detail"        : "",
             "correctAnswer" : "②    자세한",
             "score"         : "4",
             "isImg"         : "n"
@@ -146,6 +159,7 @@
             "option_2"      : "②   잘하는군요",
             "option_3"      : "③   잘하기는요",
             "option_4"      : "④   잘하는걸요",
+            "detail"        : "",
             "correctAnswer" : "③   잘하기는요",
             "score"         : "3",
             "isImg"         : "n"
@@ -157,6 +171,7 @@
             "option_2"      : "②   밖에",
             "option_3"      : "③   만큼",
             "option_4"      : "④   마다",
+            "detail"        : "",
             "correctAnswer" : "②   밖에",
             "score"         : "4",
             "isImg"         : "n"
@@ -168,6 +183,7 @@
             "option_2"      : "②   시작되는지",
             "option_3"      : "③   시작될수록",
             "option_4"      : "④   시작되려면",
+            "detail"        : "",
             "correctAnswer" : "②   시작되는지",
             "score"         : "3",
             "isImg"         : "n"
@@ -179,6 +195,7 @@
             "option_2"      : "②   갈까 봐요",
             "option_3"      : "③   갈 텐데요",
             "option_4"      : "④   가고말고요",
+            "detail"        : "",
             "correctAnswer" : "①   가곤 해요",
             "score"         : "3",
             "isImg"         : "n"
@@ -190,6 +207,7 @@
             "option_2"      : "②    드린다니까",
             "option_3"      : "③    드렸더라면",
             "option_4"      : "④    드리려다가",
+            "detail"        : "",
             "correctAnswer" : "④    드리려다가",
             "score"         : "3",
             "isImg"         : "n"
@@ -201,6 +219,7 @@
             "option_2"      : "②  나가나 봐요",
             "option_3"      : "③  나가기 쉬워요",
             "option_4"      : "④  나가야만 해요",
+            "detail"        : "",
             "correctAnswer" : "④  나가야만 해요",
             "score"         : "4",
             "isImg"         : "n"
@@ -212,6 +231,7 @@
             "option_2"      : "②  쓴 채",
             "option_3"      : "③  쓰던데",
             "option_4"      : "④  쓰더니",
+            "detail"        : "",
             "correctAnswer" : "②  쓴 채",
             "score"         : "3",
             "isImg"         : "n"
@@ -223,6 +243,7 @@
             "option_2"      : "②  확인하는 척했어요",
             "option_3"      : "③  확인할 뿐이었어요",
             "option_4"      : "④  확인하라고 했어요",
+            "detail"        : "",
             "correctAnswer" : "①  확인할 참이었어요",
             "score"         : "3",
             "isImg"         : "n"
@@ -234,6 +255,7 @@
             "option_2"      : "②  가는 통에",
             "option_3"      : "③  가는 반면에",
             "option_4"      : "④  가는 대신에",
+            "detail"        : "",
             "correctAnswer" : "①  가는 김에",
             "score"         : "3",
             "isImg"         : "n"
@@ -245,6 +267,7 @@
             "option_2"      : "②  어쩐지",
             "option_3"      : "③  게다가",
             "option_4"      : "④  도대체",
+            "detail"        : "",
             "correctAnswer" : "③  게다가",
             "score"         : "3",
             "isImg"         : "n"
@@ -256,6 +279,7 @@
             "option_2"      : "②  주장할까 봐서",
             "option_3"      : "③  주장하는 데다가",
             "option_4"      : "④  주장하기는 하지만",
+            "detail"        : "",
             "correctAnswer" : "③  주장하는 데다가",
             "score"         : "3",
             "isImg"         : "n"
@@ -267,6 +291,7 @@
             "option_2"      : "②  뛰는 놈 위에 나는 놈 있다",
             "option_3"      : "③  소문난 잔치에 먹을 것 없다",
             "option_4"      : "④  사공이 많으면 배가 산으로 간다",
+            "detail"        : "",
             "correctAnswer" : "④  사공이 많으면 배가 산으로 간다",
             "score"         : "3",
             "isImg"         : "n"
