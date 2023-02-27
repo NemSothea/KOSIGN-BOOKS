@@ -14,7 +14,6 @@ class ListeningQuestionVC: UIViewController {
         - @IBOutlet
      */
     @IBOutlet weak var topikTitle       : UILabel!
-    @IBOutlet weak var pauseBtn         : UIButton!
     @IBOutlet weak var playBtn          : UIButton!
     
     @IBOutlet weak var collectionView   : UICollectionView!
@@ -41,6 +40,9 @@ class ListeningQuestionVC: UIViewController {
         
         // Do any additional setup after loading the view.
         self.topikTitle.text = headerTitle
+    
+        self.playBtn.isEnabled = indexTopik != 3
+        
         self.listeningVM.getData(index: self.indexTopik)
         
         DispatchQueue.main.async {

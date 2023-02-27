@@ -9,7 +9,7 @@ import UIKit
 
 class PopupVC : UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    @IBOutlet weak var tableView : UITableView!
+    @IBOutlet weak var tableView        : UITableView!
     
     var detail                          = ""
     
