@@ -222,6 +222,46 @@
             "detail"        : "Woman : I couldn't apply because I mistook the dormitory application date, what should I do?\nMan : There's a house that the school introduces, do you want to apply? It's a way to share a deposit with other students and rent a house together, so the deposit burden is low.\nWoman : So we share a house? I think it would be a little uncomfortable to live together in the same house. I'm sure there are a lot of things to care about each other.\nMan : Communal life is better than I thought. Since I use the room alone, I have my own space. Public spaces such as the kitchen and living room are managed together, so it's more comfortable than when you're alone. I feel less lonely because we can rely on each other.",
             "correctAnswer" : "③  기숙사 신청 마감일까지 아직 시간이 남아 있다.",
             "score"         : "2"
+        },
+        {   "sections"      : "※ [23~24] 다음을 듣고 물음에 답하십시오. (각 2점)",
+            "question"      : "23. 남자의 중심 생각으로 맞는 것을 고르십시오.",
+            "option_1"      : "①  ‘이름 부르기’ 서비스를 제안하고 있다.",
+            "option_2"      : "②  ‘이름 부르기’ 서비스의 개선을 요구하고 있다.",
+            "option_3"      : "③  ‘이름 부르기’ 서비스의 필요성을 강조하고 있다.",
+            "option_4"      : "④  ‘이름 부르기’ 서비스에 대한 반응을 보고하고 있다.",
+            "detail"        : "Woman : Assistant Manager Kim, what is the response of the 'Call Your Name' service?\nMan: I think it's good so far. When the drink I ordered is ready, customers seem to feel friendly because they call out my name, not a vibrating bell, unlike before.\nWoman : So let's wait and see for the time being. But have there been any negative comments reported so far?\nMan : There was an opinion that it was inconvenient to hear the name calling when the store was crowded, but there were no other major complaints.",
+            "correctAnswer" : "④  ‘이름 부르기’ 서비스에 대한 반응을 보고하고 있다.",
+            "score"         : "2"
+        },
+        {   "sections"      : "※ [25~26] 다음을 듣고 물음에 답하십시오. (각 2점)",
+            "question"      : "24. 들은 내용으로 맞는 것을 고르십시오.",
+            "option_1"      : "①  이 서비스에 대한 고객들의 반응이 좋지 않다.",
+            "option_2"      : "②  고객들은 자기 이름이 불리는 것을 불편하게 생각한다.",
+            "option_3"      : "③  이 서비스 시작 전에는 음료가 준비되면 진동벨로 알렸다.",
+            "option_4"      : "④  매장이 복잡할 때는 이름을 부르지 않고 진동벨을 사용한다.",
+            "detail"        : "Woman : Assistant Manager Kim, what is the response of the 'Call Your Name' service?\nMan: I think it's good so far. When the drink I ordered is ready, customers seem to feel friendly because they call out my name, not a vibrating bell, unlike before.\nWoman : So let's wait and see for the time being. But have there been any negative comments reported so far?\nMan : There was an opinion that it was inconvenient to hear the name calling when the store was crowded, but there were no other major complaints.",
+            "correctAnswer" : "④  매장이 복잡할 때는 이름을 부르지 않고 진동벨을 사용한다.",
+            "score"         : "2"
+        },
+        {   "sections"      : "※ [25~26] 다음을 듣고 물음에 답하십시오. (각 2점)",
+            "question"      : "25. 남자의 중심 생각으로 맞는 것을 고르십시오.",
+            "option_1"      : "①  작품의 가치는 그 재료에 따라 달라진다.",
+            "option_2"      : "②  사람들은 작품을 보면서 다양한 의미를 찾는다.",
+            "option_3"      : "③  일회용품의 사용 제한은 환경에 관심을 가지게 한다.",
+            "option_4"      : "④  환경 문제를 스스로 인식할 수 있도록 해 줘야 한다.",
+            "detail"        : "Female: I heard that you make a work of art out of discarded paper. I think there's a reason why you're doing this kind of work.\nMan: We use discarded paper as a material because we want to have a message in the painting. How many people are going to be told, 'Let's not use disposable products' and put it into practice? But more people will realize environmental problems when they see a piece of paper thrown away. And eventually, people who are not interested in the environment will naturally recognize the environmental problem. I think this method has more power than saying let's protect the environment.",
+            "correctAnswer" : "④  환경 문제를 스스로 인식할 수 있도록 해 줘야 한다.",
+            "score"         : "2"
+        },
+        {   "sections"      : "※ [25~26] 다음을 듣고 물음에 답하십시오. (각 2점)",
+            "question"      : "26. 들은 내용으로 맞는 것을 고르십시오.",
+            "option_1"      : "①  이 남자는 환경 문제에 관심이 없다.",
+            "option_2"      : "②  이 남자는 작품을 통해 메시지를 전하고 있다.",
+            "option_3"      : "③  이 남자는 버려진 일회용품으로 작품을 만든다.",
+            "option_4"      : "④  이 남자가 만든 작품에는 특별한 의미가 없다.",
+            "detail"        : "Female: I heard that you make a work of art out of discarded paper. I think there's a reason why you're doing this kind of work.\nMan: We use discarded paper as a material because we want to have a message in the painting. How many people are going to be told, 'Let's not use disposable products' and put it into practice? But more people will realize environmental problems when they see a piece of paper thrown away. And eventually, people who are not interested in the environment will naturally recognize the environmental problem. I think this method has more power than saying let's protect the environment.",
+            "correctAnswer" : "②  이 남자는 작품을 통해 메시지를 전하고 있다.",
+            "score"         : "2"
         }
         
     ]
