@@ -122,6 +122,46 @@
             "detail"        : "Man : Mr. Kang, where should we go for this field trip?\nWoman : Well, how about the Safety Education Experience Center? Experiencing natural disasters such as earthquakes will be beneficial to students.\nMan : That would be great. I'll have to find out specifically what kind of programs are there are. I'll check the location, too.\nWoman : I'll find the location for you.\nMan : Really? Thank you, Mr. Kang. Then I should make a detailed schedule.",
             "correctAnswer" : "②  체험관의 위치를 알아본다.",
             "score"         : "2"
+        },
+        {   "sections"      : "※ [13~16] 다음을 듣고 내용과 일치하는 것을 고르십시오. (각 2점)",
+            "question"      : "13. 2점",
+            "option_1"      : "①  해외 온라인 쇼핑몰은 물건 값이 싸서 세일을 안 한다.",
+            "option_2"      : "②  해외 온라인 쇼핑몰 물건은 한국보다 가격이 더 비싸다.",
+            "option_3"      : "③  해외 온라인 쇼핑몰에서 물건을 주문하는 방법은 복잡하다.",
+            "option_4"      : "④  해외 온라인 쇼핑을 하면 물건을 받을 때까지 오래 기다려야 한다.",
+            "detail"        : "Woman: I heard it's cheap if you buy something at an overseas online shopping mall?\nMan : Yes. It takes a little long, but it's much cheaper. You can buy things that you can't get in Korea.\nWoman : Isn't it complicated to order? I'm thinking of trying it too. Man: It wasn't very difficult. It's cheaper if it's on sale, so take a good look at the sale period.",
+            "correctAnswer" : "①  해외 온라인 쇼핑몰은 물건 값이 싸서 세일을 안 한다.",
+            "score"         : "2"
+        },
+        {   "sections"      : "※ [13~16] 다음을 듣고 내용과 일치하는 것을 고르십시오. (각 2점)",
+            "question"      : "14. 2점",
+            "option_1"      : "①  공원에서 영화를 상영할 것이다.",
+            "option_2"      : "②  영화 촬영 때문에 공원에서 나가야 한다.",
+            "option_3"      : "③  영화 촬영하는 모습을 사진으로 찍을 수 있다.",
+            "option_4"      : "④  동문 주차장에 있는 차를 다른 곳으로 옮겨야 한다.",
+            "detail"        : "Woman : I will give you guidance. After a while, the filming will be held from 4 to 7 pm. If you have parked your car in the east gate parking lot, please move it to another parking lot in the park. Photography is prohibited during filming, so please cooperate.",
+            "correctAnswer" : "④  동문 주차장에 있는 차를 다른 곳으로 옮겨야 한다.",
+            "score"         : "2"
+        },
+        {   "sections"      : "※ [13~16] 다음을 듣고 내용과 일치하는 것을 고르십시오. (각 2점)",
+            "question"      : "15. 2점",
+            "option_1"      : "①  이 공연은 어른들을 위해 기획되었다.",
+            "option_2"      : "②  이 공연에는 어린이들이 무용수로 나온다.",
+            "option_3"      : "③  공연 중에 내용 이해를 돕는 노래가 나온다.",
+            "option_4"      : "④  이 발레 공연은 이번에 처음 하는 공연이다.",
+            "detail"        : "Man : The following is the news of the encore ballet performance that became popular at the end of last year. This performance is a ballet prepared for children by a dance troupe made up of teachers from an art high school. Dancers dress up in animal costumes and dance for children to enjoy. Songs are also added to help children understand. It would be nice to see the whole family together for a holiday outing .",
+            "correctAnswer" : "③  공연 중에 내용 이해를 돕는 노래가 나온다.",
+            "score"         : "2"
+        },
+        {   "sections"      : "※ [13~16] 다음을 듣고 내용과 일치하는 것을 고르십시오. (각 2점)",
+            "question"      : "16. 2점",
+            "option_1"      : "①  열차의 분위기는 현대적이다.",
+            "option_2"      : "②  10년 전부터 카페를 운영하였다.",
+            "option_3"      : "③  기차역과 열차를 카페로 바꿨다.",
+            "option_4"      : "④  카페 손님은 주민들이 대부분이다.",
+            "detail"        : "Woman : Today, we are at Songjeong Station, a train station where there are no trains. Stationmaster, please introduce this place.\nMan : This is a place where trains have not been running for 10 years. So I haven't been using history. A recent suggestion from a resident made a train station and train into an old train-like cafe. The response of the local residents is good, and more tourists come after hearing the word of mouth of the guests who visited this place.",
+            "correctAnswer" : "③  기차역과 열차를 카페로 바꿨다.",
+            "score"         : "2"
         }
     ]
    
