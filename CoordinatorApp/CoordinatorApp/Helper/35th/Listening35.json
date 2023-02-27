@@ -162,7 +162,68 @@
             "detail"        : "Woman : Today, we are at Songjeong Station, a train station where there are no trains. Stationmaster, please introduce this place.\nMan : This is a place where trains have not been running for 10 years. So I haven't been using history. A recent suggestion from a resident made a train station and train into an old train-like cafe. The response of the local residents is good, and more tourists come after hearing the word of mouth of the guests who visited this place.",
             "correctAnswer" : "③  기차역과 열차를 카페로 바꿨다.",
             "score"         : "2"
+        },
+        {   "sections"      : "※ [17~20] 다음을 듣고 남자의 중심 생각을 고르십시오. (각 2점)",
+            "question"      : "17. 2점",
+            "option_1"      : "①  장기간 떠나는 여행은 여러 가지 장점이 많다.",
+            "option_2"      : "②  시간이 날 때마다 여행을 다니는 것이 좋다.",
+            "option_3"      : "③  여행을 오랫동안 다녀오면 다시 취직하기가 힘들다.",
+            "option_4"      : "④  여행을 떠나기 전에는 철저한 계획과 준비가 필요하다",
+            "detail"        : "Man : Hyuna quit her job and is going to travel around the world on a one-year plan. I think it's really amazing.\nWoman : I heard that. But I don't understand why you quit your job and go on a trip. You can travel while working at a company.\nMan : It doesn't last long. I think it's good to go on a long trip at least once because you can take a rest and look back on yourself and make new plans.",
+            "correctAnswer" : "①  장기간 떠나는 여행은 여러 가지 장점이 많다.",
+            "score"         : "2"
+        },
+        {   "sections"      : "※ [17~20] 다음을 듣고 남자의 중심 생각을 고르십시오. (각 2점)",
+            "question"      : "18. 2점",
+            "option_1"      : "①  운동은 각자의 체력에 맞게 해야 한다.",
+            "option_2"      : "②  운동을 주 3회 하면 효과를 볼 수 없다.",
+            "option_3"      : "③  자기에게 맞는 운동을 골라서 해야 한다.",
+            "option_4"      : "④  스트레스를 받으면 운동을 안 하는 게 좋다.",
+            "detail"        : "Man : Then I understand that you will start exercising next Monday. Do you have any more questions?\nWoman : I think I'll only be here about three times a week. Can I see the effects of exercise like that?\nMan : Of course. Three times is enough. It's not good to exercise a lot. Too much exercise is worse for your health because your body is stressed out. It's better not to overdo it and do it moderately.",
+            "correctAnswer" : "①  운동은 각자의 체력에 맞게 해야 한다.",
+            "score"         : "2"
+        },
+        {   "sections"      : "※ [17~20] 다음을 듣고 남자의 중심 생각을 고르십시오. (각 2점)",
+            "question"      : "19. 2점",
+            "option_1"      : "① 어렸을 때 재능은 학교에서 발견할 수 있다.",
+            "option_2"      : "② 아이들의 방송 출연은 걱정할 문제가 아니다.",
+            "option_3"      : "③ 어렸을 때 방송에 출연하면 공부를 할 수 없다.",
+            "option_4"      : "④ 아이들과 함께 방송에 출연하면 부작용이 있다.",
+            "detail"        : "Man : Celebrities often appear on television with their children.\nFemale: Yeah. But are there any side effects on the children?\nMan : I don't think there's anything to worry about because I'm coming out with my parents, not alone. Above all, I think it would be good to be able to discover children's talents early.\nFemale : I'm at the age when I have to go to school, but I don't have time to study because of broadcasting.",
+            "correctAnswer" : "② 아이들의 방송 출연은 걱정할 문제가 아니다.",
+            "score"         : "2"
+        },
+        {   "sections"      : "※ [17~20] 다음을 듣고 남자의 중심 생각을 고르십시오. (각 2점)",
+            "question"      : "20. 2점",
+            "option_1"      : "①  전통 한복의 특징을 지키는 것이 중요하다.",
+            "option_2"      : "②  화려한 디자인의 한복은 대중화가 어렵다.",
+            "option_3"      : "③  전통 한복의 색과 선은 표현하기가 까다롭다.",
+            "option_4"      : "④  한복의 대중화를 위해 색과 디자인을 바꿔야 한다.",
+            "detail"        : "Female : Kim Young-jae instructor is famous for making traditional Hanbok only. Is there a special reason?\nMan : I think protecting the beauty of traditional hanbok is more important than popularizing hanbok. Modern Hanbok contributed to popularizing Hanbok with colorful colors and practical designs. But the most important elements of hanbok are colors and lines that are not too much. If these unique characteristics are missing, it's not really hanbok.",
+            "correctAnswer" : "①  전통 한복의 특징을 지키는 것이 중요하다.",
+            "score"         : "2"
+        },
+        {   "sections"      : "※ [21~22] 다음을 듣고 물음에 답하십시오. (각 2점)",
+            "question"      : "21. 남자의 중심 생각으로 맞는 것을 고르십시오.",
+            "option_1"      : "①  학교에서 소개하는 집은 믿을 만한 집이다.",
+            "option_2"      : "②  다른 사람과 함께 사는 것은 긍정적인 면도 있다.",
+            "option_3"      : "③  여러 사람이 함께 살면 사생활을 보호받지 못한다.",
+            "option_4"      : "④  공동생활을 하면 다른 사람의 생활을 존중해야 한다.",
+            "detail"        : "Woman : I couldn't apply because I mistook the dormitory application date, what should I do?\nMan : There's a house that the school introduces, do you want to apply? It's a way to share a deposit with other students and rent a house together, so the deposit burden is low.\nWoman : So we share a house? I think it would be a little uncomfortable to live together in the same house. I'm sure there are a lot of things to care about each other.\nMan : Communal life is better than I thought. Since I use the room alone, I have my own space. Public spaces such as the kitchen and living room are managed together, so it's more comfortable than when you're alone. I feel less lonely because we can rely on each other.",
+            "correctAnswer" : "④  공동생활을 하면 다른 사람의 생활을 존중해야 한다.",
+            "score"         : "2"
+        },
+        {   "sections"      : "※ [21~22] 다음을 듣고 물음에 답하십시오. (각 2점)",
+            "question"      : "22. 들은 내용으로 알맞은 것을 고르십시오.",
+            "option_1"      : "①  남자는 혼자 사는 것이 편하다고 생각한다.",
+            "option_2"      : "②  학교에서 소개해 주는 집은 보증금을 내야 한다.",
+            "option_3"      : "③  기숙사 신청 마감일까지 아직 시간이 남아 있다.",
+            "option_4"      : "④  학교에서 소개하는 집에는 혼자 쓰는 방이 없다.",
+            "detail"        : "Woman : I couldn't apply because I mistook the dormitory application date, what should I do?\nMan : There's a house that the school introduces, do you want to apply? It's a way to share a deposit with other students and rent a house together, so the deposit burden is low.\nWoman : So we share a house? I think it would be a little uncomfortable to live together in the same house. I'm sure there are a lot of things to care about each other.\nMan : Communal life is better than I thought. Since I use the room alone, I have my own space. Public spaces such as the kitchen and living room are managed together, so it's more comfortable than when you're alone. I feel less lonely because we can rely on each other.",
+            "correctAnswer" : "③  기숙사 신청 마감일까지 아직 시간이 남아 있다.",
+            "score"         : "2"
         }
+        
     ]
    
 }
