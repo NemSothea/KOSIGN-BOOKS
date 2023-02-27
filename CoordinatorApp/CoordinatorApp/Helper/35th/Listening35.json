@@ -8,7 +8,8 @@
             "option_4"      : "④  ",
             "detail"        : "Woman : Can you take a look at this? I spilled coffee on my clothes.\nMan : Shall we take a look? Well......, it will be clean if you wash it. Until when should I do it for you?\nWoman : Please do it by tomorrow.",
             "correctAnswer" : "②  ",
-            "score"         : "2"
+            "score"         : "2",
+            "isImg"         : "y"
         },
         {   "sections"      : "※ [1~3] 다음을 듣고 알맞은 그림을 고르십시오. (각 2점)",
             "question"      : "35_2_img",
@@ -18,7 +19,8 @@
             "option_4"      : "④  ",
             "detail"        : "",
             "correctAnswer" : "④  ",
-            "score"         : "2"
+            "score"         : "2",
+            "isImg"         : "y"
         },
         {   "sections"      : "※ [1~3] 다음을 듣고 알맞은 그림을 고르십시오. (각 2점)",
             "question"      : "35_3_img",
@@ -28,7 +30,8 @@
             "option_4"      : "④  먹다 보면",
             "detail"        : "Woman : Can you take a look at this? I spilled coffee on my clothes.\nMan : Shall we take a look? Well......, it will be clean if you wash it. Until when should I do it for you?\nWoman : Please do it by tomorrow.",
             "correctAnswer" : "③  먹고 나서",
-            "score"         : "2"
+            "score"         : "2",
+            "isImg"         : "y"
         },
         {   "sections"      : "※ [4~8]다음 대화를 잘듣고 이어질 수있는 말을 고르십시오.(각2점)",
             "question"      : "4. 2점",
@@ -79,8 +82,47 @@
             "detail"        : "Woman : Well, it suddenly rained, so can you still borrow an umbrella these days?\nMan : What should I do? The umbrella rental service has been suspended since last month. There are too few people returning umbrellas, so it's hard to continue the service.\nWoman: It was good to be able to borrow it when I needed it, but it's a pity.",
             "correctAnswer" : "④  필요할 때 빌릴 수 있어서 좋았는데 아쉽네요.",
             "score"         : "2"
+        },
+        {   "sections"      : "※ [9~12]다음 대화를 잘 듣고 여자가 이어서 할행 동으로 알맞은 것을 고르십시오. (각 2점)",
+            "question"      : "9. 2점",
+            "option_1"      : "①  침대의 사진을 찍는다.",
+            "option_2"      : "②  침대를 만든 회사에 연락한다.",
+            "option_3"      : "③  가게로 침대를 가져간다.",
+            "option_4"      : "④  중고 가게에 가서 침대를 산다.",
+            "detail"        : "Woman : I heard you buy furniture from a secondhand store. I'm thinking about selling a bed, what should I do?\nMan : First, take a picture of the bed and post it on the store's website and write down which company it is from. Then the store will contact you.Then do I have to bring the bed?\nMan : No, people from the store will come and take it.",
+            "correctAnswer" : "①  침대의 사진을 찍는다.",
+            "score"         : "2"
+        },
+        {   "sections"      : "※ [9~12]다음 대화를 잘 듣고 여자가 이어서 할행 동으로 알맞은 것을 고르십시오. (각 2점)",
+            "question"      : "10. 2점",
+            "option_1"      : "①  복사기를 수리할 사람을 찾는다.",
+            "option_2"      : "②  복사기의 종류와 가격을 조사한다.",
+            "option_3"      : "③  구매팀에 복사기 상태를 설명한다.",
+            "option_4"      : "④  사무실에서 쓸 복사기를 사러 간다.",
+            "detail"        : "Woman : Team leader, I think we need to buy a new copy machine.\nMan : Why? You can't fix it?\nFemale : Yes, the copier is so old that it's going to cost a lot to fix. Why don't you talk to the purchasing team and buy a new one?\nMan : I do. Then you can tell me the details.",
+            "correctAnswer" : "③  구매팀에 복사기 상태를 설명한다.",
+            "score"         : "2"
+        },
+        {   "sections"      : "※ [9~12]다음 대화를 잘 듣고 여자가 이어서 할행 동으로 알맞은 것을 고르십시오. (각 2점)",
+            "question"      : "11. 2점",
+            "option_1"      : "①  인문학 강의를 신청한다.",
+            "option_2"      : "②  남자와 함께 강의를 듣는다.",
+            "option_3"      : "③  교재를 사러 서점으로 간다.",
+            "option_4"      : "④  홈페이지에서 교재를 확인한다.",
+            "detail"        : "Woman : Minsu, are you going to take a humanities class this time?\nMan : I heard it last year. The Lecture is so popular that you will have to apply quickly.\nWoman : Oh, yes. Then we'll have to hurry. By the way, what is the textbook? It wasn't on the homepage.\nMan : Really? I have the book, so I'll bring it to you tomorrow.",
+            "correctAnswer" : "①  인문학 강의를 신청한다.",
+            "score"         : "2"
+        },
+        {   "sections"      : "※ [9~12]다음 대화를 잘 듣고 여자가 이어서 할행 동으로 알맞은 것을 고르십시오. (각 2점)",
+            "question"      : "12. 2점",
+            "option_1"      : "①  현장학습 일정을 짠다.",
+            "option_2"      : "②  체험관의 위치를 알아본다.",
+            "option_3"      : "③  자연재해를 체험해 본다.",
+            "option_4"      : "④  체험관의 프로그램을 확인한다.",
+            "detail"        : "Man : Mr. Kang, where should we go for this field trip?\nWoman : Well, how about the Safety Education Experience Center? Experiencing natural disasters such as earthquakes will be beneficial to students.\nMan : That would be great. I'll have to find out specifically what kind of programs are there are. I'll check the location, too.\nWoman : I'll find the location for you.\nMan : Really? Thank you, Mr. Kang. Then I should make a detailed schedule.",
+            "correctAnswer" : "②  체험관의 위치를 알아본다.",
+            "score"         : "2"
         }
-        
     ]
    
 }

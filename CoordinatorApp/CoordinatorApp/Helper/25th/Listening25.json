@@ -203,10 +203,10 @@
         {
             "sections"      : "※ [18~20] 다음 대화를 듣고 남자가 할 행동으로 알맞은 것을 고르십시오.",
             "question"      : "19. (3점) ",
-            "option_1"      : "①  수미에게 연락을 한다."
-            "option_2"      : "②  파티 장소를 찾아본다."
-            "option_3"      : "③  송별 파티를 하러 간다."
-            "option_4"      : "④  여자와 함께 수미를 만난다."
+            "option_1"      : "①  수미에게 연락을 한다.",
+            "option_2"      : "②  파티 장소를 찾아본다.",
+            "option_3"      : "③  송별 파티를 하러 간다.",
+            "option_4"      : "④  여자와 함께 수미를 만난다.",
             "detail"        : "Man : When did Sumi say she was going?\nWoman: 28th. Oh, there's less than a week left.\nMan : Why don't we have a farewell party?\nWoman : good Where is the best place for the party? It's the end of the year, so you have to hurry. I'll look into that now. But shouldn't we ask Sumi if she has time? You must be busy these days....... I'm going to meet Sumi later, so I'll ask her then.\nMan : Yes, please.",
             "correctAnswer" : "②  파티 장소를 찾아본다.",
             "score"         : "3"
