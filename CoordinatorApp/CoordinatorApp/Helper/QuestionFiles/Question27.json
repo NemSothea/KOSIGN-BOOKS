@@ -6,7 +6,7 @@
             "option_2"      : "②   약간",
             "option_3"      : "③   벌써",
             "option_4"      : "④   훨씬",
-            "detail"        : "",
+            "detail"        : "I ran to the train station, but the train has already left.",
             "correctAnswer" : "③   벌써",
             "score"         : "3",
             "isImg"         : "n"
@@ -17,7 +17,7 @@
             "option_2"      : "②   모습",
             "option_3"      : "③   실력",
             "option_4"      : "④   방향",
-            "detail"        : "",
+            "detail"        : "My mother teaches me how to make food.",
             "correctAnswer" : "①   방법",
             "score"         : "3",
             "isImg"         : "n"
@@ -28,7 +28,7 @@
             "option_2"      : "②   따랐다",
             "option_3"      : "③   가졌다",
             "option_4"      : "④   덜었다",
-            "detail"        : "",
+            "detail"        : "I memorized ten words every day because I wanted to be good at Korean.",
             "correctAnswer" : "①   외웠다",
             "score"         : "3",
             "isImg"         : "n"
@@ -40,7 +40,7 @@
             "option_2"      : "②   넘어서",
             "option_3"      : "③   들어서",
             "option_4"      : "④   떠나서",
-            "detail"        : "",
+            "detail"        : "The performance ended late and I arrived home after eleven o'clock at night.",
             "correctAnswer" : "②   넘어서",
             "score"         : "3",
             "isImg"         : "n"
@@ -51,7 +51,7 @@
             "option_2"      : "②   다양한",
             "option_3"      : "③   가득한",
             "option_4"      : "④   소중한",
-            "detail"        : "",
+            "detail"        : "The store sells a wide variety of fruits.",
             "correctAnswer" : "②   다양한",
             "score"         : "4",
             "isImg"         : "n"
@@ -63,7 +63,7 @@
             "option_2"      : "②   씻었다",
             "option_3"      : "③   마련했다",
             "option_4"      : "④   정리했다",
-            "detail"        : "",
+            "detail"        : "After finishing work, I cleaned up the desk after a long time.",
             "correctAnswer" : "④   정리했다",
             "score"         : "3",
             "isImg"         : "n"
@@ -75,7 +75,7 @@
             "option_2"      : "②   몹시",
             "option_3"      : "③   자꾸",
             "option_4"      : "④   괜히",
-            "detail"        : "",
+            "detail"        : "My parents had a hard time because the business wasn't going well.",
             "correctAnswer" : "②   몹시",
             "score"         : "3",
             "isImg"         : "n"
@@ -87,7 +87,7 @@
             "option_2"      : "②   현실",
             "option_3"      : "③   장래",
             "option_4"      : "④   변화",
-            "detail"        : "",
+            "detail"        : "The future of the nation depends on the growing children.",
             "correctAnswer" : "③   장래",
             "score"         : "4",
             "isImg"         : "n"
@@ -99,7 +99,7 @@
             "option_2"      : "②   낯선",
             "option_3"      : "③   새로운",
             "option_4"      : "④   아쉬운",
-            "detail"        : "",
+            "detail"        : "The teacher tries to lead the students to the right path.",
             "correctAnswer" : "①   바른",
             "score"         : "4",
             "isImg"         : "n"
@@ -111,7 +111,7 @@
             "option_2"      : "②   풀다",
             "option_3"      : "③   놓다",
             "option_4"      : "④   펴다",
-            "detail"        : "",
+            "detail"        : "I left my luggage and came out. I put the newspaper on the desk. I answer my son's phone and let go of my mind.",
             "correctAnswer" : "③   놓다",
             "score"         : "4",
             "isImg"         : "n"
@@ -123,7 +123,7 @@
             "option_2"      : "②   내다",
             "option_3"      : "③   구하다",
             "option_4"      : "④   살피다",
-            "detail"        : "",
+            "detail"        : "Let's think again after looking at the house. He makes a lot of profit from the clothing business. I'm trying to decide on hospitalization to see my mother's condition.",
             "correctAnswer" : "③   구하다",
             "score"         : "3",
             "isImg"         : "n"

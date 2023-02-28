@@ -76,6 +76,7 @@ class ListeningViewModel : NSObject, ObservableObject {
             "TOPIK II Listening 33th",
             "TOPIK II Listening 34th",
             "TOPIK II Listening 35th",
+            "TOPIK II Listening 36th",
         ]
     }
     func getData(index : Int) {
@@ -104,6 +105,8 @@ class ListeningViewModel : NSObject, ObservableObject {
             i = "34"
         case 11 :
             i = "35"
+        case 12 :
+            i = "36"
         default :
             break
         }
