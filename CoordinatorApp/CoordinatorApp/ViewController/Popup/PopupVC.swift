@@ -10,12 +10,16 @@ import UIKit
 class PopupVC : UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     @IBOutlet weak var tableView        : UITableView!
+    @IBOutlet weak var mainView         : UIView!
     
     var detail                          = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
-    
+        
+        self.mainView.clipsToBounds = true
+        self.mainView.layer.cornerRadius = 10
+        self.mainView.layer.maskedCorners = [.layerMaxXMinYCorner,.layerMaxXMinYCorner]
         // Do any additional setup after loading the view.
     }
     

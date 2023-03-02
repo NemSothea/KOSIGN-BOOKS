@@ -704,6 +704,7 @@
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="mainView" destination="Xj7-3K-tU9" id="W3V-cP-PtW"/>
                         <outlet property="tableView" destination="znr-yL-vAh" id="Ocw-pv-X2L"/>
                     </connections>
                 </viewController>

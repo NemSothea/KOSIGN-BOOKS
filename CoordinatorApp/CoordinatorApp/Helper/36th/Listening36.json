@@ -110,7 +110,7 @@
       "option_2"      : "②  집에서 거실 커튼을 단다.",
       "option_3"      : "③  커튼을 사러 가게에 간다.",
       "option_4"      : "④  커튼을 사서 집에 가져간다.",
-      "detail"        : "Woman : I'd like to change the curtains in my house.\nMan : Come this way and see. There are also a lot of books, so please take a look.\nWoman : Well....... I don't really like anything in the store, so I need to take a look at the brochure.\nMan : Then sit down and watch it slowly. If you like anything, take it to your house. I'll go and put it on",
+      "detail"        : "Woman: I'd like to change the curtains in my house.\nMan : Come this way and see. There are also a lot of books, so please take a look.\nWoman : Well....... I don't really like anything in the store, so I need to take a look at the brochure.\nMan : Then sit down and watch it slowly. If you like anything, take it to your house. I'll go and put it on.",
       "correctAnswer" : "①  책자에서 커튼을 고른다.",
       "score"         : "2"
      },
@@ -162,7 +162,7 @@
      "sections"      : "※ [13~16]다음을 듣고 내용과 일치하는 것을 고르십시오.",
       "question"      : "16.",
       "option_1"      : "①  시장의 카페에서 다양한 도시락을 판다.",
-      "option_2"      : "",
+      "option_2"      : "②  이 시장을 관광지로 알리려고 홍보했다.",
       "option_3"      : "③  시장이 인기를 끌자 도시락 카페가 생겼다.",
       "option_4"      : "④  이 시장에서는 음식을 골라먹는 재미가 있다.",
       "detail"        : "Woman : This is a traditional market in Seoul, which is gaining popularity as a new tourist destination. Shall we listen to the secret of popularity from the president of the merchant association who was with us?\nMan : The secret is the 'lunch box cafe'. Among the foods sold at the market, I put what suits my taste in my lunch box and eat it at this cafe. It's like a picnic. As this became known through word of mouth, our market became famous. Now it has become a tourist destination that is visited not only by Koreans but also by foreigners.",
@@ -198,8 +198,8 @@
       "option_2"      : "②  커피 값에 공간을 이용하는 비용이 들어 있다.",
       "option_3"      : "③  커피숍에 장시간 있는 것은 영업에 방해가 된다.",
       "option_4"      : "④  커피숍 공간을 다양하게 이용할 수 있게 해야 한다.",
-      "detail"        : "",
-      "correctAnswer" : "④",
+      "detail"        : "Man: Uh, there are no seats in the library. Shall we study at a coffee shop? Woman: Will it still be okay? I have to stay for quite a long time, but I'm sorry for the owner.\nMan : Well, I don't think it's going to be a problem. The coffee shop is originally a story. Aren't you able to take full use of space while reading books? A minister We're paying for it for coffee.\nWoman : But you should think about other customers and get up moderately.",
+      "correctAnswer" : "②  커피 값에 공간을 이용하는 비용이 들어 있다.",
       "score"         : "2"
      },
      {
@@ -209,8 +209,8 @@
       "option_2"      : "②  화해하고 싶으면 먼저 나를 되돌아봐야 한다.",
       "option_3"      : "③  상대방의 웃음을 보면 화해를 먼저 해야 한다.",
       "option_4"      : "④  화해하려면 상대방의 행동을 미리 살펴야 한다.",
-      "detail"        : "",
-      "correctAnswer" : "④",
+      "detail"        : "Woman : Teacher Choi, you published a book called 'Technology of harm' this time. What is the most important part of the book?\nMan : If you want to make up, tell them talk about me. In many cases, people only repeat the other person's words and actions when they try to reconcile. This doesn't help with relationship recovery at all. Rather, it has a bad effect. Look at my words and actions first and say it. You will be able to see the bright smile of the other person.",
+      "correctAnswer" : "②  화해하고 싶으면 먼저 나를 되돌아봐야 한다.",
       "score"         : "2"
      },
      {
@@ -220,8 +220,8 @@
       "option_2"      : "②  가족은 함께 생활하는 것이 좋다.",
       "option_3"      : "③  누구나 자신만의 공간이 필요하다.",
       "option_4"      : "④  독립해 사는 것이 좋은 것만은 아니다.",
-      "detail"        : "",
-      "correctAnswer" : "④",
+      "detail"        : "Woman : You would be nice. Because I live alone I want to be independent, but my dad is so conservative that I can't let him do it. I'm over 20 years old.\nMan : I heard that your dad especially loves you because you're the youngest? And it's easy to go around because the company is close to home. Why do you want to come out like that?\nWoman : It's close, but the traffic is inconvenient, so it takes a lot of time, and I want to have my own space. But no matter how much I tell you, it's no use.\nMan : There are many times when it's hard to live alone. You have to do all the laundry, washing the dishes, and things you didn't care about until now. It costs a lot of living. And I live alone, so I wake up late and don't eat well.",
+      "correctAnswer" : "④  독립해 사는 것이 좋은 것만은 아니다.",
       "score"         : "2"
      },
      {
@@ -231,8 +231,8 @@
       "option_2"      : "②  여자는 집안일로 스트레스를 받고 있다.",
       "option_3"      : "③  여자의 아버지는 딸의 독립을 반대한다.",
       "option_4"      : "④  여자는 회사가 멀어서 독립하고 싶어한다.",
-      "detail"        : "",
-      "correctAnswer" : "④",
+      "detail"        : "Woman : You would be nice. Because I live alone I want to be independent, but my dad is so conservative that I can't let him do it. I'm over 20 years old.\nMan : I heard that your dad especially loves you because you're the youngest? And it's easy to go around because the company is close to home. Why do you want to come out like that?\nWoman : It's close, but the traffic is inconvenient, so it takes a lot of time, and I want to have my own space. But no matter how much I tell you, it's no use.\nMan : There are many times when it's hard to live alone. You have to do all the laundry, washing the dishes, and things you didn't care about until now. It costs a lot of living. And I live alone, so I wake up late and don't eat well.",
+      "correctAnswer" : "③  여자의 아버지는 딸의 독립을 반대한다.",
       "score"         : "2"
      },
      {
@@ -242,8 +242,8 @@
       "option_2"      : "②  직장 내의 각 부서를 설명하고 있다.",
       "option_3"      : "③  잡 마켓 이용 경험을 소개하고 있다.",
       "option_4"      : "④  상사의 문제점에 대해 이야기하고 있다.",
-      "detail"        : "",
-      "correctAnswer" : "④",
+      "detail"        : "Woman: How is your company life, Young-woo? I'm having a hard time because my work doesn't fit.\nMan : Is that so? Then why don't you change the department?' There's a job market. Department move It's about the employees who want to promote themselves directly to the desired department.\nWoman : I heard that there is such a thing, but it's a bit burdensome to use it.I can't even notice the manager.\nMan : Don't think so. The company also recommends using it, so use it.I heard that the employees are also satisfied.",
+      "correctAnswer" : "①  잡 마켓 이용을 제안하고 있다.",
       "score"         : "2"
      },
      {
@@ -253,8 +253,8 @@
       "option_2"      : "②  잡 마켓은 회사를 홍보하기 위해 만들었다.",
       "option_3"      : "③  잡 마켓은 상사의 허락이 있어야 이용한다.",
       "option_4"      : "④  직원들은 적성에 맞는 부서로 옮길 기회가 있다.",
-      "detail"        : "",
-      "correctAnswer" : "④",
+      "detail"        : "Woman: How is your company life, Young-woo? I'm having a hard time because my work doesn't fit.\nMan : Is that so? Then why don't you change the department?' There's a job market. Department move It's about the employees who want to promote themselves directly to the desired department.\nWoman : I heard that there is such a thing, but it's a bit burdensome to use it.I can't even notice the manager.\nMan : Don't think so. The company also recommends using it, so use it.I heard that the employees are also satisfied.",
+      "correctAnswer" : "④  직원들은 적성에 맞는 부서로 옮길 기회가 있다.",
       "score"         : "2"
      },
      {
@@ -264,8 +264,8 @@
       "option_2"      : "②  마음먹었을 때 바로 실천해야 한다.",
       "option_3"      : "③  자신의 한계를 알아야 도전할 수 있다.",
       "option_4"      : "④  고난을 극복하려면 강한 정신력이 필요하다.",
-      "detail"        : "",
-      "correctAnswer" : "④",
+      "detail"        : "Woman : I met Kim Dong-jin, who completed the Amazon Jungle Marathon, the most difficult marathon. Why did you make such a difficult challenge?\nMan : I went to the Amazon because I wanted to test my limits. The number of people who have completed the jungle marathon is one of the best. The physical and mental pain there was indescribable, but the joy and emotion I felt at that time was irreplaceable. But there's something I think I did better than finishing the race. It was action when something happened that I wanted to challenge. If I hesitated, I wouldn't have been able to challenge myself and I wouldn't have felt this sense of accomplishment.",
+      "correctAnswer" : "②  마음먹었을 때 바로 실천해야 한다.",
       "score"         : "2"
      },
      {
@@ -275,8 +275,8 @@
       "option_2"      : "②  남자는 마라톤 선수들을 통해 많은 것을 배웠다.",
       "option_3"      : "③  남자는 고통이 심해서 마라톤을 중간에 포기했다.",
       "option_4"      : "④  남자는 아마존에서 자신의 의지를 시험하고 싶었다.",
-      "detail"        : "",
-      "correctAnswer" : "④",
+      "detail"        : "Woman : I met Kim Dong-jin, who completed the Amazon Jungle Marathon, the most difficult marathon. Why did you make such a difficult challenge?\nMan : I went to the Amazon because I wanted to test my limits. The number of people who have completed the jungle marathon is one of the best. The physical and mental pain there was indescribable, but the joy and emotion I felt at that time was irreplaceable. But there's something I think I did better than finishing the race. It was action when something happened that I wanted to challenge. If I hesitated, I wouldn't have been able to challenge myself and I wouldn't have felt this sense of accomplishment.",
+      "correctAnswer" : "④  남자는 아마존에서 자신의 의지를 시험하고 싶었다.",
       "score"         : "2"
      }
     ]
