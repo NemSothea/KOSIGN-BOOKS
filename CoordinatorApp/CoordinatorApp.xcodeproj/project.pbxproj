@@ -59,7 +59,7 @@
 		55E1209F29B015AE009BEFBC /* 27_1_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 55E1205529B015AE009BEFBC /* 27_1_img.png */; };
 		55E120A029B015AE009BEFBC /* Question27.json in Resources */ = {isa = PBXBuildFile; fileRef = 55E1205629B015AE009BEFBC /* Question27.json */; };
 		55E120A129B015AE009BEFBC /* Question29.json in Resources */ = {isa = PBXBuildFile; fileRef = 55E1205829B015AE009BEFBC /* Question29.json */; };
-		55E120A229B015AE009BEFBC /* 29th TOPIK Intermediate Listening Audio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 55E1205929B015AE009BEFBC /* 29th TOPIK Intermediate Listening Audio.mp3 */; };
+		55E120A229B015AE009BEFBC /* Listening29th.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 55E1205929B015AE009BEFBC /* Listening29th.mp3 */; };
 		55E120A329B015AE009BEFBC /* 26_1_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 55E1205B29B015AE009BEFBC /* 26_1_img.png */; };
 		55E120A429B015AE009BEFBC /* Listening26.json in Resources */ = {isa = PBXBuildFile; fileRef = 55E1205C29B015AE009BEFBC /* Listening26.json */; };
 		55E120A529B015AE009BEFBC /* 26_2_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 55E1205D29B015AE009BEFBC /* 26_2_img.png */; };
@@ -155,7 +155,7 @@
 		55E1205529B015AE009BEFBC /* 27_1_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 27_1_img.png; sourceTree = "<group>"; };
 		55E1205629B015AE009BEFBC /* Question27.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Question27.json; sourceTree = "<group>"; };
 		55E1205829B015AE009BEFBC /* Question29.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Question29.json; sourceTree = "<group>"; };
-		55E1205929B015AE009BEFBC /* 29th TOPIK Intermediate Listening Audio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "29th TOPIK Intermediate Listening Audio.mp3"; sourceTree = "<group>"; };
+		55E1205929B015AE009BEFBC /* Listening29th.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Listening29th.mp3; sourceTree = "<group>"; };
 		55E1205B29B015AE009BEFBC /* 26_1_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 26_1_img.png; sourceTree = "<group>"; };
 		55E1205C29B015AE009BEFBC /* Listening26.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Listening26.json; sourceTree = "<group>"; };
 		55E1205D29B015AE009BEFBC /* 26_2_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 26_2_img.png; sourceTree = "<group>"; };
@@ -193,6 +193,9 @@
 		55E1208229B015AE009BEFBC /* 35_6_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 35_6_img.png; sourceTree = "<group>"; };
 		55E1208329B015AE009BEFBC /* 35_7_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 35_7_img.png; sourceTree = "<group>"; };
 		55E1208429B015AE009BEFBC /* Listening35.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Listening35.json; sourceTree = "<group>"; };
+		55E120C929B0972A009BEFBC /* Listening28.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Listening28.json; sourceTree = "<group>"; };
+		55E120CA29B09732009BEFBC /* Listening29.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Listening29.json; sourceTree = "<group>"; };
+		55E120CB29B0973B009BEFBC /* Listening30.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Listening30.json; sourceTree = "<group>"; };
 		55E64E6D299B7A7D004481E3 /* ReadingQuestionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingQuestionCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -414,6 +417,7 @@
 			isa = PBXGroup;
 			children = (
 				55E1204929B015AE009BEFBC /* Question30.json */,
+				55E120CB29B0973B009BEFBC /* Listening30.json */,
 				55E1204A29B015AE009BEFBC /* Listening30th.mp3 */,
 			);
 			path = 30th;
@@ -445,7 +449,8 @@
 			isa = PBXGroup;
 			children = (
 				55E1205829B015AE009BEFBC /* Question29.json */,
-				55E1205929B015AE009BEFBC /* 29th TOPIK Intermediate Listening Audio.mp3 */,
+				55E120CA29B09732009BEFBC /* Listening29.json */,
+				55E1205929B015AE009BEFBC /* Listening29th.mp3 */,
 			);
 			path = 29th;
 			sourceTree = "<group>";
@@ -465,6 +470,7 @@
 		55E1206029B015AE009BEFBC /* 28th */ = {
 			isa = PBXGroup;
 			children = (
+				55E120C929B0972A009BEFBC /* Listening28.json */,
 				55E1206129B015AE009BEFBC /* Question28.json */,
 				55E1206229B015AE009BEFBC /* Listening28th.mp3 */,
 			);
@@ -611,7 +617,7 @@
 				55E1209929B015AE009BEFBC /* Question33.json in Resources */,
 				55E1209D29B015AE009BEFBC /* 27_2_img.png in Resources */,
 				55A99C7329937DA100AD4FA6 /* Assets.xcassets in Resources */,
-				55E120A229B015AE009BEFBC /* 29th TOPIK Intermediate Listening Audio.mp3 in Resources */,
+				55E120A229B015AE009BEFBC /* Listening29th.mp3 in Resources */,
 				55E120C729B015AE009BEFBC /* 35_7_img.png in Resources */,
 				55E1208E29B015AE009BEFBC /* 64_3_img.png in Resources */,
 				55E1208729B015AE009BEFBC /* Listening24.json in Resources */,
