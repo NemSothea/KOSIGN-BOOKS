@@ -2,24 +2,24 @@
     "questions" : [
         {
             "sections"      : "※ [1~2] 다음을 듣고 알맞은 그림을 고르십시오. (각 3점)",
-            "question"      : "25_1_img",
+            "question"      : "26_1_img",
             "option_1"      : "① ",
             "option_2"      : "② ",
             "option_3"      : "③ ",
             "option_4"      : "④ ",
-            "detail"        : "Man : There are still about 30 minutes left to start the performance.\nWoman : I see. Then shall we eat something over there?\nMan : good I was a little hungry too, but that's good.",
+            "detail"        : "",
             "correctAnswer" : "④ ",
             "score"         : "3",
             "isImg"         : "y"
         },
         {
             "sections"      : "※ [1~2] 다음을 듣고 알맞은 그림을 고르십시오. (각 3점)",
-            "question"      : "25_2_img",
+            "question"      : "26_2_img",
             "option_1"      : "① ",
             "option_2"      : "② ",
             "option_3"      : "③ ",
             "option_4"      : "④ ",
-            "detail"        : "Woman : There's a fire, so please change the light bulb.\nMan : Yes. Then can you grab the chair?\nWoman : Yes. I will . Do it carefully",
+            "detail"        : "",
             "correctAnswer" : "③ ",
             "score"         : "3",
             "isImg"         : "y"
@@ -31,7 +31,7 @@
             "option_2"      : "②  네. 휴가 다녀와서 제출해요.",
             "option_3"      : "③  네. 휴가 때는 푹 쉬어야지요.",
             "option_4"      : "④  네. 그렇게 특별한 건 없었어요.",
-            "detail"        : "Man : Did you have a good vacation?\nWoman : Yes, I had a good rest. I haven't been on a trip in a long time. Nothing happened to the company in the meantime, right?\nMan : Yes. There was nothing so special",
+            "detail"        : "",
             "correctAnswer" : "④  네. 그렇게 특별한 건 없었어요.",
             "score"         : "3"
         },        
@@ -42,7 +42,7 @@
             "option_2"      : "②  이것부터 먼저 끝내고 나가자.",
             "option_3"      : "③  정문 앞에서 만나서 출발할 거야.",
             "option_4"      : "④  나도 그쪽으로 갈 건데 같이 가자.",
-            "detail"        : "Woman : Where are you going?\nMan : I have a lunch appointment in front of the front door. I'm supposed to meet Minsu.\nWoman : I'm going there too, so let's go together.",
+            "detail"        : "",
             "correctAnswer" : "④  나도 그쪽으로 갈 건데 같이 가자.",
             "score"         : "3"
         },
