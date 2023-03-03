@@ -129,7 +129,7 @@
             "option_2"      : "②  해외 온라인 쇼핑몰 물건은 한국보다 가격이 더 비싸다.",
             "option_3"      : "③  해외 온라인 쇼핑몰에서 물건을 주문하는 방법은 복잡하다.",
             "option_4"      : "④  해외 온라인 쇼핑을 하면 물건을 받을 때까지 오래 기다려야 한다.",
-            "detail"        : "Woman: I heard it's cheap if you buy something at an overseas online shopping mall?\nMan : Yes. It takes a little long, but it's much cheaper. You can buy things that you can't get in Korea.\nWoman : Isn't it complicated to order? I'm thinking of trying it too. Man: It wasn't very difficult. It's cheaper if it's on sale, so take a good look at the sale period.",
+            "detail"        : "Woman : I heard it's cheap if you buy something at an overseas online shopping mall?\nMan : Yes. It takes a little long, but it's much cheaper. You can buy things that you can't get in Korea.\nWoman : Isn't it complicated to order? I'm thinking of trying it too. Man: It wasn't very difficult. It's cheaper if it's on sale, so take a good look at the sale period.",
             "correctAnswer" : "①  해외 온라인 쇼핑몰은 물건 값이 싸서 세일을 안 한다.",
             "score"         : "2"
         },
@@ -249,7 +249,7 @@
             "option_2"      : "②  사람들은 작품을 보면서 다양한 의미를 찾는다.",
             "option_3"      : "③  일회용품의 사용 제한은 환경에 관심을 가지게 한다.",
             "option_4"      : "④  환경 문제를 스스로 인식할 수 있도록 해 줘야 한다.",
-            "detail"        : "Female: I heard that you make a work of art out of discarded paper. I think there's a reason why you're doing this kind of work.\nMan: We use discarded paper as a material because we want to have a message in the painting. How many people are going to be told, 'Let's not use disposable products' and put it into practice? But more people will realize environmental problems when they see a piece of paper thrown away. And eventually, people who are not interested in the environment will naturally recognize the environmental problem. I think this method has more power than saying let's protect the environment.",
+            "detail"        : "Female : I heard that you make a work of art out of discarded paper. I think there's a reason why you're doing this kind of work.\nMan : We use discarded paper as a material because we want to have a message in the painting. How many people are going to be told, 'Let's not use disposable products' and put it into practice? But more people will realize environmental problems when they see a piece of paper thrown away. And eventually, people who are not interested in the environment will naturally recognize the environmental problem. I think this method has more power than saying let's protect the environment.",
             "correctAnswer" : "④  환경 문제를 스스로 인식할 수 있도록 해 줘야 한다.",
             "score"         : "2"
         },
@@ -259,7 +259,7 @@
             "option_2"      : "②  이 남자는 작품을 통해 메시지를 전하고 있다.",
             "option_3"      : "③  이 남자는 버려진 일회용품으로 작품을 만든다.",
             "option_4"      : "④  이 남자가 만든 작품에는 특별한 의미가 없다.",
-            "detail"        : "Female: I heard that you make a work of art out of discarded paper. I think there's a reason why you're doing this kind of work.\nMan: We use discarded paper as a material because we want to have a message in the painting. How many people are going to be told, 'Let's not use disposable products' and put it into practice? But more people will realize environmental problems when they see a piece of paper thrown away. And eventually, people who are not interested in the environment will naturally recognize the environmental problem. I think this method has more power than saying let's protect the environment.",
+            "detail"        : "Female : I heard that you make a work of art out of discarded paper. I think there's a reason why you're doing this kind of work.\nMan : We use discarded paper as a material because we want to have a message in the painting. How many people are going to be told, 'Let's not use disposable products' and put it into practice? But more people will realize environmental problems when they see a piece of paper thrown away. And eventually, people who are not interested in the environment will naturally recognize the environmental problem. I think this method has more power than saying let's protect the environment.",
             "correctAnswer" : "②  이 남자는 작품을 통해 메시지를 전하고 있다.",
             "score"         : "2"
         }

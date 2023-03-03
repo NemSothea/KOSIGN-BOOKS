@@ -39,7 +39,7 @@
             "option_2"      : "②  내일은 갈 수 있어요",
             "option_3"      : "③  고향에서 친구가 와서요",
             "option_4"      : "④  못 만날까 봐 걱정했어요",
-            "detail"        : "Woman : I don't think I can go to the meeting tomorrow.\nMan : Why? What's going on?\nWoman: A friend came from my hometown.",
+            "detail"        : "Woman : I don't think I can go to the meeting tomorrow.\nMan : Why? What's going on?\nWoman : A friend came from my hometown.",
             "correctAnswer" : "③  고향에서 친구가 와서요",
             "score"         : "2"
         },
@@ -99,7 +99,7 @@
             "option_2"      : "②  옷을 갈아입으러 간다",
             "option_3"      : "③  진료 시간을 확인한다",
             "option_4"      : "④  탈의실 위치를 물어본다",
-            "detail"        : "Woman: Well, I made an appointment at 2 o'clock today. This is Kim Soo-mi.\nMan : Yes, the reservation has been confirmed. You need to change your clothes before the examination.\nWoman : Is that so? Where should I go?\nMan : If you go to the right, there is a dressing room.",
+            "detail"        : "Woman : Well, I made an appointment at 2 o'clock today. This is Kim Soo-mi.\nMan : Yes, the reservation has been confirmed. You need to change your clothes before the examination.\nWoman : Is that so? Where should I go?\nMan : If you go to the right, there is a dressing room.",
             "correctAnswer" : "②  옷을 갈아입으러 간다",
             "score"         : "2"
         },
@@ -129,7 +129,7 @@
             "option_2"      : "②  여자는 수강 신청을 하지 못했다",
             "option_3"      : "③  남자는 심리학 개론 수업에 만족했다",
             "option_4"      : "④  남자는 여자와 심리학 개론 수업을 들었다",
-            "detail"        : "Woman : Minsu, you took an introductory psychology class last year, didn't you?\nMan : yeah. It was really good Are you going to take that class, too?\nWoman: I signed up for the course, but I'm worried because it's a class in another department.\nMan : The class, the content is fun and not difficult, so it will be fine.",
+            "detail"        : "Woman : Minsu, you took an introductory psychology class last year, didn't you?\nMan : yeah. It was really good Are you going to take that class, too?\nWoman : I signed up for the course, but I'm worried because it's a class in another department.\nMan : The class, the content is fun and not difficult, so it will be fine.",
             "correctAnswer" : "③  남자는 심리학 개론 수업에 만족했다",
             "score"         : "2"
         },
@@ -229,7 +229,7 @@
             "option_2"      : "②  면허증 재발급 기간을 확인하고 있다",
             "option_3"      : "③  면허 시험장의 위치를 알아보고 있다",
             "option_4"      : "④  면허증 발급을 위한 서류를 요청하고 있다",
-            "detail"        : "Woman : Hello. I lost my driver's license, so I want to get it issued again.What should I do?\nMan : If you come to the driver's license test center, you can get it on the same day. When you come you must bring your ID.\nWoman: Can't I apply on the Internet? The license test center is too far away.\nMan : It's also available on the Internet. When you apply, you can designate a nearby police station and get your license. But it takes about two weeks.",
+            "detail"        : "Woman : Hello. I lost my driver's license, so I want to get it issued again.What should I do?\nMan : If you come to the driver's license test center, you can get it on the same day. When you come you must bring your ID.\nWoman : Can't I apply on the Internet? The license test center is too far away.\nMan : It's also available on the Internet. When you apply, you can designate a nearby police station and get your license. But it takes about two weeks.",
             "correctAnswer" : "①  면허증 재발급 방법을 문의하고 있다",
             "score"         : "2"
         },
@@ -239,7 +239,7 @@
             "option_2"      : "②  여자는 인터넷으로 신청서를 제출했다",
             "option_3"      : "③  여자는 면허 시험장에서 가까운 곳에 있다",
             "option_4"      : "④  인터넷을 이용하면 당일에 면허증 발급이 가능하다",
-            "detail"        : "Woman : Hello. I lost my driver's license, so I want to get it issued again.What should I do?\nMan : If you come to the driver's license test center, you can get it on the same day. When you come you must bring your ID.\nWoman: Can't I apply on the Internet? The license test center is too far away.\nMan : It's also available on the Internet. When you apply, you can designate a nearby police station and get your license. But it takes about two weeks.",
+            "detail"        : "Woman : Hello. I lost my driver's license, so I want to get it issued again.What should I do?\nMan : If you come to the driver's license test center, you can get it on the same day. When you come you must bring your ID.\nWoman : Can't I apply on the Internet? The license test center is too far away.\nMan : It's also available on the Internet. When you apply, you can designate a nearby police station and get your license. But it takes about two weeks.",
             "correctAnswer" : "①  경찰서에서도 면허증을 받을 수 있다",
             "score"         : "2"
         },
