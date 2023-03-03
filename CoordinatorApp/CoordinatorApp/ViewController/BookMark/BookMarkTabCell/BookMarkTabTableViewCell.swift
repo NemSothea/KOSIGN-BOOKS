@@ -15,7 +15,7 @@ class BookMarkTabTableViewCell : UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-       
+        self.icon.tintColor = UIColor.random()
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {
