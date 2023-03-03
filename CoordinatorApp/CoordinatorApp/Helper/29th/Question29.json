@@ -180,7 +180,7 @@
             "option_2"      : "②   보느라고",
             "option_3"      : "③   본다던데",
             "option_4"      : "④   보자마자",
-            "detail"        : "A : Why didn't you answer the phone earlier?\B : I couldn't hear the phone because I was watching TV in another room.",
+            "detail"        : "A : Why didn't you answer the phone earlier?\n : I couldn't hear the phone because I was watching TV in another room.",
             "correctAnswer" : "②   보느라고",
             "score"         : "3"
         }, 
@@ -237,7 +237,7 @@
             "option_4"      : "④  터질 뿐만 아니라",
             "detail"        : "A : There is construction in front of the company.\nB : The road was messed up because the water pipe exploded. That's why it's under construction.\nA: I think there are a lot of big and small accidents because the weather is cold these days.\nB : I know. I'm worried that the weather will continue to be cold enough.",
             "correctAnswer" : "②  터지는 바람에",
-            "score"         : "3",
+            "score"         : "3"
         },
         {   
             "sections"      : " ※ [22~23] 다음을 읽고 물음에 답하십시오. (각 3점)",
@@ -259,7 +259,7 @@
             "option_4"      : "④  필요하다 하더라도",
             "detail"        : " Now you can buy simple medicines such as cold medicine at convenience stores. Even if you urgently need medicine on nights or Sundays when the pharmacy is closed, you don't have to worry anymore. Because convenience stores don't take 365 days off a year. But this convenience is only for urban areas. Since there are not many convenience stores in rural areas, this convenience is still a ‘picture rice cake’ for people in rural areas.",
             "correctAnswer" : "②  필요하다 하더라도",
-            "score"         : "3",
+            "score"         : "3"
         },
         {   
             "sections"      : " ※ [24~25] 다음을 읽고 물음에 답하십시오. (각 3점)",
@@ -273,5 +273,4 @@
             "score"         : "3"
         }
     ]
-   
 }

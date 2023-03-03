@@ -16,6 +16,8 @@
 		55230BAD29B1771C00D0F0DD /* 29_1_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 55230BAB29B1771C00D0F0DD /* 29_1_img.png */; };
 		55230BB029B1772900D0F0DD /* 28_2_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 55230BAE29B1772900D0F0DD /* 28_2_img.png */; };
 		55230BB129B1772900D0F0DD /* 28_1_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 55230BAF29B1772900D0F0DD /* 28_1_img.png */; };
+		55230BB229B1E22300D0F0DD /* Listening28.json in Resources */ = {isa = PBXBuildFile; fileRef = 55E120C929B0972A009BEFBC /* Listening28.json */; };
+		55230BB329B1E25000D0F0DD /* Listening29.json in Resources */ = {isa = PBXBuildFile; fileRef = 55E120CA29B09732009BEFBC /* Listening29.json */; };
 		553AF9DE299F6EE4006C6EC0 /* ListeningViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553AF9DD299F6EE4006C6EC0 /* ListeningViewModel.swift */; };
 		553B24C129A5B51500F4ED4A /* PopupCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553B24C029A5B51500F4ED4A /* PopupCell.swift */; };
 		55450206299C6090000B48B6 /* QuestionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55450205299C6090000B48B6 /* QuestionViewModel.swift */; };
@@ -501,6 +503,7 @@
 			children = (
 				55E1206529B015AE009BEFBC /* Listening36th.mp3 */,
 				55E1206629B015AE009BEFBC /* Listening36.json */,
+				55E1207029B015AE009BEFBC /* Question36.json */,
 				55E1206729B015AE009BEFBC /* 36_6_img.png */,
 				55E1206829B015AE009BEFBC /* 36_7_img.png */,
 				55E1206929B015AE009BEFBC /* 36_5_img.png */,
@@ -510,7 +513,6 @@
 				55E1206D29B015AE009BEFBC /* 36_2_img.png */,
 				55E1206E29B015AE009BEFBC /* 36_10_img.png */,
 				55E1206F29B015AE009BEFBC /* 36_3_img.png */,
-				55E1207029B015AE009BEFBC /* Question36.json */,
 			);
 			path = 36th;
 			sourceTree = "<group>";
@@ -613,6 +615,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55230BB329B1E25000D0F0DD /* Listening29.json in Resources */,
+				55230BB229B1E22300D0F0DD /* Listening28.json in Resources */,
 				55E120BB29B015AE009BEFBC /* 25_1_img.png in Resources */,
 				55E1208929B015AE009BEFBC /* 24_2_img.png in Resources */,
 				55E1209E29B015AE009BEFBC /* Listening27.json in Resources */,
