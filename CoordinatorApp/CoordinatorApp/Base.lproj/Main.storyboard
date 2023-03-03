@@ -596,12 +596,12 @@
                                         </constraints>
                                     </view>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="84a-Fv-43q">
-                                        <rect key="frame" x="20" y="554" width="360" height="35"/>
+                                        <rect key="frame" x="20" y="566" width="360" height="40"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vU6-vc-IY3">
-                                                <rect key="frame" x="0.0" y="0.0" width="360" height="35"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="360" height="40"/>
                                                 <color key="backgroundColor" name="Button Color"/>
-                                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="14"/>
+                                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Medium" family="Apple SD Gothic Neo" pointSize="18"/>
                                                 <state key="normal" title="확인">
                                                     <color key="titleColor" red="0.92156862750000001" green="0.92156862750000001" blue="0.92156862750000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 </state>
@@ -616,17 +616,17 @@
                                             </button>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="35" id="T5g-o7-7i9"/>
+                                            <constraint firstAttribute="height" constant="40" id="T5g-o7-7i9"/>
                                         </constraints>
                                     </stackView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="내용" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GfX-B6-DuF">
-                                        <rect key="frame" x="24" y="10" width="26" height="18"/>
-                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="15"/>
+                                        <rect key="frame" x="24" y="10.000000000000002" width="31.333333333333329" height="21.666666666666671"/>
+                                        <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="18"/>
                                         <color key="textColor" name="Button Color"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="znr-yL-vAh">
-                                        <rect key="frame" x="20" y="38" width="360" height="511"/>
+                                        <rect key="frame" x="20" y="41.666666666666686" width="360" height="514.33333333333326"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <prototypes>
                                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="445" id="taN-ho-G5P" customClass="PopupCell" customModule="CoordinatorApp" customModuleProvider="target">
@@ -663,12 +663,12 @@
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="0.90000000000000002" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstItem="84a-Fv-43q" firstAttribute="top" secondItem="znr-yL-vAh" secondAttribute="bottom" constant="5" id="0EH-KV-fSw"/>
+                                    <constraint firstItem="84a-Fv-43q" firstAttribute="top" secondItem="znr-yL-vAh" secondAttribute="bottom" constant="10" id="0EH-KV-fSw"/>
                                     <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="GfX-B6-DuF" secondAttribute="trailing" constant="20" symbolic="YES" id="6Qn-V4-aDe"/>
                                     <constraint firstItem="GfX-B6-DuF" firstAttribute="leading" secondItem="Xj7-3K-tU9" secondAttribute="leading" constant="24" id="8mU-ZQ-qB6"/>
                                     <constraint firstItem="GfX-B6-DuF" firstAttribute="top" secondItem="Xj7-3K-tU9" secondAttribute="top" constant="10" id="BPI-Wc-0wo"/>
                                     <constraint firstItem="znr-yL-vAh" firstAttribute="top" secondItem="GfX-B6-DuF" secondAttribute="bottom" constant="10" id="IBh-Zt-EoP"/>
-                                    <constraint firstAttribute="bottom" secondItem="84a-Fv-43q" secondAttribute="bottom" constant="27" id="Jg1-UN-yto"/>
+                                    <constraint firstAttribute="bottom" secondItem="84a-Fv-43q" secondAttribute="bottom" constant="10" id="Jg1-UN-yto"/>
                                     <constraint firstItem="znr-yL-vAh" firstAttribute="leading" secondItem="Xj7-3K-tU9" secondAttribute="leading" constant="20" id="OXd-7v-e7Q"/>
                                     <constraint firstItem="4vJ-63-Yc6" firstAttribute="centerX" secondItem="84a-Fv-43q" secondAttribute="centerX" id="S11-pQ-hAI"/>
                                     <constraint firstAttribute="width" constant="400" id="a3H-Yo-Qz1"/>
