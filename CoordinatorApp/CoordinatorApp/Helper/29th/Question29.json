@@ -164,12 +164,12 @@
         }, 
         {   
             "sections"      : "※ [14~18] 다음 (     )에 알맞은 것을 고르십시오.",
-            "question"      : "16. (3점)\n가 : 초대장은 다 보냈어요? 제가 도울 일 없어요?나 : 괜찮아요. 이제 우체국에 가서 (  ).",
+            "question"      : "16. (3점)\n가 : 초대장은 다 보냈어요? 제가 도울 일 없어요?\n나 : 괜찮아요. 이제 우체국에 가서 (  ).",
             "option_1"      : "①   보냈나 봐요",
             "option_2"      : "②   보냈는지 알아요",
             "option_3"      : "③   보내는 수가 있어요",
             "option_4"      : "④   보내기만 하면 돼요",
-            "detail"        : "A : Did you send all the invitations? Is there anything I can help.\nB : it's OK Now you just have to go to the post office and send it.",
+            "detail"        : "A : Did you send all the invitations? Is there anything I can help?.\nB : it's OK Now you just have to go to the post office and send it.",
             "correctAnswer" : "④   보내기만 하면 돼요",
             "score"         : "3"
         },
@@ -258,7 +258,7 @@
             "option_3"      : "③  필요해서 그런지",
             "option_4"      : "④  필요하다 하더라도",
             "detail"        : " Now you can buy simple medicines such as cold medicine at convenience stores. Even if you urgently need medicine on nights or Sundays when the pharmacy is closed, you don't have to worry anymore. Because convenience stores don't take 365 days off a year. But this convenience is only for urban areas. Since there are not many convenience stores in rural areas, this convenience is still a ‘picture rice cake’ for people in rural areas.",
-            "correctAnswer" : "②  필요하다 하더라도",
+            "correctAnswer" : "④  필요하다 하더라도",
             "score"         : "3"
         },
         {   
