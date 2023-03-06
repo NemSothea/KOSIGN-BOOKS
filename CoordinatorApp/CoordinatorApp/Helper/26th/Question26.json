@@ -142,7 +142,7 @@
         },
         {   
             "sections"      : "※ [12~13] 다음 밑줄 친 부분과 의미가 반대인 것을 고르십시오.",
-            "question"      : "13. 친구에게 하고 싶었던 말을 다 해 버려서 속이 시원하다. (4점)",
+            "question"      : "13. 친구에게 하고 싶었던 말을 다 해 버려서 속이 (시원하다). (4점)",
             "option_1"      : "①   심각하다",
             "option_2"      : "②   피로하다",
             "option_3"      : "③   궁금하다",
@@ -274,24 +274,24 @@
         },
         {   
             "sections"      : " ※ [24~25] 다음을 읽고 물음에 답하십시오. (각 3점)",
-            "question"      : "유치원에서 아이들에게 간식을 나누어 주면 아이들은 각자 자기의 간식과 다른 아이의 간식을 번갈아 보고 서운한 표정을 짓는다. ‘( ㉠ ).’는 말이 있듯이 아이들은 똑같은 음식을 놓고도 자기 것이 작다고 생각하기 때문이다. 어른들 또한 똑같은 일을 ( ㉡ ) 자기 일이 어려운 것 같아 불만을 갖는 경우가 많다. 제 것과 남의 것을 비교할 때면 어린아이는 물론 이성적인 어른들도 객관적인 판단을 하기가 어려운 모양이다.\n24.( ㉠ )에 알맞은 것을 고르십시오.",
+            "question"      : " 유치원에서 아이들에게 간식을 나누어 주면 아이들은 각자 자기의 간식과 다른 아이의 간식을 번갈아 보고 서운한 표정을 짓는다. ‘( ㉠ ).’는 말이 있듯이 아이들은 똑같은 음식을 놓고도 자기 것이 작다고 생각하기 때문이다. 어른들 또한 똑같은 일을 ( ㉡ ) 자기 일이 어려운 것 같아 불만을 갖는 경우가 많다. 제 것과 남의 것을 비교할 때면 어린아이는 물론 이성적인 어른들도 객관적인 판단을 하기가 어려운 모양이다.\n24.( ㉠ )에 알맞은 것을 고르십시오.",
             "option_1"      : "①   배보다 배꼽이 크다",
             "option_2"      : "②   놓친 고기가 더 크다",
             "option_3"      : "③   남의 떡이 더 커 보인다",
             "option_4"      : "④   사촌이 땅을 사면 배가 아프다",
-            "detail"        : "When children are given snacks in kindergarten, each child alternates between their own snacks and other children's snacks and make a sad expression. As the saying goes, 'Other people's rice cakes look bigger,' because children think their own food is small even if they put the same food. Adults are often dissatisfied because they find it difficult to do the same thing. When comparing mine with others, it seems that it is difficult for children as well as rational adults to make objective judgments.",
+            "detail"        : " When children are given snacks in kindergarten, each child alternates between their own snacks and other children's snacks and make a sad expression. As the saying goes, 'Other people's rice cakes look bigger,' because children think their own food is small even if they put the same food. Adults are often dissatisfied because they find it difficult to do the same thing. When comparing mine with others, it seems that it is difficult for children as well as rational adults to make objective judgments.",
             "correctAnswer" : "③   남의 떡이 더 커 보인다",
             "score"         : "3",
             "isImg"         : "n"
         },
         {   
             "sections"      : " ※ [24~25] 다음을 읽고 물음에 답하십시오. (각 3점)",
-            "question"      : "유치원에서 아이들에게 간식을 나누어 주면 아이들은 각자 자기의 간식과 다른 아이의 간식을 번갈아 보고 서운한 표정을 짓는다. ‘( ㉠ ).’는 말이 있듯이 아이들은 똑같은 음식을 놓고도 자기 것이 작다고 생각하기 때문이다. 어른들 또한 똑같은 일을 ( ㉡ ) 자기 일이 어려운 것 같아 불만을 갖는 경우가 많다. 제 것과 남의 것을 비교할 때면 어린아이는 물론 이성적인 어른들도 객관적인 판단을 하기가 어려운 모양이다.\n25.( ㉡ )에 알맞은 것을 고르십시오.",
+            "question"      : " 유치원에서 아이들에게 간식을 나누어 주면 아이들은 각자 자기의 간식과 다른 아이의 간식을 번갈아 보고 서운한 표정을 짓는다. ‘( ㉠ ).’는 말이 있듯이 아이들은 똑같은 음식을 놓고도 자기 것이 작다고 생각하기 때문이다. 어른들 또한 똑같은 일을 ( ㉡ ) 자기 일이 어려운 것 같아 불만을 갖는 경우가 많다. 제 것과 남의 것을 비교할 때면 어린아이는 물론 이성적인 어른들도 객관적인 판단을 하기가 어려운 모양이다.\n25.( ㉡ )에 알맞은 것을 고르십시오.",
             "option_1"      : "①  하여야만",
             "option_2"      : "②  하면서도",
             "option_3"      : "③  하다가는",
             "option_4"      : "④  하려고야",
-            "detail"        : "When children are given snacks in kindergarten, each child alternates between their own snacks and other children's snacks and make a sad expression. As the saying goes, 'Other people's rice cakes look bigger,' because children think their own food is small even if they put the same food. Adults are often dissatisfied because they find it difficult to do the same thing. When comparing mine with others, it seems that it is difficult for children as well as rational adults to make objective judgments.",
+            "detail"        : " When children are given snacks in kindergarten, each child alternates between their own snacks and other children's snacks and make a sad expression. As the saying goes, 'Other people's rice cakes look bigger,' because children think their own food is small even if they put the same food. Adults are often dissatisfied because they find it difficult to do the same thing. When comparing mine with others, it seems that it is difficult for children as well as rational adults to make objective judgments.",
             "correctAnswer" : "②  하면서도",
             "score"         : "3",
             "isImg"         : "n"
