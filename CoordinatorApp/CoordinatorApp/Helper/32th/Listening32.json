@@ -42,400 +42,295 @@
             "option_2"      : "②  열심히 했으니까 잘될 거예요.",
             "option_3"      : "③  민수 씨도 시험에 합격했어요?",
             "option_4"      : "④  문제가 어려워서 걱정이겠네요.",
-            "detail"        : "Woman : Minsu, did you do well on the test yesterday?\nMan: The problem wasn't very difficult, but I don't know. Woman: You worked hard, so it will be good.",
+            "detail"        : "Woman : Minsu, did you do well on the test yesterday?\nMan : The problem wasn't very difficult, but I don't know.\nWoman : You worked hard, so it will be good.",
             "correctAnswer" : "④  무슨 일이 있는지 한번 전화해 볼까?",
             "score"         : "3"
         },
         {
             "sections"      : "※ [3~6]다음 대화를 잘 듣고 이어 질 수있는 말을 고르십시오",
             "question"      : "5. (3점) ",
-            "option_1"      : "①  내가 기차 시간부터 알아볼게요.",
-            "option_2"      : "②  차로 가는 게 더 편하고 좋잖아요.",
-            "option_3"      : "③  운전해서 가면 피곤할 것 같아서요.",
-            "option_4"      : "④  예매를 안 하면 표가 없을 것 같아요.",
-            "detail"        : "",
-            "correctAnswer" : "③  운전해서 가면 피곤할 것 같아서요.",
+            "option_1"      : "①  이쪽 길로 조금만 더 가면 돼.",
+            "option_2"      : "②  내 생각에도 여기가 맞는 것 같아.",
+            "option_3"      : "③  지도를 보면 금방 찾을 수 있을 거야.",
+            "option_4"      : "④  저기 지나가는 사람한테 한번 물어보자.",
+            "detail"        : "Man : Is it right here? I don't think it's this way.\nWoman : I know. I think this map is wrong. What should I do?\nMan : Let's ask the passerby over there.",
+            "correctAnswer" : "④  저기 지나가는 사람한테 한번 물어보자.",
             "score"         : "3"
-            1 이쪽 길로 조금만 더 가면 돼.
-            2 내 생각에도 여기가 맞는 것 같아.
-            3 지도를 보면 금방 찾을 수 있을 거야.
-            4 저기 지나가는 사람한테 한번 물어보자.
         },
         {
             "sections"      : "※ [3~6]다음 대화를 잘 듣고 이어 질 수있는 말을 고르십시오",
             "question"      : "6. (3점) ",
-            "option_1"      : "①  사람이 많아서 기다려야 해요.",
-            "option_2"      : "②  아직 식사 시간이 아니라서 그래요.",
-            "option_3"      : "③  저도 그 식당에 한번 가 봤으면 좋겠어요.",
-            "option_4"      : "④  텔레비전에 나오더니 그새 유명해졌나 봐요.",
-            "detail"        : "",
-            "correctAnswer" : "④  텔레비전에 나오더니 그새 유명해졌나 봐요.",
+            "option_1"      : "①  자료는 모두 만들어 두었습니다.",
+            "option_2"      : "②  지금 보고서를 수정하고 있습니다.",
+            "option_3"      : "③  그럼 발표를 시작하도록 하겠습니다.",
+            "option_4"      : "④  퇴근 전에 끝낼 수 있을 것 같습니다.",
+            "detail"        : "Woman : As you said, I corrected the report. Can I make presentation materials with this?\nMan : Well.......( After a while) please But how long will it take?\nWoman : I think I can finish it before I get off work.",
+            "correctAnswer" : "④  퇴근 전에 끝낼 수 있을 것 같습니다.",
             "score"         : "3"
-            1 자료는 모두 만들어 두었습니다.
-            2 지금 보고서를 수정하고 있습니다.
-            3 그럼 발표를 시작하도록 하겠습니다.
-            4 퇴근 전에 끝낼 수 있을 것 같습니다.
         },
         {
             "sections"      : "※ [7~10] 다음은 무엇에 대한 내용인지 맞는 것을 고르십시오. (각 3점)",
             "question"      : "7. (3점) ",
-            "option_1"      : "①  영화배우의 외모",
-            "option_2"      : "②  영화배우의 인기",
-            "option_3"      : "③  영화배우의 연기력",
-            "option_4"      : "④  영화배우의 출연작",
-            "detail"        : "",
-            "correctAnswer" : "③  영화배우의 연기력",
+            "option_1"      : "①  도시락 배달 시간",
+            "option_2"      : "②  배달 도시락의 메뉴",
+            "option_3"      : "③  배달 도시락의 좋은 점",
+            "option_4"      : "④  도시락 배달 신청 방법",
+            "detail"        : "Woman : Is it a delivery lunch box for lunch today? Aren't you tired.\nMan : no We deliver it to a different menu every day. You don't have to worry about what to eat for lunch, so it's much better than going out to eat.\nWoman : Is that so? After listening to it, I also want to apply for it and try it.",
+            "correctAnswer" : "③  배달 도시락의 좋은 점",
             "score"         : "3"
-            1 도시락 배달 시간
-            2 배달 도시락의 메뉴
-            3 배달 도시락의 좋은 점
-            4 도시락 배달 신청 방법
         },
         {
             "sections"      : "※ [7~10] 다음은 무엇에 대한 내용인지 맞는 것을 고르십시오. (각 3점)",
             "question"      : "8. (3점) ",
-            "option_1"      : "①  습관을 고치는 방법",
-            "option_2"      : "②  습관을 없애는 이유",
-            "option_3"      : "③  습관과 생각의 관계",
-            "option_4"      : "④  습관이 생기는 상황",
-            "detail"        : "",
-            "correctAnswer" : "①  습관을 고치는 방법",
+            "option_1"      : "①  대화를 할 때 조심해야 할 점",
+            "option_2"      : "②  감정 표현을 잘하기 위한 방법",
+            "option_3"      : "③  대화 상대와 눈을 맞춰야 하는 이유",
+            "option_4"      : "④  상대방과 눈을 잘 맞추는 사람의 특징",
+            "detail"        : "Man : When we have a conversation, we talk a lot about looking at the other person's eyes. That's because the eyes are a tool to express thoughts and emotions. So when you have a conversation, if you look into the other person's eyes, you can know what the person is thinking and what kind of emotional state it is. That's why you can successfully lead the conversation.",
+            "correctAnswer" : "③  대화 상대와 눈을 맞춰야 하는 이유",
             "score"         : "3"
-            1 대화를 할 때 조심해야 할 점
-            2 감정 표현을 잘하기 위한 방법
-            3 대화 상대와 눈을 맞춰야 하는 이유
-            4 상대방과 눈을 잘 맞추는 사람의 특징
         },
         {
             "sections"      : "※ [7~10] 다음은 무엇에 대한 내용인지 맞는 것을 고르십시오. (각 3점)",
             "question"      : "9. (3점) ",
-            "option_1"      : "①  자동차 보험의 필요성",
-            "option_2"      : "②  높은 보험료의 문제점",
-            "option_3"      : "③  자동차 사고의 위험성",
-            "option_4"      : "④  교통사고 후 처리 순서",
-            "detail"        : "",
-            "correctAnswer" : "①  자동차 보험의 필요성",
+            "option_1"      : "①  새활용의 필요성",
+            "option_2"      : "②  새활용의 다양한 예",
+            "option_3"      : "③  새활용을 하는 이유",
+            "option_4"      : "④  새활용이 시작된 시기",
+            "detail"        : "Woman : These days, it's not just recycling to reuse things, but 'new use' to use things again. An elegant dress made of a used suit, a bag made of a deserted banner, and a stylish cafe with broken bicycle wheels.' ‘New use’ can be easily found everywhere in our lives like this.",
+            "correctAnswer" : "②  새활용의 다양한 예",
             "score"         : "3"
-            1 새활용의 필요성
-            2 새활용의 다양한 예
-            3 새활용을 하는 이유
-            4 새활용이 시작된 시기
         },
         {
             "sections"      : "※ [7~10] 다음은 무엇에 대한 내용인지 맞는 것을 고르십시오. (각 3점)",
             "question"      : "10. (3점) ",
-            "option_1"      : "①  사고 방지 대책",
-            "option_2"      : "②  사고 피해 정도",
-            "option_3"      : "③  사고 발생 원인",
-            "option_4"      : "④  사고 처리 결과",
-            "detail"        : "",
-            "correctAnswer" : "②  사고 피해 정도",
+            "option_1"      : "①  사고로 인한 피해 정도",
+            "option_2"      : "②  사고 발생시의 대처방법",
+            "option_3"      : "③  사고를 예방하기 위 한방안",
+            "option_4"      : "④  사고가 자주 발생하는 지역",
+            "detail"        : "Woman : Recently, there have been frequent traffic accidents caused by wild animals. To prevent this, it is urgent to increase the number of ecological pathways that wild animals can carry, experts say. In addition, we suggest that installing a guided fence on the side of the road to prevent animals from coming out of the road is also an effective way to prevent accidents.",
+            "correctAnswer" : "③  사고를 예방하기 위 한방안",
             "score"         : "3"
-            1 사고로 인한 피해 정도
-            2 사고 발생시의 대처방법
-            3 사고를 예방하기 위 한방안
-            4 사고가 자주 발생하는 지역
         },
         {
             "sections"      : "※ [11~13] 다음을 듣고 내용과 일치하는 것을 고르십시오. (각 4점)",
             "question"      : "11. (4점) ",
-            "option_1"      : "①  남자는 한 달 전에 이사를 했다.",
-            "option_2"      : "②  여자는 이사 시간이 길어 힘들었다.",
-            "option_3"      : "③  여자는 해야 할 일들이 많아 정신이 없다.",
-            "option_4"      : "④  남자는 이사 후에 정리할 일이 많지 않았다.",
-            "detail"        : "",
-            "correctAnswer" : "③  여자는 해야 할 일들이 많아 정신이 없다.",
+            "option_1"      : "①  여자는 방송을 보고 전화했다.",
+            "option_2"      : "②  남자는 여자에게 물건을 보냈다.",
+            "option_3"      : "③  여자는 내일 가방을 받을 수 있다.",
+            "option_4"      : "④  남자는 여자에게 가방을 사 주었다.",
+            "detail"        : "Woman : I'd like to order a bag that is on sale on the show right now. If I order today, when can I receive it?\nMan : If you order it, I'll send it to you tomorrow, so it will probably arrive the day after tomorrow. Would you like to pay by card?",
+            "correctAnswer" : "①  여자는 방송을 보고 전화했다.",
             "score"         : "4"
-            1 여자는 방송을 보고 전화했다.
-            2 남자는 여자에게 물건을 보냈다.
-            3 여자는 내일 가방을 받을 수 있다.
-            4 남자는 여자에게 가방을 사 주었다.
         },
         {
             "sections"      : "※ [11~13] 다음을 듣고 내용과 일치하는 것을 고르십시오. (각 4점)",
             "question"      : "12. (4점) ",
-            "option_1"      : "①  인주시는 다양한 문화 시설을 가지고 있다.",
-            "option_2"      : "②  인주시는 교통이 편리해 쉽게 방문할 수 있다.",
-            "option_3"      : "③  인주시는 외국인이 가장 많이 방문한 도시이다.",
-            "option_4"      : "④  인주시는 여러 가지 체험 프로그램을 만들었다.",
-            "detail"        : "",
-            "correctAnswer" : "④  인주시는 여러 가지 체험 프로그램을 만들었다.",
+            "option_1"      : "①  접수는 홈페이지에서 할 수 있다.",
+            "option_2"      : "②  서울을 주제로 한 기념품을 내야 한다.",
+            "option_3"      : "③  서울시에서는 매년 이 공모전을 열고 있다.",
+            "option_4"      : "④  시월 이십일부터 시청에서 기념품을 나눠 준다.",
+            "detail"        : "Woman : The Seoul Metropolitan Government is holding the ‘1st Seoul Tourist Souvenir Contest’ to develop tourist souvenirs representing Seoul. The theme of the contest is 'Seoul', and you can make a new souvenir that can easily remind you of Seoul and submit it. The application period is one week from October 20th, and you can visit the city hall and apply. Please refer to the website for more details.",
+            "correctAnswer" : "②  서울을 주제로 한 기념품을 내야 한다.",
             "score"         : "4"
-            1 접수는 홈페이지에서 할 수 있다.
-            2 서울을 주제로 한 기념품을 내야 한다.
-            3 서울시에서는 매년 이 공모전을 열고 있다.
-            4 시월 이십일부터 시청에서 기념품을 나눠 준다.
         },
         {
             "sections"      : "※ [11~13] 다음을 듣고 내용과 일치하는 것을 고르십시오. (각 4점)",
             "question"      : "13. (4점) ",
-            "option_1"      : "①  오늘 강연은 질문과 대답으로 이루어진다.",
-            "option_2"      : "②  질문에 대한 강사의 대답을 미리 받아 두었다.",
-            "option_3"      : "③  이소영 씨는 해외에서 강연을 활발히 하고 있다.",
-            "option_4"      : "④  영상물을 통해 이소영 씨의 강연을 들을 수 있다.",
-            "detail"        : "",
-            "correctAnswer" : "①  오늘 강연은 질문과 대답으로 이루어진다.",
+            "option_1"      : "①  김소연 씨는 주로 해외 무대에서 활동하고 있다.",
+            "option_2"      : "②  2부에서는 국립발레단 소속의 무용수가 나올 것이다.",
+            "option_3"      : "③  뮤지컬의 주인공 역할에 유명한 배우가 캐스팅되었다.",
+            "option_4"      : "④  15년 전 김소연 씨는 뮤지 컬 배우에 도전한 적 이있다.",
+            "detail"        : "Man : Recently, a real ballerina was cast in the role of the main character of the musical 'Sekzo', which is about ballet, so it's becoming a hot topic, right? Today, I'm going to meet Kim So-yeon of the National Ballet, the main character. Kim So-yeon has been leading domestic ballet as a dancer of the National Ballet for the past 15 years. Now I'll tell you about her life and art center, which challenges a new genre of musicals, in part 2 after a while.",
+            "correctAnswer" : "②  2부에서는 국립발레단 소속의 무용수가 나올 것이다.",
             "score"         : "4"
-            1 김소연 씨는 주로 해외 무대에서 활동하고 있다.
-            2 2부에서는 국립발레단 소속의 무용수가 나올 것이다.
-            3 뮤지컬의 주인공 역할에 유명한 배우가 캐스팅되었다.
-            4 15년 전 김소연 씨는 뮤지 컬 배우에 도전한 적 이있다 .
         },
         {
             "sections"      : "※ [14~17]다음 대화를 듣고 여자가 어떤 생각을 하고 있는지 맞는 것을 고르십시오.",
             "question"      : "14. (4점) ",
-            "option_1"      : "①  감기는 시간이 지나야 낫는다.",
-            "option_2"      : "②  목이 따뜻해야 감기에 안 걸린다.",
-            "option_3"      : "③  약을 안 먹으면 감기가 더 심해진다.",
-            "option_4"      : "④  물을 마셔도 기침을 하면 쉬어야 한다.",
-            "detail"        : "",
-            "correctAnswer" : "①  감기는 시간이 지나야 낫는다.",
+            "option_1"      : "①  캠핑 갈 때는 짐이 적은 것이 좋다.",
+            "option_2"      : "②  산에서는 다치지 않게 조심해야 한다.",
+            "option_3"      : "③  근처에 약국이 있는지 확인하는 것이 좋다.",
+            "option_4"      : "④  아플 때를 대비해 약을 충분히 가져가야 한다.",
+            "detail"        : "Woman : Honey, what kind of medicine do you take so much? I have a lot of luggage.\nMan : What if the children suddenly get sick. There's no pharmacy near the camping site. And you might get hurt because it's a mountain, but you should take this much.",
+            "correctAnswer" : "④  아플 때를 대비해 약을 충분히 가져가야 한다.",
             "score"         : "4"
-            1 캠핑 갈 때는 짐이 적은 것이 좋다.
-            2 산에서는 다치지 않게 조심해야 한다.
-            3 근처에 약국이 있는지 확인하는 것이 좋다.
-            4 아플 때를 대비해 약을 충분히 가져가야 한다.
         },
         {
             "sections"      : "※ [14~17]다음 대화를 듣고 여자가 어떤 생각을 하고 있는지 맞는 것을 고르십시오.",
             "question"      : "15. (4점) ",
-            "option_1"      : "①  음악이 없으면 딴 생각을 하게 된다.",
-            "option_2"      : "②  음악을 듣는 것은 집중에 도움이 된다.",
-            "option_3"      : "③  공부하면서 음악을 듣는 것은 좋지 않다.",
-            "option_4"      : "④  외국 노래를 듣는 것은 공부에 방해가 된다.",
-            "detail"        : "",
-            "correctAnswer" : "②  음악을 듣는 것은 집중에 도움이 된다.",
+            "option_1"      : "①  잠을 적게 잘수록 몸의 리듬이 깨진다.",
+            "option_2"      : "②  집중력이 떨어질 때는 잠을 오래 자야 한다.",
+            "option_3"      : "③  주말에 잠을 많이 자야 평일에 피곤하지 않다.",
+            "option_4"      : "④  한번에 오래 자는 것은 피로 회복에 도움이 안 된다.",
+            "detail"        : "Woman : Why are you so tired even though you slept a lot on the weekend? I can't even concentrate on my work.\nMan : It's because I usually can't sleep enough. On weekends, there are many people who try to fill their lack of sleep at once, but if they do that, the rhythm of their body will be broken, so they may be more tired and their concentration will be reduced.",
+            "correctAnswer" : "④  한번에 오래 자는 것은 피로 회복에 도움이 안 된다.",
             "score"         : "4"
-            1 잠을 적게 잘수록 몸의 리듬이 깨진다.
-            2 집중력이 떨어질 때는 잠을 오래 자야 한다.
-            3 주말에 잠을 많이 자야 평일에 피곤하지 않다.
-            4 한번에 오래 자는 것은 피로 회복에 도움이 안 된다
         },
         {
             "sections"      : "※ [14~17]다음 대화를 듣고 여자가 어떤 생각을 하고 있는지 맞는 것을 고르십시오.",
             "question"      : "16. (4점) ",
-            "option_1"      : "①  운동을 잘하려면 목표를 갖는 것이 중요하다.",
-            "option_2"      : "②  상대방을 의식하며 운동하면 오래 하기 어렵다.",
-            "option_3"      : "③  운동을 할 때는 다른 사람과 같이 하는 것이 좋다.",
-            "option_4"      : "④  효과적으로 운동을 하려면 계획한 시간을 지켜야 한다.",
-            "detail"        : "",
-            "correctAnswer" : "③  운동을 할 때는 다른 사람과 같이 하는 것이 좋다.",
+            "option_1"      : "①  수술을 서둘러서 할 필요가 없다.",
+            "option_2"      : "②  원인을 없애기 위해 수술을 해야 한다.",
+            "option_3"      : "③  약물 치료와 수술을 함께 하는 것이 좋다.",
+            "option_4"      : "④  환자에게 무리를 주지 않는 수술이 필요하다.",
+            "detail"        : "Woman : Manager, can I bring a new employee on a business trip next month? I think it would be good to familiarize yourself with the local situation and know the customer's staff.\nMan : Wouldn't it be too much for a new employee to go on a business trip abroad? Moreover, there is an important contract for this business trip. It's better to go with an assistant manager who knows the local situation well and the clients well.",
+            "correctAnswer" : "③  약물 치료와 수술을 함께 하는 것이 좋다.",
             "score"         : "4"
-            1 수술을 서둘러서 할 필요가 없다.
-            2 원인을 없애기 위해 수술을 해야 한다.
-            3 약물 치료와 수술을 함께 하는 것이 좋다.
-            4 환자에게 무리를 주지 않는 수술이 필요하다.
         },
         {
             "sections"      : "※ [14~17]다음 대화를 듣고 여자가 어떤 생각을 하고 있는지 맞는 것을 고르십시오.",
             "question"      : "17. (4점) ",
-            "option_1"      : "①  상황에 맞게 아이를 대해야 한다.",
-            "option_2"      : "②  항상 같은 태도로 아이를 대해야 한다.",
-            "option_3"      : "③  아이가 원하는 것을 들어주어야 한다.",
-            "option_4"      : "④  아이가 떼를 쓸 때는 가만히 두어야 한다.",
-            "detail"        : "",
-            "correctAnswer" : "②  항상 같은 태도로 아이를 대해야 한다.",
+            "option_1"      : "①  책을 찾으러 간다.",
+            "option_2"      : "②  책의 위치를 검색한다.",
+            "option_3"      : "③  인문학 코너에 연락한다.",
+            "option_4"      : "④  필요한 책을 가져다준다.",
+            "detail"        : "Woman : This patient should have surgery right now. That way, we can definitely eliminate the cause in the early days.\nMan : I think it's still in its infancy, so it can be treated without surgery. Is it necessary to have surgery to strain the patient's body? First of all, let's watch more while taking medication.",
+            "correctAnswer" : "①  책을 찾으러 간다.",
             "score"         : "4"
-            1 책을 찾으러 간다.
-            2 책의 위치를 검색한다.
-            3 인문학 코너에 연락한다.
-            4 필요한 책을 가져다준다.
         },
         {
             "sections"      : "※ [18~20] 다음 대화를 듣고 남자가 할 행동으로 알맞은 것을 고르십시오.",
             "question"      : "18. (3점) ",
-            "option_1"      : "①  양파를 썬다.",
-            "option_2"      : "②  당면을 삶는다.",
-            "option_3"      : "③  채소를 볶는다.",
-            "option_4"      : "④  요리책을 살펴본다.",
-            "detail"        : "",
-            "correctAnswer" : "②  당면을 삶는다.",
+            "option_1"      : "①  신청서를 작성한다.",
+            "option_2"      : "②  기숙사비를 입금한다.",
+            "option_3"      : "③  신청 기간을 확인한다.",
+            "option_4"      : "④  방이 남았는지 알아본다.",
+            "detail"        : "Man : hey Could you find this book for me?\nWoman : Yes, sir. I'll search for you here. You can go to the humanities section over there.\nMan : I looked it up a while ago, but it wasn't there.\nWoman : Oh, did you? Then I'll go with you and check it. Man: Yes, thank you.",
+            "correctAnswer" : "①  신청서를 작성한다.",
             "score"         : "3"
-            1 신청서를 작성한다.
-            2 기숙사비를 입금한다.
-            3 신청 기간을 확인한다.
-            4 방이 남았는지 알아본다.
         },
         {
             "sections"      : "※ [18~20] 다음 대화를 듣고 남자가 할 행동으로 알맞은 것을 고르십시오.",
             "question"      : "19. (3점) ",
-            "option_1"      : "①  시험장으로 들어간다.",
-            "option_2"      : "②  시험 신청서를 작성한다.",
-            "option_3"      : "③  검사 결과를 기다린다.",
-            "option_4"      : "④  지하에 있는 검사실로 간다.",
-            "detail"        : "",
-            "correctAnswer" : "④  지하에 있는 검사실로 간다.",
+            "option_1"      : "①  신청서를 작성한다.",
+            "option_2"      : "②  기숙사비를 입금한다.",
+            "option_3"      : "③  신청 기간을 확인한다.",
+            "option_4"      : "④  방이 남았는지 알아본다.",
+            "detail"        : "Woman : That's the dormitory office, right? When is the application period for the dormitory next semester?\nMan : It was the application period from Monday.\nWoman : Is that so? Then can I check if there are still rooms left?\nMan : Yes, there are some left. If you go to the website and fill out the application form, you will receive a deposit information email. Woman: Yes, I got it. Thank you.",
+            "correctAnswer" : "①  신청서를 작성한다.",
             "score"         : "3"
-           1 신청서를 작성한다.
-           2 기숙사비를 입금한다.
-           3 신청 기간을 확인한다.
-           4 방이 남았는지 알아본다.
         },
         {
             "sections"      : "※ [18~20] 다음 대화를 듣고 남자가 할 행동으로 알맞은 것을 고르십시오.",
             "question"      : "20. (3점) ",
-            "option_1"      : "①  전시장에 책자를 놓아둔다.",
-            "option_2"      : "②  책자를 남자에게 보여 준다.",
-            "option_3"      : "③  책자의 사진 위치를 바꾼다.",
-            "option_4"      : "④  전시회 준비 사항을 확인한다.",
-            "detail"        : "",
-            "correctAnswer" : "③  책자의 사진 위치를 바꾼다.",
+            "option_1"      : "①  김수미 씨에게 전화한다.",
+            "option_2"      : "②  이메일이 왔는지 살펴본다.",
+            "option_3"      : "③  박 대리가 갈 수 있는지 확인한다.",
+            "option_4"      : "④  행사장의 업무 내용을 전달해 준다.",
+            "detail"        : "Woman : Manager, Kim Soo-mi says she can't go to work because she's not feeling well. So I think we should send another staff to the event today.\nMan : Is that so? Then ask Assistant Manager Park first if he can go. Because I did that before. But I should get a job delivery from Kim Soo-mi.......\nWoman : Oh, Kim Soo-mi emailed me the contents of her work. \nMan : Is that so? Then please take care of it so that there is no disruption to the event. Woman: Yes, I got it.",
+            "correctAnswer" : "③  박 대리가 갈 수 있는지 확인한다.",
             "score"         : "3"
-            1 김수미 씨에게 전화한다.
-            2 이메일이 왔는지 살펴본다.
-            3 박 대리가 갈 수 있는지 확인한다.
-            4 행사장의 업무 내용을 전달해 준다.
         },
         {
             "sections"      : "※ [21~22] 다음 내용을 듣고 물음에 답하십시오. (각 3점)",
             "question"      : "21. 들은 내용으로 맞는 것을 고르십시오. ",
-            "option_1"      : "①  여자는 일을 많이 해서 힘들어한다.",
-            "option_2"      : "②  여자는 오랜 기간 공연을 하지 않았다.",
-            "option_3"      : "③  여자는 체력 관리에 신경을 못 쓰고 있다.",
-            "option_4"      : "④  여자는 일 년에 여러 작품을 하지 않는다.",
-            "detail"        : "",
-            "correctAnswer" : "④  여자는 일 년에 여러 작품을 하지 않는다.",
+            "option_1"      : "①  책에서는 ‘무명 장군’의 성장 과정에 집중하였다.",
+            "option_2"      : "②  책에 나온 장면들이 드라마에서 그대로 표현되었다.",
+            "option_3"      : "③  드라마가 인기를 얻으면서 책에 대한 관심이 늘었다.",
+            "option_4"      : "④  책의 내용을 주제로 한 드라마가 곧 방송될 예정이다.",
+            "detail"        : "Man : Now, the drama based on the teacher's work is getting a good response from the viewers. Have you seen the drama?\nWoman : Yes. I'm having a lot of fun I mainly tried to show the process of how the ‘unnamed general’ grew into a hero in the book. But in the drama, it seems to focus on expressing the appearance of the 'unknown general' who became a hero. As a result, there were a lot of war scenes, and it was very interesting because the scene was expressed in a very realistic way. ",
+            "correctAnswer" : "①  책에서는 ‘무명 장군’의 성장 과정에 집중하였다.",
             "score"         : "3"
-            1 책에서는 ‘무명 장군’의 성장 과정에 집중하였다.
-            2 책에 나온 장면들이 드라마에서 그대로 표현되었다.
-            3 드라마가 인기를 얻으면서 책에 대한 관심이 늘었다.
-            4 책의 내용을 주제로 한 드라마가 곧 방송될 예정이다.
         },
         {
             "sections"      : "※ [21~22] 다음 내용을 듣고 물음에 답하십시오. (각 3점)",
             "question"      : "22.  여자는 누구인지 고르십시오.",
-            "option_1"      : "①  공연 관람객",
-            "option_2"      : "②  뮤지컬 배우",
-            "option_3"      : "③  공연 관계자",
-            "option_4"      : "④  뮤지컬 연출가",
-            "detail"        : "",
-            "correctAnswer" : "②  뮤지컬 배우",
+            "option_1"      : "①  기자",
+            "option_2"      : "②  소설가",
+            "option_3"      : "③  시청자",
+            "option_4"      : "④  드라마 작가",
+            "detail"        : "Man : Now, the drama based on the teacher's work is getting a good response from the viewers. Have you seen the drama?\nWoman : Yes. I'm having a lot of fun I mainly tried to show the process of how the ‘unnamed general’ grew into a hero in the book. But in the drama, it seems to focus on expressing the appearance of the 'unknown general' who became a hero. As a result, there were a lot of war scenes, and it was very interesting because the scene was expressed in a very realistic way. ",
+            "correctAnswer" : "②  소설가",
             "score"         : "3"
-            1 기자
-            2 소설가
-            3 시청자
-            4 드라마 작가
         },
         {
             "sections"      : "※ [23~24] 다음 내용을 듣고 물음에 답하십시오. (각 3점)",
             "question"      : "23. 남자는 무엇을 하고 있는지 고르십시오.",
-            "option_1"      : "①  서비스의 성과를 알려 주고 있다.",
-            "option_2"      : "②  서비스의 종류에 대해 설명하고 있다.",
-            "option_3"      : "③  서비스의 활용 방안을 소개하고 있다.",
-            "option_4"      : "④  서비스의 내용에 대해 홍보하고 있다.",
-            "detail"        : "",
-            "correctAnswer" : "④  서비스의 내용에 대해 홍보하고 있다.",
+            "option_1"      : "①  ‘고객 연구소’가 이룬 성과를 밝히고 있다.",
+            "option_2"      : "②  ‘고객 연구소’의 설립 과정을 설명하고 있다.",
+            "option_3"      : "③  ‘고객 연구소’의 발전 가능성을 소개하고 있다.",
+            "option_4"      : "④  ‘고객 연구소’가 갖는 문제점을 분석하고 있다.",
+            "detail"        : "Woman : I came to a company that has become a hot topic by installing a 'customer lab'. Director, what kind of work have you been doing at the 'Customer Lab'?\nMan : Yes. In our company, we thought that research is necessary to catch customers who are leaving with dissatisfaction, so we created a 'customer lab'. In the meantime, we have been researching ways to increase satisfaction by researching customer complaints. As the results of our research are reflected in the improvement of our services, the number of customers who actually leave the company has decreased significantly. This is much more economical in terms of cost than attracting new customers. It's very successful.",
+            "correctAnswer" : "①  ‘고객 연구소’가 이룬 성과를 밝히고 있다.",
             "score"         : "3"
-            1 ‘고객 연구소’가 이룬 성과를 밝히고 있다.
-            2 ‘고객 연구소’의 설립 과정을 설명하고 있다.
-            3 ‘고객 연구소’의 발전 가능성을 소개하고 있다.
-            4 ‘고객 연구소’가 갖는 문제점을 분석하고 있다.
         },
         {
             "sections"      : "※ [23~24] 다음 내용을 듣고 물음에 답하십시오. (각 3점)",
             "question"      : "24. 이 서비스를 시작한 이유를 고르십시오. ",
-            "option_1"      : "①  우편물을 안전하게 배송하기 위해",
-            "option_2"      : "②  우체국 직원의 업무를 줄이기 위해",
-            "option_3"      : "③  우편 업무를 효율적으로 처리하기 위해",
-            "option_4"      : "④  더 편리한 우편 서비스를 제공하기 위해",
-            "detail"        : "",
-            "correctAnswer" : "④  더 편리한 우편 서비스를 제공하기 위해",
+            "option_1"      : "①  신규 고객을 늘리기 위해",
+            "option_2"      : "②  기존 고객을 유지하기 위해",
+            "option_3"      : "③  새로운 서비스를 홍보하기 위해",
+            "option_4"      : "④  서비스 개선 비용을 줄이기 위해",
+            "detail"        : "Woman : I came to a company that has become a hot topic by installing a 'customer lab'. Director, what kind of work have you been doing at the 'Customer Lab'?\nMan : Yes. In our company, we thought that research is necessary to catch customers who are leaving with dissatisfaction, so we created a 'customer lab'. In the meantime, we have been researching ways to increase satisfaction by researching customer complaints. As the results of our research are reflected in the improvement of our services, the number of customers who actually leave the company has decreased significantly. This is much more economical in terms of cost than attracting new customers. It's very successful.",
+            "correctAnswer" : "②  기존 고객을 유지하기 위해",
             "score"         : "3"
-            1 신규 고객을 늘리기 위해
-            2 기존 고객을 유지하기 위해
-            3 새로운 서비스를 홍보하기 위해
-            4 서비스 개선 비용을 줄이기 위해
         },
         {
             "sections"      : "※ [25~26] 다음 내용을 듣고 물음에 답하십시오.",
             "question"      : "25. 여자의 생각으로 맞는 것을 고르십시오. (4점)",
-            "option_1"      : "①  봉사 활동은 대학 생활을 의미 있게 한다.",
-            "option_2"      : "②  지킬 수 없는 약속은 하지 않는 것이 좋다.",
-            "option_3"      : "③  글로 남기는 것은 더 큰 책임감을 갖게 한다.",
-            "option_4"      : "④  책임감 있게 행동하는 것은 쉬운 일이 아니다.",
-            "detail"        : "",
-            "correctAnswer" : "③  글로 남기는 것은 더 큰 책임감을 갖게 한다.",
+            "option_1"      : "①  뇌를 휴식하게 하는 것은 쉬운 일이 아니다.",
+            "option_2"      : "②  뇌의 활동을 멈추게 하려면 잠을 자는 것이 좋다.",
+            "option_3"      : "③  잠들기 전에는 뇌에 자극이 되는 활동을 피해야 한다.",
+            "option_4"      : "④  게임은 기억에 오래 남아 뇌가 활동하는 것을 방해한다.",
+            "detail"        : "Woman : You know that sleeping well is important for your health, right? To sleep well, you need a preparation step to sleep. An experiment was conducted at a laboratory to play games for a while and observed the brain of a person who fell asleep, and even after falling asleep, the brain was doing the same activity as when playing games. Even if you fall asleep like this, your brain doesn't stop moving and keeps moving. The more stimulated the brain is before going to sleep, the longer it takes for the brain to rest, making it difficult to sleep deeply.",
+            "correctAnswer" : "③  잠들기 전에는 뇌에 자극이 되는 활동을 피해야 한다.",
             "score"         : "4"
-            1 뇌를 휴식하게 하는 것은 쉬운 일이 아니다.
-            2 뇌의 활동을 멈추게 하려면 잠을 자는 것이 좋다.
-            3 잠들기 전에는 뇌에 자극이 되는 활동을 피해야 한다.
-            4 게임은 기억에 오래 남아 뇌가 활동하는 것을 방해한다.
         },
         {
             "sections"      : "※ [25~26] 다음 내용을 듣고 물음에 답하십시오.",
             "question"      : "26. 여자가 제시한 주장의 근거로 알맞은 것을 고르십시오. (3점)",
-            "option_1"      : "①  실험 결과",
-            "option_2"      : "②  조사 자료",
+            "option_1"      : "①  유사 사례",
+            "option_2"      : "②  자신의 경험",
             "option_3"      : "③  전문가의 의견",
-            "option_4"      : "④  신문 기사 내용",
-            "detail"        : "",
-            "correctAnswer" : "①  실험 결과",
+            "option_4"      : "④  관련 기관의 연구",
+            "detail"        : "Woman : You know that sleeping well is important for your health, right? To sleep well, you need a preparation step to sleep. An experiment was conducted at a laboratory to play games for a while and observed the brain of a person who fell asleep, and even after falling asleep, the brain was doing the same activity as when playing games. Even if you fall asleep like this, your brain doesn't stop moving and keeps moving. The more stimulated the brain is before going to sleep, the longer it takes for the brain to rest, making it difficult to sleep deeply.",
+            "correctAnswer" : "④  관련 기관의 연구",
             "score"         : "3"
-            
-            1 유사 사례
-            2 자신의 경험
-            3 전문가의 의견
-            4 관련 기관의 연구
         },
         {
             "sections"      : "※ [27~28] 다음 내용을 듣고 물음에 답하십시오. (각 3점)",
             "question"      : "27. 여자의 생각으로 맞는 것을 고르십시오.",
-            "option_1"      : "①  나무 계단은 등산객의 안전에 도움이 된다.",
-            "option_2"      : "②  등산할 때는 계단보다는 흙길로 가는 것이 좋다.",
-            "option_3"      : "③  시민들의 반응을 보고 계단을 설치하도록 해야 한다.",
-            "option_4"      : "④  산에서 길을 잃어버리지 않도록 등산로를 늘려야 한다.",
-            "detail"        : "",
-            "correctAnswer" : "①  나무 계단은 등산객의 안전에 도움이 된다.",
+            "option_1"      : "①  아름다운 나무를 가로수로 심어야 한다.",
+            "option_2"      : "②  가로수는 시민들의 심리 안정에 도움이 된다.",
+            "option_3"      : "③  은행나무 가로수는 시민들에게 불편을 주고 있다.",
+            "option_4"      : "④  통행이 많은 곳에는 가로수를 심지 않는 것이 좋다.",
+            "detail"        : "Man : I think we need to replace the street trees even now. Citizens should be happy on the beautifully constructed boulevard road, but don't citizens feel uncomfortable because of the smell of ginkgo tree fruit in the fall? There are many citizens who experience inconvenience in traffic because they are avoiding going through the bank. It's a recurring problem every year, so I think it's better to change it this opportunity.\nWoman : Of course, there is such a problem, but in the last poll, there were many citizens who said that ginkgo trees are beautiful and give psychological stability, and that they oppose the replacement of trees. Shouldn't we come up with another way to reduce the inconvenience of citizens rather than replacing the street trees?",
+            "correctAnswer" : "③  은행나무 가로수는 시민들에게 불편을 주고 있다.",
             "score"         : "3"
-            1 아름다운 나무를 가로수로 심어야 한다.
-            2 가로수는 시민들의 심리 안정에 도움이 된다.
-            3 은행나무 가로수는 시민들에게 불편을 주고 있다.
-            4 통행이 많은 곳에는 가로수를 심지 않는 것이 좋다.
         },
         {
             "sections"      : "※ [27~28] 다음 내용을 듣고 물음에 답하십시오. (각 3점)",
             "question"      : "28. 남자의 생각이나 태도로 맞는 것을 고르십시오.",
-            "option_1"      : "①  여자의 말에 강한 불만을 드러내고 있다.",
-            "option_2"      : "②  여자의 주장을 적극적으로 받아들이고 있다.",
-            "option_3"      : "③  여자의 의견에 분명한 반대 입장을 보이고 있다.",
-            "option_4"      : "④  여자의 생각에 동의하며 자신의 의견을 밝히고 있다.",
-            "detail"        : "",
-            "correctAnswer" : "④  여자의 생각에 동의하며 자신의 의견을 밝히고 있다.",
+            "option_1"      : "①  남자의 의견에 동조하고 있다.",
+            "option_2"      : "②  남자의 말에 감정적으로 대응하고 있다.",
+            "option_3"      : "③  강력하게 문제에 대한 책임을 묻고 있다.",
+            "option_4"      : "④  조심스럽게 자신의 의견을 밝히고 있다.",
+            "detail"        : "Man : I think we need to replace the street trees even now. Citizens should be happy on the beautifully constructed boulevard road, but don't citizens feel uncomfortable because of the smell of ginkgo tree fruit in the fall? There are many citizens who experience inconvenience in traffic because they are avoiding going through the bank. It's a recurring problem every year, so I think it's better to change it this opportunity.\nWoman : Of course, there is such a problem, but in the last poll, there were many citizens who said that ginkgo trees are beautiful and give psychological stability, and that they oppose the replacement of trees. Shouldn't we come up with another way to reduce the inconvenience of citizens rather than replacing the street trees?",
+            "correctAnswer" : "④  조심스럽게 자신의 의견을 밝히고 있다.",
             "score"         : "3"
-            1 남자의 의견에 동조하고 있다.
-            2 남자의 말에 감정적으로 대응하고 있다.
-            3 강력하게 문제에 대한 책임을 묻고 있다.
-            4 조심스럽게 자신의 의견을 밝히고 있다.
         },
         {
             "sections"      : "※ [29~30] 다음 내용을 듣고 물음에 답하십시오.",
             "question"      : "29. 이 뉴스의 제목으로 가장 알맞은 것을 고르십시오. (4점)",
-            "option_1"      : "①  주차장, 차 세울 곳 없어",
-            "option_2"      : "②  중개업 믿었다가 큰코다쳐",
-            "option_3"      : "③  렌터카 가격 지역마다 달라",
-            "option_4"      : "④  잠자던 자가용으로 수익 올려",
-            "detail"        : "",
-            "correctAnswer" : "④  잠자던 자가용으로 수익 올려",
+            "option_1"      : "①  인천공항 이용 시간 점점 늘어",
+            "option_2"      : "②  인천공항 찾는 관광객 줄 이어",
+            "option_3"      : "③  인천공항,이용객 증가로 복잡해져",
+            "option_4"      : "④  인천공항,차별화된 서비스로 만족도 높여",
+            "detail"        : "Man : It is said that Incheon Airport is attracting the attention of airport users with a differentiated service. This news is delivered by reporter Park Jung-eun.\nWoman: If you go to Incheon Airport, you can see various cultural and art performances. The airport has prepared it so that guests can enjoy their time at the airport. As the guests who watched the performance showed a good response, the number of visitors to the performance is steadily increasing. The airport has announced that it will provide more variety of such performances in the future and develop a program that users can directly participate in.",
+            "correctAnswer" : "④  인천공항,차별화된 서비스로 만족도 높여",
             "score"         : "4"
-            1 인천공항 이용 시간 점점 늘어
-            2 인천공항 찾는 관광객 줄 이어
-            3 인천공항,이용객 증가로 복잡해져
-            4 인천공항,차별화된 서비스로 만족도 높여
         },
         {
             "sections"      : "※ [29~30] 다음 내용을 듣고 물음에 답하십시오.",
             "question"      : "30. 들은 내용으로 맞는 것을 고르십시오. (3점)",
-            "option_1"      : "①  차를 대여할 때 보험 문제는 개인적으로 해결해야 한다.",
-            "option_2"      : "②  가까이 있는 차를 저렴한 가격에 빌릴 수 있어 편리하다.",
-            "option_3"      : "③  렌터카 회사를 통해서 자가용을 빌리면 대여료가 더 싸다.",
-            "option_4"      : "④  개인의 차를 대여해 주다 보면 귀찮은 문제가 많이 생긴다.",
-            "detail"        : "",
-            "correctAnswer" : "②  가까이 있는 차를 저렴한 가격에 빌릴 수 있어 편리하다.",
+            "option_1"      : "①  공항 이용객들의 요구로 공연을 열기 시작했다.",
+            "option_2"      : "②  인천공항은 문화 예술 공연을 다양화할 계획이다.",
+            "option_3"      : "③  공연을 보려고 따로 공항을 찾는 사람들이 증가했다.",
+            "option_4"      : "④  인천공항에서는 다양한 체험 프로그램을 제공하고 있다.",
+            "detail"        : "Man : It is said that Incheon Airport is attracting the attention of airport users with a differentiated service. This news is delivered by reporter Park Jung-eun.\nWoman: If you go to Incheon Airport, you can see various cultural and art performances. The airport has prepared it so that guests can enjoy their time at the airport. As the guests who watched the performance showed a good response, the number of visitors to the performance is steadily increasing. The airport has announced that it will provide more variety of such performances in the future and develop a program that users can directly participate in.",
+            "correctAnswer" : "②  인천공항은 문화 예술 공연을 다양화할 계획이다.",
             "score"         : "3"
-            1 공항 이용객들의 요구로 공연을 열기 시작했다.
-            2 인천공항은 문화 예술 공연을 다양화할 계획이다.
-            3 공연을 보려고 따로 공항을 찾는 사람들이 증가했다.
-            4 인천공항에서는 다양한 체험 프로그램을 제공하고 있다.
         }
     ]
 }
