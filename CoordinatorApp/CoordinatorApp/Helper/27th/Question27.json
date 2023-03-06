@@ -251,12 +251,12 @@
         },
         {   
             "sections"      : " ※ [24~25] 다음을 읽고 물음에 답하십시오. (각 3점)",
-            "question"      : "회사에서 신제품을 개발하기 위해 업무 능력이 뛰어난 사람들만을 모아 한 팀을 구성했다. 회사 사람들은 그 팀이 최고의 성과를 낼 것이라고 기대했 지만 결과는 예상 밖이었다. 팀원 모두 자기 말만 옳다고 ( ㉠ ) 서로 잘 협력하지 못해서 제품 개발 자체가 중단되었기 때문이다. ‘( ㉡ ).’는 말 처럼 모두가 자신의 주장만 내세우면 일이 엉뚱한 방향으로 진행될 수 있다.\n24.( ㉠ )에 알맞은 것을 고르십시오.",
+            "question"      : " 회사에서 신제품을 개발하기 위해 업무 능력이 뛰어난 사람들만을 모아 한 팀을 구성했다. 회사 사람들은 그 팀이 최고의 성과를 낼 것이라고 기대했 지만 결과는 예상 밖이었다. 팀원 모두 자기 말만 옳다고 ( ㉠ ) 서로 잘 협력하지 못해서 제품 개발 자체가 중단되었기 때문이다. ‘( ㉡ ).’는 말 처럼 모두가 자신의 주장만 내세우면 일이 엉뚱한 방향으로 진행될 수 있다.\n24.( ㉠ )에 알맞은 것을 고르십시오.",
             "option_1"      : "①  주장할 테니까",
             "option_2"      : "②  주장할까 봐서",
             "option_3"      : "③  주장하는 데다가",
             "option_4"      : "④  주장하기는 하지만",
-            "detail"        : "In order for the company to develop new products, we gathered a team of people with excellent work skills. People at the company expected the team to do their best, but the results were unexpected. This is because all the team members insisted that they were right and the product development itself was interrupted because they couldn't cooperate well with each other. As the saying goes, 'If there are many sailor, the ship goes to the mountain,' if everyone makes their own claims, things can go in the wrong direction.",
+            "detail"        : " In order for the company to develop new products, we gathered a team of people with excellent work skills. People at the company expected the team to do their best, but the results were unexpected. This is because all the team members insisted that they were right and the product development itself was interrupted because they couldn't cooperate well with each other. As the saying goes, 'If there are many sailor, the ship goes to the mountain,' if everyone makes their own claims, things can go in the wrong direction.",
             "correctAnswer" : "③  주장하는 데다가",
             "score"         : "3"
         },
@@ -267,7 +267,7 @@
             "option_2"      : "②  뛰는 놈 위에 나는 놈 있다",
             "option_3"      : "③  소문난 잔치에 먹을 것 없다",
             "option_4"      : "④  사공이 많으면 배가 산으로 간다",
-            "detail"        : "In order for the company to develop new products, we gathered a team of people with excellent work skills. People at the company expected the team to do their best, but the results were unexpected. This is because all the team members insisted that they were right and the product development itself was interrupted because they couldn't cooperate well with each other. As the saying goes, 'If there are many sailor, the ship goes to the mountain,' if everyone makes their own claims, things can go in the wrong direction.",
+            "detail"        : " In order for the company to develop new products, we gathered a team of people with excellent work skills. People at the company expected the team to do their best, but the results were unexpected. This is because all the team members insisted that they were right and the product development itself was interrupted because they couldn't cooperate well with each other. As the saying goes, 'If there are many sailor, the ship goes to the mountain,' if everyone makes their own claims, things can go in the wrong direction.",
             "correctAnswer" : "④  사공이 많으면 배가 산으로 간다",
             "score"         : "3"
         }
