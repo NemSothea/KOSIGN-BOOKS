@@ -129,8 +129,8 @@
             "option_2"      : "②  해외 온라인 쇼핑몰 물건은 한국보다 가격이 더 비싸다.",
             "option_3"      : "③  해외 온라인 쇼핑몰에서 물건을 주문하는 방법은 복잡하다.",
             "option_4"      : "④  해외 온라인 쇼핑을 하면 물건을 받을 때까지 오래 기다려야 한다.",
-            "detail"        : "Woman : I heard it's cheap if you buy something at an overseas online shopping mall?\nMan : Yes. It takes a little long, but it's much cheaper. You can buy things that you can't get in Korea.\nWoman : Isn't it complicated to order? I'm thinking of trying it too. Man: It wasn't very difficult. It's cheaper if it's on sale, so take a good look at the sale period.",
-            "correctAnswer" : "①  해외 온라인 쇼핑몰은 물건 값이 싸서 세일을 안 한다.",
+            "detail"        : "Woman : I heard it's cheap if you buy something at an overseas online shopping mall?\nMan : Yes. It takes a little long, but it's much cheaper. You can buy things that you can't get in Korea.\nWoman : Isn't it complicated to order? I'm thinking of trying it too.\nMan : It wasn't very difficult. It's cheaper if it's on sale, so take a good look at the sale period.",
+            "correctAnswer" : "④  해외 온라인 쇼핑을 하면 물건을 받을 때까지 오래 기다려야 한다.",
             "score"         : "2"
         },
         {   "sections"      : "※ [13~16] 다음을 듣고 내용과 일치하는 것을 고르십시오. (각 2점)",
