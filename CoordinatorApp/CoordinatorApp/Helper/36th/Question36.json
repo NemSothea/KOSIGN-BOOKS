@@ -5,11 +5,10 @@
             "option_1"      : "①  하거나",
             "option_2"      : "②  하는데",
             "option_3"      : "③  하면서",
-            "option_4"      : "④  하든지,
+            "option_4"      : "④  하든지",
             "detail"        : "My friend and I were playing soccer on the playground and the teacher called me.",
             "correctAnswer" : "②  하는데",
-            "score"         : "2",
-            "isImg"         : "n"
+            "score"         : "2"
         },
         {   "sections"      : "※ [1~2] (   ) 에 들어갈 가장 알맞은 것을 고르십시오. (각 2점)",
             "question"      : "2. 민수 씨는 대학교를 (     )회사에 취직했다.",
@@ -19,8 +18,7 @@
             "option_4"      : "④  졸업하자마자",
             "detail"        : "Minsu got a job at a company as soon as he graduated from college.",
             "correctAnswer" : "④  졸업하자마자",
-            "score"         : "2",
-            "isImg"         : "n"
+            "score"         : "2"
         },
         {   "sections"      : "※ [3~4] (   ) 다음 밑줄 친 부분과 의미가 비슷한 것을 고르십시오.(각 2점)",
             "question"      : "3. 먹구름이 몰려오는 걸 보니 비가 (올 모양이다).",
@@ -30,8 +28,8 @@
             "option_4"      : "④  온 적이 없다",
             "detail"        : "Looking at the dark clouds, it looks like it will rain.",
             "correctAnswer" : "②  올 것만 같다",
-            "score"         : "2",
-            "isImg"         : "n"
+            "score"         : "2"
+          
         },
         {   "sections"      : "※ [3~4] (   ) 다음 밑줄 친 부분과 의미가 비슷한 것을 고르십시오.(각 2점)",
             "question"      : "4. 다른 옷가게에 (가 봐야) 값은 여기와 비슷할 것이다.",
@@ -41,8 +39,8 @@
             "option_4"      : "④  가기는 하지만",
             "detail"        : "If you go to another clothing store, the price will be similar to here.",
             "correctAnswer" : "①  간다고 해도",
-            "score"         : "2",
-            "isImg"         : "n"
+            "score"         : "2"
+          
         },
         {   "sections"      : "※ [5~8] (   ) 다음은 무엇에 대한 글인지 고르십시오.(각 2점)",
             "question"      : "36_5_img",
@@ -202,8 +200,8 @@
             "option_4"      : "④  2명으로 이루어진 그룹은 개인적인 노력을 하지 않았다",
             "detail"        : " A scientist studied individual contributions to society. The research was conducted with the expectation that the amount of power an individual can exert will increase as the number of members increases. However, the results of the study were not as expected. The number of members of the group and the magnitude of the force they poured in were inversely proportional (rather) to the group of two, which used the most potential expectations.",
             "correctAnswer" : "①  구성원의 수가 많을수록 개인의 공헌도는 낮아졌다",
-            "score"         : "2",
-            "isImg"         : "n"
+            "score"         : "2"
+          
         },
         {   "sections"      : "※ [21~22] 다음을 읽고 물음에 답하십시오.(각 2점)",
             "question"      : "Q21.\n 현대 사회는 인구의 증가와 산업의 발전으로 인해서 환경오염이 심각한 수준에 이르렀다. 그 중에서도 수질 오염은 우리의 생존과 직결되는 중요 한 문제이기 때문에 이에 대해 우려하는 사람들이 많다. 그러나 오염을 막기 위한 구체적인 노력은 부족해 보인다. 수질 오염을 방지하기 위해서는 (...) 라는 말처럼 우리가 생활 속에서 할 수 있는 작은 노력 부터 시작하는 것이 중요하다. 이러한 실천이 하나씩 이루어질 때 우리 자녀들이 깨끗한 물을 안심하고 마실 수 있게 될 것이다.\n21.(  )에 들어갈 알맞은 것을 고르십시오.",

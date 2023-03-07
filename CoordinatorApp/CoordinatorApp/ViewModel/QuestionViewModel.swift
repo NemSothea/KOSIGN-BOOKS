@@ -39,6 +39,7 @@ class QuestionViewModel {
             "TOPIK II READING 33th",
             "TOPIK II READING 34th",
             "TOPIK II READING 35th",
+            "TOPIK II READING 36th",
             "TOPIK II READING 64th",
         ]
     }
@@ -69,6 +70,8 @@ class QuestionViewModel {
             i = "34"
         case 11 :
             i = "35"
+        case 12 :
+            i = "36"
         default :
             break
         }
