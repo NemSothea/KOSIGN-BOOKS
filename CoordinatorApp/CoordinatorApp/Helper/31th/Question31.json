@@ -8,7 +8,7 @@
             "option_4"      : "④  약",
             "correctAnswer" : "②  연락",
             "score"         : "3",
-            "isImg"         : "n"
+             "detail"        : "I got a call that my brother arrived at the airport."
         },
         {   "sections"      : "※ [1~5] 다음 (   ) 에 알맞은 것을 고르십시오.",
             "question"      : "2. 취미로 여러 나라의 우표를(    )있다. (3점)",
@@ -18,7 +18,7 @@
             "option_4"      : "④  옮기고",
             "correctAnswer" : "③  모으고",
             "score"         : "3",
-            "isImg"         : "n"
+             "detail"        : "I'm collecting stamps from various countries as a hobby."
         },
         {   "sections"      : "※ [1~5] 다음 (   ) 에 알맞은 것을 고르십시오.",
             "question"      : "3. 국이 싱거워 서소을(  )넣었다. (3점)",
@@ -28,7 +28,7 @@
             "option_4"      : "④  약간",
             "correctAnswer" : "④  약간",
             "score"         : "3",
-            "isImg"         : "n"
+             "detail"        : "The soup is bland, so I added some soy sauce."
         },
         {   
             "sections"      : "※ [1~5] 다음 (   ) 에 알맞은 것을 고르십시오.",
@@ -39,7 +39,7 @@
             "option_4"      : "④  지저분했다",
             "correctAnswer" : "①  심심했다",
             "score"         : "3",
-            "isImg"         : "n"
+             "detail"        : "I was bored all day because there was nothing interesting."
         },
         {   "sections"      : "※ [1~5] 다음 (   ) 에 알맞은 것을 고르십시오.",
             "question"      : "5. 나는 꿈을(  ) 해서 더욱 노력할 것이다. (4점)",
@@ -49,7 +49,7 @@
             "option_4"      : "④  마치기",
             "correctAnswer" : "③  이루기",
             "score"         : "4",
-            "isImg"         : "n"
+             "detail"        : "I will try harder to achieve my dream."
         },
         {   
             "sections"      : "※ [6~9] 다음 밑줄 친 부분과 의미가 비슷한 것을 고르십시오.",
@@ -60,7 +60,7 @@
             "option_4"      : "④  밀린다",
             "correctAnswer" : "④  밀린다",
             "score"         : "3",
-            "isImg"         : "n"
+             "detail"        : "There's a lot of traffic because it's time to go to work."
         },
         {   
             "sections"      : "※ [6~9] 다음 밑줄 친 부분과 의미가 비슷한 것을 고르십시오.",
@@ -71,7 +71,7 @@
             "option_4"      : "④  무서운",
             "correctAnswer" : "②  힘든",
             "score"         : "3",
-            "isImg"         : "n"
+             "detail"        : "He didn't lose his smile even in the difficult family situation."
         },
         {   
             "sections"      : "※ [6~9] 다음 밑줄 친 부분과 의미가 비슷한 것을 고르십시오.",
@@ -82,7 +82,7 @@
             "option_4"      : "④   결정",
             "correctAnswer" : "①   수단",
             "score"         : "4",
-            "isImg"         : "n"
+             "detail"        : "The last way to cure this disease is to have surgery."
         },
         {   
             "sections"      : "※ [6~9] 다음 밑줄 친 부분과 의미가 비슷한 것을 고르십시오.",
@@ -93,7 +93,7 @@
             "option_4"      : "④   대부분",
             "correctAnswer" : "④   대부분",
             "score"         : "4",
-            "isImg"         : "n"
+             "detail"        : "I usually spend time at home on weekends."
         },
         {   
             "sections"      : "※ [10~11] 다음 ( )에 공통적으로 들어갈 동사를 고르십시오. ",
@@ -104,7 +104,7 @@
             "option_4"      : "④   구하다",
             "correctAnswer" : "③   가지다",
             "score"         : "4",
-            "isImg"         : "n"
+             "detail"        : "My friend took an umbrella. Only people who have tickets can enter the stadium. I took the time and thought about the problem slowly."
         },
         {   
             "sections"      : "※ [10~11] 다음 ( )에 공통적으로 들어갈 동사를 고르십시오. ",
@@ -115,7 +115,7 @@
             "option_4"      : "④   떨어지다",
             "correctAnswer" : "②   붙다",
             "score"         : "3",
-            "isImg"         : "n"
+             "detail"        : "There is a hair on the clothes. I studied hard and finally got into college. The two always sit together."
         },
         {   
             "sections"      : "※ [12~13] 다음 밑줄 친 부분과 의미가 반대인 것을 고르십시오.",
@@ -126,7 +126,7 @@
             "option_4"      : "④   어두우니까",
             "correctAnswer" : "①   얕으니까",
             "score"         : "3",
-            "isImg"         : "n"
+             "detail"        : "This pool is deep, so you have to be careful."
         },
         {   
             "sections"      : "※ [12~13] 다음 밑줄 친 부분과 의미가 반대인 것을 고르십시오.",
@@ -137,7 +137,7 @@
             "option_4"      : "④   들고",
             "correctAnswer" : "②   덮고",
             "score"         : "4",
-            "isImg"         : "n"
+             "detail"        : "When the ingredients are cooked, open the lid of the pot and add the seasoning."
         },
         {   
             "sections"      : "※ [14~18] 다음 (     )에 알맞은 것을 고르십시오.",
@@ -148,18 +148,18 @@
             "option_4"      : "④   하기로 했습니다",
             "correctAnswer" : "②   하는 중입니다",
             "score"         : "3",
-            "isImg"         : "n"
+             "detail"        : "A : Sumi, are you ready for the report?\nB : No. I'm still doing it."
         },
         {   
             "sections"      : "※ [14~18] 다음 (     )에 알맞은 것을 고르십시오.",
-            "question"      : "15. (4점)\n가 : 화가(  )얼마나남았어요?\n나 : 10분정도 남았어요.",
+            "question"      : "15. (4점)\n가 : 화가(  )얼마나 남았어요?\n나 : 10분정도 남았어요.",
             "option_1"      : "①  시작되려면",
             "option_2"      : "②  시작되거나",
             "option_3"      : "③  시작되면서",
             "option_4"      : "④  시작되다가",
             "correctAnswer" : "①  시작되려면",
             "score"         : "4",
-            "isImg"         : "n"
+             "detail"        : "A : How much time do you have left to start getting angry?\nB : There are about 10 minutes left."
         }, 
         {   
             "sections"      : "※ [14~18] 다음 (     )에 알맞은 것을 고르십시오.",
@@ -170,7 +170,7 @@
             "option_4"      : "④  대로",
             "correctAnswer" : "④  대로",
             "score"         : "3",
-            "isImg"         : "n"
+             "detail"        : "A : How about actually coming to the Han River?\nB : It's so cool. As people say, the night view is so beautiful."
         },
         {   
             "sections"      : "※ [14~18] 다음 (     )에 알맞은 것을 고르십시오.",
@@ -181,7 +181,7 @@
             "option_4"      : "④  않을 정도로",
             "correctAnswer" : "③  않은 데다가",
             "score"         : "3",
-            "isImg"         : "n"
+             "detail"        : "A : I took too much precious time.\nB : no I don't have a lot of work today, and the meeting has been canceled."
         }, 
         {   
             "sections"      : "※ [14~18] 다음 (     )에 알맞은 것을 고르십시오.",
@@ -192,7 +192,7 @@
             "option_4"      : "④   나가라고요",
             "correctAnswer" : "①   나가야지요",
             "score"         : "3",
-            "isImg"         : "n"
+             "detail"        : "A : I'm thinking of having a reunion at the beginning of next month, can you come?\n B : of course. Even if you're busy, you must go to the reunion."
         },
         {   
             "sections"      : "※ [19~21]다음 밑 줄친 부분과 바꾸어 쓸 수 있는 것을 고르십시오.",
@@ -203,7 +203,7 @@
             "option_4"      : "④  생기자마자",
             "correctAnswer" : "④  생기자마자",
             "score"         : "4",
-            "isImg"         : "n"
+             "detail"        : "A : Manager, then I'll go to the client.\n B : Yes. If you have any problems, please let me know right away."
         },
         {   
             "sections"      : "※ [19~21]다음 밑 줄친 부분과 바꾸어 쓸 수 있는 것을 고르십시오.",
@@ -214,7 +214,7 @@
             "option_4"      : "④  친절할까 싶어요",
             "correctAnswer" : "②  친절하더라고요",
             "score"         : "3",
-            "isImg"         : "n"
+             "detail"        : "A : Have you been to the new Korean restaurant in front of here?\nB : Yes. I went there yesterday and I felt that the food was delicious and the waiter was kind."
         },
         {   
             "sections"      : "※ [19~21]다음 밑 줄친 부분과 바꾸어 쓸 수 있는 것을 고르십시오.",
@@ -225,7 +225,7 @@
             "option_4"      : "④  수리하는 셈 치고",
             "correctAnswer" : "①  수리해 봐야",
             "score"         : "3",
-            "isImg"         : "n"
+             "detail"        : "A : Maybe because the washing machine is old, it keeps breaking down.\nB : (Even if it's repaired) I might break down again, so I'd better buy a new one this time."
         },
         {   
             "sections"      : " ※ [22~23] 다음을 읽고 물음에 답하십시오. (각 3점)",
@@ -236,7 +236,7 @@
             "option_4"      : "④  만들었다면",
             "correctAnswer" : "③  만들었더니",
             "score"         : "3",
-            "isImg"         : "n"
+             "detail"        : "A : The company address is wrong in the product manual.\n B : I'm sorry. I think I made such a mistake because I made it too quickly.\nA : Please be careful and check again to see if there are any other mistakes."
         },
         {   
             "sections"      : " ※ [22~23] 다음을 읽고 물음에 답하십시오. (각 3점)",
@@ -247,7 +247,7 @@
             "option_4"      : "④  효과",
             "correctAnswer" : "①  주의",
             "score"         : "3",
-            "isImg"         : "n"
+             "detail"        : " A: The company address is wrong in the product manual. Me: I'm sorry. I think I made such a mistake because I made it too quickly. A: Please be careful and check again to see if there are any other mistakes."
         },
         {   
             "sections"      : " ※ [24~25] 다음을 읽고 물음에 답하십시오. (각 3점)",
@@ -258,7 +258,7 @@
             "option_4"      : "④  채우는한편",
             "correctAnswer" : "④  채우는한편",
             "score"         : "3",
-            "isImg"         : "n"
+             "detail"        : "A musical that made world-class masterpieces for children is popular. This musical was adapted to exclude inappropriate content for children. Instead, it filled the scene with a variety of dances and music, while also added amazing sights such as stunts and magic. Thanks to you, this musical is getting a lot of response from children. However, the fact that the adults who went with them may be somewhat less interested in it is 'Ok-e T'."
         },
         {   
             "sections"      : " ※ [24~25] 다음을 읽고 물음에 답하십시오. (각 3점)",
@@ -269,7 +269,7 @@
             "option_4"      : "④  누워서떡먹기",
             "correctAnswer" : "①  옥에 티",
             "score"         : "3",
-            "isImg"         : "n"
+             "detail"        : " A musical that made world-class masterpieces for children is popular. This musical was adapted to exclude inappropriate content for children. Instead, it filled the scene with a variety of dances and music, while also added amazing sights such as stunts and magic. Thanks to you, this musical is getting a lot of response from children. However, the fact that the adults who went with them may be somewhat less interested in it is 'Ok-e T'."
         }
     ]
    

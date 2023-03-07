@@ -8,7 +8,7 @@
             "option_4"      : "④  약",
             "correctAnswer" : "③  부탁",
             "score"         : "3",
-            "isImg"         : "n"
+             "detail"        : ""
         },
         {   "sections"      : "※ [1~5] 다음 (   ) 에 알맞은 것을 고르십시오.",
             "question"      : "2. 여행을 하면서 여러 나라의 문화 차이를(  )수있었다 (3점)",
@@ -18,7 +18,7 @@
             "option_4"      : "④  느낄",
             "correctAnswer" : "④  느낄",
             "score"         : "3",
-            "isImg"         : "n"
+             "detail"        : ""
         },
         {   "sections"      : "※ [1~5] 다음 (   ) 에 알맞은 것을 고르십시오.",
             "question"      : "3. 앞으로의 일에 해서는(  )생각해 본이 없다. (3점)",
@@ -28,7 +28,7 @@
             "option_4"      : "④  마치",
             "correctAnswer" : "①  별로",
             "score"         : "3",
-            "isImg"         : "n"
+             "detail"        : ""
         },
         {   
             "sections"      : "※ [1~5] 다음 (   ) 에 알맞은 것을 고르십시오.",
@@ -39,7 +39,7 @@
             "option_4"      : "④  가득해서",
             "correctAnswer" : "②  궁금해서",
             "score"         : "3",
-            "isImg"         : "n"
+             "detail"        : ""
         },
         {   "sections"      : "※ [1~5] 다음 (   ) 에 알맞은 것을 고르십시오.",
             "question"      : "5. 주차장이(  )그 자리에 공원이 생겼다. (4점)",
@@ -49,7 +49,7 @@
             "option_4"      : "④  흔들리고",
             "correctAnswer" : "③  사라지고",
             "score"         : "4",
-            "isImg"         : "n"
+             "detail"        : ""
         },
         {   
             "sections"      : "※ [6~9] 다음 밑줄 친 부분과 의미가 비슷한 것을 고르십시오.",
@@ -60,7 +60,7 @@
             "option_4"      : "④  미루고",
             "correctAnswer" : "②  마치고",
             "score"         : "3",
-            "isImg"         : "n"
+             "detail"        : ""
         },
         {   
             "sections"      : "※ [6~9] 다음 밑줄 친 부분과 의미가 비슷한 것을 고르십시오.",
@@ -71,7 +71,7 @@
             "option_4"      : "④  옛날",
             "correctAnswer" : "④  옛날",
             "score"         : "3",
-            "isImg"         : "n"
+             "detail"        : ""
         },
         {   
             "sections"      : "※ [6~9] 다음 밑줄 친 부분과 의미가 비슷한 것을 고르십시오.",
@@ -82,7 +82,7 @@
             "option_4"      : "④   부럽다",
             "correctAnswer" : "①   밝다",
             "score"         : "4",
-            "isImg"         : "n"
+             "detail"        : ""
         },
         {   
             "sections"      : "※ [6~9] 다음 밑줄 친 부분과 의미가 비슷한 것을 고르십시오.",
@@ -93,7 +93,7 @@
             "option_4"      : "④   어느새",
             "correctAnswer" : "②   마침내",
             "score"         : "4",
-            "isImg"         : "n"
+             "detail"        : ""
         },
         {   
             "sections"      : "※ [10~11] 다음 ( )에 공통적으로 들어갈 동사를 고르십시오. ",
@@ -104,7 +104,7 @@
             "option_4"      : "④   부르다",
             "correctAnswer" : "①   바꾸다",
             "score"         : "4",
-            "isImg"         : "n"
+             "detail"        : ""
         },
         {   
             "sections"      : "※ [10~11] 다음 ( )에 공통적으로 들어갈 동사를 고르십시오. ",
@@ -115,7 +115,7 @@
             "option_4"      : "④   주다",
             "correctAnswer" : "③   맞다",
             "score"         : "3",
-            "isImg"         : "n"
+             "detail"        : ""
         },
         {   
             "sections"      : "※ [12~13] 다음 밑줄 친 부분과 의미가 반대인 것을 고르십시오.",
@@ -126,7 +126,7 @@
             "option_4"      : "④   깎으면",
             "correctAnswer" : "②   더하면",
             "score"         : "3",
-            "isImg"         : "n"
+             "detail"        : ""
         },
         {   
             "sections"      : "※ [12~13] 다음 밑줄 친 부분과 의미가 반대인 것을 고르십시오.",
@@ -137,7 +137,7 @@
             "option_4"      : "④   지저분해서",
             "correctAnswer" : "④   지저분해서",
             "score"         : "4",
-            "isImg"         : "n"
+             "detail"        : ""
         },
         {   
             "sections"      : "※ [14~18] 다음 (     )에 알맞은 것을 고르십시오.",
@@ -148,7 +148,7 @@
             "option_4"      : "④   하겠어요",
             "correctAnswer" : "③   편하잖아요",
             "score"         : "3",
-            "isImg"         : "n"
+             "detail"        : ""
         },
         {   
             "sections"      : "※ [14~18] 다음 (     )에 알맞은 것을 고르십시오.",
@@ -159,7 +159,7 @@
             "option_4"      : "④  처음이라서 그런지",
             "correctAnswer" : "④  처음이라서 그런지",
             "score"         : "4",
-            "isImg"         : "n"
+             "detail"        : ""
         }, 
         {   
             "sections"      : "※ [14~18] 다음 (     )에 알맞은 것을 고르십시오.",
@@ -170,7 +170,7 @@
             "option_4"      : "④  로부터",
             "correctAnswer" : "③  에다가",
             "score"         : "3",
-            "isImg"         : "n"
+             "detail"        : ""
         },
         {   
             "sections"      : "※ [14~18] 다음 (     )에 알맞은 것을 고르십시오.",
@@ -181,7 +181,7 @@
             "option_4"      : "④  생기기 십상입니다",
             "correctAnswer" : "①  생긴 듯합니다",
             "score"         : "3",
-            "isImg"         : "n"
+             "detail"        : ""
         }, 
         {   
             "sections"      : "※ [14~18] 다음 (     )에 알맞은 것을 고르십시오.",
@@ -192,7 +192,7 @@
             "option_4"      : "④   나느라고",
             "correctAnswer" : "②   나길래",
             "score"         : "3",
-            "isImg"         : "n"
+             "detail"        : ""
         },
         {   
             "sections"      : "※ [19~21]다음 밑 줄친 부분과 바꾸어 쓸 수 있는 것을 고르십시오.",
@@ -203,7 +203,7 @@
             "option_4"      : "④  먹기는 하지만",
             "correctAnswer" : "②  먹기만 하면",
             "score"         : "4",
-            "isImg"         : "n"
+             "detail"        : ""
         },
         {   
             "sections"      : "※ [19~21]다음 밑 줄친 부분과 바꾸어 쓸 수 있는 것을 고르십시오.",
@@ -214,7 +214,7 @@
             "option_4"      : "④  있었을 리가 없어요",
             "correctAnswer" : "①  있는 줄 몰랐어요",
             "score"         : "3",
-            "isImg"         : "n"
+             "detail"        : ""
         },
         {   
             "sections"      : "※ [19~21]다음 밑 줄친 부분과 바꾸어 쓸 수 있는 것을 고르십시오.",
@@ -225,7 +225,7 @@
             "option_4"      : "④  고향이기 마련이거든요",
             "correctAnswer" : "③  고향인 셈이거든요",
             "score"         : "3",
-            "isImg"         : "n"
+             "detail"        : ""
         },
         {   
             "sections"      : " ※ [22~23] 다음을 읽고 물음에 답하십시오. (각 3점)",
@@ -236,7 +236,7 @@
             "option_4"      : "④  있지그래요",
             "correctAnswer" : "②  있다면서요",
             "score"         : "3",
-            "isImg"         : "n"
+             "detail"        : ""
         },
         {   
             "sections"      : " ※ [22~23] 다음을 읽고 물음에 답하십시오. (각 3점)",
@@ -247,7 +247,7 @@
             "option_4"      : "④  과정",
             "correctAnswer" : "①  분야",
             "score"         : "3",
-            "isImg"         : "n"
+             "detail"        : ""
         },
         {   
             "sections"      : " ※ [24~25] 다음을 읽고 물음에 답하십시오. (각 3점)",
@@ -258,7 +258,7 @@
             "option_4"      : "④  에어컨이야말로",
             "correctAnswer" : "④  에어컨이야말로",
             "score"         : "3",
-            "isImg"         : "n"
+             "detail"        : ""
         },
         {   
             "sections"      : " ※ [24~25] 다음을 읽고 물음에 답하십시오. (각 3점)",
@@ -269,7 +269,7 @@
             "option_4"      : "④  무소식이 희소식",
             "correctAnswer" : "②  꿩대신닭",
             "score"         : "3",
-            "isImg"         : "n"
+             "detail"        : ""
         }
     ]
    
