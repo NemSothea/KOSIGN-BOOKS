@@ -258,7 +258,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ACl-mg-6O9">
-                                                    <rect key="frame" x="5" y="101" width="400" height="228"/>
+                                                    <rect key="frame" x="5" y="86" width="400" height="228"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sFA-7z-MFY">
                                                             <rect key="frame" x="0.0" y="0.0" width="0.0" height="228"/>
@@ -286,7 +286,7 @@
                                                     </subviews>
                                                 </stackView>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="jLO-e2-ked">
-                                                    <rect key="frame" x="10" y="359" width="390" height="230"/>
+                                                    <rect key="frame" x="10" y="334" width="390" height="230"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="by1-i4-1dJ" customClass="UIControl">
                                                             <rect key="frame" x="0.0" y="0.0" width="390" height="50"/>
@@ -374,7 +374,7 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstAttribute="trailing" secondItem="s24-oF-oO3" secondAttribute="trailing" id="C8a-8F-Zxw"/>
-                                                <constraint firstItem="jLO-e2-ked" firstAttribute="top" secondItem="ACl-mg-6O9" secondAttribute="bottom" constant="30" id="TCK-Hh-shY"/>
+                                                <constraint firstItem="jLO-e2-ked" firstAttribute="top" secondItem="ACl-mg-6O9" secondAttribute="bottom" constant="20" id="TCK-Hh-shY"/>
                                                 <constraint firstItem="s24-oF-oO3" firstAttribute="leading" secondItem="cIG-jX-z6m" secondAttribute="leading" constant="5" id="TaE-VM-QI0"/>
                                                 <constraint firstAttribute="trailing" secondItem="jLO-e2-ked" secondAttribute="trailing" constant="10" id="bJf-5d-4Ib"/>
                                                 <constraint firstItem="s24-oF-oO3" firstAttribute="top" secondItem="cIG-jX-z6m" secondAttribute="top" constant="30" id="cOO-ZK-7og"/>
@@ -382,7 +382,7 @@
                                                 <constraint firstAttribute="trailing" secondItem="ACl-mg-6O9" secondAttribute="trailing" constant="5" id="gq4-4O-XHe"/>
                                                 <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="jLO-e2-ked" secondAttribute="bottom" constant="5" id="pGp-Lo-xtQ"/>
                                                 <constraint firstItem="jLO-e2-ked" firstAttribute="leading" secondItem="cIG-jX-z6m" secondAttribute="leading" constant="10" id="rja-Kb-Q25"/>
-                                                <constraint firstItem="ACl-mg-6O9" firstAttribute="top" secondItem="s24-oF-oO3" secondAttribute="bottom" constant="30" id="wiZ-Cd-uVO"/>
+                                                <constraint firstItem="ACl-mg-6O9" firstAttribute="top" secondItem="s24-oF-oO3" secondAttribute="bottom" constant="15" id="wiZ-Cd-uVO"/>
                                             </constraints>
                                         </collectionViewCellContentView>
                                         <size key="customSize" width="410" height="671"/>

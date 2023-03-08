@@ -5,11 +5,10 @@
             "option_1"      : "①  보지만",
             "option_2"      : "②  보거나",
             "option_3"      : "③  보려고",
-            "option_4"      : "④  보더니,
+            "option_4"      : "④  보더니",
             "detail"        : "I usually watch movies and exercise on weekends.",
             "correctAnswer" : "②  보거나",
-            "score"         : "2",
-            "isImg"         : "n"
+            "score"         : "2"
         },
         {   "sections"      : "※ [1~2] (   ) 에 들어갈 가장 알맞은 것을 고르십시오. (각 2점)",
             "question"      : "2. 이사 갈 집을(  )방학 때 좀 바빴다.",
@@ -19,8 +18,7 @@
             "option_4"      : "④  닮은 적이 없다",
             "detail"        : "My younger brother is becoming more and more like his father.",
             "correctAnswer" : "①  닮아 간다",
-            "score"         : "2",
-            "isImg"         : "n"
+            "score"         : "2"
         },
         {   "sections"      : "※ [3~4] (   ) 다음 밑줄 친 부분과 의미가 비슷한 것을 고르십시오.(각 2점)",
             "question"      : "3. 어제 본 공연은 눈물이 (날 정도로) 감동적이었다",
@@ -30,8 +28,7 @@
             "option_4"      : "④  늘리기 위해",
             "detail"        : "The government has established new policies to increase jobs.",
             "correctAnswer" : "④  늘리기 위해",
-            "score"         : "2",
-            "isImg"         : "n"
+            "score"         : "2"
         },
         {   "sections"      : "※ [3~4] (   ) 다음 밑줄 친 부분과 의미가 비슷한 것을 고르십시오.(각 2점)",
             "question"      : "4. 두사람은 오랫동안 알고 지냈지만 직장 동료 (사이일 뿐이다).",
@@ -41,8 +38,7 @@
             "option_4"      : "④  고향이나 마찬가지이다",
             "detail"        : "I came to Seoul not long after I was born, so Seoul is like hometown.",
             "correctAnswer" : "④  고향이나 마찬가지이다",
-            "score"         : "2",
-            "isImg"         : "n"
+            "score"         : "2"
         },
         {   "sections"      : "※ [5~8] (   ) 다음은 무엇에 대한 글인지 고르십시오.(각 2점)",
             "question"      : "64_5_img",
@@ -141,7 +137,7 @@
             "option_2"      : "②  (나)-(가)-(라)-(다)",
             "option_3"      : "③  (라)-(가)-(나)-(다)",
             "option_4"      : "④  (라)-(가)-(다)-(나)",
-            "detail"        : " I rushed my sick daughter to the hospital and bumped into the car in front of me and caused an accident. I got out of the car and apologized to the owner of the car in front of me and explained the situation. The owner of the car in front said, "It's okay because it's not a big accident." Thanks to the kind consideration, the daughter arrived safely at the hospital and received treatment.",
+            "detail"        : " I rushed my sick daughter to the hospital and bumped into the car in front of me and caused an accident. I got out of the car and apologized to the owner of the car in front of me and explained the situation. The owner of the car in front said, 'It's okay because it's not a big accident'. Thanks to the kind consideration, the daughter arrived safely at the hospital and received treatment.",
             "correctAnswer" : "③  (라)-(가)-(나)-(다)",
             "score"         : "2"
         },
@@ -203,8 +199,7 @@
             "option_4"      : "④  해파리는 대부분 콜라겐으로 이루어져 있다",
             "detail"        : " Jellyfish have low calories because 95% of their bodies are made up of water. So it was known that few animals lived on jellyfish. But for many animals, such as birds, penguins, and eels, jellyfish are a good prey. This is because jellyfish have nutrients such as vitamins and collagen. This is because jellyfish are everywhere in the sea and are easy to hunt because they do not run away.",
             "correctAnswer" : "③  해파리는 여러 동물의 먹이가 되고 있다",
-            "score"         : "2",
-            "isImg"         : "n"
+            "score"         : "2"
         },
         {   "sections"      : "※ [21~22] 다음을 읽고 물음에 답하십시오.(각 2점)",
             "question"      : "Q21.\n  내비게이션은 목적지까지 길을 안내해 주는 기기이다. 내비게이션이 없이 낯선 곳에 갔다가 길을 못 찾아(    ) 본 적이 있는 사람이라면 내비게이션이 얼마나 편리한지 느꼈을 것이다. 그러나 우리의 뇌는 스스로 정보를 찾았을 때 그 정보를 오래 기억하는 특성이 있다. 따라서 지나치게 디지털 기기에만 의존하다 보면 정보를 찾고 기억하는 능력이 점점 줄어들어 결국 그 능력을 사용할 수 없게 될지도 모른다.\n21.(  )에 들어갈 알맞은 것을 고르십시오.",

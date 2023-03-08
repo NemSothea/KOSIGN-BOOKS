@@ -77,6 +77,11 @@ class ListeningViewModel : NSObject, ObservableObject {
             "TOPIK II Listening 34th",
             "TOPIK II Listening 35th",
             "TOPIK II Listening 36th",
+            "TOPIK II Listening 37th",
+            "TOPIK II Listening 41th",
+            "TOPIK II Listening 47th",
+            "TOPIK II Listening 52th",
+            "TOPIK II Listening 60th",
             "TOPIK II Listening 64th"
         ]
     }
@@ -108,6 +113,18 @@ class ListeningViewModel : NSObject, ObservableObject {
             i = "35"
         case 12 :
             i = "36"
+        case 13 :
+            i = "37"
+        case 14 :
+            i = "41"
+        case 15 :
+            i = "47"
+        case 16 :
+            i = "52"
+        case 17 :
+            i = "60"
+        case 18 :
+            i = "64"
         default :
             break
         }
