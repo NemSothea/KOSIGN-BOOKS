@@ -6,7 +6,7 @@
             "option_2"      : "②  ",
             "option_3"      : "③  ",
             "option_4"      : "④  ",
-            "detail"        : "Woman : Why are your clothes so wet? Is it raining outside?\nMan : Yes, it's raining suddenly when I'm coming home. Woman : Please wipe it with this first",
+            "detail"        : "Woman : Why are your clothes so wet? Is it raining outside?\nMan : Yes, it's raining suddenly when I'm coming home.\nWoman : Please wipe it with this first.",
             "correctAnswer" : "①  ",
             "score"         : "2",
             "isImg"         : "y"
@@ -17,7 +17,7 @@
             "option_2"      : "②  ",
             "option_3"      : "③  ",
             "option_4"      : "④  ",
-            "detail"        : "Man : Mr. Sumi, here it is. Did you enjoy the trip Woman: Yes, but I'm a little tired because I've been on the plane for a long time. Did you wait a long time?\nMan : No. Give me the bag I'll take.",
+            "detail"        : "Man : Mr. Sumi, here it is. Did you enjoy the trip.\nWoman : Yes, but I'm a little tired because I've been on the plane for a long time. Did you wait a long time?\nMan : No. Give me the bag I'll take.",
             "correctAnswer" : "②  ",
             "score"         : "2",
             "isImg"         : "y"
@@ -39,7 +39,7 @@
             "option_2"      : "②  가까운 곳으로 갔어요.",
             "option_3"      : "③  옷을 따뜻하게 입고 가세요.",
             "option_4"      : "④  추울 때는 집에서 쉬곤 해요.",
-            "detail"        : "Woman : The weather keeps getting cold these days. I heard that the temperature will drop more tomorrow.\nMan: I have to go to the picnic tomorrow, but I'm worried.\nWoman : I often rest at home when it's cold.",
+            "detail"        : "Woman : The weather keeps getting cold these days. I heard that the temperature will drop more tomorrow.\nMan : I have to go to the picnic tomorrow, but I'm worried.\nWoman : I often rest at home when it's cold.",
             "correctAnswer" : "④  추울 때는 집에서 쉬곤 해요.",
             "score"         : "2"
         },
@@ -49,7 +49,7 @@
             "option_2"      : "②  혼자 사는 것보다 둘이 사는 게 좋았어",
             "option_3"      : "③  지금 집은 학교와 가까워서 편하고 좋아",
             "option_4"      : "④  부동산에 가서 알아보는 게 좋을 것 같아서",
-            "detail"        : "Woman : I'm looking for a new house to move to these days.\nMan : Why? You said you liked the house you live in now.\nWoman: When I live, the noise was too loud.",
+            "detail"        : "Woman : I'm looking for a new house to move to these days.\nMan : Why? You said you liked the house you live in now.\nWomanb: When I live, the noise was too loud.",
             "correctAnswer" : "①  살아 보니 소음이 너무 심하더라고",
             "score"         : "2"
         },
@@ -59,7 +59,7 @@
             "option_2"      : "②  그래도 자세히 알아봐야겠다",
             "option_3"      : "③  그래?미리 알았으면 좋았을걸",
             "option_4"      : "④  그래도 텐트는 치기 힘들겠다",
-            "detail"        : "Woman: I'm looking for a new house to move to these days.\nMan : Why? You said you liked the house you live in now.\nWoman : When I live, the noise was too loud.",
+            "detail"        : "Woman : I'm looking for a new house to move to these days.\nMan : Why? You said you liked the house you live in now.\nWoman : When I live, the noise was too loud.",
             "correctAnswer" : "③  그래?미리 알았으면 좋았을걸",
             "score"         : "2"
         },
@@ -69,7 +69,7 @@
             "option_2"      : "②  사무실 옆에 카페가 있으면 좋아요.",
             "option_3"      : "③  집중이 안 되면 카페에서 해 보세요.",
             "option_4"      : "④  전 편안하면 일이 더 잘 될 것 같아요.",
-            "detail"        : "Woman : There are many companies these days that change the office atmosphere as comfortably as a cafe. It would be delicious to work if you work in such a place.\nMan: I don't think I can concentrate on my work.\nWoman : I think things will be better if I'm comfortable.",
+            "detail"        : "Woman : There are many companies these days that change the office atmosphere as comfortably as a cafe. It would be delicious to work if you work in such a place.\nMan : I don't think I can concentrate on my work.\nWoman : I think things will be better if I'm comfortable.",
             "correctAnswer" : "④  전 편안하면 일이 더 잘 될 것 같아요.",
             "score"         : "2"
         },
@@ -110,7 +110,7 @@
       "option_2"      : "②  집에서 거실 커튼을 단다.",
       "option_3"      : "③  커튼을 사러 가게에 간다.",
       "option_4"      : "④  커튼을 사서 집에 가져간다.",
-      "detail"        : "Woman: I'd like to change the curtains in my house.\nMan : Come this way and see. There are also a lot of books, so please take a look.\nWoman : Well....... I don't really like anything in the store, so I need to take a look at the brochure.\nMan : Then sit down and watch it slowly. If you like anything, take it to your house. I'll go and put it on.",
+      "detail"        : "Woman : I'd like to change the curtains in my house.\nMan : Come this way and see. There are also a lot of books, so please take a look.\nWoman : Well....... I don't really like anything in the store, so I need to take a look at the brochure.\nMan : Then sit down and watch it slowly. If you like anything, take it to your house. I'll go and put it on.",
       "correctAnswer" : "①  책자에서 커튼을 고른다.",
       "score"         : "2"
      },
