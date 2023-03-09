@@ -24,13 +24,15 @@ class ListeningQuestionVC: UIViewController {
      */
     private var listeningVM         = ListeningViewModel()
     
-    var answerSelected   = false
-    var isCorrectAnswer  = false
-    var correctAwswer    = 0
-    var index            = 0
-    var totalScore       = 0
+    private var answerSelected   = false
+    private var isCorrectAnswer  = false
+    private var correctAwswer    = 0
+    private var index            = 0
+    private var totalScore       = 0
     var headerTitle      = ""
     var indexTopik       = 0
+    private var countWrongAws    = 0
+    private var wrongResult      = Set<Int>()
     
     /* MARK :-
         - Lifecycle ViewController
@@ -39,9 +41,9 @@ class ListeningQuestionVC: UIViewController {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
-        self.topikTitle.text = headerTitle
+        self.topikTitle.text = self.headerTitle
     
-        self.playBtn.isEnabled = indexTopik != 3
+        self.playBtn.isEnabled = self.indexTopik != 3
         
         self.listeningVM.getData(index: self.indexTopik)
         
@@ -91,29 +93,32 @@ class ListeningQuestionVC: UIViewController {
             self.collectionView.scrollToItem(at: IndexPath(row: index, section: 0), at: .right, animated: true)
         }
        */
-        if !answerSelected {
+        if !self.answerSelected {
             let alert = UIAlertController(title: "알림", message: "선택해주기 바랍니다", preferredStyle: .alert)
             let okAction = UIAlertAction(title: "확인", style: .default)
             alert.addAction(okAction)
             present(alert, animated: true,completion: nil)
             return
         }
-        answerSelected = false
-        if isCorrectAnswer {
-            correctAwswer += 1
-            totalScore += Int(self.listeningVM.data?.questions?[index].score ?? "") ?? 0
+        self.answerSelected = false
+        if self.isCorrectAnswer {
+            self.correctAwswer += 1
+            self.totalScore += Int(self.listeningVM.data?.questions?[index].score ?? "") ?? 0
         }else {
             guard let popUpVC = storyboard?.instantiateViewController(withIdentifier: "PopupVC") as? PopupVC else { return }
             popUpVC.detail = self.listeningVM.data?.questions?[index].detail ?? ""
+            countWrongAws = self.index
             self.present(popUpVC, animated: true)
             return
         }
-        if index<(self.listeningVM.data?.questions?.count ?? 0) - 1 {
-            index += 1
+        if self.index<(self.listeningVM.data?.questions?.count ?? 0) - 1 {
+            self.index += 1
+           
+            self.wrongResult.insert(self.countWrongAws)
             self.collectionView.scrollToItem(at: IndexPath(row: index, section: 0), at: .right, animated: true)
         }else {
             guard let resultVC = storyboard?.instantiateViewController(withIdentifier: "ResultVC") as? ResultVC else {return}
-            resultVC.data          = ["\(totalScore)","\(correctAwswer)","\(self.listeningVM.data?.questions?.count ?? 0)"]
+            resultVC.data          = ["\(self.totalScore)","\(self.correctAwswer - self.wrongResult.count)\(self.wrongResult.count)","\(self.listeningVM.data?.questions?.count ?? 0)"]
             resultVC.modalPresentationStyle = .fullScreen
             self.present(resultVC, animated: true)
         }
