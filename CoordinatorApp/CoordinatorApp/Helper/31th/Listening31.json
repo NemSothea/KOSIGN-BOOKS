@@ -19,7 +19,7 @@
             "option_2"      : "② ",
             "option_3"      : "③ ",
             "option_4"      : "④ ",
-            "detail"        : "Woman : How did you get hurt like this? Man : I fell down the stairs and I didn't get seriously hurt.\nWoman : That's a relief. You should be discharged from the hospital quickly.",
+            "detail"        : "Woman : How did you get hurt like this?\n Man : I fell down the stairs and I didn't get seriously hurt.\nWoman : That's a relief. You should be discharged from the hospital quickly.",
             "correctAnswer" : "③ ",
             "score"         : "3",
             "isImg"         : "y"
