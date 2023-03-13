@@ -76,7 +76,6 @@ class ListeningQuestionVC: UIViewController {
            return
         }
         let okAction = UIAlertAction(title: "넵", style: .default) { (_) in
-            self.listeningVM.playOrPause()
             self.dismiss(animated: true)
         }
         alert.addAction(cancelAction)
@@ -117,15 +116,14 @@ class ListeningQuestionVC: UIViewController {
             guard let popUpVC = storyboard?.instantiateViewController(withIdentifier: "PopupVC") as? PopupVC else { return }
             popUpVC.detail = self.listeningVM.data?.questions?[index].detail ?? ""
             self.present(popUpVC, animated: true)
-            self.countWrongAws = self.index
+            self.countWrongAws += 1
             return
         }
         /** TODO -:
          - When click next move to other questions
          */
-        if self.index < 12 {
+        if self.index < (self.listeningVM.data?.questions?.count ?? 0) - 1 {
             self.index += 1
-           
             self.wrongResult.insert(self.countWrongAws)
             self.collectionView.scrollToItem(at: IndexPath(row: index, section: 0), at: .right, animated: true)
         }else {
