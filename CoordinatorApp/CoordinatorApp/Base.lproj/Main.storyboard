@@ -766,10 +766,10 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="RY2-kq-BhJ">
-                                <rect key="frame" x="20" y="50" width="374" height="34.333333333333343"/>
+                                <rect key="frame" x="15" y="50" width="384" height="34.333333333333343"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Ao-zG-qts">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="34.333333333333336"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="384" height="34.333333333333336"/>
                                         <color key="backgroundColor" name="Button Color"/>
                                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <state key="normal" title="Button"/>
@@ -960,7 +960,7 @@
                             <constraint firstItem="RY2-kq-BhJ" firstAttribute="top" secondItem="7Bi-6g-3Oz" secondAttribute="bottom" constant="10" id="0MU-CZ-7oS"/>
                             <constraint firstItem="RY2-kq-BhJ" firstAttribute="centerX" secondItem="q01-rW-7zx" secondAttribute="centerX" id="0lm-Zk-gbr"/>
                             <constraint firstItem="wx0-ti-v0Y" firstAttribute="bottom" secondItem="nXZ-Bg-Mly" secondAttribute="bottom" id="43n-qc-ejr"/>
-                            <constraint firstItem="RY2-kq-BhJ" firstAttribute="leading" secondItem="wx0-ti-v0Y" secondAttribute="leading" constant="20" id="5zk-Su-PyH"/>
+                            <constraint firstItem="RY2-kq-BhJ" firstAttribute="leading" secondItem="wx0-ti-v0Y" secondAttribute="leading" constant="15" id="5zk-Su-PyH"/>
                             <constraint firstItem="7Bi-6g-3Oz" firstAttribute="leading" secondItem="wx0-ti-v0Y" secondAttribute="leading" constant="15" id="8yZ-TG-xgb"/>
                             <constraint firstItem="nXZ-Bg-Mly" firstAttribute="leading" secondItem="wx0-ti-v0Y" secondAttribute="leading" id="98j-5M-QL2"/>
                             <constraint firstItem="ror-5p-V0A" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="7Bi-6g-3Oz" secondAttribute="trailing" id="9Bj-5a-MS5"/>
@@ -973,7 +973,7 @@
                             <constraint firstItem="ror-5p-V0A" firstAttribute="top" secondItem="wx0-ti-v0Y" secondAttribute="top" constant="10" id="VqH-nH-rDI"/>
                             <constraint firstItem="Suh-6U-0fM" firstAttribute="top" secondItem="wx0-ti-v0Y" secondAttribute="top" constant="10" id="Yl3-Ts-9HR"/>
                             <constraint firstItem="7Bi-6g-3Oz" firstAttribute="top" secondItem="wx0-ti-v0Y" secondAttribute="top" constant="10" id="mlP-KW-KIT"/>
-                            <constraint firstItem="wx0-ti-v0Y" firstAttribute="trailing" secondItem="RY2-kq-BhJ" secondAttribute="trailing" constant="20" id="oJQ-Xv-Ygx"/>
+                            <constraint firstItem="wx0-ti-v0Y" firstAttribute="trailing" secondItem="RY2-kq-BhJ" secondAttribute="trailing" constant="15" id="oJQ-Xv-Ygx"/>
                             <constraint firstItem="Suh-6U-0fM" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="ror-5p-V0A" secondAttribute="trailing" id="toB-9n-zDh"/>
                             <constraint firstItem="nXZ-Bg-Mly" firstAttribute="top" secondItem="RY2-kq-BhJ" secondAttribute="bottom" constant="10" id="vUc-1k-ydp"/>
                             <constraint firstItem="nXZ-Bg-Mly" firstAttribute="trailing" secondItem="wx0-ti-v0Y" secondAttribute="trailing" id="wih-Yg-PTC"/>

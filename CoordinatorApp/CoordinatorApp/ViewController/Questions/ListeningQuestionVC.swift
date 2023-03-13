@@ -29,8 +29,8 @@ class ListeningQuestionVC: UIViewController {
     private var correctAwswer    = 0
     private var index            = 0
     private var totalScore       = 0
-    var headerTitle      = ""
-    var indexTopik       = 0
+    var headerTitle              = ""
+    var indexTopik               = 0
     private var countWrongAws    = 0
     private var wrongResult      = Set<Int>()
     
@@ -52,8 +52,6 @@ class ListeningQuestionVC: UIViewController {
             self.collectionView.dataSource  = self
             self.collectionView.reloadData()
         }
-      
-        
     }
     /* MARK :-
         - @IBAction
@@ -78,6 +76,7 @@ class ListeningQuestionVC: UIViewController {
            return
         }
         let okAction = UIAlertAction(title: "넵", style: .default) { (_) in
+            self.listeningVM.playOrPause()
             self.dismiss(animated: true)
         }
         alert.addAction(cancelAction)
@@ -93,6 +92,9 @@ class ListeningQuestionVC: UIViewController {
             self.collectionView.scrollToItem(at: IndexPath(row: index, section: 0), at: .right, animated: true)
         }
        */
+        /** TODO -:
+         - When question not selected popup appear
+         */
         if !self.answerSelected {
             let alert = UIAlertController(title: "알림", message: "선택해주기 바랍니다", preferredStyle: .alert)
             let okAction = UIAlertAction(title: "확인", style: .default)
@@ -100,25 +102,38 @@ class ListeningQuestionVC: UIViewController {
             present(alert, animated: true,completion: nil)
             return
         }
+        
         self.answerSelected = false
+        /** TODO -:
+         - When selected question correctly add score
+         */
         if self.isCorrectAnswer {
             self.correctAwswer += 1
             self.totalScore += Int(self.listeningVM.data?.questions?[index].score ?? "") ?? 0
         }else {
+            /** TODO -:
+             - When selected question wrong show popup details
+             */
             guard let popUpVC = storyboard?.instantiateViewController(withIdentifier: "PopupVC") as? PopupVC else { return }
             popUpVC.detail = self.listeningVM.data?.questions?[index].detail ?? ""
-            countWrongAws = self.index
             self.present(popUpVC, animated: true)
+            self.countWrongAws = self.index
             return
         }
-        if self.index<(self.listeningVM.data?.questions?.count ?? 0) - 1 {
+        /** TODO -:
+         - When click next move to other questions
+         */
+        if self.index < 12 {
             self.index += 1
            
             self.wrongResult.insert(self.countWrongAws)
             self.collectionView.scrollToItem(at: IndexPath(row: index, section: 0), at: .right, animated: true)
         }else {
+            /** TODO -:
+             - Show final result with score, Number of question, Wrong selected
+             */
             guard let resultVC = storyboard?.instantiateViewController(withIdentifier: "ResultVC") as? ResultVC else {return}
-            resultVC.data          = ["\(self.totalScore)","\(self.correctAwswer - self.wrongResult.count)\(self.wrongResult.count)","\(self.listeningVM.data?.questions?.count ?? 0)"]
+            resultVC.data          = ["\(self.totalScore)","\(self.wrongResult.count)","\(self.listeningVM.data?.questions?.count ?? 0)"]
             resultVC.modalPresentationStyle = .fullScreen
             self.present(resultVC, animated: true)
         }
