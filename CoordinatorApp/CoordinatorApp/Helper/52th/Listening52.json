@@ -16,7 +16,7 @@
             "option_1"      : "①  ",
             "option_2"      : "②  ",
             "option_3"      : "③  ",
-            "option_4"      : "④  "
+            "option_4"      : "④  ",
             "detail"        : "Man : I'm done cleaning, can I help you wash the dishes?\nWoman : It's okay. I'm almost done, so sit down and get some rest.\nMan : Then let's have a cup of tea together after washing the dishes.",
             "correctAnswer" : "①  ",
             "score"         : "2",

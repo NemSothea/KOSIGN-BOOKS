@@ -6,7 +6,7 @@
             "option_2"      : "②  ",
             "option_3"      : "③  ",
             "option_4"      : "④  ",
-            "detail"        : "Man : Welcome. How can I help you.\nWoman: I'm here to submit the application documents for new employees.\nMan: You can go to the 3rd floor. Use the elevator over there",
+            "detail"        : "Man : Welcome. How can I help you.\nWoman : I'm here to submit the application documents for new employees.\nMan: You can go to the 3rd floor. Use the elevator over there",
             "correctAnswer" : "②  ",
             "score"         : "2",
             "isImg"         : "y"
@@ -16,7 +16,7 @@
             "option_1"      : "①  ",
             "option_2"      : "②  ",
             "option_3"      : "③  ",
-            "option_4"      : "④  "
+            "option_4"      : "④  ",
             "detail"        : "Man : What do you want to drink? Coffee ? \nWoman : Yes. I want to have a cup of warm coffee.\nMan: Then go first and sit down. I'll take it",
             "correctAnswer" : "①  ",
             "score"         : "2",
@@ -39,7 +39,7 @@
             "option_2"      : "②  점심 맛있게 드셨어요?",
             "option_3"      : "③  빨리 정리하고 나가죠.",
             "option_4"      : "④  지금은 배가 안 고픈데요.",
-            "detail"        : "Man : It's lunch time, so let's go eat. Woman : Is the time already like that? By the way, I'm hungry.\nMan : Let's clean up quickly and go out.",
+            "detail"        : "Man : It's lunch time, so let's go eat.\nWoman : Is the time already like that? By the way, I'm hungry.\nMan : Let's clean up quickly and go out.",
             "correctAnswer" : "③  빨리 정리하고 나가죠.",
             "score"         : "2"
         },
@@ -189,7 +189,7 @@
             "option_2"      : "②  기차를 타면 이동 시간을 줄일 수 있다.",
             "option_3"      : "③  차가 많은 연휴에는 조심해서 운전해야 한다.",
             "option_4"      : "④  차로 가면 짐을 많이 실을 수 있어서 편하다.",
-            "detail"        : "Woman : Ugh, there's a lot of cars because it's a holiday.\nMan: That's why I asked you to take the train. If you take the train, you'll feel more like traveling.\nWoman: But the kids have a lot of luggage and parents' presents, so isn't the car comfortable?\nMan: That's what I can do if I take it. If you make a mistake, you'll have more time in the car than when you see your parents.",
+            "detail"        : "Woman : Ugh, there's a lot of cars because it's a holiday.\nMan: That's why I asked you to take the train. If you take the train, you'll feel more like traveling.\nWoman : But the kids have a lot of luggage and parents' presents, so isn't the car comfortable?\nMan: That's what I can do if I take it. If you make a mistake, you'll have more time in the car than when you see your parents.",
             "correctAnswer" : "②  기차를 타면 이동 시간을 줄일 수 있다.",
             "score"         : "2"
         },
@@ -209,7 +209,7 @@
             "option_2"      : "②  치킨 가게가 잘되려면 위치가 중요하다.",
             "option_3"      : "③  퇴직 후에도 할 수 있는 일을 찾아야 한다.",
             "option_4"      : "④  여러 사람의 의견을 들어야 성공할 수 있다.",
-            "detail"        : "Woman : Honey, when you retire, shall we have a chicken shop?\nMan : It's our store....... That's good But I don't think you should think about it easily. Such a store can only be successful if it is set up in a place where a lot of people come and go, but the store is also expensive.\nWoman: A friend who goes to a pizza restaurant at the market said that if it tastes good, all the customers will come to the store no matter where it is.\nMan : Shouldn't it be a place where customers can easily find a store, though?",
+            "detail"        : "Woman : Honey, when you retire, shall we have a chicken shop?\nMan : It's our store....... That's good But I don't think you should think about it easily. Such a store can only be successful if it is set up in a place where a lot of people come and go, but the store is also expensive.\nWoman : A friend who goes to a pizza restaurant at the market said that if it tastes good, all the customers will come to the store no matter where it is.\nMan : Shouldn't it be a place where customers can easily find a store, though?",
             "correctAnswer" : "②  치킨 가게가 잘되려면 위치가 중요하다.",
             "score"         : "2"
         },
@@ -229,7 +229,7 @@
             "option_2"      : "②  호텔까지 가는 길에 대해 묻고 있다.",
             "option_3"      : "③  여행하려는 곳에 숙박 예약을 하고 있다.",
             "option_4"      : "④  호텔에서 진행하는 프로그램에 대해 문의하고 있다.",
-            "detail"        : "Man : Hello. Wooden hotel right.\nWoman: Yes, customer. How can I help you.\nMan : I made a reservation for 3 people and 1 night next Saturday. I'd like to make a reservation for a nature experience training at the hotel.\nWomen : Nature experience education is only available for groups of 20 or more.\nMan: Oh, I see. Then isn't there a family experience program that I can do with my child?\nWoman: I'm sorry, but the experience program for the family is currently being prepared. Instead, I made a bird of 'playing in the forest' where children can play on the hiking trail behind the hotel. Why don't you use this?",
+            "detail"        : "Man : Hello. Wooden hotel right.\nWoman : Yes, customer. How can I help you.\nMan : I made a reservation for 3 people and 1 night next Saturday. I'd like to make a reservation for a nature experience training at the hotel.\nWomen : Nature experience education is only available for groups of 20 or more.\nMan: Oh, I see. Then isn't there a family experience program that I can do with my child?\nWoman : I'm sorry, but the experience program for the family is currently being prepared. Instead, I made a bird of 'playing in the forest' where children can play on the hiking trail behind the hotel. Why don't you use this?",
             "correctAnswer" : "④  호텔에서 진행하는 프로그램에 대해 문의하고 있다.",
             "score"         : "2"
         },
@@ -239,7 +239,7 @@
             "option_2"      : "②  남자는 가족과 3일간 호텔에서 묵을 예정이다.",
             "option_3"      : "③  호텔에서는 가족을 위한 체험 활동을 계획 중이다.",
             "option_4"      : "④  자연 체험 교육은 최대 20명까지 수강이 가능하다.",
-            "detail"        : "Man : Hello. Wooden hotel right.\nWoman: Yes, customer. How can I help you.\nMan : I made a reservation for 3 people and 1 night next Saturday. I'd like to make a reservation for a nature experience training at the hotel.\nWomen : Nature experience education is only available for groups of 20 or more.\nMan: Oh, I see. Then isn't there a family experience program that I can do with my child?\nWoman: I'm sorry, but the experience program for the family is currently being prepared. Instead, I made a bird of 'playing in the forest' where children can play on the hiking trail behind the hotel. Why don't you use this?",
+            "detail"        : "Man : Hello. Wooden hotel right.\nWoman : Yes, customer. How can I help you.\nMan : I made a reservation for 3 people and 1 night next Saturday. I'd like to make a reservation for a nature experience training at the hotel.\nWomen : Nature experience education is only available for groups of 20 or more.\nMan: Oh, I see. Then isn't there a family experience program that I can do with my child?\nWoman : I'm sorry, but the experience program for the family is currently being prepared. Instead, I made a bird of 'playing in the forest' where children can play on the hiking trail behind the hotel. Why don't you use this?",
             "correctAnswer" : "③  호텔에서는 가족을 위한 체험 활동을 계획 중이다.",
             "score"         : "2"
         },
