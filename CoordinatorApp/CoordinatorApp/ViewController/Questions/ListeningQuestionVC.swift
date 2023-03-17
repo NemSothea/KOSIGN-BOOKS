@@ -42,7 +42,7 @@ class ListeningQuestionVC: UIViewController {
         
         // Do any additional setup after loading the view.
         self.topikTitle.text = self.headerTitle
-    
+        
         self.playBtn.isEnabled = self.indexTopik != 3
         
         self.listeningVM.getData(index: self.indexTopik)
@@ -58,14 +58,15 @@ class ListeningQuestionVC: UIViewController {
      */
     
     @IBAction func playTap(_ sender: UIButton) {
-        self.listeningVM.playOrPause()
-        
-        if self.listeningVM.isPlaying {
-            self.playBtn.setImage(UIImage(systemName: "pause.fill"), for:.normal)
-        }else {
-            self.playBtn.setImage(UIImage(systemName: "play.fill"), for:.normal)
+        DispatchQueue.main.async {
+            self.listeningVM.playOrPause()
+            if self.listeningVM.isPlaying {
+                self.playBtn.setImage(UIImage(systemName: "pause.fill"), for:.normal)
+            }else {
+                self.playBtn.setImage(UIImage(systemName: "play.fill"), for:.normal)
+            }
+            
         }
-        
     }
     
     @IBAction func exitTap(_ sender : UIButton) {

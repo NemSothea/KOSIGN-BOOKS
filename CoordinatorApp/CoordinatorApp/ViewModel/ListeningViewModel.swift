@@ -153,20 +153,20 @@ class ListeningViewModel : NSObject, ObservableObject {
     }
     
     func playOrPause() {
-        isPlaying.toggle()
-        if player.isPlaying {
-          displayLink?.isPaused = true
-          disconnectVolumeTap()
+        self.isPlaying.toggle()
+        if self.player.isPlaying {
+            self.displayLink?.isPaused = true
+            self.disconnectVolumeTap()
 
-          player.pause()
+            self.player.pause()
         } else {
-          displayLink?.isPaused = false
-          connectVolumeTap()
+            self.displayLink?.isPaused = false
+            self.connectVolumeTap()
 
-          if needsFileScheduled {
-            scheduleAudioFile()
+            if self.needsFileScheduled {
+              self.scheduleAudioFile()
           }
-          player.play()
+            self.player.play()
         }
     }
     
