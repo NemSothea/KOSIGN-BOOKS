@@ -43,7 +43,7 @@ class ListeningQuestionVC: UIViewController {
         // Do any additional setup after loading the view.
         self.topikTitle.text = self.headerTitle
         
-        self.playBtn.isEnabled = self.indexTopik != 3
+        self.playBtn.isEnabled = (self.indexTopik != 3 || self.indexTopik != 18)
         
         self.listeningVM.getData(index: self.indexTopik)
         
@@ -118,7 +118,11 @@ class ListeningQuestionVC: UIViewController {
                 return
             }
             guard let popUpVC = storyboard?.instantiateViewController(withIdentifier: "PopupVC") as? PopupVC else { return }
-            popUpVC.detail = self.listeningVM.data?.questions?[index].detail ?? ""
+            if self.listeningVM.data?.questions?[index].detail == nil {
+                popUpVC.detail = "정조심하게 선택해주세요."
+            }else {
+                popUpVC.detail = self.listeningVM.data?.questions?[index].detail ?? ""
+            }
             self.present(popUpVC, animated: true)
             self.countWrongAws += 1
             return

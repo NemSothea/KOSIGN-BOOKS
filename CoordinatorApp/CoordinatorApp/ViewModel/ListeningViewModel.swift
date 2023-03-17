@@ -130,13 +130,20 @@ class ListeningViewModel : NSObject, ObservableObject {
         }
         
         self.data =  Bundle.main.decode(ReadingQuestionModel.QuestionModel.self, from:"Listening\(i).json")
+//        print("File index : \(i)")
         self.setupAudio(index: i)
     }
     private func setupAudio(index : String) {
-       
+//        var fileURL : URL?
+//        if index == "64" {
+//
+//        }else {
+//            fileURL = Bundle.main.url(forResource: "Listening\(index)th", withExtension: "mp3")
+//        }
         guard let fileURL = Bundle.main.url(forResource: "Listening\(index)th", withExtension: "mp3") else {
           return
         }
+//        print("Mp3 File : \(fileURL)")
         do {
             let file = try AVAudioFile(forReading: fileURL)
             
