@@ -83,6 +83,9 @@ class ReadingQuestionVC: UIViewController {
             correctAwswer += 1
             totalScore += Int(self.questionsVM.data?.questions?[index].score ?? "") ?? 0
         }else {
+            if self.questionsVM.data?.questions?[index].detail == nil {
+                return
+            }
             guard let popUpVC = storyboard?.instantiateViewController(withIdentifier: "PopupVC") as? PopupVC else { return }
             popUpVC.detail = self.questionsVM.data?.questions?[index].detail ?? ""
             self.present(popUpVC, animated: true)

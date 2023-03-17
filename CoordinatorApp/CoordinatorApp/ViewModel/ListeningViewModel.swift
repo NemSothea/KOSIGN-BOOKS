@@ -151,7 +151,10 @@ class ListeningViewModel : NSObject, ObservableObject {
             print("Error reading the audio file: \(error.localizedDescription)")
         }
     }
-    
+    func stopPlay() {
+        self.player.pause()
+        self.player.stop()
+    }
     func playOrPause() {
         self.isPlaying.toggle()
         if self.player.isPlaying {

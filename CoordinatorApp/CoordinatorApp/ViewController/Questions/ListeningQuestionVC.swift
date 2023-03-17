@@ -72,11 +72,11 @@ class ListeningQuestionVC: UIViewController {
     @IBAction func exitTap(_ sender : UIButton) {
         
         let alert = UIAlertController(title: "내용\n", message: "확신 합니까?\n", preferredStyle: .alert)
-       
         let cancelAction = UIAlertAction(title: "취소", style: .cancel) { (_) in
            return
         }
         let okAction = UIAlertAction(title: "넵", style: .default) { (_) in
+            self.listeningVM.stopPlay()
             self.dismiss(animated: true)
         }
         alert.addAction(cancelAction)
@@ -114,6 +114,9 @@ class ListeningQuestionVC: UIViewController {
             /** TODO -:
              - When selected question wrong show popup details
              */
+            if self.listeningVM.data?.questions?[index].detail == nil {
+                return
+            }
             guard let popUpVC = storyboard?.instantiateViewController(withIdentifier: "PopupVC") as? PopupVC else { return }
             popUpVC.detail = self.listeningVM.data?.questions?[index].detail ?? ""
             self.present(popUpVC, animated: true)
