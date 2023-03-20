@@ -8,5 +8,9 @@
 import Foundation
 
 class Order : ObservableObject {
+    @Published var items = [MenuItem]()
     
+    func add(item : MenuItem) {
+        items.append(item)
+    }
 }

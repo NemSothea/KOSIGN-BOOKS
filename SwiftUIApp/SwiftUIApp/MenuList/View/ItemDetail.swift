@@ -9,6 +9,8 @@ import SwiftUI
 
 struct ItemDetail: View {
     
+    @EnvironmentObject var order : Order
+    
     let item : MenuItem
     
     var paramStyle : NSParagraphStyle {
@@ -34,7 +36,6 @@ struct ItemDetail: View {
             
             Text(item.description)
                 .font(.custom("AmericanTypewriter", size: 14))
-            
                 .padding()
             Spacer()
         }
@@ -46,7 +47,10 @@ struct ItemDetail: View {
 struct ItemDetail_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
-            ItemDetail(item: MenuItem.example)
+            /* TODO-:
+             @EnvironmentObject is another property wrapper in Swift, just like @Published and @StateObject. This one means we get that automatic attachment ability I just mentioned, but also tells SwiftUI to watch the object for any changes and refresh its UI when a change announcement comes through.
+             */
+            ItemDetail(item: MenuItem.example).environmentObject(Order())
         }
     }
 }
