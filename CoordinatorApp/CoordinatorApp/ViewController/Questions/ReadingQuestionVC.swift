@@ -29,6 +29,9 @@ class ReadingQuestionVC: UIViewController {
     var headerTitle      = ""
     var indexTopik       = 0
     
+    private var countWrongAws    = 0
+    private var wrongResult      = Set<Int>()
+    
     /* MARK :-
         - Lifecycle ViewController
      */
@@ -71,24 +74,26 @@ class ReadingQuestionVC: UIViewController {
             self.collectionView.scrollToItem(at: IndexPath(row: index, section: 0), at: .right, animated: true)
         }
        */
-        if !answerSelected {
+        if !self.answerSelected {
             let alert = UIAlertController(title: "알림", message: "선택해주기 바랍니다", preferredStyle: .alert)
             let okAction = UIAlertAction(title: "확인", style: .default)
             alert.addAction(okAction)
             present(alert, animated: true,completion: nil)
             return
         }
-        answerSelected = false
-        if isCorrectAnswer {
-            correctAwswer += 1
-            totalScore += Int(self.questionsVM.data?.questions?[index].score ?? "") ?? 0
+        self.answerSelected = false
+        if self.isCorrectAnswer {
+            self.correctAwswer += 1
+            self.totalScore += Int(self.questionsVM.data?.questions?[index].score ?? "") ?? 0
+            self.wrongResult.insert(countWrongAws)
         }else {
             guard let popUpVC = storyboard?.instantiateViewController(withIdentifier: "PopupVC") as? PopupVC else { return }
             if self.questionsVM.data?.questions?[index].detail == nil {
-                popUpVC.detail = "정조심하게 선택해주세요."
+                popUpVC.detail = "조심하게 선택해주십시오."
             }else {
                 popUpVC.detail = self.questionsVM.data?.questions?[index].detail ?? ""
             }
+            self.countWrongAws += 1
             self.present(popUpVC, animated: true)
             return
         }
@@ -97,7 +102,7 @@ class ReadingQuestionVC: UIViewController {
             self.collectionView.scrollToItem(at: IndexPath(row: index, section: 0), at: .right, animated: true)
         }else {
             guard let resultVC = storyboard?.instantiateViewController(withIdentifier: "ResultVC") as? ResultVC else {return}
-            resultVC.data          = ["\(totalScore)","\(correctAwswer)","\(self.questionsVM.data?.questions?.count ?? 0)"]
+            resultVC.data          = ["\(totalScore)","\(wrongResult.count)","\(self.questionsVM.data?.questions?.count ?? 0)"]
             resultVC.modalPresentationStyle = .fullScreen
             self.present(resultVC, animated: true)
         }

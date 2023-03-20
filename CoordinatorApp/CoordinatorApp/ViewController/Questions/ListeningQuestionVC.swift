@@ -110,6 +110,7 @@ class ListeningQuestionVC: UIViewController {
         if self.isCorrectAnswer {
             self.correctAwswer += 1
             self.totalScore += Int(self.listeningVM.data?.questions?[index].score ?? "") ?? 0
+            self.wrongResult.insert(countWrongAws)
         }else {
             /** TODO -:
              - When selected question wrong show popup details
@@ -119,12 +120,12 @@ class ListeningQuestionVC: UIViewController {
             }
             guard let popUpVC = storyboard?.instantiateViewController(withIdentifier: "PopupVC") as? PopupVC else { return }
             if self.listeningVM.data?.questions?[index].detail == nil {
-                popUpVC.detail = "정조심하게 선택해주세요."
+                popUpVC.detail = "조심하게 선택해주십시오."
             }else {
                 popUpVC.detail = self.listeningVM.data?.questions?[index].detail ?? ""
             }
-            self.present(popUpVC, animated: true)
             self.countWrongAws += 1
+            self.present(popUpVC, animated: true)
             return
         }
         /** TODO -:
