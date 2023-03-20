@@ -43,7 +43,7 @@ class ListeningQuestionVC: UIViewController {
         // Do any additional setup after loading the view.
         self.topikTitle.text = self.headerTitle
         
-        self.playBtn.isEnabled = (self.indexTopik != 3 || self.indexTopik != 18)
+        self.playBtn.isEnabled = self.indexTopik != 3
         
         self.listeningVM.getData(index: self.indexTopik)
         

@@ -20,7 +20,6 @@
 		5243B27529BC750300C615C4 /* Listening36.json in Resources */ = {isa = PBXBuildFile; fileRef = 5532852129B72C9A009B0DFC /* Listening36.json */; };
 		5243B27629BC750300C615C4 /* Question36.json in Resources */ = {isa = PBXBuildFile; fileRef = 5532852B29B72C9A009B0DFC /* Question36.json */; };
 		526035E029BF59DA00EFBE41 /* Listening41th.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 526035DF29BF59DA00EFBE41 /* Listening41th.mp3 */; };
-		5511F64829C3EFFA00516E9C /* Listening64th.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5511F64729C3EFFA00516E9C /* Listening64th.mp3 */; };
 		5511F64A29C449F000516E9C /* Listening47th.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5511F64929C449F000516E9C /* Listening47th.mp3 */; };
 		5511F64C29C44D0400516E9C /* Listening52th.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5511F64B29C44D0400516E9C /* Listening52th.mp3 */; };
 		5511F64E29C44DB600516E9C /* Listening60th.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5511F64D29C44DB600516E9C /* Listening60th.mp3 */; };
@@ -194,7 +193,6 @@
 		5243B26929BC74A700C615C4 /* 36_10_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 36_10_img.png; sourceTree = "<group>"; };
 		5243B26A29BC74A700C615C4 /* 36_1_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 36_1_img.png; sourceTree = "<group>"; };
 		526035DF29BF59DA00EFBE41 /* Listening41th.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Listening41th.mp3; sourceTree = "<group>"; };
-		5511F64729C3EFFA00516E9C /* Listening64th.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Listening64th.mp3; sourceTree = "<group>"; };
 		5511F64929C449F000516E9C /* Listening47th.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Listening47th.mp3; sourceTree = "<group>"; };
 		5511F64B29C44D0400516E9C /* Listening52th.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Listening52th.mp3; sourceTree = "<group>"; };
 		5511F64D29C44DB600516E9C /* Listening60th.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Listening60th.mp3; sourceTree = "<group>"; };
@@ -741,7 +739,6 @@
 			isa = PBXGroup;
 			children = (
 				5511F64F29C460DF00516E9C /* Listening64th.m4a */,
-				5511F64729C3EFFA00516E9C /* Listening64th.mp3 */,
 				55E1204529B015AE009BEFBC /* Listening64.json */,
 				55E1204029B015AE009BEFBC /* Question64.json */,
 				55E1203D29B015AE009BEFBC /* 64_9_img.png */,
@@ -1043,7 +1040,6 @@
 				55E120BE29B015AE009BEFBC /* 35_2_img.png in Resources */,
 				556C12CD29B5D75C00CE49EE /* 47_5_img.png in Resources */,
 				55E1209029B015AE009BEFBC /* 64_7_img.png in Resources */,
-				5511F64829C3EFFA00516E9C /* Listening64th.mp3 in Resources */,
 				556C12EB29B5D7F900CE49EE /* Question41.json in Resources */,
 				55230BA829B16A8300D0F0DD /* 30_1_img.png in Resources */,
 				5243B26E29BC74A700C615C4 /* 36_5_img.png in Resources */,

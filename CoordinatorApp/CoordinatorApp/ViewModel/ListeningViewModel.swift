@@ -47,6 +47,8 @@ class ListeningViewModel : NSObject, ObservableObject {
     private var currentPosition     : AVAudioFramePosition = 0
     private var audioLengthSamples  : AVAudioFramePosition = 0
     
+    private let player64            = AVQueuePlayer()
+    
     var data                        : ReadingQuestionModel.QuestionModel?
     
     var TOPIKQuestionArray          = [String]()
@@ -123,27 +125,23 @@ class ListeningViewModel : NSObject, ObservableObject {
             i = "52"
         case 17 :
             i = "60"
-        case 18 :
-            i = "64"
         default :
             break
         }
         
         self.data =  Bundle.main.decode(ReadingQuestionModel.QuestionModel.self, from:"Listening\(i).json")
-//        print("File index : \(i)")
-        self.setupAudio(index: i)
+        if i == "18" {
+            self.original64Play(index: i)
+        }else {
+            self.setupAudio(index: i)
+        }
+       
     }
     private func setupAudio(index : String) {
-//        var fileURL : URL?
-//        if index == "64" {
-//
-//        }else {
-//            fileURL = Bundle.main.url(forResource: "Listening\(index)th", withExtension: "mp3")
-//        }
+
         guard let fileURL = Bundle.main.url(forResource: "Listening\(index)th", withExtension: "mp3") else {
           return
         }
-//        print("Mp3 File : \(fileURL)")
         do {
             let file = try AVAudioFile(forReading: fileURL)
             
@@ -156,6 +154,13 @@ class ListeningViewModel : NSObject, ObservableObject {
             configureEngine(with: format)
         } catch {
             print("Error reading the audio file: \(error.localizedDescription)")
+        }
+    }
+    private func original64Play(index : String) {
+        if let url = Bundle.main.url(forResource: "Listening\(index)th", withExtension: "m4a") {
+            player64.removeAllItems()
+            player64.insert(AVPlayerItem(url: url),after:nil)
+            player64.play()
         }
     }
     func stopPlay() {
