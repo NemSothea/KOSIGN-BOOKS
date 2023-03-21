@@ -11,14 +11,31 @@ struct OrderView: View {
     @EnvironmentObject var order : Order
     
     var body: some View {
-        Button("Order This") {
-            
+        
+        NavigationStack {
+            List {
+                Section {
+                    ForEach(order.items) { item in
+                        HStack {
+                            Text(item.name)
+                            Spacer()
+                            Text("$\(item.price)")
+                        }
+                    }
+                }
+            }
         }
+        Section {
+            NavigationLink("Place Order") {
+                Text("Check out")
+            }
+        }
+        .navigationTitle("Order")
     }
 }
 
 struct OrderView_Previews: PreviewProvider {
     static var previews: some View {
-        OrderView()
+        OrderView().environmentObject(Order())
     }
 }

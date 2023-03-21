@@ -37,6 +37,10 @@ struct ItemDetail: View {
             Text(item.description)
                 .font(.custom("AmericanTypewriter", size: 14))
                 .padding()
+            Button("Order This") {
+                order.add(item: item)
+            }
+            .buttonStyle(.borderedProminent)
             Spacer()
         }
         .navigationTitle(item.name)
