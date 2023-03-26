@@ -182,7 +182,7 @@
             "option_2"      : "②    따뜻할 뿐이에요",
             "option_3"      : "③    따뜻할 리가 없어요",
             "option_4"      : "④    따뜻하기만 하면 돼요",
-            "detail"        : "A : Have you seen Assistant Manager Lee? I have something to discuss urgently, but he's not here.\nB : I saw a customer on the first floor earlier.",
+            "detail"        : "A : What kind of gloves do you want me to buy for you? Is there anything you want?\nB : I don't want anything in particular. It just needs to be warm.",
             "correctAnswer" : "④    따뜻하기만 하면 돼요",
             "score"         : "3",
             "isImg"         : "n"
@@ -194,7 +194,7 @@
             "option_3"      : "③    물어보나 마나",
             "option_4"      : "④    물어볼 뿐만 아니라",
             "detail"        : "A : Should I ask him to hang out with me tomorrow?\nB : Ask me or not I won't go. He said he had an exam tomorrow.",
-            "correctAnswer" : "③    물어보나 마나",
+            "correctAnswer" : "④    물어볼 뿐만 아니라",
             "score"         : "3",
             "isImg"         : "n"
         },
@@ -204,8 +204,8 @@
             "option_2"      : "②    떠드는 채로",
             "option_3"      : "③    떠드는 바람에",
             "option_4"      : "④    떠드는 덕분에",
-            "detail"        : "A: Did you enjoy today's lecture?\nB : No. I couldn't concentrate because people were making so much noise.",
-            "correctAnswer" : "③    떠드는 바람에",
+            "detail"        : "A : Did you enjoy today's lecture?\nB : No. I couldn't concentrate because people were making so much noise.",
+            "correctAnswer" : "④    떠드는 덕분에",
             "score"         : "4",
             "isImg"         : "n"
         },
@@ -216,7 +216,7 @@
             "option_3"      : "③    공부하는 편이에요",
             "option_4"      : "④    공부하는 모양이에요",
             "detail"        : "A : What does the kid do? I think they came in earlier.\nB : I guess you study in your room because it's quiet.",
-            "correctAnswer" : "④    공부하는 모양이에요",
+            "correctAnswer" : "③    공부하는 편이에요",
             "score"         : "3",
             "isImg"         : "n"
         },
@@ -227,7 +227,7 @@
             "option_3"      : "③    먹은 셈 칠게",
             "option_4"      : "④    먹은 줄 알았어",
             "detail"        : "A : Thanks for your help. I'll treat you to dinner tonight.\nB : No, it's not. It's not a big deal. I'll think I just ate today.",
-            "correctAnswer" : "③    먹은 셈 칠게",
+            "correctAnswer" : "①    먹었으면 해",
             "score"         : "3",
             "isImg"         : "n"
         },
@@ -238,7 +238,7 @@
             "option_3"      : "③    소중히",
             "option_4"      : "④    여전히",
             "detail"        : "A : I heard you went to the reunion yesterday. What was that like?\nB : It's been a few years since I've been there. It's still comfortable and nice because they're my childhood friends.\nA : Do you often have alumni meetings?\nB : No, it's not.About once a year. be busy with each other It's hard to see each other often.",
-            "correctAnswer" : "④    여전히",
+            "correctAnswer" : "②    저절로",
             "score"         : "3",
             "isImg"         : "n"
         },
