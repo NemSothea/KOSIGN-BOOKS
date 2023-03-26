@@ -9,7 +9,7 @@
             "detail"        : "I bought it in advance because it was difficult to get a movie ticket on the weekend.",
             "correctAnswer" : "②    미리",
             "score"         : "3",
-            "isImg"         : "n"
+            
         },
         {   "sections"      : "※ [1~5] 다음 (   ) 에 알맞은 것을 고르십시오.   ",
             "question"      : "2. 열쇠를 어디에 두었는지 (   ) 이 나지 않는다. (3점)",
@@ -20,7 +20,7 @@
             "detail"        : "I can't remember where I put the key.",
             "correctAnswer" : "③    기억",
             "score"         : "3",
-            "isImg"         : "n"
+            
         },
         {   "sections"      : "※ [1~5] 다음 (   ) 에 알맞은 것을 고르십시오.   ",
             "question"      : "3. 기온이 갑자기 내려 가면서 병원을 (   ) 감기 환자가 늘고 있다.(3점)",
@@ -31,7 +31,7 @@
             "detail"        : "As the temperature suddenly drops, the number of cold patients visiting the hospital is rising.",
             "correctAnswer" : "④    찾는",
             "score"         : "3",
-            "isImg"         : "n"
+            
         },
         {   "sections"      : "※ [1~5] 다음 (   ) 에 알맞은 것을 고르십시오.   ",
             "question"      : "4. 상담을 할 때에는 상담자가 묻는 말에(    )대답하는 것이 좋다. (3점)",
@@ -41,8 +41,8 @@
             "option_4"      : "④    편리하게",
             "detail"        : "When consulting, it's better to answer honestly to what the counselor asks.",
             "correctAnswer" : "②    솔직하게",
-            "score"         : "3",
-            "isImg"         : "n"
+            "score"         : "3"
+            
         },
         {   "sections"      : "※ [1~5] 다음 (   ) 에 알맞은 것을 고르십시오.   ",
             "question"      : "5. 사람들은 앞날에 대한 (   ) 을 안고 열심히 살아간다. (4점)",
@@ -53,7 +53,7 @@
             "detail"        : "People live hard with hope for the future.",
             "correctAnswer" : "①    희망",
             "score"         : "4",
-            "isImg"         : "n"
+            
         },
         {   "sections"      : "※ [6~9] 다음 밑줄 친 부분과 의미가 비슷한 것을 고르십시오.    ",
             "question"      : "6. 투표를 하러 온 사람들이 줄을 서서 자기 (차례를) 기다리고 있다.(3점)",
@@ -64,7 +64,7 @@
             "detail"        : "People who came to vote are waiting in line for their turn.",
             "correctAnswer" : "④    단계",
             "score"         : "3",
-            "isImg"         : "n"
+            
         },
         {   "sections"      : "※ [6~9] 다음 밑줄 친 부분과 의미가 비슷한 것을 고르십시오.    ",
             "question"      : "7. 과학의 발달로 세상이 빠르게 (바뀌면서) 사람들의 삶도 많이 달라졌다. (3점)",
@@ -75,7 +75,7 @@
             "detail"        : "As the world changed rapidly due to the development of science, people's lives have changed a lot.",
             "correctAnswer" : "④    변하면서",
             "score"         : "3",
-            "isImg"         : "n"
+            
         },
         {   "sections"      : "※ [6~9] 다음 밑줄 친 부분과 의미가 비슷한 것을 고르십시오.    ",
             "question"      : "8. 작은 상처라고 해서 (쉽게) 보아서는 안 된다. (4점)",
@@ -86,7 +86,7 @@
             "detail"        : "It shouldn't be seen easily (= lightly) just because it's a small wound.",
             "correctAnswer" : "①    가볍게",
             "score"         : "4",
-            "isImg"         : "n"
+            
         },
         {   "sections"      : "※ [6~9] 다음 밑줄 친 부분과 의미가 비슷한 것을 고르십시오.    ",
             "question"      : "9. 그는 어떠한 일이 있어도 (결코) 고객과의 약속을 어기는 법이 없다. (4점)",
@@ -97,7 +97,7 @@
             "detail"        : "He never breaks a promise to a client no matter what happens.",
             "correctAnswer" : "③    절대로",
             "score"         : "4",
-            "isImg"         : "n"
+            
         }  ,
         {   "sections"      : "※ [10~11] 다음 (   ) 에 공통적으로 들어갈 동사를 고르십시오.    ",
             "question"      : "10. (3 점)\n창고 안에 쓰지 않는 물건을 (    ). 가방만 (    ) 나머지는 모두 차에 실었다. 시간을 좀 더 (     ) 생각해 보아야겠다.",
@@ -108,7 +108,7 @@
             "detail"        : "Put things that you don't use in the warehouse. I just put my bag and the rest was all in the car. I need to think about it while.",
             "correctAnswer" : "①    두다",
             "score"         : "3",
-            "isImg"         : "n"
+            
         },
         {
             "sections"      : "※ [10～11] 다음 (    )에 공통적으로 들어갈 동사를 고르십시오.",
@@ -120,7 +120,7 @@
             "detail"        : "Filled the bottle with orange juice and put it in the bag. My mother wrote a letter with all her heart. I sent it to fill the CD with beautiful music.",
             "correctAnswer" : "④    채우다",
             "score"         : "3",
-            "isImg"         : "n"
+            
         },
         {
             "sections"      : "※ [12～13] 다음 밑줄 친 부분과 의미가 (반대인) 것을 고르십시오.",
@@ -132,7 +132,7 @@
             "detail"        : " I put the name tags of the people attending the meeting on the seats.",
             "correctAnswer" : "④    떼어",
             "score"         : "3",
-            "isImg"         : "n"
+            
         },
         {
             "sections"      : "※ [12～13] 다음 밑줄 친 부분과 의미가 (반대인) 것을 고르십시오.",
@@ -144,7 +144,7 @@
             "detail"        : "This table has weak legs, so you can't put heavy objects on.",
             "correctAnswer" : "③    튼튼해서",
             "score"         : "4",
-            "isImg"         : "n"
+            
         },
         {
             "sections"      : "※ [14～18] 다음 (    )에 알맞은 것을 고르십시오.",
@@ -156,7 +156,7 @@
             "detail"        : "What are you going to take to the airport tomorrow? I will take a bus The bus stop is close to my house.",
             "correctAnswer" : "④    가깝거든요",
             "score"         : "3",
-            "isImg"         : "n"
+            
         },
         {
             "sections"      : "※ [14～18] 다음 (    )에 알맞은 것을 고르십시오.",
@@ -168,7 +168,7 @@
             "detail"        : "What should I do to grow this flower well? Put it in a sunny place, and give me water once every two days.",
             "correctAnswer" : "②    키우려면",
             "score"         : "4",
-            "isImg"         : "n"
+            
         },
         {
             "sections"      : "※ [14～18] 다음 (    )에 알맞은 것을 고르십시오.",
@@ -180,7 +180,7 @@
             "detail"        : "You must have had a hard time preparing for the exhibition. My colleagues and juniors helped me a lot, so it wasn't as hard as I thought.",
             "correctAnswer" : "②    만큼",
             "score"         : "3",
-            "isImg"         : "n"
+            
         },
         {
             "sections"      : "※ [14～18] 다음 (    )에 알맞은 것을 고르십시오.",
@@ -192,7 +192,7 @@
             "detail"        : "I made a reservation by phone and went to the restaurant, but there was no reservation. Did you say Sometimes it can be wrong if you make a reservation by phone.",
             "correctAnswer" : "④    잘못되는 수가 있어요",
             "score"         : "3",
-            "isImg"         : "n"
+            
         },
         {
         "sections"      : "※ [14～18] 다음 (    )에 알맞은 것을 고르십시오.",
@@ -204,7 +204,7 @@
         "detail"        : "It's been a long time since I've been outdoors and I feel very refreshed. Yes, the air is really different just by getting out of town a little bit.",
         "correctAnswer" : "③    벗어나나 마나",
         "score"         : "3",
-        "isImg"         : "n"
+        
         },
         {
             "sections"      : "※ [19~21] 다음 밑줄 친 부분과 바꾸어 쓸수있는 것을 고르십시오.",
@@ -216,7 +216,7 @@
             "detail"        : "A : I'm on my way home now. Do you need anything.\nB : That's good for you. Please buy me some digestive medicine on the way in.",
             "correctAnswer" : "①    들어오다가",
             "score"         : "4",
-            "isImg"         : "n"
+            
         },
         {
             "sections"      : "※ [19~21] 다음 밑줄 친 부분과 바꾸어 쓸수있는 것을 고르십시오.",
@@ -228,7 +228,7 @@
             "detail"        : "A : I think it's a little expensive, so should we look around somewhere else?\nB : I don't know. Wouldn't the prices be the same if we go somewhere else?",
             "correctAnswer" : "③    가 본다고 해도",
             "score"         : "4",
-            "isImg"         : "n"
+            
         },
         {
             "sections"      : "※ [19~21] 다음 밑줄 친 부분과 바꾸어 쓸수있는 것을 고르십시오.",
@@ -240,7 +240,7 @@
             "detail"        : "A : I'm sorry I couldn't finish my work.\nB : No, it's not. I hope you get well and come back soon.",
             "correctAnswer" : "②    돌아왔으면 해요",
             "score"         : "3",
-            "isImg"         : "n"
+            
         },
         {
             "sections"      : "※ [22~23] 다음을 읽고 물음에 답하십시오. (각 3점)",
@@ -252,7 +252,7 @@
             "detail"        : "A : I heard you started a free gymnastics class at the children's playground in the apartment complex.\nB : Yes, I also went yesterday, and there weren't that many people because it was the first day.\nA : Really? Then should I go this evening, too?\nB : It would be nice to go together. You don't have to go far to work out. You're close. It's nice to work out and get close to your neighbors.",
             "correctAnswer" : "④    첫날이라서 그런지",
             "score"         : "3",
-            "isImg"         : "n"
+            
         },
         {
             "sections"      : "※ [22~23] 다음을 읽고 물음에 답하십시오. (각 3점)",
@@ -264,7 +264,7 @@
             "detail"        : "A : I heard you started a free gymnastics class at the children's playground in the apartment complex.\nB : Yes, I also went yesterday, and there weren't that many people because it was the first day.\nA : Really? Then should I go this evening, too?\nB : It would be nice to go together. You don't have to go far to work out. You're close. It's nice to work out and get close to your neighbors.",
             "correctAnswer" : "④    일부러",
             "score"         : "3",
-            "isImg"         : "n"
+            
         },
         {
             "sections"      : "※ [24~25] 다음을 읽고 물음에 답하십시오. (각 3점)",
@@ -276,7 +276,7 @@
             "detail"        : "Everyone must have at least one experience of hearing advice from others and arguing because they couldn't hold back their anger for a moment. The other person said it in a good way, but they feels bad because they thinks they is pointing out they fault. However, if you think about it carefully, advice makes you realize wrong habits or attitudes that you did not know. Like the story.",
             "correctAnswer" : "①    다투고 만",
             "score"         : "3",
-            "isImg"         : "n"
+            
         },
         {
         "sections"      : "※ [24~25] 다음을 읽고 물음에 답하십시오. (각 3점)",
@@ -288,8 +288,74 @@
         "detail"        : "Everyone must have at least one experience of hearing advice from others and arguing because they couldn't hold back their anger for a moment. The other person said it in a good way, but they feels bad because they thinks they is pointing out they fault. However, if you think about it carefully, advice makes you realize wrong habits or attitudes that you did not know. Like the story.",
         "correctAnswer" : "③    입에 쓴 약이 병에는 좋다",
         "score"         : "3",
-        "isImg"         : "n"
-        }
+        
+        },
+        {
+            "sections"      : "※ [26~31] 다음은 무엇에 대한 글인지 고르십시오. (각 3점)",
+            "question"      : "24_3_img",
+            "option_1"      : "①    탁자",
+            "option_2"      : "②    옷장",
+            "option_3"      : "③    책상",
+            "option_4"      : "④    침대",
+            "correctAnswer" : "④    침대",
+            "score"         : "3",
+            "isImg"         : "y"
+            },
+            {
+                "sections"      : "※ [26~31] 다음은 무엇에 대한 글인지 고르십시오. (각 3점)",
+                "question"      : "24_4_img",
+                "option_1"      : "①    미용실",
+                "option_2"      : "②    목욕탕",
+                "option_3"      : "③    영화관",
+                "option_4"      : "④    백화점",
+                "correctAnswer" : "①    미용실",
+                "score"         : "3",
+                "isImg"         : "y"
+            },
+            {
+                "sections"      : "※ [26~31] 다음은 무엇에 대한 글인지 고르십시오. (각 3점)",
+                "question"      : "24_5_img",
+                "option_1"      : "①    여행 소개",
+                "option_2"      : "②    작가 소개",
+                "option_3"      : "③    공연 안내",
+                "option_4"      : "④    전시 안내",
+                "correctAnswer" : "④    전시 안내",
+                "score"         : "3",
+                "isImg"         : "y"
+                },
+                {
+                    "sections"      : "※ [26~31] 다음은 무엇에 대한 글인지 고르십시오. (각 3점)",
+                    "question"      : "24_6_img",
+                    "option_1"      : "①    구입 안내",
+                    "option_2"      : "②    제품 특징",
+                    "option_3"      : "③    교환 방법",
+                    "option_4"      : "④    방문 기간",
+                    "correctAnswer" : "③    교환 방법",
+                    "score"         : "3",
+                    "isImg"         : "y"
+                    },
+                    {
+                        "sections"      : "※ [26~31] 다음은 무엇에 대한 글인지 고르십시오. (각 3점)",
+                        "question"      : "24_7_img",
+                        "option_1"      : "①    걷기 대회는 토요일에 하루 종일 진행된다.",
+                        "option_2"      : "②    대회에 참가하려면 인터넷으로 신청해야 한다.",
+                        "option_3"      : "③    대회에 참가한 사람은 모두 선물을 받을 수 있다.",
+                        "option_4"      : "④    걷기 대회는 3년 전에 열렸다가 이번에 다시 열린다.",
+                        "correctAnswer" : "②    대회에 참가하려면 인터넷으로 신청해야 한다.",
+                        "score"         : "3",
+                        "isImg"         : "y"
+                        },
+                        {
+                            "sections"      : "※ [26~31] 다음은 무엇에 대한 글인지 고르십시오. (각 3점)",
+                            "question"      : "24_8_img",
+                            "option_1"      : "①    여자는 나이가 많을수록 뉴스 시청 시간이 줄어든다.",
+                            "option_2"      : "②    남녀 모두 40대가 30대보다 뉴스 시청 시간이 더 길다.",
+                            "option_3"      : "③    30대 이후에는 남자의 뉴스 시청 시간이 여자보다 길다.",
+                            "option_4"      : "④    남녀의 뉴스 시청 시간의 차이가 가장 적은 것은 50대다.",
+                            "correctAnswer" : "③    30대 이후에는 남자의 뉴스 시청 시간이 여자보다 길다.",
+                            "score"         : "3",
+                            "isImg"         : "y"
+                            }
     ]
 }
 
