@@ -43,7 +43,7 @@
             "option_2"      : "② 잘못 내리지 않게 계속 잘 보고 있자.",
             "option_3"      : "③ 이쪽으로 가면 지하철역이니까 걱정 마.",
             "option_4"      : "④ 그 열차는 반대로 가는 거니까 타지 마.",
-            "detail"        : "Woman: Is this going to Dongdaemun Station? Why is Seoul Station coming out?\nMan : (I'm surprised) That's right. I think we got on the wrong subway. You're going the other way.",
+            "detail"        : "Woman : Is this going to Dongdaemun Station? Why is Seoul Station coming out?\nMan : (I'm surprised) That's right. I think we got on the wrong subway. You're going the other way.",
             "correctAnswer" : "① 이번 역에서 내려서 다시 돌아가자.",
             "score"         : "3"
         },
@@ -99,7 +99,7 @@
             "option_3"      : "③ 소화기의 안전성",
             "option_4"      : "④ 소화기의 사용법",
             "detail"        : "Man : Initial response is important when a fire occurs. You can prevent a big fire just by knowing how to use a fire extinguisher that you can easily see around you. First, take the fire extinguisher to the place where the fire is on and pull out the safety pin. Then, stand with your back to the wind and pull the handle as hard as you can. And you can spray it from side to side as if you use a broom until the light goes out.",
-            "correctAnswer" : "③ 소화기의 안전성",
+            "correctAnswer" : "④ 소화기의 사용법",
             "score"         : "3"
         },
         {

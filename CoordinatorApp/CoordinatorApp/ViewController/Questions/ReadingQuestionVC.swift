@@ -84,7 +84,7 @@ class ReadingQuestionVC: UIViewController {
         self.answerSelected = false
         if self.isCorrectAnswer {
             self.correctAwswer += 1
-            self.totalScore += Int(self.questionsVM.data?.questions?[index].score ?? "") ?? 0
+            
             self.wrongResult.insert(countWrongAws)
         }else {
             guard let popUpVC = storyboard?.instantiateViewController(withIdentifier: "PopupVC") as? PopupVC else { return }
@@ -99,6 +99,10 @@ class ReadingQuestionVC: UIViewController {
         }
         if index<(self.questionsVM.data?.questions?.count ?? 0) - 1 {
             index += 1
+            if self.isCorrectAnswer {
+                self.totalScore += Int(self.questionsVM.data?.questions?[index].score ?? "") ?? 0
+            }
+           
             self.collectionView.scrollToItem(at: IndexPath(row: index, section: 0), at: .right, animated: true)
         }else {
             guard let resultVC = storyboard?.instantiateViewController(withIdentifier: "ResultVC") as? ResultVC else {return}
