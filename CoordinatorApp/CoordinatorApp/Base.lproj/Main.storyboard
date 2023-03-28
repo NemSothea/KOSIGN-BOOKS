@@ -258,10 +258,10 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ACl-mg-6O9">
-                                                    <rect key="frame" x="5" y="86" width="400" height="150"/>
+                                                    <rect key="frame" x="5" y="86" width="400" height="330"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sFA-7z-MFY">
-                                                            <rect key="frame" x="0.0" y="0.0" width="396" height="150"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="396" height="330"/>
                                                             <attributedString key="attributedText">
                                                                 <fragment>
                                                                     <string key="content">Default navigation back button is empty Default navigation back button is empty Default navigation back button is empty Default navigation back button is empty</string>
@@ -276,10 +276,7 @@
                                                             <size key="shadowOffset" width="0.0" height="1"/>
                                                         </label>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="24_7_img.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ugc-6s-Wnl">
-                                                            <rect key="frame" x="396" y="0.0" width="4" height="150"/>
-                                                            <constraints>
-                                                                <constraint firstAttribute="height" relation="lessThanOrEqual" constant="150" id="EE5-qJ-Doj"/>
-                                                            </constraints>
+                                                            <rect key="frame" x="396" y="0.0" width="4" height="330"/>
                                                             <userDefinedRuntimeAttributes>
                                                                 <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                                                     <integer key="value" value="5"/>
@@ -289,7 +286,7 @@
                                                     </subviews>
                                                 </stackView>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="jLO-e2-ked">
-                                                    <rect key="frame" x="10" y="256" width="390" height="230"/>
+                                                    <rect key="frame" x="10" y="436" width="390" height="230"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="by1-i4-1dJ" customClass="UIControl">
                                                             <rect key="frame" x="0.0" y="0.0" width="390" height="50"/>
