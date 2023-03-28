@@ -128,7 +128,7 @@
             "option_3"      : "③   정확하다",
             "option_4"      : "④   충분하다",
             "detail"        : "It's exam period, so we don't have enough time to get together and practice.",
-            "correctAnswer" : "①   적당하다",
+            "correctAnswer" : "④   충분하다",
             "score"         : "3",
             "isImg"         : "n"
         },
@@ -150,7 +150,7 @@
             "option_3"      : "③    도착했을걸요",
             "option_4"      : "④    도착했으니까요",
             "detail"        : "A : Have we arrived at the airport by now?\nB : I think we've arrived. It's already been two hours since we left.",
-            "correctAnswer" : "①    도착했군요",
+            "correctAnswer" : "③    도착했을걸요",
             "score"         : "3",
             "isImg"         : "n"
         },
@@ -205,7 +205,7 @@
             "option_3"      : "③    떠드는 바람에",
             "option_4"      : "④    떠드는 덕분에",
             "detail"        : "A : Did you enjoy today's lecture?\nB : No. I couldn't concentrate because people were making so much noise.",
-            "correctAnswer" : "④    떠드는 덕분에",
+            "correctAnswer" : "③    떠드는 바람에",
             "score"         : "4",
             "isImg"         : "n"
         },
@@ -216,7 +216,7 @@
             "option_3"      : "③    공부하는 편이에요",
             "option_4"      : "④    공부하는 모양이에요",
             "detail"        : "A : What does the kid do? I think they came in earlier.\nB : I guess you study in your room because it's quiet.",
-            "correctAnswer" : "③    공부하는 편이에요",
+            "correctAnswer" : "④    공부하는 모양이에요",
             "score"         : "3",
             "isImg"         : "n"
         },
@@ -227,7 +227,7 @@
             "option_3"      : "③    먹은 셈 칠게",
             "option_4"      : "④    먹은 줄 알았어",
             "detail"        : "A : Thanks for your help. I'll treat you to dinner tonight.\nB : No, it's not. It's not a big deal. I'll think I just ate today.",
-            "correctAnswer" : "①    먹었으면 해",
+            "correctAnswer" : "③    먹은 셈 칠게",
             "score"         : "3",
             "isImg"         : "n"
         },
@@ -238,7 +238,7 @@
             "option_3"      : "③    소중히",
             "option_4"      : "④    여전히",
             "detail"        : "A : I heard you went to the reunion yesterday. What was that like?\nB : It's been a few years since I've been there. It's still comfortable and nice because they're my childhood friends.\nA : Do you often have alumni meetings?\nB : No, it's not.About once a year. be busy with each other It's hard to see each other often.",
-            "correctAnswer" : "②    저절로",
+            "correctAnswer" : "④    여전히",
             "score"         : "3",
             "isImg"         : "n"
         },
