@@ -8,7 +8,7 @@
             "option_3"      : "③ ",
             "option_4"      : "④ ",
             "detail"        : "Man : There are still about 30 minutes left to start the performance.\nWoman : I see. Then shall we eat something over there?\nMan : good I was a little hungry too, but that's good.",
-            "correctAnswer" : "④ ",
+            "correctAnswer" : "③ ",
             "score"         : "3",
             "isImg"         : "y"
         },
@@ -175,7 +175,7 @@
             "option_3"      : "③  한 가지 일보다 다양한 일을 해 보고 싶다.",
             "option_4"      : "④  전공 공부와 관련 있는 현장 경험을 쌓고 싶다.",
             "detail"        : "Man : I heard that you are going to quit the company and prepare for graduate school. But isn't it too late to start studying again now?\nWoman : It was too late. But you can't spend your whole life doing something you don't want to do. Actually, I've always wanted to do construction work since I was young. It's a little later than others, but I'm going to take this opportunity to study.",
-            "correctAnswer" : "④ 카드가 있다면 꼭 현금을 들고 다닐 필요는 없다.",
+            "correctAnswer" : "①  원하는 일을 하면서 살고 싶다.",
             "score"         : "4"
         },
         {
@@ -318,7 +318,7 @@
             "option_3"      : "③  라면의 새 바람, 재료 선택부터 달라져",
             "option_4"      : "④  다양해진 라면 맛, 전체 판매량에 영향 끼쳐",
             "detail"        : "Female : Recently, there has been a trend among ramen companies to make less salty ramen. Reporter Lee Jin-soo will give you the detailed news.\nMan : There is a growing perception that excessive sodium intake can cause various diseases. Meanwhile, ramen companies have announced that they will reduce the amount of sodium in ramen by up to 15 percent for public health. He also said that he will gradually reduce the amount of sodium because sudden reductions in the amount could change the taste of ramen. However, this is not the first time ramen companies have campaigned to reduce sodium. It is time for ramen companies to make sincere efforts to prevent such announcements from becoming a means of promoting new products.",
-            "correctAnswer" : "④  다양해진 라면 맛, 전체 판매량에 영향 끼쳐",
+            "correctAnswer" : "②  라면 업체, 국민 건강 지키기에 나서",
             "score"         : "4"
         },
         {
@@ -329,7 +329,7 @@
             "option_3"      : "③  라면 속 나트륨의 양은 최대 15%가 적절하다.",
             "option_4"      : "④  라면의 나트륨 줄이기는 처음으로 시도되었다.",
             "detail"        : "Female : Recently, there has been a trend among ramen companies to make less salty ramen. Reporter Lee Jin-soo will give you the detailed news.\nMan : There is a growing perception that excessive sodium intake can cause various diseases. Meanwhile, ramen companies have announced that they will reduce the amount of sodium in ramen by up to 15 percent for public health. He also said that he will gradually reduce the amount of sodium because sudden reductions in the amount could change the taste of ramen. However, this is not the first time ramen companies have campaigned to reduce sodium. It is time for ramen companies to make sincere efforts to prevent such announcements from becoming a means of promoting new products.",
-            "correctAnswer" : "③  라면 속 나트륨의 양은 최대 15%가 적절하다.",
+            "correctAnswer" : "①  나트륨 양은 라면 맛에 영향을 준다.",
             "score"         : "3"
         }
     ]
