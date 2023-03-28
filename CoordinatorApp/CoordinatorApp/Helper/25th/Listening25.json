@@ -181,12 +181,12 @@
         {
             "sections"      : "※ [14~17]다음 대화를 듣고 여자가 어떤 생각을 하고 있는지 맞는 것을 고르십시오.",
             "question"      : "17. (4점) ",
-            "option_1"      : "①  너무 자주 쉬는 것은 일하는 데 방해가 된다.",
-            "option_2"      : "②  집중이 잘될 때 하던 일을 계속 하는 게 좋다.",
-            "option_3"      : "③  일할 때 중간에 휴식을 하면 기분 전환이 된다.",
-            "option_4"      : "④  쉬더라도 일이 끝난 후에 쉬어야 마음이 편하다.",
+            "option_1"      : "①  제품을 체험해 볼 수 있는 기회가 있어야 한다.",
+            "option_2"      : "②  제품의 사용 기한을 분명하게 표시해 줘야 한다.",
+            "option_3"      : "③  소비자는 여러 종류의 제품을 비교해 보고 사야 한다.",
+            "option_4"      : "④  물건을 살 때는 사용하면서 들어갈 비용도 살펴야 한다.",
             "detail"        : "Man : Ugh, why is the ink on this printer so expensive?\nWoman : That's right. I also use that product, but I kept thinking about it when I bought ink.\nMan : If you buy a few more times of ink like this, it will cost more than buying a new printer.\nWoman : It really is. I'm using an electric toothbrush at home, but it costs more to change the toothbrush than the electric toothbrush. The belly button is bigger than the belly. Next time, I'll have to consider this part well.",
-            "correctAnswer" : "④  쉬더라도 일이 끝난 후에 쉬어야 마음이 편하다.",
+            "correctAnswer" : "④  물건을 살 때는 사용하면서 들어갈 비용도 살펴야 한다.",
             "score"         : "4"
         },
         {
