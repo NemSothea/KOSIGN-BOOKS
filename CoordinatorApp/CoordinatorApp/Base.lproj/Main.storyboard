@@ -260,23 +260,16 @@
                                                 <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ACl-mg-6O9">
                                                     <rect key="frame" x="5" y="86" width="400" height="330"/>
                                                     <subviews>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sFA-7z-MFY">
-                                                            <rect key="frame" x="0.0" y="0.0" width="396" height="330"/>
-                                                            <attributedString key="attributedText">
-                                                                <fragment>
-                                                                    <string key="content">Default navigation back button is empty Default navigation back button is empty Default navigation back button is empty Default navigation back button is empty</string>
-                                                                    <attributes>
-                                                                        <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                        <font key="NSFont" size="17" name="AppleSDGothicNeo-Regular"/>
-                                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="1.2" tighteningFactorForTruncation="0.0"/>
-                                                                    </attributes>
-                                                                </fragment>
-                                                            </attributedString>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sFA-7z-MFY">
+                                                            <rect key="frame" x="0.0" y="0.0" width="400" height="330"/>
+                                                            <string key="text">Default navigation back button is empty Default navigation back button is empty Default navigation back button is empty Default navigation back button is empty</string>
+                                                            <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="18"/>
+                                                            <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                             <nil key="highlightedColor"/>
                                                             <size key="shadowOffset" width="0.0" height="1"/>
                                                         </label>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="24_7_img.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ugc-6s-Wnl">
-                                                            <rect key="frame" x="396" y="0.0" width="4" height="330"/>
+                                                            <rect key="frame" x="400" y="0.0" width="0.0" height="330"/>
                                                             <userDefinedRuntimeAttributes>
                                                                 <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                                                     <integer key="value" value="5"/>

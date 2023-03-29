@@ -159,7 +159,7 @@
             "option_4"      : "④  시작되다가",
             "correctAnswer" : "①  시작되려면",
             "score"         : "4",
-             "detail"        : "A : How much time do you have left to start getting angry?\nB : There are about 10 minutes left."
+             "detail"        : "A : How much time do you have left to start getting painter?\nB : There are about 10 minutes left."
         }, 
         {   
             "sections"      : "※ [14~18] 다음 (     )에 알맞은 것을 고르십시오.",
@@ -247,7 +247,7 @@
             "option_4"      : "④  효과",
             "correctAnswer" : "①  주의",
             "score"         : "3",
-             "detail"        : " A: The company address is wrong in the product manual. Me: I'm sorry. I think I made such a mistake because I made it too quickly. A: Please be careful and check again to see if there are any other mistakes."
+             "detail"        : " A : The company address is wrong in the product manual.\n B : I'm sorry. I think I made such a mistake because I made it too quickly.\nA : Please be careful and check again to see if there are any other mistakes."
         },
         {   
             "sections"      : " ※ [24~25] 다음을 읽고 물음에 답하십시오. (각 3점)",
