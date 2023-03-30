@@ -298,7 +298,7 @@
             "option_3"      : "③  직함보다 이름을 부르면 의사소통이 잘 이루어진다.",
             "option_4"      : "④  직장에서는 서로의 할 일을 분명하게 구분해야 한다.",
             "detail"        : "Woman : Some companies put 'nim' after the name or make a nickname instead of a title like an assistant manager or manager. It is said that if you call each other with this kind of name, the atmosphere will be free and good ideas come to mind. People communicate more actively when they are equal to each other.\nMan : I don't know I think everyone thinks differently. I saw a survey of office workers in a newspaper, and there were quite a lot of negative opinions. Actually, so is my opinion. There is no title, so the responsibility is not clear, so the work is not going well. In reality, few people call their names. And most of all, I don't think calling the name of the superior doesn't match the emotions of Koreans.",
-            "correctAnswer" : "④  직장에서는 서로의 할 일을 분명하게 구분해야 한다.",
+            "correctAnswer" : "③  직함보다 이름을 부르면 의사소통이 잘 이루어진다.",
             "score"         : "3"
         },
         {
@@ -320,7 +320,7 @@
             "option_3"      : "③  물 부족 문제, 농업용수 문제로 이어져",
             "option_4"      : "④  농업용수 사용, 농작물 생산량 위해 늘려야",
             "detail"        : "Woman : The use of agricultural water is becoming a problem in relation to the water shortage. This news, reporter Kim Min-soo, will deliver it to you.\nMan : The amount of water needed to produce one potato is similar to the amount of water a person can drink for two years. As such, the amount of water used in agriculture is beyond our imagination. So experts argue that we need to reduce agricultural water by more than 30% to solve the problem of water shortages. To this end, we have proposed water-saving crop cultivation techniques and automation of water management. In particular, he pointed out that 80% of agricultural water is used for rice paddy farming, and argued that technology that provides water efficiently should be developed as soon as possible, away from the current method of watering more than necessary.",
-            "correctAnswer" : "③  물 부족 문제, 농업용수 문제로 이어져",
+            "correctAnswer" : "②  물 부족 해결, 농업용수 줄여야 가능",
             "score"         : "4"
         },
         {
@@ -331,7 +331,7 @@
             "option_3"      : "③  잘못된 농업용수 관리로 물 사용량이 30%나 증가했다.",
             "option_4"      : "④  현재의 재배 기술은 농업용수를 최대한 줄일 수 있도록 해 준다.",
             "detail"        : "Woman : The use of agricultural water is becoming a problem in relation to the water shortage. This news, reporter Kim Min-soo, will deliver it to you.\nMan : The amount of water needed to produce one potato is similar to the amount of water a person can drink for two years. As such, the amount of water used in agriculture is beyond our imagination. So experts argue that we need to reduce agricultural water by more than 30% to solve the problem of water shortages. To this end, we have proposed water-saving crop cultivation techniques and automation of water management. In particular, he pointed out that 80% of agricultural water is used for rice paddy farming, and argued that technology that provides water efficiently should be developed as soon as possible, away from the current method of watering more than necessary.",
-            "correctAnswer" : "②  전체 물 사용이 늘면서 농업용수의 사용도 늘었다.",
+            "correctAnswer" : "①  농업용수의 대부분이 논농사에 사용된다.",
             "score"         : "3"
         }
     ]
