@@ -120,9 +120,10 @@ class ListeningQuestionVC: UIViewController {
             }
             guard let popUpVC = storyboard?.instantiateViewController(withIdentifier: "PopupVC") as? PopupVC else { return }
             if self.listeningVM.data?.questions?[index].detail == nil {
-                popUpVC.detail = "조심하게 선택해주십시오."
+                popUpVC.detail0 = "조심하게 선택해주십시오."
             }else {
-                popUpVC.detail = self.listeningVM.data?.questions?[index].detail ?? ""
+                popUpVC.detail0 = self.listeningVM.data?.questions?[index].question ?? ""
+                popUpVC.detail1 = self.listeningVM.data?.questions?[index].detail ?? ""
             }
             self.countWrongAws += 1
             self.present(popUpVC, animated: true)

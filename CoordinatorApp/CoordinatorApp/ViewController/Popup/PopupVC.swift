@@ -12,7 +12,8 @@ class PopupVC : UIViewController, UITableViewDelegate, UITableViewDataSource {
     @IBOutlet weak var tableView        : UITableView!
     @IBOutlet weak var mainView         : UIView!
     
-    var detail                          = ""
+    var detail0                          = ""
+    var detail1                          = ""
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,7 +31,7 @@ class PopupVC : UIViewController, UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "cell") as? PopupCell else { return PopupCell()}
         
-        cell.infoLabel.text = detail
+        cell.infoLabel.text = "\(detail0)\n\(detail1)"
 
         return cell
     }
