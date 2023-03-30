@@ -232,7 +232,7 @@
             "option_3"      : "③  이곳에서는 일반 쇼핑객이 물건을 살 수 없다.",
             "option_4"      : "④  이곳에서는 판매가 안 된 새 디자인도 볼 수 있다.",
             "detail"        : "Woman : This is a clothing shopping mall in Seoul. It's so lively that I can't believe it's late at night. I'll have an interview with one of you here for a while. You look very busy, what are you doing now?\nMan: I'm preparing for business. A lot of shoppers usually come during the day, but at night, the owners of the clothing store come to buy things. Most of them buy dozens of clothes, so you have to take out a lot of things. And you want new designs that haven't been sold to the general public, so you have to display them separately.This is the busiest time of the day.",
-            "correctAnswer" : "③  이곳에서는 일반 쇼핑객이 물건을 살 수 없다.",
+            "correctAnswer" : "④  이곳에서는 판매가 안 된 새 디자인도 볼 수 있다.",
             "score"         : "3"
         },
         {
@@ -243,7 +243,7 @@
             "option_3"      : "③  의류 상가 쇼핑객",
             "option_4"      : "④  의류 상가 관리인",
             "detail"        : "Woman : This is a clothing shopping mall in Seoul. It's so lively that I can't believe it's late at night. I'll have an interview with one of you here for a while. You look very busy, what are you doing now?\nMan: I'm preparing for business. A lot of shoppers usually come during the day, but at night, the owners of the clothing store come to buy things. Most of them buy dozens of clothes, so you have to take out a lot of things. And you want new designs that haven't been sold to the general public, so you have to display them separately.This is the busiest time of the day.",
-            "correctAnswer" : "④  의류 상가 관리인",
+            "correctAnswer" : "②  의류 상가 상인",
             "score"         : "3"
         },
         {
