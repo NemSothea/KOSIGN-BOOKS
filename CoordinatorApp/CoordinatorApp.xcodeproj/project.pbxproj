@@ -318,8 +318,8 @@
 		55BBF3AE2995D18F00A7E991 /* BookMarkTabVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookMarkTabVC.swift; sourceTree = "<group>"; };
 		55BBF3B029962C4000A7E991 /* FavoriteCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCoordinator.swift; sourceTree = "<group>"; };
 		55BBF3B229962D4A00A7E991 /* FavoriteTabVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteTabVC.swift; sourceTree = "<group>"; };
-		55DBF21E29DA5DDE00906A8D /* 1HoonDdukbokki Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "1HoonDdukbokki Regular.ttf"; path = "CoordinatorApp/1HoonDdukbokki Regular.ttf"; sourceTree = "<group>"; };
-		55DBF22029DA631E00906A8D /* BareunBatangOTF 1Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "BareunBatangOTF 1Light.otf"; path = "CoordinatorApp/BareunBatangOTF 1Light.otf"; sourceTree = "<group>"; };
+		55DBF21E29DA5DDE00906A8D /* 1HoonDdukbokki Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "1HoonDdukbokki Regular.ttf"; sourceTree = "<group>"; };
+		55DBF22029DA631E00906A8D /* BareunBatangOTF 1Light.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BareunBatangOTF 1Light.otf"; sourceTree = "<group>"; };
 		55E1203729B015AE009BEFBC /* Question24.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Question24.json; sourceTree = "<group>"; };
 		55E1203829B015AE009BEFBC /* Listening24th.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Listening24th.mp3; sourceTree = "<group>"; };
 		55E1203929B015AE009BEFBC /* Listening24.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Listening24.json; sourceTree = "<group>"; };
@@ -637,8 +637,6 @@
 		55A99C5D29937D9F00AD4FA6 = {
 			isa = PBXGroup;
 			children = (
-				55DBF22029DA631E00906A8D /* BareunBatangOTF 1Light.otf */,
-				55DBF21E29DA5DDE00906A8D /* 1HoonDdukbokki Regular.ttf */,
 				5590500829947E5700FE3F0D /* README.md */,
 				55A99C6829937D9F00AD4FA6 /* CoordinatorApp */,
 				55A99C6729937D9F00AD4FA6 /* Products */,
@@ -716,6 +714,8 @@
 		55E1203529B015AE009BEFBC /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				55DBF21E29DA5DDE00906A8D /* 1HoonDdukbokki Regular.ttf */,
+				55DBF22029DA631E00906A8D /* BareunBatangOTF 1Light.otf */,
 				55439E7829B86C6E0031D74B /* 52th */,
 				55439E8429B86C6E0031D74B /* 60th */,
 				55439E6129B86BF70031D74B /* 37th */,

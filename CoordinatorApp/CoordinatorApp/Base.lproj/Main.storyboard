@@ -3,6 +3,7 @@
     <device id="retina5_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -127,27 +128,39 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="71"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="TOPIK II READING 24th" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JN0-7C-CLh">
-                                                    <rect key="frame" x="32" y="16" width="297" height="39"/>
-                                                    <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="17"/>
-                                                    <nil key="textColor"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JN0-7C-CLh">
+                                                    <rect key="frame" x="32" y="16" width="272" height="39"/>
+                                                    <attributedString key="attributedText">
+                                                        <fragment content="TOPIK II READING 24th">
+                                                            <attributes>
+                                                                <font key="NSFont" size="24" name="HoonDdukbokR"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DCu-vl-k0p">
-                                                    <rect key="frame" x="334" y="16" width="50" height="39"/>
+                                                    <rect key="frame" x="304" y="0.0" width="90" height="71"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="90" id="CXA-2L-ZDE"/>
+                                                        <constraint firstAttribute="height" constant="90" id="s5G-yQ-qmj"/>
+                                                    </constraints>
                                                     <color key="tintColor" name="Button Color"/>
                                                     <state key="normal" title="Button"/>
-                                                    <buttonConfiguration key="configuration" style="plain" image="clock.badge.questionmark.fill" catalog="system"/>
+                                                    <buttonConfiguration key="configuration" style="plain">
+                                                        <imageReference key="image" image="clock.badge.questionmark.fill" catalog="system" symbolScale="large"/>
+                                                        <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="30"/>
+                                                    </buttonConfiguration>
                                                 </button>
                                             </subviews>
                                             <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="DCu-vl-k0p" secondAttribute="trailing" constant="20" id="2hT-bV-gvO"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="JN0-7C-CLh" secondAttribute="bottom" constant="5" id="FoW-jf-Ugs"/>
-                                                <constraint firstItem="DCu-vl-k0p" firstAttribute="leading" secondItem="JN0-7C-CLh" secondAttribute="trailing" constant="5" id="Lwy-74-rzn"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="DCu-vl-k0p" secondAttribute="bottom" constant="5" id="ULC-BH-PvF"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="DCu-vl-k0p" secondAttribute="trailing" constant="10" id="Udt-0F-fJR"/>
+                                                <constraint firstAttribute="bottom" secondItem="DCu-vl-k0p" secondAttribute="bottom" id="RqT-io-Gx0"/>
                                                 <constraint firstItem="JN0-7C-CLh" firstAttribute="leading" secondItem="xb5-hb-ivL" secondAttribute="leadingMargin" constant="12" id="Xqo-TT-hx0"/>
                                                 <constraint firstItem="JN0-7C-CLh" firstAttribute="top" secondItem="xb5-hb-ivL" secondAttribute="topMargin" constant="5" id="cg8-j8-2Eu"/>
-                                                <constraint firstItem="DCu-vl-k0p" firstAttribute="top" secondItem="xb5-hb-ivL" secondAttribute="topMargin" constant="5" id="qIc-49-JYZ"/>
+                                                <constraint firstItem="DCu-vl-k0p" firstAttribute="top" secondItem="xb5-hb-ivL" secondAttribute="top" id="jUK-it-ht2"/>
+                                                <constraint firstItem="DCu-vl-k0p" firstAttribute="leading" secondItem="JN0-7C-CLh" secondAttribute="trailing" id="utq-Os-xdm"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
@@ -191,15 +204,23 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="73n-lg-KD1">
-                                <rect key="frame" x="15" y="10" width="60" height="30"/>
+                                <rect key="frame" x="15" y="10" width="155" height="30"/>
                                 <color key="backgroundColor" name="Button Color"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="60" id="BCQ-e9-Yo3"/>
                                     <constraint firstAttribute="height" constant="30" id="U43-CH-G3W"/>
                                 </constraints>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Exit"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="떠나기">
+                                            <attributes>
+                                                <font key="NSFont" size="16" name="HoonDdukbokR"/>
+                                                <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                         <integer key="value" value="5"/>
@@ -210,15 +231,23 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q24-aG-9Yw">
-                                <rect key="frame" x="339" y="10" width="60" height="30"/>
+                                <rect key="frame" x="244.33333333333337" y="10" width="154.66666666666663" height="30"/>
                                 <color key="backgroundColor" name="Button Color"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="60" id="Aoz-CI-WQg"/>
                                     <constraint firstAttribute="height" constant="30" id="mQa-Az-ioQ"/>
                                 </constraints>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Next"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="다음">
+                                            <attributes>
+                                                <font key="NSFont" size="18" name="HoonDdukbokR"/>
+                                                <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                         <integer key="value" value="5"/>
@@ -228,10 +257,17 @@
                                     <action selector="nextTap:" destination="7a7-yP-xdC" eventType="touchUpInside" id="JVU-4r-rlX"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uAH-Ec-q2z">
-                                <rect key="frame" x="75" y="10" width="264" height="24"/>
-                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Medium" family="Apple SD Gothic Neo" pointSize="20"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uAH-Ec-q2z">
+                                <rect key="frame" x="180" y="10" width="54.333333333333343" height="24"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Label">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="24" name="HoonDdukbokR"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="tbH-XX-Ges">
@@ -1216,7 +1252,7 @@
                             <constraint firstItem="uAH-Ec-q2z" firstAttribute="centerX" secondItem="eX1-Ki-r69" secondAttribute="centerX" id="GWD-cO-fmi"/>
                             <constraint firstItem="2JK-Gm-SCb" firstAttribute="leading" secondItem="jzW-BE-7hQ" secondAttribute="leading" id="NoX-iO-c9F"/>
                             <constraint firstAttribute="trailing" secondItem="2JK-Gm-SCb" secondAttribute="trailing" id="QSW-2Y-bXc"/>
-                            <constraint firstItem="q24-aG-9Yw" firstAttribute="leading" secondItem="uAH-Ec-q2z" secondAttribute="trailing" id="RdP-aE-2Bo"/>
+                            <constraint firstItem="q24-aG-9Yw" firstAttribute="leading" secondItem="uAH-Ec-q2z" secondAttribute="trailing" constant="10" id="RdP-aE-2Bo"/>
                             <constraint firstItem="73n-lg-KD1" firstAttribute="top" secondItem="jzW-BE-7hQ" secondAttribute="top" constant="10" id="UT6-uY-Wdn"/>
                             <constraint firstItem="73n-lg-KD1" firstAttribute="leading" secondItem="jzW-BE-7hQ" secondAttribute="leading" constant="15" id="c1L-yG-J9P"/>
                             <constraint firstAttribute="bottom" secondItem="2JK-Gm-SCb" secondAttribute="bottom" id="fsx-Sv-XHD"/>
@@ -1226,7 +1262,7 @@
                             <constraint firstItem="jzW-BE-7hQ" firstAttribute="trailing" secondItem="q24-aG-9Yw" secondAttribute="trailing" constant="15" id="t6g-Tv-NQb"/>
                             <constraint firstItem="2JK-Gm-SCb" firstAttribute="top" secondItem="eX1-Ki-r69" secondAttribute="top" id="ty1-NQ-rzK"/>
                             <constraint firstItem="q24-aG-9Yw" firstAttribute="top" secondItem="jzW-BE-7hQ" secondAttribute="top" constant="10" id="weL-fB-dfv"/>
-                            <constraint firstItem="uAH-Ec-q2z" firstAttribute="leading" secondItem="73n-lg-KD1" secondAttribute="trailing" id="zwE-0k-Yit"/>
+                            <constraint firstItem="uAH-Ec-q2z" firstAttribute="leading" secondItem="73n-lg-KD1" secondAttribute="trailing" constant="10" id="zwE-0k-Yit"/>
                         </constraints>
                     </view>
                     <connections>
@@ -1529,14 +1565,24 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Bi-6g-3Oz">
-                                <rect key="frame" x="15" y="10" width="52" height="30"/>
+                                <rect key="frame" x="15" y="10" width="155" height="30"/>
                                 <color key="backgroundColor" name="Button Color"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="ab9-rd-fG2"/>
                                 </constraints>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Exit"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="떠나기">
+                                            <attributes>
+                                                <font key="NSFont" size="18" name="HoonDdukbokR"/>
+                                                <font key="NSOriginalFont" size="12" name="AppleSymbols"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                         <integer key="value" value="5"/>
@@ -1547,14 +1593,24 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Suh-6U-0fM">
-                                <rect key="frame" x="339.33333333333331" y="10" width="59.666666666666686" height="30"/>
+                                <rect key="frame" x="244.33333333333337" y="10" width="154.66666666666663" height="30"/>
                                 <color key="backgroundColor" name="Button Color"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="YY9-qU-BRE"/>
                                 </constraints>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Next"/>
+                                <buttonConfiguration key="configuration" style="plain">
+                                    <attributedString key="attributedTitle">
+                                        <fragment content="다음">
+                                            <attributes>
+                                                <font key="NSFont" size="18" name="HoonDdukbokR"/>
+                                                <font key="NSOriginalFont" size="12" name="Helvetica"/>
+                                                <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                            </attributes>
+                                        </fragment>
+                                    </attributedString>
+                                </buttonConfiguration>
                                 <userDefinedRuntimeAttributes>
                                     <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
                                         <integer key="value" value="5"/>
@@ -1564,10 +1620,17 @@
                                     <action selector="nextTap:" destination="SZw-36-5Il" eventType="touchUpInside" id="cEK-CN-B60"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ror-5p-V0A">
-                                <rect key="frame" x="184.66666666666666" y="10" width="44.666666666666657" height="24"/>
-                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Medium" family="Apple SD Gothic Neo" pointSize="20"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ror-5p-V0A">
+                                <rect key="frame" x="180" y="10" width="54.333333333333343" height="24"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Label">
+                                        <attributes>
+                                            <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="24" name="HoonDdukbokR"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="RY2-kq-BhJ">
@@ -1607,14 +1670,20 @@
                                             <rect key="frame" x="0.0" y="0.0" width="410" height="671"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Default navigation back button is empty Default navigation back button is empty" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a09-VX-fRP">
-                                                    <rect key="frame" x="5" y="30" width="405" height="41"/>
-                                                    <fontDescription key="fontDescription" name="AppleSDGothicNeo-Medium" family="Apple SD Gothic Neo" pointSize="17"/>
-                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a09-VX-fRP">
+                                                    <rect key="frame" x="5" y="30" width="405" height="36"/>
+                                                    <attributedString key="attributedText">
+                                                        <fragment content="Default navigation back button is empty Default navigation back button is empty">
+                                                            <attributes>
+                                                                <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                <font key="NSFont" size="18" name="BareunBatangOTFL"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Azx-LC-Qyi">
-                                                    <rect key="frame" x="5" y="101" width="400" height="228"/>
+                                                    <rect key="frame" x="5" y="96" width="400" height="228"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ygq-lC-Byp">
                                                             <rect key="frame" x="0.0" y="0.0" width="0.0" height="228"/>
@@ -1623,7 +1692,7 @@
                                                                     <string key="content">Default navigation back button is empty Default navigation back button is empty Default navigation back button is empty Default navigation back button is empty</string>
                                                                     <attributes>
                                                                         <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                        <font key="NSFont" size="17" name="AppleSDGothicNeo-Regular"/>
+                                                                        <font key="NSFont" size="18" name="BareunBatangOTFL"/>
                                                                         <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineHeightMultiple="1.2" tighteningFactorForTruncation="0.0"/>
                                                                     </attributes>
                                                                 </fragment>
@@ -1642,15 +1711,22 @@
                                                     </subviews>
                                                 </stackView>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="QAH-nN-hLm">
-                                                    <rect key="frame" x="10" y="359" width="390" height="230"/>
+                                                    <rect key="frame" x="10" y="354" width="390" height="230"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KLV-OM-h7k" customClass="UIControl">
                                                             <rect key="frame" x="0.0" y="0.0" width="390" height="50"/>
                                                             <subviews>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Default navigation back button is empty Default navigation back button is empty" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4uN-b9-RD3">
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4uN-b9-RD3">
                                                                     <rect key="frame" x="10" y="0.0" width="380" height="50"/>
-                                                                    <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="16"/>
-                                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <attributedString key="attributedText">
+                                                                        <fragment content="Default navigation back button is empty Default navigation back button is empty">
+                                                                            <attributes>
+                                                                                <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                                <font key="NSFont" size="18" name="HoonDdukbokR"/>
+                                                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                            </attributes>
+                                                                        </fragment>
+                                                                    </attributedString>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                             </subviews>
@@ -1668,10 +1744,17 @@
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="seM-F2-O5J" customClass="UIControl">
                                                             <rect key="frame" x="0.0" y="60" width="390" height="50"/>
                                                             <subviews>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Default navigation back button is empty Default navigation back button is empty" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Tc-5m-DOg">
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Tc-5m-DOg">
                                                                     <rect key="frame" x="10" y="0.0" width="380" height="50"/>
-                                                                    <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="16"/>
-                                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <attributedString key="attributedText">
+                                                                        <fragment content="Default navigation back button is empty Default navigation back button is empty">
+                                                                            <attributes>
+                                                                                <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                                <font key="NSFont" size="18" name="HoonDdukbokR"/>
+                                                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                            </attributes>
+                                                                        </fragment>
+                                                                    </attributedString>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                             </subviews>
@@ -1688,10 +1771,17 @@
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t7s-aK-fkF" customClass="UIControl">
                                                             <rect key="frame" x="0.0" y="120" width="390" height="50"/>
                                                             <subviews>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Default navigation back button is empty Default navigation back button is empty" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Abl-Om-j8R">
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Abl-Om-j8R">
                                                                     <rect key="frame" x="10" y="0.0" width="380" height="50"/>
-                                                                    <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="16"/>
-                                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <attributedString key="attributedText">
+                                                                        <fragment content="Default navigation back button is empty Default navigation back button is empty">
+                                                                            <attributes>
+                                                                                <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                                <font key="NSFont" size="18" name="HoonDdukbokR"/>
+                                                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                            </attributes>
+                                                                        </fragment>
+                                                                    </attributedString>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                             </subviews>
@@ -1708,10 +1798,17 @@
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4oZ-oB-fn5" customClass="UIControl">
                                                             <rect key="frame" x="0.0" y="180" width="390" height="50"/>
                                                             <subviews>
-                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Default navigation back button is empty Default navigation back button is empty" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cs0-RY-bfX">
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cs0-RY-bfX">
                                                                     <rect key="frame" x="10" y="0.0" width="380" height="50"/>
-                                                                    <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="16"/>
-                                                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <attributedString key="attributedText">
+                                                                        <fragment content="Default navigation back button is empty Default navigation back button is empty">
+                                                                            <attributes>
+                                                                                <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                                <font key="NSFont" size="18" name="HoonDdukbokR"/>
+                                                                                <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                                            </attributes>
+                                                                        </fragment>
+                                                                    </attributedString>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                             </subviews>
@@ -1768,7 +1865,6 @@
                             <constraint firstItem="RY2-kq-BhJ" firstAttribute="leading" secondItem="wx0-ti-v0Y" secondAttribute="leading" constant="15" id="5zk-Su-PyH"/>
                             <constraint firstItem="7Bi-6g-3Oz" firstAttribute="leading" secondItem="wx0-ti-v0Y" secondAttribute="leading" constant="15" id="8yZ-TG-xgb"/>
                             <constraint firstItem="nXZ-Bg-Mly" firstAttribute="leading" secondItem="wx0-ti-v0Y" secondAttribute="leading" id="98j-5M-QL2"/>
-                            <constraint firstItem="ror-5p-V0A" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="7Bi-6g-3Oz" secondAttribute="trailing" id="9Bj-5a-MS5"/>
                             <constraint firstAttribute="bottom" secondItem="4u4-qV-WIN" secondAttribute="bottom" id="AYE-pZ-OxR"/>
                             <constraint firstAttribute="trailing" secondItem="4u4-qV-WIN" secondAttribute="trailing" id="DBF-Gx-mp4"/>
                             <constraint firstItem="4u4-qV-WIN" firstAttribute="top" secondItem="q01-rW-7zx" secondAttribute="top" id="K2T-1D-0Ph"/>
@@ -1781,8 +1877,15 @@
                             <constraint firstItem="wx0-ti-v0Y" firstAttribute="trailing" secondItem="RY2-kq-BhJ" secondAttribute="trailing" constant="15" id="oJQ-Xv-Ygx"/>
                             <constraint firstItem="Suh-6U-0fM" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="ror-5p-V0A" secondAttribute="trailing" id="toB-9n-zDh"/>
                             <constraint firstItem="nXZ-Bg-Mly" firstAttribute="top" secondItem="RY2-kq-BhJ" secondAttribute="bottom" constant="10" id="vUc-1k-ydp"/>
+                            <constraint firstItem="Suh-6U-0fM" firstAttribute="leading" secondItem="ror-5p-V0A" secondAttribute="trailing" constant="10" id="vlP-l5-Ffb"/>
                             <constraint firstItem="nXZ-Bg-Mly" firstAttribute="trailing" secondItem="wx0-ti-v0Y" secondAttribute="trailing" id="wih-Yg-PTC"/>
+                            <constraint firstItem="ror-5p-V0A" firstAttribute="leading" secondItem="7Bi-6g-3Oz" secondAttribute="trailing" constant="10" id="xrF-CH-5qA"/>
                         </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="toB-9n-zDh"/>
+                            </mask>
+                        </variation>
                     </view>
                     <connections>
                         <outlet property="collectionView" destination="nXZ-Bg-Mly" id="KSw-FI-1Qh"/>
@@ -1813,27 +1916,39 @@
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="71"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="TOPIK II READING 24th" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1QI-Nk-rFK">
-                                                    <rect key="frame" x="32" y="16" width="297" height="39"/>
-                                                    <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="17"/>
-                                                    <nil key="textColor"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1QI-Nk-rFK">
+                                                    <rect key="frame" x="32" y="16" width="272" height="39"/>
+                                                    <attributedString key="attributedText">
+                                                        <fragment content="TOPIK II READING 24th">
+                                                            <attributes>
+                                                                <font key="NSFont" size="24" name="HoonDdukbokR"/>
+                                                            </attributes>
+                                                        </fragment>
+                                                    </attributedString>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rul-Eo-OdZ">
-                                                    <rect key="frame" x="334" y="16" width="50" height="39"/>
+                                                    <rect key="frame" x="304" y="11" width="90" height="49"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="90" id="ETy-Uh-Nzn"/>
+                                                        <constraint firstAttribute="width" constant="90" id="MDJ-Be-2ck"/>
+                                                    </constraints>
                                                     <color key="tintColor" name="Button Color"/>
                                                     <state key="normal" title="Button"/>
-                                                    <buttonConfiguration key="configuration" style="plain" image="clock.badge.questionmark.fill" catalog="system"/>
+                                                    <buttonConfiguration key="configuration" style="plain">
+                                                        <imageReference key="image" image="clock.badge.questionmark.fill" catalog="system" symbolScale="large"/>
+                                                        <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage" configurationType="pointSize" pointSize="30"/>
+                                                    </buttonConfiguration>
                                                 </button>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="Rul-Eo-OdZ" firstAttribute="top" secondItem="358-vf-k6A" secondAttribute="topMargin" constant="5" id="2eB-RY-SKE"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="Rul-Eo-OdZ" secondAttribute="trailing" constant="10" id="4zs-cE-UcT"/>
                                                 <constraint firstAttribute="bottomMargin" secondItem="1QI-Nk-rFK" secondAttribute="bottom" constant="5" id="OyF-WV-r7F"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="Rul-Eo-OdZ" secondAttribute="bottom" constant="5" id="ZPh-rs-kra"/>
-                                                <constraint firstItem="Rul-Eo-OdZ" firstAttribute="leading" secondItem="1QI-Nk-rFK" secondAttribute="trailing" constant="5" id="aZ0-If-514"/>
+                                                <constraint firstItem="Rul-Eo-OdZ" firstAttribute="top" secondItem="358-vf-k6A" secondAttribute="topMargin" id="P4z-CV-lF1"/>
                                                 <constraint firstItem="1QI-Nk-rFK" firstAttribute="leading" secondItem="358-vf-k6A" secondAttribute="leadingMargin" constant="12" id="dpn-EG-37d"/>
+                                                <constraint firstAttribute="bottomMargin" secondItem="Rul-Eo-OdZ" secondAttribute="bottom" id="dvs-9U-ZEe"/>
+                                                <constraint firstItem="Rul-Eo-OdZ" firstAttribute="leading" secondItem="1QI-Nk-rFK" secondAttribute="trailing" id="kOK-pY-00r"/>
                                                 <constraint firstItem="1QI-Nk-rFK" firstAttribute="top" secondItem="358-vf-k6A" secondAttribute="topMargin" constant="5" id="nku-fJ-cr3"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="Rul-Eo-OdZ" secondAttribute="trailing" id="wYU-dD-bb3"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>

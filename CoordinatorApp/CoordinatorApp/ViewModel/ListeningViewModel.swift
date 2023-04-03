@@ -66,25 +66,25 @@ class ListeningViewModel : NSObject, ObservableObject {
     
     func initListeningData() {
         TOPIKQuestionArray = [
-            "TOPIK II Listening 24th",
-            "TOPIK II Listening 25th",
-            "TOPIK II Listening 26th",
-            "TOPIK II Listening 27th",
-            "TOPIK II Listening 28th",
-            "TOPIK II Listening 29th",
-            "TOPIK II Listening 30th",
-            "TOPIK II Listening 31th",
-            "TOPIK II Listening 32th",
-            "TOPIK II Listening 33th",
-            "TOPIK II Listening 34th",
-            "TOPIK II Listening 35th",
-            "TOPIK II Listening 36th",
-            "TOPIK II Listening 37th",
-            "TOPIK II Listening 41th",
-            "TOPIK II Listening 47th",
-            "TOPIK II Listening 52th",
-            "TOPIK II Listening 60th",
-            "TOPIK II Listening 64th"
+            "듣기 24th",
+            "듣기 25th",
+            "듣기 26th",
+            "듣기 27th",
+            "듣기 28th",
+            "듣기 29th",
+            "듣기 30th",
+            "듣기 31th",
+            "듣기 32th",
+            "듣기 33th",
+            "듣기 34th",
+            "듣기 35th",
+            "듣기 36th",
+            "듣기 37th",
+            "듣기 41th",
+            "듣기 47th",
+            "듣기 52th",
+            "듣기 60th",
+            "듣기 64th"
         ]
     }
     func getData(index : Int) {
