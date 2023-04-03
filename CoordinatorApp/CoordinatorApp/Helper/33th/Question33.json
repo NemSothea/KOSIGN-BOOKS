@@ -76,11 +76,11 @@
         {   
             "sections"      : "※ [6~9] 다음 밑줄 친 부분과 의미가 비슷한 것을 고르십시오.",
             "question"      : "8. 그 병원은 하루 전에 예약을 (꼭) 해야 한다.(4점)",
-            "option_1"      : "①   제발",
-            "option_2"      : "②   물론",
-            "option_3"      : "③   천천히",
-            "option_4"      : "④   반드시",
-            "correctAnswer" : "③   천천히",
+            "option_1"      : "①    제발",
+            "option_2"      : "②    물론",
+            "option_3"      : "③    천천히",
+            "option_4"      : "④    반드시",
+            "correctAnswer" : "④    반드시",
             "score"         : "4",
             "isImg"         : "n"
         },
