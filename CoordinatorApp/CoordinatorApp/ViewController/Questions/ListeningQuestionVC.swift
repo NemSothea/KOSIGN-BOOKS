@@ -56,16 +56,28 @@ class ListeningQuestionVC: UIViewController {
     /* MARK :-
         - @IBAction
      */
+    var  isPlay64 = true
     
     @IBAction func playTap(_ sender: UIButton) {
         DispatchQueue.main.async {
-            self.listeningVM.playOrPause()
-            if self.listeningVM.isPlaying {
-                self.playBtn.setImage(UIImage(systemName: "pause.fill"), for:.normal)
+            if self.indexTopik == 18 {
+                self.listeningVM.original64Play(index: "64")
+               
+                if self.isPlay64 {
+                    self.playBtn.setImage(UIImage(systemName: "pause.fill"), for:.normal)
+                    self.isPlay64 = false
+                }else {
+                    self.playBtn.setImage(UIImage(systemName: "play.fill"), for:.normal)
+                    self.isPlay64 = true
+                }
             }else {
-                self.playBtn.setImage(UIImage(systemName: "play.fill"), for:.normal)
+                self.listeningVM.playOrPause()
+                if self.listeningVM.isPlaying {
+                    self.playBtn.setImage(UIImage(systemName: "pause.fill"), for:.normal)
+                }else {
+                    self.playBtn.setImage(UIImage(systemName: "play.fill"), for:.normal)
+                }
             }
-            
         }
     }
     
@@ -76,7 +88,7 @@ class ListeningQuestionVC: UIViewController {
            return
         }
         let okAction = UIAlertAction(title: "넵", style: .default) { (_) in
-            self.listeningVM.stopPlay()
+            self.listeningVM.stopPlay(index: "\(self.indexTopik)")
             self.dismiss(animated: true)
         }
         alert.addAction(cancelAction)

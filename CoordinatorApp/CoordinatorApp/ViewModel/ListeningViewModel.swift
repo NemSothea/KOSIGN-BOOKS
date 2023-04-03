@@ -47,7 +47,7 @@ class ListeningViewModel : NSObject, ObservableObject {
     private var currentPosition     : AVAudioFramePosition = 0
     private var audioLengthSamples  : AVAudioFramePosition = 0
     
-    private let player64            = AVQueuePlayer()
+    let player64            = AVQueuePlayer()
     
     var data                        : ReadingQuestionModel.QuestionModel?
     
@@ -125,16 +125,16 @@ class ListeningViewModel : NSObject, ObservableObject {
             i = "52"
         case 17 :
             i = "60"
+        case 18 :
+            i = "64"
         default :
             break
         }
         
         self.data =  Bundle.main.decode(ReadingQuestionModel.QuestionModel.self, from:"Listening\(i).json")
-        if i == "18" {
-            self.original64Play(index: i)
-        }else {
-            self.setupAudio(index: i)
-        }
+       
+        self.setupAudio(index: i)
+        
        
     }
     private func setupAudio(index : String) {
@@ -156,16 +156,22 @@ class ListeningViewModel : NSObject, ObservableObject {
             print("Error reading the audio file: \(error.localizedDescription)")
         }
     }
-    private func original64Play(index : String) {
+    func original64Play(index : String) {
         if let url = Bundle.main.url(forResource: "Listening\(index)th", withExtension: "m4a") {
             player64.removeAllItems()
             player64.insert(AVPlayerItem(url: url),after:nil)
             player64.play()
         }
     }
-    func stopPlay() {
-        self.player.pause()
-        self.player.stop()
+    func stopPlay(index : String) {
+        if index == "18" {
+            self.player64.pause()
+            self.player64.removeAllItems()
+        }else {
+            self.player.pause()
+            self.player.stop()
+        }
+        
     }
     func playOrPause() {
         self.isPlaying.toggle()
