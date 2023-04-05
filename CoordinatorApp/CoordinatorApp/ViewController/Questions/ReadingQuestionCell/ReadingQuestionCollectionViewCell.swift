@@ -28,6 +28,7 @@ class ReadingQuestionCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var optionB          : UIControl!
     @IBOutlet weak var optionC          : UIControl!
     @IBOutlet weak var optionD          : UIControl!
+    @IBOutlet weak var imgHeightConstraint: NSLayoutConstraint!
     
     private var correctionAnswer        : String?
     var selectedOption                  : ((_ selectedAnswer : Bool) -> Void)?
@@ -39,10 +40,12 @@ class ReadingQuestionCollectionViewCell: UICollectionViewCell {
             if self.setValues?.isImg == "y" {
                 self.questionLabel.text = nil
                 self.questionImg.isHidden = false
+                self.imgHeightConstraint.constant = 200.0
                 self.questionImg.image = UIImage(named: setValues?.question ?? "")
             }else {
                 self.questionImg.isHidden = true
                 self.questionImg.image = nil
+                self.imgHeightConstraint.constant = 0.0
                 self.questionLabel.text = setValues?.question
             }
             

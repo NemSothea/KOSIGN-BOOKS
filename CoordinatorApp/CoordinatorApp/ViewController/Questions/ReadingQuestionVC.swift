@@ -84,8 +84,9 @@ class ReadingQuestionVC: UIViewController {
         self.answerSelected = false
         if self.isCorrectAnswer {
             self.correctAwswer += 1
-            
-            self.wrongResult.insert(countWrongAws)
+            if self.countWrongAws != 0 {
+                self.wrongResult.insert(countWrongAws)
+            }
         }else {
             guard let popUpVC = storyboard?.instantiateViewController(withIdentifier: "PopupVC") as? PopupVC else { return }
             if self.questionsVM.data?.questions?[index].detail == nil {
