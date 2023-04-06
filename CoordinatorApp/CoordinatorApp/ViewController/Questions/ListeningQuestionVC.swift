@@ -122,7 +122,9 @@ class ListeningQuestionVC: UIViewController {
         if self.isCorrectAnswer {
             self.correctAwswer += 1
             self.totalScore += Int(self.listeningVM.data?.questions?[index].score ?? "") ?? 0
-            self.wrongResult.insert(countWrongAws)
+            if self.countWrongAws != 0 {
+                self.wrongResult.insert(self.countWrongAws)
+            }
         }else {
             /** TODO -:
              - When selected question wrong show popup details
@@ -154,6 +156,7 @@ class ListeningQuestionVC: UIViewController {
              */
             guard let resultVC = storyboard?.instantiateViewController(withIdentifier: "ResultVC") as? ResultVC else {return}
             resultVC.data          = ["\(self.totalScore)","\(self.wrongResult.count)","\(self.listeningVM.data?.questions?.count ?? 0)"]
+            self.listeningVM.stopAllCurrentPlay()
             resultVC.modalPresentationStyle = .fullScreen
             self.present(resultVC, animated: true)
         }

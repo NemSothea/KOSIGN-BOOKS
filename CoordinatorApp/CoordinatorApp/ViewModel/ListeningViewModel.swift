@@ -173,6 +173,11 @@ class ListeningViewModel : NSObject, ObservableObject {
         }
         
     }
+    func stopAllCurrentPlay() {
+        self.player.stop()
+        self.player64.pause()
+        self.player64.removeAllItems()
+    }
     func playOrPause() {
         self.isPlaying.toggle()
         if self.player.isPlaying {
