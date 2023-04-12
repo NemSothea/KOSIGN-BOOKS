@@ -22,6 +22,7 @@
 		55466D79295435CA0069C277 /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55466D78295435CA0069C277 /* NewsView.swift */; };
 		55466D7D295436660069C277 /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55466D7C295436660069C277 /* NewsModel.swift */; };
 		554B1BBF29836BA300B9B524 /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554B1BBE29836BA300B9B524 /* ItemDetail.swift */; };
+		5579999029E62B3800338288 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5579998F29E62B3800338288 /* CheckoutView.swift */; };
 		55F8B8322980FF5A00A107F8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 55F8B8312980FF5A00A107F8 /* README.md */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +44,7 @@
 		55466D78295435CA0069C277 /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
 		55466D7C295436660069C277 /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
 		554B1BBE29836BA300B9B524 /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
+		5579998F29E62B3800338288 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 		55F8B8312980FF5A00A107F8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,6 +93,7 @@
 				550E5CA1298235BA00E9303A /* ItemRow.swift */,
 				554B1BBE29836BA300B9B524 /* ItemDetail.swift */,
 				5529555429C8371F00E3E15D /* OrderView.swift */,
+				5579998F29E62B3800338288 /* CheckoutView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -240,6 +243,7 @@
 				552ED845298786E000F161AF /* Order.swift in Sources */,
 				552772802959746800C6AF02 /* MenuSection.swift in Sources */,
 				5527727929593CBE00C6AF02 /* Helper.swift in Sources */,
+				5579999029E62B3800338288 /* CheckoutView.swift in Sources */,
 				55466D6A295434EB0069C277 /* ContentView.swift in Sources */,
 				55277282295974A800C6AF02 /* MenuItem.swift in Sources */,
 				5529555529C8371F00E3E15D /* OrderView.swift in Sources */,

@@ -13,13 +13,6 @@ struct ItemDetail: View {
     
     let item : MenuItem
     
-    var paramStyle : NSParagraphStyle {
-        let style = NSMutableParagraphStyle()
-        ()
-        style.alignment = .justified
-        return style
-    }
-    
     var body: some View {
         VStack {
             ZStack(alignment:.bottomTrailing) {
