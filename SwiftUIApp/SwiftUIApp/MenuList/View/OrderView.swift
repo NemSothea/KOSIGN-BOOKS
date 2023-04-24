@@ -10,6 +10,10 @@ import SwiftUI
 struct OrderView: View {
     @EnvironmentObject var order : Order
     
+    @State private var addLoyaltyDetails = false
+    @State private var loyaltyNumber = ""
+    
+    
     var body: some View {
         
         NavigationStack {
