@@ -871,6 +871,8 @@
 		55E1207129B015AE009BEFBC /* 25th */ = {
 			isa = PBXGroup;
 			children = (
+				55E1207629B015AE009BEFBC /* 25_1_img.png */,
+				55E1207429B015AE009BEFBC /* 25_2_img.png */,
 				527E425B29ED58B600FC3E16 /* 25_3_img.png */,
 				527E425C29ED58B600FC3E16 /* 25_4_img.png */,
 				527E425929ED58B500FC3E16 /* 25_5_img.png */,
@@ -880,8 +882,6 @@
 				55E1207229B015AE009BEFBC /* Question25.json */,
 				55E1207329B015AE009BEFBC /* Listening25.json */,
 				55E1207529B015AE009BEFBC /* Listening25th.mp3 */,
-				55E1207429B015AE009BEFBC /* 25_2_img.png */,
-				55E1207629B015AE009BEFBC /* 25_1_img.png */,
 			);
 			path = 25th;
 			sourceTree = "<group>";
