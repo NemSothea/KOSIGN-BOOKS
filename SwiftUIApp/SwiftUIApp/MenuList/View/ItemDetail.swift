@@ -10,7 +10,6 @@ import SwiftUI
 struct ItemDetail: View {
     
     @EnvironmentObject var order : Order
-    
     let item : MenuItem
     
     var body: some View {
@@ -43,7 +42,7 @@ struct ItemDetail: View {
 
 struct ItemDetail_Previews: PreviewProvider {
     static var previews: some View {
-        NavigationView {
+        NavigationStack {
             /* TODO-:
              @EnvironmentObject is another property wrapper in Swift, just like @Published and @StateObject. This one means we get that automatic attachment ability I just mentioned, but also tells SwiftUI to watch the object for any changes and refresh its UI when a change announcement comes through.
              */

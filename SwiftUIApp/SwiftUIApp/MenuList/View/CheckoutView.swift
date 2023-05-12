@@ -18,6 +18,10 @@ struct CheckoutView: View {
     var tipAmounts = [10,15,20,0]
     @State private var tipAmount = 15
     
+//    var totalPrice : String {
+//        let total = Double(order.t)
+//    }
+    
     var body: some View {
         Form {
             Section {
@@ -39,6 +43,11 @@ struct CheckoutView: View {
                     }
                 }
                 .pickerStyle(.segmented)
+            }
+            Section("Total : $100") {
+                Button("Confirm order") {
+                    //TODO:
+                }
             }
         }
         

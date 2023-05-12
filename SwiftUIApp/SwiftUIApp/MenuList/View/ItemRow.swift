@@ -8,10 +8,9 @@
 import SwiftUI
 
 struct ItemRow: View {
-    let item : MenuItem
     
     let colors : [ String : Color ] = [ "D": .purple, "G" :.black, "N" : .red, "S" : .blue, "V" : .green ]
-    
+    let item : MenuItem
     var body: some View {
         HStack {
             Image(item.thumbnailImage)
@@ -28,6 +27,7 @@ struct ItemRow: View {
                     .foregroundColor(.red)
                 
                 }
+            
             ForEach(item.restrictions, id: \.self) { restriction in
                 Text(restriction)
                     .font(.caption)

@@ -18,13 +18,19 @@ struct MenuList: View {
                     Section(header: Text(section.name).font(.custom("AmericanTypewriter", size: 20))) {
                         
                         ForEach(section.items) { item in
-                            ItemRow(item: item)
+                            NavigationLink(value: item) {
+                                ItemRow(item: item)
+                            }
                         }
 
                     }
                 }
                 
             }// End List
+            .navigationDestination(for: MenuItem.self, destination: { item in
+                ItemDetail(item: item)
+            })
+            
             .navigationTitle("Menu List")
             .listStyle(GroupedListStyle())
         }//End NavigationStack
