@@ -18,9 +18,13 @@ struct CheckoutView: View {
     var tipAmounts = [10,15,20,0]
     @State private var tipAmount = 15
     
-//    var totalPrice : String {
-//        let total = Double(order.t)
-//    }
+    @State private var showingPaymentAlert = false
+    
+    var totalPrice : String {
+        let total = Double(order.total)
+        let tipValue = total / 100 * Double(tipAmount)
+        return (total + tipValue).formatted(.currency(code: "USD"))
+    }
     
     var body: some View {
         Form {
@@ -42,22 +46,30 @@ struct CheckoutView: View {
                         Text("\($0)%")
                     }
                 }
-                .pickerStyle(.segmented)
+                .pickerStyle(SegmentedPickerStyle())
             }
-            Section("Total : $100") {
+           
+            Section("Total :\(totalPrice) ") {
                 Button("Confirm order") {
-                    //TODO:
+                    // TODO:
+                    showingPaymentAlert.toggle()
                 }
             }
         }
         
         .navigationTitle("Payment")
         .navigationBarTitleDisplayMode(.inline)
+        .alert("Order Confirmed",isPresented: $showingPaymentAlert) {
+                //Add Button here
+        }message: {
+            Text("Your total was \(totalPrice) - thank you!")
+        }
     }
 }
 
 struct CheckoutView_Previews: PreviewProvider {
     static var previews: some View {
         CheckoutView()
+            .environmentObject(Order())
     }
 }
