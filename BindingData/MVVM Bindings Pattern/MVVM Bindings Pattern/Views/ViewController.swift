@@ -23,6 +23,11 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         }
         
         self.userViewModel.fetchData()
+        
+        // CALL PUSH
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        appDelegate.registerForRemoteNotification()
+        
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {

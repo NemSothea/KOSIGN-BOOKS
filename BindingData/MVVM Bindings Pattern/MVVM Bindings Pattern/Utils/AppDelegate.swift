@@ -30,7 +30,46 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
         // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
     }
+    func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
+        
+        let myDeviceToken = deviceToken.reduce("", {$0 + String(format: "%02X",$1)})
+        print("Device Token: \(myDeviceToken)")
+    }
 
+}
 
+//Mark : UNUserNotificationCenterDelegate
+extension AppDelegate : UNUserNotificationCenterDelegate {
+    
+    public func registerForRemoteNotification() {
+        
+        // For display notification (send via APNS)
+        UNUserNotificationCenter.current().delegate = self
+        let authOptions : UNAuthorizationOptions = [.alert,.badge,.sound]
+        
+        UNUserNotificationCenter.current().requestAuthorization(options: authOptions) { (granted, error) in
+            switch error {
+            case .none :
+                if granted {
+                    DispatchQueue.main.async {
+                        UIApplication.shared.registerForRemoteNotifications()
+                    }
+                }
+            case .some(let error) :
+                self.registerForRemoteNotification()
+                print(error.localizedDescription)
+            }
+        }
+        
+    }
+    
+    func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
+        
+        completionHandler([.list,.banner,.badge,.sound])
+        
+    }
+    func application(_ application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: Error) {
+        print(error.localizedDescription)
+    }
 }
 
