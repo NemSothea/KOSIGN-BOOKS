@@ -10,10 +10,16 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    var countBage : Int = 0
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        /* TODO:
+         - Background Mode
+         */
+        UNUserNotificationCenter.current().delegate = self
+        countBage = UIApplication.shared.applicationIconBadgeNumber
+        
         return true
     }
 
@@ -35,12 +41,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let myDeviceToken = deviceToken.reduce("", {$0 + String(format: "%02X",$1)})
         print("Device Token: \(myDeviceToken)")
     }
+    /* MARK-:
+     - Background Mode
+     */
+    func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any]) {
+//        UIApplication.shared.applicationIconBadgeNumber = countBage
+    }
+    func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse) async {
+//        UIApplication.shared.applicationIconBadgeNumber = countBage
+    }
 
 }
 
 //Mark : UNUserNotificationCenterDelegate
 extension AppDelegate : UNUserNotificationCenterDelegate {
-    
     public func registerForRemoteNotification() {
         
         // For display notification (send via APNS)
@@ -66,7 +80,10 @@ extension AppDelegate : UNUserNotificationCenterDelegate {
     func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
         
         completionHandler([.list,.banner,.badge,.sound])
-        
+        /* MARK-:
+         - Background Mode
+         */
+//        UIApplication.shared.applicationIconBadgeNumber = countBage
     }
     func application(_ application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: Error) {
         print(error.localizedDescription)
