@@ -10,4 +10,6 @@ This for Binding Data of iOS development.
 
 2. PUSH Notification : APNS(Apple Push notification SSL(Sandbox & Production))
 - https://flow.team/l/0wOc2
+- Alert Style
+- Background
 

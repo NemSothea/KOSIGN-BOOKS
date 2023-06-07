@@ -24,7 +24,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         self.userViewModel.fetchData()
         
-        // CALL PUSH
+        //TODO: CALL PUSH FUNCTION
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
         appDelegate.registerForRemoteNotification()
         
