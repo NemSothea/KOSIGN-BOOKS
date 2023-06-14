@@ -9,7 +9,7 @@ import UIKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    
     var countBage : Int = 0
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
@@ -17,6 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         /* TODO:
          - Background Mode
          */
+        
         UNUserNotificationCenter.current().delegate = self
         countBage = UIApplication.shared.applicationIconBadgeNumber
         
@@ -45,6 +46,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
      - Background Mode
      */
     func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any]) {
+        
+        let userInfo = userInfo
+        guard let aps = userInfo["aps"] as? [String : Any] else { return }
+        let isLogin = aps["goLogin"] as? String
+        
+        
+        if isLogin == "true" {
+            if let loginVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "LoginViewController") as? LoginViewController {
+               
+            }
+        }
 //        UIApplication.shared.applicationIconBadgeNumber = countBage
     }
     func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse) async {
@@ -83,7 +95,10 @@ extension AppDelegate : UNUserNotificationCenterDelegate {
         /* MARK-:
          - Background Mode
          */
-//        UIApplication.shared.applicationIconBadgeNumber = countBage
+//        UIApplication.shared.applicationIconBadgeNumber = countBage3
+        
+       
+        
     }
     func application(_ application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: Error) {
         print(error.localizedDescription)

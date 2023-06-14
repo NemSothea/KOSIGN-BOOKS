@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		550F81922A282FBE0096B161 /* UserTableModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550F81912A282FBE0096B161 /* UserTableModel.swift */; };
+		5511D25C2A31948100F83EC8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5511D25B2A31948100F83EC8 /* LoginViewController.swift */; };
+		5511D25E2A31A1C900F83EC8 /* DataAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5511D25D2A31A1C900F83EC8 /* DataAccess.swift */; };
+		5530F8DB2A39482500973EEA /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5530F8DA2A39482500973EEA /* PostModel.swift */; };
 		558B751F2A271D3D00338F73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558B751E2A271D3D00338F73 /* AppDelegate.swift */; };
 		558B75212A271D3D00338F73 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558B75202A271D3D00338F73 /* SceneDelegate.swift */; };
 		558B75232A271D3D00338F73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558B75222A271D3D00338F73 /* ViewController.swift */; };
@@ -18,10 +21,14 @@
 		558B75372A27278D00338F73 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 558B75362A27278D00338F73 /* README.md */; };
 		558B753A2A27288200338F73 /* ObservableObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558B75392A27288200338F73 /* ObservableObjects.swift */; };
 		558B753D2A2728E100338F73 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558B753C2A2728E100338F73 /* UserViewModel.swift */; };
+		55BC8BCD2A36DAD9005185B0 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BC8BCC2A36DAD9005185B0 /* LoginViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		550F81912A282FBE0096B161 /* UserTableModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableModel.swift; sourceTree = "<group>"; };
+		5511D25B2A31948100F83EC8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5511D25D2A31A1C900F83EC8 /* DataAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataAccess.swift; sourceTree = "<group>"; };
+		5530F8DA2A39482500973EEA /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
 		558B751B2A271D3D00338F73 /* MVVM Bindings Pattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM Bindings Pattern.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		558B751E2A271D3D00338F73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		558B75202A271D3D00338F73 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -35,6 +42,7 @@
 		558B75392A27288200338F73 /* ObservableObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableObjects.swift; sourceTree = "<group>"; };
 		558B753C2A2728E100338F73 /* UserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewModel.swift; sourceTree = "<group>"; };
 		55A155D42A2D766700C9495A /* MVVM Bindings Pattern.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "MVVM Bindings Pattern.entitlements"; sourceTree = "<group>"; };
+		55BC8BCC2A36DAD9005185B0 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +93,7 @@
 			children = (
 				550F81912A282FBE0096B161 /* UserTableModel.swift */,
 				558B75342A27273700338F73 /* UserModel.swift */,
+				5530F8DA2A39482500973EEA /* PostModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -95,6 +104,7 @@
 				558B75202A271D3D00338F73 /* SceneDelegate.swift */,
 				558B751E2A271D3D00338F73 /* AppDelegate.swift */,
 				558B75392A27288200338F73 /* ObservableObjects.swift */,
+				5511D25D2A31A1C900F83EC8 /* DataAccess.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -103,6 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				558B753C2A2728E100338F73 /* UserViewModel.swift */,
+				55BC8BCC2A36DAD9005185B0 /* LoginViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -112,6 +123,7 @@
 			children = (
 				558B75222A271D3D00338F73 /* ViewController.swift */,
 				558B75242A271D3D00338F73 /* Main.storyboard */,
+				5511D25B2A31948100F83EC8 /* LoginViewController.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -192,9 +204,13 @@
 				558B753D2A2728E100338F73 /* UserViewModel.swift in Sources */,
 				558B753A2A27288200338F73 /* ObservableObjects.swift in Sources */,
 				558B751F2A271D3D00338F73 /* AppDelegate.swift in Sources */,
+				5511D25C2A31948100F83EC8 /* LoginViewController.swift in Sources */,
 				550F81922A282FBE0096B161 /* UserTableModel.swift in Sources */,
 				558B75352A27273700338F73 /* UserModel.swift in Sources */,
+				5511D25E2A31A1C900F83EC8 /* DataAccess.swift in Sources */,
+				55BC8BCD2A36DAD9005185B0 /* LoginViewModel.swift in Sources */,
 				558B75212A271D3D00338F73 /* SceneDelegate.swift in Sources */,
+				5530F8DB2A39482500973EEA /* PostModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

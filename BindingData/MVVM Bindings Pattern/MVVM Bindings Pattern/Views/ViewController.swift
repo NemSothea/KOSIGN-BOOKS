@@ -31,12 +31,12 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return userViewModel.users.value?.count ?? 0
+        return userViewModel.users.value.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        cell.textLabel?.text = self.userViewModel.users.value?[indexPath.row].name
+        cell.textLabel?.text = self.userViewModel.users.value[indexPath.row].name
         return cell
     }
 
