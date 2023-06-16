@@ -16,6 +16,10 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        self.navigationController?.title = "Users"
+        
+        self.navigationItem.setHidesBackButton(true, animated: false)
+        
         self.userViewModel.users.bind { [weak self] _ in
             DispatchQueue.main.async {
                 self?.tableView.reloadData()
@@ -39,5 +43,10 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         cell.textLabel?.text = self.userViewModel.users.value[indexPath.row].name
         return cell
     }
+    @IBAction func postButtonPress(_ sender: UIButton) {
+        let postVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "postViewControllerID") as! PostViewController
+        self.navigationController?.pushViewController(postVC, animated: true)
+    }
+    
 
 }

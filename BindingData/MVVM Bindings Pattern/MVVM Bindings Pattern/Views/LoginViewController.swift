@@ -33,11 +33,8 @@ class LoginViewController: UIViewController {
         }
     }
     private func setHome() {
-        let homeVc = self.storyboard?.instantiateViewController(withIdentifier: "ViewControllerID") as! ViewController
-        DispatchQueue.main.async {
-            homeVc.modalPresentationStyle = .fullScreen
-            self.present(homeVc, animated: true)
-        }
+        let homeVc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ViewControllerID") as! ViewController
+        self.navigationController?.pushViewController(homeVc, animated: true)
     }
     
     @IBAction func SignupButtonPress(_ sender: UIButton) {

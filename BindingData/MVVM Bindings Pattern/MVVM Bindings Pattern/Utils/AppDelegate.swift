@@ -41,26 +41,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
         let myDeviceToken = deviceToken.reduce("", {$0 + String(format: "%02X",$1)})
         print("Device Token: \(myDeviceToken)")
-    }
-    /* MARK-:
-     - Background Mode
-     */
+    }/**
+      MARK -:
+      - If the app is in the background, and "content-available" == true
+      */
     func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any]) {
-        
-        let userInfo = userInfo
-        guard let aps = userInfo["aps"] as? [String : Any] else { return }
-        let isLogin = aps["goLogin"] as? String
-        
-        
-        if isLogin == "true" {
-            if let loginVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(identifier: "LoginViewController") as? LoginViewController {
-               
-            }
-        }
-//        UIApplication.shared.applicationIconBadgeNumber = countBage
+
+
     }
-    func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse) async {
-//        UIApplication.shared.applicationIconBadgeNumber = countBage
+    /**
+     MARK -:
+     -  If the app is in the background, nothing is called until the user taps the notification, at that point, the app will open and call this.
+     */
+    func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
+        
+        guard let aps   = response.notification.request.content.userInfo["aps"] as? [String : Any] else { return }
+        guard let isNewPost  = aps["post"] as? String else { return }
+        if isNewPost == "true" {
+            print("Go to PostVc")
+        }
     }
 
 }
@@ -88,16 +87,13 @@ extension AppDelegate : UNUserNotificationCenterDelegate {
         }
         
     }
-    
+    /**
+     MARK-:
+    - If the app is in the foreground, the app will call this.
+     */
     func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
         
         completionHandler([.list,.banner,.badge,.sound])
-        /* MARK-:
-         - Background Mode
-         */
-//        UIApplication.shared.applicationIconBadgeNumber = countBage3
-        
-       
         
     }
     func application(_ application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: Error) {
