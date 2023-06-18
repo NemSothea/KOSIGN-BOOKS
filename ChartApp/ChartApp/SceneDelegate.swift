@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  MVVM Bindings Pattern
+//  ChartApp
 //
-//  Created by Bizplay on 2023/05/31.
+//  Created by Bizplay on 2023/06/16.
 //
 
 import UIKit
