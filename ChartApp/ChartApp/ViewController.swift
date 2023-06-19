@@ -25,6 +25,7 @@ class ViewController: UIViewController, ChartViewDelegate {
           let donutChartView = DonutChartView(frame: CGRect(x: 100, y: 100, width: 200, height: 200), data: data)
 
           // Add the donut chart view to the main view
+         This is for LOCAL
           self.view.addSubview(donutChartView)
         */
   
