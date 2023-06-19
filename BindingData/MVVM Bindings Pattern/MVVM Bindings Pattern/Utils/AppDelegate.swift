@@ -11,6 +11,7 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
     var countBage : Int = 0
+    var window : UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
@@ -44,21 +45,40 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }/**
       MARK -:
       - If the app is in the background, and "content-available" == true
-      */
+      
     func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any]) {
-
-
+      
     }
+      */
     /**
      MARK -:
      -  If the app is in the background, nothing is called until the user taps the notification, at that point, the app will open and call this.
      */
     func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
+        // TODO -:
+        /* Method : 1
+        NotificationCenter.default.post(name: NSNotification.Name(rawValue: "NewPost"), object: response.notification.request.content.userInfo)
+         */
         
+        // Method : 2
         guard let aps   = response.notification.request.content.userInfo["aps"] as? [String : Any] else { return }
         guard let isNewPost  = aps["post"] as? String else { return }
+        
+        
         if isNewPost == "true" {
-            print("Go to PostVc")
+            self.pushToPostViewController()
+        }
+        completionHandler()
+       
+    }
+    private func pushToPostViewController() {
+        let scenes = UIApplication.shared.connectedScenes
+        let windowScene = scenes.first as? UIWindowScene
+        
+        if let window = windowScene?.windows.first, let rootViewController = window.rootViewController as? UINavigationController {
+            let postSB = UIStoryboard.init(name: "PostSB", bundle: nil)
+            let postVC = postSB.instantiateViewController(withIdentifier: "postViewControllerID") as! PostViewController
+            rootViewController.pushViewController(postVC, animated: true)
         }
     }
 

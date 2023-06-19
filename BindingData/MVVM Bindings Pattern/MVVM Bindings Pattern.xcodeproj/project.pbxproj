@@ -13,6 +13,7 @@
 		5530F8DB2A39482500973EEA /* PostModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5530F8DA2A39482500973EEA /* PostModel.swift */; };
 		5530F8DD2A3949C700973EEA /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5530F8DC2A3949C700973EEA /* PostViewModel.swift */; };
 		5530F8DF2A3951AF00973EEA /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5530F8DE2A3951AF00973EEA /* PostViewController.swift */; };
+		558AF5002A402CDC00DA2208 /* PostSB.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 558AF4FF2A402CDC00DA2208 /* PostSB.storyboard */; };
 		558B751F2A271D3D00338F73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558B751E2A271D3D00338F73 /* AppDelegate.swift */; };
 		558B75212A271D3D00338F73 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558B75202A271D3D00338F73 /* SceneDelegate.swift */; };
 		558B75232A271D3D00338F73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558B75222A271D3D00338F73 /* ViewController.swift */; };
@@ -33,6 +34,7 @@
 		5530F8DA2A39482500973EEA /* PostModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostModel.swift; sourceTree = "<group>"; };
 		5530F8DC2A3949C700973EEA /* PostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
 		5530F8DE2A3951AF00973EEA /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
+		558AF4FF2A402CDC00DA2208 /* PostSB.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PostSB.storyboard; sourceTree = "<group>"; };
 		558B751B2A271D3D00338F73 /* MVVM Bindings Pattern.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MVVM Bindings Pattern.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		558B751E2A271D3D00338F73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		558B75202A271D3D00338F73 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -130,6 +132,7 @@
 				558B75242A271D3D00338F73 /* Main.storyboard */,
 				5511D25B2A31948100F83EC8 /* LoginViewController.swift */,
 				5530F8DE2A3951AF00973EEA /* PostViewController.swift */,
+				558AF4FF2A402CDC00DA2208 /* PostSB.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				558AF5002A402CDC00DA2208 /* PostSB.storyboard in Resources */,
 				558B752B2A271D3F00338F73 /* LaunchScreen.storyboard in Resources */,
 				558B75282A271D3F00338F73 /* Assets.xcassets in Resources */,
 				558B75372A27278D00338F73 /* README.md in Resources */,
