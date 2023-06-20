@@ -37,8 +37,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         self.userViewModel.fetchData()
         
         //Register push
-        let appDelegate = UIApplication.shared.delegate as! AppDelegate
-        appDelegate.registerForRemoteNotification()
+//        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+//        appDelegate.registerForRemoteNotification()
         
     }
   
