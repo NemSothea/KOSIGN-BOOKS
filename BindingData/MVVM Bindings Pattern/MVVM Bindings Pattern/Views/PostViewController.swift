@@ -33,7 +33,7 @@ class PostViewController: UIViewController, UITableViewDelegate, UITableViewData
         self.postVM.getPostData()
     }
     
-    //MARK: - TableViewDelate, TableViewDataSource
+    //MARK: - TableViewDelegate, TableViewDataSource
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return self.postVM.postData.value.count
     }

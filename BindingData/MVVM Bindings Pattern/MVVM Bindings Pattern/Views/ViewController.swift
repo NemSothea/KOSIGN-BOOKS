@@ -42,7 +42,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
     }
   
-    //MARK: - TableViewDelate, TableViewDataSource
+    //MARK: - TableViewDelegate, TableViewDataSource
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return userViewModel.users.value.count
     }
