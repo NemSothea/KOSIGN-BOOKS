@@ -8,29 +8,32 @@
 import UIKit
 
 class PostViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
-  
+    
+    //@IBoutlet
     @IBOutlet weak var tableView : UITableView!
     
+    //@Variable
     private(set) var postVM = PostViewModel()
 
+    //MARK: - Viewcontroller life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        
-        
         self.tableView.estimatedRowHeight = 80
         self.tableView.rowHeight = UITableView.automaticDimension
         
+        // bind data and reload data
         self.postVM.postData.bind { [weak self] _ in
             DispatchQueue.main.async {
                 self?.tableView.reloadData()
             }
         }
-        
+        // Initial data after arrived this screen
         self.postVM.getPostData()
     }
     
+    //MARK: - TableViewDelate, TableViewDataSource
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return self.postVM.postData.value.count
     }
@@ -55,6 +58,8 @@ class PostViewController: UIViewController, UITableViewDelegate, UITableViewData
     */
 
 }
+
+//MARK: - CustomCell
 class CustomCell : UITableViewCell {
     
     @IBOutlet weak var title : UILabel!

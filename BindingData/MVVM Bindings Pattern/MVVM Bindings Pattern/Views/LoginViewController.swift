@@ -8,18 +8,23 @@
 import UIKit
 
 class LoginViewController: UIViewController {
-
+    
+    //@IBoutlet
     @IBOutlet weak var emailTextField       : UITextField!
     @IBOutlet weak var passwordTextField    : UITextField!
     
+    //@Variable
     private lazy var loginVM                = LoginViewModel()
     
+    
+    //MARK: - Viewcontroller life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         self.setupBinding()
     }
     
+    //MARK: - Function
     private func setupBinding() {
         self.loginVM.loginSuccess.bind { [weak self] success in
             
@@ -37,6 +42,7 @@ class LoginViewController: UIViewController {
         self.navigationController?.pushViewController(homeVc, animated: true)
     }
     
+    //MARK: - @IBAction
     @IBAction func SignupButtonPress(_ sender: UIButton) {
         
         guard let email = emailTextField.text, let password = passwordTextField.text else {

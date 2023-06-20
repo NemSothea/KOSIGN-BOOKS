@@ -11,7 +11,6 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
     var countBage : Int = 0
-    var window : UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
@@ -84,7 +83,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
-//Mark : UNUserNotificationCenterDelegate
+//MARK: - UNUserNotificationCenterDelegate
 extension AppDelegate : UNUserNotificationCenterDelegate {
     public func registerForRemoteNotification() {
         
@@ -108,7 +107,6 @@ extension AppDelegate : UNUserNotificationCenterDelegate {
         
     }
     /**
-     MARK-:
     - If the app is in the foreground, the app will call this.
      */
     func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
