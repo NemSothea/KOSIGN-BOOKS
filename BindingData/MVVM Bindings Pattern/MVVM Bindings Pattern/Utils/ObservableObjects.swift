@@ -24,10 +24,12 @@ class ObservableObjects<T> {
         self.value = value
     }
     // Bind a listener closure to the observable object
-    func bind(_ listener : @escaping (T) -> Void) {
+    func bind(isImmediately : Bool = false, _ listener : @escaping (T) -> Void) {
         
         // Call the listener with the current value to ensure it receives the initial value
-        listener(value)
+        if isImmediately {
+            listener(value)
+        }
         
         // Set the listener to the provided closure
         self.listener = listener

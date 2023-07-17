@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		559CB6B52A6528BD00545318 /* TEST_PUSH_TIPS Ent.key in Resources */ = {isa = PBXBuildFile; fileRef = 559CB6B42A6528BD00545318 /* TEST_PUSH_TIPS Ent.key */; };
+		559CB6B72A6528C500545318 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 559CB6B62A6528C500545318 /* README.md */; };
 		55EEB41C2A4512AD00408E4B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EEB41B2A4512AD00408E4B /* AppDelegate.swift */; };
 		55EEB41E2A4512AD00408E4B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EEB41D2A4512AD00408E4B /* SceneDelegate.swift */; };
 		55EEB4202A4512AD00408E4B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EEB41F2A4512AD00408E4B /* ViewController.swift */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		559CB6B42A6528BD00545318 /* TEST_PUSH_TIPS Ent.key */ = {isa = PBXFileReference; lastKnownFileType = file; path = "TEST_PUSH_TIPS Ent.key"; sourceTree = "<group>"; };
+		559CB6B62A6528C500545318 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		55EEB4182A4512AD00408E4B /* FcmSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FcmSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55EEB41B2A4512AD00408E4B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55EEB41D2A4512AD00408E4B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +51,8 @@
 		55EEB40F2A4512AD00408E4B = {
 			isa = PBXGroup;
 			children = (
+				559CB6B62A6528C500545318 /* README.md */,
+				559CB6B42A6528BD00545318 /* TEST_PUSH_TIPS Ent.key */,
 				55EEB41A2A4512AD00408E4B /* FcmSample */,
 				55EEB4192A4512AD00408E4B /* Products */,
 			);
@@ -141,7 +147,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				559CB6B72A6528C500545318 /* README.md in Resources */,
 				55EEB4282A4512AE00408E4B /* LaunchScreen.storyboard in Resources */,
+				559CB6B52A6528BD00545318 /* TEST_PUSH_TIPS Ent.key in Resources */,
 				55EEB4302A45157700408E4B /* GoogleService-Info.plist in Resources */,
 				55EEB4252A4512AE00408E4B /* Assets.xcassets in Resources */,
 				55EEB4232A4512AD00408E4B /* Main.storyboard in Resources */,
