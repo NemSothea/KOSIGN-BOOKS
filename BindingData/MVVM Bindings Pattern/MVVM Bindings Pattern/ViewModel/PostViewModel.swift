@@ -13,14 +13,26 @@ class PostViewModel {
     
     func getPostData() {
         
-        guard let url = URL(string: "https://jsonplaceholder.typicode.com/posts") else {return}
-        
-        let dataTask = URLSession.shared.dataTask(with: url) {(data,_,_) in
-            guard let data = data else {return}
+        // Create the URL for the API endpoint
+        guard let url = URL(string: "https://jsonplaceholder.typicode.com/posts") else {
+            return
+            
+        }
+        // Perform a data task to fetch the data from the URL
+        let dataTask = URLSession.shared.dataTask(with: url) {(data, response ,error) in
+            guard let data = data, error == nil, let response = response as? HTTPURLResponse, response.statusCode == 200 else {
+                // Handle the error case
+                print(error?.localizedDescription ?? "Data request failed")
+                return
+            }
             do {
+                // Decode the retrieved data into an array of PostModel objects
                 let postModels = try JSONDecoder().decode([PostModel].self, from: data)
                 
-                self.postData.value =  postModels.compactMap({ UserPostTableModel(title: $0.title, body: $0.body) })
+                // Convert the PostModel objects into an array of UserPostTableModel objects
+                let userPostTableViewModel =  postModels.compactMap({ UserPostTableModel(title: $0.title, body: $0.body) })
+                
+                // Update the value of the postData observable object with the converted models
                 
             }catch {
                 print(error.localizedDescription)

@@ -15,46 +15,24 @@ class DataAccess {
     private init(){}
     
     func login(email: String, password : String, completion : @escaping(Bool) -> Void) {
+        // Perform the login asynchronously on the main queue to simulate network request
         
         DispatchQueue.main.async { [weak self] in
+            // Check if the provided email and password match the expected values for successful login
             if email == "test@test.com" && password == "123" {
+                
+                // Create a user object with the provided name and email
                 self?.user = Users(name: "test", email: "test@test.com")
+                
+                // Invoke the completion handler with a value of true to indicate successful login
                 completion(true)
             }else {
+                // Clear the user object as login failed
                 self?.user = nil
+                // Invoke the completion handler with a value of false to indicate failed login
                 completion(false)
             }
         }
-       /*
-        guard let url = URL(string: "https://jsonplaceholder.typicode.com/users") else {
-            return
-        }
-        let task = URLSession.shared.dataTask(with: url) {(data,_,_) in
-            guard let data = data else {
-                return
-            }
-            
-            do {
-                let userModels = try JSONDecoder().decode([Users].self, from: data)
-                
-                DispatchQueue.main.async { [weak self] in
-                    if email == "test@test.com" && password == "123" {
-                        self?.user = Users(name: "test", email: "test@test.com")
-                        completion(true)
-                    }else {
-                        self?.user = nil
-                        completion(false)
-                    }
-                }
-                
-            }catch {
-                print(error.localizedDescription)
-            }
-            
-        }
-        
-        task.resume()
-        */
     }
     
     

@@ -7,144 +7,8 @@
 
 import UIKit
 
-import Firebase
-import FirebaseMessaging
-import FirebaseAnalytics
-
-//MARK: - Simple push notification by : FCM
-@main
-class AppDelegate: UIResponder, UIApplicationDelegate {
-    
-    let gcmMessageIDKey = "gcm.Message_ID"
-    
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-       
-        /*
-         1. It configures your app to work with Firebase.
-         2. It sets how much Firebase will log. Setting this to min reduces the amount of data you’ll see in your debugger.
-         */
-        //1
-        FirebaseApp.configure()
-        //2
-        FirebaseConfiguration.shared.setLoggerLevel(.min)
-        
-        UNUserNotificationCenter.current().delegate = self
-
-        let authOptions: UNAuthorizationOptions = [.alert, .badge, .sound]
-        UNUserNotificationCenter.current().requestAuthorization(
-          options: authOptions,
-          completionHandler: { _, _ in }
-        )
-
-        application.registerForRemoteNotifications()
-
-        Messaging.messaging().delegate = self
-        
-        return true
-    }
-
-    // MARK: UISceneSession Lifecycle
-
-    func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
-        // Called when a new scene session is being created.
-        // Use this method to select a configuration to create the new scene with.
-        return UISceneConfiguration(name: "Default Configuration", sessionRole: connectingSceneSession.role)
-    }
-
-    func application(_ application: UIApplication, didDiscardSceneSessions sceneSessions: Set<UISceneSession>) {
-        // Called when the user discards a scene session.
-        // If any sessions were discarded while the application was not running, this will be called shortly after application:didFinishLaunchingWithOptions.
-        // Use this method to release any resources that were specific to the discarded scenes, as they will not return.
-    }
-    func application(_ application: UIApplication, didRegisterForRemoteNotificationsWithDeviceToken deviceToken: Data) {
-        Messaging.messaging().apnsToken = deviceToken
-    }
-
-}
-
-//MARK: - MessagingDelegate
-extension AppDelegate : MessagingDelegate {
-    func messaging(_ messaging: Messaging, didReceiveRegistrationToken fcmToken: String?) {
-      print("Firebase registration token: \(String(describing: fcmToken))")
-      
-      let dataDict: [String: String] = ["token": fcmToken ?? ""]
-      NotificationCenter.default.post(
-        name: Notification.Name("FCMToken"),
-        object: nil,
-        userInfo: dataDict
-      )
-      // TODO: If necessary send token to application server.
-      // Note: This callback is fired at each app startup and whenever a new token is generated.
-    }
-}
-
-//MARK: - UNUserNotificationCenterDelegate
-extension AppDelegate : UNUserNotificationCenterDelegate {
-    /**
-    - If the app is in the foreground, the app will call this.
-     */
-    func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
-        
-        let userInfo = notification.request.content.userInfo
-
-        Messaging.messaging().appDidReceiveMessage(userInfo)
-        completionHandler([.list,.banner,.badge,.sound])
-        
-    }
-    
-    /**
-     MARK -:
-     -  If the app is in the background, nothing is called until the user taps the notification, at that point, the app will open and call this.
-     */
-    func userNotificationCenter(_ center: UNUserNotificationCenter,
-                                didReceive response: UNNotificationResponse,
-                                withCompletionHandler completionHandler: @escaping () -> Void) {
-      let userInfo = response.notification.request.content.userInfo
-
-        // Print full message.
-           print(userInfo)
-
-      completionHandler()
-    }
-    /**
-      MARK -:
-      - If the app is in the background, and "content-available" == true
-      
-    func application(_ application: UIApplication, didReceiveRemoteNotification userInfo: [AnyHashable : Any]) {
-      
-    }
-      */
-    func application(_ application: UIApplication,
-                       didReceiveRemoteNotification userInfo: [AnyHashable: Any],
-                       fetchCompletionHandler completionHandler: @escaping (UIBackgroundFetchResult)
-                         -> Void) {
-        // If you are receiving a notification message while your app is in the background,
-        // this callback will not be fired till the user taps on the notification launching the application.
-        // TODO: Handle data of notification
-
-        // With swizzling disabled you must let Messaging know about the message, for Analytics
-        // Messaging.messaging().appDidReceiveMessage(userInfo)
-
-        // Print message ID.
-        if let messageID = userInfo[gcmMessageIDKey] {
-          print("Message ID: \(messageID)")
-        }
-
-        // Print full message.
-        print(userInfo)
-
-        completionHandler(UIBackgroundFetchResult.newData)
-      }
-  
-    func application(_ application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: Error) {
-        print(error.localizedDescription)
-    }
-}
-
 
 //MARK: - Simple Push notification by : APNS
-/*
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
@@ -157,6 +21,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
          */
         
         UNUserNotificationCenter.current().delegate = self
+        /*
+         - Just example if push have count bage : 1, 2, 3
+         */
         countBage = UIApplication.shared.applicationIconBadgeNumber
         
         return true
@@ -193,7 +60,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
      */
     func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
         // TODO -:
-        /* Method : 1
+        /* Method : 1 -> Push the PostViewController onto the navigation stack by NotificationCenter
+         
         NotificationCenter.default.post(name: NSNotification.Name(rawValue: "NewPost"), object: response.notification.request.content.userInfo)
          */
         
@@ -201,7 +69,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         guard let aps   = response.notification.request.content.userInfo["aps"] as? [String : Any] else { return }
         guard let isNewPost  = aps["post"] as? String else { return }
         
-        
+        // If isNewPost data come and true
+        //Push the PostViewController onto the navigation stack
         if isNewPost == "true" {
             self.pushToPostViewController()
         }
@@ -209,12 +78,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
        
     }
     private func pushToPostViewController() {
+        // Get the current window scene
         let scenes = UIApplication.shared.connectedScenes
         let windowScene = scenes.first as? UIWindowScene
         
         if let window = windowScene?.windows.first, let rootViewController = window.rootViewController as? UINavigationController {
+            // Instantiate the PostViewController from the PostSB storyboard
             let postSB = UIStoryboard.init(name: "PostSB", bundle: nil)
             let postVC = postSB.instantiateViewController(withIdentifier: "postViewControllerID") as! PostViewController
+            // Push the PostViewController onto the navigation stack
             rootViewController.pushViewController(postVC, animated: true)
         }
     }
@@ -226,36 +98,40 @@ extension AppDelegate : UNUserNotificationCenterDelegate {
     public func registerForRemoteNotification() {
         
         // For display notification (send via APNS)
+        // Set the current object as the delegate for the user notification center
         UNUserNotificationCenter.current().delegate = self
+        
+        // Define the authorization options for receiving notifications
         let authOptions : UNAuthorizationOptions = [.alert,.badge,.sound]
         
+        // Request user authorization for displaying notifications
         UNUserNotificationCenter.current().requestAuthorization(options: authOptions) { (granted, error) in
             switch error {
             case .none :
+                // If authorization is granted, register for remote notifications on the main queue
                 if granted {
                     DispatchQueue.main.async {
                         UIApplication.shared.registerForRemoteNotifications()
                     }
                 }
             case .some(let error) :
+                // Retry the registration in case of error and print the error description
                 self.registerForRemoteNotification()
                 print(error.localizedDescription)
             }
         }
         
     }
-    /**
-    - If the app is in the foreground, the app will call this.
-     */
+    // This method is called when a notification is received and the app is in the foreground
     func userNotificationCenter(_ center: UNUserNotificationCenter, willPresent notification: UNNotification, withCompletionHandler completionHandler: @escaping (UNNotificationPresentationOptions) -> Void) {
-        
+        // Configure the presentation options for the notification
         completionHandler([.list,.banner,.badge,.sound])
         
     }
+    // This method is called when the app fails to register for remote notifications
     func application(_ application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: Error) {
         print(error.localizedDescription)
     }
 }
-*/
 
 

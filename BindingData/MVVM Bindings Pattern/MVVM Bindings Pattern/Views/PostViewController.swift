@@ -9,10 +9,10 @@ import UIKit
 
 class PostViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    //@IBoutlet
+    //MARK: - IBOutlet
     @IBOutlet weak var tableView : UITableView!
     
-    //@Variable
+    //MARK: Properties
     private(set) var postVM = PostViewModel()
 
     //MARK: - Viewcontroller life cycle

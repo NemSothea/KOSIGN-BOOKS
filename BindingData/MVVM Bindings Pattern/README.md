@@ -9,9 +9,7 @@ This for Binding Data of iOS development.
 - https://jsonplaceholder.typicode.com/users
 
 2. PUSH Notification : APNS(Apple Push notification SSL(Sandbox & Production))
-- https://flow.team/l/0wOc2
+- Personal : https://flow.team/l/0wOc2
 - Alert Style Mode
 - Background Mode
--
-- KeyChain
-
+- Account = test@test.com/123

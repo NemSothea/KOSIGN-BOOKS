@@ -9,15 +9,15 @@ import UIKit
 
 class LoginViewController: UIViewController {
     
-    //@IBoutlet
+    //MARK: - IBoutlet
     @IBOutlet weak var emailTextField       : UITextField!
     @IBOutlet weak var passwordTextField    : UITextField!
     
-    //@Variable
+    //MARK: - Properties
     private lazy var loginVM                = LoginViewModel()
     
     
-    //MARK: - Viewcontroller life cycle
+    //MARK: - View life cycle
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
