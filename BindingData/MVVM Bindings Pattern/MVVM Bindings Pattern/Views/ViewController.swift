@@ -37,8 +37,8 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         self.userViewModel.fetchData()
         
         //Register push
-//        let appDelegate = UIApplication.shared.delegate as! AppDelegate
-//        appDelegate.registerForRemoteNotification()
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        appDelegate.registerForRemoteNotification()
         
     }
   
@@ -60,19 +60,29 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     //MARK: - Function
     private func pushPostVC() {
-        let postVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "postViewControllerID") as! PostViewController
+        
+        guard let postVC = UIStoryboard(name: "PostSB", bundle: nil).instantiateViewController(withIdentifier: "postViewControllerID") as? PostViewController else {
+            return
+        }
         self.navigationController?.pushViewController(postVC, animated: true)
+        
     }
     
     //MARK: - @objc Function
     @objc func postNotification(_ userInfo : Notification) {
         
-        let obj = userInfo.object as! NSDictionary
-        guard let aps = obj.object(forKey: "aps") as? [String :Any] else {return}
-        guard let isNewPost = aps["post"] as? String else { return }
+        guard let userInfoDict = userInfo.object as? NSDictionary else {
+            return
+        }
+
+        guard let aps = userInfoDict["aps"] as? [String: Any], let isNewPost = aps["post"] as? String else {
+            return
+        }
+
         if isNewPost == "true" {
             self.pushPostVC()
         }
+        
     }
     
 }

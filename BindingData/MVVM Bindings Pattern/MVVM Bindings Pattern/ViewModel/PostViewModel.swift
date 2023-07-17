@@ -30,9 +30,7 @@ class PostViewModel {
                 let postModels = try JSONDecoder().decode([PostModel].self, from: data)
                 
                 // Convert the PostModel objects into an array of UserPostTableModel objects
-                let userPostTableViewModel =  postModels.compactMap({ UserPostTableModel(title: $0.title, body: $0.body) })
-                
-                // Update the value of the postData observable object with the converted models
+                self.postData.value =  postModels.compactMap({ UserPostTableModel(title: $0.title, body: $0.body) })
                 
             }catch {
                 print(error.localizedDescription)

@@ -23,7 +23,9 @@ class LoginViewController: UIViewController {
         // Do any additional setup after loading the view.
         self.setupBinding()
     }
-    
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
     //MARK: - Function
     private func setupBinding() {
         self.loginVM.loginSuccess.bind { [weak self] success in
@@ -38,18 +40,24 @@ class LoginViewController: UIViewController {
         }
     }
     private func setHome() {
-        let homeVc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ViewControllerID") as! ViewController
+        guard let homeVc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ViewControllerID") as? ViewController else {
+            return
+        }
         self.navigationController?.pushViewController(homeVc, animated: true)
     }
     
     //MARK: - @IBAction
-    @IBAction func SignupButtonPress(_ sender: UIButton) {
+    @IBAction func SignInPressed(_ sender: UIButton) {
         
         guard let email = emailTextField.text, let password = passwordTextField.text else {
-            print("Please enter email and password..")
+          
             return
         }
+     
+     
         self.loginVM.requestLogin(email: email, password: password)
+        
+     
         
     }
     

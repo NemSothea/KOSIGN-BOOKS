@@ -9,11 +9,11 @@ import Foundation
 
 class LoginViewModel {
     
-    lazy var loginSuccess = ObservableObjects<Bool>(false)
+    lazy var loginSuccess   = ObservableObjects<Bool>(false)
     
     func requestLogin(email : String, password : String) {
         DataAccess.shared.login(email: email, password: password) { [weak self] success in
-            self?.loginSuccess.value = success
+            self?.loginSuccess.value    = success
         }
     }
     
