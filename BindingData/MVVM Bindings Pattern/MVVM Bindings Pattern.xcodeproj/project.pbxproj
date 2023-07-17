@@ -25,8 +25,6 @@
 		558B753A2A27288200338F73 /* ObservableObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558B75392A27288200338F73 /* ObservableObjects.swift */; };
 		558B753D2A2728E100338F73 /* UserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558B753C2A2728E100338F73 /* UserViewModel.swift */; };
 		55BC8BCD2A36DAD9005185B0 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55BC8BCC2A36DAD9005185B0 /* LoginViewModel.swift */; };
-		55BD80292A4914550045F54B /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 55BD80282A4914550045F54B /* FirebaseAnalytics */; };
-		55BD802B2A4914550045F54B /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 55BD802A2A4914550045F54B /* FirebaseMessaging */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,8 +57,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55BD802B2A4914550045F54B /* FirebaseMessaging in Frameworks */,
-				55BD80292A4914550045F54B /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -160,8 +156,6 @@
 			);
 			name = "MVVM Bindings Pattern";
 			packageProductDependencies = (
-				55BD80282A4914550045F54B /* FirebaseAnalytics */,
-				55BD802A2A4914550045F54B /* FirebaseMessaging */,
 			);
 			productName = "MVVM Bindings Pattern";
 			productReference = 558B751B2A271D3D00338F73 /* MVVM Bindings Pattern.app */;
@@ -192,7 +186,6 @@
 			);
 			mainGroup = 558B75122A271D3D00338F73;
 			packageReferences = (
-				55BD80272A4914550045F54B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = 558B751C2A271D3D00338F73 /* Products */;
 			projectDirPath = "";
@@ -459,30 +452,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		55BD80272A4914550045F54B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 10.11.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		55BD80282A4914550045F54B /* FirebaseAnalytics */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 55BD80272A4914550045F54B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseAnalytics;
-		};
-		55BD802A2A4914550045F54B /* FirebaseMessaging */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 55BD80272A4914550045F54B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
-			productName = FirebaseMessaging;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 558B75132A271D3D00338F73 /* Project object */;
 }
