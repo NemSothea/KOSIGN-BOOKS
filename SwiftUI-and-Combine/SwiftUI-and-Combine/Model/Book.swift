@@ -8,11 +8,14 @@
 import Foundation
 
 struct Book {
+    
     var title   : String
     var uthour  : String
     var isbn    : String
     var pages   : Int
+    
 }
+
 extension Book {
     //Computed properties
     var smallCoverImageName : String {
@@ -24,4 +27,5 @@ extension Book {
     var largeCoverImageName : String {
         return "\(isbn) -L"
     }
+    
 }

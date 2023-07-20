@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5C1C329B2A694427009F9175 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1C329A2A694427009F9175 /* Book.swift */; };
+		5C1C329E2A694631009F9175 /* Chapter02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1C329D2A694631009F9175 /* Chapter02.swift */; };
 		5C79D8E22A67F610007BA488 /* SwiftUI_and_CombineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C79D8E12A67F610007BA488 /* SwiftUI_and_CombineApp.swift */; };
 		5C79D8E42A67F610007BA488 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C79D8E32A67F610007BA488 /* ContentView.swift */; };
 		5C79D8E62A67F611007BA488 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C79D8E52A67F611007BA488 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		5C1C329A2A694427009F9175 /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		5C1C329D2A694631009F9175 /* Chapter02.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter02.swift; sourceTree = "<group>"; };
 		5C79D8DE2A67F610007BA488 /* SwiftUI-and-Combine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-and-Combine.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C79D8E12A67F610007BA488 /* SwiftUI_and_CombineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_and_CombineApp.swift; sourceTree = "<group>"; };
 		5C79D8E32A67F610007BA488 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -81,6 +83,14 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		5C1C329C2A6944EA009F9175 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5C1C329D2A694631009F9175 /* Chapter02.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		5C79D8D52A67F610007BA488 = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +114,7 @@
 		5C79D8E02A67F610007BA488 /* SwiftUI-and-Combine */ = {
 			isa = PBXGroup;
 			children = (
+				5C1C329C2A6944EA009F9175 /* View */,
 				5C1C32992A694426009F9175 /* Model */,
 				5C79D8E12A67F610007BA488 /* SwiftUI_and_CombineApp.swift */,
 				5C79D8E32A67F610007BA488 /* ContentView.swift */,
@@ -271,6 +282,7 @@
 				5C79D8E42A67F610007BA488 /* ContentView.swift in Sources */,
 				5C79D8E22A67F610007BA488 /* SwiftUI_and_CombineApp.swift in Sources */,
 				5C1C329B2A694427009F9175 /* Book.swift in Sources */,
+				5C1C329E2A694631009F9175 /* Chapter02.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
