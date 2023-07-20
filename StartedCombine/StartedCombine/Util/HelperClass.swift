@@ -10,3 +10,6 @@ import Foundation
 extension Notification.Name {
     static let newBlogPost = Notification.Name("new_blog_post")
 }
+enum RequestError : Error {
+    case sessionError(error: Error)
+}

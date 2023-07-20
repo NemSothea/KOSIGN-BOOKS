@@ -30,7 +30,9 @@ final class TestViewController: UIViewController {
        
         //Testing published
         self.updateUI()
-        self.testPublishedSubmite()
+        self.testPublishedSubmited()
+        
+        //
        
     }
     //MARK: - IBAction
@@ -40,7 +42,8 @@ final class TestViewController: UIViewController {
         
     }
     //MARK: - Function
-    private func testPublishedSubmite() {
+    
+    private func testPublishedSubmited() {
         switchsubscribers =
         viewModel.$isSubmitAllowed
             .receive(on: DispatchQueue.main)
