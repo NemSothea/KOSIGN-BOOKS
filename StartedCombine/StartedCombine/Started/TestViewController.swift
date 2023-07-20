@@ -9,11 +9,47 @@ import UIKit
 import Combine
 
 class TestViewController: UIViewController {
-
+    
+    //MARK: - @IBoutlet
+    @IBOutlet private weak var acceptTermsSwitch    : UISwitch!
+    @IBOutlet private weak var submitButton         : UIButton!
+    
+    
+    //MARK: Properties
+    ///@Published usage to bind values to changes
+    @Published var isSubmitAllowed : Bool = false
+    
+    private var subscribers : [AnyCancellable] = []
+    
+    //MARK: - ViewLifeCycle
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        //Testing blogPost
+//        self.testBlogPost()
+       
+        //Testing published
+        self.testPublishedSubmite()
+        
+    }
+    //MARK: - IBAction
+    @IBAction func didSwitch(_ sender : UISwitch) {
+        
+        isSubmitAllowed = sender.isOn
+        
+    }
+    //MARK: - Function
+    private func testPublishedSubmite() {
+        
+        acceptTermsSwitch.isOn = false
+        
+        $isSubmitAllowed
+            .receive(on: DispatchQueue.main)
+            .assign(to: \.isEnabled, on: submitButton)
+            .store(in: &subscribers)
+    }
+    private func testBlogPost () {
         
         /// 1. Create a publisher that listens for notifications named .newBlogPost from the default notification center.
         ///    The publisher maps the notification object (a BlogPost object) to its title (String?) using the map operator.
@@ -41,7 +77,6 @@ class TestViewController: UIViewController {
         print("Result BlogPost:\(lastPostLabel.text!)")
         
     }
-    
 
     /*
     // MARK: - Navigation

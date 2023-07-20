@@ -15,13 +15,41 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ONQ-oX-It7">
+                                <rect key="frame" x="172" y="410.66666666666669" width="51" height="31"/>
+                                <connections>
+                                    <action selector="didSwitch:" destination="BYZ-38-t0r" eventType="valueChanged" id="O26-A0-Hc5"/>
+                                </connections>
+                            </switch>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m4D-3o-lk0">
+                                <rect key="frame" x="146.66666666666666" y="461" width="100" height="30"/>
+                                <color key="backgroundColor" red="0.0" green="0.77647058820000003" blue="0.77647058820000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="U3W-qo-LAz"/>
+                                </constraints>
+                                <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="Submit"/>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ONQ-oX-It7" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="FKY-wu-Rkj"/>
+                            <constraint firstItem="m4D-3o-lk0" firstAttribute="centerX" secondItem="ONQ-oX-It7" secondAttribute="centerX" id="Jyd-M7-a9B"/>
+                            <constraint firstItem="ONQ-oX-It7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="N2M-XM-ZiJ"/>
+                            <constraint firstItem="m4D-3o-lk0" firstAttribute="centerY" secondItem="ONQ-oX-It7" secondAttribute="centerY" constant="50" id="eXV-0X-hmp"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="acceptTermsSwitch" destination="ONQ-oX-It7" id="Xzh-3C-sFw"/>
+                        <outlet property="submitButton" destination="m4D-3o-lk0" id="x3y-CZ-mFc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="140" y="4"/>
+            <point key="canvasLocation" x="139.69465648854961" y="3.5211267605633805"/>
         </scene>
     </scenes>
     <resources>
