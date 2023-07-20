@@ -8,21 +8,24 @@
 import SwiftUI
 
 struct Chapter02: View {
+    
+    var books : [Book]
+    
     var body: some View {
-        List(0..<5) { item in
+        
+        List(books) { book in
             HStack(alignment: .top) {
-                Image("9781916265202-M")
+                Image(book.mediumCoverImageName)
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                     .frame(height: 90)
                 VStack(alignment:.leading) {
-                    Text("Hello, World!")
+                    Text(book.title)
                         .font(.headline)
-                    Text("by Hello, World!")
+                    Text("by \(book.uthour)")
                         .font(.subheadline)
-                    Text("450 pages")
+                    Text("\(book.pages) pages")
                         .font(.subheadline)
-                    
                 }
                 Spacer()
             }
@@ -34,6 +37,6 @@ struct Chapter02: View {
 
 struct Chapter02_Previews: PreviewProvider {
     static var previews: some View {
-        Chapter02()
+        Chapter02(books: Book.sampleBook)
     }
 }

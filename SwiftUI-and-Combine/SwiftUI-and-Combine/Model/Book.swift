@@ -7,8 +7,8 @@
 
 import Foundation
 
-struct Book {
-    
+struct Book : Identifiable {
+    var id      = UUID().uuidString
     var title   : String
     var uthour  : String
     var isbn    : String
@@ -19,13 +19,21 @@ struct Book {
 extension Book {
     //Computed properties
     var smallCoverImageName : String {
-        return "\(isbn) -S"
+        return "\(isbn)-S"
     }
     var mediumCoverImageName : String {
-        return "\(isbn) -M"
+        return "\(isbn)-M"
     }
     var largeCoverImageName : String {
-        return "\(isbn) -L"
+        return "\(isbn)-L"
     }
+    
+}
+extension Book {
+    static let sampleBook = [
+        Book(title: "Hello, World!", uthour: "Sothea", isbn:"9781916265202", pages: 200),
+        Book(title: "Hello, Boy!", uthour: "Borey", isbn:"9781916265202", pages: 200),
+        Book(title: "Hello, Mama!", uthour: "Borey", isbn:"9781916265202", pages: 500)
+    ]
     
 }
