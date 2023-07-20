@@ -8,7 +8,7 @@
 import UIKit
 import Combine
 
-class TestViewController: UIViewController {
+final class TestViewController: UIViewController {
     
     //MARK: - @IBoutlet
     @IBOutlet private weak var acceptTermsSwitch    : UISwitch!
@@ -16,10 +16,9 @@ class TestViewController: UIViewController {
     
     
     //MARK: Properties
-    ///@Published usage to bind values to changes
-    @Published var isSubmitAllowed : Bool = false
+    private var viewModel        = TestViewModel()
+    private var switchsubscribers : AnyCancellable?
     
-    private var subscribers : [AnyCancellable] = []
     
     //MARK: - ViewLifeCycle
     override func viewDidLoad() {
@@ -30,25 +29,28 @@ class TestViewController: UIViewController {
 //        self.testBlogPost()
        
         //Testing published
+        self.updateUI()
         self.testPublishedSubmite()
-        
+       
     }
     //MARK: - IBAction
     @IBAction func didSwitch(_ sender : UISwitch) {
         
-        isSubmitAllowed = sender.isOn
+        viewModel.isSubmitAllowed = sender.isOn
         
     }
     //MARK: - Function
     private func testPublishedSubmite() {
-        
-        acceptTermsSwitch.isOn = false
-        
-        $isSubmitAllowed
+        switchsubscribers =
+        viewModel.$isSubmitAllowed
             .receive(on: DispatchQueue.main)
             .assign(to: \.isEnabled, on: submitButton)
-            .store(in: &subscribers)
     }
+    private func updateUI() {
+        self.acceptTermsSwitch.isOn = false
+        self.submitButton.layer.cornerRadius = 6.0
+    }
+    
     private func testBlogPost () {
         
         /// 1. Create a publisher that listens for notifications named .newBlogPost from the default notification center.
@@ -89,15 +91,6 @@ class TestViewController: UIViewController {
      -> Link : https://www.avanderlee.com/swift/combine/
     */
 
-}
-
-struct BlogPost {
-    let title   : String
-    let url     : URL
-}
-
-extension Notification.Name {
-    static let newBlogPost = Notification.Name("new_blog_post")
 }
 /**
  1. The basic principles of Combine
