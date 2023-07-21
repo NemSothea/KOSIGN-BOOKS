@@ -11,6 +11,13 @@
 		55A34DC52A6A109B007ACC4A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A34DC42A6A109B007ACC4A /* ContentView.swift */; };
 		55A34DC72A6A109D007ACC4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55A34DC62A6A109D007ACC4A /* Assets.xcassets */; };
 		55A34DCA2A6A109D007ACC4A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55A34DC92A6A109D007ACC4A /* Preview Assets.xcassets */; };
+		55A34DD12A6A1162007ACC4A /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 55A34DD02A6A1162007ACC4A /* README.md */; };
+		55A34DD42A6A123D007ACC4A /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A34DD32A6A123D007ACC4A /* TaskListView.swift */; };
+		55A34DD72A6A5D8B007ACC4A /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 55A34DD62A6A5D8B007ACC4A /* Algorithms */; };
+		55A34DDA2A6A79AD007ACC4A /* TaskBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A34DD92A6A79AD007ACC4A /* TaskBoardView.swift */; };
+		55A34DDC2A6A7A74007ACC4A /* TaskRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A34DDB2A6A7A74007ACC4A /* TaskRowView.swift */; };
+		55A34DDF2A6A7ACE007ACC4A /* TodoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A34DDE2A6A7ACE007ACC4A /* TodoList.swift */; };
+		55A34DE22A6A7B4E007ACC4A /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A34DE12A6A7B4E007ACC4A /* Helper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		55A34DC42A6A109B007ACC4A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		55A34DC62A6A109D007ACC4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		55A34DC92A6A109D007ACC4A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		55A34DD02A6A1162007ACC4A /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		55A34DD32A6A123D007ACC4A /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
+		55A34DD82A6A6F86007ACC4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		55A34DD92A6A79AD007ACC4A /* TaskBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskBoardView.swift; sourceTree = "<group>"; };
+		55A34DDB2A6A7A74007ACC4A /* TaskRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRowView.swift; sourceTree = "<group>"; };
+		55A34DDE2A6A7ACE007ACC4A /* TodoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoList.swift; sourceTree = "<group>"; };
+		55A34DE12A6A7B4E007ACC4A /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55A34DD72A6A5D8B007ACC4A /* Algorithms in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,6 +50,7 @@
 		55A34DB62A6A109B007ACC4A = {
 			isa = PBXGroup;
 			children = (
+				55A34DD02A6A1162007ACC4A /* README.md */,
 				55A34DC12A6A109B007ACC4A /* FlowApp */,
 				55A34DC02A6A109B007ACC4A /* Products */,
 			);
@@ -51,6 +67,10 @@
 		55A34DC12A6A109B007ACC4A /* FlowApp */ = {
 			isa = PBXGroup;
 			children = (
+				55A34DE02A6A7B3C007ACC4A /* Util */,
+				55A34DDD2A6A7AB7007ACC4A /* Model */,
+				55A34DD82A6A6F86007ACC4A /* Info.plist */,
+				55A34DD22A6A1198007ACC4A /* View */,
 				55A34DC22A6A109B007ACC4A /* FlowAppApp.swift */,
 				55A34DC42A6A109B007ACC4A /* ContentView.swift */,
 				55A34DC62A6A109D007ACC4A /* Assets.xcassets */,
@@ -65,6 +85,32 @@
 				55A34DC92A6A109D007ACC4A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		55A34DD22A6A1198007ACC4A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				55A34DD32A6A123D007ACC4A /* TaskListView.swift */,
+				55A34DD92A6A79AD007ACC4A /* TaskBoardView.swift */,
+				55A34DDB2A6A7A74007ACC4A /* TaskRowView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		55A34DDD2A6A7AB7007ACC4A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				55A34DDE2A6A7ACE007ACC4A /* TodoList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		55A34DE02A6A7B3C007ACC4A /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				55A34DE12A6A7B4E007ACC4A /* Helper.swift */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +129,9 @@
 			dependencies = (
 			);
 			name = FlowApp;
+			packageProductDependencies = (
+				55A34DD62A6A5D8B007ACC4A /* Algorithms */,
+			);
 			productName = FlowApp;
 			productReference = 55A34DBF2A6A109B007ACC4A /* FlowApp.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +160,9 @@
 				Base,
 			);
 			mainGroup = 55A34DB62A6A109B007ACC4A;
+			packageReferences = (
+				55A34DD52A6A5D8B007ACC4A /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+			);
 			productRefGroup = 55A34DC02A6A109B007ACC4A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,6 +177,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55A34DD12A6A1162007ACC4A /* README.md in Resources */,
 				55A34DCA2A6A109D007ACC4A /* Preview Assets.xcassets in Resources */,
 				55A34DC72A6A109D007ACC4A /* Assets.xcassets in Resources */,
 			);
@@ -137,7 +190,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55A34DDC2A6A7A74007ACC4A /* TaskRowView.swift in Sources */,
+				55A34DE22A6A7B4E007ACC4A /* Helper.swift in Sources */,
+				55A34DDA2A6A79AD007ACC4A /* TaskBoardView.swift in Sources */,
 				55A34DC52A6A109B007ACC4A /* ContentView.swift in Sources */,
+				55A34DDF2A6A7ACE007ACC4A /* TodoList.swift in Sources */,
+				55A34DD42A6A123D007ACC4A /* TaskListView.swift in Sources */,
 				55A34DC32A6A109B007ACC4A /* FlowAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,11 +328,12 @@
 				DEVELOPMENT_TEAM = PBJ22NG3WU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlowApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,11 +358,12 @@
 				DEVELOPMENT_TEAM = PBJ22NG3WU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FlowApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,6 +399,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		55A34DD52A6A5D8B007ACC4A /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		55A34DD62A6A5D8B007ACC4A /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 55A34DD52A6A5D8B007ACC4A /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 55A34DB72A6A109B007ACC4A /* Project object */;
 }
