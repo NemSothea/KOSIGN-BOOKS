@@ -32,7 +32,7 @@ extension Book {
 extension Book {
     static let sampleBook = [
         Book(title: "Hello, World!", uthour: "Sothea", isbn:"9781916265202", pages: 200),
-        Book(title: "Hello, Boy!", uthour: "Borey", isbn:"9781916265202", pages: 200),
+        Book(title: "Hello, Boy!", uthour: "Borey", isbn:"9781484286944", pages: 200),
         Book(title: "Hello, Mama!", uthour: "Borey", isbn:"9781916265202", pages: 500)
     ]
     
