@@ -7,12 +7,15 @@
 
 import SwiftUI
 
-
-
 struct ContentView: View {
+    
+    //MARK: - Properties
+    @StateObject private var taskBoardViewModel = TaskBoardViewModel()
+    
     var body: some View {
-        TaskBoardView()
+        TaskBoardView(viewModel: taskBoardViewModel)
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
