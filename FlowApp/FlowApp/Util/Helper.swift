@@ -13,7 +13,7 @@ extension UTType {
 
 
 
-/** -Published: 
+/** -Published:
  Sure! In SwiftUI, the @Published property wrapper is used in conjunction with ObservableObject to create a reactive and observable data property. When you mark a property with @Published, it enables SwiftUI to automatically detect changes to that property and update the corresponding views whenever the property changes.
 
  Here's a detailed explanation of @Published:
