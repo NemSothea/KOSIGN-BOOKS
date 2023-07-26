@@ -14,12 +14,16 @@ final class TestCombineSwiftTests: XCTestCase {
        
     func testFetchData() {
         let expectation = self.expectation(description: "Data fetched successfully")
-        
+        // Given
         let mockURL = URL(string: "https://jsonplaceholder.typicode.com/users")!
         
-        // Create the DataViewModel and the PassthroughSubject
-        let publisher = PassthroughSubject<[User], Error>()
         // Subscribe to the PassthroughSubject to capture emitted data
+        let publisher = PassthroughSubject<[User], Error>()
+      
+        // When
+        // Call fetchData and publisher
+        DataAccess.shared.fetchData(from: mockURL, with: publisher)
+        
         publisher.sink(receiveCompletion: { completion in
             switch completion {
             case .finished:
@@ -28,12 +32,11 @@ final class TestCombineSwiftTests: XCTestCase {
                 XCTFail("Failed with error: \(error)")
             }
         }, receiveValue: { users in
+            // Then
             XCTAssertEqual(users.count, 10)
             XCTAssertEqual(users.last?.name ?? "", "Clementina DuBuque")
         }).store(in: &cancellables)
-        
-        // Call fetchData and publisher
-        DataAccess.shared.fetchData(from: mockURL, with: publisher)
+
         
         // Wait for the expectation to fulfill (timeout of 5 seconds)
         waitForExpectations(timeout: 5, handler: nil)
