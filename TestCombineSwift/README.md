@@ -1,7 +1,7 @@
 👋 Welcome ALL 
 
 This is SwiftCombine connect with the Network of iOS development.
-1. We are going to MVVM in this project.
+1. We are going to learn MVVM pattern in this project.
 2. Data fetched from the API, 
     - PassthroughSubject
     - Publisher
