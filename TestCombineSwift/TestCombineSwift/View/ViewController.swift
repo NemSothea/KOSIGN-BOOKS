@@ -44,9 +44,12 @@ class ViewController: UIViewController {
         
         self.userViewModel.fetchUserData()
 
-        
     }
-    
+    /**
+     In the scenario where you have the `cancellables` set created in multiple places (e.g., in the DataAccess class, ViewModel, and ViewController),
+     you should call the deinit method in the class that is responsible for managing the lifetime of the subscriptions.
+     Typically, this would be the class that owns the cancellables set.
+    */
     deinit {
         cancellables.forEach {$0.cancel()}
     }
