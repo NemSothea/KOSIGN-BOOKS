@@ -24,12 +24,12 @@ struct Chapter02: View {
         
     }
 }
-
-struct Chapter02_Previews: PreviewProvider {
-    static var previews: some View {
-        Chapter02(books: Book.sampleBook)
-    }
-}
+///`For View the app`
+//struct Chapter02_Previews: PreviewProvider {
+//    static var previews: some View {
+//        Chapter02(books: Book.sampleBook)
+//    }
+//}
 /**
  Exercises
  1. Add another Textview to display the ISBNo fe ach book on the same line that displays the number of pages.
