@@ -6,17 +6,18 @@
 //
 
 import SwiftUI
-
 // A custom SwiftUI view representing a task list
 struct TaskListView: View {
     
     //MARK: - Properties
-    // Title of the task list
-    var title       : String
+    // Use the ViewModel
+    ///`@ObservedObject` to bind the View with its corresponding ViewModel.
+    @ObservedObject var viewModel: TaskListViewModel
+    
     // Targeted of the task list
     var isTargeted  : Bool
     // Array of tasks to display
-    var tasks       : [TodoList]
+    var tasks       : [TaskListModel]
     // color of each tasks
     var titleColor : Color
     
@@ -26,7 +27,7 @@ struct TaskListView: View {
     var body: some View {
         VStack(alignment: .leading) {
             // Display the title of the task list
-            Text(title)
+            Text(viewModel.title)
                 .font(.footnote.bold())
                 .foregroundColor(titleColor)
             
@@ -39,7 +40,7 @@ struct TaskListView: View {
                 VStack(alignment: .leading,spacing: 12 ) {
                     
                     // Display each task in the list
-                    ForEach(tasks,id: \.id) { task in
+                    ForEach(viewModel.tasks,id: \.id) { task in
                         
                         TaskRowView(task: task.title, changeColor: changeColor)
                             .draggable(task)
