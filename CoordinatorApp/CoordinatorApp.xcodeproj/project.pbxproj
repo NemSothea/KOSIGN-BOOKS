@@ -136,6 +136,7 @@
 		559050102994AD4700FE3F0D /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5590500F2994AD4700FE3F0D /* MainTabBarViewController.swift */; };
 		559050122994B66F00FE3F0D /* TabBarCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559050112994B66F00FE3F0D /* TabBarCoordinator.swift */; };
 		559050162994C81A00FE3F0D /* BookmarkCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 559050152994C81A00FE3F0D /* BookmarkCoordinator.swift */; };
+		55A6977E2A79F50400302BF1 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A6977D2A79F50400302BF1 /* Helper.swift */; };
 		55A99C6A29937D9F00AD4FA6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A99C6929937D9F00AD4FA6 /* AppDelegate.swift */; };
 		55A99C6C29937D9F00AD4FA6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A99C6B29937D9F00AD4FA6 /* SceneDelegate.swift */; };
 		55A99C6E29937D9F00AD4FA6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A99C6D29937D9F00AD4FA6 /* ViewController.swift */; };
@@ -330,6 +331,7 @@
 		5590500F2994AD4700FE3F0D /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		559050112994B66F00FE3F0D /* TabBarCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCoordinator.swift; sourceTree = "<group>"; };
 		559050152994C81A00FE3F0D /* BookmarkCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookmarkCoordinator.swift; sourceTree = "<group>"; };
+		55A6977D2A79F50400302BF1 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
 		55A99C6629937D9F00AD4FA6 /* CoordinatorApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoordinatorApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55A99C6929937D9F00AD4FA6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		55A99C6B29937D9F00AD4FA6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -751,6 +753,7 @@
 				55230BB629B1E96000D0F0DD /* 34th */,
 				55E1207829B015AE009BEFBC /* 35th */,
 				55E1206429B015AE009BEFBC /* 36th */,
+				55A6977D2A79F50400302BF1 /* Helper.swift */,
 				55E1207729B015AE009BEFBC /* Bundle.swift */,
 				55230BB829B1E97800D0F0DD /* 32th */,
 				55230BB929B1E98000D0F0DD /* 31th */,
@@ -1193,6 +1196,7 @@
 				5590500B29948BF900FE3F0D /* MainCoordinator.swift in Sources */,
 				55BBF3B129962C4000A7E991 /* FavoriteCoordinator.swift in Sources */,
 				55A99C6C29937D9F00AD4FA6 /* SceneDelegate.swift in Sources */,
+				55A6977E2A79F50400302BF1 /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

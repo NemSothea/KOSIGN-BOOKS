@@ -9,50 +9,41 @@ import UIKit
 
 class ReadingQuestionVC: UIViewController {
     
-    /* MARK :-
-        - @IBOutlet
-     */
-    @IBOutlet weak var topikTitle       : UILabel!
+   //MARK: - @IBOutlet
+    @IBOutlet weak var topicTitle       : UILabel!
     @IBOutlet weak var collectionView   : UICollectionView!
     
     
-    /* MARK :-
-        - varaible
-     */
+    //MARK: -Variable
+    
     private var questionsVM         = QuestionViewModel()
     
     var answerSelected   = false
     var isCorrectAnswer  = false
-    var correctAwswer    = 0
+    var correctAnswer    = 0
     var index            = 0
     var totalScore       = 0
-    var headerTitle      = ""
-    var indexTopik       = 0
+    var indexTopic       = 0
     
-    private var countWrongAws    = 0
+    private var countWrongAnswer    = 0
     private var wrongResult      = Set<Int>()
     
-    /* MARK :-
-        - Lifecycle ViewController
-     */
+   //MARK: - ViewLifeCycle
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
-        self.topikTitle.text = headerTitle
-        self.questionsVM.getData(index: self.indexTopik)
+        self.topicTitle.text = QuestionType(rawValue: indexTopic)?.titleReading
+
+        self.questionsVM.getData(for: self.indexTopic)
         
         DispatchQueue.main.async {
             self.collectionView.delegate    = self
             self.collectionView.dataSource  = self
             self.collectionView.reloadData()
         }
-      
-        
     }
-    /* MARK :-
-        - @IBAction
-     */
+    // MARK: - @IBAction
     @IBAction func exitTap(_ sender : UIButton) {
         let alert = UIAlertController(title: "내용\n", message: "확신 합니까?\n", preferredStyle: .alert)
         let okAction = UIAlertAction(title: "넵", style: .default) { (_) in
@@ -83,9 +74,9 @@ class ReadingQuestionVC: UIViewController {
         }
         self.answerSelected = false
         if self.isCorrectAnswer {
-            self.correctAwswer += 1
-            if self.countWrongAws != 0 {
-                self.wrongResult.insert(countWrongAws)
+            self.correctAnswer += 1
+            if self.countWrongAnswer != 0 {
+                self.wrongResult.insert(countWrongAnswer)
             }
         }else {
             guard let popUpVC = storyboard?.instantiateViewController(withIdentifier: "PopupVC") as? PopupVC else { return }
@@ -94,7 +85,7 @@ class ReadingQuestionVC: UIViewController {
             }else {
                 popUpVC.detail0 = self.questionsVM.data?.questions?[index].detail ?? ""
             }
-            self.countWrongAws += 1
+            self.countWrongAnswer += 1
             self.present(popUpVC, animated: true)
             return
         }
@@ -111,13 +102,10 @@ class ReadingQuestionVC: UIViewController {
             resultVC.modalPresentationStyle = .fullScreen
             self.present(resultVC, animated: true)
         }
-         
     }
-
 }
-/*
-  MAKR :- Extension CollectionView
- */
+
+//MARK: - Extension CollectionView
 extension ReadingQuestionVC : UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return questionsVM.data?.questions?.count ?? 0
