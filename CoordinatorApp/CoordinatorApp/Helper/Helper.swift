@@ -6,6 +6,7 @@
 //
 
 import Foundation
+
 enum QuestionType: Int, CaseIterable {
         case question24 = 24
         case question25 = 25
