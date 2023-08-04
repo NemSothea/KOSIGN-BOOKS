@@ -47,11 +47,15 @@ class ListeningViewModel : NSObject, ObservableObject {
     private var currentPosition     : AVAudioFramePosition = 0
     private var audioLengthSamples  : AVAudioFramePosition = 0
     
-    let player64            = AVQueuePlayer()
+    let player64                    = AVQueuePlayer()
     
     var data                        : ReadingQuestionModel.QuestionModel?
     
-    var TOPIKQuestionArray          = [String]()
+    var TOPIKQuestionArray : [QuestionType] = []
+    
+    func initListeningData() {
+        TOPIKQuestionArray = QuestionType.allCases
+    }
     
     private var currentFrame: AVAudioFramePosition {
       guard
@@ -64,80 +68,19 @@ class ListeningViewModel : NSObject, ObservableObject {
       return playerTime.sampleTime
     }
     
-    func initListeningData() {
-        TOPIKQuestionArray = [
-            "듣기 24th",
-            "듣기 25th",
-            "듣기 26th",
-            "듣기 27th",
-            "듣기 28th",
-            "듣기 29th",
-            "듣기 30th",
-            "듣기 31th",
-            "듣기 32th",
-            "듣기 33th",
-            "듣기 34th",
-            "듣기 35th",
-            "듣기 36th",
-            "듣기 37th",
-            "듣기 41th",
-            "듣기 47th",
-            "듣기 52th",
-            "듣기 60th",
-            "듣기 64th"
-        ]
-    }
-    func getData(index : Int) {
-        
-        var i = "24"
-        switch index {
-        case 1 :
-            i = "25"
-        case 2 :
-            i = "26"
-        case 3 :
-            i = "27"
-        case 4 :
-            i = "28"
-        case 5 :
-            i = "29"
-        case 6 :
-            i = "30"
-        case 7 :
-            i = "31"
-        case 8 :
-            i = "32"
-        case 9 :
-            i = "33"
-        case 10 :
-            i = "34"
-        case 11 :
-            i = "35"
-        case 12 :
-            i = "36"
-        case 13 :
-            i = "37"
-        case 14 :
-            i = "41"
-        case 15 :
-            i = "47"
-        case 16 :
-            i = "52"
-        case 17 :
-            i = "60"
-        case 18 :
-            i = "64"
-        default :
-            break
+    func getData(for questionNumber: Int) {
+
+        guard let question = QuestionType(rawValue: questionNumber) else {
+            print("Invalid question number")
+            return
         }
         
-        self.data =  Bundle.main.decode(ReadingQuestionModel.QuestionModel.self, from:"Listening\(i).json")
-       
-        self.setupAudio(index: i)
-        
-       
+        let fileName = "Listening\(question.rawValue)"
+        self.data =  Bundle.main.decode(ReadingQuestionModel.QuestionModel.self, from:"\(fileName).json")
+        self.setupAudio(index: question.rawValue)
     }
-    private func setupAudio(index : String) {
+    
+    private func setupAudio(index : Int) {
 
         guard let fileURL = Bundle.main.url(forResource: "Listening\(index)th", withExtension: "mp3") else {
           return
@@ -164,7 +107,7 @@ class ListeningViewModel : NSObject, ObservableObject {
         }
     }
     func stopPlay(index : String) {
-        if index == "18" {
+        if index == "64" {
             self.player64.pause()
             self.player64.removeAllItems()
         }else {

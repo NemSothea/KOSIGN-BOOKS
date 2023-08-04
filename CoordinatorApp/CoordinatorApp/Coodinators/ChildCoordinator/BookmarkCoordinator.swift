@@ -19,8 +19,10 @@ class BookmarkCoordinator : Coordinator {
     }
     func start() {
     
-        let vc = BookMarkTabVC.instatiate()
-        vc.tabBarItem = UITabBarItem(tabBarSystemItem: .bookmarks, tag: 0)
+        let vc = BookMarkTabVC.instantiate()
+        
+        vc.tabBarItem = UITabBarItem(title: "읽기", image: UIImage(systemName: "books.vertical"), tag: 0)
+        
         self.navigationViewController.pushViewController(vc, animated: true)
         
     }

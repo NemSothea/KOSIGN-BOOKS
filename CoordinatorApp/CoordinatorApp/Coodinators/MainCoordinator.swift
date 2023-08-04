@@ -18,7 +18,7 @@ class MainCoordinator : NSObject, Coordinator, UINavigationControllerDelegate {
     }
     
     func start() {
-        let vc = ViewController.instatiate()
+        let vc = ViewController.instantiate()
         vc.gotoMain = { (isLoginSuccess) in
             self.mainTabBar(isLoginSuccess: isLoginSuccess)
         }

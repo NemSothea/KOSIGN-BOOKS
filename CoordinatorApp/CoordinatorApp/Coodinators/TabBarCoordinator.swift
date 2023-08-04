@@ -19,7 +19,7 @@ class TabBarCoordinator : Coordinator {
     
     func start() {
         
-        let vc = MainTabBarController.instatiate()
+        let vc = MainTabBarController.instantiate()
         vc.coordinator = self
         vc.viewControllers = [getBookMark(),getFavorite()]
         self.navigationViewController.pushViewController(vc, animated: true)

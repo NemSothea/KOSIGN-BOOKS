@@ -21,9 +21,9 @@ class FavoriteCoordinator : Coordinator {
     
     func start() {
         
-        let vc = FavoriteTabVC.instatiate()
-   
-        vc.tabBarItem = UITabBarItem(tabBarSystemItem: .favorites, tag: 1)
+        let vc = FavoriteTabVC.instantiate()
+        
+        vc.tabBarItem = UITabBarItem(title: "듣기", image: UIImage(systemName: "hearingdevice.ear"), tag: 1)
         self.navigationViewController.pushViewController(vc, animated: true)
         
     }

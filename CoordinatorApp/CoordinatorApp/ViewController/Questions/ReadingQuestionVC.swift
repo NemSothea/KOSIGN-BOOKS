@@ -15,7 +15,6 @@ class ReadingQuestionVC: UIViewController {
     
     
     //MARK: -Variable
-    
     private var questionsVM         = QuestionViewModel()
     
     var answerSelected   = false

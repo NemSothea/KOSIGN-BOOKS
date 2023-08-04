@@ -9,14 +9,16 @@ import UIKit
 
 class FavoriteTabVC : UIViewController, StoryBoarded {
     
+    //MARK: - @IBOutlet
     @IBOutlet weak var myTableView : UITableView!
     
-    private var listenginVM = ListeningViewModel()
+    //MARK: - Properties
+    private var listeningViewModel = ListeningViewModel()
   
-    
+    //MARK: - ViewLifeCycle
     override func viewDidLoad() {
          super.viewDidLoad()
-        self.listenginVM.initListeningData()
+        self.listeningViewModel.initListeningData()
     
     }
     override func viewWillAppear(_ animated: Bool) {
@@ -25,26 +27,32 @@ class FavoriteTabVC : UIViewController, StoryBoarded {
     }
 
 }
-
+//MARK: - UITableView
 extension FavoriteTabVC : UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return self.listenginVM.TOPIKQuestionArray.count
+        return self.listeningViewModel.TOPIKQuestionArray.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell") as! BookMarkTabTableViewCell
-        cell.title.text = self.listenginVM.TOPIKQuestionArray[indexPath.row]
+        
+        let questionNumber = self.listeningViewModel.TOPIKQuestionArray[indexPath.row]
+        
+        // Get the corresponding ReadingQuestion enum case
+        if let question = QuestionType(rawValue: questionNumber.rawValue) {
+            // Use the title in the cell
+            cell.title.text = question.titleListening
+        } else {
+            cell.title.text = "Invalid Question"
+        }
         
         return cell
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         guard let vc = storyboard?.instantiateViewController(withIdentifier: "ListeningQuestionVC") as? ListeningQuestionVC else { return }
-        vc.modalPresentationStyle = .fullScreen
-        vc.headerTitle  = self.listenginVM.TOPIKQuestionArray[indexPath.row]
-        vc.indexTopik        = indexPath.row
+        vc.modalPresentationStyle   = .fullScreen
+        vc.indexTopic               = self.listeningViewModel.TOPIKQuestionArray[indexPath.row].rawValue
         self.navigationController?.present(vc, animated: true)
     }
-    
-    
 }

@@ -10,41 +10,36 @@ import UIKit
 class ListeningQuestionVC: UIViewController {
     
     
-    /* MARK :-
-        - @IBOutlet
-     */
-    @IBOutlet weak var topikTitle       : UILabel!
-    @IBOutlet weak var playBtn          : UIButton!
+   // MARK: - @IBOutlet
     
+    @IBOutlet weak var topicTitle       : UILabel!
+    @IBOutlet weak var playButton       : UIButton!
     @IBOutlet weak var collectionView   : UICollectionView!
     
     
-    /* MARK :-
-        - varaible
-     */
-    private var listeningVM         = ListeningViewModel()
+    //MARK: - Variable
+    
+    private var listeningViewModel         = ListeningViewModel()
     
     private var answerSelected   = false
     private var isCorrectAnswer  = false
-    private var correctAwswer    = 0
+    private var correctAnswer    = 0
     private var index            = 0
-    var headerTitle              = ""
-    var indexTopik               = 0
-    private var countWrongAws    = 0
+    var indexTopic               = 0
+    private var countWrongAnswer = 0
     private var wrongResult      = Set<Int>()
+    private var  isPlay64        = true
     
-    /* MARK :-
-        - Lifecycle ViewController
-     */
+    // MARK: - ViewLifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
-        self.topikTitle.text = self.headerTitle
+        self.playButton.isEnabled = self.indexTopic != 3
         
-        self.playBtn.isEnabled = self.indexTopik != 3
+        self.listeningViewModel.getData(for: self.indexTopic)
         
-        self.listeningVM.getData(index: self.indexTopik)
+        self.topicTitle.text = QuestionType(rawValue: self.indexTopic)?.titleListening
         
         DispatchQueue.main.async {
             self.collectionView.delegate    = self
@@ -52,29 +47,25 @@ class ListeningQuestionVC: UIViewController {
             self.collectionView.reloadData()
         }
     }
-    /* MARK :-
-        - @IBAction
-     */
-    var  isPlay64 = true
-    
+    // MARK: - @IBAction
     @IBAction func playTap(_ sender: UIButton) {
         DispatchQueue.main.async {
-            if self.indexTopik == 18 {
-                self.listeningVM.original64Play(index: "64")
+            if self.indexTopic == 64 {
+                self.listeningViewModel.original64Play(index: "64")
                
                 if self.isPlay64 {
-                    self.playBtn.setImage(UIImage(systemName: "pause.fill"), for:.normal)
+                    self.playButton.setImage(UIImage(systemName: "pause.fill"), for:.normal)
                     self.isPlay64 = false
                 }else {
-                    self.playBtn.setImage(UIImage(systemName: "play.fill"), for:.normal)
+                    self.playButton.setImage(UIImage(systemName: "play.fill"), for:.normal)
                     self.isPlay64 = true
                 }
             }else {
-                self.listeningVM.playOrPause()
-                if self.listeningVM.isPlaying {
-                    self.playBtn.setImage(UIImage(systemName: "pause.fill"), for:.normal)
+                self.listeningViewModel.playOrPause()
+                if self.listeningViewModel.isPlaying {
+                    self.playButton.setImage(UIImage(systemName: "pause.fill"), for:.normal)
                 }else {
-                    self.playBtn.setImage(UIImage(systemName: "play.fill"), for:.normal)
+                    self.playButton.setImage(UIImage(systemName: "play.fill"), for:.normal)
                 }
             }
         }
@@ -87,7 +78,7 @@ class ListeningQuestionVC: UIViewController {
            return
         }
         let okAction = UIAlertAction(title: "넵", style: .default) { (_) in
-            self.listeningVM.stopPlay(index: "\(self.indexTopik)")
+            self.listeningViewModel.stopPlay(index: "\(self.indexTopic)")
             self.dismiss(animated: true)
         }
         alert.addAction(cancelAction)
@@ -119,42 +110,42 @@ class ListeningQuestionVC: UIViewController {
          - When selected question correctly add score
          */
         if self.isCorrectAnswer {
-            self.correctAwswer += 1
-            if self.countWrongAws != 0 {
-                self.wrongResult.insert(self.countWrongAws)
+            self.correctAnswer += 1
+            if self.countWrongAnswer != 0 {
+                self.wrongResult.insert(self.countWrongAnswer)
             }
         }else {
             /** TODO -:
              - When selected question wrong show popup details
              */
-            if self.listeningVM.data?.questions?[index].detail == nil {
+            if self.listeningViewModel.data?.questions?[index].detail == nil {
                 return
             }
             guard let popUpVC = storyboard?.instantiateViewController(withIdentifier: "PopupVC") as? PopupVC else { return }
-            if self.listeningVM.data?.questions?[index].detail == nil {
+            if self.listeningViewModel.data?.questions?[index].detail == nil {
                 popUpVC.detail0 = "조심하게 선택해주십시오."
             }else {
-                popUpVC.detail0 = self.listeningVM.data?.questions?[index].question ?? ""
-                popUpVC.detail1 = self.listeningVM.data?.questions?[index].detail ?? ""
+                popUpVC.detail0 = self.listeningViewModel.data?.questions?[index].question ?? ""
+                popUpVC.detail1 = self.listeningViewModel.data?.questions?[index].detail ?? ""
             }
-            self.countWrongAws += 1
+            self.countWrongAnswer += 1
             self.present(popUpVC, animated: true)
             return
         }
         /** TODO -:
          - When click next move to other questions
          */
-        if self.index < (self.listeningVM.data?.questions?.count ?? 0) - 1 {
+        if self.index < (self.listeningViewModel.data?.questions?.count ?? 0) - 1 {
             self.index += 1
-            self.wrongResult.insert(self.countWrongAws)
+            self.wrongResult.insert(self.countWrongAnswer)
             self.collectionView.scrollToItem(at: IndexPath(row: index, section: 0), at: .right, animated: true)
         }else {
             /** TODO -:
              - Show final result with score, Number of question, Wrong selected
              */
             guard let resultVC = storyboard?.instantiateViewController(withIdentifier: "ResultVC") as? ResultVC else {return}
-            resultVC.data          = ["\(self.wrongResult.count)","\(self.listeningVM.data?.questions?.count ?? 0)"]
-            self.listeningVM.stopAllCurrentPlay()
+            resultVC.data          = ["\(self.wrongResult.count)","\(self.listeningViewModel.data?.questions?.count ?? 0)"]
+            self.listeningViewModel.stopAllCurrentPlay()
             resultVC.modalPresentationStyle = .fullScreen
             self.present(resultVC, animated: true)
         }
@@ -162,12 +153,12 @@ class ListeningQuestionVC: UIViewController {
     }
 
 }
-/*
-  MAKR :- Extension CollectionView
- */
+
+  //MARK: - Extension CollectionView
+
 extension ListeningQuestionVC : UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return self.listeningVM.data?.questions?.count ?? 0
+        return self.listeningViewModel.data?.questions?.count ?? 0
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -179,7 +170,7 @@ extension ListeningQuestionVC : UICollectionViewDelegate, UICollectionViewDataSo
         cell.optionB.layer.cornerRadius = 5
         cell.optionC.layer.cornerRadius = 5
         cell.optionD.layer.cornerRadius = 5
-        cell.setValues = self.listeningVM.data?.questions?[indexPath.row]
+        cell.setValues = self.listeningViewModel.data?.questions?[indexPath.row]
         cell.selectedOption = { [weak self] isCorrect in
             self?.answerSelected    = true
             self?.isCorrectAnswer   = isCorrect

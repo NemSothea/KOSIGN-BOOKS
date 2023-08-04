@@ -13,12 +13,12 @@ class BookMarkTabVC : UIViewController, StoryBoarded {
     @IBOutlet weak var myTableView : UITableView!
     
     //MARK: - Properties
-    private var questionsVM = QuestionViewModel()
+    private var questionsViewModel = QuestionViewModel()
   
     //MARK: - ViewLifeCycle
     override func viewDidLoad() {
          super.viewDidLoad()
-        self.questionsVM.initReadingData()
+        self.questionsViewModel.initReadingData()
     
     }
     override func viewWillAppear(_ animated: Bool) {
@@ -30,13 +30,13 @@ class BookMarkTabVC : UIViewController, StoryBoarded {
 //MARK: - Extension TableView
 extension BookMarkTabVC : UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return self.questionsVM.TOPIKQuestionArray.count
+        return self.questionsViewModel.TOPIKQuestionArray.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell") as! BookMarkTabTableViewCell
-        let questionNumber = self.questionsVM.TOPIKQuestionArray[indexPath.row]
+        let questionNumber = self.questionsViewModel.TOPIKQuestionArray[indexPath.row]
         
          // Get the corresponding ReadingQuestion enum case
         if let question = QuestionType(rawValue: questionNumber.rawValue) {
@@ -51,7 +51,7 @@ extension BookMarkTabVC : UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         guard let vc = storyboard?.instantiateViewController(withIdentifier: "ReadingQuestionVC") as? ReadingQuestionVC else { return }
         vc.modalPresentationStyle = .fullScreen
-        vc.indexTopic        = self.questionsVM.TOPIKQuestionArray[indexPath.row].rawValue
+        vc.indexTopic        = self.questionsViewModel.TOPIKQuestionArray[indexPath.row].rawValue
         self.present(vc, animated: true)
     }
 

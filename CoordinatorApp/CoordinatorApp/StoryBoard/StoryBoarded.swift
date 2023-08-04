@@ -10,11 +10,11 @@ import UIKit
 
 protocol StoryBoarded {
     
-    static func instatiate() -> Self
+    static func instantiate() -> Self
 }
 extension StoryBoarded where Self : UIViewController {
     
-    static func instatiate() -> Self {
+    static func instantiate() -> Self {
         
         let id = String(describing: self)
         let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
