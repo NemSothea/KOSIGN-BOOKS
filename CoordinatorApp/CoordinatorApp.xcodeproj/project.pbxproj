@@ -130,6 +130,7 @@
 		556C12E929B5D7F900CE49EE /* 41_2_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 556C12DE29B5D7F900CE49EE /* 41_2_img.png */; };
 		556C12EA29B5D7F900CE49EE /* 41_3_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 556C12DF29B5D7F900CE49EE /* 41_3_img.png */; };
 		556C12EB29B5D7F900CE49EE /* Question41.json in Resources */ = {isa = PBXBuildFile; fileRef = 556C12E029B5D7F900CE49EE /* Question41.json */; };
+		5580A68A2A7CF41200527958 /* 36_8_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 5580A6892A7CF41200527958 /* 36_8_img.png */; };
 		5590500929947E5700FE3F0D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 5590500829947E5700FE3F0D /* README.md */; };
 		5590500B29948BF900FE3F0D /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5590500A29948BF900FE3F0D /* MainCoordinator.swift */; };
 		5590500D29948CB800FE3F0D /* StoryBoarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5590500C29948CB800FE3F0D /* StoryBoarded.swift */; };
@@ -325,6 +326,7 @@
 		556C12DE29B5D7F900CE49EE /* 41_2_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 41_2_img.png; sourceTree = "<group>"; };
 		556C12DF29B5D7F900CE49EE /* 41_3_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 41_3_img.png; sourceTree = "<group>"; };
 		556C12E029B5D7F900CE49EE /* Question41.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Question41.json; sourceTree = "<group>"; };
+		5580A6892A7CF41200527958 /* 36_8_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 36_8_img.png; sourceTree = "<group>"; };
 		5590500829947E5700FE3F0D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		5590500A29948BF900FE3F0D /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
 		5590500C29948CB800FE3F0D /* StoryBoarded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryBoarded.swift; sourceTree = "<group>"; };
@@ -384,7 +386,6 @@
 		55E1206729B015AE009BEFBC /* 36_6_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 36_6_img.png; sourceTree = "<group>"; };
 		55E1206829B015AE009BEFBC /* 36_7_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 36_7_img.png; sourceTree = "<group>"; };
 		55E1206929B015AE009BEFBC /* 36_5_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 36_5_img.png; sourceTree = "<group>"; };
-		55E1206A29B015AE009BEFBC /* ￼￼￼36_8_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "￼￼￼36_8_img.png"; sourceTree = "<group>"; };
 		55E1206B29B015AE009BEFBC /* 36_1_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 36_1_img.png; sourceTree = "<group>"; };
 		55E1206C29B015AE009BEFBC /* 36_9_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 36_9_img.png; sourceTree = "<group>"; };
 		55E1206D29B015AE009BEFBC /* 36_2_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 36_2_img.png; sourceTree = "<group>"; };
@@ -878,8 +879,8 @@
 				55E1207029B015AE009BEFBC /* Question36.json */,
 				55E1206729B015AE009BEFBC /* 36_6_img.png */,
 				55E1206829B015AE009BEFBC /* 36_7_img.png */,
+				5580A6892A7CF41200527958 /* 36_8_img.png */,
 				55E1206929B015AE009BEFBC /* 36_5_img.png */,
-				55E1206A29B015AE009BEFBC /* ￼￼￼36_8_img.png */,
 				55E1206B29B015AE009BEFBC /* 36_1_img.png */,
 				55E1206C29B015AE009BEFBC /* 36_9_img.png */,
 				55E1206D29B015AE009BEFBC /* 36_2_img.png */,
@@ -1104,6 +1105,7 @@
 				55E120C529B015AE009BEFBC /* 35_5_img.png in Resources */,
 				55439E9F29B86C6E0031D74B /* 60_5_img.png in Resources */,
 				55E120C629B015AE009BEFBC /* 35_6_img.png in Resources */,
+				5580A68A2A7CF41200527958 /* 36_8_img.png in Resources */,
 				55230BA729B16A8300D0F0DD /* Listening30.json in Resources */,
 				55439E9729B86C6E0031D74B /* Listening52.json in Resources */,
 				55230BA529B16A8300D0F0DD /* 30_2_img.png in Resources */,
