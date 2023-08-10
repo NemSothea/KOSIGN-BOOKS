@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5527AE502A84B49D006639A9 /* 1HoonDdukbokki Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5527AE4F2A84B49D006639A9 /* 1HoonDdukbokki Regular.ttf */; };
+		5527AE532A84BCF7006639A9 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5527AE522A84BCF7006639A9 /* ProfileView.swift */; };
+		554C0D332A80A198002DF7DF /* Projects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554C0D322A80A198002DF7DF /* Projects.swift */; };
+		554C0D372A80A9B6002DF7DF /* ColorSquare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554C0D362A80A9B6002DF7DF /* ColorSquare.swift */; };
 		555754172A6DF3F700D1546F /* TaskBoardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555754162A6DF3F700D1546F /* TaskBoardViewModel.swift */; };
 		555754192A6DF42500D1546F /* TaskListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555754182A6DF42500D1546F /* TaskListViewModel.swift */; };
 		55A34DC32A6A109B007ACC4A /* FlowAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A34DC22A6A109B007ACC4A /* FlowAppApp.swift */; };
@@ -23,6 +27,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5527AE4F2A84B49D006639A9 /* 1HoonDdukbokki Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "1HoonDdukbokki Regular.ttf"; sourceTree = "<group>"; };
+		5527AE522A84BCF7006639A9 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		554C0D322A80A198002DF7DF /* Projects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Projects.swift; sourceTree = "<group>"; };
+		554C0D362A80A9B6002DF7DF /* ColorSquare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSquare.swift; sourceTree = "<group>"; };
 		555754162A6DF3F700D1546F /* TaskBoardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskBoardViewModel.swift; sourceTree = "<group>"; };
 		555754182A6DF42500D1546F /* TaskListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewModel.swift; sourceTree = "<group>"; };
 		55A34DBF2A6A109B007ACC4A /* FlowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +59,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5527AE512A84BCE0006639A9 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				5527AE522A84BCF7006639A9 /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		554C0D342A80A981002DF7DF /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				554C0D322A80A198002DF7DF /* Projects.swift */,
+				554C0D362A80A9B6002DF7DF /* ColorSquare.swift */,
+			);
+			path = Project;
+			sourceTree = "<group>";
+		};
+		554C0D352A80A994002DF7DF /* Tasks */ = {
+			isa = PBXGroup;
+			children = (
+				55A34DD32A6A123D007ACC4A /* TaskListView.swift */,
+				55A34DD92A6A79AD007ACC4A /* TaskBoardView.swift */,
+				55A34DDB2A6A7A74007ACC4A /* TaskRowView.swift */,
+			);
+			path = Tasks;
+			sourceTree = "<group>";
+		};
 		555754152A6DF3E800D1546F /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
@@ -83,10 +118,10 @@
 				555754152A6DF3E800D1546F /* ViewModel */,
 				55A34DE02A6A7B3C007ACC4A /* Util */,
 				55A34DDD2A6A7AB7007ACC4A /* Model */,
-				55A34DD82A6A6F86007ACC4A /* Info.plist */,
 				55A34DD22A6A1198007ACC4A /* View */,
 				55A34DC22A6A109B007ACC4A /* FlowAppApp.swift */,
 				55A34DC42A6A109B007ACC4A /* ContentView.swift */,
+				55A34DD82A6A6F86007ACC4A /* Info.plist */,
 				55A34DC62A6A109D007ACC4A /* Assets.xcassets */,
 				55A34DC82A6A109D007ACC4A /* Preview Content */,
 			);
@@ -104,9 +139,9 @@
 		55A34DD22A6A1198007ACC4A /* View */ = {
 			isa = PBXGroup;
 			children = (
-				55A34DD32A6A123D007ACC4A /* TaskListView.swift */,
-				55A34DD92A6A79AD007ACC4A /* TaskBoardView.swift */,
-				55A34DDB2A6A7A74007ACC4A /* TaskRowView.swift */,
+				5527AE512A84BCE0006639A9 /* Profile */,
+				554C0D352A80A994002DF7DF /* Tasks */,
+				554C0D342A80A981002DF7DF /* Project */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -122,6 +157,7 @@
 		55A34DE02A6A7B3C007ACC4A /* Util */ = {
 			isa = PBXGroup;
 			children = (
+				5527AE4F2A84B49D006639A9 /* 1HoonDdukbokki Regular.ttf */,
 				55A34DE12A6A7B4E007ACC4A /* Helper.swift */,
 			);
 			path = Util;
@@ -192,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				55A34DD12A6A1162007ACC4A /* README.md in Resources */,
+				5527AE502A84B49D006639A9 /* 1HoonDdukbokki Regular.ttf in Resources */,
 				55A34DCA2A6A109D007ACC4A /* Preview Assets.xcassets in Resources */,
 				55A34DC72A6A109D007ACC4A /* Assets.xcassets in Resources */,
 			);
@@ -205,12 +242,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				55A34DDC2A6A7A74007ACC4A /* TaskRowView.swift in Sources */,
+				5527AE532A84BCF7006639A9 /* ProfileView.swift in Sources */,
 				55A34DE22A6A7B4E007ACC4A /* Helper.swift in Sources */,
 				555754172A6DF3F700D1546F /* TaskBoardViewModel.swift in Sources */,
 				55A34DDA2A6A79AD007ACC4A /* TaskBoardView.swift in Sources */,
 				55A34DC52A6A109B007ACC4A /* ContentView.swift in Sources */,
 				555754192A6DF42500D1546F /* TaskListViewModel.swift in Sources */,
 				55A34DDF2A6A7ACE007ACC4A /* TaskListModel.swift in Sources */,
+				554C0D372A80A9B6002DF7DF /* ColorSquare.swift in Sources */,
+				554C0D332A80A198002DF7DF /* Projects.swift in Sources */,
 				55A34DD42A6A123D007ACC4A /* TaskListView.swift in Sources */,
 				55A34DC32A6A109B007ACC4A /* FlowAppApp.swift in Sources */,
 			);
@@ -348,7 +388,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -378,7 +418,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

@@ -75,7 +75,8 @@ struct TaskBoardView: View {
             }
             .padding()
             .navigationTitle("SOTHEA(쏘티아)님 좋은 아침입니다!🌻")
-            .navigationBarTitleDisplayMode(.automatic)
+            .font(.custom("1HoonDdukbokki Regular", size: 10))
+            .navigationBarTitleDisplayMode(.inline)
         }
         
     }

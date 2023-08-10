@@ -13,7 +13,27 @@ struct ContentView: View {
     @StateObject private var taskBoardViewModel = TaskBoardViewModel()
     
     var body: some View {
+
+        TabView {
+            
+            Projects()
+                .tabItem {
+                Image(systemName: "fireworks")
+                Text("Projects")
+            }
+            
         TaskBoardView(viewModel: taskBoardViewModel)
+                .tabItem {
+                Image(systemName: "list.clipboard")
+                Text("Tasks")
+            }
+        ProfileView()
+                .tabItem {
+                    Image(systemName: "person.circle")
+                    Text("Profile")
+                }
+            
+        }
     }
     
 }
@@ -21,6 +41,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
-            .previewInterfaceOrientation(.landscapeRight)
+            .previewInterfaceOrientation(.portrait)
     }
 }
