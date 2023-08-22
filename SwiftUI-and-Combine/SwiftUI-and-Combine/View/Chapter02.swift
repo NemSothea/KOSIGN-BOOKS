@@ -24,15 +24,15 @@ struct Chapter02: View {
         
     }
 }
-///`For View the app`
-//struct Chapter02_Previews: PreviewProvider {
-//    static var previews: some View {
-//        Chapter02(books: Book.sampleBook)
-//    }
-//}
+#warning("For View the app")
+struct Chapter02_Previews: PreviewProvider {
+    static var previews: some View {
+        Chapter02(books: Book.sampleBook)
+    }
+}
 /**
  Exercises
- 1. Add another Textview to display the ISBNo fe ach book on the same line that displays the number of pages.
+ 1. Add another Textview to display the ISBN of each book on the same line that displays the number of pages.
  2. Align the page number text to the left, and the ISBN to the right of the view.
  */
 
@@ -58,7 +58,7 @@ struct Chapter02View : View {
                     .font(.headline)
                 
                 // Display the book's author
-                Text("by \(book.uthour)")
+                Text("by \(book.author)")
                     .font(.subheadline)
                 
                 // Display the book's page count and ISBN number
@@ -71,6 +71,7 @@ struct Chapter02View : View {
             // Add a spacer to push the book details to the left and fill the available space
             Spacer()
         }
+        .accessibilityIdentifier("Chapter02View_\(book.title)")
     }
     
 }

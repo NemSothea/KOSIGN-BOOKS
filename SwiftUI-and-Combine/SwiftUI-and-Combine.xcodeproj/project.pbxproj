@@ -18,6 +18,20 @@
 		5C79D8F32A67F611007BA488 /* SwiftUI_and_CombineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C79D8F22A67F611007BA488 /* SwiftUI_and_CombineTests.swift */; };
 		5C79D8FD2A67F611007BA488 /* SwiftUI_and_CombineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C79D8FC2A67F611007BA488 /* SwiftUI_and_CombineUITests.swift */; };
 		5C79D8FF2A67F611007BA488 /* SwiftUI_and_CombineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C79D8FE2A67F611007BA488 /* SwiftUI_and_CombineUITestsLaunchTests.swift */; };
+		5CEF8DCE2A77F7F600BFD461 /* Chapter02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1C329D2A694631009F9175 /* Chapter02.swift */; };
+		5CEF8DCF2A77F7F600BFD461 /* Chapter02.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1C329D2A694631009F9175 /* Chapter02.swift */; };
+		5CEF8DD02A77F80A00BFD461 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1C329A2A694427009F9175 /* Book.swift */; };
+		5CEF8DD12A77F80A00BFD461 /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1C329A2A694427009F9175 /* Book.swift */; };
+		5CEF8DD22A77F81600BFD461 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C79D8E32A67F610007BA488 /* ContentView.swift */; };
+		5CEF8DD32A77F81600BFD461 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C79D8E32A67F610007BA488 /* ContentView.swift */; };
+		5CEF8DD42A77F81900BFD461 /* SwiftUI_and_CombineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C79D8E12A67F610007BA488 /* SwiftUI_and_CombineApp.swift */; };
+		5CEF8DD52A77F81A00BFD461 /* SwiftUI_and_CombineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C79D8E12A67F610007BA488 /* SwiftUI_and_CombineApp.swift */; };
+		5CEF8DD62A77F81D00BFD461 /* Chapter03.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C555A932A76A2E80015A148 /* Chapter03.swift */; };
+		5CEF8DD72A77F81D00BFD461 /* Chapter03.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C555A932A76A2E80015A148 /* Chapter03.swift */; };
+		5CEF8DDB2A77FA0900BFD461 /* SwiftUI_and_CombineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C79D8F22A67F611007BA488 /* SwiftUI_and_CombineTests.swift */; };
+		5CEF8DDD2A77FA7300BFD461 /* Chapter02UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEF8DDC2A77FA7300BFD461 /* Chapter02UITests.swift */; };
+		5CEF8DDF2A77FA7300BFD461 /* Chapter02UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEF8DDC2A77FA7300BFD461 /* Chapter02UITests.swift */; };
+		5CEF8DE02A77FADF00BFD461 /* Chapter02UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEF8DDC2A77FA7300BFD461 /* Chapter02UITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +66,7 @@
 		5C79D8F82A67F611007BA488 /* SwiftUI-and-CombineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-and-CombineUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C79D8FC2A67F611007BA488 /* SwiftUI_and_CombineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_and_CombineUITests.swift; sourceTree = "<group>"; };
 		5C79D8FE2A67F611007BA488 /* SwiftUI_and_CombineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_and_CombineUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5CEF8DDC2A77FA7300BFD461 /* Chapter02UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter02UITests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +166,7 @@
 			children = (
 				5C79D8FC2A67F611007BA488 /* SwiftUI_and_CombineUITests.swift */,
 				5C79D8FE2A67F611007BA488 /* SwiftUI_and_CombineUITestsLaunchTests.swift */,
+				5CEF8DDC2A77FA7300BFD461 /* Chapter02UITests.swift */,
 			);
 			path = "SwiftUI-and-CombineUITests";
 			sourceTree = "<group>";
@@ -289,6 +305,7 @@
 				5C79D8E42A67F610007BA488 /* ContentView.swift in Sources */,
 				5C79D8E22A67F610007BA488 /* SwiftUI_and_CombineApp.swift in Sources */,
 				5C1C329B2A694427009F9175 /* Book.swift in Sources */,
+				5CEF8DDD2A77FA7300BFD461 /* Chapter02UITests.swift in Sources */,
 				5C1C329E2A694631009F9175 /* Chapter02.swift in Sources */,
 				5C555A942A76A2E80015A148 /* Chapter03.swift in Sources */,
 			);
@@ -298,7 +315,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CEF8DD02A77F80A00BFD461 /* Book.swift in Sources */,
+				5CEF8DD22A77F81600BFD461 /* ContentView.swift in Sources */,
 				5C79D8F32A67F611007BA488 /* SwiftUI_and_CombineTests.swift in Sources */,
+				5CEF8DD62A77F81D00BFD461 /* Chapter03.swift in Sources */,
+				5CEF8DCE2A77F7F600BFD461 /* Chapter02.swift in Sources */,
+				5CEF8DE02A77FADF00BFD461 /* Chapter02UITests.swift in Sources */,
+				5CEF8DD42A77F81900BFD461 /* SwiftUI_and_CombineApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,7 +330,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				5C79D8FF2A67F611007BA488 /* SwiftUI_and_CombineUITestsLaunchTests.swift in Sources */,
+				5CEF8DD52A77F81A00BFD461 /* SwiftUI_and_CombineApp.swift in Sources */,
+				5CEF8DD32A77F81600BFD461 /* ContentView.swift in Sources */,
+				5CEF8DD72A77F81D00BFD461 /* Chapter03.swift in Sources */,
 				5C79D8FD2A67F611007BA488 /* SwiftUI_and_CombineUITests.swift in Sources */,
+				5CEF8DDB2A77FA0900BFD461 /* SwiftUI_and_CombineTests.swift in Sources */,
+				5CEF8DDF2A77FA7300BFD461 /* Chapter02UITests.swift in Sources */,
+				5CEF8DD12A77F80A00BFD461 /* Book.swift in Sources */,
+				5CEF8DCF2A77F7F600BFD461 /* Chapter02.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,6 +481,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-and-Combine/Preview Content\"";
 				DEVELOPMENT_TEAM = PBJ22NG3WU;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -480,6 +511,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SwiftUI-and-Combine/Preview Content\"";
 				DEVELOPMENT_TEAM = PBJ22NG3WU;
 				ENABLE_PREVIEWS = YES;
+				ENABLE_TESTING_SEARCH_PATHS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

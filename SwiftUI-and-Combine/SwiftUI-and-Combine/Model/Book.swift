@@ -10,7 +10,7 @@ import Foundation
 struct Book : Identifiable {
     var id      = UUID().uuidString
     var title   : String
-    var uthour  : String
+    var author  : String
     var isbn    : String
     var pages   : Int
     
@@ -31,9 +31,7 @@ extension Book {
 }
 extension Book {
     static let sampleBook = [
-        Book(title: "Hello, World!", uthour: "Sothea", isbn:"9781916265202", pages: 200),
-        Book(title: "Hello, Boy!", uthour: "Borey", isbn:"9781484286944", pages: 200),
-        Book(title: "Hello, Mama!", uthour: "Borey", isbn:"9781916265202", pages: 500)
+        Book(title: "Hello, World!", author: "Sothea", isbn:"9781916265202", pages: 200)
     ]
     
 }
