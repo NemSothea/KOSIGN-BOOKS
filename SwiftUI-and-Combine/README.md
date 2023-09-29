@@ -1,8 +1,8 @@
 👋 Welcome ALL 
 
 This for SwiftUI BOOK of iOS development. 
-
+* TODOLIST App
 Reference : 
-- https://github.com/peterfriese/Asynchronous-Programming-with-SwiftUI-and-Combine
+- https : https://www.youtube.com/watch?v=K-4blUReYoU&t=375s
+- https://console.firebase.google.com/u/0/project/swiftuitodolist-5338c/firestore/data/~2F
 
-**Update page: Currently -> 90 
