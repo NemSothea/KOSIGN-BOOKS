@@ -136,6 +136,7 @@
 		5C1C329C2A6944EA009F9175 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				5C95279E2AD1567800FE7782 /* HeaderView.swift */,
 				5C95279D2AD155FA00FE7782 /* Login */,
 				5C79D8E32A67F610007BA488 /* MainView.swift */,
 				5C9527802AD14AA700FE7782 /* ProfileView.swift */,
@@ -213,7 +214,6 @@
 			isa = PBXGroup;
 			children = (
 				5C95277E2AD14A9800FE7782 /* LoginView.swift */,
-				5C95279E2AD1567800FE7782 /* HeaderView.swift */,
 			);
 			path = Login;
 			sourceTree = "<group>";

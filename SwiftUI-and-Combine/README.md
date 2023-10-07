@@ -3,7 +3,11 @@
 This for SwiftUI BOOK of iOS development. 
 * TODOLIST App
 Reference : 
-- https : https://www.youtube.com/watch?v=K-4blUReYoU&t=375s
-- https://console.firebase.google.com/u/0/project/swiftuitodolist-5338c/firestore/data/~2F
+- Youtube  : https://shorturl.at/gHQS9
+- FireBase :  https://shorturl.at/dgP38
 
-1. https://www.youtube.com/watch?v=DwkHkXQocBs : finish login Screen
+01.10.2023 : Lesson 1 : Project Set Up
+07.10.2023 : Lesson 2 : login Screen
+07.10.2023 : Lesson 3 : Header View
+08.10.2023 : Lesson 4 : Register View
+
