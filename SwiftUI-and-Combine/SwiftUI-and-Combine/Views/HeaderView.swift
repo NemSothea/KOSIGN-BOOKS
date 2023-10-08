@@ -41,7 +41,7 @@ struct HeaderView: View {
         .offset(y:-100)
     }
 }
-
-#Preview {
-    HeaderView(title: "To Do List", subtitle: "Get things done", degree: 15, background: .pink)
-}
+//
+//#Preview {
+//    HeaderView(title: "To Do List", subtitle: "Get things done", degree: 15, background: .pink)
+//}

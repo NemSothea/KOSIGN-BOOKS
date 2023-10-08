@@ -57,6 +57,7 @@
 		5C9527992AD14E1600FE7782 /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9527982AD14E1600FE7782 /* RegisterViewViewModel.swift */; };
 		5C95279C2AD14E5800FE7782 /* ToDoListItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C95279B2AD14E5800FE7782 /* ToDoListItemViewViewModel.swift */; };
 		5C95279F2AD1567800FE7782 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C95279E2AD1567800FE7782 /* HeaderView.swift */; };
+		5CF7AE832AD2AD5500BB377A /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF7AE822AD2AD5500BB377A /* TLButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -84,6 +85,7 @@
 		5C9527982AD14E1600FE7782 /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
 		5C95279B2AD14E5800FE7782 /* ToDoListItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemViewViewModel.swift; sourceTree = "<group>"; };
 		5C95279E2AD1567800FE7782 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		5CF7AE822AD2AD5500BB377A /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -206,6 +208,7 @@
 				5C79D8E12A67F610007BA488 /* TodoListApp.swift */,
 				5C79D8E52A67F611007BA488 /* Assets.xcassets */,
 				5C04FD0B2AC4890700809875 /* GoogleService-Info.plist */,
+				5CF7AE822AD2AD5500BB377A /* TLButton.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -330,6 +333,7 @@
 				5C9527892AD14C0300FE7782 /* ToDoListView.swift in Sources */,
 				5C95277F2AD14A9800FE7782 /* LoginView.swift in Sources */,
 				5C9527912AD14D8E00FE7782 /* ProfileViewViewModel.swift in Sources */,
+				5CF7AE832AD2AD5500BB377A /* TLButton.swift in Sources */,
 				5C79D8E42A67F610007BA488 /* MainView.swift in Sources */,
 				5C95278B2AD14CAE00FE7782 /* User.swift in Sources */,
 				5C9527852AD14AFA00FE7782 /* RegisterView.swift in Sources */,
