@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct LoginView: View {
-    //MARK: - State
+    //MARK: -  ObservableObject
     @StateObject var loginVM = LoginViewViewModel()
     
     var body: some View {
@@ -17,9 +17,16 @@ struct LoginView: View {
                 
                 //Create Header
                 HeaderView(title: "To Do List", subtitle: "Get things done", degree: 15, background: .pink)
-                
                 //Login Form
                 Form {
+                    //check email & password
+                    if !loginVM.messageError.isEmpty {
+                        Text(loginVM.messageError)
+                            .foregroundColor(Color.red)
+                            .font(.caption)
+                            .offset(y:-10)
+                    }
+                    
                     TextField("Email Address", text: $loginVM.email)
                         .textFieldStyle(DefaultTextFieldStyle())
                         .autocorrectionDisabled()
@@ -28,11 +35,11 @@ struct LoginView: View {
                         .textFieldStyle(DefaultTextFieldStyle())
                     
                     // Button
-                    TLButton(title: "Log In", 
-                             color: .blue, 
+                    TLButton(title: "Log In",
+                             color: .blue,
                              action: {
                         //Action here
-                        
+                        self.loginVM.login()
                     })
                     
                     .padding()

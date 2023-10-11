@@ -36,7 +36,7 @@ struct HeaderView: View {
         //UIScreen.main.bounds.width * 3 : For rotationEffect(Angle(degrees: 15))
         .frame(
             width: UIScreen.main.bounds.width * 3,
-               height: 300
+            height: 300
         )
         .offset(y:-100)
     }
