@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import FirebaseAuth
 
 class LoginViewViewModel : ObservableObject {
     
@@ -23,7 +24,8 @@ class LoginViewViewModel : ObservableObject {
             //Do nothing
             return
         }
-      
+      // try to login
+        Auth.auth().signIn(withEmail: email, password: password)
     }
     
     /*

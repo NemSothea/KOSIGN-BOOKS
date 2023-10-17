@@ -57,6 +57,7 @@
 		5C9527992AD14E1600FE7782 /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9527982AD14E1600FE7782 /* RegisterViewViewModel.swift */; };
 		5C95279C2AD14E5800FE7782 /* ToDoListItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C95279B2AD14E5800FE7782 /* ToDoListItemViewViewModel.swift */; };
 		5C95279F2AD1567800FE7782 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C95279E2AD1567800FE7782 /* HeaderView.swift */; };
+		5CA4CB962ADEA46200184596 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA4CB952ADEA46200184596 /* Extension.swift */; };
 		5CF7AE832AD2AD5500BB377A /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF7AE822AD2AD5500BB377A /* TLButton.swift */; };
 /* End PBXBuildFile section */
 
@@ -85,6 +86,7 @@
 		5C9527982AD14E1600FE7782 /* RegisterViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewViewModel.swift; sourceTree = "<group>"; };
 		5C95279B2AD14E5800FE7782 /* ToDoListItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemViewViewModel.swift; sourceTree = "<group>"; };
 		5C95279E2AD1567800FE7782 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		5CA4CB952ADEA46200184596 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		5CF7AE822AD2AD5500BB377A /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -205,10 +207,10 @@
 		5C95277B2AD1458600FE7782 /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				5CA4CB942ADEA44F00184596 /* Helper */,
 				5C79D8E12A67F610007BA488 /* TodoListApp.swift */,
 				5C79D8E52A67F611007BA488 /* Assets.xcassets */,
 				5C04FD0B2AC4890700809875 /* GoogleService-Info.plist */,
-				5CF7AE822AD2AD5500BB377A /* TLButton.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -219,6 +221,15 @@
 				5C95277E2AD14A9800FE7782 /* LoginView.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		5CA4CB942ADEA44F00184596 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				5CF7AE822AD2AD5500BB377A /* TLButton.swift */,
+				5CA4CB952ADEA46200184596 /* Extension.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -341,6 +352,7 @@
 				5C9527972AD14E0600FE7782 /* LoginViewViewModel.swift in Sources */,
 				5C79D8E22A67F610007BA488 /* TodoListApp.swift in Sources */,
 				5C95279F2AD1567800FE7782 /* HeaderView.swift in Sources */,
+				5CA4CB962ADEA46200184596 /* Extension.swift in Sources */,
 				5C95278D2AD14CBD00FE7782 /* ToDoListItem.swift in Sources */,
 				5C9527832AD14ACA00FE7782 /* NewItemView.swift in Sources */,
 				5C9527952AD14DE100FE7782 /* NewItemViewViewModel.swift in Sources */,
