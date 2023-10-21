@@ -12,18 +12,36 @@ struct MainView: View {
     
     var body: some View {
         if mainViewModel.isSignedIn(), !mainViewModel.currentUserID.isEmpty {
-            ToDoListView()
+           
+            //call create account view properties
+            accountView
+            
         }else {
             LoginView()
         }
         
     }
+    
+    // create account view properties
+    @ViewBuilder
+    var accountView : some View {
+        TabView {
+            ToDoListView(userID: mainViewModel.currentUserID)
+                .tabItem {
+                    Label("Home",systemImage: "house")
+                }
+            ProfileView()
+                .tabItem {
+                    Label("Profile", systemImage: "person.circle")
+                }
+        }
+    }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    
-    static var previews: some View {
-        MainView()
-    }
-    
-}
+//struct ContentView_Previews: PreviewProvider {
+//    
+//    static var previews: some View {
+//        MainView()
+//    }
+//    
+//}

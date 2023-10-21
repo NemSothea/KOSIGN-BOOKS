@@ -6,3 +6,16 @@
 //
 
 import Foundation
+class NewItemViewViewModel : ObservableObject {
+    @Published var title : String = ""
+    @Published var date  = Date()
+    
+    init() {
+        
+    }
+    
+    func save() {
+        
+    }
+    
+}

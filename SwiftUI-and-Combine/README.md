@@ -12,4 +12,6 @@ Reference :
 08.10.2023 : Lesson 4 : Register View
 09.10.2023 : Lesson 5 : Login View
 10.10.2023 : Lesson 6 : Creating Users
+12.10.2023 : Lesson 7 : Account UI
+13.10.2023 : Lesson 8 : New Item View
 
