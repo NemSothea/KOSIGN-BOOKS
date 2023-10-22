@@ -8,6 +8,7 @@
 import Foundation
 import FirebaseAuth
 
+
 class LoginViewViewModel : ObservableObject {
     
     //MARK: - Publish Object
@@ -17,9 +18,11 @@ class LoginViewViewModel : ObservableObject {
     
     init() {}
     
+    
+    /// Login function
+    /// 1. validate  email & password
+    /// 2. try to login : email & password
     func login() {
-        print("Called")
-        
         guard validate() else {
             //Do nothing
             return
@@ -28,11 +31,9 @@ class LoginViewViewModel : ObservableObject {
         Auth.auth().signIn(withEmail: email, password: password)
     }
     
-    /*
-     - TODO: - Check the invalid of email & Password
-        - True  : correct email Password
-        - False : Wrong email and Password return message error
-     */
+    /// TODO: - Check the invalid of email & Password
+    /// - Returns : True  : correct email and Password
+    /// - Returns : False : Wrong email and Password return message error
     private func validate() -> Bool {
         
         messageError = ""

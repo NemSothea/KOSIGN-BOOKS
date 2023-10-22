@@ -11,11 +11,9 @@ import Foundation
 
 class NewItemViewViewModel : ObservableObject {
     
-    @Published var title : String   = ""
-    @Published var date             = Date()
-    @Published var showAlert : Bool = false
-   
-    
+    @Published var title        : String = ""
+    @Published var date                  = Date()
+    @Published var showAlert    : Bool   = false
     
     init() {
         

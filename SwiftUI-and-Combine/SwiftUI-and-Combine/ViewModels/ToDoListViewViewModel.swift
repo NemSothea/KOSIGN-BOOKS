@@ -10,8 +10,8 @@ import Foundation
 /// 
 class ToDoListViewViewModel : ObservableObject {
     
-    @Published var showingNewItem : Bool = false
-    private let userID : String
+    @Published var showingNewItem   : Bool = false
+    private let userID              : String
     
     init(userID : String) {
         self.userID = userID

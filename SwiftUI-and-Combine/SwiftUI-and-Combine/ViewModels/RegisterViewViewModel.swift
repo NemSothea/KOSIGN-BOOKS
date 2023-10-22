@@ -20,14 +20,18 @@ class RegisterViewViewModel : ObservableObject {
     
     init() {}
     
-    //MARK: - functions
+    /// Register function
+    /// 1. check validate
+    /// 2. create user : email & password
+    /// 3. InsertUserRecord
     func register() {
+        
+        //check validate
         guard validate() else {
             //Do nothing
             return
         }
-        //correct validate
-        
+       
         // try to create user
         Auth.auth().createUser(withEmail: email, password: password) { [weak self] result, error in
             guard let userID = result?.user.uid else {
@@ -38,13 +42,16 @@ class RegisterViewViewModel : ObservableObject {
         }
         
     }
-    //insert new user
+    /// Insert new user
+    /// - Parameter id: UUID -> each user
     private func insertUserRecord(id : String) {
         //create object for new user
-        let newUser = User(id: id,
-                           name: name,
-                           email: email,
-                           joined: Date().timeIntervalSince1970)
+        let newUser = User(
+            id       : id,
+            name     : name,
+            email    : email,
+            joined   : Date().timeIntervalSince1970
+            )
         
         //create database
         let db = Firestore.firestore()
