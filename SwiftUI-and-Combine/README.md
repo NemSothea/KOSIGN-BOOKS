@@ -17,3 +17,6 @@ Reference :
 13.10.2023 : Lesson 9 : Saving To Do Items
 13.10.2023 : Lesson 10: Items List
 13.10.2023 : Lesson 11: Delete Items
+28.10.2023 : Lesson 12: Done Checkmarks
+28.10.2023 : Lesson 13: Profile & Log Out
+28.10.2023 : Lesson 14: App Icon & Launch Screen 

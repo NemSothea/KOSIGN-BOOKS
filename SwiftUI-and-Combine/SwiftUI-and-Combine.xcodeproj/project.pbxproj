@@ -58,6 +58,7 @@
 		5C95279C2AD14E5800FE7782 /* ToDoListItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C95279B2AD14E5800FE7782 /* ToDoListItemViewViewModel.swift */; };
 		5C95279F2AD1567800FE7782 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C95279E2AD1567800FE7782 /* HeaderView.swift */; };
 		5CA4CB962ADEA46200184596 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA4CB952ADEA46200184596 /* Extension.swift */; };
+		5CC288D02AECBE32001BDBAB /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5CC288CF2AECBE32001BDBAB /* Launch Screen.storyboard */; };
 		5CF7AE832AD2AD5500BB377A /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CF7AE822AD2AD5500BB377A /* TLButton.swift */; };
 /* End PBXBuildFile section */
 
@@ -87,6 +88,7 @@
 		5C95279B2AD14E5800FE7782 /* ToDoListItemViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListItemViewViewModel.swift; sourceTree = "<group>"; };
 		5C95279E2AD1567800FE7782 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		5CA4CB952ADEA46200184596 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
+		5CC288CF2AECBE32001BDBAB /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		5CF7AE822AD2AD5500BB377A /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -195,11 +197,11 @@
 			children = (
 				5C95278E2AD14D6100FE7782 /* MainViewViewModel.swift */,
 				5C9527902AD14D8E00FE7782 /* ProfileViewViewModel.swift */,
+				5C95279B2AD14E5800FE7782 /* ToDoListItemViewViewModel.swift */,
 				5C9527922AD14D9C00FE7782 /* ToDoListViewViewModel.swift */,
 				5C9527942AD14DE100FE7782 /* NewItemViewViewModel.swift */,
 				5C9527962AD14E0600FE7782 /* LoginViewViewModel.swift */,
 				5C9527982AD14E1600FE7782 /* RegisterViewViewModel.swift */,
-				5C95279B2AD14E5800FE7782 /* ToDoListItemViewViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -211,6 +213,7 @@
 				5C79D8E12A67F610007BA488 /* TodoListApp.swift */,
 				5C79D8E52A67F611007BA488 /* Assets.xcassets */,
 				5C04FD0B2AC4890700809875 /* GoogleService-Info.plist */,
+				5CC288CF2AECBE32001BDBAB /* Launch Screen.storyboard */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -322,6 +325,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CC288D02AECBE32001BDBAB /* Launch Screen.storyboard in Resources */,
 				5C1C32A02A694C0C009F9175 /* README.md in Resources */,
 				5C04FD0C2AC4890700809875 /* GoogleService-Info.plist in Resources */,
 				5C95277D2AD14A4B00FE7782 /* TodoListFlow.key in Resources */,
@@ -493,6 +497,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -526,6 +531,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				LD_RUNPATH_SEARCH_PATHS = (

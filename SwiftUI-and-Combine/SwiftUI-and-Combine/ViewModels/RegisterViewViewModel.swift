@@ -58,7 +58,7 @@ class RegisterViewViewModel : ObservableObject {
         
         //convert each object to dictionary and insert to firebase
         db.collection("users")
-            .document()
+            .document(id)
             .setData(newUser.asDictionary())
         
     }
