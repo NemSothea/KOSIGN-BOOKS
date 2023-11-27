@@ -1,9 +1,17 @@
-{
-    [
-        "name_1"    : "United States",
-        "name_2"    : "Canada",
-        "name_3"    : "Cambodia",
-        "correct"   : "Cambodia"
-    ]
-    
-}
+[
+    {   "id"                    : "1",
+        "countryName"           : "flag_cambodia",
+        "countryNameOne"        : "United States",
+        "countryNameTwo"        : "Canada",
+        "countryNameThree"      : "Cambodia",
+        "correctCountry"        : "Cambodia"
+    },
+    {
+        "id"                    : "2",
+        "countryName"           : "flag_usa",
+        "countryNameOne"        : "United States",
+        "countryNameTwo"        : "Cambodia",
+        "countryNameThree"      : "Canada",
+        "correctCountry"        : "United States"
+    }
+]

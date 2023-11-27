@@ -9,112 +9,54 @@ import SwiftUI
 
 struct CountdownView: View {
     
-    @State private var timeRemaining = 3000 // 50 minutes in seconds
-    @State private var timer: Timer? = nil
+    @State private var secondsRemaining = 30 // Initial countdown time
     
     var body: some View {
         HStack {
             
             HStack(alignment:.center) {
-                GifImage(name: "Time")
+                GifImage(name: "Time", isFlag: false, isTime: true)
                     .frame(width: 50,height: 50)
-                Text("\(timeRemaining.formatted()) វិនាទី")
-                    .font(.system(size: 20))
+                Text("\(secondsRemaining) seconds")
                     .fontWeight(.bold)
                     .foregroundColor(.orange)
-                
+                    .onAppear() {
+                        // Start the countdown when the view appears
+                        startCountdown()
+                    }
             }
-            
             Spacer()
-            
             Button {
                 
             }label: {
-                Text("តោះ ផឹក")
-                    .font(.largeTitle)
+                Text("Let's drink")
+                    .font(.title3)
                     .fontWeight(.bold)
+                    .font(.system(size: 10))
                     .foregroundColor(.white)
+                    
                     .padding()
             }
             .frame(height: 50)
             .background(Color.red)
+            .clipShape(RoundedRectangle(cornerRadius: 10))
             
-            .onAppear {
-                if timeRemaining > 0 {
-                    DispatchQueue.main.async {
-                        startTimer()
-                    }
-                }
-            }
         }
         .padding()
     }
-    func startTimer() {
-      timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { timer in
-        timeRemaining -= 1
-
-        if timeRemaining == 0 {
-          stopTimer()
+    func startCountdown() {
+        Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { timer in
+            if secondsRemaining > 0 {
+                secondsRemaining -= 1
+            } else {
+                // Stop the timer when the countdown reaches 0
+                timer.invalidate()
+                
+            }
         }
-      }
     }
-
-     func stopTimer() {
-         timer?.invalidate()
-     }
 }
 
-struct CountdownView1: View {
-  @State private var timeRemaining = 3000 // 50 minutes in seconds
-  @State private var timer = Timer()
-
-  var body: some View {
-    VStack {
-      Text("Time remaining: \(timeRemaining.formatted())")
-        .font(.largeTitle)
-
-      Button(action: {
-        startTimer()
-      }) {
-        Text("Start timer")
-          .font(.title)
-          .hidden()
-      }
-
-      Button(action: {
-        stopTimer()
-      }) {
-        Text("Stop timer")
-          .font(.title)
-      }
-    }
-    .onAppear {
-      if timeRemaining > 0 {
-        DispatchQueue.main.async {
-          startTimer()
-        }
-      }
-    }
-  }
-
-    func startTimer() {
-      if timer == nil {
-        timer = Timer.scheduledTimer(withTimeInterval: 1, repeats: true) { timer in
-          timeRemaining -= 1
-
-          if timeRemaining == 0 {
-            stopTimer()
-          }
-        }
-      }
-    }
-
-  func stopTimer() {
-    timer.invalidate()
-  }
+#Preview {
+    CountdownView()
 }
-
-//
-//#Preview {
-//    CountdownView()
-//}

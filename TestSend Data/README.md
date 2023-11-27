@@ -4,6 +4,8 @@ This for SwiftUI BOOK of iOS development.
 * 5 Techniques to Effortlessly Send Data from UIKit to SwiftUI
 Reference : 
 - https://shorturl.at/mqz56
+Flag :
+- https://shorturl.at/hkrEW
 
 Painting of the Day
 The Problem – Get Data From UIKit
