@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="W18-4N-kyb">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="W18-4N-kyb">
     <device id="ipad12_9rounded" orientation="portrait" layout="fullscreen" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
         <capability name="Image references" minToolsVersion="12.0"/>
         <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -134,7 +134,7 @@
                                                     <attributedString key="attributedText">
                                                         <fragment content="TOPIK II READING 24th">
                                                             <attributes>
-                                                                <font key="NSFont" size="30" name=".SFNS-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="30"/>
                                                             </attributes>
                                                         </fragment>
                                                     </attributedString>
@@ -205,7 +205,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="73n-lg-KD1">
-                                <rect key="frame" x="15" y="34" width="446" height="44"/>
+                                <rect key="frame" x="15" y="34" width="444.5" height="44"/>
                                 <color key="backgroundColor" name="Button Color"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="U43-CH-G3W"/>
@@ -217,7 +217,7 @@
                                         <fragment content="떠나기">
                                             <attributes>
                                                 <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
-                                                <font key="NSFont" size="36" name=".AppleSDGothicNeoI-Regular"/>
+                                                <font key="NSFont" metaFont="system" size="36"/>
                                                 <font key="NSOriginalFont" size="36" name="AvenirNext-Regular"/>
                                             </attributes>
                                         </fragment>
@@ -233,7 +233,7 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q24-aG-9Yw">
-                                <rect key="frame" x="563" y="34" width="446" height="44"/>
+                                <rect key="frame" x="564.5" y="34" width="444.5" height="44"/>
                                 <color key="backgroundColor" name="Button Color"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="mQa-Az-ioQ"/>
@@ -244,7 +244,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="다음">
                                             <attributes>
-                                                <font key="NSFont" size="36" name=".AppleSDGothicNeoI-Regular"/>
+                                                <font key="NSFont" metaFont="system" size="36"/>
                                                 <font key="NSOriginalFont" size="36" name="AvenirNext-Regular"/>
                                             </attributes>
                                         </fragment>
@@ -260,7 +260,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uAH-Ec-q2z">
-                                <rect key="frame" x="471" y="34" width="82" height="40"/>
+                                <rect key="frame" x="469.5" y="34" width="85" height="43"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Label">
                                         <attributes>
@@ -276,33 +276,33 @@
                                 <rect key="frame" x="0.0" y="78" width="1024" height="1268"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="pfN-fL-ki9">
-                                    <size key="itemSize" width="410" height="671"/>
+                                    <size key="itemSize" width="1020" height="731"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="k1g-oI-XAg" customClass="ReadingQuestionCollectionViewCell" customModule="CoordinatorApp" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="298.5" width="410" height="671"/>
+                                        <rect key="frame" x="0.0" y="268.5" width="1020" height="731"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="cIG-jX-z6m">
-                                            <rect key="frame" x="0.0" y="0.0" width="410" height="671"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="1020" height="731"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s24-oF-oO3">
-                                                    <rect key="frame" x="5" y="30" width="405" height="0.0"/>
+                                                    <rect key="frame" x="5" y="30" width="1015" height="29"/>
                                                     <attributedString key="attributedText">
                                                         <fragment content="[5">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".SFNS-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="10" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
                                                         </fragment>
                                                         <fragment content="~">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".SFNS-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" size="18" name="AcademyEngravedLetPlain"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="10" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -310,112 +310,112 @@
                                                         <fragment content="8] (   ) ">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".SFNS-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="10" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
                                                         </fragment>
                                                         <fragment content="다음은">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
-                                                                <font key="NSOriginalFont" size="24" name=".SFNS-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
+                                                                <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="10" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
                                                         </fragment>
                                                         <fragment content=" ">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".SFNS-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="10" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
                                                         </fragment>
                                                         <fragment content="무엇에">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
-                                                                <font key="NSOriginalFont" size="24" name=".SFNS-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
+                                                                <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="10" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
                                                         </fragment>
                                                         <fragment content=" ">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".SFNS-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="10" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
                                                         </fragment>
                                                         <fragment content="대한">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
-                                                                <font key="NSOriginalFont" size="24" name=".SFNS-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
+                                                                <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="10" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
                                                         </fragment>
                                                         <fragment content=" ">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".SFNS-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="10" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
                                                         </fragment>
                                                         <fragment content="글인지">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
-                                                                <font key="NSOriginalFont" size="24" name=".SFNS-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
+                                                                <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="10" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
                                                         </fragment>
                                                         <fragment content=" ">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".SFNS-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="10" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
                                                         </fragment>
                                                         <fragment content="고르십시오">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
-                                                                <font key="NSOriginalFont" size="24" name=".SFNS-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
+                                                                <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="10" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
                                                         </fragment>
                                                         <fragment content=".(">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".SFNS-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="10" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
                                                         </fragment>
                                                         <fragment content="각">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
-                                                                <font key="NSOriginalFont" size="24" name=".SFNS-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
+                                                                <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="10" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
                                                         </fragment>
                                                         <fragment content=" 2">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".SFNS-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="10" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
                                                         </fragment>
                                                         <fragment content="점">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
-                                                                <font key="NSOriginalFont" size="24" name=".SFNS-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
+                                                                <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="10" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
                                                         </fragment>
                                                         <fragment content=").">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".SFNS-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="10" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
                                                         </fragment>
@@ -424,12 +424,12 @@
                                                     <size key="shadowOffset" width="0.0" height="1"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sFA-7z-MFY">
-                                                    <rect key="frame" x="5" y="40" width="400" height="391"/>
+                                                    <rect key="frame" x="5" y="69" width="1010" height="203.5"/>
                                                     <attributedString key="attributedText">
                                                         <fragment content="최근">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -444,7 +444,7 @@
                                                         <fragment content="한">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -459,7 +459,7 @@
                                                         <fragment content="나라에서">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -474,7 +474,7 @@
                                                         <fragment content="년">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -489,7 +489,7 @@
                                                         <fragment content="전에">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -504,7 +504,7 @@
                                                         <fragment content="만들어진">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -519,7 +519,7 @@
                                                         <fragment content="무덤이">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -534,7 +534,7 @@
                                                         <fragment content="발견됐다">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -549,7 +549,7 @@
                                                         <fragment content="이">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -564,7 +564,7 @@
                                                         <fragment content="무덤의">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -579,7 +579,7 @@
                                                         <fragment content="주인은">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -594,7 +594,7 @@
                                                         <fragment content="당시">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -609,7 +609,7 @@
                                                         <fragment content="왕으로">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -624,7 +624,7 @@
                                                         <fragment content="밝혀졌으며">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -639,7 +639,7 @@
                                                         <fragment content="무덤">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -654,7 +654,7 @@
                                                         <fragment content="벽에는">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -669,7 +669,7 @@
                                                         <fragment content="고대">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -684,7 +684,7 @@
                                                         <fragment content="문자와">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -699,7 +699,7 @@
                                                         <fragment content="다양한">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -714,7 +714,7 @@
                                                         <fragment content="색의">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -729,7 +729,7 @@
                                                         <fragment content="그림이">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -744,7 +744,7 @@
                                                         <fragment content="가득했다">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -759,7 +759,7 @@
                                                         <fragment content="이">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -774,7 +774,7 @@
                                                         <fragment content="무덤은">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -789,7 +789,7 @@
                                                         <fragment content="오랜">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -804,7 +804,7 @@
                                                         <fragment content="시간이">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -819,7 +819,7 @@
                                                         <fragment content="지났지만">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -834,7 +834,7 @@
                                                         <fragment content="색이">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -849,7 +849,7 @@
                                                         <fragment content="거의">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -864,7 +864,7 @@
                                                         <fragment content="그대로">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -879,7 +879,7 @@
                                                         <fragment content="보존">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -894,7 +894,7 @@
                                                         <fragment content="되어">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -909,7 +909,7 @@
                                                         <fragment content="있어">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -924,7 +924,7 @@
                                                         <fragment content="역사적">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -939,7 +939,7 @@
                                                         <fragment content="가치가">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -954,7 +954,7 @@
                                                         <fragment content="높다고">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -969,7 +969,7 @@
                                                         <fragment content="전문가들은">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -984,7 +984,7 @@
                                                         <fragment content="전했다">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -999,7 +999,7 @@
                                                         <fragment content="무덤의">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -1014,7 +1014,7 @@
                                                         <fragment content="일부는">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -1029,7 +1029,7 @@
                                                         <fragment content="일반인">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -1044,7 +1044,7 @@
                                                         <fragment content="에게도">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -1059,7 +1059,7 @@
                                                         <fragment content="곧">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -1074,7 +1074,7 @@
                                                         <fragment content="공개될">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -1089,7 +1089,7 @@
                                                         <fragment content="예정이다">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -1104,7 +1104,7 @@
                                                         <fragment content="무덤의">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -1119,7 +1119,7 @@
                                                         <fragment content="일부는">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -1134,7 +1134,7 @@
                                                         <fragment content="일반인">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -1149,7 +1149,7 @@
                                                         <fragment content="에게도">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -1164,7 +1164,7 @@
                                                         <fragment content="곧">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -1179,7 +1179,7 @@
                                                         <fragment content="공개될">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -1194,7 +1194,7 @@
                                                         <fragment content="예정이다">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -1209,7 +1209,7 @@
                                                         <fragment content="무덤의">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -1224,7 +1224,7 @@
                                                         <fragment content="일부는">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -1239,7 +1239,7 @@
                                                         <fragment content="일반인">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -1254,7 +1254,7 @@
                                                         <fragment content="에게도">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -1269,7 +1269,7 @@
                                                         <fragment content="곧">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -1284,7 +1284,7 @@
                                                         <fragment content="공개될">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -1299,7 +1299,7 @@
                                                         <fragment content="예정이다">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -1314,7 +1314,7 @@
                                                         <fragment content="무덤의">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -1329,7 +1329,7 @@
                                                         <fragment content="일부는">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -1344,7 +1344,7 @@
                                                         <fragment content="일반인">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -1359,7 +1359,7 @@
                                                         <fragment content="에게도">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -1374,7 +1374,7 @@
                                                         <fragment content="곧">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -1389,7 +1389,7 @@
                                                         <fragment content="공개될">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -1404,7 +1404,7 @@
                                                         <fragment content="예정이다">
                                                             <attributes>
                                                                 <color key="NSColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".AppleSDGothicNeoI-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                                 <font key="NSOriginalFont" metaFont="system" size="24"/>
                                                                 <paragraphStyle key="NSParagraphStyle" alignment="justified" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="15" paragraphSpacingBefore="4" tighteningFactorForTruncation="0.0"/>
                                                             </attributes>
@@ -1421,7 +1421,7 @@
                                                     <size key="shadowOffset" width="0.0" height="1"/>
                                                 </label>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="24_7_img.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ugc-6s-Wnl">
-                                                    <rect key="frame" x="0.0" y="431" width="410" height="0.0"/>
+                                                    <rect key="frame" x="0.0" y="272.5" width="1020" height="0.0"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" id="SPf-2V-ToL"/>
                                                     </constraints>
@@ -1432,13 +1432,13 @@
                                                     </userDefinedRuntimeAttributes>
                                                 </imageView>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="jLO-e2-ked">
-                                                    <rect key="frame" x="10" y="441" width="390" height="230"/>
+                                                    <rect key="frame" x="10" y="282.5" width="1000" height="230"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="by1-i4-1dJ" customClass="UIControl">
-                                                            <rect key="frame" x="0.0" y="0.0" width="390" height="50"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="1000" height="50"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sIE-ru-vtb">
-                                                                    <rect key="frame" x="10" y="0.0" width="380" height="50"/>
+                                                                    <rect key="frame" x="10" y="0.0" width="990" height="50"/>
                                                                     <attributedString key="attributedText">
                                                                         <fragment content="Default navigation back button is empty Default navigation back button is empty">
                                                                             <attributes>
@@ -1463,10 +1463,10 @@
                                                             </connections>
                                                         </view>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lEp-Yt-SxI" customClass="UIControl">
-                                                            <rect key="frame" x="0.0" y="60" width="390" height="50"/>
+                                                            <rect key="frame" x="0.0" y="60" width="1000" height="50"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="axq-nd-hlG">
-                                                                    <rect key="frame" x="10" y="0.0" width="380" height="50"/>
+                                                                    <rect key="frame" x="10" y="0.0" width="990" height="50"/>
                                                                     <attributedString key="attributedText">
                                                                         <fragment content="Default navigation back button is empty Default navigation back button is empty">
                                                                             <attributes>
@@ -1490,10 +1490,10 @@
                                                             </connections>
                                                         </view>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SnG-07-ZUb" customClass="UIControl">
-                                                            <rect key="frame" x="0.0" y="120" width="390" height="50"/>
+                                                            <rect key="frame" x="0.0" y="120" width="1000" height="50"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="leJ-FG-pfP">
-                                                                    <rect key="frame" x="10" y="0.0" width="380" height="50"/>
+                                                                    <rect key="frame" x="10" y="0.0" width="990" height="50"/>
                                                                     <attributedString key="attributedText">
                                                                         <fragment content="Default navigation back button is empty Default navigation back button is empty">
                                                                             <attributes>
@@ -1517,10 +1517,10 @@
                                                             </connections>
                                                         </view>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NLu-Oz-qVe" customClass="UIControl">
-                                                            <rect key="frame" x="0.0" y="180" width="390" height="50"/>
+                                                            <rect key="frame" x="0.0" y="180" width="1000" height="50"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zOy-OC-1pg">
-                                                                    <rect key="frame" x="10" y="0.0" width="380" height="50"/>
+                                                                    <rect key="frame" x="10" y="0.0" width="990" height="50"/>
                                                                     <attributedString key="attributedText">
                                                                         <fragment content="Default navigation back button is empty Default navigation back button is empty">
                                                                             <attributes>
@@ -1563,7 +1563,7 @@
                                                 <constraint firstItem="Ugc-6s-Wnl" firstAttribute="top" secondItem="sFA-7z-MFY" secondAttribute="bottom" id="ycP-ac-UoE"/>
                                             </constraints>
                                         </collectionViewCellContentView>
-                                        <size key="customSize" width="410" height="671"/>
+                                        <size key="customSize" width="1020" height="731"/>
                                         <connections>
                                             <outlet property="imgHeightConstraint" destination="SPf-2V-ToL" id="a5R-yP-1zj"/>
                                             <outlet property="option1" destination="sIE-ru-vtb" id="30r-Zp-QL0"/>
@@ -1610,7 +1610,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kmh-Yn-ZyW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2324.6376811594205" y="-828.26086956521749"/>
+            <point key="canvasLocation" x="2324.4140625" y="-828.40409956076132"/>
         </scene>
         <!--ResultVC-->
         <scene sceneID="3Ha-zr-aWa">
@@ -1903,10 +1903,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="1024" height="1366"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Bi-6g-3Oz">
-                                <rect key="frame" x="15" y="34" width="446" height="40"/>
+                                <rect key="frame" x="15" y="34" width="444.5" height="44"/>
                                 <color key="backgroundColor" name="Button Color"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="ab9-rd-fG2"/>
+                                    <constraint firstAttribute="height" constant="44" id="ab9-rd-fG2"/>
                                 </constraints>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
@@ -1914,7 +1914,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="떠나기">
                                             <attributes>
-                                                <font key="NSFont" size="36" name=".AppleSDGothicNeoI-Regular"/>
+                                                <font key="NSFont" metaFont="system" size="36"/>
                                                 <font key="NSOriginalFont" size="36" name="AvenirNext-Regular"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
@@ -1931,10 +1931,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Suh-6U-0fM">
-                                <rect key="frame" x="563" y="34" width="446" height="40"/>
+                                <rect key="frame" x="564.5" y="34" width="444.5" height="44"/>
                                 <color key="backgroundColor" name="Button Color"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="40" id="YY9-qU-BRE"/>
+                                    <constraint firstAttribute="height" constant="44" id="YY9-qU-BRE"/>
                                 </constraints>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <state key="normal" title="Button"/>
@@ -1942,7 +1942,7 @@
                                     <attributedString key="attributedTitle">
                                         <fragment content="다음">
                                             <attributes>
-                                                <font key="NSFont" size="36" name=".AppleSDGothicNeoI-Regular"/>
+                                                <font key="NSFont" metaFont="system" size="36"/>
                                                 <font key="NSOriginalFont" metaFont="system" size="18"/>
                                                 <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                             </attributes>
@@ -1959,7 +1959,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ror-5p-V0A">
-                                <rect key="frame" x="471" y="34" width="82" height="40"/>
+                                <rect key="frame" x="469.5" y="34" width="85" height="43"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Label">
                                         <attributes>
@@ -1972,7 +1972,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="RY2-kq-BhJ">
-                                <rect key="frame" x="15" y="84" width="994" height="34"/>
+                                <rect key="frame" x="15" y="88" width="994" height="34"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Ao-zG-qts">
                                         <rect key="frame" x="0.0" y="0.0" width="994" height="34"/>
@@ -1992,36 +1992,36 @@
                                 </subviews>
                             </stackView>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="nXZ-Bg-Mly">
-                                <rect key="frame" x="0.0" y="128" width="1024" height="1218"/>
+                                <rect key="frame" x="0.0" y="132" width="1024" height="1214"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="fkz-sL-NGp">
-                                    <size key="itemSize" width="410" height="671"/>
+                                    <size key="itemSize" width="1026" height="775"/>
                                     <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                     <size key="footerReferenceSize" width="0.0" height="0.0"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cell" id="yQD-Nf-FIh" customClass="ReadingQuestionCollectionViewCell" customModule="CoordinatorApp" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="273.5" width="410" height="671"/>
+                                        <rect key="frame" x="0.0" y="219.5" width="1026" height="775"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="TBT-5w-YdL">
-                                            <rect key="frame" x="0.0" y="0.0" width="410" height="671"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="1026" height="775"/>
                                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a09-VX-fRP">
-                                                    <rect key="frame" x="5" y="30" width="405" height="53.5"/>
+                                                    <rect key="frame" x="5" y="30" width="1021" height="29"/>
                                                     <attributedString key="attributedText">
                                                         <fragment content="Default navigation back button is empty Default navigation back button is empty">
                                                             <attributes>
                                                                 <color key="NSColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                                <font key="NSFont" size="24" name=".SFNS-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="24"/>
                                                             </attributes>
                                                         </fragment>
                                                     </attributedString>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ygq-lC-Byp">
-                                                    <rect key="frame" x="5" y="93.5" width="400" height="128"/>
+                                                    <rect key="frame" x="5" y="69" width="1016" height="69"/>
                                                     <attributedString key="attributedText">
                                                         <fragment>
                                                             <string key="content">Default navigation back button is empty Default navigation back button is empty Default navigation back button is empty Default navigation back button is empty</string>
@@ -2036,7 +2036,7 @@
                                                     <size key="shadowOffset" width="0.0" height="1"/>
                                                 </label>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" image="35_7_img.png" translatesAutoresizingMaskIntoConstraints="NO" id="QNq-cb-cwg">
-                                                    <rect key="frame" x="0.0" y="231.5" width="410" height="200"/>
+                                                    <rect key="frame" x="0.0" y="148" width="1026" height="200"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="200" id="hjP-Vv-w74"/>
                                                     </constraints>
@@ -2047,13 +2047,13 @@
                                                     </userDefinedRuntimeAttributes>
                                                 </imageView>
                                                 <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="QAH-nN-hLm">
-                                                    <rect key="frame" x="10" y="431.5" width="390" height="230"/>
+                                                    <rect key="frame" x="10" y="348" width="1006" height="230"/>
                                                     <subviews>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KLV-OM-h7k" customClass="UIControl">
-                                                            <rect key="frame" x="0.0" y="0.0" width="390" height="50"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="1006" height="50"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4uN-b9-RD3">
-                                                                    <rect key="frame" x="10" y="0.0" width="380" height="50"/>
+                                                                    <rect key="frame" x="10" y="0.0" width="996" height="50"/>
                                                                     <attributedString key="attributedText">
                                                                         <fragment content="Default navigation back button is empty Default navigation back button is empty">
                                                                             <attributes>
@@ -2078,10 +2078,10 @@
                                                             </connections>
                                                         </view>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="seM-F2-O5J" customClass="UIControl">
-                                                            <rect key="frame" x="0.0" y="60" width="390" height="50"/>
+                                                            <rect key="frame" x="0.0" y="60" width="1006" height="50"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Tc-5m-DOg">
-                                                                    <rect key="frame" x="10" y="0.0" width="380" height="50"/>
+                                                                    <rect key="frame" x="10" y="0.0" width="996" height="50"/>
                                                                     <attributedString key="attributedText">
                                                                         <fragment content="Default navigation back button is empty Default navigation back button is empty">
                                                                             <attributes>
@@ -2105,10 +2105,10 @@
                                                             </connections>
                                                         </view>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t7s-aK-fkF" customClass="UIControl">
-                                                            <rect key="frame" x="0.0" y="120" width="390" height="50"/>
+                                                            <rect key="frame" x="0.0" y="120" width="1006" height="50"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Abl-Om-j8R">
-                                                                    <rect key="frame" x="10" y="0.0" width="380" height="50"/>
+                                                                    <rect key="frame" x="10" y="0.0" width="996" height="50"/>
                                                                     <attributedString key="attributedText">
                                                                         <fragment content="Default navigation back button is empty Default navigation back button is empty">
                                                                             <attributes>
@@ -2132,10 +2132,10 @@
                                                             </connections>
                                                         </view>
                                                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4oZ-oB-fn5" customClass="UIControl">
-                                                            <rect key="frame" x="0.0" y="180" width="390" height="50"/>
+                                                            <rect key="frame" x="0.0" y="180" width="1006" height="50"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cs0-RY-bfX">
-                                                                    <rect key="frame" x="10" y="0.0" width="380" height="50"/>
+                                                                    <rect key="frame" x="10" y="0.0" width="996" height="50"/>
                                                                     <attributedString key="attributedText">
                                                                         <fragment content="Default navigation back button is empty Default navigation back button is empty">
                                                                             <attributes>
@@ -2178,7 +2178,7 @@
                                                 <constraint firstItem="a09-VX-fRP" firstAttribute="leading" secondItem="TBT-5w-YdL" secondAttribute="leading" constant="5" id="zVm-cz-G55"/>
                                             </constraints>
                                         </collectionViewCellContentView>
-                                        <size key="customSize" width="410" height="671"/>
+                                        <size key="customSize" width="1026" height="775"/>
                                         <connections>
                                             <outlet property="imgHeightConstraint" destination="hjP-Vv-w74" id="H5F-k0-vnM"/>
                                             <outlet property="option1" destination="4uN-b9-RD3" id="kg8-8z-u1W"/>
@@ -2236,7 +2236,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tyD-jq-Mtp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2356.521739130435" y="566.57608695652175"/>
+            <point key="canvasLocation" x="2356.0546875" y="566.17862371888725"/>
         </scene>
         <!--Favorite TabVC-->
         <scene sceneID="7eH-EL-OBy">
@@ -2262,7 +2262,7 @@
                                                     <attributedString key="attributedText">
                                                         <fragment content="TOPIK II READING 24th">
                                                             <attributes>
-                                                                <font key="NSFont" size="30" name=".SFNS-Regular"/>
+                                                                <font key="NSFont" metaFont="system" size="30"/>
                                                             </attributes>
                                                         </fragment>
                                                     </attributedString>
@@ -2340,10 +2340,10 @@
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemPinkColor">
-            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemPurpleColor">
-            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

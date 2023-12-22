@@ -40,8 +40,11 @@ class ReadingQuestionCollectionViewCell: UICollectionViewCell {
             if self.setValues?.isImg == "y" {
                 self.questionLabel.text = nil
                 self.questionImg.isHidden = false
-                self.imgHeightConstraint.constant = 200.0
-                self.questionImg.image = UIImage(named: setValues?.question ?? "")
+                self.imgHeightConstraint.constant = UIScreen.main.bounds.height / 2
+                
+                self.questionImg.frame = CGRectMake(0.0, 0.0,UIScreen.main.bounds.width, UIScreen.main.bounds.height / 2)
+                
+                self.questionImg.image = UIImage(named:setValues?.question ?? "")
             }else {
                 self.questionImg.isHidden = true
                 self.questionImg.image = nil
