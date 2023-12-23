@@ -271,6 +271,206 @@
             "detail"        : " Now you can buy simple medicines such as cold medicine at convenience stores. Even if you urgently need medicine on nights or Sundays when the pharmacy is closed, you don't have to worry anymore. Because convenience stores don't take 365 days off a year. But this convenience is only for urban areas. Since there are not many convenience stores in rural areas, this convenience is still a ‘picture rice cake’ for people in rural areas.",
             "correctAnswer" : "②  그림의 떡",
             "score"         : "3"
+        },
+        {
+            "sections"      : " ※ [31~34] 다음은 무엇에 대한 글인지 고르십시오. (각 3점) ",
+            "question"      : "29_3_img",
+            "option_1"      : "①  수건",
+            "option_2"      : "②  치약",
+            "option_3"      : "③  세제",
+            "option_4"      : "④  휴지",
+            "correctAnswer" : "③  세제",
+            "isImg"         : "y"
+        },
+        {
+            "sections"      : " ※ [31~34] 다음은 무엇에 대한 글인지 고르십시오. (각 3점) ",
+            "question"      : "29_4_img",
+            "option_1"      : "①  꽃집",
+            "option_2"      : "②  서점",
+            "option_3"      : "③  우체국",
+            "option_4"      : "④  대학교",
+            "correctAnswer" : "①  꽃집",
+            "isImg"         : "y"
+        },
+        {
+            "sections"      : " ※ [31~34] 다음은 무엇에 대한 글인지 고르십시오. (각 3점) ",
+            "question"      : "29_5_img",
+            "option_1"      : "①  공연 초대 ",
+            "option_2"      : "②  여행 광고",
+            "option_3"      : "③  수업 소개",
+            "option_4"      : "④  회원 모집",
+            "correctAnswer" : "③  수업 소개",
+            "isImg"         : "y"
+        },
+        {
+            "sections"      : " ※ [31~34] 다음은 무엇에 대한 글인지 고르십시오. (각 3점) ",
+            "question"      : "29_6_img",
+            "option_1"      : "①  판매 순서",
+            "option_2"      : "②  주의 사항",
+            "option_3"      : "③  사용 기간",
+            "option_4"      : "④  구입 안내",
+            "correctAnswer" : "②  주의 사항",
+            "isImg"         : "y"
+        },
+        {
+            "sections"      : " ※ [35~38] 다음을 보고 내용이 같은 것을 고르십시오.  ",
+            "question"      : "29_7_img",
+            "option_1"      : "①  퀴즈 대회는 방송으로 볼 수 있다.",
+            "option_2"      : "②  부산에 사는 주부만 참여해야 한다.",
+            "option_3"      : "③  참여한 사람에게는 상품이 주어진다.",
+            "option_4"      : "④  대회에 관련된 문의는 주말에 해도 된다.",
+            "correctAnswer" : "①  퀴즈 대회는 방송으로 볼 수 있다.",
+            "isImg"         : "y"
+        },
+        {
+            "sections"      : " ※ [35~38] 다음을 보고 내용이 같은 것을 고르십시오.  ",
+            "question"      : "29_8_img",
+            "option_1"      : "①  남학생이 가장 적게 하는 운동은 축구이다.",
+            "option_2"      : "②  여학생은 남학생보다 자전거를 더 적게 탄다.",
+            "option_3"      : "③  남학생은 자전거 타기보다 줄넘기를 많이 한다.",
+            "option_4"      : "④  여학생이 가장 많이 하는 운동은 자전거 타기이다.",
+            "correctAnswer" : "②  여학생은 남학생보다 자전거를 더 적게 탄다.",
+            "isImg"         : "y"
+        },
+        {
+            "sections"      : " ※ [35~38] 다음을 보고 내용이 같은 것을 고르십시오.",
+            "question"      : " 서울시는 제6회 ‘서울 문화의 밤’ 행사의 하나로 5월 11일 서울광장에서 1박 2일 캠핑 행사를 개최한다. 참가 신청은 29일까지 서울시 홈페이지에서 할수있으며 참가비는 없다. 캠핑 현장에서는 음식을 해먹을 수 없고 텐트, 이불 등은 가지고 와야 한다. 당일 오전 8시를 기준으로 비가 올 경우에 행사가 취소되며 신청자에게는 이 사실을 문자 메시지로 알려 준다.",
+            "option_1"      : "①  날씨에 따라서 캠핑을 못 할 수 있다.",
+            "option_2"      : "②  행사 현장에서는 음식을 만들어도 된다.",
+            "option_3"      : "③  서울 문화의 밤’ 행사는 이번이 처음이다.",
+            "option_4"      : "④  행사장에서 캠핑에 필요한 물건을 나눠 준다.",
+            "detail"        : " The Seoul Metropolitan Government will hold a two-day camping event at the Seoul Plaza on May 11 as part of the sixth  `Seoul Culture Night`. Applications can be made at the Seoul Metropolitan Government website until May 29, and there is no fee for participation. You cannot cook food at the site, and you must bring a tent or blanket. As of 8 a.m. on the day, if it rains, the event will be canceled and applicants will be notified via text message.",
+            "correctAnswer" : "①  날씨에 따라서 캠핑을 못 할 수 있다."
+        },
+        {
+            "sections"      : " ※ [35~38] 다음을 보고 내용이 같은 것을 고르십시오.",
+            "question"      : " 전국일자리센터에서 ‘10년 뒤 인기 직업’을 조사해 발표했다. 그 결과 각종 상담사의 순위가 높게 나타났다. 1위는 직업 상담사였고 10위 안에는 노인 문제 상담사, 아동 문제 상담사도 있었다. 상담사의 인기가 높은 것은 다양한 사회 문제가 발생하면서 상담사가 더 많이 필요해졌기 때문이다.",
+            "option_1"      : "①  최근에는 상담사의 종류가 많이 늘었다.",
+            "option_2"      : "②  조사 결과 노인 문제 상담사는 10위를 차지했다.",
+            "option_3"      : "③  아동 문제로 상담을 받는 사람이 전보다 많아졌다.",
+            "option_4"      : "④  가장 순위가 높은 직업은 직업 상담사로 조사되었다.",
+            "detail"        : " Job centers across the country surveyed and announced 'popular jobs in 10 years'. As a result, the ranking of various counselors was high. The No. 1 job counselor was a job counselor, and there were also elderly problem counselors and child problem counselors in the top 10. The popularity of counselors is because more counselors are needed as various social problems arise.",
+            "correctAnswer" : "④  가장 순위가 높은 직업은 직업 상담사로 조사되었다."
+        },
+        {
+            "sections"      : " ※ [39~42] 다음을 읽고 중심 생각을 고르십시오. (각 4점)",
+            "question"      : " 사람들은 전자레인지로 데운 음식이 건강에 나쁘지 않을까 걱정한다. 이는 전자레인지에서 나오는 전자파가 음식에 안 좋은 영향을 준다는 생각 때문이다. 그러나 전자파는 음식 자체에 어떠한 영향도 주지 않는다. 다만 사람이 직접 전자파를 받는 것이 몸에 나쁠 뿐이다.",
+            "option_1"      : "①  정확하지 않은 정보는 확인해 보는 것이 좋다.",
+            "option_2"      : "②  전자레인지로 데운 음식이 몸에 나쁜 것은 아니다.",
+            "option_3"      : "③  다른 것보다 건강을 제일 중요하게 생각해야 한다.",
+            "option_4"      : "④  몸이 안 좋을 때는 찬 음식을 데워 먹을 필요가 있다.",
+            "detail"        : " People are worried that microwaved food may be unhealthy. This is due to the idea that microwaved food has a negative effect on food. However, electromagnetic waves do not have any effect on the food itself. However, it is only bad for people to receive electromagnetic waves directly.",
+            "correctAnswer" : "②  전자레인지로 데운 음식이 몸에 나쁜 것은 아니다."
+        },
+        {
+            "sections"      : " ※ [39~42] 다음을 읽고 중심 생각을 고르십시오. (각 4점)",
+            "question"      : " 사람들은 흔히 재미있는 이야기를 들을 때 웃는다고 생각한다. 하지만 실제로 웃긴 이야기나 재미있는 상황 때문에 웃는 경우는 전체의 20%밖에 되지 않는다. 그보다는 대화를 나눌 때 대화 상대방에게 느끼는 좋은 감정 때문에 웃는 경우가 훨씬 더 많다.",
+            "option_1"      : "①  웃으면 대화의 분위기가 부드럽게 변한다.",
+            "option_2"      : "②  대화 상대방의 감정을 고려해서 웃어야 한다.",
+            "option_3"      : "③  나에 대한 상대방의 태도를 웃음으로 바꿀 수 있다.",
+            "option_4"      : "④  웃음은 대화의 내용보다는 상대방과 더 관계가 있다.",
+            "detail"        : " People often think that they laugh when they hear an interesting story. However, only 20% of people actually laugh because of a funny story or situation. Rather, they laugh much more because of the good feelings they have for the other person when they have a conversation.",
+            "correctAnswer" : "④  웃음은 대화의 내용보다는 상대방과 더 관계가 있다."
+        },
+        {
+            "sections"      : " ※ [39~42] 다음을 읽고 중심 생각을 고르십시오. (각 4점)",
+            "question"      : " 어떤 문제를 해결하기 위해 다른 사람들과 논의를 할 때에는 현실적 이지 않은 의견도 들어 보는 것이 좋다. 가끔은 비현실적인 생각으로부터 새로운 해결 방법이 떠오를 수도 있기 때문이다. 당장은 문제 해결에 도움이 되지 않을 것 같은 의견이라도 일단은 들어 보는 것이 좋다.",
+            "option_1"      : "①  원인을 알아야 문제를 해결할 수 있다.",
+            "option_2"      : "②  비현실적인 의견도 들어 볼 필요가 있다.",
+            "option_3"      : "③  다른 사람의 의견은 귀를 기울여 들어야 한다.",
+            "option_4"      : "④  아무나 쉽게 생각할 수 없는 의견을 제시해야 한다.",
+            "detail"        : " It's a good idea to listen to unrealistic opinions when discussing with others to solve a problem. Because sometimes new solutions can come up from unrealistic ideas. Even if you think it won't help you solve the problem right now, it's a good idea to listen to it for now.",
+            "correctAnswer" : "②  비현실적인 의견도 들어 볼 필요가 있다."
+        },
+        {
+            "sections"      : " ※ [39~42] 다음을 읽고 중심 생각을 고르십시오. (각 4점)",
+            "question"      : " 옛날 한국에서는 마음을 조절하기 위해서 음악을 배웠다. 그래서 악기를 연주할 때 소리만 잘 내는 것이 아니라 연주할 때의 마음 자세를 중요하게 여겼다. 악기를 연주할 때에 옷을 제대로 챙겨 입어야 했던 이유도 연주할 때 의복이 마음에 영향을 줄 수 있다고 생각했기 때문이다.",
+            "option_1"      : "①  한국에서는 악기의 소리를 중요하게 생각했다.",
+            "option_2"      : "②  마음을 조절하기 위해서는 계속 노력해야 한다.",
+            "option_3"      : "③  음악은 연주하는 사람의 감정을 잘 나타내 준다.",
+            "option_4"      : "④  한국에서 음악은 마음을 조절하는 데에 사용됐다.",
+            "detail"        : " In the past, in Korea, music was learned to control the mind. That's why when playing an instrument, not only the sound is good, but the mind posture when playing is important. The reason I had to dress properly when playing an instrument is because I thought that clothes could affect the mind when playing.",
+            "correctAnswer" : "④  한국에서 음악은 마음을 조절하는 데에 사용됐다."
+        },
+        {
+            "sections"      : " ※ [43~45] 다음을 순서대로 맞게 배열한 것을 고르십시오. (각 3점)",
+            "question"      : "(가) 하지만 이때 손에 묻은 침을 통해 감기가 다른 사람에게 전해질 수 있다.\n(나) 사람들은 보통 기침이 나오면 손으로 입을 막는다.\n(다) 따라서 기침이 나오면 손보다는 팔로 입을 막는 것이 더 낫다.\n(라) 손에 침이 묻을 때마다 손을 씻기도 어렵다.",
+            "option_1"      : "①  (나)-(가)-(라)-(다)",
+            "option_2"      : "②  (나)-(다)-(가)-(라)",
+            "option_3"      : "③  (라)-(가)-(나)-(다)",
+            "option_4"      : "④  (라)-(나)-(다)-(가)",
+            "detail"        : " People usually close their mouths with their hands when they cough. But at this time, the cold can be passed on to someone else through the acupuncture on the hand. It's hard to wash your hands whenever you have saliva on your hands. So when you cough, it's better to cover your mouth with your arms than with your hands.",
+            "correctAnswer" : "①  (나)-(가)-(라)-(다)"
+        },
+        {
+            "sections"      : " ※ [43~45] 다음을 순서대로 맞게 배열한 것을 고르십시오. (각 3점)",
+            "question"      : "(가) 자동판매기는 두 단계를 통해 가짜 동전을 찾아낸다.\n(나) 이 과정이 끝나면 동전의 크기와 떨어지는 속도로 동전의 종류를 구별한다.\n(다) 먼저 자동판매기는 동전에 전기가 얼마나 통하는지 확인한다.\n(라) 크기와 속도가 진짜 동전과 맞지 않는다면 자동판매기는 그 동전을 밖으로 내보낸다. ",
+            "option_1"      : "①  (가)-(다)-(나)-(라)",
+            "option_2"      : "②  (가)-(다)-(라)-(나)",
+            "option_3"      : "③  (라)-(가)-(다)-(나)",
+            "option_4"      : "④  (라)-(나)-(다)-(가)",
+            "detail"        : " Vending machines find fake coins in two steps. First, the machine checks how much electricity goes through the coins. After this process, the types of coins are distinguished by the size of the coins and the speed at which they fall. If the size and speed do not match the real coins, the machine sends the coins out.",
+            "correctAnswer" : "①  (가)-(다)-(나)-(라)"
+        },
+        {
+            "sections"      : " ※ [43~45] 다음을 순서대로 맞게 배열한 것을 고르십시오. (각 3점)",
+            "question"      : "(가) 이 카메라는 특히 사람의 목소리나 물건이 깨지는 소리에 반응한다.\n(나) 그런데 최근 소리가 나는 쪽을 자동으로 촬영하는 카메라가 개발됐다.\n(다) 소리만 나도 사건 장면을 촬영할 수 있어 사고 처리에 도움을 줄 것이다.\n(라) 아무도 없는 곳에서 사건이 발생한 경우 상황을 알기란 쉽지 않다. ",
+            "option_1"      : "①  (다)-(나)-(가)-(라)",
+            "option_2"      : "②  (다)-(나)-(라)-(가)",
+            "option_3"      : "③  (라)-(나)-(가)-(다)",
+            "option_4"      : "④  (라)-(가)-(나)-(다)",
+            "detail"        : " It is not easy to know the situation when an incident occurs in a place where no one is there. Recently, however, a camera has been developed that automatically photographs the side where the sound is coming from. It is not easy to know the situation when an incident occurs in a place where no one is there. This camera specifically responds to the sound of a person's voice or object being broken.",
+            "correctAnswer" : "③  (라)-(나)-(가)-(다)"
+        },
+        {
+            "sections"      : " ※ [46~48] 다음을 읽고(....)에 알맞은 것을 고르십시오.",
+            "question"      : " 요즘 추억을 떠올리게 하는 제품이 인기이다. 초등학교 앞에서 사 먹던  과자, 다시 듣는 90년대 인기 가요 음반이 그 예이다. 그만큼 인간이 (....) 것이다. 이런 점을 이용해 기업에서는 옛날에 유행 했던 제품을 시장에 내놓고 있다.",
+            "option_1"      : "①  시간을 아낀다는",
+            "option_2"      : "②  시대를 따른다는",
+            "option_3"      : "③  과거를 그리워한다는",
+            "option_4"      : "④  예전 물건을 모은다는",
+            "detail"        : " Products that remind you of memories are popular these days. Snacks that you buy in front of your elementary school and popular music albums of the 1990s that you listen to again are an example. That's how much humans miss the past. Taking advantage of this, companies are putting products that were popular in the past on the market.",
+            "correctAnswer" : "③  과거를 그리워한다는"
+        },
+        {
+            "sections"      : " ※ [46~48] 다음을 읽고(....)에 알맞은 것을 고르십시오.",
+            "question"      : " 해외여행을 가고 싶지만 한꺼번에 많은 돈을 내기 어려울 때는 ‘후불제 여행’ 상품을 이용하면 좋다. 이 상품을 이용하면 여행비의 반을 먼저 내고 나머지 돈은 여행을 다녀온 뒤에 갚아도 된다. 이 상품은 (....) 해외여행을 가지 못했던 사람들의 관심을 끌고 있다. ",
+            "option_1"      : "①  가격이 부담되어",
+            "option_2"      : "②  일정이 맞지 않아",
+            "option_3"      : "③  여행 상품이 부족해",
+            "option_4"      : "④  해외 경험이 별로 없어",
+            "detail"        : " If you want to go on a foreign trip, but it is difficult to pay a lot of money at once, you can use the `pay-back travel` product. If you use this product, you can pay half of the travel fee first and pay back the rest after traveling. This product is attracting the attention of people who have not been able to travel abroad due to the burden of price.",
+            "correctAnswer" : "①  가격이 부담되어"
+        },
+        {
+            "sections"      : " ※ [46~48] 다음을 읽고(....)에 알맞은 것을 고르십시오.",
+            "question"      : " 밤하늘을 일반 카메라로 찍으면 빛이 너무 약해서 사진이 흐릿하게 보인다. 빛이 렌즈에 들어오는 시간이 길수록 사진의 색은 밝고 진해진다. 그래서 카메라에 빛을 충분히 모으면 더 선명한 사진을 찍을 수 있다. 밤하늘을 찍을때도(....) 흐린사진을 진하게 할수있다.",
+            "option_1"      : "①  렌즈의 온도를 높이면",
+            "option_2"      : "②  일반 카메라로 촬영하면",
+            "option_3"      : "③  별빛을 렌즈에 오래 비추면",
+            "option_4"      : "④  여러 장을 이어서 촬영하면",
+            "detail"        : " The light is so weak that the picture is blurry when you take a picture of the night sky with a regular camera. The longer the light enters the lens, the brighter and darker the color of the picture becomes. So, you can take clearer pictures if you collect enough light from the camera. Blurry pictures can be made darker by shining starlight on the lens for a long time even when taking a picture of the night sky.",
+            "correctAnswer" : "③  별빛을 렌즈에 오래 비추면"
+        },
+        {
+            "sections"      : " ※ [49~50] 다음 글을 읽고 물음에 답하십시오. (각 3점) ",
+            "question"      : " 한 회사원이 길에 쓰러진 환자를 살렸다. 지난 15일 인주동 삼거리에서 길을 가던 70대 남성이 갑자기 쓰러졌다. 주변에 있던 사람들은 신고를 하긴 했지만 구급차를 기다리는 동안 어떻게 해야 할지를 몰랐다. 그때 횡단보도를 건너온 김 모 씨(28)가 쓰러진 남성에게 응급 처치를 했다. 김 씨는 남성을 똑바로 눕히고 가슴을 몇 번 눌러 숨을 쉬게 도왔다. 5분 후 구급차가 도착해 환자를 병원으로 싣고 갔다. 담당 의사는 현재 환자가 좋아 지고 있으며 현장에 있던 김 씨가 적절한 조치를 한 덕분에 환자가 살 수 있었다고 말했다. \n49.이 글의 제목으로 가장 알맞은 것을 고르십시오.",
+            "option_1"      : "①  70대 남성, 삼거리에서 쓰러져",
+            "option_2"      : "②  빠른 신고로 쓰러진 노인 살아나",
+            "option_3"      : "③  구급차가 늦어져 생명 잃을 뻔해",
+            "option_4"      : "④  길 가던 회사원, 응급 처치로 사람 구해",
+            "detail"        : " An office worker saved a patient who collapsed on the street. A man in his 70s suddenly collapsed on the way at the three-way intersection in Inju-dong on last 15th. People around him reported him but he didn't know what to do while waiting for the ambulance. At that time, a 28-year-old man surnamed Kim, who crossed the crosswalk, gave first aid to the man. He laid the man upright and pressed his chest several times to help him breathe. An ambulance arrived five minutes later and carried the patient to the hospital. The doctor in charge said, `The patient is getting better now, and the patient was able to survive thanks to proper measures taken by Kim at the scene.`",
+            "correctAnswer" : "④  길 가던 회사원, 응급 처치로 사람 구해"
+        },
+        {
+            "sections"      : " ※ [49~50] 다음 글을 읽고 물음에 답하십시오. (각 3점)",
+            "question"      : " 한 회사원이 길에 쓰러진 환자를 살렸다. 지난 15일 인주동 삼거리에서 길을 가던 70대 남성이 갑자기 쓰러졌다. 주변에 있던 사람들은 신고를 하긴 했지만 구급차를 기다리는 동안 어떻게 해야 할지를 몰랐다. 그때 횡단보도를 건너온 김 모 씨(28)가 쓰러진 남성에게 응급 처치를 했다. 김 씨는 남성을 똑바로 눕히고 가슴을 몇 번 눌러 숨을 쉬게 도왔다. 5분 후 구급차가 도착해 환자를 병원으로 싣고 갔다. 담당 의사는 현재 환자가 좋아 지고 있으며 현장에 있던 김 씨가 적절한 조치를 한 덕분에 환자가 살 수 있었다고 말했다.\n50.이 글의 내용과 같은 것을 고르십시오. ",
+            "option_1"      : "①  사람들은 김 씨가 오기 전에 신고를 했다.",
+            "option_2"      : "②  삼거리에 있던 사람이 김 씨를 데리고 왔다.",
+            "option_3"      : "③  교통사고로 쓰러진 남성이 병원에 실려 갔다.",
+            "option_4"      : "④  김 씨는 사람들에게 응급 처치 방법을 알려 주었다.",
+            "detail"        : " It is known that passengers prevented a major accident on the highway. The incident occurred at about 0:25 on the 15th, about 3km ahead of the Chiak rest area. On the express bus from Seoul to Andong, the driver, Mr. Kim (53), suddenly lost his mind while driving and collapsed. Seeing this, Mr. Cheon Mo, 41, ran to the driver's seat, grabbed the wheel and prevented the bus from crossing the center line. The other passengers joined forces and pulled the fallen driver out of the driver's seat. Mr. Cheon, who sat in the driver's seat on behalf of the driver, drove the bus to the Chiak rest area about three minutes away to safely move the passengers. It was a dizzying incident that could lead to a big accident.",
+            "correctAnswer" : "①  사람들은 김 씨가 오기 전에 신고를 했다."
         }
     ]
 }
