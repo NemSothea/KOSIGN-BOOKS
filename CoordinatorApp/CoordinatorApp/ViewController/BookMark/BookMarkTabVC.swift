@@ -38,6 +38,10 @@ extension BookMarkTabVC : UITableViewDataSource, UITableViewDelegate {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell") as! BookMarkTabTableViewCell
         let questionNumber = self.questionsViewModel.TOPIKQuestionArray[indexPath.row]
         
+        let fontSize = Share.shared.setFontSize()
+        
+        cell.title.font = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
+        
          // Get the corresponding ReadingQuestion enum case
         if let question = QuestionType(rawValue: questionNumber.rawValue) {
             // Use the title in the cell

@@ -35,6 +35,8 @@ class ReadingQuestionCollectionViewCell: UICollectionViewCell {
     
     var setValues : ReadingQuestionModel.Question? {
         didSet {
+            //Set up font style
+            self.setUpFont()
             
             self.sectionLabel.text  = setValues?.sections
             if self.setValues?.isImg == "y" {
@@ -66,10 +68,10 @@ class ReadingQuestionCollectionViewCell: UICollectionViewCell {
         
     }
     override func prepareForReuse() {
-        updateBorder(myView: optionA)
-        updateBorder(myView: optionB)
-        updateBorder(myView: optionC)
-        updateBorder(myView: optionD)
+        self.updateBorder(myView: optionA)
+        self.updateBorder(myView: optionB)
+        self.updateBorder(myView: optionC)
+        self.updateBorder(myView: optionD)
     }
     @IBAction func onClickOptionA(_ sender : Any) {
         var isCorrect = false
@@ -107,30 +109,41 @@ class ReadingQuestionCollectionViewCell: UICollectionViewCell {
     func changeBorder(selectedOption : SelectionOption) {
         switch selectedOption {
         case .optionA :
-            updateBorder(myView: optionA,borderWidth: 1)
-            updateBorder(myView: optionB)
-            updateBorder(myView: optionC)
-            updateBorder(myView: optionD)
+            self.updateBorder(myView: optionA,borderWidth: 1)
+            self.updateBorder(myView: optionB)
+            self.updateBorder(myView: optionC)
+            self.updateBorder(myView: optionD)
         case .optionB :
-            updateBorder(myView: optionB,borderWidth: 1)
-            updateBorder(myView: optionA)
-            updateBorder(myView: optionC)
-            updateBorder(myView: optionD)
+            self.updateBorder(myView: optionB,borderWidth: 1)
+            self.updateBorder(myView: optionA)
+            self.updateBorder(myView: optionC)
+            self.updateBorder(myView: optionD)
         case .optionC :
-            updateBorder(myView: optionC,borderWidth: 1)
-            updateBorder(myView: optionA)
-            updateBorder(myView: optionB)
-            updateBorder(myView: optionD)
+            self.updateBorder(myView: optionC,borderWidth: 1)
+            self.updateBorder(myView: optionA)
+            self.updateBorder(myView: optionB)
+            self.updateBorder(myView: optionD)
         case .optionD :
-            updateBorder(myView: optionD,borderWidth: 1)
-            updateBorder(myView: optionA)
-            updateBorder(myView: optionB)
-            updateBorder(myView: optionC)
+            self.updateBorder(myView: optionD,borderWidth: 1)
+            self.updateBorder(myView: optionA)
+            self.updateBorder(myView: optionB)
+            self.updateBorder(myView: optionC)
         }
     }
+    private func setUpFont() {
+        
+        let fontSize = Share.shared.setFontSize()
+        
+        self.sectionLabel.font = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
+        self.questionLabel.font = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
+        
+        self.option1.font       = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
+        self.option2.font       = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
+        self.option3.font       = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
+        self.option4.font       = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
+    }
     
-    
-    func updateBorder(myView : UIView, borderWidth : CGFloat = 0) {
+    private func updateBorder(myView : UIView, borderWidth : CGFloat = 0) {
         myView.layer.borderWidth = borderWidth
         myView.layer.borderColor = UIColor.white.cgColor
     }

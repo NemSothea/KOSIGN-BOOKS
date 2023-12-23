@@ -11,6 +11,9 @@ class ReadingQuestionVC: UIViewController {
     
    //MARK: - @IBOutlet
     @IBOutlet weak var topicTitle       : UILabel!
+    @IBOutlet weak var nextButton       : UIButton!
+    @IBOutlet weak var backButton       : UIButton!
+    
     @IBOutlet weak var collectionView   : UICollectionView!
     
     
@@ -24,15 +27,16 @@ class ReadingQuestionVC: UIViewController {
     var totalScore       = 0
     var indexTopic       = 0
     
-    private var countWrongAnswer    = 0
-    private var wrongResult      = Set<Int>()
+//    private var countWrongAnswer    = 0
+//    private var wrongResult      = Set<Int>()
     
    //MARK: - ViewLifeCycle
     override func viewDidLoad() {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
-        self.topicTitle.text = QuestionType(rawValue: indexTopic)?.titleReading
+       
+        self.setUI()
 
         self.questionsVM.getData(for: self.indexTopic)
         
@@ -42,17 +46,39 @@ class ReadingQuestionVC: UIViewController {
             self.collectionView.reloadData()
         }
     }
+    // MARK: - Functions
+    private func setUI() {
+        let fontSize = Share.shared.setFontSize()
+        
+        self.topicTitle.font = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
+        self.nextButton.titleLabel?.font = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
+        self.backButton.titleLabel?.font = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
+        
+        self.topicTitle.text = QuestionType(rawValue: indexTopic)?.titleReading
+    }
     // MARK: - @IBAction
     @IBAction func exitTap(_ sender : UIButton) {
+       
+        
         let alert = UIAlertController(title: "내용\n", message: "확신 합니까?\n", preferredStyle: .alert)
+        
+        let fontSize = Share.shared.setFontSize()
+        
+        alert.setValue(NSAttributedString(string: alert.title!, attributes: [NSAttributedString.Key.font : UIFont(name: "1HoonDdukbokki Regular", size: fontSize)!,NSAttributedString.Key.foregroundColor : UIColor.blue]), forKey: "attributedTitle")
+        
+        alert.setValue(NSAttributedString(string: alert.message!, attributes: [NSAttributedString.Key.font : UIFont(name: "1HoonDdukbokki Regular", size: fontSize)!,NSAttributedString.Key.foregroundColor : UIColor.blue]), forKey: "attributedMessage")
+        
         let okAction = UIAlertAction(title: "넵", style: .default) { (_) in
             self.dismiss(animated: true)
         }
         let cancelAction = UIAlertAction(title: "취소", style: .cancel) { (_) in
            return
         }
+        
         alert.addAction(cancelAction)
         alert.addAction(okAction)
+        
+        
         present(alert, animated: true,completion: nil)
         
     }
@@ -74,9 +100,7 @@ class ReadingQuestionVC: UIViewController {
         self.answerSelected = false
         if self.isCorrectAnswer {
             self.correctAnswer += 1
-            if self.countWrongAnswer != 0 {
-                self.wrongResult.insert(countWrongAnswer)
-            }
+            
         }else {
             guard let popUpVC = storyboard?.instantiateViewController(withIdentifier: "PopupVC") as? PopupVC else { return }
             if self.questionsVM.data?.questions?[index].detail == nil {
@@ -84,7 +108,7 @@ class ReadingQuestionVC: UIViewController {
             }else {
                 popUpVC.detail0 = self.questionsVM.data?.questions?[index].detail ?? ""
             }
-            self.countWrongAnswer += 1
+           
             self.present(popUpVC, animated: true)
             return
         }
@@ -93,11 +117,14 @@ class ReadingQuestionVC: UIViewController {
             if self.isCorrectAnswer {
                 self.totalScore += Int(self.questionsVM.data?.questions?[index].score ?? "") ?? 0
             }
+            print("========")
+            print("totalScore : \(self.totalScore)")
+            print("========")
            
             self.collectionView.scrollToItem(at: IndexPath(row: index, section: 0), at: .right, animated: true)
         }else {
             guard let resultVC = storyboard?.instantiateViewController(withIdentifier: "ResultVC") as? ResultVC else {return}
-            resultVC.data          = ["\(totalScore)","\(wrongResult.count)","\(self.questionsVM.data?.questions?.count ?? 0)"]
+            resultVC.data          = ["\(totalScore)","\(self.questionsVM.data?.questions?.count ?? 0)"]
             resultVC.modalPresentationStyle = .fullScreen
             self.present(resultVC, animated: true)
         }
@@ -107,7 +134,7 @@ class ReadingQuestionVC: UIViewController {
 //MARK: - Extension CollectionView
 extension ReadingQuestionVC : UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return questionsVM.data?.questions?.count ?? 0
+        return self.questionsVM.data?.questions?.count ?? 0
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
@@ -120,6 +147,10 @@ extension ReadingQuestionVC : UICollectionViewDelegate, UICollectionViewDataSour
         cell.optionC.layer.cornerRadius = 5
         cell.optionD.layer.cornerRadius = 5
         cell.setValues = questionsVM.data?.questions?[indexPath.row]
+        print("========")
+        print("Score : \(questionsVM.data?.questions?[indexPath.row].score)")
+        print("========")
+        
         cell.selectedOption = { [weak self] isCorrect in
             self?.answerSelected    = true
             self?.isCorrectAnswer   = isCorrect

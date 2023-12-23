@@ -21,7 +21,11 @@ class BookmarkCoordinator : Coordinator {
     
         let vc = BookMarkTabVC.instantiate()
         
+        let fontSize = Share.shared.setFontSize()
+        UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.font: UIFont(name: "1HoonDdukbokki Regular", size: fontSize)!], for: .normal)
+        
         vc.tabBarItem = UITabBarItem(title: "읽기", image: UIImage(systemName: "books.vertical"), tag: 0)
+        
         
         self.navigationViewController.pushViewController(vc, animated: true)
         

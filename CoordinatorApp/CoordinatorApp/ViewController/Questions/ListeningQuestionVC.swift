@@ -15,7 +15,8 @@ class ListeningQuestionVC: UIViewController {
     @IBOutlet weak var topicTitle       : UILabel!
     @IBOutlet weak var playButton       : UIButton!
     @IBOutlet weak var collectionView   : UICollectionView!
-    
+    @IBOutlet weak var nextButton       : UIButton!
+    @IBOutlet weak var backButton       : UIButton!
     
     //MARK: - Variable
     
@@ -26,8 +27,7 @@ class ListeningQuestionVC: UIViewController {
     private var correctAnswer    = 0
     private var index            = 0
     var indexTopic               = 0
-    private var countWrongAnswer = 0
-    private var wrongResult      = Set<Int>()
+   
     private var  isPlay64        = true
     
     // MARK: - ViewLifecycle
@@ -35,6 +35,8 @@ class ListeningQuestionVC: UIViewController {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
+        self.setUI()
+        
         self.playButton.isEnabled = self.indexTopic != 3
         
         self.listeningViewModel.getData(for: self.indexTopic)
@@ -46,6 +48,16 @@ class ListeningQuestionVC: UIViewController {
             self.collectionView.dataSource  = self
             self.collectionView.reloadData()
         }
+    }
+    // MARK: - Functions
+    private func setUI() {
+        let fontSize = Share.shared.setFontSize()
+        
+        self.topicTitle.font = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
+        self.nextButton.titleLabel?.font = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
+        self.backButton.titleLabel?.font = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
+        
+        self.topicTitle.text = QuestionType(rawValue: indexTopic)?.titleReading
     }
     // MARK: - @IBAction
     @IBAction func playTap(_ sender: UIButton) {
@@ -77,6 +89,14 @@ class ListeningQuestionVC: UIViewController {
         let cancelAction = UIAlertAction(title: "취소", style: .cancel) { (_) in
            return
         }
+        
+        let fontSize = Share.shared.setFontSize()
+        
+        alert.setValue(NSAttributedString(string: alert.title!, attributes: [NSAttributedString.Key.font : UIFont(name: "1HoonDdukbokki Regular", size: fontSize)!,NSAttributedString.Key.foregroundColor : UIColor.blue]), forKey: "attributedTitle")
+        
+        alert.setValue(NSAttributedString(string: alert.message!, attributes: [NSAttributedString.Key.font : UIFont(name: "1HoonDdukbokki Regular", size: fontSize)!,NSAttributedString.Key.foregroundColor : UIColor.blue]), forKey: "attributedMessage")
+        
+        
         let okAction = UIAlertAction(title: "넵", style: .default) { (_) in
             self.listeningViewModel.stopPlay(index: "\(self.indexTopic)")
             self.dismiss(animated: true)
@@ -111,9 +131,7 @@ class ListeningQuestionVC: UIViewController {
          */
         if self.isCorrectAnswer {
             self.correctAnswer += 1
-            if self.countWrongAnswer != 0 {
-                self.wrongResult.insert(self.countWrongAnswer)
-            }
+           
         }else {
             /** TODO -:
              - When selected question wrong show popup details
@@ -128,7 +146,7 @@ class ListeningQuestionVC: UIViewController {
                 popUpVC.detail0 = self.listeningViewModel.data?.questions?[index].question ?? ""
                 popUpVC.detail1 = self.listeningViewModel.data?.questions?[index].detail ?? ""
             }
-            self.countWrongAnswer += 1
+         
             self.present(popUpVC, animated: true)
             return
         }
@@ -137,14 +155,14 @@ class ListeningQuestionVC: UIViewController {
          */
         if self.index < (self.listeningViewModel.data?.questions?.count ?? 0) - 1 {
             self.index += 1
-            self.wrongResult.insert(self.countWrongAnswer)
+          
             self.collectionView.scrollToItem(at: IndexPath(row: index, section: 0), at: .right, animated: true)
         }else {
             /** TODO -:
              - Show final result with score, Number of question, Wrong selected
              */
             guard let resultVC = storyboard?.instantiateViewController(withIdentifier: "ResultVC") as? ResultVC else {return}
-            resultVC.data          = ["\(self.wrongResult.count)","\(self.listeningViewModel.data?.questions?.count ?? 0)"]
+            resultVC.data          = ["\(self.listeningViewModel.data?.questions?.count ?? 0)"]
             self.listeningViewModel.stopAllCurrentPlay()
             resultVC.modalPresentationStyle = .fullScreen
             self.present(resultVC, animated: true)

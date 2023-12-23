@@ -39,6 +39,10 @@ extension FavoriteTabVC : UITableViewDataSource, UITableViewDelegate {
         
         let questionNumber = self.listeningViewModel.TOPIKQuestionArray[indexPath.row]
         
+        let fontSize = Share.shared.setFontSize()
+        
+        cell.title.font = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
+        
         // Get the corresponding ReadingQuestion enum case
         if let question = QuestionType(rawValue: questionNumber.rawValue) {
             // Use the title in the cell
