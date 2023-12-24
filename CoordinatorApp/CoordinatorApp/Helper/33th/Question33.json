@@ -270,6 +270,206 @@
             "correctAnswer" : "②  싼게비지떡",
             "score"         : "3",
             "isImg"         : "n"
+        },
+        {
+            "sections"      : " ※ [31~34] 다음은 무엇에 대한 글인지 고르십시오. (각 3점) ",
+            "question"      : "33_3_img",
+            "option_1"      : "①  빵",
+            "option_2"      : "②  껌",
+            "option_3"      : "③  과자",
+            "option_4"      : "④  주스",
+            "correctAnswer" : "④  주스",
+            "isImg"         : "y"
+        },
+        {
+            "sections"      : " ※ [31~34] 다음은 무엇에 대한 글인지 고르십시오. (각 3점) ",
+            "question"      : "33_4_img",
+            "option_1"      : "①  도서관",
+            "option_2"      : "②  박물관",
+            "option_3"      : "③  백화점",
+            "option_4"      : "④  음식점",
+            "correctAnswer" : "③  백화점",
+            "isImg"         : "y"
+        },
+        {
+            "sections"      : " ※ [31~34] 다음은 무엇에 대한 글인지 고르십시오. (각 3점) ",
+            "question"      : "33_5_img",
+            "option_1"      : "①  학교 소개",
+            "option_2"      : "②  친구 소개",
+            "option_3"      : "③  동창회 안내",
+            "option_4"      : "④  졸업식 안내",
+            "correctAnswer" : "③  동창회 안내",
+            "isImg"         : "y"
+        },
+        {
+            "sections"      : " ※ [31~34] 다음은 무엇에 대한 글인지 고르십시오. (각 3점) ",
+            "question"      : "33_6_img",
+            "option_1"      : "①  사용 소감",
+            "option_2"      : "②  상품 설명",
+            "option_3"      : "③  이용 방법",
+            "option_4"      : "④  문의 사항",
+            "correctAnswer" : "①  사용 소감",
+            "isImg"         : "y"
+        },
+        {
+            "sections"      : " ※ [35~38] 다음을 보고 내용이 같은 것을 고르십시오.  ",
+            "question"      : "33_7_img",
+            "option_1"      : "①  체육 시설은 주말에만 이용할 수 있다.",
+            "option_2"      : "②  농구는 실내와 야외에서 모두 할 수 있다.",
+            "option_3"      : "③  이용 신청서는 구민회관에 가서 받으면 된다.",
+            "option_4"      : "④  단체는 신청하면 바로 시설 이용이 가능하다.",
+            "correctAnswer" : "②  농구는 실내와 야외에서 모두 할 수 있다.",
+            "isImg"         : "y"
+        },
+        {
+            "sections"      : " ※ [35~38] 다음을 보고 내용이 같은 것을 고르십시오.  ",
+            "question"      : "33_8_img",
+            "option_1"      : "①  남자는 성격보다 외모를 많이 본다.",
+            "option_2"      : "②  남자보다 여자는 경제력에 관심이 더 많다.",
+            "option_3"      : "③  남녀 모두가 사랑을 가장 중요하게 생각한다.",
+            "option_4"      : "④  남녀 모두가 경제력보다 직업을 중요하게 생각한다.",
+            "correctAnswer" : "②  남자보다 여자는 경제력에 관심이 더 많다.",
+            "isImg"         : "y"
+        },
+        {
+            "sections"      : " ※ [35~38] 다음을 보고 내용이 같은 것을 고르십시오.",
+            "question"      : " <한국잡지>가 10주년을 맞이하여 그동안 보내 주신 사랑에 감사하는 마음으로 선물을 준비하였습니다. 잡지 안에 있는 엽서에 사연을 적어 1월 31일까지 보내 주십시오. 재미있는 사연을 뽑아 50명에게 선물을 보내 드리 겠습니다.",
+            "option_1"      : "①  <한국잡지>를 사면 선물을 준다.",
+            "option_2"      : "②  엽서에 받고 싶은 선물을 써야 한다. ",
+            "option_3"      : "③  잡지와 관계있는 사연을 보내야 한다.",
+            "option_4"      : "④  <한국잡지>는 10년 전에 처음 나왔다.",
+            "detail"        : " To celebrate the 10th anniversary of <Korean Magazine>, we have prepared a gift with gratitude for the love you have sent us. Please write the story on the postcard in the magazine and send it by January 31st. I'll pick an interesting story and send a gift to 50 people.",
+            "correctAnswer" : "④  <한국잡지>는 10년 전에 처음 나왔다."
+        },
+        {
+            "sections"      : " ※ [35~38] 다음을 보고 내용이 같은 것을 고르십시오.",
+            "question"      : " 국립과학관에서 초등학교 5,6학년을 대상으로 ‘수학게임대회’를 개최한다. 이 대회는 여러 가지 게임으로 수학 실력을 겨루는 대회이다.참가 신청은 오는 10일까지이며 신청할 때 교사 추천서를 함께 내야 한다.1차 대회는 각자 온라인으로 참가하며 2차 대회는 국립과학관에 모여 진행한다.1차와 2차 성적을 모두 합해 가장 우수한 참가자 3명에게 상으로 컴퓨터를 준다.",
+            "option_1"      : "①  대회에 참가하려면 선생님 추천서가 필요하다.",
+            "option_2"      : "②  1차와 2차 대회 모두 온라인으로 진행된다.",
+            "option_3"      : "③  컴퓨터 게임을 잘하는 학생에게 상을 준다.",
+            "option_4"      : "④  초등학생이면 누구나 대회에 참가할 수 있다.",
+            "detail"        : " The National Science Museum is holding a 'math game contest' for 5th and 6th graders of elementary school. This competition is a competition for math skills in various games. The application for participation is until the 10th, and you have to submit a teacher's recommendation letter when you apply. The 1st competition will participate online, and the 2nd competition will be held at the National Science Museum. Both the 1st and 2nd grades will be given a computer to the 3 best participants as a prize.",
+            "correctAnswer" : "①  대회에 참가하려면 선생님 추천서가 필요하다."
+        },
+        {
+            "sections"      : " ※ [39~42] 다음을 읽고 중심 생각을 고르십시오. (각 4점)",
+            "question"      : " 부모들은 노란색이 눈에 잘 띌 거라고 생각해서 아이들에게 노란색 우산을 사 준다.노란색 우산은 다른 사람들에게 잘 보이지만 아이들이 우산 밖의 상황을 볼 수 없기 때문에 위험하다.아이의 안전을 위해서는 밖을 볼 수 있게 투명한 우산을 사 주어야 한다.",
+            "option_1"      : "①  화려한 색깔의 우산이 눈에 잘 보인다.",
+            "option_2"      : "②  다른 사람들 눈에 잘 띄는 우산이 좋다.",
+            "option_3"      : "③  아이는 비 오는 날 우산을 쓰면 위험하다.",
+            "option_4"      : "④  아이에게는 밖을 볼 수 있는 우산이 필요하다.",
+            "detail"        : " Parents buy yellow umbrellas for their children because they think yellow will stand out well. The yellow umbrella looks good to others, but it's dangerous because children can't see the situation outside the umbrella. For the safety of the child, you should buy a transparent umbrella so that you can see the outside.",
+            "correctAnswer" : "④  아이에게는 밖을 볼 수 있는 우산이 필요하다."
+        },
+        {
+            "sections"      : " ※ [39~42] 다음을 읽고 중심 생각을 고르십시오. (각 4점)",
+            "question"      : " 종이 쓰레기로 버려진 책을 보면 안타깝다.책은 그냥 종이가 아니며 지식을 담고 있는 그릇이기 때문이다.이미 나에게는 필요 없는 책도 다른 사람에게는 새로운 지식이고 좋은 정보일 수 있다.그러므로 다 읽은 책은 버리지 말고 새 주인을 찾아 주는 것이 좋다.",
+            "option_1"      : "①  다 읽은 책은 필요한 곳에 주어야 한다.",
+            "option_2"      : "②  책은 재활용한 종이로 만들어야 한다.",
+            "option_3"      : "③  좋은 정보를 가진 책을 찾아 읽어야 한다.",
+            "option_4"      : "④  책을 많이 읽어 폭넓은 지식을 쌓아야 한다. ",
+            "detail"        : " It's a pity to see a book that was thrown away as paper waste. Because books are not just paper, they are vessels that contain knowledge. Even a book that I don't need already can be new knowledge and good information for others. Therefore, it's better not to throw away all the books you've read and find a new owner.",
+            "correctAnswer" : "①  다 읽은 책은 필요한 곳에 주어야 한다."
+        },
+        {
+            "sections"      : " ※ [39~42] 다음을 읽고 중심 생각을 고르십시오. (각 4점)",
+            "question"      : " 어떤 풍경이나 물건을 오래 기억하고 싶다면 카메라를 손에서 내려놓는 것이 좋다.보통 사람들은 사진을 찍으면 풍경이나 물건을 잘 기억할 수 있다고 생각한다.하지만 사실 사진을 찍는 것보다는 자세히 살펴보는 것이 머릿속에 더 오래 남는다.왜냐하면 관찰할 때 집중력이 더 높아지기 때문이다.",
+            "option_1"      : "①  집중력이 좋으면 관찰력이 뛰어나다.",
+            "option_2"      : "②  주변 물건을 자세히 살펴보아야 한다.",
+            "option_3"      : "③  사진보다 관찰이 기억에 더 효과적이다.",
+            "option_4"      : "④  기억력이 나쁘면 사진을 찍어 남겨야 한다.",
+            "detail"        : " If you want to remember a landscape or object for a long time, it's a good idea to put the camera down. Usually people think that if they take pictures, they can remember the scenery or things well. But in fact, taking a closer look stays in your head longer than taking pictures. Because the concentration is higher when observing.",
+            "correctAnswer" : "③  사진보다 관찰이 기억에 더 효과적이다."
+        },
+        {
+            "sections"      : " ※ [39~42] 다음을 읽고 중심 생각을 고르십시오. (각 4점)",
+            "question"      : " 대다수의 사람들은 경쟁 없는 세상을 꿈꾼다.그 이유 중 하나는 다른 사람을 이겨야 내가 살 수 있다는 경쟁 원리를 부정적으로 보기 때문이다. 그러나 경쟁이 그런 면만 가진 것은 아니다.경쟁을 하게 되면 하나의 목표를 향해 더 노력하게 된다.그리고 그 과정을 통해 자신의 능력을 더 개발할 수 있게 된다.",
+            "option_1"      : "①  경쟁에서 이겨서 성공해야 한다.",
+            "option_2"      : "②  적절한 경쟁은 발전에 도움이 된다.",
+            "option_3"      : "③  경쟁 없는 세상을 만들어 가야 한다.",
+            "option_4"      : "④  노력하는 사람이 경쟁에서 이길 수 있다.",
+            "detail"        : " The vast majority of people dream of a world without competition. One of the reasons is that I negatively see the principle of competition that I can live only if I beat others. But competition doesn't just have that aspect. When you compete, you work harder towards one goal. And through the process, you will be able to further develop your abilities.",
+            "correctAnswer" : "②  적절한 경쟁은 발전에 도움이 된다."
+        },
+        {
+            "sections"      : " ※ [43~45] 다음을 순서대로 맞게 배열한 것을 고르십시오. (각 3점)",
+            "question"      : "(가)그러나 불법 주차된 차 때문에 늦는 경우가 많다.\n(나)불이 났을 때 소방차는 최대한 빨리 도착해야 한다.\n(다)소방차의 도착이 늦어질수록 피해가 점점 커지기 때문이다.\n(라)따라서 주차할 때는 소방차가 지나갈 수 있는 공간을 두고 차를 세워야 한다.",
+            "option_1"      : "①  (나)-(다)-(가)-(라)",
+            "option_2"      : "②  (나)-(라)-(다)-(가)",
+            "option_3"      : "③  (다)-(나)-(가)-(라)",
+            "option_4"      : "④  (다)-(라)-(가)-(나)",
+            "detail"        : " When there is a fire, the fire truck should arrive as soon as possible. Because the later the arrival of the fire truck, the greater the damage. However, it is often late because of illegally parked cars. Therefore, when parking, you should stop the car with a space where the fire truck can pass.",
+            "correctAnswer" : "①  (나)-(다)-(가)-(라)"
+        },
+        {
+            "sections"      : " ※ [43~45] 다음을 순서대로 맞게 배열한 것을 고르십시오. (각 3점)",
+            "question"      : "(가)이것이 회식이 가지는 가장 중요한 목적이다.\n(나)회식은 맛있는 음식을 먹는 것 이상의 의미가 있다.\n(다)이렇게 분위기가 좋아지면 회사 일의 생산성도 높아지게 된다.\n(라)음식을 먹으면서 이야기를 하다 보면 자연스럽게 동료들과 사이가 좋아진다. ",
+            "option_1"      : "①  (나)-(다)-(라)-(가)",
+            "option_2"      : "②  (나)-(라)-(다)-(가)",
+            "option_3"      : "③  (라)-(가)-(나)-(다)",
+            "option_4"      : "④  (라)-(나)-(가)-(다)",
+            "detail"        : " A get-together means more than eating delicious food. If you talk while eating, you will naturally get along well with your colleagues. If the atmosphere improves like this, the productivity of the company's work will also increase. This is the most important purpose of the get-together.",
+            "correctAnswer" : "②  (나)-(라)-(다)-(가)"
+        },
+        {
+            "sections"      : " ※ [43~45] 다음을 순서대로 맞게 배열한 것을 고르십시오. (각 3점)",
+            "question"      : "(가)그러자 여자는 물그릇에 나뭇잎을 하나 넣어 남자에게 주었다.\n(나)여자의 배려에 반한 남자는 그녀를 아내로 맞아들이기로 결심했다.\n(다)이것은 물을 빨리 마시면 체할까 봐 천천히 마시도록 한 배려였다.\n(라)옛날에 한 남자가 길을 걷다가 목이 말라 한 여자에게 물을 달라고 부탁했다.",
+            "option_1"      : "①  (나)-(가)-(라)-(다)",
+            "option_2"      : "②  (나)-(다)-(가)-(라)",
+            "option_3"      : "③  (라)-(가)-(다)-(나)",
+            "option_4"      : "④  (라)-(다)-(나)-(가)",
+            "detail"        : " Once upon a time, a man was walking on the street and asked a thirsty woman to water her. Then the woman put a leaf in a water bowl and gave it to the man. This was a consideration to drink slowly because I was afraid that if I drank water quickly, I would have an upset stomach. A man who fell in love with the woman decided to take her as his wife.",
+            "correctAnswer" : "③  (라)-(가)-(다)-(나)"
+        },
+        {
+            "sections"      : " ※ [46~48] 다음을 읽고(....)에 알맞은 것을 고르십시오.",
+            "question"      : " 대부분의 시장은 교통이 편리한 곳에 있다.여러 지역에서 생산된 물건을 옮기기 편하고 물건을 사고파는 사람들이 (....)때문이다. 먼 곳에서 물건을 팔러 시장에 오는 사람들은 물건을 가져오기 쉽고 물건을 사러 오는 사람들도 찾기가 편하다.",
+            "option_1"      : "①  한곳에 쉽게 모일 수 있기",
+            "option_2"      : "②  좋은 물건을 소개할 수 있기",
+            "option_3"      : "③  알맞은 가격을 정할 수 있기",
+            "option_4"      : "④  먼 곳에 빨리 연락할 수 있기",
+            "detail"        : " Most markets are in a convenient place for transportation. This is because it is easy to move items produced in various regions and people who buy and sell things can easily gather in one place. People who come to the market to sell things from far away are easy to bring things, and people who come to buy things are also easy to find.",
+            "correctAnswer" : "①  한곳에 쉽게 모일 수 있기"
+        },
+        {
+            "sections"      : " ※ [46~48] 다음을 읽고(....)에 알맞은 것을 고르십시오.",
+            "question"      : " 신체의 각 부분은 (....)다르다.보통 50대가 되면 안경 없이 신문 읽기가 어렵다.하지만 듣는 데는 아무런 문제가 없다.이것은 눈이 귀보다 빨리 노화가 되기 때문이다.한편 코처럼 나이가 들어도 기능이 전혀 약해지지 않는 곳도 있다. ",
+            "option_1"      : "①  노화가 되는 속도가",
+            "option_2"      : "②  구별이 되는 특징이",
+            "option_3"      : "③  모두가 가진 재주가",
+            "option_4"      : "④  자기가 맡은 역할이",
+            "detail"        : " Each part of the body has a different rate of aging. It's usually hard to read the newspaper without glasses when you're in your 50s. But there's nothing wrong with listening. This is because the eyes age faster than the ears. On the other hand, there are places where the function doesn't weaken at all even when you get older like your nose.",
+            "correctAnswer" : "①  노화가 되는 속도가"
+        },
+        {
+            "sections"      : " ※ [46~48] 다음을 읽고(....)에 알맞은 것을 고르십시오.",
+            "question"      : " 한 전통 공연에서 배우가 부채를 들고 관객 앞에 섰다.배우는 공연에서 장면에 따라 부채를 접었다 폈다를 반복했다.예를 들어 편지를 읽을 때는 부채를 펴서 편지로 사용했고 노인이 길을 떠나는 장면에서는 부채를 접어 지팡이 처럼 썼다.부채는 이 공연에서 (....)훌륭하게 사용됐다. ",
+            "option_1"      : "①  훌륭한 배우를 만드는 데",
+            "option_2"      : "②  하나의 행동을 반복하는 데",
+            "option_3"      : "③  다양한 물건을 나타내는 데",
+            "option_4"      : "④  많은 관객을 집중시키는 데 ",
+            "detail"        : " In a traditional performance, an actor stood in front of the audience with a fan. The actor repeated folding and folding the fan according to the scene in the performance. For example, when reading a letter, he opened the fan and used it as a letter, and in the scene where the old man left the road, he folded the fan and wrote it like a cane. The fan was used brilliantly to represent a variety of objects in this performance.",
+            "correctAnswer" : "③  다양한 물건을 나타내는 데"
+        },
+        {
+            "sections"      : " ※ [49~50] 다음 글을 읽고 물음에 답하십시오. (각 3점) ",
+            "question"      : " 지난 16일 김 모 씨(41)가족은 지리산으로 가던 중 차가 눈길에 미끄러져 계곡으로 떨어지는 사고를 당했다.다행히 크게 다치지는 않았지만 김 씨 아들은 다리가 부러졌다.그 날 기온은 영하 20도였고 사고 지역에서는 휴대 전화 연결도 안 되었다.언제 구조될지 모르는 상황에서 김 씨 가족은 도움을 부탁하러 가는 대신 차 안에서 서로 끌어안고 체온을 유지했다. 이런 지혜 덕분에 가족은 추위에 하룻밤을 견딜 수 있었고 다음날 아침 등산객에 의해 발견되어 무사히 구조될 수 있었다.\n49.이 글의 제목으로 가장 알맞은 것을 고르십시오.",
+            "option_1"      : "①  빠른 구조,아들의 생명 구해",
+            "option_2"      : "②  눈길 등산,추락 사고로 이어져",
+            "option_3"      : "③  구조 요청 신호,뒤늦게 발견돼",
+            "option_4"      : "④  지혜로운 가족,추위에 살아남아",
+            "detail"        : " On the 16th, Mr. Kim (41)'s family was on their way to Mt. Jirisan, and the car slipped in the snow and fell into the valley. Fortunately, he didn't get seriously injured, but Kim's son broke his leg. The temperature was minus 20 degrees that day and there was no cell phone connection in the accident area. In a situation where they didn't know when they would be rescued, the Kim family hugged each other in the car and maintained their body temperature instead of going for help. Thanks to this wisdom, the family was able to endure one night in the cold and was found by a hiker the next morning and rescued safely.",
+            "correctAnswer" : "④  지혜로운 가족,추위에 살아남아"
+        },
+        {
+            "sections"      : " ※ [49~50] 다음 글을 읽고 물음에 답하십시오. (각 3점)",
+            "question"      : " 지난 16일 김 모 씨(41)가족은 지리산으로 가던 중 차가 눈길에 미끄러져 계곡으로 떨어지는 사고를 당했다.다행히 크게 다치지는 않았지만 김 씨 아들은 다리가 부러졌다.그 날 기온은 영하 20도였고 사고 지역에서는 휴대 전화 연결도 안 되었다.언제 구조될지 모르는 상황에서 김 씨 가족은 도움을 부탁하러 가는 대신 차 안에서 서로 끌어안고 체온을 유지했다. 이런 지혜 덕분에 가족은 추위에 하룻밤을 견딜 수 있었고 다음날 아침 등산객에 의해 발견되어 무사히 구조될 수 있었다.\n50.이 글의 내용과 같은 것을 고르십시오. ",
+            "option_1"      : "①  김 씨는 가족들과 통화를 했다.",
+            "option_2"      : "②  김 씨는 눈길에 차 사고를 당했다.",
+            "option_3"      : "③  김 씨는 이번 사고로 다리를 다쳤다.",
+            "option_4"      : "④  김 씨는 근처에 있는 사람을 찾으러 갔다.",
+            "detail"        : " On the 16th, Mr. Kim (41)'s family was on their way to Mt. Jirisan, and the car slipped in the snow and fell into the valley. Fortunately, he didn't get seriously injured, but Kim's son broke his leg. The temperature was minus 20 degrees that day and there was no cell phone connection in the accident area. In a situation where they didn't know when they would be rescued, the Kim family hugged each other in the car and maintained their body temperature instead of going for help. Thanks to this wisdom, the family was able to endure one night in the cold and was found by a hiker the next morning and rescued safely.",
+            "correctAnswer" : "②  김 씨는 눈길에 차 사고를 당했다."
         }
     ]
    

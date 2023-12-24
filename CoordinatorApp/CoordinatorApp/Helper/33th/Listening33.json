@@ -196,7 +196,7 @@
             "option_2"      : "②  옷을 입어 본다.",
             "option_3"      : "③  옷을 찾아 간다.",
             "option_4"      : "④  수선을 다시 맡긴다.",
-            "detail"        : "Woman : Sir, here are the clothes you left for repair. Try it on.\mMan : (After a while) But I think it's still a little long.\nWoman : Is that so? It's winter clothes, so I think it wouldn't look good if the sleeves were too short. I'll reduce it a little more if you want. Would you like to leave.\nMan : Yes. I tend to wear the right clothes.( After a while) By the way, can I give you the money when I pick it up later? Woman: please I'll contact you when it's done.",
+            "detail"        : "Woman : Sir, here are the clothes you left for repair. Try it on.\nMan : (After a while) But I think it's still a little long.\nWoman : Is that so? It's winter clothes, so I think it wouldn't look good if the sleeves were too short. I'll reduce it a little more if you want. Would you like to leave.\nMan : Yes. I tend to wear the right clothes.( After a while) By the way, can I give you the money when I pick it up later? Woman: please I'll contact you when it's done.",
             "correctAnswer" : "④  수선을 다시 맡긴다.",
             "score"         : "3"
         },
