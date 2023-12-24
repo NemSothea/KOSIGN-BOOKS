@@ -245,6 +245,10 @@
 		5C7903162B37F450009A9667 /* 33_3_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C7903102B37F450009A9667 /* 33_3_img.png */; };
 		5C7903172B37F450009A9667 /* 33_6_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C7903112B37F450009A9667 /* 33_6_img.png */; };
 		5C7903182B37F450009A9667 /* 33_5_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C7903122B37F450009A9667 /* 33_5_img.png */; };
+		5C79031A2B38066A009A9667 /* Listening34th.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5C7903192B38066A009A9667 /* Listening34th.mp3 */; };
+		5C79031C2B3819E7009A9667 /* Listening34.json in Resources */ = {isa = PBXBuildFile; fileRef = 5C79031B2B3806B0009A9667 /* Listening34.json */; };
+		5C79031F2B381AF4009A9667 /* 34_2_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C79031D2B381AF4009A9667 /* 34_2_img.png */; };
+		5C7903202B381AF4009A9667 /* 34_1_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C79031E2B381AF4009A9667 /* 34_1_img.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -499,6 +503,10 @@
 		5C7903102B37F450009A9667 /* 33_3_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 33_3_img.png; sourceTree = "<group>"; };
 		5C7903112B37F450009A9667 /* 33_6_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 33_6_img.png; sourceTree = "<group>"; };
 		5C7903122B37F450009A9667 /* 33_5_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 33_5_img.png; sourceTree = "<group>"; };
+		5C7903192B38066A009A9667 /* Listening34th.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Listening34th.mp3; sourceTree = "<group>"; };
+		5C79031B2B3806B0009A9667 /* Listening34.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Listening34.json; sourceTree = "<group>"; };
+		5C79031D2B381AF4009A9667 /* 34_2_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 34_2_img.png; sourceTree = "<group>"; };
+		5C79031E2B381AF4009A9667 /* 34_1_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 34_1_img.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -515,6 +523,10 @@
 		55230BB629B1E96000D0F0DD /* 34th */ = {
 			isa = PBXGroup;
 			children = (
+				5C79031E2B381AF4009A9667 /* 34_1_img.png */,
+				5C79031D2B381AF4009A9667 /* 34_2_img.png */,
+				5C7903192B38066A009A9667 /* Listening34th.mp3 */,
+				5C79031B2B3806B0009A9667 /* Listening34.json */,
 				55E1204C29B015AE009BEFBC /* Question34.json */,
 			);
 			path = 34th;
@@ -1152,12 +1164,14 @@
 				55E120C229B015AE009BEFBC /* 35_1_img.png in Resources */,
 				5C6E50B62B37233700D84F4D /* 30_8_img.png in Resources */,
 				55E1208C29B015AE009BEFBC /* 64_1_img.png in Resources */,
+				5C7903202B381AF4009A9667 /* 34_1_img.png in Resources */,
 				55439E9E29B86C6E0031D74B /* 60_10_img.png in Resources */,
 				55E120A529B015AE009BEFBC /* 26_2_img.png in Resources */,
 				556C12BA29B5A2AF00CE49EE /* 33_1_img.png in Resources */,
 				556C12EA29B5D7F900CE49EE /* 41_3_img.png in Resources */,
 				55E120BA29B015AE009BEFBC /* Listening25th.mp3 in Resources */,
 				55439E9529B86C6E0031D74B /* 52_3_img.png in Resources */,
+				5C79031C2B3819E7009A9667 /* Listening34.json in Resources */,
 				55E120BF29B015AE009BEFBC /* 35_3_img.png in Resources */,
 				55439EA329B86C6E0031D74B /* 60_2_img.png in Resources */,
 				55E1208529B015AE009BEFBC /* Question24.json in Resources */,
@@ -1211,6 +1225,7 @@
 				5C6E50B22B37233700D84F4D /* 30_5_img.png in Resources */,
 				5C6E50AA2B3702A400D84F4D /* 29_5_img.png in Resources */,
 				5243B27129BC74A700C615C4 /* 36_3_img.png in Resources */,
+				5C79031A2B38066A009A9667 /* Listening34th.mp3 in Resources */,
 				556C12E629B5D7F900CE49EE /* 41_8_img.png in Resources */,
 				55439E7429B86BF70031D74B /* 37_1_img.png in Resources */,
 				5243B26D29BC74A700C615C4 /* 36_2_img.png in Resources */,
@@ -1236,6 +1251,7 @@
 				55439E9829B86C6E0031D74B /* 52_9_img.png in Resources */,
 				55E120C029B015AE009BEFBC /* 35_10_img.png in Resources */,
 				5C1121FF2B36C54000B98F11 /* 28_4_img.png in Resources */,
+				5C79031F2B381AF4009A9667 /* 34_2_img.png in Resources */,
 				55E120A629B015AE009BEFBC /* Listening26th.mp3 in Resources */,
 				5C1122032B36C54000B98F11 /* 28_8_img.png in Resources */,
 				55439E7129B86BF70031D74B /* 37_10_img.png in Resources */,
