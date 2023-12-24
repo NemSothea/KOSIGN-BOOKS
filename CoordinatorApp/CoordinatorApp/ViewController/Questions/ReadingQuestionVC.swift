@@ -16,6 +16,8 @@ class ReadingQuestionVC: UIViewController {
     
     @IBOutlet weak var collectionView   : UICollectionView!
     
+    var alertStyle = UIAlertController()
+    
     
     //MARK: -Variable
     private var questionsVM         = QuestionViewModel()
@@ -55,31 +57,38 @@ class ReadingQuestionVC: UIViewController {
         self.backButton.titleLabel?.font = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
         
         self.topicTitle.text = QuestionType(rawValue: indexTopic)?.titleReading
+    
+        alertStyle = UIAlertController(title: "내용\n", message: "확신 합니까?\n", preferredStyle: .alert)
+        
+        
+        
+//        let fontSize = Share.shared.setFontSize()
+        
+        alertStyle.setValue(NSAttributedString(string: alertStyle.title!, attributes: [NSAttributedString.Key.font : UIFont(name: "1HoonDdukbokki Regular", size: fontSize)!,NSAttributedString.Key.foregroundColor : UIColor.blue]), forKey: "attributedTitle")
+        
+        alertStyle.setValue(NSAttributedString(string: alertStyle.message!, attributes: [NSAttributedString.Key.font : UIFont(name: "1HoonDdukbokki Regular", size: fontSize)!,NSAttributedString.Key.foregroundColor : UIColor.blue]), forKey: "attributedMessage")
+        
+        
     }
     // MARK: - @IBAction
     @IBAction func exitTap(_ sender : UIButton) {
        
         
-        let alert = UIAlertController(title: "내용\n", message: "확신 합니까?\n", preferredStyle: .alert)
         
-        let fontSize = Share.shared.setFontSize()
-        
-        alert.setValue(NSAttributedString(string: alert.title!, attributes: [NSAttributedString.Key.font : UIFont(name: "1HoonDdukbokki Regular", size: fontSize)!,NSAttributedString.Key.foregroundColor : UIColor.blue]), forKey: "attributedTitle")
-        
-        alert.setValue(NSAttributedString(string: alert.message!, attributes: [NSAttributedString.Key.font : UIFont(name: "1HoonDdukbokki Regular", size: fontSize)!,NSAttributedString.Key.foregroundColor : UIColor.blue]), forKey: "attributedMessage")
         
         let okAction = UIAlertAction(title: "넵", style: .default) { (_) in
+            
             self.dismiss(animated: true)
         }
         let cancelAction = UIAlertAction(title: "취소", style: .cancel) { (_) in
            return
         }
         
-        alert.addAction(cancelAction)
-        alert.addAction(okAction)
+        alertStyle.addAction(cancelAction)
+        alertStyle.addAction(okAction)
         
         
-        present(alert, animated: true,completion: nil)
+        present(alertStyle, animated: false,completion: nil)
         
     }
     

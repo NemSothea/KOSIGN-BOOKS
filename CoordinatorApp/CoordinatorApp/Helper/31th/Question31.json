@@ -270,6 +270,206 @@
             "correctAnswer" : "①  옥에 티",
             "score"         : "3",
              "detail"        : " A musical that made world-class masterpieces for children is popular. This musical was adapted to exclude inappropriate content for children. Instead, it filled the scene with a variety of dances and music, while also added amazing sights such as stunts and magic. Thanks to you, this musical is getting a lot of response from children. However, the fact that the adults who went with them may be somewhat less interested in it is 'Ok-e T'."
+        },
+        {
+            "sections"      : " ※ [31~34] 다음은 무엇에 대한 글인지 고르십시오. (각 3점) ",
+            "question"      : "31_3_img",
+            "option_1"      : "①  자전거",
+            "option_2"      : "②  라디오",
+            "option_3"      : "③  컴퓨터",
+            "option_4"      : "④  정수기",
+            "correctAnswer" : "④  정수기",
+            "isImg"         : "y"
+        },
+        {
+            "sections"      : " ※ [31~34] 다음은 무엇에 대한 글인지 고르십시오. (각 3점) ",
+            "question"      : "31_4_img",
+            "option_1"      : "①  은행",
+            "option_2"      : "②  서점",
+            "option_3"      : "③  여행사",
+            "option_4"      : "④  사진관",
+            "correctAnswer" : "①  은행",
+            "isImg"         : "y"
+        },
+        {
+            "sections"      : " ※ [31~34] 다음은 무엇에 대한 글인지 고르십시오. (각 3점) ",
+            "question"      : "31_5_img",
+            "option_1"      : "①  전시 안내",
+            "option_2"      : "②  공연 초대",
+            "option_3"      : "③  작가 소개",
+            "option_4"      : "④  제품 광고",
+            "correctAnswer" : "①  전시 안내",
+            "isImg"         : "y"
+        },
+        {
+            "sections"      : " ※ [31~34] 다음은 무엇에 대한 글인지 고르십시오. (각 3점) ",
+            "question"      : "31_6_img",
+            "option_1"      : "①  구입 안내",
+            "option_2"      : "②  효과 설명",
+            "option_3"      : "③  문의 사항",
+            "option_4"      : "④  사용 방법",
+            "correctAnswer" : "④  사용 방법",
+            "isImg"         : "y"
+        },
+        {
+            "sections"      : " ※ [35~38] 다음을 보고 내용이 같은 것을 고르십시오.  ",
+            "question"      : "31_7_img",
+            "option_1"      : "①  추천서를 내면 상금을 받을 수 있다.",
+            "option_2"      : "②  주민 센터에 가면 추천서를 낼 수 있다.",
+            "option_3"      : "③  사는 곳에 상관없이 이 상을 받을 수 있다.",
+            "option_4"      : "④  인천시에 사는 사람은 누구나 추천서를 낼 수 있다.",
+            "correctAnswer" : "②  주민 센터에 가면 추천서를 낼 수 있다.",
+            "isImg"         : "y"
+        },
+        {
+            "sections"      : " ※ [35~38] 다음을 보고 내용이 같은 것을 고르십시오.  ",
+            "question"      : "31_8_img",
+            "option_1"      : "①  관람률이 가장 크게 증가한 것은 콘서트이다.",
+            "option_2"      : "②  두 해 모두 영화를 관람한 비율이 가장 낮다.",
+            "option_3"      : "③  201년에는 연극보다 뮤지컬을 더 많이 관람했다.",
+            "option_4"      : "④  2012년에는 연극보다 콘서트를 관람한 사람이 적었다.",
+            "correctAnswer" : "①  관람률이 가장 크게 증가한 것은 콘서트이다.",
+            "isImg"         : "y"
+        },
+        {
+            "sections"      : " ※ [35~38] 다음을 보고 내용이 같은 것을 고르십시오.",
+            "question"      : " 9월부터는 토요일에도 자전거를 가지고 지하철을 탈 수 있게 된다.지금 까 지 일 요 일 과 공 휴 일 에 만 허 용 되 던 자 전 거 휴 대 승 차 가 오 는 9월 첫 번 째 토요일인 7일부터 가능해진다.도시철도공사는 주 5일 근무제가 정착되면서 시민들이 여가를 즐길 수 있는 시간이 많아졌고 자전거를 이용하는 시민들이 지속적으로 증가함에 따라 이같이 결정했다고 한다.",
+            "option_1"      : "①  예전보다 지하철을 타는 사람들이 많아졌다.",
+            "option_2"      : "②  이 결정으로 시민들의 여가 시간이 늘 것이다.",
+            "option_3"      : "③  평일에는 지하철에 자전거를 가지고 탈 수 없다.",
+            "option_4"      : "④  9월에는 평일에도 자전거 휴대 승차가 가능해진다.",
+            "detail"        : " Starting in September, people will be able to ride the subway on Saturdays with bicycles. Electric vehicles, which were only allowed on Sundays and public holidays, will be available from the 7th, the first Saturday of September. The Korea Metro is said to have made the decision as the five-day workweek has allowed citizens more time to enjoy leisure time and the number of people riding bicycles has increased continuously.",
+            "correctAnswer" : "③  평일에는 지하철에 자전거를 가지고 탈 수 없다."
+        },
+        {
+            "sections"      : " ※ [35~38] 다음을 보고 내용이 같은 것을 고르십시오.",
+            "question"      : " 서울시 교육청은 이번 달 말까지 초ᆞ중ᆞ고등학교의 학생과 교사를 대상 으로 안 쓰는 휴대 전화를 모으는 행사를 연다고 밝혔다. 2010년부터 시작된 이 행사로 지난해까지 30만 대의 휴대 전화가 모였는데,수익금은 모두 가정 형편이 어려운 학생들에게 장학금으로 지급되었다. 이번 행사를 통해 올해도 학생 1,0여 명이 장학금을 받을 것으로 전망된다.",
+            "option_1"      : "①  학생들만 이 행사에 참여할 수 있다.",
+            "option_2"      : "②  작년에 모은 휴대 전화는 30만 대이다.",
+            "option_3"      : "③  이 장학금은 성적이 좋아야 받을 수 있다.",
+            "option_4"      : "④  올해 수익금은 장학금으로 사용될 예정이다.",
+            "detail"        : " The Seoul Metropolitan Office of Education announced that it will hold an event by the end of this month to collect unused mobile phones for students and teachers in elementary, middle and high schools. The event, which started in 2010, attracted 300,000 mobile phones until last year, and all proceeds were paid as scholarships to students in poor families. Through this event, more than 10,000 students are expected to receive scholarships this year.",
+            "correctAnswer" : "④  올해 수익금은 장학금으로 사용될 예정이다."
+        },
+        {
+            "sections"      : " ※ [39~42] 다음을 읽고 중심 생각을 고르십시오. (각 4점)",
+            "question"      : " 이를 닦는 것은 아이들에게 꼭 가르치는 생활 습관이다.그런데 아이들의 치아 건강을 고려한다면 양치질을 혼자 하게 하는 것은 바람직하지 않다. 5세가 되지 않은 아이들은 손놀림이 서투르기 때문에 혼자 양치질을 하면 오히려 충치가 더 많이 생긴다.",
+            "option_1"      : "①  양치질은 언제 어떻게 하느냐가 중요하다.",
+            "option_2"      : "②  건강하게 살려면 바른 생활 습관을 가져야 한다.",
+            "option_3"      : "③  5세 이전에는 혼자 이를 닦게 하는 것이 좋지않다.",
+            "option_4"      : "④  아이디를 보면 그 사람의 정보를 어느 정도 알 수 있다.",
+            "detail"        : " Brushing your teeth is a lifestyle that children must teach. However, it is not advisable to let them brush their teeth alone, considering the health of children's teeth. Children who are not 5 years old are clumsy with their hands, so brushing their teeth alone causes more cavities.",
+            "correctAnswer" : "③  5세 이전에는 혼자 이를 닦게 하는 것이 좋지않다"
+        },
+        {
+            "sections"      : " ※ [39~42] 다음을 읽고 중심 생각을 고르십시오. (각 4점)",
+            "question"      : " 무엇을 칭찬하느냐에 따라 칭찬의 결과는 달라진다.능력을 칭찬 받은 사람은 어려움이 생기면 자신의 능력이 모자란다고 생각하여 포기하는 경우가 많다. 반면에 노력을 칭찬 받은 사람은 자신의 노력이 부족했다고 판단해 더 집중하고 노력하는 모습을 보인다.",
+            "option_1"      : "①  힘들 때 포기하지 않도록 칭찬해 주어야 한다.",
+            "option_2"      : "②  능력을 칭찬 받을수록 더욱 열심히 하게 된다.",
+            "option_3"      : "③  노력을 칭찬하는 것이 더 긍정적인 영향을 준다.",
+            "option_4"      : "④  능력을 칭찬 받으면 어려움을 극복할 수 있게 된다. ",
+            "detail"        : " The result of praise varies depending on what you praise. People who have been praised for their ability often give up because they think their ability is insufficient when difficulties arise. On the other hand, those who have been praised for their efforts show more concentration and effort, judging that their efforts were insufficient.",
+            "correctAnswer" : "③  노력을 칭찬하는 것이 더 긍정적인 영향을 준다."
+        },
+        {
+            "sections"      : " ※ [39~42] 다음을 읽고 중심 생각을 고르십시오. (각 4점)",
+            "question"      : " 생선을 조리하기 전에 소금을 뿌리는 것은 생선의 간을 맞추기 위해서 만은 아니다.생선은 조직이 연하기 때문에 그냥 익히면 살이 부서지기 쉽다. 생선에 소금을 뿌리면 살이 단단해져 모양도 흐트러지지 않고 생선 즙이 그대로 유지되어 맛이 더욱 좋아진다.",
+            "option_1"      : "①  소금은 생선 요리를 할 때 없어서는 안 된다",
+            "option_2"      : "②  소금은 생선의 맛과 모양을 살리는 역할을 한다.",
+            "option_3"      : "③  사람들은 생선의 맛뿐만 아니라 모양도 중요시한다.",
+            "option_4"      : "④  생선의 맛은 재료를 준비하는 방법에 따라 달라진다.",
+            "detail"        : " Spraying salt before cooking fish is not just for seasoning. Fish has a soft tissue, so if you cook it, it is easy to break the flesh. If you sprinkle salt on fish, the flesh becomes hard and the juice of the fish remains the same, making it taste better.",
+            "correctAnswer" : "②  소금은 생선의 맛과 모양을 살리는 역할을 한다."
+        },
+        {
+            "sections"      : " ※ [39~42] 다음을 읽고 중심 생각을 고르십시오. (각 4점)",
+            "question"      : " 우리가 건강하게 살기 위해서는 비타민 D가 반드시 필요하다.그런데 음식으로 필요한 비타민 D를 충분하게 얻는 것은 한계가 있다.비타민 D가 충분하게 들어 있는 식품은 많지 않다.따라서 일상적인 식사로는 몸에 필요한 만큼의 비타민 D를 얻을 수 없다.",
+            "option_1"      : "①  비타민 D는 병을 예방하는 효과가 뛰어나다.",
+            "option_2"      : "②  음식을 통해서는 비타민 D를 충분히 얻기 어렵다.",
+            "option_3"      : "③  병에 걸리지 않으려면 비타민 D가 반드시 필요하다.",
+            "option_4"      : "④  건강을 위해 비타민 D가 풍부한 음식을 먹어야 한다.",
+            "detail"        : " Vitamin D is essential for us to live a healthy life. However, there is a limit to getting enough vitamin D for food. Not many foods contain enough vitamin D. Therefore, you cannot get as much vitamin D as you need with your daily diet.",
+            "correctAnswer" : "②  음식을 통해서는 비타민 D를 충분히 얻기 어렵다."
+        },
+        {
+            "sections"      : " ※ [43~45] 다음을 순서대로 맞게 배열한 것을 고르십시오. (각 3점)",
+            "question"      : "(가)사람들은 종종 장난으로 무엇인가를 쓰는 낙서를 한다.\n(나)그런데 낙서에는 나쁘고 거친 말들도 많이 나타난다.\n(다)낙서를 하면 스트레스를 푸는 데에 도움이 된다.\n(라)자기만 본다고 생각해서 조심하지 않고 쓰기 때문이다.",
+            "option_1"      : "①  (가)-(다)-(나)-(라)",
+            "option_2"      : "②  (가)-(다)-(라)-(나)",
+            "option_3"      : "③  (다)-(나)-(가)-(라)",
+            "option_4"      : "④  (다)-(나)-(라)-(가)",
+            "detail"        : " People often doodle to write something for fun. Doodling helps relieve stress. However, there are many bad and harsh words in graffiti. Because they think they are only looking at themselves, they write without being careful.",
+            "correctAnswer" : "①  (가)-(다)-(나)-(라)"
+        },
+        {
+            "sections"      : " ※ [43~45] 다음을 순서대로 맞게 배열한 것을 고르십시오. (각 3점)",
+            "question"      : "(가)이러한 사항은 모든 인터넷 사이트에서 지켜져야 한다.\n(나)듣거나 볼 수 없다는 이유로 인터넷 사용에 차별을 받아서는 안 된다.\n(다)그리고 볼 수 없는 사람들에게는 내용을 소리 내어 읽어 주어야 한다.\n(라)들을 수 없는 사람들에게는 소리를 자막으로 보여 주어야 한다. ",
+            "option_1"      : "①  (나)-(라)-(가)-(다)",
+            "option_2"      : "②  (나)-(라)-(다)-(가)",
+            "option_3"      : "③  (라)-(가)-(나)-(다)",
+            "option_4"      : "④  (라)-(가)-(다)-(나)",
+            "detail"        : " You should not be discriminated against by the use of the Internet just because you can't hear or watch. For those who can't hear, the sound should be subtitled. And for those who can't see it, you should read the content aloud. These matters must be observed on all Internet sites.",
+            "correctAnswer" : "②  (나)-(라)-(다)-(가)"
+        },
+        {
+            "sections"      : " ※ [43~45] 다음을 순서대로 맞게 배열한 것을 고르십시오. (각 3점)",
+            "question"      : "(가)밀이나 옥수수와 같은 곡류가 그러한 상품의 대표적인 사례이다.\n(나)상품 중에는 물가에 미치는 영향이 큰 상품이 있다.\n(다)곡류는 빵이나 국수를 만드는 데 있어 원재료로 사용된다.\n(라)따라서 곡류의 가격이 오르면 빵이나 국수의 가격도 덩달아 오르게 된다.",
+            "option_1"      : "①  (나)-(가)-(다)-(라)",
+            "option_2"      : "②  (나)-(가)-(라)-(다)",
+            "option_3"      : "③  (다)-(나)-(가)-(라)",
+            "option_4"      : "④  (다)-(나)-(라)-(가)",
+            "detail"        : " Among the products, there are products that have a large impact on prices. Grains such as wheat and corn are prime examples of such products. Grains are used as raw materials in making bread or noodles. Therefore, if the price of grain rises, the price of bread or noodles will also rise.",
+            "correctAnswer" : "①  (나)-(가)-(다)-(라)"
+        },
+        {
+            "sections"      : " ※ [46~48] 다음을 읽고(....)에 알맞은 것을 고르십시오.",
+            "question"      : " 갈수록 봄이 점점 짧아져서 여름이 빨리 시작되고 있다.이러한 변화 때문에 여름이 되기도 전에 여름 상품을 찾는 사람들이 많아졌다.여름의 대표 과일이라 할 수 있는 수박 역시 (....).올해 4월의 수박 판매량은 작년 같은 달보다 20% 증가했다고 한다.",
+            "option_1"      : "①  원하는 크기가 커졌다",
+            "option_2"      : "②  부르는 가격이 비싸졌다",
+            "option_3"      : "③  키우는 장소가 늘어났다",
+            "option_4"      : "④  팔리는 시기가 빨라졌다",
+            "detail"        : " Spring is getting shorter and shorter, and summer is starting quickly. Because of these changes, more people are looking for summer products even before summer. Watermelon, the representative fruit of summer, is also sold faster. Watermelon sales in April this year are said to have increased 20% compared to the same month last year.",
+            "correctAnswer" : "④  팔리는 시기가 빨라졌다"
+        },
+        {
+            "sections"      : " ※ [46~48] 다음을 읽고(....)에 알맞은 것을 고르십시오.",
+            "question"      : " 물과 유리잔을 이용하면 연주도 할 수 있다.물이 많이 담긴 유리잔을 두드리면 공기가 진동하기 어렵기 때문에 낮은 소리가 난다.반대로 물이 적게 담긴 유리잔을 두드리면 높은 소리가 난다.즉 (....) 유리잔에서 나는 소리의 높낮이가 달라지는 것이다. ",
+            "option_1"      : "①  음의 높이에 따라",
+            "option_2"      : "②  잔의 모양에 따라",
+            "option_3"      : "③  진동하는 시간에 따라",
+            "option_4"      : "④   담긴 물의 양에 따라",
+            "detail"        : " You can also play using water and glass. If you tap a glass of a lot of water, it makes a low sound because it is difficult for the air to vibrate. If you tap a glass of low water, on the other hand, a high sound comes out. In other words, the height of the sound from the glass varies depending on the amount of water contained.",
+            "correctAnswer" : "④   담긴 물의 양에 따라"
+        },
+        {
+            "sections"      : " ※ [46~48] 다음을 읽고(....)에 알맞은 것을 고르십시오.",
+            "question"      : " 살다 보면 벌려고 애쓰지 않았는데도 우연한 기회에 돈이 생기기도 한다. 평소에 돈을 잘 쓰지 않는 사람이라도 이런 돈은 아무렇게나 쓰는 경우가 많다.그야말로 쉽게 벌면 쉽게 쓴다는 것인데,이는 힘들여 노력하지 않고 번 돈은 (....)생각하는 사람들이 많기 때문이다.",
+            "option_1"      : "①  다 써도 괜찮다고",
+            "option_2"      : "②  돌려주어야 한다고",
+            "option_3"      : "③  아껴야 할 것이라고",
+            "option_4"      : "④  저금을 해야 한다고",
+            "detail"        : " If you live, you don't try to make money, but you get money by chance. Even people who don't usually spend money often spend this kind of money casually. It's easy to spend if you earn easily, because there are many people who think it's okay to spend all the money they earn without trying hard.",
+            "correctAnswer" : "①  다 써도 괜찮다고"
+        },
+        {
+            "sections"      : " ※ [49~50] 다음 글을 읽고 물음에 답하십시오. (각 3점) ",
+            "question"      : " 인주 우체국 집배원 허 모 씨 (42)는 지 난 5일 저 녁 7시 경 퇴근길 에 눈이 쌓인 우봉 고개 근처에서 피를 흘린 채 신음 소리를 내며 쓰러져 있는 주민 김 모 씨(65)를 발견했다.허 씨는 19에 전화를 걸어 구조 요청을 한 뒤 신속하게 응급조치를 하였다.허 씨는 “노인들이 많은 시골이 편지 배달 구역이라 평소에 익힌 응급조치법이 도움이 되었다.”라고 말했다.한편 병원으로 옮겨진 김 씨는 “평소 집집마다 돌아다니며 심부름까지 해 주어 고마웠던 허 씨가 목숨까지 구해 주었다.”라며 감사 인사를 전했다.  \n49.이 글의 제목으로 가장 알맞은 것을 고르십시오.",
+            "option_1"      : "①  감사 인사,이웃 사랑의 시작",
+            "option_2"      : "②  우편배달,소식을 넘어 행복 전달",
+            "option_3"      : "③  눈길 사고,노인들에게 특히 위험해",
+            "option_4"      : "④  시골 집배원,지역 주민의 생명 구해",
+            "detail"        : " Inju post office postman Heo Mo (42) found a resident Kim Mo (65) who was bleeding and moaning and moaning on his way home from work around 7 p.m. on the 5th on the 5th near the snowy Woobong pass. Mr. Heo called 19, called for a rescue, and then quickly took first aid. Mr. Heo said, “The rural area with a lot of elderly people is a letter delivery area, so the first aid method that I usually learn was helpful.” Said that Meanwhile, Mr. Kim, who was transferred to the hospital, said, `Mr. Heo, who was grateful for going around the house and running errands, even saved his life`. I said thank you.",
+            "correctAnswer" : "④  시골 집배원,지역 주민의 생명 구해"
+        },
+        {
+            "sections"      : " ※ [49~50] 다음 글을 읽고 물음에 답하십시오. (각 3점)",
+            "question"      : " 인주 우체국 집배원 허 모 씨 (42)는 지 난 5일 저 녁 7시 경 퇴근길 에 눈이 쌓인 우봉 고개 근처에서 피를 흘린 채 신음 소리를 내며 쓰러져 있는 주민 김 모 씨(65)를 발견했다.허 씨는 19에 전화를 걸어 구조 요청을 한 뒤 신속하게 응급조치를 하였다.허 씨는 “노인들이 많은 시골이 편지 배달 구역이라 평소에 익힌 응급조치법이 도움이 되었다.”라고 말했다.한편 병원으로 옮겨진 김 씨는 “평소 집집마다 돌아다니며 심부름까지 해 주어 고마웠던 허 씨가 목숨까지 구해 주었다.”라며 감사 인사를 전했다. \n50.이 글의 내용과 같은 것을 고르십시오. ",
+            "option_1"      : "①  김 씨와 허 씨는 모르는 사이이다.",
+            "option_2"      : "②  허 씨는 마을의 노인들을 도와주었다.",
+            "option_3"      : "③  김 씨와 허 씨는 함께 길을 가고 있었다.",
+            "option_4"      : "④  허 씨는 응급조치 후에 구조를 요청했다.",
+            "detail"        : " Inju post office postman Heo Mo (42) found a resident Kim Mo (65) who was bleeding and moaning and moaning on his way home from work around 7 p.m. on the 5th on the 5th near the snowy Woobong pass. Mr. Heo called 19, called for a rescue, and then quickly took first aid. Mr. Heo said, “The rural area with a lot of elderly people is a letter delivery area, so the first aid method that I usually learn was helpful.” Said that Meanwhile, Mr. Kim, who was transferred to the hospital, said, `Mr. Heo, who was grateful for going around the house and running errands, even saved his life`. I said thank you.",
+            "correctAnswer" : "②  허 씨는 마을의 노인들을 도와주었다."
         }
     ]
    
