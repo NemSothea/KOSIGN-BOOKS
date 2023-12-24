@@ -1885,6 +1885,8 @@
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="checkButton" destination="vU6-vc-IY3" id="osA-TQ-08q"/>
+                        <outlet property="contentLabel" destination="GfX-B6-DuF" id="9Nq-V8-WMt"/>
                         <outlet property="mainView" destination="Xj7-3K-tU9" id="W3V-cP-PtW"/>
                         <outlet property="tableView" destination="znr-yL-vAh" id="Ocw-pv-X2L"/>
                     </connections>
@@ -2328,7 +2330,7 @@
     </scenes>
     <resources>
         <image name="24_7_img.png" width="808" height="398.5"/>
-        <image name="35_7_img.png" width="766" height="228"/>
+        <image name="35_7_img.png" width="1070" height="546"/>
         <image name="Purple Neon Icons Homescreen Wallpaper" width="540" height="960"/>
         <image name="Purple Neon Icons Homescreen Wallpaper 1" width="540" height="960"/>
         <image name="book.circle" catalog="system" width="128" height="123"/>

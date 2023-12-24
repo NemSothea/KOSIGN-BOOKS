@@ -29,8 +29,7 @@ class ReadingQuestionVC: UIViewController {
     var totalScore       = 0
     var indexTopic       = 0
     
-//    private var countWrongAnswer    = 0
-//    private var wrongResult      = Set<Int>()
+    let fontSize = Share.shared.setFontSize()
     
    //MARK: - ViewLifeCycle
     override func viewDidLoad() {
@@ -50,7 +49,7 @@ class ReadingQuestionVC: UIViewController {
     }
     // MARK: - Functions
     private func setUI() {
-        let fontSize = Share.shared.setFontSize()
+     
         
         self.topicTitle.font = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
         self.nextButton.titleLabel?.font = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
@@ -59,10 +58,6 @@ class ReadingQuestionVC: UIViewController {
         self.topicTitle.text = QuestionType(rawValue: indexTopic)?.titleReading
     
         alertStyle = UIAlertController(title: "내용\n", message: "확신 합니까?\n", preferredStyle: .alert)
-        
-        
-        
-//        let fontSize = Share.shared.setFontSize()
         
         alertStyle.setValue(NSAttributedString(string: alertStyle.title!, attributes: [NSAttributedString.Key.font : UIFont(name: "1HoonDdukbokki Regular", size: fontSize)!,NSAttributedString.Key.foregroundColor : UIColor.blue]), forKey: "attributedTitle")
         
@@ -73,15 +68,11 @@ class ReadingQuestionVC: UIViewController {
     // MARK: - @IBAction
     @IBAction func exitTap(_ sender : UIButton) {
        
-        
-        
-        
         let okAction = UIAlertAction(title: "넵", style: .default) { (_) in
-            
             self.dismiss(animated: true)
         }
         let cancelAction = UIAlertAction(title: "취소", style: .cancel) { (_) in
-           return
+            return
         }
         
         alertStyle.addAction(cancelAction)
@@ -126,9 +117,9 @@ class ReadingQuestionVC: UIViewController {
             if self.isCorrectAnswer {
                 self.totalScore += Int(self.questionsVM.data?.questions?[index].score ?? "") ?? 0
             }
-            print("========")
-            print("totalScore : \(self.totalScore)")
-            print("========")
+//            print("========")
+//            print("totalScore : \(self.totalScore)")
+//            print("========")
            
             self.collectionView.scrollToItem(at: IndexPath(row: index, section: 0), at: .right, animated: true)
         }else {
@@ -156,9 +147,9 @@ extension ReadingQuestionVC : UICollectionViewDelegate, UICollectionViewDataSour
         cell.optionC.layer.cornerRadius = 5
         cell.optionD.layer.cornerRadius = 5
         cell.setValues = questionsVM.data?.questions?[indexPath.row]
-        print("========")
-        print("Score : \(questionsVM.data?.questions?[indexPath.row].score)")
-        print("========")
+//        print("========")
+//        print("Score : \(questionsVM.data?.questions?[indexPath.row].score)")
+//        print("========")
         
         cell.selectedOption = { [weak self] isCorrect in
             self?.answerSelected    = true

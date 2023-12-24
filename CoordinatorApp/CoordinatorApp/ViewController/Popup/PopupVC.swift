@@ -9,19 +9,30 @@ import UIKit
 
 class PopupVC : UIViewController, UITableViewDelegate, UITableViewDataSource {
     
+    //MARK: Properties
     @IBOutlet weak var tableView        : UITableView!
     @IBOutlet weak var mainView         : UIView!
+    @IBOutlet weak var contentLabel     : UILabel!
+    @IBOutlet weak var checkButton      : UIButton!
     
     var detail0                          = ""
     var detail1                          = ""
     
+    let fontSize = Share.shared.setFontSize()
+    
+    //MARK: ViewLife Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
+        // Do any additional setup after loading the view.
+        self.contentLabel.font = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
+        self.checkButton.titleLabel?.font = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
         
         self.mainView.clipsToBounds = true
         self.mainView.layer.cornerRadius = 10
         self.mainView.layer.maskedCorners = [.layerMaxXMinYCorner,.layerMaxXMinYCorner]
-        // Do any additional setup after loading the view.
+        
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -30,7 +41,7 @@ class PopupVC : UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "cell") as? PopupCell else { return PopupCell()}
-        
+        cell.infoLabel.font = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
         cell.infoLabel.text = "\(detail0)\n\(detail1)"
 
         return cell

@@ -703,8 +703,8 @@
 		55591B0D299A069600023195 /* BookMark */ = {
 			isa = PBXGroup;
 			children = (
-				55591B092999F8B700023195 /* BookMarkTabCell */,
 				55BBF3AE2995D18F00A7E991 /* BookMarkTabVC.swift */,
+				55591B092999F8B700023195 /* BookMarkTabCell */,
 			);
 			path = BookMark;
 			sourceTree = "<group>";
