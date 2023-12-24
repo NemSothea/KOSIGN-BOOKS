@@ -270,6 +270,206 @@
             "correctAnswer" : "②  백지장도 맞들면 낫다",
             "score"         : "3",
             "isImg"         : "n"
+        },
+        {
+            "sections"      : " ※ [31~34] 다음은 무엇에 대한 글인지 고르십시오. (각 3점) ",
+            "question"      : "34_3_img",
+            "option_1"      : "①  가방",
+            "option_2"      : "②  신발",
+            "option_3"      : "③  우산",
+            "option_4"      : "④  침대",
+            "correctAnswer" : "②  신발",
+            "isImg"         : "y"
+        },
+        {
+            "sections"      : " ※ [31~34] 다음은 무엇에 대한 글인지 고르십시오. (각 3점) ",
+            "question"      : "34_4_img",
+            "option_1"      : "①  라디오",
+            "option_2"      : "②  에어컨",
+            "option_3"      : "③  전화기",
+            "option_4"      : "④  청소기",
+            "correctAnswer" : "②  에어컨",
+            "isImg"         : "y"
+        },
+        {
+            "sections"      : " ※ [31~34] 다음은 무엇에 대한 글인지 고르십시오. (각 3점) ",
+            "question"      : "34_5_img",
+            "option_1"      : "①  대회 안내",
+            "option_2"      : "②  장소 안내",
+            "option_3"      : "③  잔치 소개",
+            "option_4"      : "④  농구팀 소개",
+            "correctAnswer" : "①  대회 안내",
+            "isImg"         : "y"
+        },
+        {
+            "sections"      : " ※ [31~34] 다음은 무엇에 대한 글인지 고르십시오. (각 3점) ",
+            "question"      : "34_6_img",
+            "option_1"      : "①  포장 방법",
+            "option_2"      : "②  교환 방법",
+            "option_3"      : "③  주의 사항",
+            "option_4"      : "④  문의 사항",
+            "correctAnswer" : "①  포장 방법",
+            "isImg"         : "y"
+        },
+        {
+            "sections"      : " ※ [35~38] 다음을 보고 내용이 같은 것을 고르십시오.  ",
+            "question"      : "34_7_img",
+            "option_1"      : "①  대학생부터 지원할 수 있다.",
+            "option_2"      : "②  지원서는 우편으로 접수할 수 있다.",
+            "option_3"      : "③  영업부에서 일할 사원을 구하고 있다.",
+            "option_4"      : "④  서류를 내면 모두 면접을 볼 수 있다.",
+            "correctAnswer" : "③  영업부에서 일할 사원을 구하고 있다.",
+            "isImg"         : "y"
+        },
+        {
+            "sections"      : " ※ [35~38] 다음을 보고 내용이 같은 것을 고르십시오.  ",
+            "question"      : "34_8_img",
+            "option_1"      : "①  두 해 모두 버스를 가장 많이 이용했다.",
+            "option_2"      : "②  삼 년 사이에 자전거를 타는 사람이 늘었다.",
+            "option_3"      : "③  2010년에는 걸어서 가는 사람이 가장 적었다.",
+            "option_4"      : "④  승용차와 지하철은 이용하는 사람이 많아졌다.",
+            "correctAnswer" : "④  승용차와 지하철은 이용하는 사람이 많아졌다.",
+            "isImg"         : "y"
+        },
+        {
+            "sections"      : " ※ [35~38] 다음을 보고 내용이 같은 것을 고르십시오.",
+            "question"      : " 인주시가 올해로 3년째 10명의 학생들에게 장학금을 지원하고 있다. 대상은 인주시에 살고 있는 대학교 3,4학년 학생이다.학기마다 장학생을 새로 선발하므로 장학금을 원하는 학생은 매 학기 신청서와 성적표를 내야 한다.신청 기준은 평균 B학점 이상이며 최종 선발은 성적순으로 한다.",
+            "option_1"      : "①  일 년에 한 번 장학생을 선발한다.",
+            "option_2"      : "②  장학금을 신청할 때 성적표가 필요하다.",
+            "option_3"      : "③  장학금 대상은 새로 입학한 신입생이다.",
+            "option_4"      : "④  B학점 이상이면 모두 장학금을 받는다.",
+            "detail"        : " Inju City has been providing scholarships to 10 students for the third year this year. The target is a 3rd and 4th grade student at a university living in Inju City. We select new scholarship students each semester, so students who want a scholarship must submit an application form and transcript for each semester. The application criteria is an average of B or higher and the final selection is in the order of grades.",
+            "correctAnswer" : "②  장학금을 신청할 때 성적표가 필요하다."
+        },
+        {
+            "sections"      : " ※ [35~38] 다음을 보고 내용이 같은 것을 고르십시오.",
+            "question"      : " 지금까지 집에서 텔레비전이나 세탁기를 버리려면 돈을 주고 스티커를 사서 물건에 붙여야 했다.그러나 오는 5월부터는 가전제품을 무료로 버릴 수 있게 되었다.환경부 홈페이지를 통해 신청을 하면 직원이 직접 집으로 방문해서 버릴 물건을 무료로 가져가 준다.",
+            "option_1"      : "①  신청을 하면 직원이 집으로 온다.",
+            "option_2"      : "②  이 서비스는 지금 시행되고 있다.",
+            "option_3"      : "③  환경부에 직접 방문해서 신청해야 한다.",
+            "option_4"      : "④  5월부터 가전제품을 버릴 때 스티커를 사야 한다.",
+            "detail"        : " So far, if I wanted to throw away the TV or washing machine at home, I had to pay money and buy a sticker and put it on the item. However, from May, you will be able to throw away home appliances for free. If you apply through the Ministry of Environment's website, the staff will visit your home and take away the items for free.",
+            "correctAnswer" : "①  신청을 하면 직원이 집으로 온다."
+        },
+        {
+            "sections"      : " ※ [39~42] 다음을 읽고 중심 생각을 고르십시오. (각 4점)",
+            "question"      : " 공연장에서 지켜야 할 예의 중 하나가 휴대 전화를 열어 보지 않는 것이다. 공연 중에 휴대 전화를 확인하면 어두운 공연장에서 휴대 전화의 불빛이 또 하나의 조명이 된다.그러면 관객들은 배우가 아닌 그 불빛을 쳐다보게 되어 공연에 집중할 수 없다.",
+            "option_1"      : "①  공연장의 조명은 어두워야 한다.",
+            "option_2"      : "②  관객이 참여하는 공연이 많아져야 한다.",
+            "option_3"      : "③  공연을 관람할 때는 배우에게 집중해야 한다.",
+            "option_4"      : "④  휴대 전화 불빛은 공연을 볼 때 문제가 된다.",
+            "detail"        : " One of the courtesy to keep at the venue is not opening your phone. When you check your phone during a performance, the lights on your phone become another light in a dark venue. Then the audience stares at the light, not the actor, so they can't concentrate on the performance.",
+            "correctAnswer" : "④  휴대 전화 불빛은 공연을 볼 때 문제가 된다."
+        },
+        {
+            "sections"      : " ※ [39~42] 다음을 읽고 중심 생각을 고르십시오. (각 4점)",
+            "question"      : " 위급한 상황에서 도움을 요청할 때 여러 사람을 보면서 그냥 도와 달라 고만 하면 안 된다.그러면 다들 ‘내가 아닌 다른 사람이 도와주겠지.’하고 직접 나서지 않기 때문이다.그래서 도움을 요청할 때는 “거기 흰 모자 쓰신 분,19에 전화해 주세요.”와 같이 하는 것이 효과적이다. ",
+            "option_1"      : "①  사고가 나면 먼저 19에 신고해야 한다.",
+            "option_2"      : "②  사고가 났을 때 여러 사람이 함께 도와야 한다.",
+            "option_3"      : "③  도움이 필요한 사람을 만나면 적극적으로 도와야 한다.",
+            "option_4"      : "④  도움을 청할 때에는 도와줄 사람을 정확히 가리켜야 한다.",
+            "detail"        : " When you ask for help in an emergency situation, you can't just look at several people and ask for help. Then everyone will say, 'Someone other than me will help.' Because I don't do it myself. So when you ask for help.`If you wear a white hat there, please call 19`. It is effective to do it together.",
+            "correctAnswer" : "④  도움을 청할 때에는 도와줄 사람을 정확히 가리켜야 한다."
+        },
+        {
+            "sections"      : " ※ [39~42] 다음을 읽고 중심 생각을 고르십시오. (각 4점)",
+            "question"      : " 인간의 능력에는 한계가 있기 때문에 이 세상 모든 정보를 다 받아 들 일 수 없다.그래서 인간은 정보가 많을 때 자신과 관련된 정보에 집중하게 된다.주차된 많은 차들 중에서 내 차만 눈에 보이고,시끄러운 곳에서도 나와 관련된 이야기만 잘 들리는 것은 다 이 때문이다.",
+            "option_1"      : "①  정보는 여러 가치를 가지고 있다.",
+            "option_2"      : "②  복잡한 세상에서는 정보가 힘이다.",
+            "option_3"      : "③  인간은 정보를 골라서 받아들인다.",
+            "option_4"      : "④  필요한 정보는 잘 잊어버리지 않는다.",
+            "detail"        : " Because there is a limit to human ability, we can't accept all the information in the world. So when humans have a lot of information, they focus on information related to them. Among the many cars parked, I can only see my car, and it's all because of this that I can only hear stories related to me even in noisy places.",
+            "correctAnswer" : "③  인간은 정보를 골라서 받아들인다."
+        },
+        {
+            "sections"      : " ※ [39~42] 다음을 읽고 중심 생각을 고르십시오. (각 4점)",
+            "question"      : " 사회생활을 할 때 다른 사람의 감정을 함께 이해하는 것은 중요하다. 그러나 감정이 메말라 타인의 감정을 공감하지 못하는 사람들이 있다.이런 사람들은 처음 소설을 읽으면 주인공이 왜 우는지,왜 기뻐하는지 모른다. 하지만 한 권 두 권 소설을 읽다 보면 소설 속 주인공의 다양한 감정을 경험하게 되고 조금씩 주인공의 감정을 자신의 감정으로 느끼게 된다.",
+            "option_1"      : "①  주인공이 느끼는 감정을 이해하기 어렵다.",
+            "option_2"      : "②  소설을 읽으면 공감 능력을 높일 수 있다.",
+            "option_3"      : "③  감정이 복잡할 때는 소설을 읽는 것이 좋다.",
+            "option_4"      : "④  소설을 많이 읽으면 다양한 경험을 하게 된다.",
+            "detail"        : " It's important to understand other people's feelings together in social life. However, there are people who can't empathize with other people's feelings because their emotions are dry. These people don't know why the main character is crying or why he is happy when they read a novel for the first time. But if you read one or two novels, you will experience the various emotions of the main character in the novel, and little by little, you will feel the emotions of the main character as your own emotions.",
+            "correctAnswer" : "②  적절한 경쟁은 발전에 도움이 된다."
+        },
+        {
+            "sections"      : " ※ [43~45] 다음을 순서대로 맞게 배열한 것을 고르십시오. (각 3점)",
+            "question"      : "(가)이런 아이들을 위해 ‘인삼 과일 주스’가 나왔다.\n(나)주스에 사과와 오렌지를 넣어 단맛을 냈기 때문이다.\n(다)인삼을 안 먹던 아이들도 이 주스는 맛있게 마실 수 있다.\n(라)인삼은 몸에 좋지만 쓴맛 때문에 잘 안 먹는 아이들이 많다. ",
+            "option_1"      : "①  (다)-(가)-(나)-(라)",
+            "option_2"      : "②  (다)-(나)-(라)-(가)",
+            "option_3"      : "③  (라)-(가)-(다)-(나)",
+            "option_4"      : "④  (라)-(나)-(다)-(가)",
+            "detail"        : " Ginseng is good for the body, but there are many children who don't eat it often because of the bitter taste. 'Ginseng fruit juice' came out for these children. Even children who didn't eat ginseng can drink this juice deliciously. Because I added apples and oranges to the juice to make it sweet.",
+            "correctAnswer" : "③  (라)-(가)-(다)-(나)"
+        },
+        {
+            "sections"      : " ※ [43~45] 다음을 순서대로 맞게 배열한 것을 고르십시오. (각 3점)",
+            "question"      : "(가)그래서 형제는 그 로봇을 강에 던져 버렸다.\n(나)어느 날 사이좋은 형제가 함께 놀다가 멋진 로봇을 하나 주웠다.\n(다)그러다 문득 로봇 때문에 좋았던 사이가 나빠질 것 같다는 생각이 들었다.\n(라)처음에는 그 로봇을 가지고 함께 놀던 형제가 점점 자기 혼자 로봇을 갖고 놀겠다며 싸우기 시작했다.",
+            "option_1"      : "①  (나)-(가)-(라)-(다)",
+            "option_2"      : "②  (나)-(라)-(다)-(가)",
+            "option_3"      : "③  (라)-(가)-(나)-(다)",
+            "option_4"      : "④  (라)-(나)-(다)-(가)",
+            "detail"        : " One day, a good brother played together and found a nice robot. At first, the brothers who used to play with the robot gradually started fighting, saying that they would play with it by themselves. Then, I suddenly thought that the robot was going to make a bad relationship. So the brother threw the robot into the river.",
+            "correctAnswer" : "②  (나)-(라)-(다)-(가)"
+        },
+        {
+            "sections"      : " ※ [43~45] 다음을 순서대로 맞게 배열한 것을 고르십시오. (각 3점)",
+            "question"      : "(가)‘짝짝이 양말’은 오른쪽과 왼쪽의 그림이 다르다.\n(나)그런 사람들 사이에서 요즘 ‘짝짝이 양말’이 인기이다.\n(다)자신의 개성을 표현하기 위한 특별한 물건을 찾는 사람들이 있다.\n(라)그래서 자신만의 개성을 표현하고 싶은 사람들에게 인기가 많은 것이다 ",
+            "option_1"      : "①  (가)-(나)-(라)-(다)",
+            "option_2"      : "②  (가)-(라)-(다)-(나)",
+            "option_3"      : "③  (다)-(가)-(라)-(나)",
+            "option_4"      : "④  (다)-(나)-(가)-(라)",
+            "detail"        : " There are people looking for special items to express their individuality. These days, 'clap socks' are popular among such people. 'Clap socks' have different pictures on the right and left. That's why they are popular with people who want to express their own personality.",
+            "correctAnswer" : "④  (다)-(나)-(가)-(라)"
+        },
+        {
+            "sections"      : " ※ [46~48] 다음을 읽고(....)에 알맞은 것을 고르십시오.",
+            "question"      : " 우표가 없던 시절에도 집배원이 편지를 배달했다.그때는 편지를 받는 사람이 요금을 냈는데 가끔 배달된 편지를 받지 않고 돌려보내겠다는 사람이 있었다.그러면 집배원은 (....)돌아와야 했다.이런 문제를 해결하기 위해 편지를 보낼 때 미리 요금을 내는 우표가 만들어졌다.",
+            "option_1"      : "①  답장을 받고",
+            "option_2"      : "②  이야기를 듣고",
+            "option_3"      : "③  돈을 받지 못하고",
+            "option_4"      : "④  편지를 읽어 주고",
+            "detail"        : " Even when there were no stamps, the postman delivered the letter. At that time, the person receiving the letter paid the fee, but sometimes there was a person who wanted to send it back without receiving the delivered letter. Then the deliveryman didn't get the money and had to come back. To solve this problem, a stamp was created that paid in advance when sending a letter.",
+            "correctAnswer" : "①  한곳에 쉽게 모일 수 있기"
+        },
+        {
+            "sections"      : " ※ [46~48] 다음을 읽고(....)에 알맞은 것을 고르십시오.",
+            "question"      : " 은메달은 동메달보다 큰 상이지만 보통 은메달 수상자는 메달을 딴 기쁨 보다 금메달을 따지 못한 아쉬움이 크다.반면 동메달 수상자는 은메달을 못 따서 아쉬워하기보다 동메달이라도 받을 수 있어서 다행이라고 느낀다. 결국 행복은 (....)따라 달라진다.",
+            "option_1"      : "①  가진 것이 얼마나 있느냐에 ",
+            "option_2"      : "②  언제 성공을 이루었느냐에",
+            "option_3"      : "③  비교 대상을 어디에 두느냐에",
+            "option_4"      : "④  지금까지 어떻게 살았느냐에",
+            "detail"        : " A silver medal is a bigger prize than a bronze medal, but usually a silver medal winner has a greater regret of not winning a gold medal than the joy of winning a medal. On the other hand, the bronze medal winner feels fortunate to receive a bronze medal rather than regret not winning the silver medal. In the end, happiness depends on where you put the comparison.",
+            "correctAnswer" : "③  비교 대상을 어디에 두느냐에"
+        },
+        {
+            "sections"      : " ※ [46~48] 다음을 읽고(....)에 알맞은 것을 고르십시오.",
+            "question"      : " 수분은 균형을 맞추기 위해 수분량이 많은 쪽에서 적은 쪽으로 이동하려는 성질이 있다.이것을 이용해서 딱딱해진 식빵을 부드럽게 만들 수 있다.딱딱 하게 굳은 식빵을 새 식빵 사이에 넣고 봉지를 묶어 두면 굳었던 식빵이 부드러워진다.이것은 새 식빵의 수분이 (....)때문이다.",
+            "option_1"      : "①  공기를 만나 커졌기",
+            "option_2"      : "②  시간이 지나 많아졌기",
+            "option_3"      : "③  봉지 밖으로 날아갔기",
+            "option_4"      : "④  굳은 식빵으로 옮겨갔기",
+            "detail"        : " Moisture has the property of trying to move from the more watery side to the less side to balance it. You can use this to make the hard bread soft. If you put the hardened bread between the new bread and tie the bag, the hardened bread will become soft. This is because the moisture of the new bread has been transferred to the hardened bread.",
+            "correctAnswer" : "④  굳은 식빵으로 옮겨갔기"
+        },
+        {
+            "sections"      : " ※ [49~50] 다음 글을 읽고 물음에 답하십시오. (각 3점) ",
+            "question"      : " 한 어부가 2년 전 바다에 떨어뜨린 시계를 다시 찾아 화제다.2012년 4월 김 모 씨(62)는 아내가 선물해 준 소중한 시계를 실수로 바다에 빠뜨렸다. 그런데 2년 후인 지난 9일 문어를 잡던 김 씨가 배 위에서 문어 다리에 감긴 자신의 시계를 발견했다.오랫동안 바다 속에 있어서 고장 나고 색이 많이 변했지만 김 씨는 시계 줄에 새겨진 이름을 보고 자신의 시계라는 것을 알 수 있었다.김 씨는 근처에서 문어 잡는 어부가 수백 명인데 어떻게 자기 시계를 감은 문어가 잡혔는지 신기하다고 말했다. \n49.이 글의 제목으로 가장 알맞은 것을 고르십시오.",
+            "option_1"      : "①  잃어버린 시계,문어와 함께 올라와",
+            "option_2"      : "②  고기 잡던 어부,초대형 문어 발견해",
+            "option_3"      : "③  바다에서 건진 시계,고장 없어 놀라워",
+            "option_4"      : "④  잡았다 풀어 준 문어,다시 잡혀 신기해",
+            "detail"        : " A fisherman finds a watch that he dropped in the sea two years ago and is a hot topic.In April 2012, Mr. Kim (62) accidentally dropped the precious watch his wife gave him into the sea. But two years later, on the 9th, Kim, who was catching an octopus, found his watch wrapped around an octopus leg on the boat. It's been in the sea for a long time, so it broke down and changed a lot of color, but Mr. Kim could tell that it was his watch from the name engraved on the watch band. Mr. Kim said there were hundreds of fishermen who caught octopus nearby, and it was amazing how the octopus that wrapped his watch was caught.",
+            "correctAnswer" : "①  잃어버린 시계,문어와 함께 올라와"
+        },
+        {
+            "sections"      : " ※ [49~50] 다음 글을 읽고 물음에 답하십시오. (각 3점)",
+            "question"      : " 한 어부가 2년 전 바다에 떨어뜨린 시계를 다시 찾아 화제다.2012년 4월 김 모 씨(62)는 아내가 선물해 준 소중한 시계를 실수로 바다에 빠뜨렸다. 그런데 2년 후인 지난 9일 문어를 잡던 김 씨가 배 위에서 문어 다리에 감긴 자신의 시계를 발견했다.오랫동안 바다 속에 있어서 고장 나고 색이 많이 변했지만 김 씨는 시계 줄에 새겨진 이름을 보고 자신의 시계라는 것을 알 수 있었다.김 씨는 근처에서 문어 잡는 어부가 수백 명인데 어떻게 자기 시계를 감은 문어가 잡혔는지 신기하다고 말했다. \n50.이 글의 내용과 같은 것을 고르십시오. ",
+            "option_1"      : "①  시계에 있던 이름이 지워졌다.",
+            "option_2"      : "②  김 씨는 실수로 바다에 빠졌다.",
+            "option_3"      : "③  김 씨는 선물을 바다에 버렸다.",
+            "option_4"      : "④  아내가 김 씨에게 시계를 주었다.",
+            "detail"        : " A fisherman finds a watch that he dropped in the sea two years ago and is a hot topic.In April 2012, Mr. Kim (62) accidentally dropped the precious watch his wife gave him into the sea. But two years later, on the 9th, Kim, who was catching an octopus, found his watch wrapped around an octopus leg on the boat. It's been in the sea for a long time, so it broke down and changed a lot of color, but Mr. Kim could tell that it was his watch from the name engraved on the watch band. Mr. Kim said there were hundreds of fishermen who caught octopus nearby, and it was amazing how the octopus that wrapped his watch was caught.",
+            "correctAnswer" : "④  아내가 김 씨에게 시계를 주었다."
         }
     ]
    
