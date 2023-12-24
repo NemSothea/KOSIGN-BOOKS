@@ -37,7 +37,7 @@ class ListeningQuestionVC: UIViewController {
         // Do any additional setup after loading the view.
         self.setUI()
         
-        self.playButton.isEnabled = self.indexTopic != 3
+        self.playButton.isEnabled = self.indexTopic != 27
         
         self.listeningViewModel.getData(for: self.indexTopic)
         
