@@ -60,9 +60,6 @@ class ReadingQuestionVC: UIViewController {
         self.backButton.setAttributedTitle(attritBackText, for: .normal)
         
         self.topicTitle.text = QuestionType(rawValue: indexTopic)?.titleReading
-    
-       
-        
         
     }
     // MARK: - @IBAction
