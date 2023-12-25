@@ -30,6 +30,8 @@ class ListeningQuestionVC: UIViewController {
    
     private var  isPlay64        = true
     
+    let fontSize = Share.shared.setFontSize()
+    
     // MARK: - ViewLifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -51,11 +53,16 @@ class ListeningQuestionVC: UIViewController {
     }
     // MARK: - Functions
     private func setUI() {
-        let fontSize = Share.shared.setFontSize()
+     
+        
+        let attritNextText = NSAttributedString(string: "다음", attributes: [NSAttributedString.Key.font: UIFont(name: "1HoonDdukbokki Regular", size: fontSize)!])
+        self.nextButton.setAttributedTitle(attritNextText, for: .normal)
         
         self.topicTitle.font = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
-        self.nextButton.titleLabel?.font = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
-        self.backButton.titleLabel?.font = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
+        
+    
+        let attritBackText = NSAttributedString(string: "떠나기", attributes: [NSAttributedString.Key.font: UIFont(name: "1HoonDdukbokki Regular", size: fontSize)!])
+        self.backButton.setAttributedTitle(attritBackText, for: .normal)
         
         self.topicTitle.text = QuestionType(rawValue: indexTopic)?.titleReading
     }
@@ -85,19 +92,18 @@ class ListeningQuestionVC: UIViewController {
     
     @IBAction func exitTap(_ sender : UIButton) {
         
-        let alert = UIAlertController(title: "내용\n", message: "확신 합니까?\n", preferredStyle: .alert)
-        let cancelAction = UIAlertAction(title: "취소", style: .cancel) { (_) in
+        let alert = UIAlertController(title: "  내용\n  ", message: "     확신 합니까?     \n", preferredStyle: .alert)
+        let cancelAction = UIAlertAction(title: " 취소 ", style: .cancel) { (_) in
            return
         }
         
-        let fontSize = Share.shared.setFontSize()
-        
+    
         alert.setValue(NSAttributedString(string: alert.title!, attributes: [NSAttributedString.Key.font : UIFont(name: "1HoonDdukbokki Regular", size: fontSize)!,NSAttributedString.Key.foregroundColor : UIColor.blue]), forKey: "attributedTitle")
         
         alert.setValue(NSAttributedString(string: alert.message!, attributes: [NSAttributedString.Key.font : UIFont(name: "1HoonDdukbokki Regular", size: fontSize)!,NSAttributedString.Key.foregroundColor : UIColor.blue]), forKey: "attributedMessage")
         
         
-        let okAction = UIAlertAction(title: "넵", style: .default) { (_) in
+        let okAction = UIAlertAction(title: " 넵 ", style: .default) { (_) in
             self.listeningViewModel.stopPlay(index: "\(self.indexTopic)")
             self.dismiss(animated: true)
         }
@@ -118,8 +124,13 @@ class ListeningQuestionVC: UIViewController {
          - When question not selected popup appear
          */
         if !self.answerSelected {
-            let alert = UIAlertController(title: "알림", message: "선택해주기 바랍니다", preferredStyle: .alert)
-            let okAction = UIAlertAction(title: "확인", style: .default)
+            let alert = UIAlertController(title: "알림\n", message: "     선택해주기 바랍니다. \n", preferredStyle: .alert)
+            
+            alert.setValue(NSAttributedString(string: alert.title!, attributes: [NSAttributedString.Key.font : UIFont(name: "1HoonDdukbokki Regular", size: fontSize)!,NSAttributedString.Key.foregroundColor : UIColor.blue]), forKey: "attributedTitle")
+            
+            alert.setValue(NSAttributedString(string: alert.message!, attributes: [NSAttributedString.Key.font : UIFont(name: "1HoonDdukbokki Regular", size: fontSize)!,NSAttributedString.Key.foregroundColor : UIColor.blue]), forKey: "attributedMessage")
+            
+            let okAction = UIAlertAction(title: "확인", style: .destructive)
             alert.addAction(okAction)
             present(alert, animated: true,completion: nil)
             return

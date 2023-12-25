@@ -16,7 +16,6 @@ class ReadingQuestionVC: UIViewController {
     
     @IBOutlet weak var collectionView   : UICollectionView!
     
-    var alertStyle = UIAlertController()
     
     
     //MARK: -Variable
@@ -51,23 +50,30 @@ class ReadingQuestionVC: UIViewController {
     private func setUI() {
      
         
+        let attritNextText = NSAttributedString(string: "다음", attributes: [NSAttributedString.Key.font: UIFont(name: "1HoonDdukbokki Regular", size: fontSize)!])
+        self.nextButton.setAttributedTitle(attritNextText, for: .normal)
+        
         self.topicTitle.font = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
-        self.nextButton.titleLabel?.font = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
-        self.backButton.titleLabel?.font = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
+        
+    
+        let attritBackText = NSAttributedString(string: "떠나기", attributes: [NSAttributedString.Key.font: UIFont(name: "1HoonDdukbokki Regular", size: fontSize)!])
+        self.backButton.setAttributedTitle(attritBackText, for: .normal)
         
         self.topicTitle.text = QuestionType(rawValue: indexTopic)?.titleReading
     
-        alertStyle = UIAlertController(title: "내용\n", message: "확신 합니까?\n", preferredStyle: .alert)
-        
-        alertStyle.setValue(NSAttributedString(string: alertStyle.title!, attributes: [NSAttributedString.Key.font : UIFont(name: "1HoonDdukbokki Regular", size: fontSize)!,NSAttributedString.Key.foregroundColor : UIColor.blue]), forKey: "attributedTitle")
-        
-        alertStyle.setValue(NSAttributedString(string: alertStyle.message!, attributes: [NSAttributedString.Key.font : UIFont(name: "1HoonDdukbokki Regular", size: fontSize)!,NSAttributedString.Key.foregroundColor : UIColor.blue]), forKey: "attributedMessage")
+       
         
         
     }
     // MARK: - @IBAction
     @IBAction func exitTap(_ sender : UIButton) {
        
+        let alert = UIAlertController(title: " 내용\n ", message: "   확신 합니까?     \n", preferredStyle: .alert)
+        
+        alert.setValue(NSAttributedString(string: alert.title!, attributes: [NSAttributedString.Key.font : UIFont(name: "1HoonDdukbokki Regular", size: fontSize)!,NSAttributedString.Key.foregroundColor : UIColor.blue]), forKey: "attributedTitle")
+        
+        alert.setValue(NSAttributedString(string: alert.message!, attributes: [NSAttributedString.Key.font : UIFont(name: "1HoonDdukbokki Regular", size: fontSize)!,NSAttributedString.Key.foregroundColor : UIColor.blue]), forKey: "attributedMessage")
+        
         let okAction = UIAlertAction(title: "넵", style: .default) { (_) in
             self.dismiss(animated: true)
         }
@@ -75,11 +81,11 @@ class ReadingQuestionVC: UIViewController {
             return
         }
         
-        alertStyle.addAction(cancelAction)
-        alertStyle.addAction(okAction)
+        alert.addAction(cancelAction)
+        alert.addAction(okAction)
         
         
-        present(alertStyle, animated: false,completion: nil)
+        present(alert, animated: false,completion: nil)
         
     }
     
@@ -91,7 +97,12 @@ class ReadingQuestionVC: UIViewController {
         }
        */
         if !self.answerSelected {
-            let alert = UIAlertController(title: "알림", message: "선택해주기 바랍니다", preferredStyle: .alert)
+            let alert = UIAlertController(title: "알림\n", message: "선택해주기 바랍니다.\n", preferredStyle: .alert)
+            
+            alert.setValue(NSAttributedString(string: alert.title!, attributes: [NSAttributedString.Key.font : UIFont(name: "1HoonDdukbokki Regular", size: fontSize)!,NSAttributedString.Key.foregroundColor : UIColor.blue]), forKey: "attributedTitle")
+            
+            alert.setValue(NSAttributedString(string: alert.message!, attributes: [NSAttributedString.Key.font : UIFont(name: "1HoonDdukbokki Regular", size: fontSize)!,NSAttributedString.Key.foregroundColor : UIColor.blue]), forKey: "attributedMessage")
+            
             let okAction = UIAlertAction(title: "확인", style: .default)
             alert.addAction(okAction)
             present(alert, animated: true,completion: nil)
