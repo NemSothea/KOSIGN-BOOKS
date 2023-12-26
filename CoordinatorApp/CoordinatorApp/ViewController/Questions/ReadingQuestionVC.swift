@@ -28,7 +28,7 @@ class ReadingQuestionVC: UIViewController {
 
     var indexTopic       = 0
     
-    var wrongAnswerArray : [ReadingQuestionModel.Question] = []
+    private var wrongAnswerArray : [ReadingQuestionModel.Question] = []
     
     let fontSize = Share.shared.setFontSize()
     
@@ -89,7 +89,11 @@ class ReadingQuestionVC: UIViewController {
     }
     
     @IBAction func nextTap(_ sender : UIButton) {
-     
+        #warning("test")
+//        guard let popUpVC = storyboard?.instantiateViewController(withIdentifier: "PopupVC") as? PopupVC else { return }
+//        self.present(popUpVC, animated: true)
+        
+        
         if !self.answerSelected {
             let alert = UIAlertController(title: "알림\n", message: "선택해주기 바랍니다.\n", preferredStyle: .alert)
             
@@ -135,16 +139,16 @@ class ReadingQuestionVC: UIViewController {
         }
     }
     func resultTopik() -> (String,String,String) {
-            //Correct Answer + Wrong Answer
-            let questionsObj    = self.questionsVM.data?.questions?.count ?? 0
-            let wrongQuestions  = wrongAnswerArray.removingDuplicates().count
-            let correctAnswer   = questionsObj - wrongQuestions
-            // Percentage
-            let percentage = correctAnswer / 100
-            let finial = percentage * 100
-            
-            let formattedPercentage = String(format: "%.0f%%", finial)
-            return(String(correctAnswer),String(questionsObj),formattedPercentage)
+        //Correct Answer + Wrong Answer
+        let questionsObj    = self.questionsVM.data?.questions?.count ?? 0
+        let wrongQuestions  = self.wrongAnswerArray.removingDuplicates().count
+        let correctAnswer   = questionsObj - wrongQuestions
+        // Percentage
+        let percentage = correctAnswer / questionsObj
+        let finial = percentage * 100
+        
+        let formattedPercentage = String(format: "%.0f%%", finial)
+        return(String(correctAnswer),String(questionsObj),formattedPercentage)
     }
 }
 

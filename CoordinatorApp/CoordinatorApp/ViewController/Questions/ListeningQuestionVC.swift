@@ -24,7 +24,9 @@ class ListeningQuestionVC: UIViewController {
     
     private var answerSelected   = false
     private var isCorrectAnswer  = false
-    private var correctAnswer    = 0
+    
+    private var wrongAnswerArray : [ReadingQuestionModel.Question] = []
+    
     private var index            = 0
     var indexTopic               = 0
    
@@ -140,10 +142,7 @@ class ListeningQuestionVC: UIViewController {
         /** TODO -:
          - When selected question correctly add score
          */
-        if self.isCorrectAnswer {
-            self.correctAnswer += 1
-           
-        }else {
+        if !self.isCorrectAnswer {
             /** TODO -:
              - When selected question wrong show popup details
              */
@@ -157,6 +156,12 @@ class ListeningQuestionVC: UIViewController {
                 popUpVC.detail0 = self.listeningViewModel.data?.questions?[index].question ?? ""
                 popUpVC.detail1 = self.listeningViewModel.data?.questions?[index].detail ?? ""
             }
+            
+            guard let objs = self.listeningViewModel.data?.questions?[index] else {
+                return
+            }
+            
+            self.wrongAnswerArray.append(objs)
          
             self.present(popUpVC, animated: true)
             return
@@ -173,14 +178,25 @@ class ListeningQuestionVC: UIViewController {
              - Show final result with score, Number of question, Wrong selected
              */
             guard let resultVC = storyboard?.instantiateViewController(withIdentifier: "ResultVC") as? ResultVC else {return}
-            resultVC.data          = ["\(self.listeningViewModel.data?.questions?.count ?? 0)"]
+            resultVC.data          = ["\(resultTopik().0)","\(resultTopik().1)","\(resultTopik().2)"]
             self.listeningViewModel.stopAllCurrentPlay()
             resultVC.modalPresentationStyle = .fullScreen
             self.present(resultVC, animated: true)
         }
          
     }
-
+    func resultTopik() -> (String,String,String) {
+        //Correct Answer + Wrong Answer
+        let questionsObj    = self.listeningViewModel.data?.questions?.count ?? 0
+        let wrongQuestions  = self.wrongAnswerArray.removingDuplicates().count
+        let correctAnswer   = questionsObj - wrongQuestions
+        // Percentage
+        let percentage = correctAnswer / questionsObj
+        let finial = percentage * 100
+        
+        let formattedPercentage = String(format: "%.0f%%", finial)
+        return(String(correctAnswer),String(questionsObj),formattedPercentage)
+    }
 }
 
   //MARK: - Extension CollectionView

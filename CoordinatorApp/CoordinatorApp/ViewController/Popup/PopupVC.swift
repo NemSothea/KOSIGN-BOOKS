@@ -11,10 +11,7 @@ class PopupVC : UIViewController, UITableViewDelegate, UITableViewDataSource {
     
     //MARK: Properties
     @IBOutlet weak var tableView        : UITableView!
-    @IBOutlet weak var mainView         : UIView!
-    @IBOutlet weak var contentLabel     : UILabel!
-    @IBOutlet weak var checkButton      : UIButton!
-    
+
     var detail0                          = ""
     var detail1                          = ""
     
@@ -23,34 +20,68 @@ class PopupVC : UIViewController, UITableViewDelegate, UITableViewDataSource {
     //MARK: ViewLife Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
-        // Do any additional setup after loading the view.
-        self.contentLabel.font = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
-        self.checkButton.titleLabel?.font = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
-        
-        self.mainView.clipsToBounds = true
-        self.mainView.layer.cornerRadius = 10
-        self.mainView.layer.maskedCorners = [.layerMaxXMinYCorner,.layerMaxXMinYCorner]
+     
         
     }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 1
     }
+    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        
+        let headerView = UIView()
+        headerView.backgroundColor = UIColor.clear
+        let titleLabel = UILabel(frame: CGRect(x: 10,y: 10, width: 100 ,height:50))
+        titleLabel.numberOfLines = 0
+        titleLabel.lineBreakMode = .byWordWrapping
+        titleLabel.backgroundColor = UIColor.clear
+        titleLabel.font = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
+        titleLabel.text  = "내용"
+        headerView.addSubview(titleLabel)
+       
+        return headerView
+    }
+    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return UITableView.automaticDimension
+    }
+    
+    func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
+        
+        let footerView = UIView()
+        footerView.backgroundColor = UIColor.clear
+        let checkButton = UIButton(frame: CGRect(x: (UIScreen.main.bounds.width/2) - 80,y: 0, width: 200,height:50))
+        
+        let attritNextText = NSAttributedString(string: "화인", attributes: [NSAttributedString.Key.font: UIFont(name: "1HoonDdukbokki Regular", size: fontSize)!])
+        checkButton.setAttributedTitle(attritNextText, for: .normal)
+        checkButton.tintColor           = UIColor.white
+        checkButton.setTitleColor(UIColor.white, for: .normal)
+        checkButton.backgroundColor     = UIColor.systemBlue
+        checkButton.layer.cornerRadius  = 8
+        checkButton.layer.shadowColor   = UIColor.green.cgColor
+        checkButton.layer.shadowOpacity = 0.8
+        checkButton.layer.shadowOffset  = CGSize(width: 1, height: 1)
+        checkButton.layer.borderWidth   = 1
+        checkButton.layer.borderColor   = UIColor.green.cgColor
+        
+        checkButton.addTarget(self, action: #selector(tapClick), for: .touchUpInside)
+        footerView.addSubview(checkButton)
+        return footerView
+    }
+
+    func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
+        return UITableView.automaticDimension
+    }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let cell = tableView.dequeueReusableCell(withIdentifier: "cell") as? PopupCell else { return PopupCell()}
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: "cell") as? PopupCell else { return PopupCell()
+        }
         cell.infoLabel.font = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
         cell.infoLabel.text = "\(detail0)\n\(detail1)"
 
         return cell
     }
     
-
-   
-    
-    @IBAction func tapClick(_ sender: Any) {
+    @objc func tapClick() {
         self.dismiss(animated: true)
     }
     
