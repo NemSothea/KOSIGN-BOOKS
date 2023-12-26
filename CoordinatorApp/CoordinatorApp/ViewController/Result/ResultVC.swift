@@ -9,23 +9,33 @@ import UIKit
 
 class ResultVC: UIViewController, StoryBoarded {
     
-    @IBOutlet weak var score    : UILabel!
-    @IBOutlet weak var correct       : UILabel!
-    @IBOutlet weak var questions    : UILabel!
-  
-    var data = [String]()
+    //MARK: - Outlet
+    @IBOutlet weak var questions            : UILabel!
+    @IBOutlet weak var congratulationLabel  : UILabel!
+    @IBOutlet weak var niceLabel            : UILabel!
+    @IBOutlet weak var scoreLabel           : UILabel!
+    //MARK: - Properties
+    var data                        = [String]()
     
+    //MARK: - ViewLife Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-        self.score.text = "\(data[0])"
-        self.correct.text    = "\(data[1])"
-        self.questions.text      = "\(data[2])"
         
+        // Do any additional setup after loading the view.
+        
+        self.setupUI()
         
     }
-    
+    private func setupUI() {
+        
+        let fontSize                    = Share.shared.setFontSize()
+        self.questions.font             = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
+        self.congratulationLabel.font   = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
+        self.niceLabel.font             = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
+        self.scoreLabel.font            = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
+        
+        self.questions.text             = "You have reached \(data[0]) of \(data[1]) questions(s), \(data[2])"
+    }
     @IBAction func backHomeTap(_ sender: Any) {
         
         self.presentingViewController?.presentingViewController?.dismiss(animated: true, completion: nil)

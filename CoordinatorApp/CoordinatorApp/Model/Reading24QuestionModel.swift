@@ -27,3 +27,17 @@ struct ReadingQuestionModel : Codable {
 
     }
 }
+extension ReadingQuestionModel.Question: Equatable {
+    static func ==(lhs: ReadingQuestionModel.Question, rhs: ReadingQuestionModel.Question) -> Bool {
+        return lhs.correctAnswer == rhs.correctAnswer &&
+            lhs.option_1 == rhs.option_1 &&
+            lhs.option_2 == rhs.option_2 &&
+            lhs.option_3 == rhs.option_3 &&
+            lhs.option_4 == rhs.option_4 &&
+            lhs.question == rhs.question &&
+            lhs.detail == rhs.detail &&
+            lhs.sections == rhs.sections &&
+            lhs.score == rhs.score &&
+            lhs.isImg == rhs.isImg
+    }
+}

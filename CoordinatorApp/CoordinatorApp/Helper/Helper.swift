@@ -35,3 +35,12 @@ enum QuestionType: Int, CaseIterable {
         return "듣기 \(rawValue)th"
     }
 }
+extension Array where Element: Equatable {
+    func removingDuplicates() -> [Element] {
+        return reduce(into: []) { result, element in
+            if !result.contains(element) {
+                result.append(element)
+            }
+        }
+    }
+}

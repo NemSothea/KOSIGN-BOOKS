@@ -25,8 +25,10 @@ class ReadingQuestionVC: UIViewController {
     var isCorrectAnswer  = false
     var correctAnswer    = 0
     var index            = 0
-    var totalScore       = 0
+
     var indexTopic       = 0
+    
+    var wrongAnswerArray : [ReadingQuestionModel.Question] = []
     
     let fontSize = Share.shared.setFontSize()
     
@@ -87,12 +89,7 @@ class ReadingQuestionVC: UIViewController {
     }
     
     @IBAction func nextTap(_ sender : UIButton) {
-        /*TESTING
-        if index<(self.questionsVM.data?.questions?.count ?? 0) - 1 {
-            index += 1
-            self.collectionView.scrollToItem(at: IndexPath(row: index, section: 0), at: .right, animated: true)
-        }
-       */
+     
         if !self.answerSelected {
             let alert = UIAlertController(title: "알림\n", message: "선택해주기 바랍니다.\n", preferredStyle: .alert)
             
@@ -106,36 +103,48 @@ class ReadingQuestionVC: UIViewController {
             return
         }
         self.answerSelected = false
-        if self.isCorrectAnswer {
-            self.correctAnswer += 1
-            
-        }else {
+        
+        //Wrong Answer show alert message
+        
+        if !self.isCorrectAnswer {
             guard let popUpVC = storyboard?.instantiateViewController(withIdentifier: "PopupVC") as? PopupVC else { return }
             if self.questionsVM.data?.questions?[index].detail == nil {
                 popUpVC.detail0 = "조심하게 선택해주십시오."
             }else {
                 popUpVC.detail0 = self.questionsVM.data?.questions?[index].detail ?? ""
             }
+            
+            guard let objs = self.questionsVM.data?.questions?[index] else {
+                return
+            }
+            
+            self.wrongAnswerArray.append(objs)
            
             self.present(popUpVC, animated: true)
             return
         }
         if index<(self.questionsVM.data?.questions?.count ?? 0) - 1 {
             index += 1
-            if self.isCorrectAnswer {
-                self.totalScore += Int(self.questionsVM.data?.questions?[index].score ?? "") ?? 0
-            }
-//            print("========")
-//            print("totalScore : \(self.totalScore)")
-//            print("========")
            
             self.collectionView.scrollToItem(at: IndexPath(row: index, section: 0), at: .right, animated: true)
         }else {
             guard let resultVC = storyboard?.instantiateViewController(withIdentifier: "ResultVC") as? ResultVC else {return}
-            resultVC.data          = ["\(totalScore)","\(self.questionsVM.data?.questions?.count ?? 0)"]
+            resultVC.data          = ["\(resultTopik().0)","\(resultTopik().1)","\(resultTopik().2)"]
             resultVC.modalPresentationStyle = .fullScreen
             self.present(resultVC, animated: true)
         }
+    }
+    func resultTopik() -> (String,String,String) {
+            //Correct Answer + Wrong Answer
+            let questionsObj    = self.questionsVM.data?.questions?.count ?? 0
+            let wrongQuestions  = wrongAnswerArray.removingDuplicates().count
+            let correctAnswer   = questionsObj - wrongQuestions
+            // Percentage
+            let percentage = correctAnswer / 100
+            let finial = percentage * 100
+            
+            let formattedPercentage = String(format: "%.0f%%", finial)
+            return(String(correctAnswer),String(questionsObj),formattedPercentage)
     }
 }
 
@@ -154,10 +163,8 @@ extension ReadingQuestionVC : UICollectionViewDelegate, UICollectionViewDataSour
         cell.optionB.layer.cornerRadius = 5
         cell.optionC.layer.cornerRadius = 5
         cell.optionD.layer.cornerRadius = 5
-        cell.setValues = questionsVM.data?.questions?[indexPath.row]
-//        print("========")
-//        print("Score : \(questionsVM.data?.questions?[indexPath.row].score)")
-//        print("========")
+        cell.setValues = self.questionsVM.data?.questions?[indexPath.row]
+
         
         cell.selectedOption = { [weak self] isCorrect in
             self?.answerSelected    = true
