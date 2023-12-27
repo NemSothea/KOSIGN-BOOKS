@@ -186,16 +186,31 @@ class ListeningQuestionVC: UIViewController {
          
     }
     func resultTopik() -> (String,String,String) {
+        
+        /*
+        let totalQuestion       = 100
+        let wrongAnswer         = 90
+        let correctAnswer       = totalQuestion - wrongAnswer // (100 - 90)
+
+        let findPercentage = Float(wrongAnswer) / Float(totalQuestion) // 10 / 100 = 0.1
+        let finalPercentage = findPercentage * 100 // 10
+
+        let formattedPercentage = String(format: "%.0f%%", finalPercentage)
+        print(formattedPercentage)//10%
+        */
+        
         //Correct Answer + Wrong Answer
         let questionsObj    = self.listeningViewModel.data?.questions?.count ?? 0
         let wrongQuestions  = self.wrongAnswerArray.removingDuplicates().count
         let correctAnswer   = questionsObj - wrongQuestions
         // Percentage
-        let percentage = correctAnswer / questionsObj
-        let finial = percentage * 100
+        let percentage = Float(wrongQuestions) /  Float(questionsObj)
+        let finalPercentage = percentage * 100
         
-        let formattedPercentage = String(format: "%.0f%%", finial)
+       
+        let formattedPercentage = String(format: "%.0f%%", finalPercentage)
         return(String(correctAnswer),String(questionsObj),formattedPercentage)
+        
     }
 }
 

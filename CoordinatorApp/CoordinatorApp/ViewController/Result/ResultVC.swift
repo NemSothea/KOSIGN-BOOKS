@@ -15,7 +15,7 @@ class ResultVC: UIViewController, StoryBoarded {
     @IBOutlet weak var niceLabel            : UILabel!
     @IBOutlet weak var scoreLabel           : UILabel!
     //MARK: - Properties
-    var data                        = [String]()
+    var data                                 = [String]()
     
     //MARK: - ViewLife Cycle
     override func viewDidLoad() {

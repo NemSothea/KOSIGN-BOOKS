@@ -36,7 +36,7 @@ class PopupVC : UIViewController, UITableViewDelegate, UITableViewDataSource {
         titleLabel.lineBreakMode = .byWordWrapping
         titleLabel.backgroundColor = UIColor.clear
         titleLabel.font = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
-        titleLabel.text  = "내용"
+        titleLabel.text  = "내용\n"
         headerView.addSubview(titleLabel)
        
         return headerView
@@ -49,6 +49,7 @@ class PopupVC : UIViewController, UITableViewDelegate, UITableViewDataSource {
         
         let footerView = UIView()
         footerView.backgroundColor = UIColor.clear
+        footerView.frame = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: 50)
         let checkButton = UIButton(frame: CGRect(x: (UIScreen.main.bounds.width/2) - 80,y: 0, width: 200,height:50))
         
         let attritNextText = NSAttributedString(string: "화인", attributes: [NSAttributedString.Key.font: UIFont(name: "1HoonDdukbokki Regular", size: fontSize)!])
@@ -63,25 +64,27 @@ class PopupVC : UIViewController, UITableViewDelegate, UITableViewDataSource {
         checkButton.layer.borderWidth   = 1
         checkButton.layer.borderColor   = UIColor.green.cgColor
         
-        checkButton.addTarget(self, action: #selector(tapClick), for: .touchUpInside)
+        let tap = UITapGestureRecognizer(target: self, action: #selector(self.handleTap(_:)))
+        footerView.addGestureRecognizer(tap)
+        checkButton.addGestureRecognizer(tap)
         footerView.addSubview(checkButton)
         return footerView
     }
 
     func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
-        return UITableView.automaticDimension
+        return 50
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "cell") as? PopupCell else { return PopupCell()
         }
         cell.infoLabel.font = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
-        cell.infoLabel.text = "\(detail0)\n\(detail1)"
+        cell.infoLabel.text = "\n\(detail0)\n\n\(detail1)"
 
         return cell
     }
     
-    @objc func tapClick() {
+    @objc func handleTap(_ sender: UITapGestureRecognizer? = nil) {
         self.dismiss(animated: true)
     }
     
