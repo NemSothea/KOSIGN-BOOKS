@@ -116,12 +116,16 @@ class ListeningQuestionVC: UIViewController {
         
     }
     @IBAction func nextTap(_ sender : UIButton) {
-        /*TESTING
-        if index<(self.questionsVM.data?.questions?.count ?? 0) - 1 {
-            index += 1
-            self.collectionView.scrollToItem(at: IndexPath(row: index, section: 0), at: .right, animated: true)
-        }
-       */
+        
+#warning("test resultVC")
+//        guard let resultVC = storyboard?.instantiateViewController(withIdentifier: "ResultVC") as? ResultVC else {return}
+//        resultVC.data          = ["\(resultTopik().0)","\(resultTopik().1)","\(resultTopik().2)"]
+//        self.present(resultVC, animated: true)
+
+#warning("test popUpVC")
+//        guard let popUpVC = storyboard?.instantiateViewController(withIdentifier: "PopupVC") as? PopupVC else { return }
+//        self.present(popUpVC, animated: true)
+        
         /** TODO -:
          - When question not selected popup appear
          */

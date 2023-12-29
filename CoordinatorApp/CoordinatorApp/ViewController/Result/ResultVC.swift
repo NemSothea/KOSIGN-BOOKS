@@ -12,8 +12,8 @@ class ResultVC: UIViewController, StoryBoarded {
     //MARK: - Outlet
     @IBOutlet weak var questions            : UILabel!
     @IBOutlet weak var congratulationLabel  : UILabel!
-    @IBOutlet weak var niceLabel            : UILabel!
     @IBOutlet weak var scoreLabel           : UILabel!
+    @IBOutlet weak var impressLabel         : UILabel!
     //MARK: - Properties
     var data                                 = [String]()
     
@@ -30,13 +30,13 @@ class ResultVC: UIViewController, StoryBoarded {
         
         let fontSize                    = Share.shared.setFontSize()
         self.questions.font             = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
-        self.congratulationLabel.font   = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
-        self.niceLabel.font             = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
-        self.scoreLabel.font            = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
+        self.congratulationLabel.font   =  UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
+        self.impressLabel.font          = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
+        self.scoreLabel.font            = UIFont(name: "BareunBatangOTF 1Light", size: fontSize)
         
-        self.questions.text             = "You have reached \(data[0]) of \(data[1]) questions(s), \(data[2])"
+        self.questions.text             = " \n  You have reached \(data[0]) of \(data[1]) questions(s), \(data[2])   \n"
     }
-    @IBAction func backHomeTap(_ sender: Any) {
+    @IBAction func backHomeTap(_ sender: UIButton) {
         
         self.presentingViewController?.presentingViewController?.dismiss(animated: true, completion: nil)
     }
@@ -51,4 +51,26 @@ class ResultVC: UIViewController, StoryBoarded {
     }
     */
 
+}
+
+extension UIView {
+    
+    @IBInspectable var cornerRadiusV: CGFloat {
+        get {
+            return layer.cornerRadius
+        }
+        set {
+            layer.cornerRadius = newValue
+            layer.masksToBounds = newValue > 0
+        }
+    }
+    
+    @IBInspectable var borderColorV: UIColor? {
+        get {
+            return UIColor(cgColor: layer.borderColor!)
+        }
+        set {
+            layer.borderColor = newValue?.cgColor
+        }
+    }
 }

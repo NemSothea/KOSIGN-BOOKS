@@ -89,7 +89,13 @@ class ReadingQuestionVC: UIViewController {
     }
     
     @IBAction func nextTap(_ sender : UIButton) {
-        #warning("test")
+        
+        #warning("test resultVC")
+//        guard let resultVC = storyboard?.instantiateViewController(withIdentifier: "ResultVC") as? ResultVC else {return}
+//        resultVC.data          = ["\(resultTopik().0)","\(resultTopik().1)","\(resultTopik().2)"]
+//        self.present(resultVC, animated: true)
+        
+#warning("test popUpVC")
 //        guard let popUpVC = storyboard?.instantiateViewController(withIdentifier: "PopupVC") as? PopupVC else { return }
 //        self.present(popUpVC, animated: true)
         

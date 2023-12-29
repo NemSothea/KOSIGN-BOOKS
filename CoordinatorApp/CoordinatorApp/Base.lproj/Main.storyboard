@@ -260,7 +260,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uAH-Ec-q2z">
-                                <rect key="frame" x="172.66666666666663" y="69" width="84.666666666666686" height="43"/>
+                                <rect key="frame" x="172.66666666666666" y="69" width="84.666666666666657" height="43"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Label">
                                         <attributes>
@@ -1633,21 +1633,21 @@
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Congratulations" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zlb-KW-fN6">
-                                <rect key="frame" x="109.33333333333331" y="335.33333333333331" width="211.33333333333337" height="36"/>
+                                <rect key="frame" x="109.33333333333333" y="335.33333333333331" width="211.33333333333337" height="36"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Bold" family="Apple SD Gothic Neo" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your Score" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zl9-tG-Jte">
-                                <rect key="frame" x="176.33333333333337" y="391.33333333333331" width="77.666666666666629" height="20.666666666666686"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your Score" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zl9-tG-Jte">
+                                <rect key="frame" x="176.33333333333334" y="391.33333333333331" width="77.666666666666657" height="20.666666666666686"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Sv-6p-iWY">
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="3Sv-6p-iWY">
                                 <rect key="frame" x="195" y="442" width="40" height="48"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3So-tu-mKF">
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3So-tu-mKF">
                                         <rect key="frame" x="0.0" y="0.0" width="40" height="48"/>
                                         <fontDescription key="fontDescription" name="AppleSDGothicNeo-Medium" family="Apple SD Gothic Neo" pointSize="40"/>
                                         <nil key="textColor"/>
@@ -1655,6 +1655,14 @@
                                     </label>
                                 </subviews>
                                 <color key="backgroundColor" red="0.18823529410000001" green="0.69019607839999997" blue="0.78039215689999997" alpha="0.14097045068027211" colorSpace="custom" customColorSpace="sRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidthV">
+                                        <real key="value" value="0.0"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiusV">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You did a greate job, Learn more by taking another quiz" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ejS-ML-joC">
                                 <rect key="frame" x="20" y="520" width="390" height="41"/>
@@ -1663,7 +1671,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gDM-Fp-Yd0">
-                                <rect key="frame" x="167.33333333333337" y="576" width="95.666666666666629" height="62.333333333333371"/>
+                                <rect key="frame" x="167.33333333333334" y="581" width="95.666666666666657" height="62.333333333333371"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" name="Button Color"/>
                                 <state key="normal" title="Button"/>
@@ -1684,7 +1692,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="zlb-KW-fN6" firstAttribute="centerX" secondItem="wgO-wf-3BO" secondAttribute="centerX" id="1tF-20-If8"/>
-                            <constraint firstItem="gDM-Fp-Yd0" firstAttribute="top" secondItem="ejS-ML-joC" secondAttribute="bottom" constant="15" id="2U9-Vu-gyq"/>
+                            <constraint firstItem="gDM-Fp-Yd0" firstAttribute="top" secondItem="ejS-ML-joC" secondAttribute="bottom" constant="20" id="2U9-Vu-gyq"/>
                             <constraint firstItem="zl9-tG-Jte" firstAttribute="centerX" secondItem="wgO-wf-3BO" secondAttribute="centerX" id="4jG-Af-QHt"/>
                             <constraint firstItem="3YD-tf-Od8" firstAttribute="centerX" secondItem="wgO-wf-3BO" secondAttribute="centerX" id="9ra-Gn-vLy"/>
                             <constraint firstItem="NL5-P3-08N" firstAttribute="trailing" secondItem="ovz-26-uiR" secondAttribute="trailing" id="BF9-QM-DFn"/>
@@ -1705,6 +1713,7 @@
                     </view>
                     <connections>
                         <outlet property="congratulationLabel" destination="zlb-KW-fN6" id="8IW-OE-Lne"/>
+                        <outlet property="impressLabel" destination="ejS-ML-joC" id="vyG-iy-HxG"/>
                         <outlet property="questions" destination="3So-tu-mKF" id="IAl-VU-64P"/>
                         <outlet property="scoreLabel" destination="zl9-tG-Jte" id="GD2-dQ-cdk"/>
                     </connections>
@@ -1861,7 +1870,7 @@
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ror-5p-V0A">
-                                <rect key="frame" x="172.66666666666663" y="69" width="84.666666666666686" height="43"/>
+                                <rect key="frame" x="172.66666666666666" y="69" width="84.666666666666657" height="43"/>
                                 <attributedString key="attributedText">
                                     <fragment content="Label">
                                         <attributes>
