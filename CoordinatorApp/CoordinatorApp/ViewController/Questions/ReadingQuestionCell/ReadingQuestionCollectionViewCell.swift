@@ -29,6 +29,8 @@ class ReadingQuestionCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var optionC          : UIControl!
     @IBOutlet weak var optionD          : UIControl!
     @IBOutlet weak var imgHeightConstraint: NSLayoutConstraint!
+    @IBOutlet weak var stackImage       : UIStackView!
+    @IBOutlet weak var emptyStack       : UIStackView!
     
     private var correctionAnswer        : String?
     var selectedOption                  : ((_ selectedAnswer : Bool) -> Void)?
@@ -40,18 +42,36 @@ class ReadingQuestionCollectionViewCell: UICollectionViewCell {
             
             self.sectionLabel.text  = setValues?.sections
             if self.setValues?.isImg == "y" {
-                self.questionLabel.text = nil
-                self.questionImg.isHidden = false
+                self.questionLabel.text     = nil
+                self.stackImage.isHidden    = false
+                self.emptyStack.isHidden    = true
+                self.questionImg.isHidden   = false
                 self.imgHeightConstraint.constant = UIScreen.main.bounds.height / 2
                 
                 self.questionImg.frame = CGRectMake(0.0, 0.0,UIScreen.main.bounds.width, UIScreen.main.bounds.height / 2)
                 
                 self.questionImg.image = UIImage(named:setValues?.question ?? "")
             }else {
-                self.questionImg.isHidden = true
-                self.questionImg.image = nil
+                stackImage.isHidden             = true
+                self.questionImg.isHidden       = true
+                emptyStack.isHidden             = false
+                self.questionImg.image          = nil
                 self.imgHeightConstraint.constant = 0.0
-                self.questionLabel.text = setValues?.question
+                
+                let attributedString = NSMutableAttributedString(string: setValues?.question ?? "")
+
+                // *** Create instance of `NSMutableParagraphStyle`
+                let paragraphStyle = NSMutableParagraphStyle()
+
+                // *** set LineSpacing property in points ***
+                paragraphStyle.lineSpacing = 0.5 // Whatever line spacing you want in points
+
+                // *** Apply attribute to string ***
+                attributedString.addAttribute(NSAttributedString.Key.paragraphStyle, value:paragraphStyle, range:NSMakeRange(0, attributedString.length))
+
+                // *** Set Attributed String to your label ***
+ 
+                self.questionLabel.attributedText         = attributedString
             }
             
             self.option1.text       = setValues?.option_1

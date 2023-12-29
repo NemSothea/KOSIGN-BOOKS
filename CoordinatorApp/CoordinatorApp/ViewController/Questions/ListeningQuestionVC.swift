@@ -67,6 +67,9 @@ class ListeningQuestionVC: UIViewController {
         self.backButton.setAttributedTitle(attritBackText, for: .normal)
         
         self.topicTitle.text = QuestionType(rawValue: indexTopic)?.titleReading
+        
+        self.collectionView.register(UINib(nibName: "ReadingQuestionCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "cell")
+        
     }
     // MARK: - @IBAction
     @IBAction func playTap(_ sender: UIButton) {

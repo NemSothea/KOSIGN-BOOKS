@@ -63,6 +63,10 @@ class ReadingQuestionVC: UIViewController {
         
         self.topicTitle.text = QuestionType(rawValue: indexTopic)?.titleReading
         
+        self.collectionView.register(UINib(nibName: "ReadingQuestionCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "cell")
+        self.collectionView.delegate = self
+        self.collectionView.dataSource = self
+        
     }
     // MARK: - @IBAction
     @IBAction func exitTap(_ sender : UIButton) {
