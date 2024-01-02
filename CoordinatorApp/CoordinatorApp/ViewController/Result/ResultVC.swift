@@ -7,15 +7,19 @@
 
 import UIKit
 
-class ResultVC: UIViewController, StoryBoarded {
+class ResultVC: UIViewController, StoryBoarded, UICollectionViewDelegate, UICollectionViewDataSource,UICollectionViewDelegateFlowLayout {
     
     //MARK: - Outlet
     @IBOutlet weak var questions            : UILabel!
     @IBOutlet weak var congratulationLabel  : UILabel!
     @IBOutlet weak var scoreLabel           : UILabel!
     @IBOutlet weak var impressLabel         : UILabel!
+    
+    @IBOutlet weak var collectionView       : UICollectionView!
+    
     //MARK: - Properties
-    var data                                 = [String]()
+    var result                              = [String]()
+    var wrongAnswerArray : [ReadingQuestionModel.Question] = []
     
     //MARK: - ViewLife Cycle
     override func viewDidLoad() {
@@ -34,7 +38,32 @@ class ResultVC: UIViewController, StoryBoarded {
         self.impressLabel.font          = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
         self.scoreLabel.font            = UIFont(name: "BareunBatangOTF 1Light", size: fontSize)
         
-        self.questions.text             = " \n  You have reached \(data[0]) of \(data[1]) questions(s), \(data[2])   \n"
+        self.collectionView.register(UINib(nibName: "ResultCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "resultCollectionViewCell")
+        
+        
+        self.questions.text             = " \n  You have reached \(result[0]) of \(result[1]) questions(s), \(result[2])   \n"
+        
+        
+    }
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return wrongAnswerArray.count == 0 ? 0 : wrongAnswerArray.count
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "resultCollectionViewCell", for: indexPath) as? ResultCollectionViewCell else {
+            return UICollectionViewCell()
+        }
+        cell.configureCell(data: wrongAnswerArray[indexPath.row])
+        return cell
+    }
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        return CGSize(width: collectionView.frame.width, height: collectionView.frame.height)
+    }
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
+        return 0
+    }
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
+        return 0
     }
     @IBAction func backHomeTap(_ sender: UIButton) {
         

@@ -41,12 +41,6 @@ class ListeningQuestionVC: UIViewController {
         // Do any additional setup after loading the view.
         self.setUI()
         
-        self.playButton.isEnabled = self.indexTopic != 27
-        
-        self.listeningViewModel.getData(for: self.indexTopic)
-        
-        self.topicTitle.text = QuestionType(rawValue: self.indexTopic)?.titleListening
-        
         DispatchQueue.main.async {
             self.collectionView.delegate    = self
             self.collectionView.dataSource  = self
@@ -61,12 +55,16 @@ class ListeningQuestionVC: UIViewController {
         self.nextButton.setAttributedTitle(attritNextText, for: .normal)
         
         self.topicTitle.font = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
-        
     
         let attritBackText = NSAttributedString(string: "떠나기", attributes: [NSAttributedString.Key.font: UIFont(name: "1HoonDdukbokki Regular", size: fontSize)!])
         self.backButton.setAttributedTitle(attritBackText, for: .normal)
         
-        self.topicTitle.text = QuestionType(rawValue: indexTopic)?.titleReading
+        self.playButton.isEnabled = self.indexTopic != 27
+        
+        self.listeningViewModel.getData(for: self.indexTopic)
+        self.topicTitle.tintColor       = UIColor.random()
+        self.topicTitle.text            = QuestionType(rawValue: self.indexTopic)?.titleListening
+        self.playButton.backgroundColor = UIColor.random()
         
         self.collectionView.register(UINib(nibName: "ReadingQuestionCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "cell")
         
@@ -185,7 +183,8 @@ class ListeningQuestionVC: UIViewController {
              - Show final result with score, Number of question, Wrong selected
              */
             guard let resultVC = storyboard?.instantiateViewController(withIdentifier: "ResultVC") as? ResultVC else {return}
-            resultVC.data          = ["\(resultTopik().0)","\(resultTopik().1)","\(resultTopik().2)"]
+            resultVC.result          = ["\(resultTopik().0)","\(resultTopik().1)","\(resultTopik().2)"]
+            resultVC.wrongAnswerArray = wrongAnswerArray.removingDuplicates()
             self.listeningViewModel.stopAllCurrentPlay()
             resultVC.modalPresentationStyle = .fullScreen
             self.present(resultVC, animated: true)
@@ -212,7 +211,7 @@ class ListeningQuestionVC: UIViewController {
         let correctAnswer   = questionsObj - wrongQuestions
         // Percentage
         let percentage = Float(wrongQuestions) /  Float(questionsObj)
-        let finalPercentage = percentage * 100
+        let finalPercentage = 100 - (percentage * 100)
         
        
         let formattedPercentage = String(format: "%.0f%%", finalPercentage)

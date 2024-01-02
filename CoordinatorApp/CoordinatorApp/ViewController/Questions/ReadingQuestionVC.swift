@@ -96,7 +96,7 @@ class ReadingQuestionVC: UIViewController {
         
         #warning("test resultVC")
 //        guard let resultVC = storyboard?.instantiateViewController(withIdentifier: "ResultVC") as? ResultVC else {return}
-//        resultVC.data          = ["\(resultTopik().0)","\(resultTopik().1)","\(resultTopik().2)"]
+//        resultVC.result          = ["\(resultTopik().0)","\(resultTopik().1)","\(resultTopik().2)"]
 //        self.present(resultVC, animated: true)
         
 #warning("test popUpVC")
@@ -143,7 +143,9 @@ class ReadingQuestionVC: UIViewController {
             self.collectionView.scrollToItem(at: IndexPath(row: index, section: 0), at: .right, animated: true)
         }else {
             guard let resultVC = storyboard?.instantiateViewController(withIdentifier: "ResultVC") as? ResultVC else {return}
-            resultVC.data          = ["\(resultTopik().0)","\(resultTopik().1)","\(resultTopik().2)"]
+            resultVC.result          = ["\(resultTopik().0)","\(resultTopik().1)","\(resultTopik().2)"]
+            resultVC.wrongAnswerArray = wrongAnswerArray.removingDuplicates()
+            
             resultVC.modalPresentationStyle = .fullScreen
             self.present(resultVC, animated: true)
         }
@@ -167,7 +169,7 @@ class ReadingQuestionVC: UIViewController {
         let correctAnswer   = questionsObj - wrongQuestions
         // Percentage
         let percentage = Float(wrongQuestions) /  Float(questionsObj)
-        let finalPercentage = percentage * 100
+        let finalPercentage = 100 - (percentage * 100)
         
        
         let formattedPercentage = String(format: "%.0f%%", finalPercentage)

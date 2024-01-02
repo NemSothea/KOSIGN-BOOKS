@@ -37,6 +37,7 @@ class PopupVC : UIViewController, UITableViewDelegate, UITableViewDataSource {
         titleLabel.backgroundColor = UIColor.clear
         titleLabel.font = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
         titleLabel.text  = "내용\n"
+        titleLabel.textColor = .white
         headerView.addSubview(titleLabel)
        
         return headerView

@@ -40,15 +40,28 @@ class ReadingQuestionCollectionViewCell: UICollectionViewCell {
             //Set up font style
             self.setUpFont()
             
-            self.sectionLabel.text  = setValues?.sections
+            let attributedSectionLabel = NSMutableAttributedString(string: setValues?.sections ?? "")
+
+            // *** Create instance of `NSMutableParagraphStyle`
+            let paragraphStyle = NSMutableParagraphStyle()
+
+            // *** set LineSpacing property in points ***
+            paragraphStyle.lineSpacing = 1 // Whatever line spacing you want in points
+
+            // *** Apply attribute to string ***
+            attributedSectionLabel.addAttribute(NSAttributedString.Key.paragraphStyle, value:paragraphStyle, range:NSMakeRange(0, attributedSectionLabel.length))
+                                          
+            self.sectionLabel.attributedText  = attributedSectionLabel
+            
             if self.setValues?.isImg == "y" {
                 self.questionLabel.text     = nil
                 self.stackImage.isHidden    = false
                 self.emptyStack.isHidden    = true
+                self.questionLabel.isHidden = true
                 self.questionImg.isHidden   = false
                 self.imgHeightConstraint.constant = UIScreen.main.bounds.height / 2
                 
-                self.questionImg.frame = CGRectMake(0.0, 0.0,UIScreen.main.bounds.width, UIScreen.main.bounds.height / 2)
+                self.questionImg.frame = CGRectMake(0.0, 0.0,UIScreen.main.bounds.width, (UIScreen.main.bounds.height / 2) - 20)
                 
                 self.questionImg.image = UIImage(named:setValues?.question ?? "")
             }else {
@@ -56,6 +69,7 @@ class ReadingQuestionCollectionViewCell: UICollectionViewCell {
                 self.questionImg.isHidden       = true
                 emptyStack.isHidden             = false
                 self.questionImg.image          = nil
+                self.questionLabel.isHidden     = false
                 self.imgHeightConstraint.constant = 0.0
                 
                 let attributedString = NSMutableAttributedString(string: setValues?.question ?? "")
@@ -64,7 +78,7 @@ class ReadingQuestionCollectionViewCell: UICollectionViewCell {
                 let paragraphStyle = NSMutableParagraphStyle()
 
                 // *** set LineSpacing property in points ***
-                paragraphStyle.lineSpacing = 0.5 // Whatever line spacing you want in points
+                paragraphStyle.lineSpacing = 1 // Whatever line spacing you want in points
 
                 // *** Apply attribute to string ***
                 attributedString.addAttribute(NSAttributedString.Key.paragraphStyle, value:paragraphStyle, range:NSMakeRange(0, attributedString.length))
@@ -78,7 +92,7 @@ class ReadingQuestionCollectionViewCell: UICollectionViewCell {
             self.option2.text       = setValues?.option_2
             self.option3.text       = setValues?.option_3
             self.option4.text       = setValues?.option_4
-            correctionAnswer        = setValues?.correctAnswer
+            self.correctionAnswer   = setValues?.correctAnswer
             
         }
     }
@@ -161,6 +175,7 @@ class ReadingQuestionCollectionViewCell: UICollectionViewCell {
         self.option2.font       = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
         self.option3.font       = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
         self.option4.font       = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
+        
     }
     
     private func updateBorder(myView : UIView, borderWidth : CGFloat = 0) {
