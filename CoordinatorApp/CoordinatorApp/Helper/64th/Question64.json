@@ -234,11 +234,11 @@
         {   "sections"      : "※ [23~24] 다음을 읽고 물음에 답하십시오.(각 2점)",
             "question"      : "Q24.\n  놀이공원 매표소에서 아르바이트를 했다. 아르바이트가 처음이라 실수를 하지 않으려고 늘 긴장하면서 일을 했다. 어느 날, 놀러 온 한 가족에게 인원수만큼 표를 줬다. 그런데 그 가족을 보내고 나서 이용권 한 장의 값이 더 결제된 것을 알아차렸다. 바로 카드사로 전화해 고객의 전화번호를 물었지만 상담원은 알려 줄 수 없다고 했다. 하지만 내 연락처를 고객에게 전달해 주겠다고 했다. 일을 하는 내내 일이 손에 잡히지 않았다. 퇴근 시간 무렵 드디어 그 가족에게서 전화가 왔다. 내가 한 실수에 (화를 낼지도 모른다는 생각에) 떨리는 목소리로 상황을 설명하자 그 가족은 “놀이 기구를 타고 노느라 문자 메시지가 온 줄 몰랐어요. 많이 기다렸겠어요.”라고 하며 따뜻하게 말해 주었다.\n24. 이 글의 내용과 같은 것을 고르십시오.",
             "option_1"      : "①  그 가족은 나에게 화를 냈다",
-            "option_2"      : "②  드 회사는 그 가족에게 연락을 했다",
+            "option_2"      : "②  카드 회사는 그 가족에게 연락을 했다",
             "option_3"      : "③  나는 그 가족에게 직접 전화를 걸었다",
             "option_4"      : "④  나는 그 가족을 찾아다니느라 일을 못 했다",
             "detail"        : " I did a part-time job at the amusement park ticket office. It's my first time doing a part-time job, so I always worked nervously so as not to make mistakes. One day, I gave a vote for the number of people to a family who came to play. But after I sent the family, I noticed that the price of one more ticket was paid. I called the card company right away and asked for the customer's phone number, but the agent said he couldn't let me know. But I said I would forward my contact information to the customer. I couldn't get my hands on the whole time I was working. I finally got a call from that family around the time of work. When I explained the situation with a trembling voice thinking that I might be angry at the mistake I made, the family said, ”I didn't know I got a text message because I was playing on a playground. You must have waited a long time.” He said it warmly.",
-            "correctAnswer" : "②  드 회사는 그 가족에게 연락을 했다",
+            "correctAnswer" : "②  카드 회사는 그 가족에게 연락을 했다",
             "score"         : "2"
         },
         {   "sections"      : "※ [25~27]다음은 신문 기사의 제목입니다.가장 잘 설명한 것을 고르십시오. (각 2점)",

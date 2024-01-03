@@ -29,19 +29,22 @@ class ResultCollectionViewCell: UICollectionViewCell {
     }
     func configureCell(data : ReadingQuestionModel.Question) {
         self.sectionLabel.text   = data.sections
-        if data.isImg == "y" {
-            self.questionLabel.isHidden = true
-            self.questionImg.image  = UIImage(named: data.question ?? "")
-            self.questionImg.frame = CGRectMake(0.0, 0.0,UIScreen.main.bounds.width, (UIScreen.main.bounds.height / 2) - 20)
-            self.questionImg.isHidden = false
-            self.stackImage.isHidden     = false
-        }else {
-            self.questionLabel.isHidden = false
-            self.stackImage.isHidden = true
-            self.questionLabel.text  = data.question
-            self.heightImage.constant = 0.0
-        }
-        
+//        if data.isImg == "y" {
+//            self.questionLabel.isHidden = true
+//            self.questionImg.image  = UIImage(named: data.question ?? "")
+//            self.questionImg.frame = CGRectMake(0.0, 0.0,UIScreen.main.bounds.width, (UIScreen.main.bounds.height / 2) - 20)
+//            self.questionImg.isHidden = false
+//            self.stackImage.isHidden     = false
+//        }else {
+//            self.questionLabel.isHidden = false
+//            self.stackImage.isHidden = true
+//            self.questionLabel.text  = data.question
+//            self.heightImage.constant = 0.0
+//        }
+        self.stackImage.isHidden = true
+        self.heightImage.constant = 0.0
+        self.questionLabel.text  = data.question
+        self.questionLabel.text  = data.question
         self.option1.text        = data.option_1
         self.option2.text        = data.option_2
         self.option3.text        = data.option_3
