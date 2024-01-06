@@ -39,7 +39,7 @@
             "option_2"      : "②  천천히 잘 찾아봐요.",
             "option_3"      : "③  가방을 찾고 있는데요.",
             "option_4"      : "④  아무리 찾아도 없어서요.",
-            "detail"        : "Man : What's wrong? Did you lose something.\nWoman : I don't know where my bag is. Man: Look for it slowly and well.",
+            "detail"        : "Man : What's wrong? Did you lose something.\nWoman : I don't know where my bag is.\nMan : Look for it slowly and well.",
             "correctAnswer" : "②  천천히 잘 찾아봐요.",
             "score"         : "2"
         },
@@ -49,7 +49,7 @@
             "option_2"      : "②  점심시간이 언제예요?",
             "option_3"      : "③  식사 맛있게 하셨어요?",
             "option_4"      : "④  다른 데 가서 먹을까요?",
-            "detail"        : "Man : There are a lot of people in the restaurant even though lunch time has passed.\nWoman : That's right. I have to wait a long time to eat. Man: Shall we go somewhere else to eat?",
+            "detail"        : "Man : There are a lot of people in the restaurant even though lunch time has passed.\nWoman : That's right. I have to wait a long time to eat.\nMan : Shall we go somewhere else to eat?",
             "correctAnswer" : "④  다른 데 가서 먹을까요?",
             "score"         : "2"
         },

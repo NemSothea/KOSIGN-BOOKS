@@ -78,7 +78,7 @@ class ReadingQuestionCollectionViewCell: UICollectionViewCell {
                 let paragraphStyle = NSMutableParagraphStyle()
 
                 // *** set LineSpacing property in points ***
-                paragraphStyle.lineSpacing = 1 // Whatever line spacing you want in points
+                paragraphStyle.lineSpacing = 2 // Whatever line spacing you want in points
 
                 // *** Apply attribute to string ***
                 attributedString.addAttribute(NSAttributedString.Key.paragraphStyle, value:paragraphStyle, range:NSMakeRange(0, attributedString.length))
@@ -86,6 +86,8 @@ class ReadingQuestionCollectionViewCell: UICollectionViewCell {
                 // *** Set Attributed String to your label ***
  
                 self.questionLabel.attributedText         = attributedString
+                
+               
             }
             
             self.option1.text       = setValues?.option_1
