@@ -27,6 +27,7 @@ enum QuestionType: Int, CaseIterable {
         case question52 = 52
         case question60 = 60
         case question64 = 64
+        case question83 = 83
         
     var titleReading: String {
         return "읽기 \(rawValue)th"
