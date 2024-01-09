@@ -256,9 +256,19 @@
 		5C8CC1B72B4A76F400F0E301 /* 83_1_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C8CC1B42B4A76F400F0E301 /* 83_1_img.png */; };
 		5C8CC1B82B4A76F400F0E301 /* 83_2_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C8CC1B52B4A76F400F0E301 /* 83_2_img.png */; };
 		5C8CC1B92B4A76F400F0E301 /* 83_3_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C8CC1B62B4A76F400F0E301 /* 83_3_img.png */; };
-		5C99FFC62B4A8ADF009FBDF6 /* Listening83th.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5C99FFC52B4A8ADF009FBDF6 /* Listening83th.mp3 */; };
 		5C9B465F2B3FBEE600610BCD /* ResultCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9B465D2B3FBEE600610BCD /* ResultCollectionViewCell.swift */; };
 		5C9B46602B3FBEE600610BCD /* ResultCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C9B465E2B3FBEE600610BCD /* ResultCollectionViewCell.xib */; };
+		5CDA56162B4A91840052E9BF /* Listening83th.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5CDA56152B4A91840052E9BF /* Listening83th.m4a */; };
+		5CDA56212B4ABDF50052E9BF /* Listening64.json in Resources */ = {isa = PBXBuildFile; fileRef = 5C7077D82B49849600394C56 /* Listening64.json */; };
+		5CDA56222B4ABE0B0052E9BF /* 64_9_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C7077CC2B49849600394C56 /* 64_9_img.png */; };
+		5CDA56232B4ABE0D0052E9BF /* 64_8_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C7077CD2B49849600394C56 /* 64_8_img.png */; };
+		5CDA56242B4ABE0F0052E9BF /* 64_1_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C7077CE2B49849600394C56 /* 64_1_img.png */; };
+		5CDA56252B4ABE110052E9BF /* 64_3_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C7077D02B49849600394C56 /* 64_3_img.png */; };
+		5CDA56262B4ABE130052E9BF /* 64_2_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C7077D12B49849600394C56 /* 64_2_img.png */; };
+		5CDA56272B4ABE140052E9BF /* 64_7_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C7077D22B49849600394C56 /* 64_7_img.png */; };
+		5CDA56282B4ABE160052E9BF /* 64_6_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C7077D32B49849600394C56 /* 64_6_img.png */; };
+		5CDA56292B4ABE180052E9BF /* 64_10_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C7077D52B49849600394C56 /* 64_10_img.png */; };
+		5CDA562A2B4ABE1A0052E9BF /* 64_5_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C7077D62B49849600394C56 /* 64_5_img.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -523,9 +533,9 @@
 		5C8CC1B42B4A76F400F0E301 /* 83_1_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 83_1_img.png; sourceTree = "<group>"; };
 		5C8CC1B52B4A76F400F0E301 /* 83_2_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 83_2_img.png; sourceTree = "<group>"; };
 		5C8CC1B62B4A76F400F0E301 /* 83_3_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 83_3_img.png; sourceTree = "<group>"; };
-		5C99FFC52B4A8ADF009FBDF6 /* Listening83th.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Listening83th.mp3; sourceTree = "<group>"; };
 		5C9B465D2B3FBEE600610BCD /* ResultCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultCollectionViewCell.swift; sourceTree = "<group>"; };
 		5C9B465E2B3FBEE600610BCD /* ResultCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultCollectionViewCell.xib; sourceTree = "<group>"; };
+		5CDA56152B4A91840052E9BF /* Listening83th.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Listening83th.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1089,6 +1099,7 @@
 		5C7077E32B49A90C00394C56 /* 83th */ = {
 			isa = PBXGroup;
 			children = (
+				5CDA56152B4A91840052E9BF /* Listening83th.m4a */,
 				5C8CC1B42B4A76F400F0E301 /* 83_1_img.png */,
 				5C8CC1B52B4A76F400F0E301 /* 83_2_img.png */,
 				5C8CC1B62B4A76F400F0E301 /* 83_3_img.png */,
@@ -1098,7 +1109,6 @@
 				5C7077E72B49AC4D00394C56 /* 83_8_img.png */,
 				5C7077E92B49AC4D00394C56 /* 83_9_img.png */,
 				5C7077E82B49AC4D00394C56 /* 83_10_img.png */,
-				5C99FFC52B4A8ADF009FBDF6 /* Listening83th.mp3 */,
 				55E1204529B015AE009BEFBC /* Listening83.json */,
 				55E1204029B015AE009BEFBC /* Question83.json */,
 			);
@@ -1121,6 +1131,8 @@
 			dependencies = (
 			);
 			name = CoordinatorApp;
+			packageProductDependencies = (
+			);
 			productName = CoordinatorApp;
 			productReference = 55A99C6629937D9F00AD4FA6 /* CoordinatorApp.app */;
 			productType = "com.apple.product-type.application";
@@ -1149,6 +1161,8 @@
 				Base,
 			);
 			mainGroup = 55A99C5D29937D9F00AD4FA6;
+			packageReferences = (
+			);
 			productRefGroup = 55A99C6729937D9F00AD4FA6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -1163,6 +1177,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CDA56272B4ABE140052E9BF /* 64_7_img.png in Resources */,
 				5243B27429BC750300C615C4 /* Listening36th.mp3 in Resources */,
 				55DBF22129DA631E00906A8D /* BareunBatangOTF 1Light.otf in Resources */,
 				5C7903182B37F450009A9667 /* 33_5_img.png in Resources */,
@@ -1177,6 +1192,7 @@
 				52B2487F29CF2AFD002372CF /* 24_6_img.png in Resources */,
 				55230BB229B1E22300D0F0DD /* Listening28.json in Resources */,
 				556C12D029B5D75C00CE49EE /* Question47.json in Resources */,
+				5CDA56252B4ABE110052E9BF /* 64_3_img.png in Resources */,
 				5C7077ED2B49AC4E00394C56 /* 83_8_img.png in Resources */,
 				527F56B729FFE0460098BCC5 /* 26_4_img.png in Resources */,
 				5C1121F72B369ED000B98F11 /* 27_8_img.png in Resources */,
@@ -1194,6 +1210,7 @@
 				55E120C229B015AE009BEFBC /* 35_1_img.png in Resources */,
 				5C6E50B62B37233700D84F4D /* 30_8_img.png in Resources */,
 				5C7903202B381AF4009A9667 /* 34_1_img.png in Resources */,
+				5CDA562A2B4ABE1A0052E9BF /* 64_5_img.png in Resources */,
 				55439E9E29B86C6E0031D74B /* 60_10_img.png in Resources */,
 				5C7077F02B49AC4E00394C56 /* 83_7_img.png in Resources */,
 				55E120A529B015AE009BEFBC /* 26_2_img.png in Resources */,
@@ -1218,15 +1235,19 @@
 				5C1122042B36C54000B98F11 /* 28_6_img.png in Resources */,
 				556C12D429B5D75C00CE49EE /* 47_2_img.png in Resources */,
 				55E120C429B015AE009BEFBC /* 35_9_img.png in Resources */,
+				5CDA56242B4ABE0F0052E9BF /* 64_1_img.png in Resources */,
 				5C79030B2B37E041009A9667 /* 32_3_img.png in Resources */,
 				5C8CC1B82B4A76F400F0E301 /* 83_2_img.png in Resources */,
 				5C6E50A72B3702A400D84F4D /* 29_3_img.png in Resources */,
 				5C7903252B3823E2009A9667 /* 34_8_img.png in Resources */,
 				5C7903322B382D09009A9667 /* 35_6_img.png in Resources */,
+				5CDA56232B4ABE0D0052E9BF /* 64_8_img.png in Resources */,
 				55439E7229B86BF70031D74B /* 37_2_img.png in Resources */,
 				55439E9029B86C6E0031D74B /* 52_10_img.png in Resources */,
 				5C7902FE2B37CD27009A9667 /* 31_4_img.png in Resources */,
+				5CDA56212B4ABDF50052E9BF /* Listening64.json in Resources */,
 				556C12BC29B5A2AF00CE49EE /* Listening33th.mp3 in Resources */,
+				5CDA56222B4ABE0B0052E9BF /* 64_9_img.png in Resources */,
 				5C7902FD2B37CD27009A9667 /* 31_7_img.png in Resources */,
 				55E120A829B015AE009BEFBC /* Question28.json in Resources */,
 				5243B27029BC74A700C615C4 /* 36_8_img.png in Resources */,
@@ -1238,7 +1259,6 @@
 				55E1208829B015AE009BEFBC /* 24_1_img.png in Resources */,
 				527F56BA29FFE0460098BCC5 /* 26_6_img.png in Resources */,
 				5C1122002B36C54000B98F11 /* 28_3_img.png in Resources */,
-				5C99FFC62B4A8ADF009FBDF6 /* Listening83th.mp3 in Resources */,
 				556C12E429B5D7F900CE49EE /* 41_10_img.png in Resources */,
 				5C9B46602B3FBEE600610BCD /* ResultCollectionViewCell.xib in Resources */,
 				5C1122012B36C54000B98F11 /* 28_5_img.png in Resources */,
@@ -1255,6 +1275,7 @@
 				5C1121F32B369ED000B98F11 /* 27_4_img.png in Resources */,
 				5243B27329BC74A700C615C4 /* 36_1_img.png in Resources */,
 				55E1209D29B015AE009BEFBC /* 27_2_img.png in Resources */,
+				5CDA56162B4A91840052E9BF /* Listening83th.m4a in Resources */,
 				55A99C7329937DA100AD4FA6 /* Assets.xcassets in Resources */,
 				55E120A229B015AE009BEFBC /* Listening29th.mp3 in Resources */,
 				5C6E50A92B3702A400D84F4D /* 29_8_img.png in Resources */,
@@ -1333,6 +1354,7 @@
 				55E120B929B015AE009BEFBC /* 25_2_img.png in Resources */,
 				55E1209F29B015AE009BEFBC /* 27_1_img.png in Resources */,
 				5C79032C2B3823F1009A9667 /* 34_3_img.png in Resources */,
+				5CDA56292B4ABE180052E9BF /* 64_10_img.png in Resources */,
 				52B2488229CF2AFD002372CF /* 24_7_img.png in Resources */,
 				55E120BE29B015AE009BEFBC /* 35_2_img.png in Resources */,
 				556C12CD29B5D75C00CE49EE /* 47_5_img.png in Resources */,
@@ -1356,6 +1378,7 @@
 				55E1209A29B015AE009BEFBC /* Question32.json in Resources */,
 				55439E6F29B86BF70031D74B /* 37_6_img.png in Resources */,
 				55E1209229B015AE009BEFBC /* Listening83.json in Resources */,
+				5CDA56262B4ABE130052E9BF /* 64_2_img.png in Resources */,
 				556C12CB29B5D75C00CE49EE /* 47_6_img.png in Resources */,
 				5C161C492B3F01A5009FA543 /* ReadingQuestionCollectionViewCell.xib in Resources */,
 				5C7903002B37CD27009A9667 /* 31_8_img.png in Resources */,
@@ -1386,6 +1409,7 @@
 				556C12BD29B5A2AF00CE49EE /* Listening33.json in Resources */,
 				55E1208629B015AE009BEFBC /* Listening24th.mp3 in Resources */,
 				55A99C7129937D9F00AD4FA6 /* Main.storyboard in Resources */,
+				5CDA56282B4ABE160052E9BF /* 64_6_img.png in Resources */,
 				527F56B929FFE0460098BCC5 /* 26_3_img.png in Resources */,
 				55E120A729B015AE009BEFBC /* Question26.json in Resources */,
 				55439E9429B86C6E0031D74B /* 52_6_img.png in Resources */,
@@ -1581,6 +1605,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1612,6 +1637,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

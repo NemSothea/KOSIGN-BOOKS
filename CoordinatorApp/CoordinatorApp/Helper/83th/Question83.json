@@ -117,7 +117,7 @@
             "option_2"      : "②  시민들이 지진을 느껴 상황실에 신고를 했다.",
             "option_3"      : "③  이번 지진으로 큰 피해를 입은 사람들이 많다.",
             "option_4"      : "④  이번 주에는 더 이상 지진이 일어나지 않을 것이다.",
-            "detail"        : " At 6:22 a.m. on the 17th, a 3.2-magnitude earthquake occurred in Inju. The earthquake on this day is the largest earthquake in Inju this year. Several reports of citizens who felt the earthquake were received in the 119 situation room. However, it was found that there was no major damage caused by the earthquake. The Korea Meteorological Administration expects a few more earthquakes of magnitude 2.0 within this week.",
+            "detail"        : " At 6:22 a.m on the 17th, a 3.2-magnitude earthquake occurred in Inju. The earthquake on this day is the largest earthquake in Inju this year. Several reports of citizens who felt the earthquake were received in the 119 situation room. However, it was found that there was no major damage caused by the earthquake. The Korea Meteorological Administration expects a few more earthquakes of magnitude 2.0 within this week.",
             "correctAnswer" : "②  시민들이 지진을 느껴 상황실에 신고를 했다.",
             "score"         : "2"
         },
@@ -138,7 +138,7 @@
             "option_3"      : "③  （다）-（라）-（가）-（나）",
             "option_4"      : "④  （다）-（나）-（라）-（가）",
             "detail"        : " Tomorrow is the day I quit the company I've been working for 10 years. My friends told me to think about leaving the company again until the end. But I'm going to start a business that I've been thinking about for a long time. The business won't be easy, but I want to give it a try.",
-            "correctAnswer" : "③  (라)-(가)-(나)-(다)",
+            "correctAnswer" : "③  （다）-（라）-（가）-（나）",
             "score"         : "2"
         },
         {   "sections"      : "※ [13~15] (   ) 다음 글 또는 도표의 내용과 같은 것을 고르십시오.(각 2점)",
@@ -146,7 +146,7 @@
             "option_1"      : "①  （가）-（다）-（나）-（라）",
             "option_2"      : "②  （가）-（라）-（나）-（다）",
             "option_3"      : "③  （라）-（다）-（나）-（가）",
-            "option_4"      : "④  ( 라）-（가）-（다）-（나）",
+            "option_4"      : "④  (라）-（가）-（다）-（나）",
             "detail"        : " An hourglass is an instrument that uses sand to measure a certain unit of time. By adjusting the amount of sand, you can make an hourglass in different hours. It also adjusts the time unit through the hole size of the hourglass. The smaller the hole size, the larger the hourly hourglass can be made.",
             "correctAnswer" : "②  （가）-（라）-（나）-（다）",
             "score"         : "2"

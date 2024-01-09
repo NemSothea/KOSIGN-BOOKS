@@ -102,19 +102,22 @@ class ListeningViewModel : NSObject, ObservableObject {
     func original64Play(index : String) {
         if let url = Bundle.main.url(forResource: "Listening\(index)th", withExtension: "m4a") {
             player64.removeAllItems()
+         
             player64.insert(AVPlayerItem(url: url),after:nil)
             player64.play()
+       
         }
     }
     func stopPlay(index : String) {
-        if index == "64" {
+        if index == "64" || index == "84" {
             self.player64.pause()
             self.player64.removeAllItems()
         }else {
             self.player.pause()
             self.player.stop()
+           
         }
-        
+       
     }
     func stopAllCurrentPlay() {
         self.player.stop()

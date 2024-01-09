@@ -8,8 +8,7 @@
 import UIKit
 
 class ListeningQuestionVC: UIViewController {
-    
-    
+   
    // MARK: - @IBOutlet
     
     @IBOutlet weak var topicTitle       : UILabel!
@@ -17,7 +16,11 @@ class ListeningQuestionVC: UIViewController {
     @IBOutlet weak var collectionView   : UICollectionView!
     @IBOutlet weak var nextButton       : UIButton!
     @IBOutlet weak var backButton       : UIButton!
+    @IBOutlet weak var infoButton       : UIButton!
     
+    @IBOutlet weak var infoTipView      : UIView!
+    
+  
     //MARK: - Variable
     
     private var listeningViewModel         = ListeningViewModel()
@@ -30,7 +33,6 @@ class ListeningQuestionVC: UIViewController {
     private var index            = 0
     var indexTopic               = 0
    
-    private var  isPlay64        = true
     
     let fontSize = Share.shared.setFontSize()
     
@@ -66,22 +68,27 @@ class ListeningQuestionVC: UIViewController {
         self.topicTitle.text            = QuestionType(rawValue: self.indexTopic)?.titleListening
         self.playButton.backgroundColor = UIColor.random()
         
+       
+    
+        if self.indexTopic == 64 || self.indexTopic == 83 {
+            self.infoButton.isHidden = false
+        }else {
+            self.infoButton.isHidden = true
+        }
+        
         self.collectionView.register(UINib(nibName: "ReadingQuestionCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "cell")
         
     }
     // MARK: - @IBAction
+    @IBAction func infoTip(_ sender: UIButton)  {
+      
+
+    }
     @IBAction func playTap(_ sender: UIButton) {
         DispatchQueue.main.async {
-            if self.indexTopic == 64 {
-                self.listeningViewModel.original64Play(index: "64")
-               
-                if self.isPlay64 {
-                    self.playButton.setImage(UIImage(systemName: "pause.fill"), for:.normal)
-                    self.isPlay64 = false
-                }else {
-                    self.playButton.setImage(UIImage(systemName: "play.fill"), for:.normal)
-                    self.isPlay64 = true
-                }
+            if self.indexTopic == 64 || self.indexTopic == 83 {
+                self.listeningViewModel.original64Play(index: "\(self.indexTopic)")
+                 
             }else {
                 self.listeningViewModel.playOrPause()
                 if self.listeningViewModel.isPlaying {
@@ -100,7 +107,6 @@ class ListeningQuestionVC: UIViewController {
            return
         }
         
-    
         alert.setValue(NSAttributedString(string: alert.title!, attributes: [NSAttributedString.Key.font : UIFont(name: "1HoonDdukbokki Regular", size: fontSize)!,NSAttributedString.Key.foregroundColor : UIColor.blue]), forKey: "attributedTitle")
         
         alert.setValue(NSAttributedString(string: alert.message!, attributes: [NSAttributedString.Key.font : UIFont(name: "1HoonDdukbokki Regular", size: fontSize)!,NSAttributedString.Key.foregroundColor : UIColor.blue]), forKey: "attributedMessage")
@@ -253,4 +259,22 @@ extension ListeningQuestionVC : UICollectionViewDelegate, UICollectionViewDataSo
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
         return 0
     }
+}
+
+class ViewWithBackgroundColorTooltip: UIView, UIToolTipInteractionDelegate {
+    
+    func toolTipInteraction(_ interaction: UIToolTipInteraction, configurationAt point: CGPoint) -> UIToolTipConfiguration? {
+
+
+        let configuration: UIToolTipConfiguration?
+        if let accessibilityName = backgroundColor?.accessibilityName {
+            configuration = UIToolTipConfiguration(toolTip: "The color is \(accessibilityName).")
+        } else {
+            configuration = nil
+        }
+        
+        return configuration
+    }
+
+
 }

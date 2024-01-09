@@ -640,11 +640,15 @@
                                             <constraint firstAttribute="height" constant="44" id="o7l-Xh-AXD"/>
                                         </constraints>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="RY2-kq-BhJ">
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="RY2-kq-BhJ">
                                         <rect key="frame" x="0.0" y="54" width="410" height="44"/>
                                         <subviews>
+                                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="AFh-zg-mZu">
+                                                <rect key="frame" x="0.0" y="-42" width="0.0" height="128"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            </view>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Ao-zG-qts">
-                                                <rect key="frame" x="0.0" y="0.0" width="410" height="44"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="350" height="44"/>
                                                 <color key="backgroundColor" name="Button Color"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="44" id="isU-oZ-U8m"/>
@@ -659,6 +663,17 @@
                                                 </userDefinedRuntimeAttributes>
                                                 <connections>
                                                     <action selector="playTap:" destination="SZw-36-5Il" eventType="touchUpInside" id="8K2-Qy-wJG"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" toolTip="You can not skip to MP3 " buttonType="infoLight" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dld-Gf-7sA">
+                                                <rect key="frame" x="360" y="5" width="50" height="34"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="width" constant="50" id="Odz-4g-kIH"/>
+                                                    <constraint firstAttribute="height" constant="34" id="P9n-Sc-JIU"/>
+                                                </constraints>
+                                                <buttonConfiguration key="configuration" style="plain"/>
+                                                <connections>
+                                                    <action selector="infoTip:" destination="SZw-36-5Il" eventType="touchUpInside" id="Y7e-xM-9eq"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -700,6 +715,8 @@
                     <connections>
                         <outlet property="backButton" destination="7Bi-6g-3Oz" id="gQn-MW-XWb"/>
                         <outlet property="collectionView" destination="nXZ-Bg-Mly" id="KSw-FI-1Qh"/>
+                        <outlet property="infoButton" destination="dld-Gf-7sA" id="kW1-eB-FFB"/>
+                        <outlet property="infoTipView" destination="AFh-zg-mZu" id="mbZ-ES-lTn"/>
                         <outlet property="nextButton" destination="Suh-6U-0fM" id="AWW-fD-Fnf"/>
                         <outlet property="playButton" destination="6Ao-zG-qts" id="QBX-Fg-S7R"/>
                         <outlet property="topicTitle" destination="ror-5p-V0A" id="8HA-M4-4a6"/>
