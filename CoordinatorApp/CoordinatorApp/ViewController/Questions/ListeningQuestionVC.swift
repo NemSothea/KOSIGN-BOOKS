@@ -16,10 +16,6 @@ class ListeningQuestionVC: UIViewController {
     @IBOutlet weak var collectionView   : UICollectionView!
     @IBOutlet weak var nextButton       : UIButton!
     @IBOutlet weak var backButton       : UIButton!
-    @IBOutlet weak var infoButton       : UIButton!
-    
-    @IBOutlet weak var infoTipView      : UIView!
-    
   
     //MARK: - Variable
     
@@ -67,14 +63,6 @@ class ListeningQuestionVC: UIViewController {
         self.topicTitle.tintColor       = UIColor.random()
         self.topicTitle.text            = QuestionType(rawValue: self.indexTopic)?.titleListening
         self.playButton.backgroundColor = UIColor.random()
-        
-       
-    
-        if self.indexTopic == 64 || self.indexTopic == 83 {
-            self.infoButton.isHidden = false
-        }else {
-            self.infoButton.isHidden = true
-        }
         
         self.collectionView.register(UINib(nibName: "ReadingQuestionCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "cell")
         

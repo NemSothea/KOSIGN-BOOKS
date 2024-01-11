@@ -50,7 +50,6 @@ class ReadingQuestionVC: UIViewController {
     }
     // MARK: - Functions
     private func setUI() {
-     
         
         let attritNextText = NSAttributedString(string: "다음", attributes: [NSAttributedString.Key.font: UIFont(name: "1HoonDdukbokki Regular", size: fontSize)!])
         self.nextButton.setAttributedTitle(attritNextText, for: .normal)

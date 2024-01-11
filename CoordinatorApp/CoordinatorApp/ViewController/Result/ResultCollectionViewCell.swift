@@ -11,11 +11,7 @@ class ResultCollectionViewCell: UICollectionViewCell {
 
     @IBOutlet weak var sectionLabel     : UILabel!
     @IBOutlet weak var questionLabel    : UILabel!
-    @IBOutlet weak var questionImg      : UIImageView!
-    
-    @IBOutlet weak var stackImage: UIStackView!
-    
-    @IBOutlet weak var heightImage: NSLayoutConstraint!
+
     @IBOutlet weak var option1          : UILabel!
     @IBOutlet weak var option2          : UILabel!
     @IBOutlet weak var option3          : UILabel!
@@ -28,29 +24,12 @@ class ResultCollectionViewCell: UICollectionViewCell {
         // Initialization code
     }
     func configureCell(data : ReadingQuestionModel.Question) {
-        self.sectionLabel.text   = data.sections
-//        if data.isImg == "y" {
-//            self.questionLabel.isHidden = true
-//            self.questionImg.image  = UIImage(named: data.question ?? "")
-//            self.questionImg.frame = CGRectMake(0.0, 0.0,UIScreen.main.bounds.width, (UIScreen.main.bounds.height / 2) - 20)
-//            self.questionImg.isHidden = false
-//            self.stackImage.isHidden     = false
-//        }else {
-//            self.questionLabel.isHidden = false
-//            self.stackImage.isHidden = true
-//            self.questionLabel.text  = data.question
-//            self.heightImage.constant = 0.0
-//        }
-        self.stackImage.isHidden = true
-        self.heightImage.constant = 0.0
-        self.questionLabel.text  = data.question
-        self.questionLabel.text  = data.question
-        self.option1.text        = data.option_1
-        self.option2.text        = data.option_2
-        self.option3.text        = data.option_3
-        self.option4.text        = data.option_4
-        
-   
+        self.sectionLabel.text      = data.sections
+        self.questionLabel.text     = data.question
+        self.option1.text           = data.option_1
+        self.option2.text           = data.option_2
+        self.option3.text           = data.option_3
+        self.option4.text           = data.option_4
         self.option5.text           = "\(data.correctAnswer ?? "") ✅(정답)"
         self.option5.textColor      = UIColor.red
     
