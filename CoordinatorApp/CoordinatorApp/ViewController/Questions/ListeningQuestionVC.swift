@@ -80,22 +80,13 @@ class ListeningQuestionVC: UIViewController {
         
     }
     // MARK: - @IBAction
-    @IBAction func infoTip(_ sender: UIButton)  {
-      
-
-    }
     @IBAction func playTap(_ sender: UIButton) {
         DispatchQueue.main.async {
-            if self.indexTopic == 64 || self.indexTopic == 83 {
-                self.listeningViewModel.original64Play(index: "\(self.indexTopic)")
-                 
+            self.listeningViewModel.playOrPause()
+            if self.listeningViewModel.isPlaying {
+                self.playButton.setImage(UIImage(systemName: "pause.fill"), for:.normal)
             }else {
-                self.listeningViewModel.playOrPause()
-                if self.listeningViewModel.isPlaying {
-                    self.playButton.setImage(UIImage(systemName: "pause.fill"), for:.normal)
-                }else {
-                    self.playButton.setImage(UIImage(systemName: "play.fill"), for:.normal)
-                }
+                self.playButton.setImage(UIImage(systemName: "play.fill"), for:.normal)
             }
         }
     }
@@ -113,7 +104,7 @@ class ListeningQuestionVC: UIViewController {
         
         
         let okAction = UIAlertAction(title: " 넵 ", style: .default) { (_) in
-            self.listeningViewModel.stopPlay(index: "\(self.indexTopic)")
+            self.listeningViewModel.stopAllCurrentPlay()
             self.dismiss(animated: true)
         }
         alert.addAction(cancelAction)

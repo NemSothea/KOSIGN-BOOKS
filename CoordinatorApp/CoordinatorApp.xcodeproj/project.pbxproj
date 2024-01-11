@@ -256,9 +256,9 @@
 		5C8CC1B72B4A76F400F0E301 /* 83_1_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C8CC1B42B4A76F400F0E301 /* 83_1_img.png */; };
 		5C8CC1B82B4A76F400F0E301 /* 83_2_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C8CC1B52B4A76F400F0E301 /* 83_2_img.png */; };
 		5C8CC1B92B4A76F400F0E301 /* 83_3_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C8CC1B62B4A76F400F0E301 /* 83_3_img.png */; };
+		5C91BF922B4FE6D60051B3A5 /* Listening83th.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5C91BF912B4FE6D60051B3A5 /* Listening83th.mp3 */; };
 		5C9B465F2B3FBEE600610BCD /* ResultCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9B465D2B3FBEE600610BCD /* ResultCollectionViewCell.swift */; };
 		5C9B46602B3FBEE600610BCD /* ResultCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C9B465E2B3FBEE600610BCD /* ResultCollectionViewCell.xib */; };
-		5CDA56162B4A91840052E9BF /* Listening83th.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 5CDA56152B4A91840052E9BF /* Listening83th.m4a */; };
 		5CDA56212B4ABDF50052E9BF /* Listening64.json in Resources */ = {isa = PBXBuildFile; fileRef = 5C7077D82B49849600394C56 /* Listening64.json */; };
 		5CDA56222B4ABE0B0052E9BF /* 64_9_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C7077CC2B49849600394C56 /* 64_9_img.png */; };
 		5CDA56232B4ABE0D0052E9BF /* 64_8_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C7077CD2B49849600394C56 /* 64_8_img.png */; };
@@ -533,9 +533,9 @@
 		5C8CC1B42B4A76F400F0E301 /* 83_1_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 83_1_img.png; sourceTree = "<group>"; };
 		5C8CC1B52B4A76F400F0E301 /* 83_2_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 83_2_img.png; sourceTree = "<group>"; };
 		5C8CC1B62B4A76F400F0E301 /* 83_3_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 83_3_img.png; sourceTree = "<group>"; };
+		5C91BF912B4FE6D60051B3A5 /* Listening83th.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Listening83th.mp3; sourceTree = "<group>"; };
 		5C9B465D2B3FBEE600610BCD /* ResultCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultCollectionViewCell.swift; sourceTree = "<group>"; };
 		5C9B465E2B3FBEE600610BCD /* ResultCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultCollectionViewCell.xib; sourceTree = "<group>"; };
-		5CDA56152B4A91840052E9BF /* Listening83th.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = Listening83th.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1099,7 +1099,7 @@
 		5C7077E32B49A90C00394C56 /* 83th */ = {
 			isa = PBXGroup;
 			children = (
-				5CDA56152B4A91840052E9BF /* Listening83th.m4a */,
+				5C91BF912B4FE6D60051B3A5 /* Listening83th.mp3 */,
 				5C8CC1B42B4A76F400F0E301 /* 83_1_img.png */,
 				5C8CC1B52B4A76F400F0E301 /* 83_2_img.png */,
 				5C8CC1B62B4A76F400F0E301 /* 83_3_img.png */,
@@ -1228,6 +1228,7 @@
 				55439E7729B86BF70031D74B /* 37_9_img.png in Resources */,
 				55230BAD29B1771C00D0F0DD /* 29_1_img.png in Resources */,
 				556C12D329B5D75C00CE49EE /* 47_3_img.png in Resources */,
+				5C91BF922B4FE6D60051B3A5 /* Listening83th.mp3 in Resources */,
 				52B2487E29CF2AFD002372CF /* 24_5_img.png in Resources */,
 				55439E7029B86BF70031D74B /* 37_7_img.png in Resources */,
 				5511F64A29C449F000516E9C /* Listening47th.mp3 in Resources */,
@@ -1275,7 +1276,6 @@
 				5C1121F32B369ED000B98F11 /* 27_4_img.png in Resources */,
 				5243B27329BC74A700C615C4 /* 36_1_img.png in Resources */,
 				55E1209D29B015AE009BEFBC /* 27_2_img.png in Resources */,
-				5CDA56162B4A91840052E9BF /* Listening83th.m4a in Resources */,
 				55A99C7329937DA100AD4FA6 /* Assets.xcassets in Resources */,
 				55E120A229B015AE009BEFBC /* Listening29th.mp3 in Resources */,
 				5C6E50A92B3702A400D84F4D /* 29_8_img.png in Resources */,
