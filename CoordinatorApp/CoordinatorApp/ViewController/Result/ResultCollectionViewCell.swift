@@ -24,6 +24,17 @@ class ResultCollectionViewCell: UICollectionViewCell {
         // Initialization code
     }
     func configureCell(data : ReadingQuestionModel.Question) {
+        
+        let fontSize = Share.shared.setFontSize()
+        
+        self.sectionLabel.font = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
+        self.questionLabel.font = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
+        self.option1.font = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
+        self.option2.font = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
+        self.option3.font = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
+        self.option4.font = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
+        self.option5.font = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
+        
         self.sectionLabel.text      = data.sections
         self.questionLabel.text     = data.question
         self.option1.text           = data.option_1
@@ -31,6 +42,7 @@ class ResultCollectionViewCell: UICollectionViewCell {
         self.option3.text           = data.option_3
         self.option4.text           = data.option_4
         self.option5.text           = "\(data.correctAnswer ?? "") ✅(정답)"
+        
         self.option5.textColor      = UIColor.red
     
     }

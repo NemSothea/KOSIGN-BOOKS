@@ -111,7 +111,7 @@
             "score"         : "2"
         },
         {   "sections"      : "※ [9~12] (   ) 다음 글 또는 도표의 내용과 같은 것을 고르십시오.(각 2점)",
-            "question"      : "Q12.\n 손을 움직이는 것은 뇌와 관련이 있다. 그래서 손을 자주 움직이면 뇌 기능이좋아질수있다. 특히자주사용하지않는손을움직일때뇌가더 효과적으로 자극될 수 있다. 평소에 오른손을 많이 쓴다면 왼손을, 왼손을 많이 쓴다면 오른손을 사용하는 것이다. 문을 열고 닫는 일처럼 간단한 일을 그렇게 하는 것만으로도 뇌 기능을 유지하는 데 도움이 된다. ",
+            "question"      : "Q12.\n 손을 움직이는 것은 뇌와 관련이 있다. 그래서 손을 자주 움직이면 뇌 기능이 좋아 질 수있다. 특히 자주 사용하지 않는 손을 움직 일때 뇌가 더 효과적으로 자극될 수 있다. 평소에 오른손을 많이 쓴다면 왼손을, 왼손을 많이 쓴다면 오른손을 사용하는 것이다. 문을 열고 닫는 일처럼 간단한 일을 그렇게 하는 것만으로도 뇌 기능을 유지하는 데 도움이 된다. ",
             "option_1"      : "①  뇌 건강과 손을 움직이는 것은 서로 관계가 없다.",
             "option_2"      : "②  우리 몸과 달리 뇌는 간단한 일로 자극받지 않는다.",
             "option_3"      : "③  뇌 활동을 위해 익숙한 방법으로 손을 쓰는 것이 더 좋다.",
@@ -131,13 +131,13 @@
             "score"         : "2"
         },
         {   "sections"      : "※ [13~15] (....) 다음 글 또는 도표의 내용과 같은 것을 고르십시오.(각 2점)",
-            "question"      : "Q14.\n(가) 이런 행복을 느낄 때도 있지만 가끔 힘들고 어려울 때도 있다.\n(나) 하지만 나는 그들을 가르칠 때마다 내가 국가대표라고 생각한다.\n(다) 한국어로 다른 문화권의 학생들과 교류하는 것은 참 행복한 일이다.\n(라)나는 그들을 통해세 상을 보고그들은 나를 통해한국을 보기 때문이다.",
+            "question"      : "Q14.\n(가) 이런 행복을 느낄 때도 있지만 가끔 힘들고 어려울 때도 있다.\n(나) 하지만 나는 그들을 가르칠 때마다 내가 국가 대표라고 생각한다.\n(다) 한국어로 다른 문화권의 학생들과 교류하는 것은 참 행복한 일이다.\n(라) 나는 그들을 통해세 상을 보고 그들은 나를 통해 한국을 보기 때문이다.",
             "option_1"      : "①  (다)-(가)-(나)-(라)",
             "option_2"      : "②  (다)-(나)-(가)-(라)",
             "option_3"      : "③  (라)-(가)-(다)-(나)",
             "option_4"      : "④  (라)-(다)-(가)-(나)",
             "detail"        : " It is very happy to interact with students from different cultures in Korean. There are times when I feel this happiness, but sometimes it is hard and difficult. But every time I teach them, I think I'm a member of the national team. Because I see the world through them and they see Korea through me.",
-            "correctAnswer" : "③  (라)-(가)-(다)-(나)",
+            "correctAnswer" : "①  (다)-(가)-(나)-(라)",
             "score"         : "2"
         },
         {   "sections"      : "※ [13~15] (   ) 다음 글 또는 도표의 내용과 같은 것을 고르십시오.(각 2점)",
@@ -167,7 +167,7 @@
             "option_3"      : "③  모르는 사람의 정보를 얻지",
             "option_4"      : "④  새로 출시된 신제품을 사지",
             "detail"        : " Teenagers who have been proficient in electronic devices since they were young are called 'digital native speakers'. They spend most of their day using electronic devices and spend time getting information from virtual spaces on the Internet or building relationships with others. They are also afraid of being out of fashion. So I feel anxious when I can't buy a new product.",
-            "correctAnswer" : "①  부모의 관심을 받지",
+            "correctAnswer" : "④  새로 출시된 신제품을 사지",
             "score"         : "2"
         },
         {   "sections"      : "※ [16~18]다음을 읽고 ( )에 들어갈 내용으로 가장 알맞은 것을 고르십시오.(각 2점)",
@@ -196,13 +196,13 @@
             "option_2"      : "②  활쏘기의 핵심은 숨을 참는 것이다.",
             "option_3"      : "③  활쏘기로 참을성을 기르기가 어렵다.",
             "option_4"      : "④  활쏘기는 단순한 운동이라 주목을 받았다.",
-            "detail"        : " Archery seems easy, but it requires judgment and patience. In archery, the moment of shooting an arrow is the most important. In particular, the key is to determine when to shoot an arrow. It also requires patience to hold your breath and wait until the moment you shoot the bow. Therefore, it can be said to be a very good exercise for those who lack judgment or need patience.",
+            "detail"        : " Archery(បាញ់ព្រួញ) seems easy, but it requires judgment and patience. In archery, the moment of shooting an arrow is the most important. In particular, the key is to determine when to shoot an arrow. It also requires patience to hold your breath and wait until the moment you shoot the bow. Therefore, it can be said to be a very good exercise for those who lack judgment or need patience.",
             "correctAnswer" : "①  활쏘기로 판단력을 높일 수 있다.",
             "score"         : "2",
             "isImg"         : "n"
         },
         {   "sections"      : "※ [21~22] 다음을 읽고 물음에 답하십시오.(각 2점)",
-            "question"      : "Q21.\n 최근 한 할아버지가 거리를 청소하면서 모은 돈 100여 만 원을 장학금 으로 내놓았다. (....)이라고 지난 5년 동안 바닥에 버려진 10원짜리 동전을 하나하나씩 주워 모은 것이다. 사람들은 큰돈이 있어야만 다른 사람을 도와줄 수있다고 생각한다. 하지만참된기부란돈의액수가 중요한 것이 아니라 다른 사람을 향한 사랑의 마음이다.\nQ21.(...)에 들어갈 알맞은 것을 고르십시오.",
+            "question"      : "Q21.\n 최근 한 할아버지가 거리를 청소하면서 모은 돈 100여 만 원을 장학금 으로 내놓았다. (....)이라고 지난 5년 동안 바닥에 버려진 10원짜리 동전을 하나하나씩 주워 모은 것이다. 사람들은 큰돈이 있어야만 다른 사람을 도와줄 수있다고 생각한다. 하지만 참된 기부란 돈의 액수가 중요한 것이 아니라 다른 사람을 향한 사랑의 마음이다.\nQ21.(...)에 들어갈 알맞은 것을 고르십시오.",
             "option_1"      : "①  제 눈의 안경",
             "option_2"      : "②  엎질러진 물",
             "option_3"      : "③  싼 게 비지떡",
@@ -218,7 +218,7 @@
             "option_3"      : "③  참된 기부는 자신보다 남을 먼저 생각해야 한다.",
             "option_4"      : "④  큰돈을 모으려면 아끼고 절약하는 습관을 길러야 한다.",
             "detail"        : " Recently, a grandfather raised about 1 million won as a scholarship while cleaning the streets. It's a collection of 10 won coins that have been thrown on the floor for the past 5 years. People think that only if you have a lot of money can you can get someone else. But true donating is not the amount of money important, it's a heart of love for others.",
-            "correctAnswer" : "②  다른 사람을 도와주려면 큰돈을 모아야 한다.",
+            "correctAnswer" : "③  참된 기부는 자신보다 남을 먼저 생각해야 한다.",
             "score"         : "2"
         },
         {   "sections"      : "※ [23~24] 다음을 읽고 물음에 답하십시오.(각 2점)",
@@ -228,7 +228,7 @@
             "option_3"      : "③  민망하다",
             "option_4"      : "④  번거롭다",
             "detail"        : " Leaving my grandmother in the countryside and coming up to Seoul alone was not light. But the heavy heart didn't last for a few days. My grandmother called me every day, and finally she came up to Seoul. I guess I can't help loving my grandmother's grandson. Grandma started cleaning, doing laundry, and finding all kinds of housework that I couldn't see. No matter how much I told you to just rest and go down, I didn't pretend to hear it. I over 30 years old, was still just a child in my grandmother's eyes. After a few weeks in Seoul, my grandmother, who made friends in an unfamiliar neighborhood, followed her friend to the market and fell down. When I got a call from the hospital, I was worried and ran frantically, and my grandmother gathered the people in the same hospital room and was talking with a bright smile. With a bandage on the bridge. When I saw the sight, I was at a loss for words.",
-            "correctAnswer" : "④  번거롭다",
+            "correctAnswer" : "①  답답하다",
             "score"         : "2"
         },
         {   "sections"      : "※ [23~24] 다음을 읽고 물음에 답하십시오.(각 2점)",
@@ -238,7 +238,7 @@
             "option_3"      : "③  할머니께서는 나에게 온갖 집안일을 시키셨다.",
             "option_4"      : "④  할머니께서는 친구를 만나려고 서울에 올라오셨다.",
             "detail"        : " Leaving my grandmother in the countryside and coming up to Seoul alone was not light. But the heavy heart didn't last for a few days. My grandmother called me every day, and finally she came up to Seoul. I guess I can't help loving my grandmother's grandson. Grandma started cleaning, doing laundry, and finding all kinds of housework that I couldn't see. No matter how much I told you to just rest and go down, I didn't pretend to hear it. I over 30 years old, was still just a child in my grandmother's eyes. After a few weeks in Seoul, my grandmother, who made friends in an unfamiliar neighborhood, followed her friend to the market and fell down. When I got a call from the hospital, I was worried and ran frantically, and my grandmother gathered the people in the same hospital room and was talking with a bright smile. With a bandage on the bridge. When I saw the sight, I was at a loss for words.",
-            "correctAnswer" : "④  할머니께서는 친구를 만나려고 서울에 올라오셨다.",
+            "correctAnswer" : "②  할머니께서는 시장에 갔다가 다리를 다치셨다.",
             "score"         : "2"
         },
         {   "sections"      : "※ [25~27]다음은 신문 기사의 제목입니다.가장 잘 설명한 것을 고르십시오. (각 2점)",
@@ -258,7 +258,7 @@
             "option_3"      : "③  불황에도 과도한 판매 경쟁 때문에 포도주의 공급이 증가했다.",
             "option_4"      : "④  불황에도 포도주 소비 증가 때문에 포도주의 판매 경쟁이 심해졌다.",
             "detail"        : " Wine consumption ‘jumping’ despite the recession, and the burning sales competition The wine sales competition has intensified due to the increase in wine consumption despite the recession.",
-            "correctAnswer" : "②  불황에도 포도주 판매 감소 때문에 포도주의 소비가 줄었다.",
+            "correctAnswer" : "④  불황에도 포도주 소비 증가 때문에 포도주의 판매 경쟁이 심해졌다.",
             "score"         : "2"
         },
         {   "sections"      : "※ [25~27]다음은 신문 기사의 제목입니다.가장 잘 설명한 것을 고르십시오. (각 2점)",

@@ -59,7 +59,7 @@
             "option_2"      : "②  내가 언제 그랬다고 그래?",
             "option_3"      : "③  배드민턴 치는 건 재미가 없어",
             "option_4"      : "④  계속 화내면 다시는 안 칠 거다",
-            "detail"        : "Man : Sister, what are you doing? I'm bored, so let's go out and play badminton.\nWoman : good. But I'm not angry because I lost like last time. Man: When did you say I did that?",
+            "detail"        : "Man : Sister, what are you doing? I'm bored, so let's go out and play badminton.\nWoman : good. But I'm not angry because I lost like last time.\nMan : When did you say I did that?",
             "correctAnswer" : "②  내가 언제 그랬다고 그래?",
             "score"         : "2"
         },
@@ -129,7 +129,7 @@
             "option_2"      : "②  남자는 오늘 어머니와 백화점에 갔다 왔다",
             "option_3"      : "③  여자는 상품권을 선물로 드리고 싶어 한다",
             "option_4"      : "④  여자는 오늘 어머니 선물을 사러 갈 것이다",
-            "detail"        : "Woman : Brother, shall we go to the department store today and buy a present for mom? How are your clothes.\nMan : Would you like it? You don't wear the blouse I bought you last time. Why don't you give a gift certificate rather than clothes? Woman: Rather than that, it's best for mom to see it and choose it herself.......\nMan : Then let's take him next weekend.",
+            "detail"        : "Woman : Brother, shall we go to the department store today and buy a present for mom? How about clothes?.\nMan : Would she like it? She don't wear the blouse I bought you last time. Why don't you give a gift certificate rather than clothes?\nWoman : Rather than that, it's best for mom to see it and choose it herself.......\nMan : Then let's take him next weekend.",
             "correctAnswer" : "①  남자는 어머니의 블라우스를 산 적이 있다",
             "score"         : "2"
         },

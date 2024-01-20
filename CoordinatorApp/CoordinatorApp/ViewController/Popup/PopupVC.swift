@@ -51,7 +51,7 @@ class PopupVC : UIViewController, UITableViewDelegate, UITableViewDataSource {
         let footerView = UIView()
         footerView.backgroundColor = UIColor.clear
         footerView.frame = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: 50)
-        let checkButton = UIButton(frame: CGRect(x: (UIScreen.main.bounds.width/2) - 80,y: 0, width: 200,height:50))
+        let checkButton = UIButton(frame: CGRect(x: (tableView.frame.width/2),y: 0, width: 200,height:50))
         
         let attritNextText = NSAttributedString(string: "화인", attributes: [NSAttributedString.Key.font: UIFont(name: "1HoonDdukbokki Regular", size: fontSize)!])
         checkButton.setAttributedTitle(attritNextText, for: .normal)

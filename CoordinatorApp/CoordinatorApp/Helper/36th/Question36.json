@@ -117,9 +117,9 @@
             "option_1"      : "①  이번 조사는 직접 방문해서 조사하는 방식을 사용했다",
             "option_2"      : "②  종이 신문을 읽는 사람이 줄면서 인터넷의 사용도 줄었다",
             "option_3"      : "③  조사된 가구 중에서 절반은 집으로 배달되는 신문을 읽는다",
-            "option_4"      : "④  이번 조사는 직접 방문해서 조사하는 방식을 사용했다",
+            "option_4"      : "④  이번 조사와 지난해 조사는 서로 같은 가구를 대상으로 했다",
             "detail"        : " The number of households reading paper newspapers has been declining. The number of households that read paper newspapers decreased by 5% compared to last year, and only one out of five households read newspapers delivered. As the news can be accessed anytime through the Internet, the number of people who read paper newspapers is decreasing. Meanwhile, this survey was conducted by calling the houses that participated in the survey last year.",
-            "correctAnswer" : "④  이번 조사는 직접 방문해서 조사하는 방식을 사용했다",
+            "correctAnswer" : "①  이번 조사는 직접 방문해서 조사하는 방식을 사용했다",
             "score"         : "2"
         },
         {   "sections"      : "※ [13~15] (   ) 다음 글 또는 도표의 내용과 같은 것을 고르십시오.(각 2점)",

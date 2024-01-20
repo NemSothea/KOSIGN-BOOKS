@@ -121,10 +121,15 @@ class ReadingQuestionVC: UIViewController {
         
         if !self.isCorrectAnswer {
             guard let popUpVC = storyboard?.instantiateViewController(withIdentifier: "PopupVC") as? PopupVC else { return }
+            
+            let question = self.questionsVM.data?.questions?[index].question ?? ""
+            
             if self.questionsVM.data?.questions?[index].detail == nil {
-                popUpVC.detail0 = "조심하게 선택해주십시오."
+                popUpVC.detail0 = "조심하게 선택해주십시오. \n \(question)"
             }else {
-                popUpVC.detail0 = self.questionsVM.data?.questions?[index].detail ?? ""
+                let detail = self.questionsVM.data?.questions?[index].detail ?? ""
+                
+                popUpVC.detail0 = "\(question) \n \(detail)"
             }
             
             guard let objs = self.questionsVM.data?.questions?[index] else {

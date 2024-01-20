@@ -31,7 +31,7 @@ class ReadingQuestionCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var imgHeightConstraint: NSLayoutConstraint!
     @IBOutlet weak var stackImage       : UIStackView!
     @IBOutlet weak var emptyStack       : UIStackView!
-    
+
     private var correctionAnswer        : String?
     var selectedOption                  : ((_ selectedAnswer : Bool) -> Void)?
     
@@ -65,20 +65,24 @@ class ReadingQuestionCollectionViewCell: UICollectionViewCell {
                 
                 self.questionImg.image = UIImage(named:setValues?.question ?? "")
             }else {
-                stackImage.isHidden             = true
+                
+                self.stackImage.isHidden        = true
                 self.questionImg.isHidden       = true
-                emptyStack.isHidden             = false
+                self.emptyStack.isHidden        = false
                 self.questionImg.image          = nil
                 self.questionLabel.isHidden     = false
-                self.imgHeightConstraint.constant = 0.0
+                self.imgHeightConstraint.constant = 5.0
                 
                 let attributedString = NSMutableAttributedString(string: setValues?.question ?? "")
 
                 // *** Create instance of `NSMutableParagraphStyle`
                 let paragraphStyle = NSMutableParagraphStyle()
 
+                let isPad = UIDevice.current.userInterfaceIdiom == .pad
                 // *** set LineSpacing property in points ***
-                paragraphStyle.lineSpacing = 2 // Whatever line spacing you want in points
+                paragraphStyle.lineSpacing =  3 // Whatever line spacing you want in points
+                paragraphStyle.lineHeightMultiple = isPad ? 2 : 1.5
+                
 
                 // *** Apply attribute to string ***
                 attributedString.addAttribute(NSAttributedString.Key.paragraphStyle, value:paragraphStyle, range:NSMakeRange(0, attributedString.length))
@@ -184,7 +188,5 @@ class ReadingQuestionCollectionViewCell: UICollectionViewCell {
         myView.layer.borderWidth = borderWidth
         myView.layer.borderColor = UIColor.white.cgColor
     }
-    
-    
-    
+
 }
