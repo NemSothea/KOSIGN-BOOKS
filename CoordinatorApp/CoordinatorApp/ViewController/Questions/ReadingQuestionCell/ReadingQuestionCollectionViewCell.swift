@@ -113,37 +113,46 @@ class ReadingQuestionCollectionViewCell: UICollectionViewCell {
         self.updateBorder(myView: optionC)
         self.updateBorder(myView: optionD)
     }
-    @IBAction func onClickOptionA(_ sender : Any) {
-        var isCorrect = false
-        if correctionAnswer == setValues?.option_1 {
-            isCorrect = true
+    @IBAction func onClickOptionA(_ sender : UIControl) {
+        sender.showAnimation {
+            var isCorrect = false
+            if self.correctionAnswer == self.setValues?.option_1 {
+                isCorrect = true
+            }
+            self.selectedOption?(isCorrect)
+            self.changeBorder(selectedOption: .optionA)
         }
-        selectedOption?(isCorrect)
-        changeBorder(selectedOption: .optionA)
+        
     }
-    @IBAction func onClickOptionB(_ sender : Any) {
-        var isCorrect = false
-        if correctionAnswer == setValues?.option_2 {
-            isCorrect = true
+    @IBAction func onClickOptionB(_ sender : UIControl) {
+        sender.showAnimation {
+            var isCorrect = false
+            if self.correctionAnswer == self.setValues?.option_2 {
+                isCorrect = true
+            }
+            self.selectedOption?(isCorrect)
+            self.changeBorder(selectedOption: .optionB)
         }
-        selectedOption?(isCorrect)
-        changeBorder(selectedOption: .optionB)
     }
-    @IBAction func onClickOptionC(_ sender : Any) {
-        var isCorrect = false
-        if correctionAnswer == setValues?.option_3 {
-            isCorrect = true
+    @IBAction func onClickOptionC(_ sender : UIControl) {
+        sender.showAnimation {
+            var isCorrect = false
+            if self.correctionAnswer == self.setValues?.option_3 {
+                isCorrect = true
+            }
+            self.selectedOption?(isCorrect)
+            self.changeBorder(selectedOption: .optionC)
         }
-        selectedOption?(isCorrect)
-        changeBorder(selectedOption: .optionC)
     }
-    @IBAction func onClickOptionD(_ sender : Any) {
-        var isCorrect = false
-        if correctionAnswer == setValues?.option_4 {
-            isCorrect = true
+    @IBAction func onClickOptionD(_ sender : UIControl) {
+        sender.showAnimation {
+            var isCorrect = false
+            if self.correctionAnswer == self.setValues?.option_4 {
+                isCorrect = true
+            }
+            self.selectedOption?(isCorrect)
+            self.changeBorder(selectedOption: .optionD)
         }
-        selectedOption?(isCorrect)
-        changeBorder(selectedOption: .optionD)
     }
     
     func changeBorder(selectedOption : SelectionOption) {

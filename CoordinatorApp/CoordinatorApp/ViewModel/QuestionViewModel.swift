@@ -16,6 +16,7 @@ class QuestionViewModel {
     var TOPIKQuestionArray : [QuestionType] = []
     
     func initReadingData() {
+        TOPIKQuestionArray = []
         TOPIKQuestionArray = QuestionType.allCases
     }
         

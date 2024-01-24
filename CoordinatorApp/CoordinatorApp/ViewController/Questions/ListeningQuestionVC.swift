@@ -69,37 +69,40 @@ class ListeningQuestionVC: UIViewController {
     }
     // MARK: - @IBAction
     @IBAction func playTap(_ sender: UIButton) {
-        DispatchQueue.main.async {
-            self.listeningViewModel.playOrPause()
-            if self.listeningViewModel.isPlaying {
-                self.playButton.setImage(UIImage(systemName: "pause.fill"), for:.normal)
-            }else {
-                self.playButton.setImage(UIImage(systemName: "play.fill"), for:.normal)
+        sender.showAnimation {
+            DispatchQueue.main.async {
+                self.listeningViewModel.playOrPause()
+                if self.listeningViewModel.isPlaying {
+                    self.playButton.setImage(UIImage(systemName: "pause.fill"), for:.normal)
+                }else {
+                    self.playButton.setImage(UIImage(systemName: "play.fill"), for:.normal)
+                }
             }
         }
     }
     
     @IBAction func exitTap(_ sender : UIButton) {
-        
-        let alert = UIAlertController(title: "  내용\n  ", message: "     확신 합니까?     \n", preferredStyle: .alert)
-        let cancelAction = UIAlertAction(title: " 취소 ", style: .cancel) { (_) in
-           return
+        sender.showAnimation {
+            
+            let alert = UIAlertController(title: "  내용\n  ", message: "     확신 합니까?     \n", preferredStyle: .alert)
+            let cancelAction = UIAlertAction(title: " 취소 ", style: .cancel) { (_) in
+               return
+            }
+            
+            alert.setValue(NSAttributedString(string: alert.title!, attributes: [NSAttributedString.Key.font : UIFont(name: "1HoonDdukbokki Regular", size: self.fontSize)!,NSAttributedString.Key.foregroundColor : UIColor.blue]), forKey: "attributedTitle")
+            
+            alert.setValue(NSAttributedString(string: alert.message!, attributes: [NSAttributedString.Key.font : UIFont(name: "1HoonDdukbokki Regular", size: self.fontSize)!,NSAttributedString.Key.foregroundColor : UIColor.blue]), forKey: "attributedMessage")
+            
+            
+            let okAction = UIAlertAction(title: " 넵 ", style: .default) { (_) in
+                self.listeningViewModel.stopAllCurrentPlay()
+                self.dismiss(animated: true)
+            }
+            alert.addAction(cancelAction)
+            alert.addAction(okAction)
+            self.present(alert, animated: true,completion: nil)
         }
-        
-        alert.setValue(NSAttributedString(string: alert.title!, attributes: [NSAttributedString.Key.font : UIFont(name: "1HoonDdukbokki Regular", size: fontSize)!,NSAttributedString.Key.foregroundColor : UIColor.blue]), forKey: "attributedTitle")
-        
-        alert.setValue(NSAttributedString(string: alert.message!, attributes: [NSAttributedString.Key.font : UIFont(name: "1HoonDdukbokki Regular", size: fontSize)!,NSAttributedString.Key.foregroundColor : UIColor.blue]), forKey: "attributedMessage")
-        
-        
-        let okAction = UIAlertAction(title: " 넵 ", style: .default) { (_) in
-            self.listeningViewModel.stopAllCurrentPlay()
-            self.dismiss(animated: true)
-        }
-        alert.addAction(cancelAction)
-        alert.addAction(okAction)
-        present(alert, animated: true,completion: nil)
-       
-        
+
     }
     @IBAction func nextTap(_ sender : UIButton) {
         
@@ -115,20 +118,26 @@ class ListeningQuestionVC: UIViewController {
         /** TODO -:
          - When question not selected popup appear
          */
-        if !self.answerSelected {
-            let alert = UIAlertController(title: "알림\n", message: "     선택해주기 바랍니다. \n", preferredStyle: .alert)
+        sender.showAnimation {
+            if !self.answerSelected {
+                let alert = UIAlertController(title: "알림\n", message: "     선택해주기 바랍니다. \n", preferredStyle: .alert)
+                
+                alert.setValue(NSAttributedString(string: alert.title!, attributes: [NSAttributedString.Key.font : UIFont(name: "1HoonDdukbokki Regular", size: self.fontSize)!,NSAttributedString.Key.foregroundColor : UIColor.blue]), forKey: "attributedTitle")
+                
+                alert.setValue(NSAttributedString(string: alert.message!, attributes: [NSAttributedString.Key.font : UIFont(name: "1HoonDdukbokki Regular", size: self.fontSize)!,NSAttributedString.Key.foregroundColor : UIColor.blue]), forKey: "attributedMessage")
+                
+                let okAction = UIAlertAction(title: "확인", style: .destructive)
+                alert.addAction(okAction)
+                self.present(alert, animated: true,completion: nil)
+                return
+            }
             
-            alert.setValue(NSAttributedString(string: alert.title!, attributes: [NSAttributedString.Key.font : UIFont(name: "1HoonDdukbokki Regular", size: fontSize)!,NSAttributedString.Key.foregroundColor : UIColor.blue]), forKey: "attributedTitle")
-            
-            alert.setValue(NSAttributedString(string: alert.message!, attributes: [NSAttributedString.Key.font : UIFont(name: "1HoonDdukbokki Regular", size: fontSize)!,NSAttributedString.Key.foregroundColor : UIColor.blue]), forKey: "attributedMessage")
-            
-            let okAction = UIAlertAction(title: "확인", style: .destructive)
-            alert.addAction(okAction)
-            present(alert, animated: true,completion: nil)
-            return
+            self.answerSelected = false
+            self.nextQuestionTap()
         }
-        
-        self.answerSelected = false
+         
+    }
+    private func nextQuestionTap() {
         /** TODO -:
          - When selected question correctly add score
          */
@@ -153,6 +162,17 @@ class ListeningQuestionVC: UIViewController {
             
             self.wrongAnswerArray.append(objs)
          
+            if let sheet = popUpVC.sheetPresentationController {
+                let isPad = UIDevice.current.userInterfaceIdiom == .pad
+                if isPad {
+                    sheet.detents = [.large()]
+                }else {
+                    sheet.detents = [.medium(),.large()]
+                }
+                
+                sheet.prefersGrabberVisible = true
+                sheet.preferredCornerRadius = 32
+            }
             self.present(popUpVC, animated: true)
             return
         }
@@ -174,7 +194,6 @@ class ListeningQuestionVC: UIViewController {
             resultVC.modalPresentationStyle = .fullScreen
             self.present(resultVC, animated: true)
         }
-         
     }
     func resultTopik() -> (String,String,String) {
         

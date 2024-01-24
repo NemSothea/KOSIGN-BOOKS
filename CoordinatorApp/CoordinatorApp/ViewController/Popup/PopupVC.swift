@@ -12,6 +12,9 @@ class PopupVC : UIViewController, UITableViewDelegate, UITableViewDataSource {
     //MARK: Properties
     @IBOutlet weak var tableView        : UITableView!
 
+    @IBOutlet weak var contentButton    : UIButton!
+    @IBOutlet weak var doneButton       : UIButton!
+    
     var detail0                          = ""
     var detail1                          = ""
     
@@ -20,67 +23,47 @@ class PopupVC : UIViewController, UITableViewDelegate, UITableViewDataSource {
     //MARK: ViewLife Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
-     
+        
+        let attributedContentText = NSAttributedString(string: "내용", attributes: [NSAttributedString.Key.font: UIFont(name: "1HoonDdukbokki Regular", size: fontSize) ?? 0])
+        self.contentButton.setAttributedTitle(attributedContentText, for: .normal)
+        
+        let attributedDoneText = NSAttributedString(string: "확인", attributes: [NSAttributedString.Key.font: UIFont(name: "1HoonDdukbokki Regular", size: fontSize) ?? 0])
+        self.doneButton.setAttributedTitle(attributedDoneText, for: .normal)
         
     }
     
+    @IBAction func doneAction(_ sender: UIButton) {
+        sender.showAnimation {
+            self.dismiss(animated: true, completion: nil)
+        }
+    }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 1
-    }
-    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
-        
-        let headerView = UIView()
-        headerView.backgroundColor = UIColor.clear
-        let titleLabel = UILabel(frame: CGRect(x: 10,y: 10, width: 100 ,height:50))
-        titleLabel.numberOfLines = 0
-        titleLabel.lineBreakMode = .byWordWrapping
-        titleLabel.backgroundColor = UIColor.clear
-        titleLabel.font = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
-        titleLabel.text  = "내용\n"
-        titleLabel.textColor = .white
-        headerView.addSubview(titleLabel)
-       
-        return headerView
-    }
-    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-        return UITableView.automaticDimension
-    }
-    
-    func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
-        
-        let footerView = UIView()
-        footerView.backgroundColor = UIColor.clear
-        footerView.frame = CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: 50)
-        let checkButton = UIButton(frame: CGRect(x: (tableView.frame.width/2),y: 0, width: 200,height:50))
-        
-        let attritNextText = NSAttributedString(string: "화인", attributes: [NSAttributedString.Key.font: UIFont(name: "1HoonDdukbokki Regular", size: fontSize)!])
-        checkButton.setAttributedTitle(attritNextText, for: .normal)
-        checkButton.tintColor           = UIColor.white
-        checkButton.setTitleColor(UIColor.white, for: .normal)
-        checkButton.backgroundColor     = UIColor.systemBlue
-        checkButton.layer.cornerRadius  = 8
-        checkButton.layer.shadowColor   = UIColor.green.cgColor
-        checkButton.layer.shadowOpacity = 0.8
-        checkButton.layer.shadowOffset  = CGSize(width: 1, height: 1)
-        checkButton.layer.borderWidth   = 1
-        checkButton.layer.borderColor   = UIColor.green.cgColor
-        
-        let tap = UITapGestureRecognizer(target: self, action: #selector(self.handleTap(_:)))
-        footerView.addGestureRecognizer(tap)
-        checkButton.addGestureRecognizer(tap)
-        footerView.addSubview(checkButton)
-        return footerView
-    }
-
-    func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
-        return 50
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "cell") as? PopupCell else { return PopupCell()
         }
+        
         cell.infoLabel.font = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
-        cell.infoLabel.text = "\n\(detail0)\n\n\(detail1)"
+        
+        let attributedString = NSMutableAttributedString(string: "\(detail0)\(detail1)")
+
+        // *** Create instance of `NSMutableParagraphStyle`
+        let paragraphStyle = NSMutableParagraphStyle()
+
+        let isPad = UIDevice.current.userInterfaceIdiom == .pad
+        // *** set LineSpacing property in points ***
+        paragraphStyle.lineSpacing =  3 // Whatever line spacing you want in points
+        paragraphStyle.lineHeightMultiple = isPad ? 2 : 1.5
+        
+
+        // *** Apply attribute to string ***
+        attributedString.addAttribute(NSAttributedString.Key.paragraphStyle, value:paragraphStyle, range:NSMakeRange(0, attributedString.length))
+
+        // *** Set Attributed String to your label ***
+
+        cell.infoLabel.attributedText         = attributedString
 
         return cell
     }
@@ -88,15 +71,5 @@ class PopupVC : UIViewController, UITableViewDelegate, UITableViewDataSource {
     @objc func handleTap(_ sender: UITapGestureRecognizer? = nil) {
         self.dismiss(animated: true)
     }
-    
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

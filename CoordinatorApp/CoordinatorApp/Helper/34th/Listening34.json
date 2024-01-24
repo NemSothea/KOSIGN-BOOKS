@@ -146,7 +146,7 @@
             "score"         : "4"
         },
         {
-            "sections"      : "※ [14~17]다음 대화를 듣고 여자가 어떤 생각을 하고 있는지 맞는 것을 고르십시오.",
+            "sections"      : "※ [14~17]다음 대화를 듣고 남자가 어떤 생각을 하고 있는지 맞는 것을 고르십시오.",
             "question"      : "14. (4점) ",
             "option_1"      : "①  요즘 몸에 좋은 만두가 많이 나왔다.",
             "option_2"      : "②  사서 먹는 만두의 모양이 더 예쁘다.",
@@ -157,7 +157,7 @@
             "score"         : "4"
         },
         {
-            "sections"      : "※ [14~17]다음 대화를 듣고 여자가 어떤 생각을 하고 있는지 맞는 것을 고르십시오.",
+            "sections"      : "※ [14~17]다음 대화를 듣고 남자가 어떤 생각을 하고 있는지 맞는 것을 고르십시오.",
             "question"      : "15. (4점) ",
             "option_1"      : "①  광고지를 길에 버리면 안 된다.",
             "option_2"      : "②  광고지가 도움이 될 때가 있다.",
@@ -174,7 +174,7 @@
             "option_2"      : "②  길고양이에게 주인을 찾아 줘야 한다.",
             "option_3"      : "③  길고양이는 먹이를 안 줘도 많아질 것이다.",
             "option_4"      : "④  길고양이 때문에 생활이 불편해지는 건 아니다.",
-            "detail"        : "Woman : There are a lot of stray cats in my neighborhood these days. I don't have an owner, and I'm sorry, so I want to feed it.\nMan : But if you keep feeding them, the number of stray cats will increase. If the number of cats increases, won't there be more accidents caused by cats? I can't even sleep at night because of the sound of crying.",
+            "detail"        : "Woman : There are a lot of stray cats in my neighborhood these days. It don't have an owner, and I'm sorry, so I want to feed it.\nMan : But if you keep feeding them, the number of stray cats will increase. If the number of cats increases, won't there be more accidents caused by cats? I can't even sleep at night because of the sound of crying.",
             "correctAnswer" : "①  길고양이에게 먹이를 주면 안 된다.",
             "score"         : "4"
         },
@@ -190,7 +190,7 @@
             "score"         : "4"
         },
         {
-            "sections"      : "※ [18~20] 다음 대화를 듣고 남자가 할 행동으로 알맞은 것을 고르십시오.",
+            "sections"      : "※ [18~20] 다음 대화를 듣고 여자가 할 행동으로 알맞은 것을 고르십시오.",
             "question"      : "18. (3점) ",
             "option_1"      : "①  표를 받는다.",
             "option_2"      : "②  마실 것을 산다.",
@@ -201,7 +201,7 @@
             "score"         : "3"
         },
         {
-            "sections"      : "※ [18~20] 다음 대화를 듣고 남자가 할 행동으로 알맞은 것을 고르십시오.",
+            "sections"      : "※ [18~20] 다음 대화를 듣고 여자가 할 행동으로 알맞은 것을 고르십시오.",
             "question"      : "19. (3점) ",
             "option_1"      : "①  계산을 한다.",
             "option_2"      : "②  카드를 만든다.",
@@ -212,7 +212,7 @@
             "score"         : "3"
         },
         {
-            "sections"      : "※ [18~20] 다음 대화를 듣고 남자가 할 행동으로 알맞은 것을 고르십시오.",
+            "sections"      : "※ [18~20] 다음 대화를 듣고 여자가 할 행동으로 알맞은 것을 고르십시오.",
             "question"      : "20. (3점) ",
             "option_1"      : "①  고객 만족도를 조사한다.",
             "option_2"      : "②  설문지의 질문을 만든다.",

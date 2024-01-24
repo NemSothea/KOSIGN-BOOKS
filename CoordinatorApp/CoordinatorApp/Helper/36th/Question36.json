@@ -143,7 +143,7 @@
             "score"         : "2"
         },
         {   "sections"      : "※ [13~15] (   ) 다음 글 또는 도표의 내용과 같은 것을 고르십시오.(각 2점)",
-            "question"      : "Q15.\n(가)네온사인,상가의 불빛 등으로 길거리가 밝기 때문에 불필요하다는 것이다.\n(나)그런 일에 비용을 들이기보다 다른 대안은 없는지 모색해 보는 것이 더 낫다.\n(다)가로등이 제 역할을 못하고 있으니 없애자는 의견이 나오고 있다.\n(라)하지만 이미 설치해 놓은 공공 시설물을 없애는 것만이 최선은 아닐 것이다.",
+            "question"      : "Q15.\n(가)네온사인, 상가의 불빛 등으로 길거리가 밝기 때문에 불필요하다는 것이다.\n(나)그런 일에 비용을 들이기보다 다른 대안은 없는지 모색해 보는 것이 더 낫다.\n(다)가로등이 제 역할을 못하고 있으니 없애자는 의견이 나오고 있다.\n(라)하지만 이미 설치해 놓은 공공 시설물을 없애는 것만이 최선은 아닐 것이다.",
             "option_1"      : "①  (가)-(라)-(다)-(나)",
             "option_2"      : "②  (가)-(다)-(라)-(나)",
             "option_3"      : "③  (다)-(가)-(라)-(나)",
@@ -219,12 +219,12 @@
             "option_2"      : "②  수질 오염에 대해 걱정하는 사람들이 많다",
             "option_3"      : "③  수질 오염으로 물을 안심하고 먹기가 어렵다",
             "option_4"      : "④  수질 오염을 막기 위한 노력을 빨리 해야 한다",
-            "detail"        : " In modern society, environmental pollution has reached a serious level due to the increase in population and the development of industry. Among them, many people are concerned about water pollution because it is an important issue directly related to our survival. However, concrete efforts to prevent pollution seem to be lacking. In order to prevent water pollution, it is important to start with a small effort that we can make in our lives, as it is said to start from one step. When these practices are practiced one by one, our children will be able to drink clean water with peace of mind.",
+            "detail"        : " Navigation is a device that guides you along the way to your destination. Anyone who has ever gone to an unfamiliar place without a navigation and can't find a way to quickly make an effort to prevent water pollution must have felt how convenient navigation is. However, when our brains search for information on their own, we can remember it for a long time. Therefore, relying too much on digital devices may reduce our ability to find and remember information, and eventually we won't be able to use that ability.",
             "correctAnswer" : "④  수질 오염을 막기 위한 노력을 빨리 해야 한다",
             "score"         : "2"
         },
         {   "sections"      : "※ [23~24] 다음을 읽고 물음에 답하십시오.(각 2점)",
-            "question"      : "Q23.\n 학창시절 내내 서울 생활을 꿈꿨던 나는 대학에 합격하면서 그토록 바라던 서울에서 살게 되었다. 시간제 아르바이트를 하는 것만으로는 생활 하기가 빠듯해서 늘 허덕거려야 했다. 당연히 어머니와의 전화 통화는 주로돈 이야기가 되어 버렸다. “아휴,여기서 대학 다녔으면 그렇게 돈 걱정은 안 해도 됐을걸.서울까지가서 마음 편히 공부도 못하고. 엄마가 제대로 도와주지 못해 미안해. ” 어머니가 고생하는 딸이 안쓰러워서 하는 말에 눈물이 핑 돈 적도 있었다. 전액 장학금을 주겠다는 지방 대학을 포기하고 택한 서울행이었다. 그런데 매번 돈타령이나 하면서 가뜩이나 형편이 어려운 부모님에게 마음의 부담만 더한 꼴이 된 것 같았다.\n23. 밑줄 친 부분에 나타난 나의 심정으로 알맞은 것을 고르십시오.",
+            "question"      : "Q23.\n 학창시절 내내 서울 생활을 꿈꿨던 나는 대학에 합격하면서 그토록 바라던 서울에서 살게 되었다. 시간제 아르바이트를 하는 것만으로는 생활 하기가 빠듯해서 늘 허덕거려야 했다. 당연히 어머니와의 전화 통화는 주로돈 이야기가 되어 버렸다. “아휴,여기서 대학 다녔으면 그렇게 돈 걱정은 안 해도 됐을걸. 서울까지 가서 마음 편히 공부도 못하고. 엄마가 제대로 도와주지 못해 미안해. ” 어머니가 고생하는 딸이 안쓰러워서 하는 말에 눈물이 핑 돈 적도 있었다. 전액 장학금을 주겠다는 지방 대학을 포기하고 택한 서울행이었다. 그런데 매번 돈타령이나 하면서 가뜩이나 형편이 어려운 부모님에게 마음의 부담만 더한 꼴이 된 것 같았다.\n23. 밑줄 친 부분에 나타난 나의 심정으로 알맞은 것을 고르십시오.",
             "option_1"      : "①  곤란하다",
             "option_2"      : "②  속상하다",
             "option_3"      : "③  답답하다",
@@ -234,7 +234,7 @@
             "score"         : "2"
         },
         {   "sections"      : "※ [23~24] 다음을 읽고 물음에 답하십시오.(각 2점)",
-            "question"      : "Q24.\n   학창시절 내내 서울 생활을 꿈꿨던 나는 대학에 합격하면서 그토록 바라던 서울에서 살게 되었다. 시간제 아르바이트를 하는 것만으로는 생활 하기가 빠듯해서 늘 허덕거려야 했다. 당연히 어머니와의 전화 통화는 주로돈 이야기가 되어 버렸다. “아휴,여기서 대학 다녔으면 그렇게 돈 걱정은 안 해도 됐을걸.서울까지가서 마음 편히 공부도 못하고. 엄마가 제대로 도와주지 못해 미안해. ” 어머니가 고생하는 딸이 안쓰러워서 하는 말에 눈물이 핑 돈 적도 있었다. 전액 장학금을 주겠다는 지방 대학을 포기하고 택한 서울행이었다. 그런데 매번 돈타령이나 하면서 가뜩이나 형편이 어려운 부모님에게 마음의 부담만 더한 꼴이 된 것 같았다.\n24. 이 글의 내용과 같은 것을 고르십시오.",
+            "question"      : "Q24.\n   학창시절 내내 서울 생활을 꿈꿨던 나는 대학에 합격하면서 그토록 바라던 서울에서 살게 되었다. 시간제 아르바이트를 하는 것만으로는 생활 하기가 빠듯해서 늘 허덕거려야 했다. 당연히 어머니와의 전화 통화는 주로돈 이야기가 되어 버렸다. “아휴,여기서 대학 다녔으면 그렇게 돈 걱정은 안 해도 됐을걸. 서울까지 가서 마음 편히 공부도 못하고. 엄마가 제대로 도와주지 못해 미안해. ” 어머니가 고생하는 딸이 안쓰러워서 하는 말에 눈물이 핑 돈 적도 있었다. 전액 장학금을 주겠다는 지방 대학을 포기하고 택한 서울행이었다. 그런데 매번 돈타령이나 하면서 가뜩이나 형편이 어려운 부모님에게 마음의 부담만 더한 꼴이 된 것 같았다.\n24. 이 글의 내용과 같은 것을 고르십시오.",
             "option_1"      : "①  나는 아르바이트를 해서 생활비가 넉넉했다",
             "option_2"      : "②  나는 대학에 합격하기 전부터 서울에 살고 있었다",
             "option_3"      : "③  부모님은 형편이 어려운데도 많은 돈을 보내 주셨다",

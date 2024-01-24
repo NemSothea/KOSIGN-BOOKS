@@ -70,25 +70,27 @@ class ReadingQuestionVC: UIViewController {
     // MARK: - @IBAction
     @IBAction func exitTap(_ sender : UIButton) {
        
-        let alert = UIAlertController(title: " 내용\n ", message: "   확신 합니까?     \n", preferredStyle: .alert)
-        
-        alert.setValue(NSAttributedString(string: alert.title!, attributes: [NSAttributedString.Key.font : UIFont(name: "1HoonDdukbokki Regular", size: fontSize)!,NSAttributedString.Key.foregroundColor : UIColor.blue]), forKey: "attributedTitle")
-        
-        alert.setValue(NSAttributedString(string: alert.message!, attributes: [NSAttributedString.Key.font : UIFont(name: "1HoonDdukbokki Regular", size: fontSize)!,NSAttributedString.Key.foregroundColor : UIColor.blue]), forKey: "attributedMessage")
-        
-        let okAction = UIAlertAction(title: "넵", style: .default) { (_) in
-            self.dismiss(animated: true)
+        sender.showAnimation {
+            
+            let alert = UIAlertController(title: " 내용\n ", message: "   확신 합니까?     \n", preferredStyle: .alert)
+            
+            alert.setValue(NSAttributedString(string: alert.title!, attributes: [NSAttributedString.Key.font : UIFont(name: "1HoonDdukbokki Regular", size: self.fontSize)!,NSAttributedString.Key.foregroundColor : UIColor.blue]), forKey: "attributedTitle")
+            
+            alert.setValue(NSAttributedString(string: alert.message!, attributes: [NSAttributedString.Key.font : UIFont(name: "1HoonDdukbokki Regular", size: self.fontSize)!,NSAttributedString.Key.foregroundColor : UIColor.blue]), forKey: "attributedMessage")
+            
+            let okAction = UIAlertAction(title: "넵", style: .default) { (_) in
+                self.dismiss(animated: true)
+            }
+            let cancelAction = UIAlertAction(title: "취소", style: .cancel) { (_) in
+                return
+            }
+            
+            alert.addAction(cancelAction)
+            alert.addAction(okAction)
+            
+            
+            self.present(alert, animated: false,completion: nil)
         }
-        let cancelAction = UIAlertAction(title: "취소", style: .cancel) { (_) in
-            return
-        }
-        
-        alert.addAction(cancelAction)
-        alert.addAction(okAction)
-        
-        
-        present(alert, animated: false,completion: nil)
-        
     }
     
     @IBAction func nextTap(_ sender : UIButton) {
@@ -102,34 +104,42 @@ class ReadingQuestionVC: UIViewController {
 //        guard let popUpVC = storyboard?.instantiateViewController(withIdentifier: "PopupVC") as? PopupVC else { return }
 //        self.present(popUpVC, animated: true)
         
-        
-        if !self.answerSelected {
-            let alert = UIAlertController(title: "알림\n", message: "선택해주기 바랍니다.\n", preferredStyle: .alert)
+        sender.showAnimation {
             
-            alert.setValue(NSAttributedString(string: alert.title!, attributes: [NSAttributedString.Key.font : UIFont(name: "1HoonDdukbokki Regular", size: fontSize)!,NSAttributedString.Key.foregroundColor : UIColor.blue]), forKey: "attributedTitle")
+            if !self.answerSelected {
+                let alert = UIAlertController(title: "알림\n", message: "선택해주기 바랍니다.\n", preferredStyle: .alert)
+                
+                alert.setValue(NSAttributedString(string: alert.title!, attributes: [NSAttributedString.Key.font : UIFont(name: "1HoonDdukbokki Regular", size: self.fontSize)!,NSAttributedString.Key.foregroundColor : UIColor.blue]), forKey: "attributedTitle")
+                
+                alert.setValue(NSAttributedString(string: alert.message!, attributes: [NSAttributedString.Key.font : UIFont(name: "1HoonDdukbokki Regular", size: self.fontSize)!,NSAttributedString.Key.foregroundColor : UIColor.blue]), forKey: "attributedMessage")
+                
+                let okAction = UIAlertAction(title: "확인", style: .default)
+                alert.addAction(okAction)
+                self.present(alert, animated: true,completion: nil)
+                return
+            }
+            self.answerSelected = false
             
-            alert.setValue(NSAttributedString(string: alert.message!, attributes: [NSAttributedString.Key.font : UIFont(name: "1HoonDdukbokki Regular", size: fontSize)!,NSAttributedString.Key.foregroundColor : UIColor.blue]), forKey: "attributedMessage")
-            
-            let okAction = UIAlertAction(title: "확인", style: .default)
-            alert.addAction(okAction)
-            present(alert, animated: true,completion: nil)
-            return
+            self.nextActionTap()
         }
-        self.answerSelected = false
         
-        //Wrong Answer show alert message
+        
+    }
+    /// When click Wrong Answer show alert message
+    private func nextActionTap() {
+      
         
         if !self.isCorrectAnswer {
             guard let popUpVC = storyboard?.instantiateViewController(withIdentifier: "PopupVC") as? PopupVC else { return }
             
-            let question = self.questionsVM.data?.questions?[index].question ?? ""
+            let question = self.questionsVM.data?.questions?[self.index].question ?? ""
             
-            if self.questionsVM.data?.questions?[index].detail == nil {
+            if self.questionsVM.data?.questions?[self.index].detail == nil {
                 popUpVC.detail0 = "조심하게 선택해주십시오. \n \(question)"
             }else {
                 let detail = self.questionsVM.data?.questions?[index].detail ?? ""
                 
-                popUpVC.detail0 = "\(question) \n \(detail)"
+                popUpVC.detail0 = "\(question)\(detail)"
             }
             
             guard let objs = self.questionsVM.data?.questions?[index] else {
@@ -138,8 +148,19 @@ class ReadingQuestionVC: UIViewController {
             
             self.wrongAnswerArray.append(objs)
            
+            if let sheet = popUpVC.sheetPresentationController {
+                let isPad = UIDevice.current.userInterfaceIdiom == .pad
+                if isPad {
+                    sheet.detents = [.large()]
+                }else {
+                    sheet.detents = [.medium(),.large()]
+                }
+                sheet.prefersGrabberVisible = true
+                sheet.preferredCornerRadius = 32
+            }
             self.present(popUpVC, animated: true)
             return
+         
         }
         if index<(self.questionsVM.data?.questions?.count ?? 0) - 1 {
             index += 1

@@ -69,8 +69,9 @@ class ResultVC: UIViewController, StoryBoarded, UICollectionViewDelegate, UIColl
         return 0
     }
     @IBAction func backHomeTap(_ sender: UIButton) {
-        
-        self.presentingViewController?.presentingViewController?.dismiss(animated: true, completion: nil)
+        sender.showAnimation {
+            self.presentingViewController?.presentingViewController?.dismiss(animated: true, completion: nil)
+        }
     }
     
     /*
@@ -85,24 +86,3 @@ class ResultVC: UIViewController, StoryBoarded, UICollectionViewDelegate, UIColl
 
 }
 
-extension UIView {
-    
-    @IBInspectable var cornerRadiusV: CGFloat {
-        get {
-            return layer.cornerRadius
-        }
-        set {
-            layer.cornerRadius = newValue
-            layer.masksToBounds = newValue > 0
-        }
-    }
-    
-    @IBInspectable var borderColorV: UIColor? {
-        get {
-            return UIColor(cgColor: layer.borderColor!)
-        }
-        set {
-            layer.borderColor = newValue?.cgColor
-        }
-    }
-}

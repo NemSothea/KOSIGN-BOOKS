@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="naG-dj-4nZ" customClass="FooterSectionReadingCell" customModule="CoordinatorApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="668" height="400"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="a88-K2-H0h">
+                <rect key="frame" x="0.0" y="0.0" width="668" height="400"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="zXJ-KG-qxw">
+                        <rect key="frame" x="10" y="10" width="648" height="346"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pfj-NS-QFX" customClass="UIControl">
+                                <rect key="frame" x="0.0" y="0.0" width="648" height="79"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Default navigation back button is empty Default navigation back button is empty" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="11" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YRf-OE-Hbb">
+                                        <rect key="frame" x="10" y="0.0" width="638" height="55"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="24"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <connections>
+                                    <action selector="onClickOptionA:" destination="naG-dj-4nZ" eventType="touchUpInside" id="PBk-BS-KmG"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CK4-Mh-P0B" customClass="UIControl">
+                                <rect key="frame" x="0.0" y="89" width="648" height="79"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Default navigation back button is empty Default navigation back button is empty" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="11" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="CkU-0H-a8W">
+                                        <rect key="frame" x="10" y="0.0" width="638" height="57.333333333333336"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="24"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <connections>
+                                    <action selector="onClickOptionB:" destination="naG-dj-4nZ" eventType="touchUpInside" id="gEU-WD-rae"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Del-Km-Lgr" customClass="UIControl">
+                                <rect key="frame" x="0.0" y="178" width="648" height="79"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Default navigation back button is empty Default navigation back button is empty" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="11" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="T0l-jL-WIY">
+                                        <rect key="frame" x="10" y="0.0" width="638" height="57.333333333333336"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="24"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <connections>
+                                    <action selector="onClickOptionC:" destination="naG-dj-4nZ" eventType="touchUpInside" id="aIf-hz-4Wc"/>
+                                </connections>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="epJ-GT-zME" customClass="UIControl">
+                                <rect key="frame" x="0.0" y="267" width="648" height="79"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Default navigation back button is empty Default navigation back button is empty" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="11" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ehm-7q-U8k">
+                                        <rect key="frame" x="10" y="0.0" width="638" height="57.333333333333336"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="24"/>
+                                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <connections>
+                                    <action selector="onClickOptionD:" destination="naG-dj-4nZ" eventType="touchUpInside" id="hch-uJ-J2z"/>
+                                </connections>
+                            </view>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <viewLayoutGuide key="safeArea" id="yMI-kN-LTT"/>
+                <constraints>
+                    <constraint firstItem="zXJ-KG-qxw" firstAttribute="top" secondItem="a88-K2-H0h" secondAttribute="top" constant="10" id="1aX-aK-Poo"/>
+                    <constraint firstItem="yMI-kN-LTT" firstAttribute="bottom" secondItem="zXJ-KG-qxw" secondAttribute="bottom" constant="10" id="1mm-Xo-juj"/>
+                    <constraint firstItem="yMI-kN-LTT" firstAttribute="trailing" secondItem="zXJ-KG-qxw" secondAttribute="trailing" constant="10" id="Auz-y2-3k7"/>
+                    <constraint firstItem="zXJ-KG-qxw" firstAttribute="leading" secondItem="yMI-kN-LTT" secondAttribute="leading" constant="10" id="h3i-Be-nX1"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <size key="customSize" width="668" height="396"/>
+            <connections>
+                <outlet property="option1" destination="YRf-OE-Hbb" id="ayS-dr-A6Y"/>
+                <outlet property="option2" destination="CkU-0H-a8W" id="WXq-8Y-DT5"/>
+                <outlet property="option3" destination="T0l-jL-WIY" id="wbv-aO-r6U"/>
+                <outlet property="option4" destination="Ehm-7q-U8k" id="tnO-KK-3Ol"/>
+                <outlet property="optionA" destination="pfj-NS-QFX" id="Ndn-8c-5MS"/>
+                <outlet property="optionB" destination="CK4-Mh-P0B" id="BIm-lS-Pql"/>
+                <outlet property="optionC" destination="Del-Km-Lgr" id="RYR-h7-edy"/>
+                <outlet property="optionD" destination="epJ-GT-zME" id="3Rz-07-Idg"/>
+            </connections>
+            <point key="canvasLocation" x="-1738.9312977099237" y="385.21126760563385"/>
+        </collectionViewCell>
+    </objects>
+</document>

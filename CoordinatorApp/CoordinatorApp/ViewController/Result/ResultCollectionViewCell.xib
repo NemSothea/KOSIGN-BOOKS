@@ -12,23 +12,23 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="resultCollectionViewCell" id="JrO-Fa-6F9" customClass="ResultCollectionViewCell" customModule="CoordinatorApp" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="466" height="579"/>
+            <rect key="frame" x="0.0" y="0.0" width="558" height="711"/>
             <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
             <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="CTK-QG-uhY">
-                <rect key="frame" x="0.0" y="0.0" width="466" height="579"/>
+                <rect key="frame" x="0.0" y="0.0" width="558" height="711"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="soD-ww-bFa">
-                        <rect key="frame" x="0.0" y="0.0" width="466" height="579"/>
+                        <rect key="frame" x="5" y="25" width="558" height="681"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="gJp-Cb-7gc">
-                                <rect key="frame" x="10" y="10" width="446" height="559"/>
+                                <rect key="frame" x="10" y="10" width="538" height="661"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="nda-Io-xyq">
-                                        <rect key="frame" x="0.0" y="0.0" width="418" height="80"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="448.5" height="80"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="※ [4~8]다음 대화를 잘듣고 이어질 수있는 말을 고르십시오.(각2점)" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="POU-h9-wtT">
-                                                <rect key="frame" x="0.0" y="0.0" width="418" height="80"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="448.5" height="80"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="80" id="ZfL-Ja-YSb"/>
                                                 </constraints>
@@ -40,10 +40,10 @@
                                         <viewLayoutGuide key="safeArea" id="Ryf-VA-jam"/>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="SnQ-bU-gg5">
-                                        <rect key="frame" x="0.0" y="90" width="446" height="296.5"/>
+                                        <rect key="frame" x="0.0" y="90" width="538" height="398.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QoL-Z9-sWt">
-                                                <rect key="frame" x="0.0" y="0.0" width="446" height="296.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="538" height="398.5"/>
                                                 <string key="text">Man : Mr. Sumi, how was your interview? Do you think you saw it well?\nWoman : I could have done well, but I was nervous, so I don't think I saw it well. \nMan : I've prepared hard, so it'll be fine.</string>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
@@ -53,7 +53,7 @@
                                         <viewLayoutGuide key="safeArea" id="KEF-OC-Co6"/>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="naQ-K2-nzY">
-                                        <rect key="frame" x="0.0" y="396.5" width="199.5" height="162.5"/>
+                                        <rect key="frame" x="0.0" y="498.5" width="199.5" height="162.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="①  학교 홈페이지에 있던데요." lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uyh-xP-7Zh">
                                                 <rect key="frame" x="0.0" y="0.0" width="199.5" height="20.5"/>
@@ -92,14 +92,15 @@
                                         <viewLayoutGuide key="safeArea" id="SUS-Lo-bLt"/>
                                     </stackView>
                                 </subviews>
+                                <viewLayoutGuide key="safeArea" id="qlw-Nd-41J"/>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="gJp-Cb-7gc" firstAttribute="top" secondItem="soD-ww-bFa" secondAttribute="top" constant="10" id="0fx-xM-ibz"/>
-                            <constraint firstAttribute="bottom" secondItem="gJp-Cb-7gc" secondAttribute="bottom" constant="10" id="GD1-Zb-h6w"/>
-                            <constraint firstAttribute="trailing" secondItem="gJp-Cb-7gc" secondAttribute="trailing" constant="10" id="JlK-Ls-lf2"/>
-                            <constraint firstItem="gJp-Cb-7gc" firstAttribute="leading" secondItem="soD-ww-bFa" secondAttribute="leading" constant="10" id="vdP-Xu-rnW"/>
+                            <constraint firstAttribute="bottom" secondItem="gJp-Cb-7gc" secondAttribute="bottom" constant="10" id="8yE-6F-Fz8"/>
+                            <constraint firstAttribute="trailing" secondItem="gJp-Cb-7gc" secondAttribute="trailing" constant="10" id="AwN-Tq-J8g"/>
+                            <constraint firstItem="gJp-Cb-7gc" firstAttribute="leading" secondItem="soD-ww-bFa" secondAttribute="leading" constant="10" id="Ped-FN-xOv"/>
+                            <constraint firstItem="gJp-Cb-7gc" firstAttribute="top" secondItem="soD-ww-bFa" secondAttribute="top" constant="10" id="hfw-HR-u6u"/>
                         </constraints>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiusV">
@@ -110,13 +111,13 @@
                 </subviews>
                 <viewLayoutGuide key="safeArea" id="NLD-4P-i6F"/>
                 <constraints>
-                    <constraint firstItem="soD-ww-bFa" firstAttribute="trailing" secondItem="NLD-4P-i6F" secondAttribute="trailing" id="AFJ-MQ-wnJ"/>
-                    <constraint firstAttribute="bottom" secondItem="soD-ww-bFa" secondAttribute="bottom" id="VGt-Cu-OQ4"/>
-                    <constraint firstItem="soD-ww-bFa" firstAttribute="leading" secondItem="NLD-4P-i6F" secondAttribute="leading" id="eq9-2t-Ec5"/>
-                    <constraint firstItem="soD-ww-bFa" firstAttribute="top" secondItem="CTK-QG-uhY" secondAttribute="top" id="jAa-TR-9OR"/>
+                    <constraint firstItem="soD-ww-bFa" firstAttribute="trailing" secondItem="NLD-4P-i6F" secondAttribute="trailing" constant="5" id="AFJ-MQ-wnJ"/>
+                    <constraint firstItem="NLD-4P-i6F" firstAttribute="bottom" secondItem="soD-ww-bFa" secondAttribute="bottom" constant="5" id="VGt-Cu-OQ4"/>
+                    <constraint firstItem="soD-ww-bFa" firstAttribute="leading" secondItem="NLD-4P-i6F" secondAttribute="leading" constant="5" id="eq9-2t-Ec5"/>
+                    <constraint firstItem="soD-ww-bFa" firstAttribute="top" secondItem="NLD-4P-i6F" secondAttribute="top" constant="5" id="jAa-TR-9OR"/>
                 </constraints>
             </collectionViewCellContentView>
-            <size key="customSize" width="466" height="582"/>
+            <size key="customSize" width="558" height="714"/>
             <connections>
                 <outlet property="option1" destination="Uyh-xP-7Zh" id="oW1-RO-oBx"/>
                 <outlet property="option2" destination="Ej8-Aa-q6M" id="MxH-hU-x5z"/>
@@ -126,7 +127,7 @@
                 <outlet property="questionLabel" destination="QoL-Z9-sWt" id="NMY-34-X57"/>
                 <outlet property="sectionLabel" destination="POU-h9-wtT" id="ywN-mN-J4i"/>
             </connections>
-            <point key="canvasLocation" x="310.39999999999998" y="51.724137931034484"/>
+            <point key="canvasLocation" x="384" y="111.0944527736132"/>
         </collectionViewCell>
     </objects>
 </document>
