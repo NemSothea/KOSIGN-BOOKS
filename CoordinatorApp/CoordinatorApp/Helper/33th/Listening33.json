@@ -218,7 +218,7 @@
             "option_2"      : "②  출장 갈 준비를 한다.",
             "option_3"      : "③  보고회 일정표를 준다.",
             "option_4"      : "④  지방 공장에 연락한다.",
-            "detail"        : "Man : I don't think I can go to the new product report meeting today. I suddenly went on a business trip. Woman: Is that so? Why is something going on.\nMan : I called the local factory a while ago, but they asked me to see you because it was urgent.\nWoman : I need to get ready for the business trip as soon as possible. Then how about the new product report? Man: So, can you attend the report instead of me?\nWoman : Yes, I will.\nMan : Do you have a schedule for the report? I'll go out first Please check it.",
+            "detail"        : "Man : I don't think I can go to the new product report meeting today. I suddenly went on a business trip.\nWoman : Is that so? Why is something going on.\nMan : I called the local factory a while ago, but they asked me to see you because it was urgent.\nWoman : I need to get ready for the business trip as soon as possible. Then how about the new product report?\nMan : So, can you attend the report instead of me?\nWoman : Yes, I will.\nMan : Do you have a schedule for the report? I'll go out first Please check it.",
             "correctAnswer" : "②  출장 갈 준비를 한다.",
             "score"         : "3"
         },
