@@ -31,6 +31,26 @@ class ResultVC: UIViewController, StoryBoarded, UICollectionViewDelegate, UIColl
         
         self.setupUI()
         
+        self.animateTable()
+        
+    }
+    private func animateTable() {
+        self.collectionView.reloadData()
+        
+        let cells = collectionView.visibleCells
+        let tableHeight: CGFloat = collectionView.bounds.size.height
+        
+        for cell in cells {
+            cell.transform = CGAffineTransformMakeTranslation(0, tableHeight)
+        }
+        
+        var index = 0
+        for cell in cells {
+            UIView.animate(withDuration: 1.5, delay: 0.05 * Double(index), usingSpringWithDamping: 0.8, initialSpringVelocity: 0, options: [], animations: {
+                cell.transform = .identity
+            }, completion: nil)
+            index += 1
+        }
     }
     private func setupUI() {
         

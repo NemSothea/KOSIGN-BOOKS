@@ -50,6 +50,31 @@ class FavoriteTabVC : UIViewController, StoryBoarded {
 }
 //MARK: - UITableView
 extension FavoriteTabVC : UITableViewDataSource, UITableViewDelegate {
+    
+    func tableView(_ tableView: UITableView, didHighlightRowAt indexPath: IndexPath) {
+        
+        let cell = tableView.cellForRow(at: indexPath)
+        UIView.animate(withDuration: 0.2, delay: 0.1, options: .curveEaseOut, animations: {
+            cell?.transform = CGAffineTransform.identity.scaledBy(x: 0.97, y: 0.97)
+        }) { (_) in
+              /// ************** do action here **************
+        }
+    }
+    func tableView(_ tableView: UITableView, didUnhighlightRowAt indexPath: IndexPath) {
+        
+        let cell = tableView.cellForRow(at: indexPath)
+        UIView.animate(withDuration: 0.15, delay: 0.0, options: .curveEaseOut, animations: {
+            cell?.transform = CGAffineTransform.identity.scaledBy(x: 1.01, y: 1.01)
+        }) { (_) in
+            UIView.animate(withDuration: 0.2, delay: 0.0, options: UIView.AnimationOptions.curveEaseOut, animations: {
+                cell?.transform = CGAffineTransform.identity
+            }) { (_) in
+                
+                /// ************** do action here **************
+            }
+        }
+    }
+    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return self.listeningViewModel.TOPIKQuestionArray.count
     }

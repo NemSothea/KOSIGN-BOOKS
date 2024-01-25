@@ -30,6 +30,29 @@ class PopupVC : UIViewController, UITableViewDelegate, UITableViewDataSource {
         let attributedDoneText = NSAttributedString(string: "확인", attributes: [NSAttributedString.Key.font: UIFont(name: "1HoonDdukbokki Regular", size: fontSize) ?? 0])
         self.doneButton.setAttributedTitle(attributedDoneText, for: .normal)
         
+        self.animateTable()
+        
+    }
+    private func animateTable() {
+        self.tableView.reloadData()
+        
+        let cells = tableView.visibleCells
+        let tableHeight: CGFloat = tableView.bounds.size.height
+        
+        for i in cells {
+            let cell: UITableViewCell = i as UITableViewCell
+            cell.transform = CGAffineTransformMakeTranslation(0, tableHeight)
+        }
+        
+        var index = 0
+        
+        for a in cells {
+            let cell: UITableViewCell = a as UITableViewCell
+            UIView.animate(withDuration: 1.5, delay: 0.05 * Double(index), usingSpringWithDamping: 0.8, initialSpringVelocity: 0, options: [], animations: {
+                cell.transform = .identity
+            }, completion: nil)
+            index += 1
+        }
     }
     
     @IBAction func doneAction(_ sender: UIButton) {
