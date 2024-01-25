@@ -106,6 +106,8 @@
                     <navigationItem key="navigationItem" id="Gyn-KM-Sm6"/>
                     <connections>
                         <outlet property="playButton" destination="fQG-0Z-8R0" id="k7b-RA-chz"/>
+                        <outlet property="subTitleLabel" destination="L6C-5B-H2X" id="l1g-Oe-yne"/>
+                        <outlet property="tileLabel" destination="Jfr-Cs-pdu" id="ZaK-cO-JiW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

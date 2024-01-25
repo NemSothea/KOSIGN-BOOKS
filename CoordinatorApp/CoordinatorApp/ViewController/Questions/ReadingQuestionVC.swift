@@ -162,7 +162,7 @@ class ReadingQuestionVC: UIViewController {
             return
          
         }
-        if index<(self.questionsVM.data?.questions?.count ?? 0) - 1 {
+        if index < 3 {
             index += 1
            
             self.collectionView.scrollToItem(at: IndexPath(row: index, section: 0), at: .right, animated: true)

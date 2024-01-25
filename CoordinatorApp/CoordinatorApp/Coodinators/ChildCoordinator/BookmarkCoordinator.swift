@@ -26,7 +26,6 @@ class BookmarkCoordinator : Coordinator {
         
         vc.tabBarItem = UITabBarItem(title: "읽기", image: UIImage(systemName: "books.vertical"), tag: 0)
         
-        
         self.navigationViewController.pushViewController(vc, animated: true)
         
     }

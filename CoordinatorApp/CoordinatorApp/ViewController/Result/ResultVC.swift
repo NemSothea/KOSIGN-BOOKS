@@ -59,7 +59,7 @@ class ResultVC: UIViewController, StoryBoarded, UICollectionViewDelegate, UIColl
         self.congratulationLabel.font   =  UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
         self.impressLabel.font          = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
         self.scoreLabel.font            = UIFont(name: "BareunBatangOTF 1Light", size: fontSize)
-        self.reCheckLabel.font            = UIFont(name: "BareunBatangOTF 1Light", size: fontSize)
+        self.reCheckLabel.font          = UIFont(name: "BareunBatangOTF 1Light", size: fontSize)
         
         self.collectionView.register(UINib(nibName: "ResultCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "resultCollectionViewCell")
         
