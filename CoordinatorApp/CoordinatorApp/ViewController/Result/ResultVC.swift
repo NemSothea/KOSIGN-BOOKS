@@ -16,6 +16,7 @@ class ResultVC: UIViewController, StoryBoarded, UICollectionViewDelegate, UIColl
     @IBOutlet weak var impressLabel         : UILabel!
     
     @IBOutlet weak var reCheckLabel         : UILabel!
+    @IBOutlet weak var homeButton           : UIButton!
     
     @IBOutlet weak var collectionView       : UICollectionView!
     
@@ -60,6 +61,11 @@ class ResultVC: UIViewController, StoryBoarded, UICollectionViewDelegate, UIColl
         self.impressLabel.font          = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
         self.scoreLabel.font            = UIFont(name: "BareunBatangOTF 1Light", size: fontSize)
         self.reCheckLabel.font          = UIFont(name: "BareunBatangOTF 1Light", size: fontSize)
+        
+        let attritNextText = NSAttributedString(string: "재테스트", attributes: [NSAttributedString.Key.font: UIFont(name: "1HoonDdukbokki Regular", size: fontSize)!])
+        
+        self.homeButton.setAttributedTitle(attritNextText, for: .normal)
+        
         
         self.collectionView.register(UINib(nibName: "ResultCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "resultCollectionViewCell")
         

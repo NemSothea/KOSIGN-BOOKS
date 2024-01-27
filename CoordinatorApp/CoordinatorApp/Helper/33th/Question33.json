@@ -141,7 +141,7 @@
         },
         {   
             "sections"      : "※ [14~18] 다음 (     )에 알맞은 것을 고르십시오.",
-            "question"      : "14. (3점)\n가 : 왜 이렇게 늦었어요?\n나 : 미안해요.( )아는 사람을 만나서요.",
+            "question"      : "14. (3점)\n가 : 왜 이렇게 늦었어요?\n나 : 미안해요. (...)아는 사람을 만나서요.",
             "option_1"      : "①   오고서",
             "option_2"      : "②   오다가",
             "option_3"      : "③   오도록",
@@ -152,7 +152,7 @@
         },
         {   
             "sections"      : "※ [14~18] 다음 (     )에 알맞은 것을 고르십시오.",
-            "question"      : "15. (4점)\n가 : 이사하느라고 힘들었겠네요.\n나 : 아니에요. 동료들 덕분에 생각 (  )힘들지 않았어요.",
+            "question"      : "15. (4점)\n가 : 이사하느라고 힘들었겠네요.\n나 : 아니에요. 동료들 덕분에 생각  (...)힘들지 않았어요.",
             "option_1"      : "①  만큼",
             "option_2"      : "②  까지",
             "option_3"      : "③  이나",
@@ -163,7 +163,7 @@
         }, 
         {   
             "sections"      : "※ [14~18] 다음 (     )에 알맞은 것을 고르십시오.",
-            "question"      : "16. (3점)\n가 : 도서관에 그냥 들어가도 돼요?\n나 : 학생증이(  )들어갈 수 있습니다.",
+            "question"      : "16. (3점)\n가 : 도서관에 그냥 들어가도 돼요?\n나 : 학생증이(...)들어갈 수 있습니다.",
             "option_1"      : "①  있어야",
             "option_2"      : "②  있는데",
             "option_3"      : "③  있거든",
@@ -174,7 +174,7 @@
         },
         {   
             "sections"      : "※ [14~18] 다음 (     )에 알맞은 것을 고르십시오.",
-            "question"      : "17. (3점)\n가 : 8월 초에 여행을 갈까 해요.\n나 : 그때는 휴가철이니까 표를 미리 (  )좋을 거예요.",
+            "question"      : "17. (3점)\n가 : 8월 초에 여행을 갈까 해요.\n나 : 그때는 휴가철이니까 표를 미리 (...)좋을 거예요.",
             "option_1"      : "①  예매해 가지고",
             "option_2"      : "②  예매해 보이면",
             "option_3"      : "③  예매해 놓으면",
@@ -185,7 +185,7 @@
         }, 
         {   
             "sections"      : "※ [14~18] 다음 (     )에 알맞은 것을 고르십시오.",
-            "question"      : "18. (3점)\n가 : 아침에 어찌나 급한지 양말도 못 (  )왔어요.\n나 : 저도 가끔 그럴 때가 있어요.",
+            "question"      : "18. (3점)\n가 : 아침에 어찌나 급한지 양말도 못 (...)왔어요.\n나 : 저도 가끔 그럴 때가 있어요.",
             "option_1"      : "①  신은 김에",
             "option_2"      : "②  신은 대신",
             "option_3"      : "③  신은 채로",
@@ -408,7 +408,7 @@
             "option_2"      : "②  (나)-(라)-(다)-(가)",
             "option_3"      : "③  (라)-(가)-(나)-(다)",
             "option_4"      : "④  (라)-(나)-(가)-(다)",
-            "detail"        : " A get-together means more than eating delicious food. If you talk while eating, you will naturally get along well with your colleagues. If the atmosphere improves like this, the productivity of the company's work will also increase. This is the most important purpose of the get-together.",
+            "detail"        : " A company dinner is more than about eating delicious food. If you talk while eating, you will naturally get along well with your colleagues. If the atmosphere improves like this, the productivity of the company's work will also increase. This is the most important purpose of the get-together.",
             "correctAnswer" : "②  (나)-(라)-(다)-(가)"
         },
         {

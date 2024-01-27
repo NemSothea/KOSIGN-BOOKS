@@ -38,6 +38,7 @@ class ListeningQuestionVC: UIViewController {
         
         // Do any additional setup after loading the view.
         self.setUI()
+        self.wrongAnswerArray.removeAll()
         
         DispatchQueue.main.async {
             self.collectionView.delegate    = self
@@ -163,13 +164,9 @@ class ListeningQuestionVC: UIViewController {
             self.wrongAnswerArray.append(objs)
          
             if let sheet = popUpVC.sheetPresentationController {
-                let isPad = UIDevice.current.userInterfaceIdiom == .pad
-                if isPad {
-                    sheet.detents = [.large()]
-                }else {
-                    sheet.detents = [.medium(),.large()]
-                }
-                
+              
+                sheet.detents = [.large()]
+              
                 sheet.prefersGrabberVisible = true
                 sheet.preferredCornerRadius = 32
             }

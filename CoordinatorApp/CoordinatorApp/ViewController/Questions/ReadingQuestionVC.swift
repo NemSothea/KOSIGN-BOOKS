@@ -39,7 +39,7 @@ class ReadingQuestionVC: UIViewController {
         // Do any additional setup after loading the view.
        
         self.setUI()
-
+        self.wrongAnswerArray.removeAll()
         self.questionsVM.getData(for: self.indexTopic)
         
         DispatchQueue.main.async {
@@ -149,12 +149,9 @@ class ReadingQuestionVC: UIViewController {
             self.wrongAnswerArray.append(objs)
            
             if let sheet = popUpVC.sheetPresentationController {
-                let isPad = UIDevice.current.userInterfaceIdiom == .pad
-                if isPad {
-                    sheet.detents = [.large()]
-                }else {
-                    sheet.detents = [.medium(),.large()]
-                }
+             
+                sheet.detents = [.large()]
+               
                 sheet.prefersGrabberVisible = true
                 sheet.preferredCornerRadius = 32
             }
@@ -162,7 +159,7 @@ class ReadingQuestionVC: UIViewController {
             return
          
         }
-        if index < 3 {
+        if index < (self.questionsVM.data?.questions?.count ?? 0) - 1  {
             index += 1
            
             self.collectionView.scrollToItem(at: IndexPath(row: index, section: 0), at: .right, animated: true)

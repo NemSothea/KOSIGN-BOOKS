@@ -13,15 +13,22 @@ class ViewController: UIViewController, StoryBoarded {
     @IBOutlet weak var  tileLabel       : UILabel!
     @IBOutlet weak var  subTitleLabel   : UILabel!
     
+    @IBOutlet weak var waveView         : WaveView!
+    
+    
     var gotoMain : ((Bool) -> Void)?
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        self.playButton.tintColor       = UIColor.random()
-        self.playButton.backgroundColor = UIColor.random()
+      
         self.tileLabel.textColor        = UIColor.random()
         self.subTitleLabel.textColor    = UIColor.random()
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+            self.waveView.animationStart(direction: .right, speed: 10)
+        }
+        
     }
     
     
@@ -35,4 +42,3 @@ class ViewController: UIViewController, StoryBoarded {
 
 
 }
-

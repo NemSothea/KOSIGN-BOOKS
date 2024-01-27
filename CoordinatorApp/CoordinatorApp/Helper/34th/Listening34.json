@@ -240,7 +240,7 @@
             "option_2"      : "②  가게 주인",
             "option_3"      : "③  손님",
             "option_4"      : "④  전문 요리사",
-            "detail"        : "Man : 'Delicious T V' Today, I'm at a collection of sword soup in Seoul, which boasts a 50-year tradition. Even though it's before lunch time, the line is already long.( After a while) I think all the family members are here, do you come to this house often?\nWoman : Yes. This house hasn't raised its price for 10 years. It's hard to go somewhere at this price and have a lunch like this. And I didn't have a menu that my daughter liked before, but I had pork cutlet for a while, so my child likes it too.\nMan : You're a regular. Then when did you first come to this restaurant?\nWoman : I've been with my parents since I was young. But even then and now, the taste of the food remains the same.",
+            "detail"        : "\nMan : 'Delicious T V' Today, I'm at a collection of sword soup in Seoul, which boasts a 50-year tradition. Even though it's before lunch time, the line is already long.( After a while) I think all the family members are here, do you come to this house often?\nWoman : Yes. This house hasn't raised its price for 10 years. It's hard to go somewhere at this price and have a lunch like this. And I didn't have a menu that my daughter liked before, but I had pork cutlet for a while, so my child likes it too.\nMan : You're a regular. Then when did you first come to this restaurant?\nWoman : I've been with my parents since I was young. But even then and now, the taste of the food remains the same.",
             "correctAnswer" : "①  기자",
             "score"         : "3"
         },
@@ -251,7 +251,7 @@
             "option_2"      : "②  기능의 효과에 대해 묻고 있다.",
             "option_3"      : "③  기능의 장점에 대해 설명하고 있다.",
             "option_4"      : "④  기능을 사용해 본 경험을 말하고 있다.",
-            "detail"        : "Woman : I have some good news for novice drivers. Let's listen to the news with Kim Cheol-soo, a researcher of Hankook Motor.\nMan : Many drivers have difficulty parking. Especially for novice drivers. The function developed this time is to solve these concerns. If you stop the car in front of the parking space and press the button, it will be parked automatically. There is no problem if the space between the car and the car is narrow. Many people are inquiring these days because the parking problem is easily solved with the push of a button.",
+            "detail"        : "\nWoman : I have some good news for novice drivers. Let's listen to the news with Kim Cheol-soo, a researcher of Hankook Motor.\nMan : Many drivers have difficulty parking. Especially for novice drivers. The function developed this time is to solve these concerns. If you stop the car in front of the parking space and press the button, it will be parked automatically. There is no problem if the space between the car and the car is narrow. Many people are inquiring these days because the parking problem is easily solved with the push of a button.",
             "correctAnswer" : "③  기능의 장점에 대해 설명하고 있다.",
             "score"         : "3"
         },
@@ -262,7 +262,7 @@
             "option_2"      : "②  초보 운전자들이 줄어들어서",
             "option_3"      : "③  주차의 어려움을 해결하기 위해",
             "option_4"      : "④  주차장을 다양하게 활용하기 위해",
-            "detail"        : "Woman : I have some good news for novice drivers. Let's listen to the news with Kim Cheol-soo, a researcher of Hankook Motor.\nMan : Many drivers have difficulty parking. Especially for novice drivers. The function developed this time is to solve these concerns. If you stop the car in front of the parking space and press the button, it will be parked automatically. There is no problem if the space between the car and the car is narrow. Many people are inquiring these days because the parking problem is easily solved with the push of a button.",
+            "detail"        : "\nWoman : I have some good news for novice drivers. Let's listen to the news with Kim Cheol-soo, a researcher of Hankook Motor.\nMan : Many drivers have difficulty parking. Especially for novice drivers. The function developed this time is to solve these concerns. If you stop the car in front of the parking space and press the button, it will be parked automatically. There is no problem if the space between the car and the car is narrow. Many people are inquiring these days because the parking problem is easily solved with the push of a button.",
             "correctAnswer" : "③  주차의 어려움을 해결하기 위해",
             "score"         : "3"
         },
@@ -273,7 +273,7 @@
             "option_2"      : "②  수다와 잡담은 상대와 친해지기 위한 방법이다.",
             "option_3"      : "③  대화 방법은 상대가 누구냐에 따라 달라진다.",
             "option_4"      : "④  상대와 공통점이 있을 때 수다와 잡담을 하게 된다.",
-            "detail"        : "Woman : I often think of casual conversations in everyday life as useless chat or small talk. I think of it as a story to pass the time. But one psychologist said such conversations were also meaningful. “How have you been?”, “Do you like that song?” The same light conversation is actually 'I want to be close', 'I want to know about the other one.' It means Through those questions, you are looking for something in common with yourself and others. Because when there is something similar to me, we quickly feel intimacy. The light conversation you have in your daily life seems just meaningless, but it's actually an effort to get along with the other person.",
+            "detail"        : "\nWoman : I often think of casual conversations in everyday life as useless chat or small talk. I think of it as a story to pass the time. But one psychologist said such conversations were also meaningful. “How have you been?”, “Do you like that song?” The same light conversation is actually 'I want to be close', 'I want to know about the other one.' It means Through those questions, you are looking for something in common with yourself and others. Because when there is something similar to me, we quickly feel intimacy. The light conversation you have in your daily life seems just meaningless, but it's actually an effort to get along with the other person.",
             "correctAnswer" : "②  수다와 잡담은 상대와 친해지기 위한 방법이다.",
             "score"         : "4"
         },
@@ -284,7 +284,7 @@
             "option_2"      : "②  외국의 사례",
             "option_3"      : "③  자신의 경험",
             "option_4"      : "④  전문가의 의견",
-            "detail"        : "Woman : I often think of casual conversations in everyday life as useless chat or small talk. I think of it as a story to pass the time. But one psychologist said such conversations were also meaningful. “How have you been?”, “Do you like that song?” The same light conversation is actually 'I want to be close', 'I want to know about the other one.' It means Through those questions, you are looking for something in common with yourself and others. Because when there is something similar to me, we quickly feel intimacy. The light conversation you have in your daily life seems just meaningless, but it's actually an effort to get along with the other person.",
+            "detail"        : "\nWoman : I often think of casual conversations in everyday life as useless chat or small talk. I think of it as a story to pass the time. But one psychologist said such conversations were also meaningful. “How have you been?”, “Do you like that song?” The same light conversation is actually 'I want to be close', 'I want to know about the other one.' It means Through those questions, you are looking for something in common with yourself and others. Because when there is something similar to me, we quickly feel intimacy. The light conversation you have in your daily life seems just meaningless, but it's actually an effort to get along with the other person.",
             "correctAnswer" : "④  전문가의 의견",
             "score"         : "3"
         },
@@ -295,7 +295,7 @@
             "option_2"      : "②  일을 할 때 편한 옷을 입는 것이 좋다.",
             "option_3"      : "③  옷을 통해 상대방에게 믿음을 주어야 한다.",
             "option_4"      : "④  옷을 입을 때는 직업의 특성을 고려해야 한다.",
-            "detail"        : "Women : There are many companies that have become free to dress these days. They say you can wear jeans or a T-shirt to work instead of a suit, but I think the idea will be of great help to a computer company or design company that is important. Because if you work in a comfortable atmosphere, you can feel free.\nMan : The hard atmosphere of the company will change a little. I think an individual's personality can also be respected. However, for office workers who have to deal with customers often, it would be difficult to dress too comfortably. Depending on the other person, you can accept that light clothes are not polite. Wouldn't the meaning of clothes be different for each job?",
+            "detail"        : "\nWomen : There are many companies that have become free to dress these days. They say you can wear jeans or a T-shirt to work instead of a suit, but I think the idea will be of great help to a computer company or design company that is important. Because if you work in a comfortable atmosphere, you can feel free.\nMan : The hard atmosphere of the company will change a little. I think an individual's personality can also be respected. However, for office workers who have to deal with customers often, it would be difficult to dress too comfortably. Depending on the other person, you can accept that light clothes are not polite. Wouldn't the meaning of clothes be different for each job?",
             "correctAnswer" : "②  일을 할 때 편한 옷을 입는 것이 좋다.",
             "score"         : "3"
         },
@@ -306,7 +306,7 @@
             "option_2"      : "②  여자의 결정을 받아들이고 있다.",
             "option_3"      : "③  여자의 의견에 대해 궁금해하고 있다.",
             "option_4"      : "④  여자의 말에 부분적으로 동의하고 있다.",
-            "detail"        : "Women : There are many companies that have become free to dress these days. They say you can wear jeans or a T-shirt to work instead of a suit, but I think the idea will be of great help to a computer company or design company that is important. Because if you work in a comfortable atmosphere, you can feel free.\nMan : The hard atmosphere of the company will change a little. I think an individual's personality can also be respected. However, for office workers who have to deal with customers often, it would be difficult to dress too comfortably. Depending on the other person, you can accept that light clothes are not polite. Wouldn't the meaning of clothes be different for each job?",
+            "detail"        : "\nWomen : There are many companies that have become free to dress these days. They say you can wear jeans or a T-shirt to work instead of a suit, but I think the idea will be of great help to a computer company or design company that is important. Because if you work in a comfortable atmosphere, you can feel free.\nMan : The hard atmosphere of the company will change a little. I think an individual's personality can also be respected. However, for office workers who have to deal with customers often, it would be difficult to dress too comfortably. Depending on the other person, you can accept that light clothes are not polite. Wouldn't the meaning of clothes be different for each job?",
             "correctAnswer" : "④  여자의 말에 부분적으로 동의하고 있다.",
             "score"         : "3"
         },
@@ -317,7 +317,7 @@
             "option_2"      : "②  월요일 특별 수업,학부모의 참여 늘어",
             "option_3"      : "③  이야기꾼 할머니,유치원에서 제2의 인생 시작해",
             "option_4"      : "④  노인 일자리 사업,정부의 관심에서 점점 멀어져",
-            "detail"        : "Man : It is said that there is a special teacher in a kindergarten in Inju. Reporter Kim Soo-jin will deliver this news.\nWomen : Every Monday, you can meet a special teacher at this kindergarten. You're a 'storyteller's grandmother teacher who is taking the 'old story' class, and it's said that it's popular because it's very fun to tell children about old stories. This special teacher is working through the 'Serly Jobs Program' conducted by the government, and it is said that it is very rewarding to teach children. It is said that the elderly who came to work again through this program also like it, and the kindergarten children and parents are well received. This is Soo-jin Kim from KBC News.",
+            "detail"        : "\nMan : It is said that there is a special teacher in a kindergarten in Inju. Reporter Kim Soo-jin will deliver this news.\nWomen : Every Monday, you can meet a special teacher at this kindergarten. You're a 'storyteller's grandmother teacher who is taking the 'old story' class, and it's said that it's popular because it's very fun to tell children about old stories. This special teacher is working through the 'Serly Jobs Program' conducted by the government, and it is said that it is very rewarding to teach children. It is said that the elderly who came to work again through this program also like it, and the kindergarten children and parents are well received. This is Soo-jin Kim from KBC News.",
             "correctAnswer" : "③  이야기꾼 할머니,유치원에서 제2의 인생 시작해",
             "score"         : "4"
         },
@@ -328,7 +328,7 @@
             "option_2"      : "②  옛날이야기를 들려주는 직업이 인기를 끌고 있다.",
             "option_3"      : "③  할머니 선생님은 이 유치원에서 가장 오래 가르쳤다.",
             "option_4"      : "④  이 유치원에서는 월요일마다 ‘옛날이야기’수업을 한다.",
-            "detail"        : "Man : It is said that there is a special teacher in a kindergarten in Inju. Reporter Kim Soo-jin will deliver this news.\nWomen : Every Monday, you can meet a special teacher at this kindergarten. You're a 'storyteller's grandmother teacher who is taking the 'old story' class, and it's said that it's popular because it's very fun to tell children about old stories. This special teacher is working through the 'Serly Jobs Program' conducted by the government, and it is said that it is very rewarding to teach children. It is said that the elderly who came to work again through this program also like it, and the kindergarten children and parents are well received. This is Soo-jin Kim from KBC News.",
+            "detail"        : "\nMan : It is said that there is a special teacher in a kindergarten in Inju. Reporter Kim Soo-jin will deliver this news.\nWomen : Every Monday, you can meet a special teacher at this kindergarten. You're a 'storyteller's grandmother teacher who is taking the 'old story' class, and it's said that it's popular because it's very fun to tell children about old stories. This special teacher is working through the 'Serly Jobs Program' conducted by the government, and it is said that it is very rewarding to teach children. It is said that the elderly who came to work again through this program also like it, and the kindergarten children and parents are well received. This is Soo-jin Kim from KBC News.",
             "correctAnswer" : "④  이 유치원에서는 월요일마다 ‘옛날이야기’수업을 한다.",
             "score"         : "3"
         }
