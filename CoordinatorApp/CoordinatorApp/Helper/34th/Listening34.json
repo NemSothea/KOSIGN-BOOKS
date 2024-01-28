@@ -7,7 +7,7 @@
             "option_2"      : "② ",
             "option_3"      : "③ ",
             "option_4"      : "④ ",
-            "detail"        : "Woman : Sir, I'll help you with your order. What kind of ice cream would you like?\nMan : One strawberry flavor and one banana flavor, please.",
+            "detail"        : "\nWoman : Sir, I'll help you with your order. What kind of ice cream would you like?\nMan : One strawberry flavor and one banana flavor, please.",
             "correctAnswer" : "② ",
             "score"         : "3",
             "isImg"         : "y"
@@ -19,7 +19,7 @@
             "option_2"      : "② ",
             "option_3"      : "③ ",
             "option_4"      : "④ ",
-            "detail"        : "Man : Honey, do you want me to put the sweater in the closet drawer?\nWoman : no Please hang it on the upper hanger.",
+            "detail"        : "\nMan : Honey, do you want me to put the sweater in the closet drawer?\nWoman : no Please hang it on the upper hanger.",
             "correctAnswer" : "① ",
             "score"         : "3",
             "isImg"         : "y"
@@ -31,7 +31,7 @@
             "option_2"      : "②  좀 자고 나서 모임에 갈까 해.",
             "option_3"      : "③  이번 모임에는 꼭 나가려고 했거든.",
             "option_4"      : "④  안 와서 무슨 일이 있는 줄 알았어.",
-            "detail"        : "Man : Why didn't you come to the meeting yesterday?\nWoman : I lay in bed for a while, but I fell asleep without realizing it.\nMan : I was going to go out for this meeting.",
+            "detail"        : "\nMan : Why didn't you come to the meeting yesterday?\nWoman : I lay in bed for a while, but I fell asleep without realizing it.\nMan : I was going to go out for this meeting.",
             "correctAnswer" : "④  안 와서 무슨 일이 있는 줄 알았어.",
             "score"         : "3"
         },        
@@ -42,7 +42,7 @@
             "option_2"      : "②  그럼 이제 일하느라 바빠지겠네요.",
             "option_3"      : "③  곧 일자리를 구할 수 있을 거예요.",
             "option_4"      : "④  내일 저랑 같이 일자리를 찾아봐요.",
-            "detail"        : "Woman : I heard you got a job?\nMan : There's a place I like, so I decided to work from tomorrow.\nWoman : Then you'll be busy working now.",
+            "detail"        : "\nWoman : I heard you got a job?\nMan : There's a place I like, so I decided to work from tomorrow.\nWoman : Then you'll be busy working now.",
             "correctAnswer" : "②  그럼 이제 일하느라 바빠지겠네요.",
             "score"         : "3"
         },
@@ -53,7 +53,7 @@
             "option_2"      : "②  설렁탕이 뜨거우니까 조심하십시오.",
             "option_3"      : "③  설렁탕이 싱거우세요?갖다 드릴게요.",
             "option_4"      : "④  소금 없어도 돼요?필요하시면 말씀하세요.",
-            "detail"        : "Woman : Seolleongtang is here. Enjoy your meal \nMan : (The sound of drinking soup) Aunt, please give me some salt here.\nWoman : Is it okay if I don't have salt? Let me know if you need.",
+            "detail"        : "\nWoman : Seolleongtang is here. Enjoy your meal \nMan : (The sound of drinking soup) Aunt, please give me some salt here.\nWoman : Is it okay if I don't have salt? Let me know if you need.",
             "correctAnswer" : "③  설렁탕이 싱거우세요?갖다 드릴게요.",
             "score"         : "3"
         },
@@ -64,7 +64,7 @@
             "option_2"      : "②  안내문을 만들어 줄 수 있어요?",
             "option_3"      : "③  그럼 이대로 게시판에 붙일까요?",
             "option_4"      : "④  안내문을 언제쯤 완성할 수 있어요?",
-            "detail"        : "Man : Manager, I've made all the notices to be attached to the bulletin board. \nWoman : Shall we take a look? Well...... that's fine.\nMan : Then should I put it on the bulletin board like this?",
+            "detail"        : "\nMan : Manager, I've made all the notices to be attached to the bulletin board. \nWoman : Shall we take a look? Well...... that's fine.\nMan : Then should I put it on the bulletin board like this?",
             "correctAnswer" : "③  그럼 이대로 게시판에 붙일까요?",
             "score"         : "3"
         },
@@ -75,7 +75,7 @@
             "option_2"      : "②  무릎건 강과 나이의 관계",
             "option_3"      : "③  무릎이 아플 때 유의점",
             "option_4"      : "④  어머니의 무릎이 아픈 이유",
-            "detail"        : "(Conversation between a son in his 30s and a mother in his 60s)\nMan : Mother, how is your knee pain? \nWoman : I was told that it's good to take medicine and walk backwards, so I've been doing it for a few days and my knees have improved a lot.\nMan : That's a relief. But you still have to be careful.",
+            "detail"        : "\n(Conversation between a son in his 30s and a mother in his 60s)\nMan : Mother, how is your knee pain? \nWoman : I was told that it's good to take medicine and walk backwards, so I've been doing it for a few days and my knees have improved a lot.\nMan : That's a relief. But you still have to be careful.",
             "correctAnswer" : "①  어머니의 무릎 상태",
             "score"         : "3"
         },
@@ -86,7 +86,7 @@
             "option_2"      : "②  운동장 이용 시 주의 사항",
             "option_3"      : "③  운동장을 개방하는 시간",
             "option_4"      : "④  운동장을 이용하는 사람들",
-            "detail"        : "Man : Many schools are opening playgrounds these days. So in the evening, you can see a lot of citizens exercising or taking a walk. Throwing trash on the floor or a chair is becoming a problem. You need to think about the people around you and use it cleanly.",
+            "detail"        : "\nMan : Many schools are opening playgrounds these days. So in the evening, you can see a lot of citizens exercising or taking a walk. Throwing trash on the floor or a chair is becoming a problem. You need to think about the people around you and use it cleanly.",
             "correctAnswer" : "②  운동장 이용 시 주의 사항",
             "score"         : "3"
         },
@@ -97,7 +97,7 @@
             "option_2"      : "②  스타킹에 묻은 먼지 제거 방법",
             "option_3"      : "③  구멍 난 스타킹을 활용하는 방법",
             "option_4"      : "④  스타킹에 자주 구멍이 나는 이유",
-            "detail"        : "Woman : Do you care if there's dust build up under an unreachable bed or sofa? In that case, put stockings on the hanger and wipe it. It's easy to get rid of even the smallest amount of dust. You often get a hole when you wear stockings. Don't throw away these holed stockings and use them again.",
+            "detail"        : "\nWoman : Do you care if there's dust build up under an unreachable bed or sofa? In that case, put stockings on the hanger and wipe it. It's easy to get rid of even the smallest amount of dust. You often get a hole when you wear stockings. Don't throw away these holed stockings and use them again.",
             "correctAnswer" : "③  구멍 난 스타킹을 활용하는 방법",
             "score"         : "3"
         },
@@ -108,7 +108,7 @@
             "option_2"      : "②  사고 예방 대책",
             "option_3"      : "③  사고 대처 방법",
             "option_4"      : "④  사고 발생 원인",
-            "detail"        : "Man : The water pipe exploded at the intersection of Hankook University in the morning. Due to this accident, the water supply has not been supplied to the area for three hours, so the residents are experiencing inconvenience. The current burst is blocked and the water no longer comes out. It is said that you will be able to supply the water soon after the work of changing the water pipe. I think local residents will have to wait a little longer.",
+            "detail"        : "\nMan : The water pipe exploded at the intersection of Hankook University in the morning. Due to this accident, the water supply has not been supplied to the area for three hours, so the residents are experiencing inconvenience. The current burst is blocked and the water no longer comes out. It is said that you will be able to supply the water soon after the work of changing the water pipe. I think local residents will have to wait a little longer.",
             "correctAnswer" : "①  사고 처리 상황",
             "score"         : "3"
         },
@@ -119,7 +119,7 @@
             "option_2"      : "②  두 사람은 아침 일찍 백화점에 왔다.",
             "option_3"      : "③  지난번 세일 때는 물건이 많지 않았다.",
             "option_4"      : "④  여자는 마음에 드는 옷을 살 수 없었다.",
-            "detail"        : "Woman : It's a department store sale, but there aren't many items. Today is the first day.......\nMan : I know. I didn't do that last time on sale, but is it because I came in the evening?\nWoman : I should have come earlier. All the clothes I like are left in a large size.",
+            "detail"        : "\nWoman : It's a department store sale, but there aren't many items. Today is the first day.......\nMan : I know. I didn't do that last time on sale, but is it because I came in the evening?\nWoman : I should have come earlier. All the clothes I like are left in a large size.",
             "correctAnswer" : "④  여자는 마음에 드는 옷을 살 수 없었다.",
             "score"         : "4"
         },
@@ -130,7 +130,7 @@
             "option_2"      : "②  관리사무소는 식당 옆에 있다.",
             "option_3"      : "③  카메라 가방에는 사진이 두 장 들어 있다.",
             "option_4"      : "④  카메라를 본 사람은 관리사무소에 가면 된다.",
-            "detail"        : "Woman : I'm looking for a camera. A park user lost his white camera at a restaurant in the park around 2 p.m. today. The camera is a product from Korea Electronics and is in a black bag. It is said that precious photo files are stored on the camera. If you are looking at the camera or keeping it, please come to the management office next to the front door.",
+            "detail"        : "\nWoman : I'm looking for a camera. A park user lost his white camera at a restaurant in the park around 2 p.m. today. The camera is a product from Korea Electronics and is in a black bag. It is said that precious photo files are stored on the camera. If you are looking at the camera or keeping it, please come to the management office next to the front door.",
             "correctAnswer" : "④  카메라를 본 사람은 관리사무소에 가면 된다.",
             "score"         : "4"
         },
@@ -141,7 +141,7 @@
             "option_2"      : "②  이 선수는 경기에서 좋은 기록을 세웠다.",
             "option_3"      : "③  이 선수는 계속 올림픽에 도전할 것이다.",
             "option_4"      : "④  이 선수는 이번 올림픽에 처음 출전하였다.",
-            "detail"        : "Men : Our athlete Lee Jung-mi, we have finished our long career after this Olympics. Lee Jung-mi, who started her career in middle school, left a record of participating in the Olympics six times. Although he did not perform well in the Olympics, Lee Jung-mi's challenging spirit is very impressive to the people.",
+            "detail"        : "\nMen : Our athlete Lee Jung-mi, we have finished our long career after this Olympics. Lee Jung-mi, who started her career in middle school, left a record of participating in the Olympics six times. Although he did not perform well in the Olympics, Lee Jung-mi's challenging spirit is very impressive to the people.",
             "correctAnswer" : "①  이 선수는 중학교 때 운동선수가 되었다.",
             "score"         : "4"
         },
@@ -152,7 +152,7 @@
             "option_2"      : "②  사서 먹는 만두의 모양이 더 예쁘다.",
             "option_3"      : "③  만두를 직접 만들어서 먹는 것이 좋다.",
             "option_4"      : "④  만두는 여러 가지 재료로 만들어야 한다.",
-            "detail"        : "Woman : Wow! That sounds delicious The shape is so pretty, too. But isn't it hard to make dumplings yourself? It's more convenient for me to buy and eat.......\nMan : That's true, but if I make it myself, I can make it with my favorite ingredients and it's better for my body, wouldn't it?",
+            "detail"        : "\nWoman : Wow! That sounds delicious The shape is so pretty, too. But isn't it hard to make dumplings yourself? It's more convenient for me to buy and eat.......\nMan : That's true, but if I make it myself, I can make it with my favorite ingredients and it's better for my body, wouldn't it?",
             "correctAnswer" : "③  만두를 직접 만들어서 먹는 것이 좋다.",
             "score"         : "4"
         },
@@ -163,7 +163,7 @@
             "option_2"      : "②  광고지가 도움이 될 때가 있다.",
             "option_3"      : "③  길에서 주는 광고지는 광고 효과가 크다.",
             "option_4"      : "④  좋은 정보가 있는 광고지를 만들어야 한다.",
-            "detail"        : "Woman : I don't know why they distribute these flyers. Most people don't look at it and just throw it away. There's not much advertising effect, and I think it's a waste. \nMan : Is that so?( I'm a little puzzled and lightly refuted) I'm going to receive it. I sometimes get information from there. It's a pity that it's not there when I need it again......",
+            "detail"        : "\nWoman : I don't know why they distribute these flyers. Most people don't look at it and just throw it away. There's not much advertising effect, and I think it's a waste. \nMan : Is that so?( I'm a little puzzled and lightly refuted) I'm going to receive it. I sometimes get information from there. It's a pity that it's not there when I need it again......",
             "correctAnswer" : "②  광고지가 도움이 될 때가 있다.",
             "score"         : "4"
         },
@@ -174,7 +174,7 @@
             "option_2"      : "②  길고양이에게 주인을 찾아 줘야 한다.",
             "option_3"      : "③  길고양이는 먹이를 안 줘도 많아질 것이다.",
             "option_4"      : "④  길고양이 때문에 생활이 불편해지는 건 아니다.",
-            "detail"        : "Woman : There are a lot of stray cats in my neighborhood these days. It don't have an owner, and I'm sorry, so I want to feed it.\nMan : But if you keep feeding them, the number of stray cats will increase. If the number of cats increases, won't there be more accidents caused by cats? I can't even sleep at night because of the sound of crying.",
+            "detail"        : "\nWoman : There are a lot of stray cats in my neighborhood these days. It don't have an owner, and I'm sorry, so I want to feed it.\nMan : But if you keep feeding them, the number of stray cats will increase. If the number of cats increases, won't there be more accidents caused by cats? I can't even sleep at night because of the sound of crying.",
             "correctAnswer" : "①  길고양이에게 먹이를 주면 안 된다.",
             "score"         : "4"
         },
@@ -185,7 +185,7 @@
             "option_2"      : "②  상담으로 고민을 해결하려면 시간이 걸린다.",
             "option_3"      : "③  확실한 해결 방법을 상담에서 얻을 수 있다.",
             "option_4"      : "④  고민을 이야기하기만 해도 상담의 효과가 있다.",
-            "detail"        : "Woman : There are a lot of people looking for a professional to get counseling these days. Some people say that they just wasted their time because they didn't hear a clear solution even after receiving a consultation.\nMan : Of course, it will also be important to find a definitive solution through counseling. However, I think the effect of counseling is enough just to feel that someone can solve their concerns and that there is someone who listens to them well.",
+            "detail"        : "\nWoman : There are a lot of people looking for a professional to get counseling these days. Some people say that they just wasted their time because they didn't hear a clear solution even after receiving a consultation.\nMan : Of course, it will also be important to find a definitive solution through counseling. However, I think the effect of counseling is enough just to feel that someone can solve their concerns and that there is someone who listens to them well.",
             "correctAnswer" : "④  고민을 이야기하기만 해도 상담의 효과가 있다.",
             "score"         : "4"
         },
@@ -196,7 +196,7 @@
             "option_2"      : "②  마실 것을 산다.",
             "option_3"      : "③  좌석을 확인한다.",
             "option_4"      : "④  공연장 입구로 간다.",
-            "detail"        : "Woman : Come quickly. What time does our performance start?\nMan : It starts at 7 o'clock, so I still have some time.\nWoman : (Like looking at the clock, after a while) That's right. But where are our seats? Man: You have to get a ticket to know the seat.\nWoman : Then let's go quickly and get the ticket first.\nMan : I'll get the tickets, so you go get something to drink.\nWoman : Yes. Then let's meet at the entrance of the concert hall a little later.",
+            "detail"        : "\nWoman : Come quickly. What time does our performance start?\nMan : It starts at 7 o'clock, so I still have some time.\nWoman : (Like looking at the clock, after a while) That's right. But where are our seats? Man: You have to get a ticket to know the seat.\nWoman : Then let's go quickly and get the ticket first.\nMan : I'll get the tickets, so you go get something to drink.\nWoman : Yes. Then let's meet at the entrance of the concert hall a little later.",
             "correctAnswer" : "②  마실 것을 산다.",
             "score"         : "3"
         },
@@ -207,7 +207,7 @@
             "option_2"      : "②  카드를 만든다.",
             "option_3"      : "③  가방을 골라 준다.",
             "option_4"      : "④  포인트를 적립해 준다.",
-            "detail"        : "Woman : Sir, do you want this red bag?\nMan : Yes, give me that one.\nWoman : I got it. By the way, do you have a customer card in our store? If you give it to me, I will earn points for you.\nMan : I don't have a card. Does it take a long time to make?\nWoman : no It will be soon I'll pay first and make it for you.\nMan : (Thinking) Well....... It's OK I'll make the card next time.",
+            "detail"        : "\nWoman : Sir, do you want this red bag?\nMan : Yes, give me that one.\nWoman : I got it. By the way, do you have a customer card in our store? If you give it to me, I will earn points for you.\nMan : I don't have a card. Does it take a long time to make?\nWoman : no It will be soon I'll pay first and make it for you.\nMan : (Thinking) Well....... It's OK I'll make the card next time.",
             "correctAnswer" : "①  계산을 한다.",
             "score"         : "3"
         },
@@ -218,7 +218,7 @@
             "option_2"      : "②  설문지의 질문을 만든다.",
             "option_3"      : "③  과장님에게 보고하러 간다.",
             "option_4"      : "④  설문 조사 결과를 정리한다.",
-            "detail"        : "Woman : Jeong-soo, I've summarized the results of the customer satisfaction survey, so please take a look. I think something is lacking.\nMan : (after a while) um....... The female customer satisfaction part is a bit like that. \nWoman : Right? I need to do one more survey.\nMan : Well, the questionnaire last time seemed to lack the number of questions. \nWoman : This time, let's make a few more questions and investigate. First, I will report this situation to the manager.\nMan : Yes. Then I'll make a question to enter the questionnaire. Please review the contents later.\nWoman : OK",
+            "detail"        : "\nWoman : Jeong-soo, I've summarized the results of the customer satisfaction survey, so please take a look. I think something is lacking.\nMan : (after a while) um....... The female customer satisfaction part is a bit like that. \nWoman : Right? I need to do one more survey.\nMan : Well, the questionnaire last time seemed to lack the number of questions. \nWoman : This time, let's make a few more questions and investigate. First, I will report this situation to the manager.\nMan : Yes. Then I'll make a question to enter the questionnaire. Please review the contents later.\nWoman : OK",
             "correctAnswer" : "③  과장님에게 보고하러 간다.",
             "score"         : "3"
         },
@@ -229,7 +229,7 @@
             "option_2"      : "②  이 식당의 음식 맛은 전보다 훨씬 좋아졌다.",
             "option_3"      : "③  이 여자의 아이는 이 집의 칼국수를 좋아한다.",
             "option_4"      : "④  이 여자를 식당에 처음 데리고 온 사람은 부모님이다.",
-            "detail"        : "Man : 'Delicious T V' Today, I'm at a collection of sword soup in Seoul, which boasts a 50-year tradition. Even though it's before lunch time, the line is already long.( After a while) I think all the family members are here, do you come to this house often?\nWoman : Yes. This house hasn't raised its price for 10 years. It's hard to go somewhere at this price and have a lunch like this. And I didn't have a menu that my daughter liked before, but I had pork cutlet for a while, so my child likes it too.\nMan : You're a regular. Then when did you first come to this restaurant?\nWoman : I've been with my parents since I was young. But even then and now, the taste of the food remains the same.",
+            "detail"        : "\nMan : 'Delicious T V' Today, I'm at a collection of sword soup in Seoul, which boasts a 50-year tradition. Even though it's before lunch time, the line is already long.( After a while) I think all the family members are here, do you come to this house often?\nWoman : Yes. This house hasn't raised its price for 10 years. It's hard to go somewhere at this price and have a lunch like this. And I didn't have a menu that my daughter liked before, but I had pork cutlet for a while, so my child likes it too.\nMan : You're a regular. Then when did you first come to this restaurant?\nWoman : I've been with my parents since I was young. But even then and now, the taste of the food remains the same.",
             "correctAnswer" : "④  이 여자를 식당에 처음 데리고 온 사람은 부모님이다.",
             "score"         : "3"
         },

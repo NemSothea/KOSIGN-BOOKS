@@ -19,7 +19,7 @@
             "option_2"      : "② ",
             "option_3"      : "③ ",
             "option_4"      : "④ ",
-            "detail"        : "Man : It's done. How are you doing Take a look in the mirror.\nWoman : The length is fine and I think the perm is good.",
+            "detail"        : "\nMan : It's done. How are you doing Take a look in the mirror.\nWoman : The length is fine and I think the perm is good.",
             "correctAnswer" : "① ",
             "score"         : "3",
             "isImg"         : "y"
