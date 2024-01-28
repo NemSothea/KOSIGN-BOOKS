@@ -163,7 +163,7 @@
             "option_2"      : "②  과제는 되도록 일찍 끝내야 한다.",
             "option_3"      : "③  편안한 마음으로 과제를 해야 한다.",
             "option_4"      : "④  과제 부담이 크면 과제를 끝내기 어렵다.",
-            "detail"        : "\nMan : The assignment deadline is only two days away, but I really don't want to do it. Woman: It's better to do the assignment at that time. If you don't, you'll spend time worrying about the burden. Just because you postpone the assignment until the deadline doesn't mean you can play comfortably.",
+            "detail"        : "\nMan : The assignment deadline is only two days away, but I really don't want to do it. \nWoman : It's better to do the assignment at that time. If you don't, you'll spend time worrying about the burden. Just because you postpone the assignment until the deadline doesn't mean you can play comfortably.",
             "correctAnswer" : "②  과제는 되도록 일찍 끝내야 한다.",
             "score"         : "4"
         },
@@ -185,7 +185,7 @@
             "option_2"      : "②  그림을 통해 사람의 마음속을 정확하게 알 수 있다.",
             "option_3"      : "③  마음의 안정을 얻으려면 그림을 솔직하게 그려야 한다.",
             "option_4"      : "④  그림을 그리면서 마음을 표현하는 효과를 얻을 수 있다.",
-            "detail"        : "\nMan : It is said that more and more people are treating mental illness through painting. Sir, how can you get peace of mind with painting? Woman : Most people who are frustrated or anxious spend a lot of time alone. I'm frustrated and anxious, so I don't have the courage to talk to other people. But if you draw a picture, it has a similar effect to having a conversation. I express the story in my heart with pictures.",
+            "detail"        : "\nMan : It is said that more and more people are treating mental illness through painting. Sir, how can you get peace of mind with painting?\nWoman : Most people who are frustrated or anxious spend a lot of time alone. I'm frustrated and anxious, so I don't have the courage to talk to other people. But if you draw a picture, it has a similar effect to having a conversation. I express the story in my heart with pictures.",
             "correctAnswer" : "④  그림을 그리면서 마음을 표현하는 효과를 얻을 수 있다.",
             "score"         : "4"
         },
