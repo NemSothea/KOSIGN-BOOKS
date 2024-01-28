@@ -8,7 +8,7 @@
             "option_4"      : "④  약",
             "correctAnswer" : "②  연락",
             "score"         : "3",
-             "detail"        : "I got a call that my brother arrived at the airport."
+             "detail"        : "\nI got a call that my brother arrived at the airport."
         },
         {   "sections"      : "※ [1~5] 다음 (   ) 에 알맞은 것을 고르십시오.",
             "question"      : "2. 취미로 여러 나라의 우표를(....)있다. (3점)",
@@ -18,7 +18,7 @@
             "option_4"      : "④  옮기고",
             "correctAnswer" : "③  모으고",
             "score"         : "3",
-             "detail"        : "I'm collecting stamps from various countries as a hobby."
+             "detail"        : "\nI'm collecting stamps from various countries as a hobby."
         },
         {   "sections"      : "※ [1~5] 다음 (....) 에 알맞은 것을 고르십시오.",
             "question"      : "3. 국이 싱거워 서소을(  )넣었다. (3점)",
@@ -28,7 +28,7 @@
             "option_4"      : "④  약간",
             "correctAnswer" : "④  약간",
             "score"         : "3",
-             "detail"        : "The soup is bland, so I added some soy sauce."
+             "detail"        : "\nThe soup is bland, so I added some soy sauce."
         },
         {   
             "sections"      : "※ [1~5] 다음 (   ) 에 알맞은 것을 고르십시오.",
@@ -39,7 +39,7 @@
             "option_4"      : "④  지저분했다",
             "correctAnswer" : "①  심심했다",
             "score"         : "3",
-             "detail"        : "I was bored all day because there was nothing interesting."
+             "detail"        : "\nI was bored all day because there was nothing interesting."
         },
         {   "sections"      : "※ [1~5] 다음 (   ) 에 알맞은 것을 고르십시오.",
             "question"      : "5. 나는 꿈을(....) 해서 더욱 노력할 것이다. (4점)",
@@ -49,7 +49,7 @@
             "option_4"      : "④  마치기",
             "correctAnswer" : "③  이루기",
             "score"         : "4",
-             "detail"        : "I will try harder to achieve my dream."
+             "detail"        : "\nI will try harder to achieve my dream."
         },
         {   
             "sections"      : "※ [6~9] 다음 밑줄 친 부분과 의미가 비슷한 것을 고르십시오.",
@@ -60,7 +60,7 @@
             "option_4"      : "④  밀린다",
             "correctAnswer" : "④  밀린다",
             "score"         : "3",
-             "detail"        : "There's a lot of traffic because it's time to go to work."
+             "detail"        : "\nThere's a lot of traffic because it's time to go to work."
         },
         {   
             "sections"      : "※ [6~9] 다음 밑줄 친 부분과 의미가 비슷한 것을 고르십시오.",
@@ -71,7 +71,7 @@
             "option_4"      : "④  무서운",
             "correctAnswer" : "②  힘든",
             "score"         : "3",
-             "detail"        : "He didn't lose his smile even in the difficult family situation."
+             "detail"        : "\nHe didn't lose his smile even in the difficult family situation."
         },
         {   
             "sections"      : "※ [6~9] 다음 밑줄 친 부분과 의미가 비슷한 것을 고르십시오.",
@@ -251,14 +251,14 @@
         },
         {   
             "sections"      : " ※ [24~25] 다음을 읽고 물음에 답하십시오. (각 3점)",
-            "question"      : " 세계적인 명작을 아동용으로 만든 뮤지컬이 인기이다. 이 뮤지컬은 각색을 통해 어린이에게 부적절한 내용을 제외하였다 .대신에 다양한 춤과 음악으로 장면을 ( ㉠ )묘기나 마술 같은 신기한 볼거리도 넣었다.덕분에 이 뮤지컬은 아이들에게 많은 호응을 얻고 있다. 하지만 같이 간 어른들이 보기에 다소 흥미가 떨어 질 수 있다는 점은 ‘( ㉡ )’이다 .\n24. (3점)(  ㉠  )에 알맞은 것을 고르십시오.",
+            "question"      : " 세계적인 명작을 아동용으로 만든 뮤지컬이 인기이다. 이 뮤지컬은 각색을 통해 어린이에게 부적절한 내용을 제외하였다 . 대신에 다양한 춤과 음악으로 장면을 ( ㉠ )묘기나 마술 같은 신기한 볼거리도 넣었다.덕분에 이 뮤지컬은 아이들에게 많은 호응을 얻고 있다. 하지만 같이 간 어른들이 보기에 다소 흥미가 떨어 질 수 있다는 점은 ‘( ㉡ )’이다 .\n24. (3점)(  ㉠  )에 알맞은 것을 고르십시오.",
             "option_1"      : "①  채울 겸해서",
             "option_2"      : "②  채울쯤해서",
             "option_3"      : "③  채우면 으레",
             "option_4"      : "④  채우는한편",
             "correctAnswer" : "④  채우는한편",
             "score"         : "3",
-             "detail"        : "\nA musical that made world-class masterpieces for children is popular. This musical was adapted to exclude inappropriate content for children. Instead, it filled the scene with a variety of dances and music, while also added amazing sights such as stunts and magic. Thanks to you, this musical is getting a lot of response from children. However, the fact that the adults who went with them may be somewhat less interested in it is 'Ok-e T'."
+             "detail"        : "\nA musical that made world-class masterpieces for children is popular. This musical was adapted to exclude inappropriate content for children. Instead, it filled the scene with a variety of dances and music, while also added amazing sights such as stunts and magic. Thanks to you, this musical is getting a lot of response from children. However, the fact that it may be a little less interesting to the adults who went with it is obvious(evident)."
         },
         {   
             "sections"      : " ※ [24~25] 다음을 읽고 물음에 답하십시오. (각 3점)",
@@ -269,7 +269,7 @@
             "option_4"      : "④  누워서떡먹기",
             "correctAnswer" : "①  옥에 티",
             "score"         : "3",
-             "detail"        : "\nA musical that made world-class masterpieces for children is popular. This musical was adapted to exclude inappropriate content for children. Instead, it filled the scene with a variety of dances and music, while also added amazing sights such as stunts and magic. Thanks to you, this musical is getting a lot of response from children. However, the fact that the adults who went with them may be somewhat less interested in it is 'Ok-e T'."
+             "detail"        : "\nA musical that made world-class masterpieces for children is popular. This musical was adapted to exclude inappropriate content for children. Instead, it filled the scene with a variety of dances and music, while also added amazing sights such as stunts and magic. Thanks to you, this musical is getting a lot of response from children. However, the fact that it may be a little less interesting to the adults who went with it is obvious(evident)."
         },
         {
             "sections"      : " ※ [31~34] 다음은 무엇에 대한 글인지 고르십시오. (각 3점) ",
@@ -326,7 +326,7 @@
             "question"      : "31_8_img",
             "option_1"      : "①  관람률이 가장 크게 증가한 것은 콘서트이다.",
             "option_2"      : "②  두 해 모두 영화를 관람한 비율이 가장 낮다.",
-            "option_3"      : "③  201년에는 연극보다 뮤지컬을 더 많이 관람했다.",
+            "option_3"      : "③  2011년에는 연극보다 뮤지컬을 더 많이 관람했다.",
             "option_4"      : "④  2012년에는 연극보다 콘서트를 관람한 사람이 적었다.",
             "correctAnswer" : "①  관람률이 가장 크게 증가한 것은 콘서트이다.",
             "isImg"         : "y"
@@ -343,7 +343,7 @@
         },
         {
             "sections"      : " ※ [35~38] 다음을 보고 내용이 같은 것을 고르십시오.",
-            "question"      : " 서울시 교육청은 이번 달 말까지 초ᆞ중ᆞ고등학교의 학생과 교사를 대상 으로 안 쓰는 휴대 전화를 모으는 행사를 연다고 밝혔다. 2010년부터 시작된 이 행사로 지난해까지 30만 대의 휴대 전화가 모였는데,수익금은 모두 가정 형편이 어려운 학생들에게 장학금으로 지급되었다. 이번 행사를 통해 올해도 학생 1,0여 명이 장학금을 받을 것으로 전망된다.\nQ36.",
+            "question"      : " 서울시 교육청은 이번 달 말까지 초ᆞ중ᆞ고등학교의 학생과 교사를 대상 으로 안 쓰는 휴대 전화를 모으는 행사를 연다고 밝혔다. 2010년부터 시작된 이 행사로 지난해까지 30만 대의 휴대 전화가 모였는데,수익금은 모두 가정 형편이 어려운 학생들에게 장학금으로 지급되었다. 이번 행사를 통해 올해도 학생 1,00여 명이 장학금을 받을 것으로 전망된다.\nQ36.",
             "option_1"      : "①  학생들만 이 행사에 참여할 수 있다.",
             "option_2"      : "②  작년에 모은 휴대 전화는 30만 대이다.",
             "option_3"      : "③  이 장학금은 성적이 좋아야 받을 수 있다.",
@@ -393,12 +393,12 @@
         },
         {
             "sections"      : " ※ [43~45] 다음을 순서대로 맞게 배열한 것을 고르십시오. (각 3점)",
-            "question"      : "(가)사람들은 종종 장난으로 무엇인가를 쓰는 낙서를 한다.\n(나)그런데 낙서에는 나쁘고 거친 말들도 많이 나타난다.\n(다)낙서를 하면 스트레스를 푸는 데에 도움이 된다.\n(라)자기만 본다고 생각해서 조심하지 않고 쓰기 때문이다.\nQ43.",
+            "question"      : "(가)사람들은 종종 장난으로 무엇인가를 쓰는 낙서를 한다.\n(나)그런데 낙서에는 나쁘고 거친 말들도 많이 나타난다.\n(다)낙서를 하면 스트레스를 푸는 데에 도움이 된다.\n(라)자기만 본다고 생각해서 조심하지 않고 쓰기 때문이다.\nQ41.",
             "option_1"      : "①  (가)-(다)-(나)-(라)",
             "option_2"      : "②  (가)-(다)-(라)-(나)",
             "option_3"      : "③  (다)-(나)-(가)-(라)",
             "option_4"      : "④  (다)-(나)-(라)-(가)",
-            "detail"        : "\nPeople often doodle to write something for fun. Doodling helps relieve stress. However, there are many bad and harsh words in graffiti. Because they think they are only looking at themselves, they write without being careful.",
+            "detail"        : "\nPeople often doodle(drawing made absent-mindedly) to write something for fun. Doodling helps relieve stress. However, there are many bad and harsh words in graffiti. Because they think they are only looking at themselves, they write without being careful.",
             "correctAnswer" : "①  (가)-(다)-(나)-(라)"
         },
         {
