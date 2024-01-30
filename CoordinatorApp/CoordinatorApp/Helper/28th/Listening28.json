@@ -7,7 +7,7 @@
             "option_2"      : "② ",
             "option_3"      : "③ ",
             "option_4"      : "④ ",
-            "detail"        : "Woman : Welcome. Could you give me your passport and put your bag on this side?\nMan : here Oh, and please give me a window seat.\nWoman : Yes, I got it. Here's your passport and boarding pass. I gave you a seat by the window. Have a nice trip.",
+            "detail"        : "\nWoman : Welcome. Could you give me your passport and put your bag on this side?\nMan : here Oh, and please give me a window seat.\nWoman : Yes, I got it. Here's your passport and boarding pass. I gave you a seat by the window. Have a nice trip.",
             "correctAnswer" : "④ ",
             "score"         : "3",
             "isImg"         : "y"
@@ -19,7 +19,7 @@
             "option_2"      : "② ",
             "option_3"      : "③ ",
             "option_4"      : "④ ",
-            "detail"        : "Woman : Oh my god, laptop, you can't put it on your lap like that. They say you can get burned.\nMan: I'm using it for a while, are you going to get burned, sister?\nWoman : But put it on the table there and write it.",
+            "detail"        : "\nWoman : Oh my god, laptop, you can't put it on your lap like that. They say you can get burned.\nMan: I'm using it for a while, are you going to get burned, sister?\nWoman : But put it on the table there and write it.",
             "correctAnswer" : "③ ",
             "score"         : "3",
             "isImg"         : "y"
@@ -53,7 +53,7 @@
             "option_2"      : "②  누구한테 빌려 줬는지 모르겠네요.",
             "option_3"      : "③  저는 그것도 모르고 한참 찾았네요.",
             "option_4"      : "④  사전에는 이름을 써 두는 게 좋아요.",
-            "detail"        : "Man : That's really weird. Mina, didn't you see my dictionary on the desk?\nWoman : Oh, the dictionary? You lent it to Minsu yesterday.\nMan : I didn't even know that and I looked for it for a long time.",
+            "detail"        : "\nMan : That's really weird. Mina, didn't you see my dictionary on the desk?\nWoman : Oh, the dictionary? You lent it to Minsu yesterday.\nMan : I didn't even know that and I looked for it for a long time.",
             "correctAnswer" : "③  저는 그것도 모르고 한참 찾았네요.",
             "score"         : "3"
         },
@@ -64,7 +64,7 @@
             "option_2"      : "②  너무 오래돼서 그런가 봐요.",
             "option_3"      : "③  수리가 끝나는 대로 빨리 갈게요.",
             "option_4"      : "④  외출을 해야 해서 오후가 좋겠어요.",
-            "detail"        : "Woman : Well, even if I turn on the boiler, it doesn't get warm. I fixed it last time, and it happens again.\nMan : Oh, do you? Then can we visit now?\nWoman : I want to go out in the afternoon.",
+            "detail"        : "\nWoman : Well, even if I turn on the boiler, it doesn't get warm. I fixed it last time, and it happens again.\nMan : Oh, do you? Then can we visit now?\nWoman : I want to go out in the afternoon.",
             "correctAnswer" : "④  외출을 해야 해서 오후가 좋겠어요.",
             "score"         : "3"
         },
@@ -75,7 +75,7 @@
             "option_2"      : "②  어울리는 색깔을 고르는 방법",
             "option_3"      : "③  넥타이 색깔이 가진 이미지",
             "option_4"      : "④  넥타이 색깔이 다양한 이유",
-            "detail"        : "Woman : Are you still choosing a tie?\nMan : Uh. There are so many different colors, what should I buy?\nWoman: You said you'd watch it during the interview, right? What do you want to look like in the interview? Blue looks honest and yellow looks meticulous. Oh, red looks active, maybe.",
+            "detail"        : "\nWoman : Are you still choosing a tie?\nMan : Uh. There are so many different colors, what should I buy?\nWoman: You said you'd watch it during the interview, right? What do you want to look like in the interview? Blue looks honest and yellow looks meticulous. Oh, red looks active, maybe.",
             "correctAnswer" : "① 노트북의 무게",
             "score"         : "3"
         },
@@ -86,7 +86,7 @@
             "option_2"      : "②  음식이 가장 맛있는 온도",
             "option_3"      : "③  시원하게 먹는 음식의 종류",
             "option_4"      : "④  떨어진 맛을 살리는 방법",
-            "detail"        : "Woman : Chicken is hot and beer is cool because the temperature determines the taste of the food. The temperature at which chicken is the most delicious is 75 degrees, and the temperature at which beer is the most delicious is 4. Chilled chicken and lukewarm beer don't taste good. Don't forget that the right temperature makes the food even more delicious.",
+            "detail"        : "\nWoman : Chicken is hot and beer is cool because the temperature determines the taste of the food. The temperature at which chicken is the most delicious is 75 degrees, and the temperature at which beer is the most delicious is 4. Chilled chicken and lukewarm beer don't taste good. Don't forget that the right temperature makes the food even more delicious.",
             "correctAnswer" : "④ 부모의 대화 방법",
             "score"         : "3"
         },
@@ -97,7 +97,7 @@
             "option_2"      : "②  귀의 부담을 없애는 방법",
             "option_3"      : "③  이어폰을 사용할때 의주의사항",
             "option_4"      : "④  이어폰 사용과 집중력의 관계",
-            "detail"        : "Man : There are many people who wear earphones and listen to music loudly. However, this habit puts a strain on the ears and gradually reduces concentration. There are also many people who walk on the street with earphones on. If you do this, you won't be able to hear the surrounding sounds well, and you may have a safety accident that bumps into people or bicycles.",
+            "detail"        : "\nMan : There are many people who wear earphones and listen to music loudly. However, this habit puts a strain on the ears and gradually reduces concentration. There are also many people who walk on the street with earphones on. If you do this, you won't be able to hear the surrounding sounds well, and you may have a safety accident that bumps into people or bicycles.",
             "correctAnswer" : "① 유리건 물의 증가이유",
             "score"         : "3"
         },
@@ -108,7 +108,7 @@
             "option_2"      : "②  화재에 대처하는 방법",
             "option_3"      : "③  화재 진압이 늦어진 이유",
             "option_4"      : "④  화재 예방을 위한 대책",
-            "detail"        : "Man : A fire a fire in the Han Sang-ga building in Oksan-dong, Seoul this morning, and it was not extinguished until three hours after burning the entire building. The Oksan Fire Department, which received a fire report, rushed a fire truck to the fire site, but the wind blew strongly and there were many items that burned well in the shopping mall, so it was difficult to extinguish the fire.",
+            "detail"        : "\nMan : A fire a fire in the Han Sang-ga building in Oksan-dong, Seoul this morning, and it was not extinguished until three hours after burning the entire building. The Oksan Fire Department, which received a fire report, rushed a fire truck to the fire site, but the wind blew strongly and there were many items that burned well in the shopping mall, so it was difficult to extinguish the fire.",
             "correctAnswer" : "② 사고 방지 대책",
             "score"         : "3"
         },
@@ -119,7 +119,7 @@
             "option_2"      : "②  상품은 예정보다 늦게 도착했다.",
             "option_3"      : "③  담당 기사는 지금 사무실에 있다.",
             "option_4"      : "④  여자는 받는 날짜를 바꾸고 싶어한다",
-            "detail"        : "Woman : It's a Korean courier, right? The order number is 04185, and I heard it will be delivered today or tomorrow. I'd like to check when I can get it.\nMan : Yes, please wait a moment. (Keyboard sound) Oh, yes. It is scheduled to be delivered tomorrow. Woman: Is that so? It's a book that I have to read in a hurry, can't I do it today?\nMan : I'm sorry. I think it will be difficult for all the drivers to deliver today.",
+            "detail"        : "\nWoman : It's a Korean courier, right? The order number is 04185, and I heard it will be delivered today or tomorrow. I'd like to check when I can get it.\nMan : Yes, please wait a moment. (Keyboard sound) Oh, yes. It is scheduled to be delivered tomorrow. Woman: Is that so? It's a book that I have to read in a hurry, can't I do it today?\nMan : I'm sorry. I think it will be difficult for all the drivers to deliver today.",
             "correctAnswer" : "③  감정 로봇은 앞사람의 표정을 따라할 수 있다.",
             "score"         : "4"
         },
@@ -130,7 +130,7 @@
             "option_2"      : "②  영화의 주인공이 관객과의 대화 시간에 참석한다.",
             "option_3"      : "③  영화 촬영 과정에 대해서는 영화감독이 이야기해 준다.",
             "option_4"      : "④  관객과의 대화 시간에 참석하려면 장소를 이동해야 한다.",
-            "detail"        : "Woman : I'll let you know for a moment. Immediately after the movie screening, there will be a conversation with the audience with the main characters, Jo Sung-chan and Han Yu-mi. After listening to the exciting filming story of the main actor, we will also take a commemorative photo. We look forward to your attendance.",
+            "detail"        : "\nWoman : I'll let you know for a moment. Immediately after the movie screening, there will be a conversation with the audience with the main characters, Jo Sung-chan and Han Yu-mi. After listening to the exciting filming story of the main actor, we will also take a commemorative photo. We look forward to your attendance.",
             "correctAnswer" : "②  공사 기간 동안 3층에 출입하지 못한다.",
             "score"         : "4"
         },
@@ -141,7 +141,7 @@
             "option_2"      : "②  개는 코가 젖어 있기 때문에 냄새를 잘 맡는다.",
             "option_3"      : "③  개가 냄새를 맡을 수 있는 거리는 500m 이내이다.",
             "option_4"      : "④  개의 코는 공기 중을 떠다니는 냄새를 잡아 두지 못한다.",
-            "detail"        : "Man : Dogs distinguish things much faster and more accurately than humans. How can I do that? It's thanks to the sense of smell that is 1 million times better than humans. So dogs can distinguish objects that are more than 500 meters away by their smell. The smell floats in the air, but the dog's nose is always wet, so it can hold the smell for a long time. That's why I smell it well.",
+            "detail"        : "\nMan : Dogs distinguish things much faster and more accurately than humans. How can I do that? It's thanks to the sense of smell that is 1 million times better than humans. So dogs can distinguish objects that are more than 500 meters away by their smell. The smell floats in the air, but the dog's nose is always wet, so it can hold the smell for a long time. That's why I smell it well.",
             "correctAnswer" : "①  단거리 선수는 숨을 멈추고 달리는 훈련을 한다.",
             "score"         : "4"
         },
@@ -152,7 +152,7 @@
             "option_2"      : "②  집 안에 음식 냄새가 퍼지는 것이 싫다.",
             "option_3"      : "③  집이 좁으면 음식 냄새를 없애기 힘들다.",
             "option_4"      : "④  부엌이 넓어야 아이들하고 이야기하기 좋다.",
-            "detail"        : "Man : Uh, this house is fine. The kitchen and the living room are separated, so I don't think the smell of food will spread. I like it, how about you?\nWoman : I think it looks narrow because the kitchen and the living room are separated. Wouldn't it be better to be attached? It smells like food. If you leave the door open, it will disappear soon. And if the kitchen and the living room are attached, you can talk to the kids in the living room while cooking.",
+            "detail"        : "\nMan : Uh, this house is fine. The kitchen and the living room are separated, so I don't think the smell of food will spread. I like it, how about you?\nWoman : I think it looks narrow because the kitchen and the living room are separated. Wouldn't it be better to be attached? It smells like food. If you leave the door open, it will disappear soon. And if the kitchen and the living room are attached, you can talk to the kids in the living room while cooking.",
             "correctAnswer" : "②  학교 안에서 장사를 하는 것은 좋지 않다.",
             "score"         : "4"
         },
@@ -163,7 +163,7 @@
             "option_2"      : "②  회사에서 업무용 기기를 나누어 줄 필요가 있다.",
             "option_3"      : "③  업무용 기기를 가지고 다닐 수 없어서 좋지 않다.",
             "option_4"      : "④  업무용 기기 때문에 일에서 벗어날 수 없어서 불편하다. ",
-            "detail"        : "Woman : Did you come? Oh, did you buy it?\nMan : Oh, this? This is the business device I received from the company today. I think it would be convenient because you can work anywhere with this.\nWoman : (As if it's a gain) Everyone thinks so then. (In a voice mixed with disgment) Our company also gave it to us before. At first, it's really convenient because you can carry it around and handle urgent things anytime, anywhere. But because of that, even if I eat at lunch, even after work and take a rest, there are times when I have to work.",
+            "detail"        : "\nWoman : Did you come? Oh, did you buy it?\nMan : Oh, this? This is the business device I received from the company today. I think it would be convenient because you can work anywhere with this.\nWoman : (As if it's a gain) Everyone thinks so then. (In a voice mixed with disgment) Our company also gave it to us before. At first, it's really convenient because you can carry it around and handle urgent things anytime, anywhere. But because of that, even if I eat at lunch, even after work and take a rest, there are times when I have to work.",
             "correctAnswer" : "④  관객이 참여하는 연극은 편안하게 즐기기 힘들다.",
             "score"         : "4"
         },
@@ -174,7 +174,7 @@
             "option_2"      : "②  재래시장에서도 물건을 배달해 주어야 한다.",
             "option_3"      : "③  재래시장의 물건 가격을 더 싸게 해야 한다.",
             "option_4"      : "④  재래시장의 좋은 점을 사람들에게 홍보해야 한다.",
-            "detail"        : "Man : According to the news, the traditional market is much cheaper than other places. And these days, they deliver and there are a lot of other services. Why aren't there so many people looking for it? Is it because of the lack of publicity?\nWoman: I don't think people don't go because they don't know. I know it's cheap, but convenience facilities such as parking lots and toilets are inconvenient, so I don't go there often. A lot of people get it when things like this go well.",
+            "detail"        : "\nMan : According to the news, the traditional market is much cheaper than other places. And these days, they deliver and there are a lot of other services. Why aren't there so many people looking for it? Is it because of the lack of publicity?\nWoman: I don't think people don't go because they don't know. I know it's cheap, but convenience facilities such as parking lots and toilets are inconvenient, so I don't go there often. A lot of people get it when things like this go well.",
             "correctAnswer" : "④ 카드가 있다면 꼭 현금을 들고 다닐 필요는 없다.",
             "score"         : "4"
         },
@@ -185,7 +185,7 @@
             "option_2"      : "②  정부 정책을 따르는 것은 시민들의 일이다.",
             "option_3"      : "③  공공장소에서 권장 온도를 유지하는 것은 어렵다.",
             "option_4"      : "④  모든 시민이 정부 정책에 불만이 있는 것은 아니다.",
-            "detail"        : "Man : The government recently recommended keeping the room temperature in public places below twenty degrees in winter to save electricity. Let's hear the citizens' opinions on this.\nWoman : I don't feel warm even when I go to the city hall or the post office these days, but it's not that I can't do my errands because it's cold. Sometimes I think there are people who want to raise the temperature because it's cold, but the government's policy prays for saving electricity, but I think it's something we should all try. It's good to save.",
+            "detail"        : "\nMan : The government recently recommended keeping the room temperature in public places below twenty degrees in winter to save electricity. Let's hear the citizens' opinions on this.\nWoman : I don't feel warm even when I go to the city hall or the post office these days, but it's not that I can't do my errands because it's cold. Sometimes I think there are people who want to raise the temperature because it's cold, but the government's policy prays for saving electricity, but I think it's something we should all try. It's good to save.",
             "correctAnswer" : "④  쉬더라도 일이 끝난 후에 쉬어야 마음이 편하다.",
             "score"         : "4"
         },
@@ -196,7 +196,7 @@
             "option_2"      : "②  빈 강의실을 찾아본다.",
             "option_3"      : "③  필요한 책을 대출한다.",
             "option_4"      : "④  여자의 연락을 기다린다.",
-            "detail"        : "Man : Hello, Mr. Sumi. Where are you now.\nWoman : Yes, Mr. Youngho. The library is almost here.\nMan : Is that so? But there are no seats in the library, so I think we should go somewhere else.\nWoman : Oh, I guess it's because it's the exam period, right? Then should we borrow the necessary books and study in an empty classroom or a quiet coffee shop? Where do you like Youngho?\nMan : Then I'll be looking for the book, so come here first. Let's meet and talk about where to go.\nWoman : Yes. I will contact you when I arrive.",
+            "detail"        : "\nMan : Hello, Mr. Sumi. Where are you now.\nWoman : Yes, Mr. Youngho. The library is almost here.\nMan : Is that so? But there are no seats in the library, so I think we should go somewhere else.\nWoman : Oh, I guess it's because it's the exam period, right? Then should we borrow the necessary books and study in an empty classroom or a quiet coffee shop? Where do you like Youngho?\nMan : Then I'll be looking for the book, so come here first. Let's meet and talk about where to go.\nWoman : Yes. I will contact you when I arrive.",
             "correctAnswer" : "④  기숙사에 운동화를 가지러 간다.",
             "score"         : "3"
         },
@@ -207,7 +207,7 @@
             "option_2"      : "②  주차를 다시 하러 간다.",
             "option_3"      : "③  주차장의 위치를 물어본다.",
             "option_4"      : "④  직원에게 자동차 열쇠를 준다.",
-            "detail"        : "Woman : Welcome. Do you want to cut your hair.\nMan : Yes. But I guess there is no parking lot here. I couldn't see it, so I just parked in front of here, will it be okay?\nWoman : You can't park there. It's a parking prohibited area, so they sometimes crack down on it. There's a paid parking lot behind the building, would you like to do it again?\nMan : (sitating) Behind the building? Woman: If you give me the key (to intercept the man's words), we can park it for you, would you like to do that?\nMan : Then please do so.",
+            "detail"        : "\nWoman : Welcome. Do you want to cut your hair.\nMan : Yes. But I guess there is no parking lot here. I couldn't see it, so I just parked in front of here, will it be okay?\nWoman : You can't park there. It's a parking prohibited area, so they sometimes crack down on it. There's a paid parking lot behind the building, would you like to do it again?\nMan : (sitating) Behind the building? Woman: If you give me the key (to intercept the man's words), we can park it for you, would you like to do that?\nMan : Then please do so.",
             "correctAnswer" : "②  파티 장소를 찾아본다.",
             "score"         : "3"
         },
@@ -218,7 +218,7 @@
             "option_2"      : "②  행사 일정을 안내한다.",
             "option_3"      : "③  부족한 물품을 확인한다.",
             "option_4"      : "④  빠뜨린 물품을 구입한다.",
-            "detail"        : "Woman : Mr. Park Sung-min, what happened to the event schedule and the purchase of the goods?\nMan : I've contacted you. I've made a list of items that need to be purchased, so all you have to do is buy them.\nWoman : Is that so? Oh, I went to decorate the event a while ago and they said they didn't have enough balloons and something, so I put them all on the item list, right?\nMan : Yes? I didn't say that when I went, but I'll go and check it again.\nWoman : yes Make sure you don't miss anything.",
+            "detail"        : "\nWoman : Mr. Park Sung-min, what happened to the event schedule and the purchase of the goods?\nMan : I've contacted you. I've made a list of items that need to be purchased, so all you have to do is buy them.\nWoman : Is that so? Oh, I went to decorate the event a while ago and they said they didn't have enough balloons and something, so I put them all on the item list, right?\nMan : Yes? I didn't say that when I went, but I'll go and check it again.\nWoman : yes Make sure you don't miss anything.",
             "correctAnswer" : "②  참가자들의 항공료를 알아본다.",
             "score"         : "3"
         },
@@ -229,7 +229,7 @@
             "option_2"      : "② ‘빨간 우산’은 곧 세계 여러 나라에서 방송될 예정이다.",
             "option_3"      : "③ ‘빨간 우산’은 만들어질 때부터 성공이 예상됐던 작품이다.",
             "option_4"      : "④ ‘빨간 우산’은 일상적인 이야기를 통해 따뜻한 감동을 전한다.",
-            "detail"        : "Man : It is said that the cartoon movie 'Red Umbrella' is being broadcast in 50 countries around the world these days. Did you expect it to be such a big success?\nWoman : Actually, I didn't even think about it at the time of production. There weren't many examples of Korean cartoon movies succeeding in the world market.\nMan : So why do you think this work is so popular with children around the world?\nWoman : There are many reviews that the cute images of the main characters and the beautiful and colorful colors of the whole work have succeeded in attracting children's attention. I think the biggest role was to have a heartwarming emotion in everyday stories that can be found anywhere in the world.",
+            "detail"        : "\nMan : It is said that the cartoon movie 'Red Umbrella' is being broadcast in 50 countries around the world these days. Did you expect it to be such a big success?\nWoman : Actually, I didn't even think about it at the time of production. There weren't many examples of Korean cartoon movies succeeding in the world market.\nMan : So why do you think this work is so popular with children around the world?\nWoman : There are many reviews that the cute images of the main characters and the beautiful and colorful colors of the whole work have succeeded in attracting children's attention. I think the biggest role was to have a heartwarming emotion in everyday stories that can be found anywhere in the world.",
             "correctAnswer" : "②  남자는 작품을 위해서 여기저기 돌아다녔다.",
             "score"         : "3"
         },
@@ -240,7 +240,7 @@
             "option_2"      : "②  만화 영화 제작자",
             "option_3"      : "③  만화 영화 비평가",
             "option_4"      : "④  만화 영화 수집가",
-            "detail"        : "Man : It is said that the cartoon movie 'Red Umbrella' is being broadcast in 50 countries around the world these days. Did you expect it to be such a big success?\nWoman : Actually, I didn't even think about it at the time of production. There weren't many examples of Korean cartoon movies succeeding in the world market.\nMan : So why do you think this work is so popular with children around the world?\nWoman : There are many reviews that the cute images of the main characters and the beautiful and colorful colors of the whole work have succeeded in attracting children's attention. I think the biggest role was to have a heartwarming emotion in everyday stories that can be found anywhere in the world.",
+            "detail"        : "\nMan : It is said that the cartoon movie 'Red Umbrella' is being broadcast in 50 countries around the world these days. Did you expect it to be such a big success?\nWoman : Actually, I didn't even think about it at the time of production. There weren't many examples of Korean cartoon movies succeeding in the world market.\nMan : So why do you think this work is so popular with children around the world?\nWoman : There are many reviews that the cute images of the main characters and the beautiful and colorful colors of the whole work have succeeded in attracting children's attention. I think the biggest role was to have a heartwarming emotion in everyday stories that can be found anywhere in the world.",
             "correctAnswer" : "①  만화가",
             "score"         : "3"
         },
@@ -251,7 +251,7 @@
             "option_2"      : "②  동물 해설사의 전문화를 제안하고 있다.",
             "option_3"      : "③  동물 해설사의 역할에 대해 설명하고 있다.",
             "option_4"      : "④  동물 해설사의 교육 과정을 제시하고 있다.",
-            "detail"        : "Woman : I heard that the Korean Zoo is nurturing animal commentators for the first time in Korea. Animal commentator, there are probably a lot of people who have heard it for the first time.\nMan : Oh, yes. Literally, he is a person who explains animals in detail. Our zoo has made a lot of efforts to provide services that are differentiated from other zoos. Since last year, we have been training animal commentators to help them watch. After a 10-week training course, the animal commentator will be put into the field and work as an education instructor in various programs. You've only been watching animals at the zoo, right? At our zoo, you can watch various animals while listening to the kind and interesting explanations of animal commentators.",
+            "detail"        : "\nWoman : I heard that the Korean Zoo is nurturing animal commentators for the first time in Korea. Animal commentator, there are probably a lot of people who have heard it for the first time.\nMan : Oh, yes. Literally, he is a person who explains animals in detail. Our zoo has made a lot of efforts to provide services that are differentiated from other zoos. Since last year, we have been training animal commentators to help them watch. After a 10-week training course, the animal commentator will be put into the field and work as an education instructor in various programs. You've only been watching animals at the zoo, right? At our zoo, you can watch various animals while listening to the kind and interesting explanations of animal commentators.",
             "correctAnswer" : "③  고속도로 휴게소의 개선 방향에 대해 설명하고 있다.",
             "score"         : "3"
         },
@@ -262,7 +262,7 @@
             "option_2"      : "②  관람 서비스의 종류를 더 늘리기 위해서",
             "option_3"      : "③  동물원의 프로그램을 새로 개발하기 위해서",
             "option_4"      : "④  동물원의 관람객들을 보다 다양화하기 위해서",
-            "detail"        : "Woman : I heard that the Korean Zoo is nurturing animal commentators for the first time in Korea. Animal commentator, there are probably a lot of people who have heard it for the first time.\nMan : Oh, yes. Literally, he is a person who explains animals in detail. Our zoo has made a lot of efforts to provide services that are differentiated from other zoos. Since last year, we have been training animal commentators to help them watch. After a 10-week training course, the animal commentator will be put into the field and work as an education instructor in various programs. You've only been watching animals at the zoo, right? At our zoo, you can watch various animals while listening to the kind and interesting explanations of animal commentators.",
+            "detail"        : "\nWoman : I heard that the Korean Zoo is nurturing animal commentators for the first time in Korea. Animal commentator, there are probably a lot of people who have heard it for the first time.\nMan : Oh, yes. Literally, he is a person who explains animals in detail. Our zoo has made a lot of efforts to provide services that are differentiated from other zoos. Since last year, we have been training animal commentators to help them watch. After a 10-week training course, the animal commentator will be put into the field and work as an education instructor in various programs. You've only been watching animals at the zoo, right? At our zoo, you can watch various animals while listening to the kind and interesting explanations of animal commentators.",
             "correctAnswer" : "④  휴게소 서비스에 대한 만족도를 평가하기 위해",
             "score"         : "3"
         },
@@ -273,7 +273,7 @@
             "option_2"      : "②  예술 교육은 다양한 프로그램으로 진행하는 것이 중요하다.",
             "option_3"      : "③  예술 교육은 감상할 때보다 직접 해 볼 때 더 효과가 크다.",
             "option_4"      : "④  예술 교육은 아이들의 사고와 행동을 눈에 띄게 변화시킨다.",
-            "detail"        : "Man : In our school, we have been giving art education for the past 3 years to 70 students who can't adapt well to school life. As a result, I learned that art education is helpful for children's emotional development and balanced thinking. Our school allows students to watch art exhibitions, listen to music, and join the choir to sing. The students are visibly different. After consulting while observing steadily, more than 80% of them had positive thoughts and their social skills became very high. Above all, I adapted well to school life. The teachers here will also have a lot of worries about student guidance, and I think it would be a good way to start art education like our school.",
+            "detail"        : "\nMan : In our school, we have been giving art education for the past 3 years to 70 students who can't adapt well to school life. As a result, I learned that art education is helpful for children's emotional development and balanced thinking. Our school allows students to watch art exhibitions, listen to music, and join the choir to sing. The students are visibly different. After consulting while observing steadily, more than 80% of them had positive thoughts and their social skills became very high. Above all, I adapted well to school life. The teachers here will also have a lot of worries about student guidance, and I think it would be a good way to start art education like our school.",
             "correctAnswer" : "③  진실한 사과는 상대방의 긍정적인 반응을 이끌어 낼 수 있다.",
             "score"         : "4"
         },
@@ -284,7 +284,7 @@
             "option_2"      : "②  전문가의 의견",
             "option_3"      : "③  설문 조사 결과",
             "option_4"      : "④  관련 기관의 발표 내용",
-            "detail"        : "Man : In our school, we have been giving art education for the past 3 years to 70 students who can't adapt well to school life. As a result, I learned that art education is helpful for children's emotional development and balanced thinking. Our school allows students to watch art exhibitions, listen to music, and join the choir to sing. The students are visibly different. After consulting while observing steadily, more than 80% of them had positive thoughts and their social skills became very high. Above all, I adapted well to school life. The teachers here will also have a lot of worries about student guidance, and I think it would be a good way to start art education like our school.",
+            "detail"        : "\nMan : In our school, we have been giving art education for the past 3 years to 70 students who can't adapt well to school life. As a result, I learned that art education is helpful for children's emotional development and balanced thinking. Our school allows students to watch art exhibitions, listen to music, and join the choir to sing. The students are visibly different. After consulting while observing steadily, more than 80% of them had positive thoughts and their social skills became very high. Above all, I adapted well to school life. The teachers here will also have a lot of worries about student guidance, and I think it would be a good way to start art education like our school.",
             "correctAnswer" : "①  구체적 사례",
             "score"         : "3"
         },
@@ -295,7 +295,7 @@
             "option_2"      : "②  영업 시간을 늘릴 때 이용자 수를 고려할 필요는 없다.",
             "option_3"      : "③  야간 근무자들의 건강을 위해 24시간 업무를 없애야 한다.",
             "option_4"      : "④  은행이나 약국의 영업 시간을 24시간으로 늘리는 것이 좋다.",
-            "detail"        : "Man : Recently, there are more places that are open 24 hours a day. Even if you leave work late at night, there are many people who think it's convenient because you can buy what you need at any time. As the demand for 24-hour business is increasing, I think it should be expanded to banks and pharmacies.\nWoman : Of course there are some good things, but 24-hour business is more of a problem than a benefit. If you look at the materials I shared, you can see that there are not many people who use the 24-hour business. It costs a lot of money socially to maintain this system. In addition, statistically, the average life expectancy of night workers is more than 10 years shorter than that of day workers. Despite these problems, I don't think we can expand the 24-hour business for a small number of users.",
+            "detail"        : "\nMan : Recently, there are more places that are open 24 hours a day. Even if you leave work late at night, there are many people who think it's convenient because you can buy what you need at any time. As the demand for 24-hour business is increasing, I think it should be expanded to banks and pharmacies.\nWoman : Of course there are some good things, but 24-hour business is more of a problem than a benefit. If you look at the materials I shared, you can see that there are not many people who use the 24-hour business. It costs a lot of money socially to maintain this system. In addition, statistically, the average life expectancy of night workers is more than 10 years shorter than that of day workers. Despite these problems, I don't think we can expand the 24-hour business for a small number of users.",
             "correctAnswer" : "②  봉사 활동은 스스로 원해서 할 때 더 의미가 있다.",
             "score"         : "3"
         },
@@ -306,7 +306,7 @@
             "option_2"      : "②  조심스럽게 상대방의 동조를 구하고 있다.",
             "option_3"      : "③  자료를 제시하며 상대방의 의견을 보충하고 있다.",
             "option_4"      : "④  구체적인 근거를 들어 상대방의 의견에 반박하고 있다.",
-            "detail"        : "Man : Recently, there are more places that are open 24 hours a day. Even if you leave work late at night, there are many people who think it's convenient because you can buy what you need at any time. As the demand for 24-hour business is increasing, I think it should be expanded to banks and pharmacies.\nWoman : Of course there are some good things, but 24-hour business is more of a problem than a benefit. If you look at the materials I shared, you can see that there are not many people who use the 24-hour business. It costs a lot of money socially to maintain this system. In addition, statistically, the average life expectancy of night workers is more than 10 years shorter than that of day workers. Despite these problems, I don't think we can expand the 24-hour business for a small number of users.",
+            "detail"        : "\nMan : Recently, there are more places that are open 24 hours a day. Even if you leave work late at night, there are many people who think it's convenient because you can buy what you need at any time. As the demand for 24-hour business is increasing, I think it should be expanded to banks and pharmacies.\nWoman : Of course there are some good things, but 24-hour business is more of a problem than a benefit. If you look at the materials I shared, you can see that there are not many people who use the 24-hour business. It costs a lot of money socially to maintain this system. In addition, statistically, the average life expectancy of night workers is more than 10 years shorter than that of day workers. Despite these problems, I don't think we can expand the 24-hour business for a small number of users.",
             "correctAnswer" : "③  경험한 것을 이야기하며 자신의 의견을 밝히고 있다.",
             "score"         : "3"
         },
@@ -317,7 +317,7 @@
             "option_2"      : "②  고가의 신제품 없어서 못 팔아",
             "option_3"      : "③  가격은 반값인데 기능은 그대로",
             "option_4"      : "④  중고 제품을 새 제품으로 속여 팔아",
-            "detail"        : "Man : I heard that the consumption culture has changed a lot recently. Reporter Park Ji-young will deliver the detailed news.\nWoman : Housewife Lee Eun-mi bought a refrigerator that someone else bought for more than 1.5 million won for 700,000 won, which is less than half the price. It's because it was a product that was displayed in the store. Recently, these thrifty purchases have been increasing. You can also buy new products at up to 60% off. In the case of products that were exhibited at the branch or returned without use, it is said that they can't be sold because they don't have them. In addition, consumers who purchase outdated products instead of expensive new products are also increasing recently. This is because even though the advanced functions are missing, they have all the necessary functions and the price is cheap.",
+            "detail"        : "\nMan : I heard that the consumption culture has changed a lot recently. Reporter Park Ji-young will deliver the detailed news.\nWoman : Housewife Lee Eun-mi bought a refrigerator that someone else bought for more than 1.5 million won for 700,000 won, which is less than half the price. It's because it was a product that was displayed in the store. Recently, these thrifty purchases have been increasing. You can also buy new products at up to 60% off. In the case of products that were exhibited at the branch or returned without use, it is said that they can't be sold because they don't have them. In addition, consumers who purchase outdated products instead of expensive new products are also increasing recently. This is because even though the advanced functions are missing, they have all the necessary functions and the price is cheap.",
             "correctAnswer" : "④  다양해진 라면 맛, 전체 판매량에 영향 끼쳐",
             "score"         : "4"
         },
@@ -328,7 +328,7 @@
             "option_2"      : "②  같은 제품이라도 경우에 따라 다른 가격에 판매되기도 한다.",
             "option_3"      : "③  사용하지 않았더라도 한 번 반품된 제품은 다시 판매할 수 없다.",
             "option_4"      : "④  영업점에서 전시했던 제품의 경우 값이 싸도 소비자가 찾지 않는다.",
-            "detail"        : "Man : I heard that the consumption culture has changed a lot recently. Reporter Park Ji-young will deliver the detailed news.\nWoman : Housewife Lee Eun-mi bought a refrigerator that someone else bought for more than 1.5 million won for 700,000 won, which is less than half the price. It's because it was a product that was displayed in the store. Recently, these thrifty purchases have been increasing. You can also buy new products at up to 60% off. In the case of products that were exhibited at the branch or returned without use, it is said that they can't be sold because they don't have them. In addition, consumers who purchase outdated products instead of expensive new products are also increasing recently. This is because even though the advanced functions are missing, they have all the necessary functions and the price is cheap.",
+            "detail"        : "\nMan : I heard that the consumption culture has changed a lot recently. Reporter Park Ji-young will deliver the detailed news.\nWoman : Housewife Lee Eun-mi bought a refrigerator that someone else bought for more than 1.5 million won for 700,000 won, which is less than half the price. It's because it was a product that was displayed in the store. Recently, these thrifty purchases have been increasing. You can also buy new products at up to 60% off. In the case of products that were exhibited at the branch or returned without use, it is said that they can't be sold because they don't have them. In addition, consumers who purchase outdated products instead of expensive new products are also increasing recently. This is because even though the advanced functions are missing, they have all the necessary functions and the price is cheap.",
             "correctAnswer" : "③  라면 속 나트륨의 양은 최대 15%가 적절하다.",
             "score"         : "3"
         }
