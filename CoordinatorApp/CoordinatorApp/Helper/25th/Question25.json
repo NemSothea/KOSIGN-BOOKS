@@ -6,7 +6,7 @@
             "option_2"      : "②  남았다",
             "option_3"      : "③  떠났다",
             "option_4"      : "④  나왔다",
-            "detail"        : "I bought the things I needed cheaply and have some money left.",
+            "detail"        : "\nI bought the things I needed cheaply and have some money left.",
             "correctAnswer" : "②  남았다",
             "isImg"         : "n"
         },
@@ -16,7 +16,7 @@
             "option_2"      : "②  아직",
             "option_3"      : "③  제발",
             "option_4"      : "④  별로",
-            "detail"        : "I felt better and better while I was talking with my friend about something interesting.",
+            "detail"        : "\nI felt better and better while I was talking with my friend about something interesting.",
             "correctAnswer" : "①  점점",
             "isImg"         : "n"
         },
@@ -26,7 +26,7 @@
             "option_2"      : "②  따라야",
             "option_3"      : "③  돌아야",
             "option_4"      : "④  이어야",
-            "detail"        : "I had to go around the parking lot to find a place to park.",
+            "detail"        : "\nI had to go around the parking lot to find a place to park.",
             "correctAnswer" : "③  돌아야",
             "isImg"         : "n"
         },
@@ -36,7 +36,7 @@
             "option_2"      : "②    그립다",
             "option_3"      : "③    불쌍하다",
             "option_4"      : "④    안타깝다",
-            "detail"        : "I miss my family in my hometown because I am sick.",
+            "detail"        : "\nI miss my family in my hometown because I am sick.",
             "correctAnswer" : "②    그립다",
             "isImg"         : "n"
         },
@@ -46,7 +46,7 @@
             "option_2"      : "②   자격",
             "option_3"      : "③   요청",
             "option_4"      : "④   정신",
-            "detail"        : "The role of a teacher is to teach students and lead them on the right path.",
+            "detail"        : "\nThe role of a teacher is to teach students and lead them on the right path.",
             "correctAnswer" : "①   역할",
             "isImg"         : "n"
         },
@@ -56,7 +56,7 @@
             "option_2"      : "②    익숙해서",
             "option_3"      : "③    가벼워서",
             "option_4"      : "④    부드러워서",
-            "detail"        : "This meat is so soft that it seems to be good for everyone to eat.",
+            "detail"        : "\nThis meat is so soft that it seems to be good for everyone to eat.",
             "correctAnswer" : "④    부드러워서",
             "isImg"         : "n"
         },
@@ -66,7 +66,7 @@
             "option_2"      : "②    가득",
             "option_3"      : "③    더욱",
             "option_4"      : "④    살짝",
-            "detail"        : "There were a lot of things full in the warehouse, so I couldn't go inside.",
+            "detail"        : "\nThere were a lot of things full in the warehouse, so I couldn't go inside.",
             "correctAnswer" : "②    가득",
             "isImg"         : "n"
         },
@@ -76,7 +76,7 @@
             "option_2"      : "②    채운",
             "option_3"      : "③    담은",
             "option_4"      : "④    이룬",
-            "detail"        : "Seeing the flowers in full bloom, I can feel the value of growing them with sincerity.",
+            "detail"        : "\nSeeing the flowers in full bloom, I can feel the value of growing them with sincerity.",
             "correctAnswer" : "②    채운",
             "isImg"         : "n"
         },
@@ -86,7 +86,7 @@
             "option_2"      : "②    재주",
             "option_3"      : "③    적성",
             "option_4"      : "④    흥미",
-            "detail"        : "He is popular among his friends because of his ability to make people laugh.",
+            "detail"        : "\nHe is popular among his friends because of his ability to make people laugh.",
             "correctAnswer" : "②    재주",
             "isImg"         : "n"
         },
@@ -96,7 +96,7 @@
             "option_2"      : "②    나다",
             "option_3"      : "③    생기다",
             "option_4"      : "④    커지다",
-            "detail"        : "There was an accident because of the fog, and the road was blocked a lot. I feel confident in singing. As soon as I bought the clothes, there was a stain and I was upset.",
+            "detail"        : "\nThere was an accident because of the fog, and the road was blocked a lot. I feel confident in singing. As soon as I bought the clothes, there was a stain and I was upset.",
             "correctAnswer" : "③    생기다",
             "isImg"         : "n"
         },
@@ -106,7 +106,7 @@
             "option_2"      : "②    들다",
             "option_3"      : "③    마치다",
             "option_4"      : "④    올리다",
-            "detail"        : "I put my arms up and did arm exercises. Youngsoo, I'm sorry, but could you put your bag up? The daughter went on a honeymoon right after the wedding.",
+            "detail"        : "\nI put my arms up and did arm exercises. Youngsoo, I'm sorry, but could you put your bag up? The daughter went on a honeymoon right after the wedding.",
             "correctAnswer" : "④    올리다",
             "isImg"         : "n"
         },
@@ -126,7 +126,7 @@
             "option_2"      : "②    가라앉는지",
             "option_3"      : "③    흔들리는지",
             "option_4"      : "④    쓰러지는지",
-            "detail"        : "It's amazing how such a heavy ship floats in the water.",
+            "detail"        : "\nIt's amazing how such a heavy ship floats in the water.",
             "correctAnswer" : "②    가라앉는지",
             "isImg"         : "n"
         },
@@ -136,7 +136,7 @@
             "option_2"      : "②    도착했는데요",
             "option_3"      : "③    도착했을걸요",
             "option_4"      : "④    도착했으니까요",
-            "detail"        : "A : Have we arrived at the airport by now?\nB : I think we've arrived. It's already been two hours since we left.",
+            "detail"        : "\nA : Have we arrived at the airport by now?\nB : I think we've arrived. It's already been two hours since we left.",
             "correctAnswer" : "③    도착했을걸요",
             "isImg"         : "n"
         },
@@ -146,7 +146,7 @@
             "option_2"      : "②    드셔야",
             "option_3"      : "③    드시더니",
             "option_4"      : "④    드시든지",
-            "detail"        : "A :  When should I take this medicine?\nB : It doesn't matter when you eat it, but breakfast is better.",
+            "detail"        : "\nA :  When should I take this medicine?\nB : It doesn't matter when you eat it, but breakfast is better.",
             "correctAnswer" : "④    드시든지",
             "isImg"         : "n"
         }, 
@@ -156,7 +156,7 @@
             "option_2"      : "②    만나야지요",
             "option_3"      : "③    만나려고요",
             "option_4"      : "④    만나고말고요",
-            "detail"        : "A :  When should I take this medicine?\nB : It doesn't matter when you eat it, but breakfast is better.",
+            "detail"        : "\nA :  When should I take this medicine?\nB : It doesn't matter when you eat it, but breakfast is better.",
             "correctAnswer" : "①    만나던데요",
             "isImg"         : "n"
         },
@@ -166,7 +166,7 @@
             "option_2"      : "②    따뜻할 뿐이에요",
             "option_3"      : "③    따뜻할 리가 없어요",
             "option_4"      : "④    따뜻하기만 하면 돼요",
-            "detail"        : "A : What kind of gloves do you want me to buy for you? Is there anything you want?\nB : I don't want anything in particular. It just needs to be warm.",
+            "detail"        : "\nA : What kind of gloves do you want me to buy for you? Is there anything you want?\nB : I don't want anything in particular. It just needs to be warm.",
             "correctAnswer" : "④    따뜻하기만 하면 돼요",
             "isImg"         : "n"
         }, 
@@ -176,7 +176,7 @@
             "option_2"      : "②    물어보느라고",
             "option_3"      : "③    물어보나 마나",
             "option_4"      : "④    물어볼 뿐만 아니라",
-            "detail"        : "A : Should I ask him to hang out with me tomorrow?\nB : Ask me or not I won't go. He said he had an exam tomorrow.",
+            "detail"        : "\nA : Should I ask him to hang out with me tomorrow?\nB : Ask me or not I won't go. He said he had an exam tomorrow.",
             "correctAnswer" : "④    물어볼 뿐만 아니라",
             "isImg"         : "n"
         },
@@ -186,7 +186,7 @@
             "option_2"      : "②    떠드는 채로",
             "option_3"      : "③    떠드는 바람에",
             "option_4"      : "④    떠드는 덕분에",
-            "detail"        : "A : Did you enjoy today's lecture?\nB : No. I couldn't concentrate because people were making so much noise.",
+            "detail"        : "\nA : Did you enjoy today's lecture?\nB : No. I couldn't concentrate because people were making so much noise.",
             "correctAnswer" : "③    떠드는 바람에",
             "isImg"         : "n"
         },
@@ -196,7 +196,7 @@
             "option_2"      : "②    공부할 만해요",
             "option_3"      : "③    공부하는 편이에요",
             "option_4"      : "④    공부하는 모양이에요",
-            "detail"        : "A : What does the kid do? I think they came in earlier.\nB : I guess you study in your room because it's quiet.",
+            "detail"        : "\nA : What does the kid do? I think they came in earlier.\nB : I guess you study in your room because it's quiet.",
             "correctAnswer" : "④    공부하는 모양이에요",
             "isImg"         : "n"
         },
@@ -206,7 +206,7 @@
             "option_2"      : "②    먹으러 갈게",
             "option_3"      : "③    먹은 셈 칠게",
             "option_4"      : "④    먹은 줄 알았어",
-            "detail"        : "A : Thanks for your help. I'll treat you to dinner tonight.\nB : No, it's not. It's not a big deal. I'll think I just ate today.",
+            "detail"        : "\nA : Thanks for your help. I'll treat you to dinner tonight.\nB : No, it's not. It's not a big deal. I'll think I just ate today.",
             "correctAnswer" : "③    먹은 셈 칠게",
             "isImg"         : "n"
         },
@@ -216,7 +216,7 @@
             "option_2"      : "②    저절로",
             "option_3"      : "③    소중히",
             "option_4"      : "④    여전히",
-            "detail"        : "A : I heard you went to the reunion yesterday. What was that like?\nB : It's been a few years since I've been there. It's still comfortable and nice because they're my childhood friends.\nA : Do you often have alumni meetings?\nB : No, it's not.About once a year. be busy with each other It's hard to see each other often.",
+            "detail"        : "\nA : I heard you went to the reunion yesterday. What was that like?\nB : It's been a few years since I've been there. It's still comfortable and nice because they're my childhood friends.\nA : Do you often have alumni meetings?\nB : No, it's not.About once a year. be busy with each other It's hard to see each other often.",
             "correctAnswer" : "④    여전히",
             "isImg"         : "n"
         },
@@ -226,7 +226,7 @@
             "option_2"      : "②    사는 한편",
             "option_3"      : "③    살다 보면",
             "option_4"      : "④    살 테니까",
-            "detail"        : "A : I heard you went to the reunion yesterday. What was that like?\nB : It's been a few years since I've been there. It's still comfortable and nice because they're my childhood friends.\nA : Do you often have alumni meetings?\nB : No, it's not.About once a year. be busy with each other It's hard to see each other often.",
+            "detail"        : "\nA : I heard you went to the reunion yesterday. What was that like?\nB : It's been a few years since I've been there. It's still comfortable and nice because they're my childhood friends.\nA : Do you often have alumni meetings?\nB : No, it's not.About once a year. be busy with each other It's hard to see each other often.",
             "correctAnswer" : "③    살다 보면",
             "isImg"         : "n"
         },
@@ -236,7 +236,7 @@
             "option_2"      : "②    원숭이도 나무에서 떨어진다",
             "option_3"      : "③    고래 싸움에 새우 등 터진다",
             "option_4"      : "④    개구리 올챙이 적 생각 못 한다",
-            "detail"        : " I was surprised while watching the news last night. An announcer with 30 years of experience made a mistake by misrepresenting the name of a foreign politician on a live broadcast. The announcer, who had never made such a mistake, was very embarrassed. Looking at the announcer's appearance, I suddenly remembered the saying, 'Even a monkey falls from a tree'.No matter how familiar you are, you can make a mistake unless you are careful.",
+            "detail"        : "\n I was surprised while watching the news last night. An announcer with 30 years of experience made a mistake by misrepresenting the name of a foreign politician on a live broadcast. The announcer, who had never made such a mistake, was very embarrassed. Looking at the announcer's appearance, I suddenly remembered the saying, 'Even a monkey falls from a tree'.No matter how familiar you are, you can make a mistake unless you are careful.",
             "correctAnswer" : "②    원숭이도 나무에서 떨어진다",
             "isImg"         : "n"
         },
@@ -246,7 +246,7 @@
             "option_2"      : "②    조심하지 않을지라도",
             "option_3"      : "③    조심하지 않는다길래",
             "option_4"      : "④    조심하지 않기는 하지만",
-            "detail"        : " I was surprised while watching the news last night. An announcer with 30 years of experience made a mistake by misrepresenting the name of a foreign politician on a live broadcast. The announcer, who had never made such a mistake, was very embarrassed. Looking at the announcer's appearance, I suddenly remembered the saying, 'Even a monkey falls from a tree'.No matter how familiar you are, you can make a mistake unless you are careful.",
+            "detail"        : "\n I was surprised while watching the news last night. An announcer with 30 years of experience made a mistake by misrepresenting the name of a foreign politician on a live broadcast. The announcer, who had never made such a mistake, was very embarrassed. Looking at the announcer's appearance, I suddenly remembered the saying, 'Even a monkey falls from a tree'.No matter how familiar you are, you can make a mistake unless you are careful.",
             "correctAnswer" : "①    조심하지 않는 한",
             "isImg"         : "n"
         },
@@ -305,130 +305,130 @@
             "isImg"         : "y"
         },
         {   "sections"      : "※ [35~38] 다음을 보고 내용이 같은 것을 고르십시오.",
-            "question"      : " 서울시는 청소년들을 위해 지은 도서관의 이름을 찾는다. 응모 기간은 2월 1일부터 2월 10일까지로 서울 시민이면 누구나 응모할 수 있다. 응모를 원하는 사람은 신청서에 도서관 이름을 적고 그 의미를 풀이한 뒤 서울 시청 홈페이지에 접수하면 된다. 선정 결과는 2월 29일 홈페이지를 통해 발표된다. ",
+            "question"      : " 서울시는 청소년들을 위해 지은 도서관의 이름을 찾는다. 응모 기간은 2월 1일부터 2월 10일까지로 서울 시민이면 누구나 응모할 수 있다. 응모를 원하는 사람은 신청서에 도서관 이름을 적고 그 의미를 풀이한 뒤 서울 시청 홈페이지에 접수하면 된다. 선정 결과는 2월 29일 홈페이지를 통해 발표된다.\nQ35. ",
             "option_1"      : "①  접수는 한 달 동안 진행된다.",
             "option_2"      : "②  선정 결과는 개인에게 직접 알려 준다.",
             "option_3"      : "③  이름에 대한 의미 설명도 함께 써야 한다.",
             "option_4"      : "④  신청서는 서울 시청에 가서 제출해야 한다.",
             "correctAnswer" : "③  이름에 대한 의미 설명도 함께 써야 한다.",
-            "detail"        : "  The city of Seoul looks for the name of the library built for teenagers. The application period is from February 1st to February 10th, and any Seoul citizen can apply. If you want to apply, you can write the name of the library on the application form, interpret the meaning, and submit it on the Seoul City Hall website. The selection results will be announced on the website on February 29."
+            "detail"        : "\n  The city of Seoul looks for the name of the library built for teenagers. The application period is from February 1st to February 10th, and any Seoul citizen can apply. If you want to apply, you can write the name of the library on the application form, interpret the meaning, and submit it on the Seoul City Hall website. The selection results will be announced on the website on February 29."
         },
         {   "sections"      : "※ [35~38] 다음을 보고 내용이 같은 것을 고르십시오.",
-            "question"      : " ‘가족 나들이’ 행사가 1월 1일부터 2월 말까지 은빛공원에서 열린다. 은빛 공원에서는 행사 기간 동안 예년보다 10미터 길어진 눈썰매장에서 눈썰매를 탈 수 있다. 또한 연날리기, 그네 타기 등의 한국 전통 놀이도 할 수 있다. 은빛공원 입장과 전통 놀이 체험은 무료이며 눈썰매장 이용료는 1인당 오천 원이다. 이용 시간은 오전 9시부터 오후 6시까지이며 월요일은 쉰다. ",
+            "question"      : " ‘가족 나들이’ 행사가 1월 1일부터 2월 말까지 은빛공원에서 열린다. 은빛 공원에서는 행사 기간 동안 예년보다 10미터 길어진 눈썰매장에서 눈썰매를 탈 수 있다. 또한 연날리기, 그네 타기 등의 한국 전통 놀이도 할 수 있다. 은빛공원 입장과 전통 놀이 체험은 무료이며 눈썰매장 이용료는 1인당 오천 원이다. 이용 시간은 오전 9시부터 오후 6시까지이며 월요일은 쉰다.\nQ36. ",
             "option_1"      : "①  주말에는 연날리기를 할 수 없다.",
             "option_2"      : "②  눈썰매장의 크기는 이전보다 작아졌다.",
             "option_3"      : "③  은빛공원에 들어갈 때는 돈을 내지 않는다.",
             "option_4"      : "④  이 행사에서는 여러 나라의 놀이를 즐길 수 있다.",
             "correctAnswer" : "③  은빛공원에 들어갈 때는 돈을 내지 않는다.",
-            "detail"        : " The 'Family Outing' event will be held at Silverlight Park from January 1st to the end of February. In the silver park, you can ride a snow sled at a snow sledding site that is 10 meters longer than usual during the event. You can also play traditional Korean games such as kite flying and swinging. Admission to Eunbit Park and traditional play experience are free, and the use of the snow sledding sleigh is 5,000 won per person. Hours of use are from 9 a.m. to 6 p.m. and closed on Mondays."
+            "detail"        : "\n The 'Family Outing' event will be held at Silverlight Park from January 1st to the end of February. In the silver park, you can ride a snow sled at a snow sledding site that is 10 meters longer than usual during the event. You can also play traditional Korean games such as kite flying and swinging. Admission to Eunbit Park and traditional play experience are free, and the use of the snow sledding sleigh is 5,000 won per person. Hours of use are from 9 a.m. to 6 p.m. and closed on Mondays."
         },
         {   "sections"      : "※ [39~42] 다음을 읽고 중심 생각을 고르십시오. (각 4점) ",
-            "question"      : " 밖에서 다른 아이들과 뛰어노는 아이들은 집에서 혼자 노는 아이들보다 감기에 걸리기가 쉽다. 하지만 이런 아이들은 집에만 있는 아이들보다 오히려 더 건강하게 자랄 가능성이 높다고 한다. 밖에서 다른 아이들과 생활하는 과정에서 아이들의 몸속에 질병을 이겨 낼 수 있는 힘이 생기기 때문이다. ",
+            "question"      : " 밖에서 다른 아이들과 뛰어노는 아이들은 집에서 혼자 노는 아이들보다 감기에 걸리기가 쉽다. 하지만 이런 아이들은 집에만 있는 아이들보다 오히려 더 건강하게 자랄 가능성이 높다고 한다. 밖에서 다른 아이들과 생활하는 과정에서 아이들의 몸속에 질병을 이겨 낼 수 있는 힘이 생기기 때문이다. \nQ37.",
             "option_1"      : "①  주말에는 연날리기를 할 수 없다.",
             "option_2"      : "②  눈썰매장의 크기는 이전보다 작아졌다.",
             "option_3"      : "③  은빛공원에 들어갈 때는 돈을 내지 않는다.",
             "option_4"      : "④  이 행사에서는 여러 나라의 놀이를 즐길 수 있다.",
             "correctAnswer" : "③  은빛공원에 들어갈 때는 돈을 내지 않는다.",
-            "detail"        : " Children who play outside with other children are more likely to catch a cold than those who play alone at home. But these children are more likely to grow up healthier than those who are only at home. This is because in the process of living with other children outside, children have the power to overcome diseases in their bodies."
+            "detail"        : "\n Children who play outside with other children are more likely to catch a cold than those who play alone at home. But these children are more likely to grow up healthier than those who are only at home. This is because in the process of living with other children outside, children have the power to overcome diseases in their bodies."
         },
         {   "sections"      : "※ [39~42] 다음을 읽고 중심 생각을 고르십시오. (각 4점) ",
-            "question"      : " 밖에서 다른 아이들과 뛰어노는 아이들은 집에서 혼자 노는 아이들보다 감기에 걸리기가 쉽다. 하지만 이런 아이들은 집에만 있는 아이들보다 오히려 더 건강하게 자랄 가능성이 높다고 한다. 밖에서 다른 아이들과 생활하는 과정에서 아이들의 몸속에 질병을 이겨 낼 수 있는 힘이 생기기 때문이다. ",
+            "question"      : " 밖에서 다른 아이들과 뛰어노는 아이들은 집에서 혼자 노는 아이들보다 감기에 걸리기가 쉽다. 하지만 이런 아이들은 집에만 있는 아이들보다 오히려 더 건강하게 자랄 가능성이 높다고 한다. 밖에서 다른 아이들과 생활하는 과정에서 아이들의 몸속에 질병을 이겨 낼 수 있는 힘이 생기기 때문이다.\nQ38. ",
             "option_1"      : "①  밖에서 놀면 감기를 쉽게 이길 수 있다.",
             "option_2"      : "②  아이들은 깨끗한 환경에서 키우는 것이 좋다.",
             "option_3"      : "③  밖에서 여럿이 놀다 보면 병을 이겨 낼 힘이 생긴다.",
             "option_4"      : "④  집 안에서 혼자 생활하는 아이는 건강에 더욱 유의해야 한다.",
             "correctAnswer" : "③  밖에서 여럿이 놀다 보면 병을 이겨 낼 힘이 생긴다.",
-            "detail"        : " Children who play outside with other children are more likely to catch a cold than those who play alone at home. But these children are more likely to grow up healthier than those who are only at home. This is because in the process of living with other children outside, children have the power to overcome diseases in their bodies."
+            "detail"        : "\n Children who play outside with other children are more likely to catch a cold than those who play alone at home. But these children are more likely to grow up healthier than those who are only at home. This is because in the process of living with other children outside, children have the power to overcome diseases in their bodies."
         },
         {
             "sections"      : "※ [39~42] 다음을 읽고 중심 생각을 고르십시오. (각 4점) ",
-                "question"      : " 바쁜 현대인들은 시간을 내서 공연장에 가는 것을 다소 부담스럽게 느끼 기도 한다. 이런 현대인들을 위해 요즘 ‘찾아가는 공연’이나 ‘거리 공연’ 같은 작은 공연들이 생겨나 인기를 끌고 있다. 생활공간에서 좀 더 쉽고 친근하게 공연을 즐길 수 있기 때문이다. 이처럼 가까운 곳에서 가벼운 마음으로 즐길 수 있는 공연들이 많아질 필요가 있다.",
+                "question"      : " 바쁜 현대인들은 시간을 내서 공연장에 가는 것을 다소 부담스럽게 느끼 기도 한다. 이런 현대인들을 위해 요즘 ‘찾아가는 공연’이나 ‘거리 공연’ 같은 작은 공연들이 생겨나 인기를 끌고 있다. 생활공간에서 좀 더 쉽고 친근하게 공연을 즐길 수 있기 때문이다. 이처럼 가까운 곳에서 가벼운 마음으로 즐길 수 있는 공연들이 많아질 필요가 있다.\nQ39.",
                 "option_1"      : "①  일상생활에서 문화 활동을 하는 것이 바람직하다.",
                 "option_2"      : "②  사람들이 편안하게 즐길 수 있는 공연을 늘려야 한다.",
                 "option_3"      : "③  공연장을 자주 찾아야 공연을 친숙하게 즐길 수 있다.",
                 "option_4"      : "④  사람들의 흥미를 끌려면 공연하는 장소를 잘 선택해야 한다.",
                 "correctAnswer" : "②  사람들이 편안하게 즐길 수 있는 공연을 늘려야 한다.",
-                "detail"        : " Busy modern people pray that it feels a bit burdensome to take the time to go to the concert hall. For these modern people, small performances such as 'visiting performances' and 'street performances' have emerged and are gaining popularity these days. Because you can enjoy the performance more easily and intimately in the living space. There needs to be a lot of performances that you can enjoy with a light heart in such a nearby place."
+                "detail"        : "\n Busy modern people pray that it feels a bit burdensome to take the time to go to the concert hall. For these modern people, small performances such as 'visiting performances' and 'street performances' have emerged and are gaining popularity these days. Because you can enjoy the performance more easily and intimately in the living space. There needs to be a lot of performances that you can enjoy with a light heart in such a nearby place."
         },
         {
             "sections"      : "※ [39~42] 다음을 읽고 중심 생각을 고르십시오. (각 4점) ",
-                "question"      : " 주변 사람들이 모두 듣기 좋은 말만을 해 준다면 현실을 제대로 보지 못하고 일을 그르치기 쉽다. 현명한 기업가는 조직 안팎의 의견과 평가를 있는 그대로 전해 주는 사람들을 가까이에 두고 활용한다. 자신을 향한 비판과 냉정한 평가를 통해 스스로를 돌아 보기 위해서 이다.",
+                "question"      : " 주변 사람들이 모두 듣기 좋은 말만을 해 준다면 현실을 제대로 보지 못하고 일을 그르치기 쉽다. 현명한 기업가는 조직 안팎의 의견과 평가를 있는 그대로 전해 주는 사람들을 가까이에 두고 활용한다. 자신을 향한 비판과 냉정한 평가를 통해 스스로를 돌아 보기 위해서 이다.\nQ40.",
                 "option_1"      : "①  기업가는 자신을 냉정하게 판단할 수 있다.",
                 "option_2"      : "②  기업가는 조직 내의 사람들을 잘 활용한다.",
                 "option_3"      : "③  기업가는 사람들을 평가하는 눈이 정확하다.",
                 "option_4"      : "④  기업가는 사실대로 말해 주는 사람을 곁에 둔다.",
                 "correctAnswer" : "④  기업가는 사실대로 말해 주는 사람을 곁에 둔다.",
-                "detail"        : " If everyone around you only says what's good to hear, it's easy to see reality properly and get things wrong. Wise entrepreneurs take advantage of people close to the people who deliver opinions and assessments inside and outside the organization as they are. It's look back on yourself through criticism and sober evaluation of yourself."
+                "detail"        : "\n If everyone around you only says what's good to hear, it's easy to see reality properly and get things wrong. Wise entrepreneurs take advantage of people close to the people who deliver opinions and assessments inside and outside the organization as they are. It's look back on yourself through criticism and sober evaluation of yourself."
         },
         {
             "sections"      : "※ [39~42] 다음을 읽고 중심 생각을 고르십시오. (각 4점) ",
-                "question"      : " 사람들과 좋은관계를 만드는 방법은 그리 어렵지않다. 길을 가다 사람 들을 마주치면 먼저 인사를 건네고, 시간을 내어 가까운 사람들에게 안부 전화를 거는 것부터 시작하면 된다. 상대방의 친절에 고마운 마음을 표현 하는 등 실생활에서 쉽게 할 수있는 일부터 실천에 옮기는 게좋다. 이런 행동으로 우리는 주위 사람들과 더 나은 관계를 유지할 수 있다.",
+                "question"      : " 사람들과 좋은관계를 만드는 방법은 그리 어렵지않다. 길을 가다 사람 들을 마주치면 먼저 인사를 건네고, 시간을 내어 가까운 사람들에게 안부 전화를 거는 것부터 시작하면 된다. 상대방의 친절에 고마운 마음을 표현 하는 등 실생활에서 쉽게 할 수있는 일부터 실천에 옮기는 게좋다. 이런 행동으로 우리는 주위 사람들과 더 나은 관계를 유지할 수 있다.\nQ41.",
                 "option_1"      : "①  작은 행동의 실천으로 인간관계를 좋게 만들 수 있다.",
                 "option_2"      : "②  먼 사람보다는 가까운 사람에게 친절을 베풀어야 한다.",
                 "option_3"      : "③  사람들과 잘 지내려면 감정을 솔직하게 표현하는 것이 좋다.",
                 "option_4"      : "④  인간관계를 친밀하게 만들기 위한 방법을 찾는 것이 필요하다.",
                 "correctAnswer" : "①  작은 행동의 실천으로 인간관계를 좋게 만들 수 있다.",
-                "detail"        : " It's not that hard to make good relationships with people. If you meet people on the street, you can start by saying hello first, and taking the time to call people close to you. It's better to put it into practice from things that can be easily done in real life, such as expressing gratitude for the kindness of the other person. With these actions, we can maintain better relationships with the people around us."
+                "detail"        : "\n It's not that hard to make good relationships with people. If you meet people on the street, you can start by saying hello first, and taking the time to call people close to you. It's better to put it into practice from things that can be easily done in real life, such as expressing gratitude for the kindness of the other person. With these actions, we can maintain better relationships with the people around us."
         },
         {
             "sections"      : "※ [43~45] 다음을 순서대로 맞게 배열한 것을 고르십시오. (각 3점) ",
-                "question"      : "(가) 씹는 일과 문제를 푸는것을 동시에하다 보면 집중력이 떨어지기 때문이다.\n(나) 무언가를 씹는 행동은 뇌를 활발하게 움직이게 하며이효과는약20분 정도 계속 유지된다.\n(다) 다만 시험을 보는 중에 껌을 씹는 것은 효과가 없다.\n(라) 그래서 시험을 치르기 전에 껌을 씹으면시 험점 수가 높아 질 수있다.",
+                "question"      : "(가) 씹는 일과 문제를 푸는것을 동시에하다 보면 집중력이 떨어지기 때문이다.\n(나) 무언가를 씹는 행동은 뇌를 활발하게 움직이게 하며이효과는약20분 정도 계속 유지된다.\n(다) 다만 시험을 보는 중에 껌을 씹는 것은 효과가 없다.\n(라) 그래서 시험을 치르기 전에 껌을 씹으면시 험점 수가 높아 질 수있다.\nQ43.",
                 "option_1"      : "①  (가)-(나)-(다)-(라)",
                 "option_2"      : "②  (가)-(다)-(라)-(나)",
                 "option_3"      : "③  (나)-(가)-(라)-(다)",
                 "option_4"      : "④  (나)-(라)-(다)-(가)",
                 "correctAnswer" : "④  (나)-(라)-(다)-(가)",
-                "detail"        : " Chewing something makes the brain move vigorously and this effect lasts for about 20 minutes. So if you chew gum before taking the test, the number of points can be higher. However, chewing gum while taking the test has no effect. Because if you chew and solve problems at the same time, you lose concentration."
+                "detail"        : "\n Chewing something makes the brain move vigorously and this effect lasts for about 20 minutes. So if you chew gum before taking the test, the number of points can be higher. However, chewing gum while taking the test has no effect. Because if you chew and solve problems at the same time, you lose concentration."
         },
         {
             "sections"      : "※ [43~45] 다음을 순서대로 맞게 배열한 것을 고르십시오. (각 3점) ",
-                "question"      : "(가) 그리고 이후에 주인의 주소와 전화번호 등이 바뀌면 다시 신고해야 한다.\n(나) 주인의 정보가 변경 되었는데도 그대로 두면 처벌을 받을 수도 있다.\n(다) 올해부터는 태어난 지 3개월 이상 된 개를 의무적으로 구청에 등록해야 한다.\n(라) 앞으로 이 제도가 시행되면 길을 잃거나 버려지는 개들이 줄어들 것으로 보인다.",
+                "question"      : "(가) 그리고 이후에 주인의 주소와 전화번호 등이 바뀌면 다시 신고해야 한다.\n(나) 주인의 정보가 변경 되었는데도 그대로 두면 처벌을 받을 수도 있다.\n(다) 올해부터는 태어난 지 3개월 이상 된 개를 의무적으로 구청에 등록해야 한다.\n(라) 앞으로 이 제도가 시행되면 길을 잃거나 버려지는 개들이 줄어들 것으로 보인다.\nQ44.",
                 "option_1"      : "①  (다)-(가)-(나)-(라)",
                 "option_2"      : "②  (다)-(라)-(가)-(나)",
                 "option_3"      : "③  (라)-(나)-(가)-(다)",
                 "option_4"      : "④  (라)-(다)-(나)-(가)",
                 "correctAnswer" : "①  (다)-(가)-(나)-(라)",
-                "detail"        : " Starting this year, dogs more than 3 months old must be registered with the ward office. And after that, if the owner's address and phone number change, you have to report it again. Even though the owner's information has changed, you may be punished if you leave it as it is. It is likely that there will be fewer dogs lost or abandoned if this system is implemented in the future."
+                "detail"        : "\n Starting this year, dogs more than 3 months old must be registered with the ward office. And after that, if the owner's address and phone number change, you have to report it again. Even though the owner's information has changed, you may be punished if you leave it as it is. It is likely that there will be fewer dogs lost or abandoned if this system is implemented in the future."
         },
         {
             "sections"      : "※ [43~45] 다음을 순서대로 맞게 배열한 것을 고르십시오. (각 3점) ",
-                "question"      : "(가) 이러한 현상으로 인해 탈모 약품, 기능성 샴푸 등 탈모와 관련된 제품이 인기를 끌고 있다.\n(나) 특히 남자의 경우는 탈모가 시작되는 연령이 평균 31.6세로 낮아졌다.\n(다) 머리카락이 빠지는 탈모 환자들의 연령대가 점점 낮아지고 있다.\n(라) 탈모 시작 시기가 이처럼 빨라진 것은 서구화된 식습관이나 스트레스가 영향을 미쳤기 때문이다.",
+                "question"      : "(가) 이러한 현상으로 인해 탈모 약품, 기능성 샴푸 등 탈모와 관련된 제품이 인기를 끌고 있다.\n(나) 특히 남자의 경우는 탈모가 시작되는 연령이 평균 31.6세로 낮아졌다.\n(다) 머리카락이 빠지는 탈모 환자들의 연령대가 점점 낮아지고 있다.\n(라) 탈모 시작 시기가 이처럼 빨라진 것은 서구화된 식습관이나 스트레스가 영향을 미쳤기 때문이다.\nQ45.",
                 "option_1"      : "①  (다)-(가)-(나)-(라)",
                 "option_2"      : "②  (다)-(나)-(라)-(가)",
                 "option_3"      : "③  (라)-(가)-(다)-(나)",
                 "option_4"      : "④  (라)-(나)-(다)-(가)",
                 "correctAnswer" : "②  (다)-(나)-(라)-(가)",
-                "detail"        : " The age of hair loss patients who lose their hair is getting lower and lower. In men in particular, the age at which hair loss begins has been lowered to an average age of 31.6. The reason why hair loss starts so early is because Westernized eating habits or stress have affected it. Due to this phenomenon, hair loss-related products such as hair loss drugs and functional shampoos are gaining popularity."
+                "detail"        : "\n The age of hair loss patients who lose their hair is getting lower and lower. In men in particular, the age at which hair loss begins has been lowered to an average age of 31.6. The reason why hair loss starts so early is because Westernized eating habits or stress have affected it. Due to this phenomenon, hair loss-related products such as hair loss drugs and functional shampoos are gaining popularity."
         },
         {
             "sections"      : "※ [46~48] 다음을 읽고(....)에 알맞은 것을 고르십시오. ",
-                "question"      : " 날씨가 추워지면 옷을 여러 겹 입거나 양말을 여러 개 신는 경우가 많다. 그런데 이때 빼놓아서는 안 되는 것이 바로 모자다. 몸의 열은 주로 옷 밖으로 노출된 목 위쪽으로 빠져나간다. 그렇기 때문에 몸의 열이 쉽게 빠져나가지 않게 하려면 (....) 한다. ",
+                "question"      : " 날씨가 추워지면 옷을 여러 겹 입거나 양말을 여러 개 신는 경우가 많다. 그런데 이때 빼놓아서는 안 되는 것이 바로 모자다. 몸의 열은 주로 옷 밖으로 노출된 목 위쪽으로 빠져나간다. 그렇기 때문에 몸의 열이 쉽게 빠져나가지 않게 하려면 (....) 한다.\nQ46. ",
                 "option_1"      : "①  몸속에서 열이 나야",
                 "option_2"      : "②  두꺼운 양말을 신어야",
                 "option_3"      : "③  머리를 따뜻하게 해야",
                 "option_4"      : "④  땀 배출을 제대로 해야",
                 "correctAnswer" : "③  머리를 따뜻하게 해야",
-                "detail"        : "  When the weather gets cold, I often wear multiple layers of clothes or multiple socks. But the thing you shouldn't leave out at this time is the hat. The heat of the body usually escapes above the neck exposed out of the clothes. That's why you need to keep your head warm so that your body's heat doesn't go away easily."
+                "detail"        : "\n  When the weather gets cold, I often wear multiple layers of clothes or multiple socks. But the thing you shouldn't leave out at this time is the hat. The heat of the body usually escapes above the neck exposed out of the clothes. That's why you need to keep your head warm so that your body's heat doesn't go away easily."
         },
         {
             "sections"      : "※ [46~48] 다음을 읽고(....)에 알맞은 것을 고르십시오. ",
-                "question"      : " 문어는 팔이 없고 다리만 여덟 개라고 알려져 있다. 그러나 실제로 문어를 관찰 해보면 앞 쪽세 쌍은(....) 기능을하고 뒤의 한쌍은 앞뒤로 움직이는 데에 주로 사용한다. 따라서 문어의 다리는 상식과 달리 두 개뿐이며 나머지 여섯 개는 팔로 보는 것이 맞다. ",
+                "question"      : " 문어는 팔이 없고 다리만 여덟 개라고 알려져 있다. 그러나 실제로 문어를 관찰 해보면 앞 쪽세 쌍은(....) 기능을하고 뒤의 한쌍은 앞뒤로 움직이는 데에 주로 사용한다. 따라서 문어의 다리는 상식과 달리 두 개뿐이며 나머지 여섯 개는 팔로 보는 것이 맞다.\nQ47. ",
                 "option_1"      : "①  적의 냄새를 맡는",
                 "option_2"      : "②  물고기의 소리를 듣는",
                 "option_3"      : "③  주위의 물체를 붙잡는",
                 "option_4"      : "④  물속의 먹이를 관찰하는",
                 "correctAnswer" : "③  주위의 물체를 붙잡는",
-                "detail"        : "  Octopuses are known to have no arms and only eight legs. However, if you actually observe the octopus, the front three pairs function to hold the objects around them, and the back pair is mainly used to move back and forth. Thus, unlike common sense, the octopus's legs are only two, and the other six are correct to see with their arms."
+                "detail"        : "\n  Octopuses are known to have no arms and only eight legs. However, if you actually observe the octopus, the front three pairs function to hold the objects around them, and the back pair is mainly used to move back and forth. Thus, unlike common sense, the octopus's legs are only two, and the other six are correct to see with their arms."
         },
         {
             "sections"      : "※ [46~48] 다음을 읽고(....)에 알맞은 것을 고르십시오. ",
-                "question"      : " 닭처럼 낮에만 활동하는 동물들은 보통 밤에 앞을 잘 보지 못한다. 그런데 밤에 눈이 잘 보이는데도 낮에만 활동하는 동물이 있다. 펭귄들은 해가 뜰 때 집을 나가 어두워지기 전에 돌아오는 습성이 있다. 펭귄들이 밤에 돌아 다니지 않는 것은 밤눈이 어두워서가 아니다. 펭귄들을 잡아먹는 동물들이 (....) 때문이다. ",
+                "question"      : " 닭처럼 낮에만 활동하는 동물들은 보통 밤에 앞을 잘 보지 못한다. 그런데 밤에 눈이 잘 보이는데도 낮에만 활동하는 동물이 있다. 펭귄들은 해가 뜰 때 집을 나가 어두워지기 전에 돌아오는 습성이 있다. 펭귄들이 밤에 돌아 다니지 않는 것은 밤눈이 어두워서가 아니다. 펭귄들을 잡아먹는 동물들이 (....) 때문이다.\nQ48. ",
                 "option_1"      : "①  언제 활동할지 알 수 없기",
                 "option_2"      : "②  밤에 먹이를 잡으러 다니기",
                 "option_3"      : "③  새벽에는 앞을 잘 볼 수 없기",
                 "option_4"      : "④  펭귄과 비슷한 습성을 갖고 있기",
                 "correctAnswer" : "②  밤에 먹이를 잡으러 다니기",
-                "detail"        : "  Animals that are only active during the day like chickens usually don't see well at night. However, there are animals that are active only during the day even though they can see well at night. Penguins have a habit of leaving the house when the sun rises and returning before dark. It's not because it's dark at night that penguins don't move around at night. Because the animals that eat penguins go around to catch food at night."
+                "detail"        : "\n  Animals that are only active during the day like chickens usually don't see well at night. However, there are animals that are active only during the day even though they can see well at night. Penguins have a habit of leaving the house when the sun rises and returning before dark. It's not because it's dark at night that penguins don't move around at night. Because the animals that eat penguins go around to catch food at night."
         },
         {
             "sections"      : "※ [49~50] 다음을 읽고(....)에 알맞은 것을 고르십시오. ",
@@ -438,7 +438,7 @@
                 "option_3"      : "③  우봉마을 주민들, 산사태 속에서도 무사해",
                 "option_4"      : "④  침착한 대처, 인명 구조 시 무엇보다 중요해",
                 "correctAnswer" : "②  용감한 시민, 위험 무릅쓰고 노부부 구해",
-                "detail"        : "  It's a hot topic because there is a brave citizen who saved his neighbor in the landslide. Kim Chan-young (57), who lives in Woobong Village, had an accident while his whole family went on a trip around 7 p.m. on the 21st and stayed home alone. Mr. Kim escaped from the house as soon as a pile of dirt hit the house, but soon remembered a couple in their 70s who lived in the basement of his house. Mr. Kim quickly broke the door of the basement room and went inside. The soil and water were already up to the chest, but Mr. Kim calmly rescued the couple who were trembling because they couldn't help it. Fortunately, the couple, who were taken to the hospital, were not expected to need any treatment. The children of the couple, who visited the hospital belatedly, thanked Kim for bravely saving their lives, saying that they could not see their parents again."
+                "detail"        : "\n  It's a hot topic because there is a brave citizen who saved his neighbor in the landslide. Kim Chan-young (57), who lives in Woobong Village, had an accident while his whole family went on a trip around 7 p.m. on the 21st and stayed home alone. Mr. Kim escaped from the house as soon as a pile of dirt hit the house, but soon remembered a couple in their 70s who lived in the basement of his house. Mr. Kim quickly broke the door of the basement room and went inside. The soil and water were already up to the chest, but Mr. Kim calmly rescued the couple who were trembling because they couldn't help it. Fortunately, the couple, who were taken to the hospital, were not expected to need any treatment. The children of the couple, who visited the hospital belatedly, thanked Kim for bravely saving their lives, saying that they could not see their parents again."
         },
         {
             "sections"      : "※ [49~50] 다음을 읽고(....)에 알맞은 것을 고르십시오. ",
@@ -448,7 +448,7 @@
                 "option_3"      : "③  김 씨의 가족들은 이미 다른 곳으로 대피해 있었다.",
                 "option_4"      : "④  김 씨는 사고가 나자마자 살던 지하방을 뛰쳐나왔다.",
                 "correctAnswer" : "①  70대 부부는 흙과 물이 차올라 몹시 두려워했다.",
-                "detail"        : "  It's a hot topic because there is a brave citizen who saved his neighbor in the landslide. Kim Chan-young (57), who lives in Woobong Village, had an accident while his whole family went on a trip around 7 p.m. on the 21st and stayed home alone. Mr. Kim escaped from the house as soon as a pile of dirt hit the house, but soon remembered a couple in their 70s who lived in the basement of his house. Mr. Kim quickly broke the door of the basement room and went inside. The soil and water were already up to the chest, but Mr. Kim calmly rescued the couple who were trembling because they couldn't help it. Fortunately, the couple, who were taken to the hospital, were not expected to need any treatment. The children of the couple, who visited the hospital belatedly, thanked Kim for bravely saving their lives, saying that they could not see their parents again."
+                "detail"        : "\n  It's a hot topic because there is a brave citizen who saved his neighbor in the landslide. Kim Chan-young (57), who lives in Woobong Village, had an accident while his whole family went on a trip around 7 p.m. on the 21st and stayed home alone. Mr. Kim escaped from the house as soon as a pile of dirt hit the house, but soon remembered a couple in their 70s who lived in the basement of his house. Mr. Kim quickly broke the door of the basement room and went inside. The soil and water were already up to the chest, but Mr. Kim calmly rescued the couple who were trembling because they couldn't help it. Fortunately, the couple, who were taken to the hospital, were not expected to need any treatment. The children of the couple, who visited the hospital belatedly, thanked Kim for bravely saving their lives, saying that they could not see their parents again."
         }
     ]
 }

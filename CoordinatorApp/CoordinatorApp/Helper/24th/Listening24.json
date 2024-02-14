@@ -7,7 +7,7 @@
             "option_2"      : "② ",
             "option_3"      : "③ ",
             "option_4"      : "④ ",
-            "detail"        : "Man : I'll wash the dishes today.\nWoman : Would you like to? Then I'll clean up the bowl and the table.\nMan : Yes. Please give me an empty bowl over here.",
+            "detail"        : "\nMan : I'll wash the dishes today.\nWoman : Would you like to? Then I'll clean up the bowl and the table.\nMan : Yes. Please give me an empty bowl over here.",
             "correctAnswer" : "① ",
             "score"         : "3",
             "isImg"         : "y"
@@ -19,7 +19,7 @@
             "option_2"      : "② ",
             "option_3"      : "③ ",
             "option_4"      : "④ ",
-            "detail"        : " Woman : Well, I picked up my wallet at the bus stop in front of here. Please find the owner of this.\nMan : Oh, yes . Please write this declaration form . Please write down your name, contact information, and the time and place where you picked up the item. Please sign below.",
+            "detail"        : "\n Woman : Well, I picked up my wallet at the bus stop in front of here. Please find the owner of this.\nMan : Oh, yes . Please write this declaration form . Please write down your name, contact information, and the time and place where you picked up the item. Please sign below.",
             "correctAnswer" : "③ ",
             "score"         : "3",
             "isImg"         : "y"
@@ -31,7 +31,7 @@
             "option_2"      : "② 그러면 빵하고 우유 좀 부탁해요.",
             "option_3"      : "③ 그래도 근처에 있는 가게에 가세요.",
             "option_4"      : "④ 그리고 너무 늦게까지 일하지 마세요.",
-            "detail"        : "Man : Are you off work now?\nWoman : No. I'm going to the store for a while. Do you want me to buy you anything you need?",
+            "detail"        : "\nMan : Are you off work now?\nWoman : No. I'm going to the store for a while. Do you want me to buy you anything you need?",
             "other"         : "n",
             "correctAnswer" : "② 그러면 빵하고 우유 좀 부탁해요.",
             "score"         : "3"
@@ -43,7 +43,7 @@
             "option_2"      : "② 잘못 내리지 않게 계속 잘 보고 있자.",
             "option_3"      : "③ 이쪽으로 가면 지하철역이니까 걱정 마.",
             "option_4"      : "④ 그 열차는 반대로 가는 거니까 타지 마.",
-            "detail"        : "Woman : Is this going to Dongdaemun Station? Why is Seoul Station coming out?\nMan : That's right. I think we got on the wrong subway. You're going the other way.",
+            "detail"        : "\nWoman : Is this going to Dongdaemun Station? Why is Seoul Station coming out?\nMan : That's right. I think we got on the wrong subway. You're going the other way.",
             "correctAnswer" : "① 이번 역에서 내려서 다시 돌아가자.",
             "score"         : "3"
         },
@@ -54,7 +54,7 @@
             "option_2"      : "② 지금처럼 최선을 다해서 일해 주세요.",
             "option_3"      : "③ 열심히 해서 꼭 과장으로 승진하세요.",
             "option_4"      : "④ 사장님께서도 김 과장을 믿고 있어요.",
-            "detail"        : "Man : Manager Kim, congratulations on your promotion.\nWoman : Yes, I didn't expect to get promoted so quickly, thank you so much, boss. I will work harder from now on.",
+            "detail"        : "\nMan : Manager Kim, congratulations on your promotion.\nWoman : Yes, I didn't expect to get promoted so quickly, thank you so much, boss. I will work harder from now on.",
             "correctAnswer" : "② 지금처럼 최선을 다해서 일해 주세요.",
             "score"         : "3"
         },
@@ -65,7 +65,7 @@
             "option_2"      : "② 새로 산 거니까 꼭 지워 주셨으면 좋겠어요.",
             "option_3"      : "③ 깨끗하게 안 될 줄 알았는데 정말 다행이네요.",
             "option_4"      : "④ 나중에 세탁기로 빨 테니까 신경 안 써도 돼요.",
-            "detail"        : "Woman : Mister, there's something on the shirt here, will it disappear if I wash it?\nMan : Let's see. Well, you have to wash this to know . Maybe it won't go away.",
+            "detail"        : "\nWoman : Mister, there's something on the shirt here, will it disappear if I wash it?\nMan : Let's see. Well, you have to wash this to know . Maybe it won't go away.",
             "correctAnswer" : "② 새로 산 거니까 꼭 지워 주셨으면 좋겠어요.",
             "score"         : "3"
         },
@@ -76,7 +76,7 @@
             "option_2"      : "② 건물의 구조",
             "option_3"      : "③ 건물의 위치",
             "option_4"      : "④ 건물의 역사",
-            "detail"        : "Man : Wow! That building is really cool The history looks very old. \nWoman : Yes, it's a building that has been built for about 80 years . When it was first built, it was a newspaper, but now it's changed to an art museum.\nMan : Is that so? Let's go in.",
+            "detail"        : "\nMan : Wow! That building is really cool The history looks very old. \nWoman : Yes, it's a building that has been built for about 80 years . When it was first built, it was a newspaper, but now it's changed to an art museum.\nMan : Is that so? Let's go in.",
             "correctAnswer" : "④ 건물의 역사",
             "score"         : "3"
         },
@@ -87,7 +87,7 @@
             "option_2"      : "② 모기가 좋아하는 색깔",
             "option_3"      : "③ 밝은 색 옷을 입는 이유",
             "option_4"      : "④ 밝은 색과 어두운 색의 차이",
-            "detail"        : "Women : Ladies and gentlemen , what color do you enjoy wearing in the summer? I always wear brightly colored clothes in summer . The light color reflects the light, which puts sunlight from touching the skin directly . So it feels cooler than when you wear dark-colored clothes and it helps your skin's health . Also, if you wear brightly colored clothes, you won't get bitten by mosquitoes . Mosquitoes like dark colors.",
+            "detail"        : "\nWomen : Ladies and gentlemen , what color do you enjoy wearing in the summer? I always wear brightly colored clothes in summer . The light color reflects the light, which puts sunlight from touching the skin directly . So it feels cooler than when you wear dark-colored clothes and it helps your skin's health . Also, if you wear brightly colored clothes, you won't get bitten by mosquitoes . Mosquitoes like dark colors.",
             "correctAnswer" : "③ 밝은 색 옷을 입는 이유",
             "score"         : "3"
         },
@@ -98,7 +98,7 @@
             "option_2"      : "② 화재의 예방법",
             "option_3"      : "③ 소화기의 안전성",
             "option_4"      : "④ 소화기의 사용법",
-            "detail"        : "Man : Initial response is important when a fire occurs. You can prevent a big fire just by knowing how to use a fire extinguisher that you can easily see around you. First, take the fire extinguisher to the place where the fire is on and pull out the safety pin . Then, stand with your back to the wind and pull the handle as hard as you can. And you can spray it from side to side as if you use a broom until the light goes out. ",
+            "detail"        : "\nMan : Initial response is important when a fire occurs. You can prevent a big fire just by knowing how to use a fire extinguisher that you can easily see around you. First, take the fire extinguisher to the place where the fire is on and pull out the safety pin . Then, stand with your back to the wind and pull the handle as hard as you can. And you can spray it from side to side as if you use a broom until the light goes out. ",
             "correctAnswer" : "④ 소화기의 사용법",
             "score"         : "3"
         },
@@ -109,7 +109,7 @@
             "option_2"      : "② 손해 보상 대책",
             "option_3"      : "③ 사고 피해 상황",
             "option_4"      : "④ 피해 복구 결과",
-            "detail"        : "Man : Initial response is important when a fire occurs. You can prevent a big fire just by knowing how to use a fire extinguisher that you can easily see around you. First, take the fire extinguisher to the place where the fire is on and pull out the safety pin. Then, stand with your back to the wind and pull the handle as hard as you can. And you can spray it from side to side as if you use a broom until the light goes out.\nWoman : The amount of blackout losses at a Korean automaker that occurred two days ago is likely to be nearly double as high as expected. A factory official announced that the amount of accident damage would initially be around 20 billion won, but the production of millions of cars to be exported abroad could be delayed, which could increase the damage by up to 40 billion won . So far, it has been KBC News.",
+            "detail"        : "\nMan : Initial response is important when a fire occurs. You can prevent a big fire just by knowing how to use a fire extinguisher that you can easily see around you. First, take the fire extinguisher to the place where the fire is on and pull out the safety pin. Then, stand with your back to the wind and pull the handle as hard as you can. And you can spray it from side to side as if you use a broom until the light goes out.\nWoman : The amount of blackout losses at a Korean automaker that occurred two days ago is likely to be nearly double as high as expected. A factory official announced that the amount of accident damage would initially be around 20 billion won, but the production of millions of cars to be exported abroad could be delayed, which could increase the damage by up to 40 billion won . So far, it has been KBC News.",
             "correctAnswer" : "③ 사고 피해 상황",
             "score"         : "3"
         },
@@ -120,7 +120,7 @@
             "option_2"      : "② 여자는 땀이 나도 얼굴색이 안 변한다.",
             "option_3"      : "③ 남자는 운동할 때에만 땀을 조금 흘린다.",
             "option_4"      : "④ 여자의 가족들은 땀을 잘 흘리지 않는다.",
-            "detail"        : "Man : I'm sweating so much that I have to stop now. Mina rarely sweats even though she exercises like this.\nWoman : Yes . My whole family doesn't sweat well . I'm just blushing No matter how hot it is, no matter how hard I exercise, I hardly sweat.",
+            "detail"        : "\nMan : I'm sweating so much that I have to stop now. Mina rarely sweats even though she exercises like this.\nWoman : Yes . My whole family doesn't sweat well . I'm just blushing No matter how hot it is, no matter how hard I exercise, I hardly sweat.",
             "correctAnswer" : "④ 여자의 가족들은 땀을 잘 흘리지 않는다.",
             "score"         : "4"
         },
@@ -131,7 +131,7 @@
             "option_2"      : "② 공연 시작 15분 전까지 들어와 앉아 있어야 한다.",
             "option_3"      : "③ 공연장 밖에 나갔다 들어올 때 표를 다시 확인한다.",
             "option_4"      : "④ 공연 휴식 시간에 공연장 안에서 간단한 음식을 판다.",
-            "detail"        : "Woman : Part 1 performance is over . I will take a break for 15 minutes from now on. If you want to go outside the venue, please bring your admission ticket . If you don't have a ticket when you come in, you can't re-enter . You can't eat drinks or food in the concert hall even during breaks. Part 2 will start exactly 15 minutes later, so please come back to your seat in time.",
+            "detail"        : "\nWoman : Part 1 performance is over . I will take a break for 15 minutes from now on. If you want to go outside the venue, please bring your admission ticket . If you don't have a ticket when you come in, you can't re-enter . You can't eat drinks or food in the concert hall even during breaks. Part 2 will start exactly 15 minutes later, so please come back to your seat in time.",
             "correctAnswer" : "③ 공연장 밖에 나갔다 들어올 때 표를 다시 확인한다.",
             "score"         : "4"
         },
@@ -142,7 +142,7 @@
             "option_2"      : "② 습지에 대한 관심이 최근에 약간 줄었다.",
             "option_3"      : "③ 습지 식물은 공기가 깨끗해야 살 수 있다.",
             "option_4"      : "④ 습지 식물은 물이 충분하지 않아도 잘 자란다.",
-            "detail"        : "Man : There is always a place that is wet in water. It's called wetland because it's humid. Interest in this place is increasing these days. This is because various plants that live in wetlands have a positive impact on the environment. Wetland plants suck the rain well. So it has the effect of preventing flooding. Also, the good air that wetland plants let out when they breathe cleans the nearby air.",
+            "detail"        : "\nMan : There is always a place that is wet in water. It's called wetland because it's humid. Interest in this place is increasing these days. This is because various plants that live in wetlands have a positive impact on the environment. Wetland plants suck the rain well. So it has the effect of preventing flooding. Also, the good air that wetland plants let out when they breathe cleans the nearby air.",
             "correctAnswer" : "① 습지는 비를 흡수해 홍수를 예방한다.",
             "score"         : "4"
         },
@@ -153,7 +153,7 @@
             "option_2"      : "② 종이는 모아 두었다가 버리는 것이 좋다.",
             "option_3"      : "③ 인쇄기가 고장 나도 그냥 버리면 안 된다.",
             "option_4"      : "④ 인쇄할 때에는 새 종이를 쓰는 것이 좋다.",
-            "detail"        : "Woman : Did you collect the papers here to rewrite them?\nMan : Yes. The printing is wrong, but I'm going to use the back because it's a waste to throw it away.\nWoman : But if you put the paper you used once back in the printing machine, the machine will easily fail. It was me When printing, the paper keeps hanging, so it doesn't print well. If you don't want to throw it away, just use it as a notepad.",
+            "detail"        : "\nWoman : Did you collect the papers here to rewrite them?\nMan : Yes. The printing is wrong, but I'm going to use the back because it's a waste to throw it away.\nWoman : But if you put the paper you used once back in the printing machine, the machine will easily fail. It was me When printing, the paper keeps hanging, so it doesn't print well. If you don't want to throw it away, just use it as a notepad.",
             "correctAnswer" : "④ 인쇄할 때에는 새 종이를 쓰는 것이 좋다.",
             "score"         : "4"
         },
@@ -164,7 +164,7 @@
             "option_2"      : "② 여행할 때에는 다양한 경험을 해 봐야 한다.",
             "option_3"      : "③ 여러 명이 같이 여행 갈 때에는 버스가 편하다.",
             "option_4"      : "④ 제주도는 가 봤기 때문에 다른 곳에 가고 싶다.",
-            "detail"        : "Man : Wow! Look at this It's a group tour product for 3 days and 2 nights in Jeju Island, and the price came out really cheap. Shall we go to this once?\nWoman : I don't like group tours. I've been there once last time, and since I'm moving as a group, I have to go only to the designated place and keep taking the sightseeing bus. It wasn't very fun. If it's a trip, isn't it good to go where I want to go, there's as much as I want, and be able to do whatever I want?",
+            "detail"        : "\nMan : Wow! Look at this It's a group tour product for 3 days and 2 nights in Jeju Island, and the price came out really cheap. Shall we go to this once?\nWoman : I don't like group tours. I've been there once last time, and since I'm moving as a group, I have to go only to the designated place and keep taking the sightseeing bus. It wasn't very fun. If it's a trip, isn't it good to go where I want to go, there's as much as I want, and be able to do whatever I want?",
             "correctAnswer" : "① 자유롭게 다닐 수 있는 여행이 좋다.",
             "score"         : "4"
         },
@@ -175,7 +175,7 @@
             "option_2"      : "② 가능하면 현금 인출기를 사용하지 않는 게 좋다.",
             "option_3"      : "③ 결제할 때 카드든 현금이든 아무 거나 상관없다.",
             "option_4"      : "④ 카드가 있다면 꼭 현금을 들고 다닐 필요는 없다.",
-            "detail"        : "Man : Mr. Sumi, I don't have any cash right now, so I'll go to the ATM and get some cash. I was nervous if I didn't have cash.\nWoman : You're nervous if you don't have cash? Why ? These days, you can use all your credit cards wherever you go. Not only buying things, but also buses and taxis can be done with a card. So I often carry only one card in my wallet.",
+            "detail"        : "\nMan : Mr. Sumi, I don't have any cash right now, so I'll go to the ATM and get some cash. I was nervous if I didn't have cash.\nWoman : You're nervous if you don't have cash? Why ? These days, you can use all your credit cards wherever you go. Not only buying things, but also buses and taxis can be done with a card. So I often carry only one card in my wallet.",
             "correctAnswer" : "④ 카드가 있다면 꼭 현금을 들고 다닐 필요는 없다.",
             "score"         : "4"
         },
@@ -186,7 +186,7 @@
             "option_2"      : "② 집중이 잘될 때 하던 일을 계속 하는 게 좋다.",
             "option_3"      : "③ 일할 때 중간에 휴식을 하면 기분 전환이 된다.",
             "option_4"      : "④ 쉬더라도 일이 끝난 후에 쉬어야 마음이 편하다.",
-            "detail"        : "Man : Ugh, how many hours have we been doing this now? It's so hard because I keep sitting and working. Shall we go out for a walk to change my mood?\nWoman : Uh, now? I've been focusing on it for a long time...\nMan : But wouldn't it be better if you go out and get some fresh air?\nWoman : Then let's finish what we were doing and go . If you go out now, I think it will be difficult to come back and concentrate right away. There's not much left.",
+            "detail"        : "\nMan : Ugh, how many hours have we been doing this now? It's so hard because I keep sitting and working. Shall we go out for a walk to change my mood?\nWoman : Uh, now? I've been focusing on it for a long time...\nMan : But wouldn't it be better if you go out and get some fresh air?\nWoman : Then let's finish what we were doing and go . If you go out now, I think it will be difficult to come back and concentrate right away. There's not much left.",
             "correctAnswer" : "② 집중이 잘될 때 하던 일을 계속 하는 게 좋다.",
             "score"         : "4"
         },
@@ -197,7 +197,7 @@
             "option_2"      : "② 피자집에 전화해서 주문한다.",
             "option_3"      : "③ 여자에게 광고지를 건네준다.",
             "option_4"      : "④ 냉장고 근처를 다시 찾아본다.",
-            "detail"        : "Man : Sister, where is the advertisement for the pizza place?\nWoman : I would have put it next to the refrigerator . Look for it there\nMan : Next to the refrigerator? (A little later) It's not here.\nWoman : Is that so? Where is then Ah! Here it is.\nMan : Give it to me. Let's call quickly and make them deliver.\nWoman : Uh! Wait a minute According to the advertisement, it says '30% discount on visiting packaging'.\nWoman : Do you want to go there in person? I'll call and place an order.\nMan : Yes, okay.",
+            "detail"        : "\nMan : Sister, where is the advertisement for the pizza place?\nWoman : I would have put it next to the refrigerator . Look for it there\nMan : Next to the refrigerator? (A little later) It's not here.\nWoman : Is that so? Where is then Ah! Here it is.\nMan : Give it to me. Let's call quickly and make them deliver.\nWoman : Uh! Wait a minute According to the advertisement, it says '30% discount on visiting packaging'.\nWoman : Do you want to go there in person? I'll call and place an order.\nMan : Yes, okay.",
             "correctAnswer" : "① 주문한 피자를 가지러 간다.",
             "score"         : "3"
         },
@@ -208,7 +208,7 @@
             "option_2"      : "② 바람의 방향을 다른 쪽으로 바꾼다.",
             "option_3"      : "③ 음료를 옮기려는 자리로 가져다준다.",
             "option_4"      : "④ 다른 쪽에 좋은 자리가 있는지 확인한다.",
-            "detail"        : "Woman : Hey. It's a little cold, so could you turn off the air conditioner?\nMan : Sir, I'm sorry, but can I just raise the temperature a little? Other customers say it's hot.\nWoman : But I can't because the wind coming this way is so strong.\nMan : Then do you want me to move your seat to the other side? The tea and coffee I used to drink I'll move you there.\nWoman : Yes. And please bring me a glass of warm water.\nMan : Yes, let's go that way.",
+            "detail"        : "\nWoman : Hey. It's a little cold, so could you turn off the air conditioner?\nMan : Sir, I'm sorry, but can I just raise the temperature a little? Other customers say it's hot.\nWoman : But I can't because the wind coming this way is so strong.\nMan : Then do you want me to move your seat to the other side? The tea and coffee I used to drink I'll move you there.\nWoman : Yes. And please bring me a glass of warm water.\nMan : Yes, let's go that way.",
             "correctAnswer" : "③ 음료를 옮기려는 자리로 가져다준다.",
             "score"         : "3"
         },
@@ -219,7 +219,7 @@
             "option_2"      : "② 피자집에 전화해서 주문한다.",
             "option_3"      : "③ 직원 야유회 날짜를 직원들에게 알린다.",
             "option_4"      : "④ 직원 야유회에 모두 참석하라고 전한다.",
-            "detail"        : "Woman : Assistant Manager Lee, I'm going to prepare for the staff picnic next month with Assistant Manager Lee and me. The date is just around the corner, so I think we need to hurry up to get ready.\nMan : Yes, I got it.\nWoman : First of all, I'm in a hurry to decide on the place, so let's find out the place by today. You have to post the notice on the website as soon as it is decided, so please prepare the notice in advance. And check if there are any employees who can't attend.\nMan : Yes, I'll take care of it quickly.",
+            "detail"        : "\nWoman : Assistant Manager Lee, I'm going to prepare for the staff picnic next month with Assistant Manager Lee and me. The date is just around the corner, so I think we need to hurry up to get ready.\nMan : Yes, I got it.\nWoman : First of all, I'm in a hurry to decide on the place, so let's find out the place by today. You have to post the notice on the website as soon as it is decided, so please prepare the notice in advance. And check if there are any employees who can't attend.\nMan : Yes, I'll take care of it quickly.",
             "correctAnswer" : "① 직원 야유회로 갈 만한 데를 찾아본다.",
             "score"         : "3"
         },
@@ -230,7 +230,7 @@
             "option_2"      : "② 이곳의 구두는 품질보다 아름다움이 우선이다.",
             "option_3"      : "③ 고객과의 상담을 통해 구두 디자인이 결정된다.",
             "option_4"      : "④ 미리 디자인을 해 놓은 구두는 가격이 더 싸다.",
-            "detail"        : "Woman : Today, I've been in the same place for 30 years and came to a shoe store that has become famous through word of mouth. (As I can tell) I, why do customers like to wear the shoes here even though the price is quite expensive?\nMan : It's because of quality and design. All the shoes in our store are the work of designer Lee Young-man . You've been thinking about making shoes that make customers' feet the most comfortable and shoes that make them look cool. As you can see, there are no pre-made shoes in the store. When customers come, we will consult and start working for only one customer from then on . It's all made by hand, so even if it takes some time to complete, the customer satisfaction is the best.",
+            "detail"        : "\nWoman : Today, I've been in the same place for 30 years and came to a shoe store that has become famous through word of mouth. (As I can tell) I, why do customers like to wear the shoes here even though the price is quite expensive?\nMan : It's because of quality and design. All the shoes in our store are the work of designer Lee Young-man . You've been thinking about making shoes that make customers' feet the most comfortable and shoes that make them look cool. As you can see, there are no pre-made shoes in the store. When customers come, we will consult and start working for only one customer from then on . It's all made by hand, so even if it takes some time to complete, the customer satisfaction is the best.",
             "correctAnswer" : "③ 고객과의 상담을 통해 구두 디자인이 결정된다.",
             "score"         : "3"
         },
@@ -241,7 +241,7 @@
             "option_2"      : "② 구두 디자이너",
             "option_3"      : "③ 구두 매장 직원",
             "option_4"      : "④ 구두 가게 손님",
-            "detail"        : "Woman : Today, I've been in the same place for 30 years and came to a shoe store that has become famous through word of mouth . (As I can tell) I, why do customers like to wear the shoes here even though the price is quite expensive?\nMan : It's because of quality and design . All the shoes in our store are the work of designer Lee Young-man . You've been thinking about making shoes that make customers' feet the most comfortable and shoes that make them look cool . As you can see, there are no pre-made shoes in the store. When customers come, we will consult and start working for only one customer from then on . It's all made by hand, so even if it takes some time to complete, the customer satisfaction is the best.",
+            "detail"        : "\nWoman : Today, I've been in the same place for 30 years and came to a shoe store that has become famous through word of mouth . (As I can tell) I, why do customers like to wear the shoes here even though the price is quite expensive?\nMan : It's because of quality and design . All the shoes in our store are the work of designer Lee Young-man . You've been thinking about making shoes that make customers' feet the most comfortable and shoes that make them look cool . As you can see, there are no pre-made shoes in the store. When customers come, we will consult and start working for only one customer from then on . It's all made by hand, so even if it takes some time to complete, the customer satisfaction is the best.",
             "correctAnswer" : "③ 구두 매장 직원",
             "score"         : "3"
         },
@@ -252,7 +252,7 @@
             "option_2"      : "② ‘바른 먹을거리 교육’의 미래를 전망하고 있다.",
             "option_3"      : "③ ‘바른 먹을거리 교육’에 대해서 소개하고 있다.",
             "option_4"      : "④ ‘바른 먹을거리 교육’의 필요성을 주장하고 있다.",
-            "detail"        : "Woman : Recently, 'Right Food Education' has started. We have Mr. Kim Min-ho, who is in charge of this training here.\nMan : Yes, the right food education, especially for children. (Confirmation) Isn't this a way to know which food ingredients are safe and which foods can be eaten to eat in a balance? As you know, it's hard to fix your eating habits once they harden. So, if you have to have a systematic education on food from an early age, you can choose the right food even as an adult. Although it is still in its infancy, we need to conduct education in as many schools as possible in the future so that more children can understand food correctly and grow up healthy.",
+            "detail"        : "\nWoman : Recently, 'Right Food Education' has started. We have Mr. Kim Min-ho, who is in charge of this training here.\nMan : Yes, the right food education, especially for children. (Confirmation) Isn't this a way to know which food ingredients are safe and which foods can be eaten to eat in a balance? As you know, it's hard to fix your eating habits once they harden. So, if you have to have a systematic education on food from an early age, you can choose the right food even as an adult. Although it is still in its infancy, we need to conduct education in as many schools as possible in the future so that more children can understand food correctly and grow up healthy.",
             "correctAnswer" : "④ ‘바른 먹을거리 교육’의 필요성을 주장하고 있다.",
             "score"         : "3"
         },
@@ -263,7 +263,7 @@
             "option_2"      : "② 아이들 혼자서는 안전한 식품을 선택할 수 없기 때문에",
             "option_3"      : "③ 어릴 때 영양 섭취를 잘해야 어른이 돼도 건강하기 때문에",
             "option_4"      : "④ 어릴 때 생긴 식습관은 시간이 지나도 바꾸기 어렵기 때문에",
-            "detail"        : "Woman : Recently, 'Right Food Education' has started. We have Mr. Kim Min-ho, who is in charge of this training here.\nMan : Yes, the right food education, especially for children. (Confirmation) Isn't this a way to know which food ingredients are safe and which foods can be eaten to eat in a balance? As you know, it's hard to fix your eating habits once they harden. So, if you have to have a systematic education on food from an early age, you can choose the right food even as an adult. Although it is still in its infancy, we need to conduct education in as many schools as possible in the future so that more children can understand food correctly and grow up healthy.",
+            "detail"        : "\nWoman : Recently, 'Right Food Education' has started. We have Mr. Kim Min-ho, who is in charge of this training here.\nMan : Yes, the right food education, especially for children. (Confirmation) Isn't this a way to know which food ingredients are safe and which foods can be eaten to eat in a balance? As you know, it's hard to fix your eating habits once they harden. So, if you have to have a systematic education on food from an early age, you can choose the right food even as an adult. Although it is still in its infancy, we need to conduct education in as many schools as possible in the future so that more children can understand food correctly and grow up healthy.",
             "correctAnswer" : "④ 어릴 때 생긴 식습관은 시간이 지나도 바꾸기 어렵기 때문에",
             "score"         : "3"
         },
@@ -274,7 +274,7 @@
             "option_2"      : "② 일부러라도 행복한 표정을 짓는 연습을 하면 좋다.",
             "option_3"      : "③ 행복해지려면 평소에 마음을 편안하게 가져야 한다.",
             "option_4"      : "④ 얼굴에 모든 감정을 드러내지 않도록 노력해야 한다.",
-            "detail"        : "Woman : We change facial expressions depending on our emotions . Then, on the contrary, can emotions change if the facial expression changes? A foreign psychologist did an interesting experiment. I tried to make people bite the back of the pencil with my teeth. If you bite with this, your mouth will open to the side and the tail of your mouth will go up, creating a smiling expression. The result is that people feel happy at this time. In other words, a smiling face creates happy feelings. Now, everyone, when you feel depressed, look in the mirror and smile. Then you will feel a little more relaxed and you will feel better. Your smile will make your day happy.",
+            "detail"        : "\nWoman : We change facial expressions depending on our emotions . Then, on the contrary, can emotions change if the facial expression changes? A foreign psychologist did an interesting experiment. I tried to make people bite the back of the pencil with my teeth. If you bite with this, your mouth will open to the side and the tail of your mouth will go up, creating a smiling expression. The result is that people feel happy at this time. In other words, a smiling face creates happy feelings. Now, everyone, when you feel depressed, look in the mirror and smile. Then you will feel a little more relaxed and you will feel better. Your smile will make your day happy.",
             "correctAnswer" : "② 일부러라도 행복한 표정을 짓는 연습을 하면 좋다.",
             "score"         : "4"
         },
@@ -285,7 +285,7 @@
             "option_2"      : "② 실제 연구 결과",
             "option_3"      : "③ 해외 유사 사례",
             "option_4"      : "④ 자신의 직접 경험",
-            "detail"        : "Woman : We change facial expressions depending on our emotions . Then, on the contrary, can emotions change if the facial expression changes? A foreign psychologist did an interesting experiment . I tried to make people bite the back of the pencil with my teeth . If you bite with this, your mouth will open to the side and the tail of your mouth will go up, creating a smiling expression . The result is that people feel happy at this time . In other words, a smiling face creates happy feelings . Now, everyone, when you feel depressed, look in the mirror and smile. Then you will feel a little more relaxed and you will feel better . Your smile will make your day happy.",
+            "detail"        : "\nWoman : We change facial expressions depending on our emotions . Then, on the contrary, can emotions change if the facial expression changes? A foreign psychologist did an interesting experiment . I tried to make people bite the back of the pencil with my teeth . If you bite with this, your mouth will open to the side and the tail of your mouth will go up, creating a smiling expression . The result is that people feel happy at this time . In other words, a smiling face creates happy feelings . Now, everyone, when you feel depressed, look in the mirror and smile. Then you will feel a little more relaxed and you will feel better . Your smile will make your day happy.",
             "correctAnswer" : "② 실제 연구 결과",
             "score"         : "3"
         },
@@ -296,7 +296,7 @@
             "option_2"      : "② 연예인의 사생활도 보통 사람들처럼 지켜 줄 필요가 있다.",
             "option_3"      : "③ 연예인은 카메라 앞에서 대중에게 좋은 모습을 보여야 한다.",
             "option_4"      : "④ 연예인의 개인적인 생활은 매체로부터 보호받을 필요가 있다.",
-            "detail"        : "Women : The public is very interested in each and every celebrity that is revealed through the media . Celebrities are gaining popularity thanks to the public's attention and love, and they are living a rich life economically . So if there's something the public who likes and cares about them wants to know, I think it's okay to reveal it to some extent, even if it's a personal part.\nMan : I don't understand why the public wants to know the personal part of celebrities . Isn't it okay for a singer to repay the public's love with a good song and a good actor? Celebrities, like ordinary people, should have their privacy protected. I don't think there's any reason for the public to know about the privacy of celebrities outside the camera.",
+            "detail"        : "\nWomen : The public is very interested in each and every celebrity that is revealed through the media . Celebrities are gaining popularity thanks to the public's attention and love, and they are living a rich life economically . So if there's something the public who likes and cares about them wants to know, I think it's okay to reveal it to some extent, even if it's a personal part.\nMan : I don't understand why the public wants to know the personal part of celebrities . Isn't it okay for a singer to repay the public's love with a good song and a good actor? Celebrities, like ordinary people, should have their privacy protected. I don't think there's any reason for the public to know about the privacy of celebrities outside the camera.",
             "correctAnswer" : "① 연예인은 대중이 궁금해하는 부분에 대해 공개해야 한다.",
             "score"         : "3"
         },
@@ -307,7 +307,7 @@
             "option_2"      : "② 상대방의 의견에 강하게 반박하고 있다.",
             "option_3"      : "③ 상황을 침착하게 분석하며 설득하고 있다.",
             "option_4"      : "④ 사례를 들며 조심스럽게 주장을 펼치고 있다.",
-            "detail"        : "Women : The public is very interested in each and every celebrity that is revealed through the media. Celebrities are gaining popularity thanks to the public's attention and love, and they are living a rich life economically. So if there's something the public who likes and cares about them wants to know, I think it's okay to reveal it to some extent, even if it's a personal part.\nMan : I don't understand why the public wants to know the personal part of celebrities. Isn't it okay for a singer to repay the public's love with a good song and a good actor? Celebrities, like ordinary people, should have their privacy protected. I don't think there's any reason for the public to know about the privacy of celebrities outside the camera.",
+            "detail"        : "\nWomen : The public is very interested in each and every celebrity that is revealed through the media. Celebrities are gaining popularity thanks to the public's attention and love, and they are living a rich life economically. So if there's something the public who likes and cares about them wants to know, I think it's okay to reveal it to some extent, even if it's a personal part.\nMan : I don't understand why the public wants to know the personal part of celebrities. Isn't it okay for a singer to repay the public's love with a good song and a good actor? Celebrities, like ordinary people, should have their privacy protected. I don't think there's any reason for the public to know about the privacy of celebrities outside the camera.",
             "correctAnswer" : "② 상대방의 의견에 강하게 반박하고 있다.",
             "score"         : "3"
         },
@@ -318,7 +318,7 @@
             "option_2"      : "② 인구 조사 방법에 큰 문제 있어",
             "option_3"      : "③ 국가 지출 느는데 일할 사람 줄어",
             "option_4"      : "④ 일하지 않는 경제 활동 인구 많아",
-            "detail"        : "Woman : It is said that the main population of economic activity is declining this year. Reporter Lee Seong-ho will give you more details.\nMen : The workforce of the most active age, ages 25 to 49, i.e., the core productive population, is decreasing. Moreover, looking at the current number of children and adolescents, a greater decline in the core productive population is expected in the future. If the core production class is lower, we will also give the government tax revenue. Welfare spending is increasing due to the increase in the elderly population, so there is a risk that government finances will deteriorate . In order to solve this, there is no choice but to have more taxes to be levied on young people . Experts are pointing out that key producers should come up with long-term measures before they are in full swing.",
+            "detail"        : "\nWoman : It is said that the main population of economic activity is declining this year. Reporter Lee Seong-ho will give you more details.\nMen : The workforce of the most active age, ages 25 to 49, i.e., the core productive population, is decreasing. Moreover, looking at the current number of children and adolescents, a greater decline in the core productive population is expected in the future. If the core production class is lower, we will also give the government tax revenue. Welfare spending is increasing due to the increase in the elderly population, so there is a risk that government finances will deteriorate . In order to solve this, there is no choice but to have more taxes to be levied on young people . Experts are pointing out that key producers should come up with long-term measures before they are in full swing.",
             "correctAnswer" : "③ 국가 지출 느는데 일할 사람 줄어",
             "score"         : "4"
         },
@@ -329,7 +329,7 @@
             "option_2"      : "② 인구가 전체적으로 감소하여 정부 재정이 악화되었다.",
             "option_3"      : "③ 아동 및 청소년 수 증가로 인구 문제 해결이 예상된다.",
             "option_4"      : "④ 전문가들은 현재 인구 문제에 대한 대책을 마련 중이다.",
-            "detail"        : "Woman : It is said that the main population of economic activity is declining this year. Reporter Lee Seong-ho will give you more details.\nMen : The workforce of the most active age, ages 25 to 49, i.e., the core productive population, is decreasing. Moreover, looking at the current number of children and adolescents, a greater decline in the core productive population is expected in the future. If the core production class is lower, we will also give the government tax revenue. Welfare spending is increasing due to the increase in the elderly population, so there is a risk that government finances will deteriorate . In order to solve this, there is no choice but to have more taxes to be levied on young people . Experts are pointing out that key producers should come up with long-term measures before they are in full swing.",
+            "detail"        : "\nWoman : It is said that the main population of economic activity is declining this year. Reporter Lee Seong-ho will give you more details.\nMen : The workforce of the most active age, ages 25 to 49, i.e., the core productive population, is decreasing. Moreover, looking at the current number of children and adolescents, a greater decline in the core productive population is expected in the future. If the core production class is lower, we will also give the government tax revenue. Welfare spending is increasing due to the increase in the elderly population, so there is a risk that government finances will deteriorate . In order to solve this, there is no choice but to have more taxes to be levied on young people . Experts are pointing out that key producers should come up with long-term measures before they are in full swing.",
             "correctAnswer" : "① 경제 활동 인력의 세금 부담이 늘어날 가능성이 있다.",
             "score"         : "3"
         }

@@ -6,7 +6,7 @@
             "option_2"      : "②    미리",
             "option_3"      : "③    거의",
             "option_4"      : "④    아직",
-            "detail"        : "I bought it in advance because it was difficult to get a movie ticket on the weekend.",
+            "detail"        : "\nI bought it in advance because it was difficult to get a movie ticket on the weekend.",
             "correctAnswer" : "②    미리"
             
         },
@@ -16,7 +16,7 @@
             "option_2"      : "②    소문",
             "option_3"      : "③    기억",
             "option_4"      : "④    고장",
-            "detail"        : "I can't remember where I put the key.",
+            "detail"        : "\nI can't remember where I put the key.",
             "correctAnswer" : "③    기억"
         },
         {   "sections"      : "※ [1~5] 다음 (   ) 에 알맞은 것을 고르십시오.   ",
@@ -25,7 +25,7 @@
             "option_2"      : "②    짓는",
             "option_3"      : "③    믿는",
             "option_4"      : "④    찾는",
-            "detail"        : "As the temperature suddenly drops, the number of cold patients visiting the hospital is rising.",
+            "detail"        : "\nAs the temperature suddenly drops, the number of cold patients visiting the hospital is rising.",
             "correctAnswer" : "④    찾는"
         },
         {   "sections"      : "※ [1~5] 다음 (   ) 에 알맞은 것을 고르십시오.   ",
@@ -34,7 +34,7 @@
             "option_2"      : "②    솔직하게",
             "option_3"      : "③    중요하게",
             "option_4"      : "④    편리하게",
-            "detail"        : "When consulting, it's better to answer honestly to what the counselor asks.",
+            "detail"        : "\nWhen consulting, it's better to answer honestly to what the counselor asks.",
             "correctAnswer" : "②    솔직하게"
         },
         {   "sections"      : "※ [1~5] 다음 (   ) 에 알맞은 것을 고르십시오.   ",
@@ -43,7 +43,7 @@
             "option_2"      : "②    감정",
             "option_3"      : "③    상상",
             "option_4"      : "④    욕심",
-            "detail"        : "People live hard with hope for the future.",
+            "detail"        : "\nPeople live hard with hope for the future.",
             "correctAnswer" : "①    희망"
         },
         {   "sections"      : "※ [6~9] 다음 밑줄 친 부분과 의미가 비슷한 것을 고르십시오.    ",
@@ -52,7 +52,7 @@
             "option_2"      : "②    순서",
             "option_3"      : "③    결과",
             "option_4"      : "④    단계",
-            "detail"        : "People who came to vote are waiting in line for their turn.",
+            "detail"        : "\nPeople who came to vote are waiting in line for their turn.",
             "correctAnswer" : "④    단계"
         },
         {   "sections"      : "※ [6~9] 다음 밑줄 친 부분과 의미가 비슷한 것을 고르십시오.    ",
@@ -61,7 +61,7 @@
             "option_2"      : "②    지나면서",
             "option_3"      : "③    향하면서",
             "option_4"      : "④    변하면서",
-            "detail"        : "As the world changed rapidly due to the development of science, people's lives have changed a lot.",
+            "detail"        : "\nAs the world changed rapidly due to the development of science, people's lives have changed a lot.",
             "correctAnswer" : "④    변하면서"
         },
         {   "sections"      : "※ [6~9] 다음 밑줄 친 부분과 의미가 비슷한 것을 고르십시오.    ",
@@ -70,7 +70,7 @@
             "option_2"      : "②    바르게",
             "option_3"      : "③    낯설게",
             "option_4"      : "④    흔하게",
-            "detail"        : "It shouldn't be seen easily (= lightly) just because it's a small wound.",
+            "detail"        : "\nIt shouldn't be seen easily (= lightly) just because it's a small wound.",
             "correctAnswer" : "①    가볍게"
         },
         {   "sections"      : "※ [6~9] 다음 밑줄 친 부분과 의미가 비슷한 것을 고르십시오.    ",
@@ -98,7 +98,7 @@
             "option_2"      : "②    쏟다",
             "option_3"      : "③    따르다",
             "option_4"      : "④    채우다",
-            "detail"        : "Filled the bottle with orange juice and put it in the bag. My mother wrote a letter with all her heart. I sent it to fill the CD with beautiful music.",
+            "detail"        : "\nFilled the bottle with orange juice and put it in the bag. My mother wrote a letter with all her heart. I sent it to fill the CD with beautiful music.",
             "correctAnswer" : "④    채우다"
         },
         {
@@ -108,7 +108,7 @@
             "option_2"      : "②    뽑아",
             "option_3"      : "③    주워",
             "option_4"      : "④    떼어",
-            "detail"        : " I put the name tags of the people attending the meeting on the seats.",
+            "detail"        : "\n I put the name tags of the people attending the meeting on the seats.",
             "correctAnswer" : "④    떼어"
         },
         {
@@ -128,7 +128,7 @@
             "option_2"      : "②    가깝다니요",
             "option_3"      : "③    가까운데요",
             "option_4"      : "④    가깝거든요",
-            "detail"        : "What are you going to take to the airport tomorrow? I will take a bus The bus stop is close to my house.",
+            "detail"        : "\nWhat are you going to take to the airport tomorrow? I will take a bus The bus stop is close to my house.",
             "correctAnswer" : "④    가깝거든요"
         },
         {
@@ -138,7 +138,7 @@
             "option_2"      : "②    키우려면",
             "option_3"      : "③    키우기에",
             "option_4"      : "④    키울수록",
-            "detail"        : "What should I do to grow this flower well? Put it in a sunny place, and give me water once every two days.",
+            "detail"        : "\nWhat should I do to grow this flower well? Put it in a sunny place, and give me water once every two days.",
             "correctAnswer" : "②    키우려면"
         },
         {
@@ -148,7 +148,7 @@
             "option_2"      : "②    만큼",
             "option_3"      : "③    까지",
             "option_4"      : "④    마저",
-            "detail"        : "You must have had a hard time preparing for the exhibition. My colleagues and juniors helped me a lot, so it wasn't as hard as I thought.",
+            "detail"        : "\nYou must have had a hard time preparing for the exhibition. My colleagues and juniors helped me a lot, so it wasn't as hard as I thought.",
             "correctAnswer" : "②    만큼"
         },
         {
@@ -158,7 +158,7 @@
             "option_2"      : "②    잘못될 리가 없어요",
             "option_3"      : "③    잘못될 수밖에 없어요",
             "option_4"      : "④    잘못되는 수가 있어요",
-            "detail"        : "I made a reservation by phone and went to the restaurant, but there was no reservation. Did you say Sometimes it can be wrong if you make a reservation by phone.",
+            "detail"        : "\nI made a reservation by phone and went to the restaurant, but there was no reservation. Did you say Sometimes it can be wrong if you make a reservation by phone.",
             "correctAnswer" : "④    잘못되는 수가 있어요"
         },
         {
@@ -168,7 +168,7 @@
         "option_2"      : "②    벗어나기만 해도",
         "option_3"      : "③    벗어나나 마나",
         "option_4"      : "④    벗어났을 정도로",
-        "detail"        : "It's been a long time since I've been outdoors and I feel very refreshed. Yes, the air is really different just by getting out of town a little bit.",
+        "detail"        : "\nIt's been a long time since I've been outdoors and I feel very refreshed. Yes, the air is really different just by getting out of town a little bit.",
         "correctAnswer" : "③    벗어나나 마나"
         },
         {
@@ -178,7 +178,7 @@
             "option_2"      : "②    들어오다 보면",
             "option_3"      : "③    들어오고 나니까",
             "option_4"      : "④    들어올 게 아니라",
-            "detail"        : "A : I'm on my way home now. Do you need anything.\nB : That's good for you. Please buy me some digestive medicine on the way in.",
+            "detail"        : "\nA : I'm on my way home now. Do you need anything.\nB : That's good for you. Please buy me some digestive medicine on the way in.",
             "correctAnswer" : "①    들어오다가"
         },
         {
@@ -188,7 +188,7 @@
             "option_2"      : "②    가 보는 대신에",
             "option_3"      : "③    가 본다고 해도",
             "option_4"      : "④    가 보려던 참에",
-            "detail"        : "A : I think it's a little expensive, so should we look around somewhere else?\nB : I don't know. Wouldn't the prices be the same if we go somewhere else?",
+            "detail"        : "\nA : I think it's a little expensive, so should we look around somewhere else?\nB : I don't know. Wouldn't the prices be the same if we go somewhere else?",
             "correctAnswer" : "③    가 본다고 해도"
         },
         {
@@ -198,7 +198,7 @@
             "option_2"      : "②    돌아왔으면 해요",
             "option_3"      : "③    돌아오는 셈이에요",
             "option_4"      : "④    돌아오기 마련이에요",
-            "detail"        : "A : I'm sorry I couldn't finish my work.\nB : No, it's not. I hope you get well and come back soon.",
+            "detail"        : "\nA : I'm sorry I couldn't finish my work.\nB : No, it's not. I hope you get well and come back soon.",
             "correctAnswer" : "②    돌아왔으면 해요"
         },
         {
@@ -208,7 +208,7 @@
             "option_2"      : "②    첫날에 비해서",
             "option_3"      : "③    첫날이라면 몰라도",
             "option_4"      : "④    첫날이라서 그런지",
-            "detail"        : "A : I heard you started a free gymnastics class at the children's playground in the apartment complex.\nB : Yes, I also went yesterday, and there weren't that many people because it was the first day.\nA : Really? Then should I go this evening, too?\nB : It would be nice to go together. You don't have to go far to work out. You're close. It's nice to work out and get close to your neighbors.",
+            "detail"        : "\nA : I heard you started a free gymnastics class at the children's playground in the apartment complex.\nB : Yes, I also went yesterday, and there weren't that many people because it was the first day.\nA : Really? Then should I go this evening, too?\nB : It would be nice to go together. You don't have to go far to work out. You're close. It's nice to work out and get close to your neighbors.",
             "correctAnswer" : "④    첫날이라서 그런지"
         },
         {
@@ -218,7 +218,7 @@
             "option_2"      : "②    오히려",
             "option_3"      : "③    무조건",
             "option_4"      : "④    일부러",
-            "detail"        : "A : I heard you started a free gymnastics class at the children's playground in the apartment complex.\nB : Yes, I also went yesterday, and there weren't that many people because it was the first day.\nA : Really? Then should I go this evening, too?\nB : It would be nice to go together. You don't have to go far to work out. You're close. It's nice to work out and get close to your neighbors.",
+            "detail"        : "\nA : I heard you started a free gymnastics class at the children's playground in the apartment complex.\nB : Yes, I also went yesterday, and there weren't that many people because it was the first day.\nA : Really? Then should I go this evening, too?\nB : It would be nice to go together. You don't have to go far to work out. You're close. It's nice to work out and get close to your neighbors.",
             "correctAnswer" : "④    일부러"
         },
         {
@@ -228,7 +228,7 @@
             "option_2"      : "②    다툰 듯한",
             "option_3"      : "③    다툰 척하는",
             "option_4"      : "④    다투고 있는",
-            "detail"        : "Everyone must have at least one experience of hearing advice from others and arguing because they couldn't hold back their anger for a moment. The other person said it in a good way, but they feels bad because they thinks they is pointing out they fault. However, if you think about it carefully, advice makes you realize wrong habits or attitudes that you did not know. Like the story.",
+            "detail"        : "\nEveryone must have at least one experience of hearing advice from others and arguing because they couldn't hold back their anger for a moment. The other person said it in a good way, but they feels bad because they thinks they is pointing out they fault. However, if you think about it carefully, advice makes you realize wrong habits or attitudes that you did not know. Like the story.",
             "correctAnswer" : "①    다투고 만"
         },
         {
@@ -238,7 +238,7 @@
         "option_2"      : "②    앓던 이가 빠진 것 같다",
         "option_3"      : "③    입에 쓴 약이 병에는 좋다",
         "option_4"      : "④    윗물이 맑아야 아랫물이 맑다",
-        "detail"        : "Everyone must have at least one experience of hearing advice from others and arguing because they couldn't hold back their anger for a moment. The other person said it in a good way, but they feels bad because they thinks they is pointing out they fault. However, if you think about it carefully, advice makes you realize wrong habits or attitudes that you did not know. Like the story.",
+        "detail"        : "\nEveryone must have at least one experience of hearing advice from others and arguing because they couldn't hold back their anger for a moment. The other person said it in a good way, but they feels bad because they thinks they is pointing out they fault. However, if you think about it carefully, advice makes you realize wrong habits or attitudes that you did not know. Like the story.",
         "correctAnswer" : "③    입에 쓴 약이 병에는 좋다"
         },
         {
@@ -303,123 +303,123 @@
             },
             {
                  "sections"      : "※ [35~38] 다음을 보고 내용이 같은 것을 고르십시오.",
-                 "question"      : "  여름방학을 맞아 서울동물원에서는 초등학생을 대상으로 동물 체험 교실을 연다. 이번 동물 체험 교실에서는 교과서에 나오는 내용을 바탕으로 말 타기, 앵무새에게 모이 주기, 원숭이와 자전거 타기 등을 직접 해 볼 수 있다. 관찰 노트를 낸 어린이는 수료증도 받을 수 있다. 기간은 7월 18일 부터 8월 21일까지이며 시간은 오전 10시부터 오후 6시까지이다.",
+                 "question"      : "  여름방학을 맞아 서울동물원에서는 초등학생을 대상으로 동물 체험 교실을 연다. 이번 동물 체험 교실에서는 교과서에 나오는 내용을 바탕으로 말 타기, 앵무새에게 모이 주기, 원숭이와 자전거 타기 등을 직접 해 볼 수 있다. 관찰 노트를 낸 어린이는 수료증도 받을 수 있다. 기간은 7월 18일 부터 8월 21일까지이며 시간은 오전 10시부터 오후 6시까지이다.\nQ35.",
                  "option_1"      : "①  동물 체험 교실은 1년 내내 진행된다.",
                  "option_2"      : "②  학교에서 배우는 교과서를 가져가야 한다.",
                  "option_3"      : "③  수료증과 관찰 노트를 동시에 받을 수 있다.",
                  "option_4"      : "④  초등학교에 다니는 학생은 누구나 참여할 수 있다.",
                  "correctAnswer" : "④  초등학교에 다니는 학생은 누구나 참여할 수 있다.",
-                 "detail"        : "  For the summer vacation, the Seoul Zoo will open an animal experience class for elementary school students. In this animal experience class, you can ride horses, gather parrots, and ride a bicycle with monkeys based on the contents of the textbook. Children who have made observation notes can also receive a certificate of completion. The period is from July 18 to August 21 and is from 10 a.m. to 6 p.m."
+                 "detail"        : "\n  For the summer vacation, the Seoul Zoo will open an animal experience class for elementary school students. In this animal experience class, you can ride horses, gather parrots, and ride a bicycle with monkeys based on the contents of the textbook. Children who have made observation notes can also receive a certificate of completion. The period is from July 18 to August 21 and is from 10 a.m. to 6 p.m."
             },
             {
                  "sections"      : "※ [35~38] 다음을 보고 내용이 같은 것을 고르십시오.",
                  "question"      : "  올해 들어 저가 항공사의 이용객 수가 꾸준히 늘고 있다. 지난 1월부터 6월까지 국내선 저가 항공사의 이용객은 작년의 같은 기간에 비해 3.4% 늘었다. 이는 일반 항공사의 이용객이 8% 줄어든 것과 대비된다. 저가 항공사가 이렇게 인기를 끌고 있는 이유는 일반 항공사에 비해 가격이 싼 데다가 인터넷 예매 시 적용되는 할인율도 높기 때문인 것으로 분석된다.",
-                 "option_1"      : "①  일반 항공사의 이용객은 지난 조사 때보다 늘어났다.",
+                 "option_1"      : "①  일반 항공사의 이용객은 지난 조사 때보다 늘어났다.\nQ36.",
                  "option_2"      : "②  저가 항공사는 비행기 표의 할인율을 작년보다 낮추었다.",
                  "option_3"      : "③  일반 항공사 비행기 표는 인터넷으로 예매해야 저렴하다.",
                  "option_4"      : "④  저가 항공사의 이용객은 1년 전에 비해 3% 이상 증가했다.",
                  "correctAnswer" : "④  저가 항공사의 이용객은 1년 전에 비해 3% 이상 증가했다.",
-                 "detail"        : "  The number of passengers on low-cost airlines has been steadily increasing this year. From January to June, the number of users of low-cost domestic airlines increased by 3.4% compared to the same period last year. This is in contrast to an 8% reduction in the number of passengers on regular airlines. It is analyzed that the reason why low-cost airlines are so popular is that they are cheaper than ordinary airlines, and the discount rate applied when booking online is also high."
+                 "detail"        : "\n  The number of passengers on low-cost airlines has been steadily increasing this year. From January to June, the number of users of low-cost domestic airlines increased by 3.4% compared to the same period last year. This is in contrast to an 8% reduction in the number of passengers on regular airlines. It is analyzed that the reason why low-cost airlines are so popular is that they are cheaper than ordinary airlines, and the discount rate applied when booking online is also high."
             },
             {
                  "sections"      : "※ [39~42] 다음을 읽고 중심 생각을 고르십시오. (각 4점)",
-                 "question"      : "  설탕이 언제부턴가 각종 병의 원인으로 여겨지면서 설탕이 든 음식의 소비가 줄어들고 있다. 그러나 설탕이 들어 있는 음식을 즐기는 것이 나쁘지 만은 않다. 왜냐하면 설탕은 우리가 활동하는 데에 필요한 에너지를 만들어 주기 때문이다. 또한 설탕의 단맛을 내는 성분은 우리의 기분을 좋게 만들어 주기도 한다. ",
+                 "question"      : "  설탕이 언제부턴가 각종 병의 원인으로 여겨지면서 설탕이 든 음식의 소비가 줄어들고 있다. 그러나 설탕이 들어 있는 음식을 즐기는 것이 나쁘지 만은 않다. 왜냐하면 설탕은 우리가 활동하는 데에 필요한 에너지를 만들어 주기 때문이다. 또한 설탕의 단맛을 내는 성분은 우리의 기분을 좋게 만들어 주기도 한다.\nQ37. ",
                  "option_1"      : "①  설탕을 많이 먹지 않는 것이 건강에 좋다.",
                  "option_2"      : "②  설탕이 든 음식이 몸에 꼭 나쁘다고 할 수 없다.",
                  "option_3"      : "③  설탕은 에너지를 만들어 주기 때문에 먹어야 한다.",
                  "option_4"      : "④  설탕을 먹으면 병에 걸릴 수 있으므로 주의해야 한다.",
                  "correctAnswer" : "②  설탕이 든 음식이 몸에 꼭 나쁘다고 할 수 없다.",
-                 "detail"        : "   As sugar is considered to be the cause of various diseases, the consumption of sugary food is decreasing. But it's not bad to enjoy foods that contain sugar. Because sugar makes the energy we need to be active. The sweet ingredients of sugar also make us feel good."
+                 "detail"        : "\n   As sugar is considered to be the cause of various diseases, the consumption of sugary food is decreasing. But it's not bad to enjoy foods that contain sugar. Because sugar makes the energy we need to be active. The sweet ingredients of sugar also make us feel good."
             },
             {
                  "sections"      : "※ [39~42] 다음을 읽고 중심 생각을 고르십시오. (각 4점)",
-                 "question"      : "  불이 음식을 만드는 데에 사용되면서 인간은 다양한 맛을 즐길 수 있게 되었다. 날것 상태의 음식 재료는 굽거나 삶는 조리 과정을 거치면서 수십 가지의 다양한 맛을 내게 된다. 불 덕분에 인간은 음식 재료의 고유한 맛 뿐만 아니라 조리 과정을 통해 더해진 여러 가지 맛을 즐길 수 있게 됐다. ",
+                 "question"      : "  불이 음식을 만드는 데에 사용되면서 인간은 다양한 맛을 즐길 수 있게 되었다. 날것 상태의 음식 재료는 굽거나 삶는 조리 과정을 거치면서 수십 가지의 다양한 맛을 내게 된다. 불 덕분에 인간은 음식 재료의 고유한 맛 뿐만 아니라 조리 과정을 통해 더해진 여러 가지 맛을 즐길 수 있게 됐다.\nQ38. ",
                  "option_1"      : "①  불을 이용하여 조리하면 음식의 맛이 풍부해진다.",
                  "option_2"      : "②  불을 이용하면서 인간은 다양한 맛을 즐기게 되었다.",
                  "option_3"      : "③  불을 이용하여 조리하는 과정으로 음식의 맛이 결정된다.",
                  "option_4"      : "④  불을 이용하면서 수십 가지의 새로운 조리법이 나타나게 되었다.",
                  "correctAnswer" : "②  불을 이용하면서 인간은 다양한 맛을 즐기게 되었다.",
-                 "detail"        : "   As fire is used to make food, humans can enjoy a variety of flavors. Raw food ingredients come in dozens of different flavors as they are baked or boiled. Thanks to fire, humans can enjoy not only the unique taste of food ingredients, but also the various flavors added through the cooking process."
+                 "detail"        : "\n   As fire is used to make food, humans can enjoy a variety of flavors. Raw food ingredients come in dozens of different flavors as they are baked or boiled. Thanks to fire, humans can enjoy not only the unique taste of food ingredients, but also the various flavors added through the cooking process."
             },
             {
                  "sections"      : "※ [39~42] 다음을 읽고 중심 생각을 고르십시오. (각 4점)",
-                 "question"      : "  얼마 전 한 기업가가 자신의 전 재산을 사회에 내놓겠다고 발표해 화제가 되었다. 그는 자식에게 능력이 있으면 유산이 필요 없을 것이고, 반대로 능력이 없으면 돈을 다 써 버릴 것이라고 말했다. 자식에게 유산을 남기는 것이 자식을 망친다는 것을 알기 때문에 현명한 사람은 자식에게 유산을 남기지 않는다. ",
+                 "question"      : "  얼마 전 한 기업가가 자신의 전 재산을 사회에 내놓겠다고 발표해 화제가 되었다. 그는 자식에게 능력이 있으면 유산이 필요 없을 것이고, 반대로 능력이 없으면 돈을 다 써 버릴 것이라고 말했다. 자식에게 유산을 남기는 것이 자식을 망친다는 것을 알기 때문에 현명한 사람은 자식에게 유산을 남기지 않는다.\nQ38. ",
                  "option_1"      : "① 사회를 위해 유산을 기부해야 한다.",
                  "option_2"      : "② 재산을 자식에게 물려주지 않는 것이 좋다.",
                  "option_3"      : "③ 자식에게는 능력을 키워 주는 것이 필요하다.",
                  "option_4"      : "④ 능력을 키워 주지 않으면 자식을 망칠 수 있다.",
                  "correctAnswer" : "② 재산을 자식에게 물려주지 않는 것이 좋다.",
-                 "detail"        : "   Not long ago, an entrepreneur announced that he would give his entire fortune to society and became a hot topic. He said that if a child has the ability, he will not need a miscarriage, and conversely, if he does not have the ability, he will spend all his money. A wise person doesn't leave a legacy to a child because he knows that leaving a legacy to his child ruins his child."
+                 "detail"        : "\n   Not long ago, an entrepreneur announced that he would give his entire fortune to society and became a hot topic. He said that if a child has the ability, he will not need a miscarriage, and conversely, if he does not have the ability, he will spend all his money. A wise person doesn't leave a legacy to a child because he knows that leaving a legacy to his child ruins his child."
             },
             {
                  "sections"      : "※ [39~42] 다음을 읽고 중심 생각을 고르십시오. (각 4점)",
-                 "question"      : "  국내에서는 물론 해외에서까지 인기를 끌고 있는 한국 가수들이 많아지고 있다. 이들은 오랜 시간 동안 춤과 노래를 연습하고 외국어까지 공부하는 등 온갖 노력을 다 기울인다. 또한 이들은 대중의 취향에 맞는 음악이 무엇 인지에 대해 고민하고 또 고민한다. 이러한 준비와 고민이 없었다면 이들은 세계적으로 인정받을 수 없었을 것이다. ",
+                 "question"      : "  국내에서는 물론 해외에서까지 인기를 끌고 있는 한국 가수들이 많아지고 있다. 이들은 오랜 시간 동안 춤과 노래를 연습하고 외국어까지 공부하는 등 온갖 노력을 다 기울인다. 또한 이들은 대중의 취향에 맞는 음악이 무엇 인지에 대해 고민하고 또 고민한다. 이러한 준비와 고민이 없었다면 이들은 세계적으로 인정받을 수 없었을 것이다.\nQ39. ",
                  "option_1"      : "① 한국 가수들은 다양한 교육을 통해 실력을 더 향상시켜야 한다.",
                  "option_2"      : "② 가수들이 세계적으로 인정받기 위해서는 더 많은 노력이 필요하다.",
                  "option_3"      : "③ 한국 가수들은 세계 시장에서 인정받을 만한 충분한 이유가 있다.",
                  "option_4"      : "④ 오랜 기간 동안 노력한다면 세계적으로 훌륭한 가수가 될 수 있다.",
                  "correctAnswer" : "③ 한국 가수들은 세계 시장에서 인정받을 만한 충분한 이유가 있다.",
-                 "detail"        : "   There are more and more Korean singers who are gaining popularity not only in Korea but also abroad. They make every effort, such as practicing dancing and singing for a long time and studying foreign languages. They also think about what kind of music is suitable for the public's taste. Without these preparations and concerns, they would not have been recognized worldwide."
+                 "detail"        : "\n   There are more and more Korean singers who are gaining popularity not only in Korea but also abroad. They make every effort, such as practicing dancing and singing for a long time and studying foreign languages. They also think about what kind of music is suitable for the public's taste. Without these preparations and concerns, they would not have been recognized worldwide."
             },
             {
                  "sections"      : "※ [43~45] 다음을 순서대로 맞게 배열한 것을 고르십시오. (각 3점) ",
-                 "question"      : "(가) 성우가 되려면 무엇보다 목소리가 좋아야 한다.\n(나) 목소리도 좋아야 하지만 연기도 잘해야 훌륭한 성우가 될 수 있다.\n(다) 성우는 라디오 드라마나 만화 영화 등에서 목소리로 연기하는 배우를 말한다.\n(라) 그렇지만 요즘은 그 기준이 조금 바뀌었다. ",
+                 "question"      : "(가) 성우가 되려면 무엇보다 목소리가 좋아야 한다.\n(나) 목소리도 좋아야 하지만 연기도 잘해야 훌륭한 성우가 될 수 있다.\n(다) 성우는 라디오 드라마나 만화 영화 등에서 목소리로 연기하는 배우를 말한다.\n(라) 그렇지만 요즘은 그 기준이 조금 바뀌었다.\nQ43. ",
                  "option_1"      : "① (가)-(다)-(나)-(라)",
                  "option_2"      : "② (가)-(라)-(다)-(나)",
                  "option_3"      : "③ (다)-(가)-(라)-(나)",
                  "option_4"      : "④ (다)-(나)-(라)-(가)",
                  "correctAnswer" : "③ (다)-(가)-(라)-(나)",
-                 "detail"        : "  A voice actor is an actor who acts with a voice in a radio drama or cartoon movie. To be a voice actor, you have to have a good voice above all else. But the standard has changed a little these days. You have to have a good voice, but you have to be good at acting to be a great voice actor."
+                 "detail"        : "\n  A voice actor is an actor who acts with a voice in a radio drama or cartoon movie. To be a voice actor, you have to have a good voice above all else. But the standard has changed a little these days. You have to have a good voice, but you have to be good at acting to be a great voice actor."
             },
             {
                  "sections"      : "※ [43~45] 다음을 순서대로 맞게 배열한 것을 고르십시오. (각 3점) ",
-                 "question"      : "(가) 이런 책방들은 여기저기에서 기증 받은 책을 저렴한 가격으로 판매한다.\n(나) 그런데 최근에 사고파는 것을 목적으로 하지 않는 헌책방이 늘고 있다.\n(다) 이렇게 해서 모은 돈은 어려운 사람들을 돕는 데에 사용하고 있다.\n(라) 헌책방은 다른 사람이 본책을 싼 값에사 기도 하고, 다 본 책을 팔기도 하는 곳이다. ",
+                 "question"      : "(가) 이런 책방들은 여기저기에서 기증 받은 책을 저렴한 가격으로 판매한다.\n(나) 그런데 최근에 사고파는 것을 목적으로 하지 않는 헌책방이 늘고 있다.\n(다) 이렇게 해서 모은 돈은 어려운 사람들을 돕는 데에 사용하고 있다.\n(라) 헌책방은 다른 사람이 본책을 싼 값에사 기도 하고, 다 본 책을 팔기도 하는 곳이다. \nQ44.",
                  "option_1"      : "① (라)-(가)-(다)-(나)",
                  "option_2"      : "② (라)-(나)-(가)-(다)",
                  "option_3"      : "③ (라)-(나)-(다)-(가)",
                  "option_4"      : "④ (라)-(다)-(가)-(나)",
                  "correctAnswer" : "② (라)-(나)-(가)-(다)",
-                 "detail"        : "  A used bookstore is a place where other people buy books at a cheap price and sell all the books. But recently, there are more and more used bookstores that don't aim to buy and sell. These bookstores sell donated books here and there at low prices. In this way, the money saved is being used to help people in need."
+                 "detail"        : "\n  A used bookstore is a place where other people buy books at a cheap price and sell all the books. But recently, there are more and more used bookstores that don't aim to buy and sell. These bookstores sell donated books here and there at low prices. In this way, the money saved is being used to help people in need."
             },
             {
                  "sections"      : "※ [43~45] 다음을 순서대로 맞게 배열한 것을 고르십시오. (각 3점) ",
-                 "question"      : "(가) 지난달부터 자동차 운전면허의 시험 내용이 간소화되었다.\n(나) 뿐만 아니라 시험 전에 받아야 하는 교육 시간도 크게 줄어들었다.\n(다) 운전면허 시험을 치르려는 사람들이 대폭 늘어날 것으로 예상된다.\n(라) 이에 따라 운전면허를 따는 데 필요한 비용도 절반 이하로 줄어들게 되었다.",
+                 "question"      : "(가) 지난달부터 자동차 운전면허의 시험 내용이 간소화되었다.\n(나) 뿐만 아니라 시험 전에 받아야 하는 교육 시간도 크게 줄어들었다.\n(다) 운전면허 시험을 치르려는 사람들이 대폭 늘어날 것으로 예상된다.\n(라) 이에 따라 운전면허를 따는 데 필요한 비용도 절반 이하로 줄어들게 되었다.\nQ45.",
                  "option_1"      : "① (가)-(나)-(라)-(다)",
                  "option_2"      : "② (가)-(다)-(나)-(라)",
                  "option_3"      : "③ (다)-(나)-(가)-(라)",
                  "option_4"      : "④ (다)-(라)-(가)-(나)",
                  "correctAnswer" : "① (가)-(나)-(라)-(다)",
-                 "detail"        : "  Since last month, the test contents of the car driver's license have been streamlined. In addition, the training time required before the test has been greatly reduced. As a result, the cost of getting a driver’s license has also been reduced by less than half. The number of people who want to take the driver's license test is expected to increase significantly."
+                 "detail"        : "\n  Since last month, the test contents of the car driver's license have been streamlined. In addition, the training time required before the test has been greatly reduced. As a result, the cost of getting a driver’s license has also been reduced by less than half. The number of people who want to take the driver's license test is expected to increase significantly."
             },
             {
                  "sections"      : "※ [46~48] 다음을 읽고(....)에 알맞은 것을 고르십시오. ",
-                 "question"      : "색이 주는 느낌은 각각 다르다. 이러한 느낌을 활용하면 벽지를 잘고를 수있다. 마음을 편안하게 해주는 녹색은 아이들 방에 좋고, 활발한 느낌의 오렌지 색은 식당 벽지로 알맞다. 휴게 실에는 피로를 덜어 주는 푸른색이 좋다. 따라서 벽지를 선택할 때에는 먼저 (....) 것이 좋다.",
+                 "question"      : "색이 주는 느낌은 각각 다르다. 이러한 느낌을 활용하면 벽지를 잘고를 수있다. 마음을 편안하게 해주는 녹색은 아이들 방에 좋고, 활발한 느낌의 오렌지 색은 식당 벽지로 알맞다. 휴게 실에는 피로를 덜어 주는 푸른색이 좋다. 따라서 벽지를 선택할 때에는 먼저 (....) 것이 좋다.\nQ46.",
                  "option_1"      : "① 방의 크기를 재는",
                  "option_2"      : "② 방의 상태를 바꾸는",
                  "option_3"      : "③ 방의 위치를 물어보는",
                  "option_4"      : "④ 방의 목적을 고려하는",
                  "correctAnswer" : "④ 방의 목적을 고려하는",
-                 "detail"        : "  The feeling of giving color is different. If you use this feeling, you can take care of the wallpaper. The green that makes you feel comfortable is good for children's rooms, and the lively orange color is suitable for the restaurant wallpaper. I like the blue color that relieves fatigue in the resting thread. Therefore, when choosing a wallpaper, it is better to consider the purpose of the room first."
+                 "detail"        : "\n  The feeling of giving color is different. If you use this feeling, you can take care of the wallpaper. The green that makes you feel comfortable is good for children's rooms, and the lively orange color is suitable for the restaurant wallpaper. I like the blue color that relieves fatigue in the resting thread. Therefore, when choosing a wallpaper, it is better to consider the purpose of the room first."
             },
             {
                  "sections"      : "※ [46~48] 다음을 읽고(....)에 알맞은 것을 고르십시오. ",
-                 "question"      : "  왼쪽 눈과 오른쪽 눈에 보이는 사물의 모습이 완전히 똑같은 것은 아니다. 두 눈에 비쳐진 사물의 모습에는 조금씩 차이가 있다. 우리의 뇌는 이러한 차이를 바탕으로 두 모습을 합쳐 사물을 실감나게 입체적으로 느끼게 한다. 그래서 사람이 (....) 계단을 오르내리거나 날아오는 공을 잡기가 어려워진다.",
+                 "question"      : "  왼쪽 눈과 오른쪽 눈에 보이는 사물의 모습이 완전히 똑같은 것은 아니다. 두 눈에 비쳐진 사물의 모습에는 조금씩 차이가 있다. 우리의 뇌는 이러한 차이를 바탕으로 두 모습을 합쳐 사물을 실감나게 입체적으로 느끼게 한다. 그래서 사람이 (....) 계단을 오르내리거나 날아오는 공을 잡기가 어려워진다.\nQ47.",
                  "option_1"      : "① 한 쪽 눈을 가리면",
                  "option_2"      : "② 눈을 감았다가 뜨면",
                  "option_3"      : "③ 사물을 제대로 보지 않으면",
                  "option_4"      : "④ 두 사물을 함께 보지 않으면",
                  "correctAnswer" : "① 한 쪽 눈을 가리면",
-                 "detail"        : "  Objects in the left eye and the right eye are not exactly the same. There is a slight difference in the appearance of objects in the eyes. Our brain combines two aspects based on these differences to make things feel realistically three-dimensional. So when a person covers one eye, it becomes difficult to go up and down the stairs or catch a flying ball."
+                 "detail"        : "\n  Objects in the left eye and the right eye are not exactly the same. There is a slight difference in the appearance of objects in the eyes. Our brain combines two aspects based on these differences to make things feel realistically three-dimensional. So when a person covers one eye, it becomes difficult to go up and down the stairs or catch a flying ball."
             },
             {
                  "sections"      : "※ [46~48] 다음을 읽고(....)에 알맞은 것을 고르십시오. ",
-                 "question"      : "  게를 잡아서 얕은 통에 넣으면 금방 도망 간다. 그런데 게 두마리를 같은 통에 넣으면(....) 서로 싸우다 결국 두 마리 모두 통 안에서 죽는다. 게는 서로를 끌어내리는 본능을 갖고 있기 때문이다. 우리 사회에도 게와 같이 어리석은 행동을 하는 사람이 많다. 자기 혼자만 살겠다는 이기적인 생각이 오히려 서로에게 불이익이 될 수도 있음을 알아야 한다. ",
+                 "question"      : "  게를 잡아서 얕은 통에 넣으면 금방 도망 간다. 그런데 게 두마리를 같은 통에 넣으면(....) 서로 싸우다 결국 두 마리 모두 통 안에서 죽는다. 게는 서로를 끌어내리는 본능을 갖고 있기 때문이다. 우리 사회에도 게와 같이 어리석은 행동을 하는 사람이 많다. 자기 혼자만 살겠다는 이기적인 생각이 오히려 서로에게 불이익이 될 수도 있음을 알아야 한다.\nQ48.",
                  "option_1"      : "① 먼저 빠져나가려고",
                  "option_2"      : "② 먹이를 많이 먹겠다고",
                  "option_3"      : "③ 상대방을 밀어내려고",
                  "option_4"      : "④ 더 넓은 자리를 차지하려고",
                  "correctAnswer" : "① 먼저 빠져나가려고",
-                 "detail"        : "  If you catch a crab and put it in a shallow container, it runs away quickly. But if you put two crabs in the same barrel, they fight each other to get out first, and eventually both of them die in the barrel. Because crabs have the instinct to pull each other down. There are many people in our society who do stupid things like crabs. You should know that the selfish idea of living alone can be a disadvantage to each other. "
+                 "detail"        : "\n  If you catch a crab and put it in a shallow container, it runs away quickly. But if you put two crabs in the same barrel, they fight each other to get out first, and eventually both of them die in the barrel. Because crabs have the instinct to pull each other down. There are many people in our society who do stupid things like crabs. You should know that the selfish idea of living alone can be a disadvantage to each other. "
             },
             {
                  "sections"      : "※ [49~50] 다음 글을 읽고 물음에 답하십시오. (각 3점)  ",
@@ -429,7 +429,7 @@
                  "option_3"      : "③ 화재 예방 훈련, 정기적으로 실시해야",
                  "option_4"      : "④ 가스 불, 잘못하면 큰불로 이어질 수 있어 ",
                  "correctAnswer" : "② 화재 예방 훈련 중 진짜 화재 발생해",
-                 "detail"        : "  A real fire broke out while the workers were away for a while doing fire prevention training at Inju City Hall. The place where the fire broke out is the restaurant on the 2nd floor of the city hall. The fire broke out around 11 a.m. on the 4th, while people were out of City Hall in a nationwide fire drill. When the fire broke out, the firefighting facility on the ceiling was immediately activated and the fire went out without any damage. However, the fire kept ringing the city hall's emergency bells and the smoke filled the building, causing inconvenience to staff and citizens. An Inju city official said, ”When the fire prevention drill started, the restaurant staff went outside without turning off the gas and there was a fire”. “Did we have a real fire evacuation drill during the training.” Said that."
+                 "detail"        : "\n  A real fire broke out while the workers were away for a while doing fire prevention training at Inju City Hall. The place where the fire broke out is the restaurant on the 2nd floor of the city hall. The fire broke out around 11 a.m. on the 4th, while people were out of City Hall in a nationwide fire drill. When the fire broke out, the firefighting facility on the ceiling was immediately activated and the fire went out without any damage. However, the fire kept ringing the city hall's emergency bells and the smoke filled the building, causing inconvenience to staff and citizens. An Inju city official said, ”When the fire prevention drill started, the restaurant staff went outside without turning off the gas and there was a fire”. “Did we have a real fire evacuation drill during the training.” Said that."
             },
             {
                  "sections"      : "※ [49~50] 다음 글을 읽고 물음에 답하십시오. (각 3점)  ",
@@ -439,7 +439,7 @@
                  "option_3"      : "③  시청 직원들이 소방 시설을 이용해 불을 껐다.",
                  "option_4"      : "④  직원들은 비상벨 소리를 듣고 건물 밖으로 나왔다.",
                  "correctAnswer" : "①  이 사고로 다친 사람은 아무도 없었다.",
-                 "detail"        : "  A real fire broke out while the workers were away for a while doing fire prevention training at Inju City Hall. The place where the fire broke out is the restaurant on the 2nd floor of the city hall. The fire broke out around 11 a.m. on the 4th, while people were out of City Hall in a nationwide fire drill. When the fire broke out, the firefighting facility on the ceiling was immediately activated and the fire went out without any damage. However, the fire kept ringing the city hall's emergency bells and the smoke filled the building, causing inconvenience to staff and citizens. An Inju city official said, ”When the fire prevention drill started, the restaurant staff went outside without turning off the gas and there was a fire”. “Did we have a real fire evacuation drill during the training.” Said that. "
+                 "detail"        : "\n  A real fire broke out while the workers were away for a while doing fire prevention training at Inju City Hall. The place where the fire broke out is the restaurant on the 2nd floor of the city hall. The fire broke out around 11 a.m. on the 4th, while people were out of City Hall in a nationwide fire drill. When the fire broke out, the firefighting facility on the ceiling was immediately activated and the fire went out without any damage. However, the fire kept ringing the city hall's emergency bells and the smoke filled the building, causing inconvenience to staff and citizens. An Inju city official said, ”When the fire prevention drill started, the restaurant staff went outside without turning off the gas and there was a fire”. “Did we have a real fire evacuation drill during the training.” Said that. "
             }
     ]
 }

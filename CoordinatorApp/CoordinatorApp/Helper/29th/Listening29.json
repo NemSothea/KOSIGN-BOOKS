@@ -64,7 +64,7 @@
             "option_2"      : "②  네. 한번 올라가 보고 싶어지네요.",
             "option_3"      : "③  네. 지금 바로 내려갔으면 좋겠어요.",
             "option_4"      : "④  네. 이렇게 한 번씩 오면 좋더라고요.",
-            "detail"        : "Woman : I didn't know our company building was this high.\nMan : Don't you feel really good to come up to the top like this?\nWoman: yes I think I'm getting rid of stress.",
+            "detail"        : "\nWoman : I didn't know our company building was this high.\nMan : Don't you feel really good to come up to the top like this?\nWoman: yes I think I'm getting rid of stress.",
             "correctAnswer" : "①  네. 스트레스가 풀리는 것 같아요.",
             "score"         : "3"
         },
@@ -185,7 +185,7 @@
             "option_2"      : "②  회사는 신입 사원에게 다양한 교육을 해야 한다.",
             "option_3"      : "③  회사에서 경력 사원을 뽑으려고 하는 것은 당연하다.",
             "option_4"      : "④  회사는 경력이 없는 사람에게 더 많은 기회를 줘야 한다.",
-            "detail"        : "\nMan : Our company is hiring another experienced employee. There aren't many advertisements for recruiting new employees these days. So how can people with no work experience get a job at a company? Woman: The company prefers experienced employees. Because new employees take time to adjust to work. If you hire experienced employees, you can save time and money for education and training.",
+            "detail"        : "\nMan : Our company is hiring another experienced employee. There aren't many advertisements for recruiting new employees these days. So how can people with no work experience get a job at a company?\nWoman : The company prefers experienced employees. Because new employees take time to adjust to work. If you hire experienced employees, you can save time and money for education and training.",
             "correctAnswer" : "③  회사에서 경력 사원을 뽑으려고 하는 것은 당연하다.",
             "score"         : "4"
         },
@@ -218,7 +218,7 @@
             "option_2"      : "②  축제 시작 시간에 대한 이메일을 보낸다.",
             "option_3"      : "③  전화번호를 찾아 자원 봉사자에게 연락한다.",
             "option_4"      : "④  자원 봉사자들이 이메일을 확인했는지 알아본다.",
-            "detail"        : "\nMan : Mr. Lee, you sent all the emails to the volunteers who were supposed to come to the festival, right? Woman: yes But there are two people who haven't checked the email yet.\nMan : Is that so? The start time of the festival has changed, so they should check it out. Do you want me to call?\nWoman : Oh, will you do that? Thank you . If you look at the preparation materials I gave you yesterday, there will be the phone numbers of the volunteers.\nMan : Yes, here it is. Please tell me the name of the person who didn't check the email.",
+            "detail"        : "\nMan : Mr. Lee, you sent all the emails to the volunteers who were supposed to come to the festival, right?\n Woman : yes But there are two people who haven't checked the email yet.\nMan : Is that so? The start time of the festival has changed, so they should check it out. Do you want me to call?\nWoman : Oh, will you do that? Thank you . If you look at the preparation materials I gave you yesterday, there will be the phone numbers of the volunteers.\nMan : Yes, here it is. Please tell me the name of the person who didn't check the email.",
             "correctAnswer" : "③  전화번호를 찾아 자원 봉사자에게 연락한다.",
             "score"         : "3"
         },
