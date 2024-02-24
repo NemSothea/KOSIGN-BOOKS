@@ -64,7 +64,7 @@
             "option_2"      : "②  요즘엔 시장에 자주 와요.",
             "option_3"      : "③  앞으론 더 아껴 써야겠어요.",
             "option_4"      : "④  여기서 조금 더 사야겠어요.",
-            "detail"        : "\nWoman: I don't think I bought much, but I spent so much money.\nMan : I see. I think the price of goods has gone up a lot these days.\nWoman : I need to save more.",
+            "detail"        : "\nWoman : I don't think I bought much, but I spent so much money.\nMan : I see. I think the price of goods has gone up a lot these days.\nWoman : I need to save more.",
             "correctAnswer" : "③  앞으론 더 아껴 써야겠어요.",
             "score"         : "3"
         },
@@ -130,7 +130,7 @@
             "option_2"      : "②  공연 전에 동물들을 만져 보는 시간이 있다.",
             "option_3"      : "③  공연이 끝나면 바다 동물 사진을 나눠 준다.",
             "option_4"      : "④  공연에 가면 여러 바다 동물들을 볼 수 있다.",
-            "detail"        : "\nWoman: I'll let you know for a moment. The Seals venue has an exciting seal show every day from 2 p.m. to about 30 minutes. At the seal show, you can see not only seals but also amazing performances of sea animals such as penguins and dolphins. After the show, you can take pictures with the animals or touch them yourself. I hope you make good memories at Woori Land today.",
+            "detail"        : "\nWoman : I'll let you know for a moment. The Seals venue has an exciting seal show every day from 2 p.m. to about 30 minutes. At the seal show, you can see not only seals but also amazing performances of sea animals such as penguins and dolphins. After the show, you can take pictures with the animals or touch them yourself. I hope you make good memories at Woori Land today.",
             "correctAnswer" : "④  공연에 가면 여러 바다 동물들을 볼 수 있다.",
             "score"         : "4"
         },
@@ -196,7 +196,7 @@
             "option_2"      : "②  지하철로 갈아탄다.",
             "option_3"      : "③  친구에게 전화를 한다.",
             "option_4"      : "④  휴대 전화를 찾으러 간다.",
-            "detail"        : "\nWoman : Oh, the car is really too crowded. I should have taken the subway instead of taking the bus. I know . Maybe there was an accident by any chance? Man at the appointment: I think I'm going to be late. What should I do?\nWoman: What time are you supposed to meet?\nMan : three o'clock. (After a while) I have to contact you because I'm going to be late. Uh ? Where is my phone? Didn't you bring.\nWoman : Don't you have it? Then try mine first.",
+            "detail"        : "\nWoman : Oh, the car is really too crowded. I should have taken the subway instead of taking the bus. I know . Maybe there was an accident by any chance? Man at the appointment: I think I'm going to be late. What should I do?\nWoman : What time are you supposed to meet?\nMan : three o'clock. (After a while) I have to contact you because I'm going to be late. Uh ? Where is my phone? Didn't you bring.\nWoman : Don't you have it? Then try mine first.",
             "correctAnswer" : "③  친구에게 전화를 한다.",
             "score"         : "3"
         },
@@ -218,7 +218,7 @@
             "option_2"      : "②  기술자를 현장에 보낸다.",
             "option_3"      : "③  공사장의 문제를 보고한다.",
             "option_4"      : "④  현장 직원을 본사로 불러온다.",
-            "detail"        : "\nWoman: Manager Kim, did you hear that there was a problem with the construction site?\nMan : Yes, I know. I heard that there was a strange sound from the machine and suddenly stopped. So I stopped working for a while and sent a technician to the site.\nWoman : Oh, I see. But just in case, Manager Kim, go to the scene as well. Please report it as soon as you know the cause. Please take a closer look at whether there are any safety issues.\nMan: Yes, I got it.",
+            "detail"        : "\nWoman : Manager Kim, did you hear that there was a problem with the construction site?\nMan : Yes, I know. I heard that there was a strange sound from the machine and suddenly stopped. So I stopped working for a while and sent a technician to the site.\nWoman : Oh, I see. But just in case, Manager Kim, go to the scene as well. Please report it as soon as you know the cause. Please take a closer look at whether there are any safety issues.\nMan: Yes, I got it.",
             "correctAnswer" : "①  공사 현장을 방문한다.",
             "score"         : "3"
         },

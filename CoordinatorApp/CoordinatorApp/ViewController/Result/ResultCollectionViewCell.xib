@@ -2,9 +2,9 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
-        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -40,20 +40,21 @@
                                         <viewLayoutGuide key="safeArea" id="Ryf-VA-jam"/>
                                     </stackView>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="SnQ-bU-gg5">
-                                        <rect key="frame" x="0.0" y="90" width="538" height="398.5"/>
+                                        <rect key="frame" x="0.0" y="90" width="538" height="418.5"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QoL-Z9-sWt">
-                                                <rect key="frame" x="0.0" y="0.0" width="538" height="398.5"/>
-                                                <string key="text">Man : Mr. Sumi, how was your interview? Do you think you saw it well?\nWoman : I could have done well, but I was nervous, so I don't think I saw it well. \nMan : I've prepared hard, so it'll be fine.</string>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="LRj-eF-OZv">
+                                                <rect key="frame" x="0.0" y="0.0" width="538" height="418.5"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <mutableString key="text"> 고속도로에서 승객들이 대형 사고를 막아 낸 사실이 알려져 화제다. 사건은 지난 15일 0시 25분쯤 치악 휴게소를 3km쯤 앞둔 곳에서 발생 했다. 서울에서 안동으로 가던 고속버스에서 기사 김 모 씨(53)가 운전 중 갑자기 정신을 잃고 쓰러졌다. 이를 본 승객 천 모 씨(41)는 운전석으로 달려와 운전대를 잡고 버스가 중앙선을 넘으려는 것을 막았다. 다른 승객 들은 힘을 모아 운전석에서 쓰러진 기사를 끌어냈다. 기사를 대신하여 운전석에 앉은 천 씨는 3분 정도 거리에 있는 치악 휴게소로 버스를 몰아 승객들을 안전하게 이동시켰다. 하마터면 큰 사고로 이어질 수 있는 아찔한 사건이었다.\n50.이 글의 내용과 같은 것을 고르십시오.</mutableString>
+                                                <color key="textColor" systemColor="labelColor"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                            </textView>
                                         </subviews>
                                         <viewLayoutGuide key="safeArea" id="KEF-OC-Co6"/>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="naQ-K2-nzY">
-                                        <rect key="frame" x="0.0" y="498.5" width="199.5" height="162.5"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="naQ-K2-nzY">
+                                        <rect key="frame" x="0.0" y="518.5" width="199.5" height="142.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="①  학교 홈페이지에 있던데요." lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uyh-xP-7Zh">
                                                 <rect key="frame" x="0.0" y="0.0" width="199.5" height="20.5"/>
@@ -62,27 +63,27 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="①  학교 홈페이지에 있던데요." lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Ej8-Aa-q6M">
-                                                <rect key="frame" x="0.0" y="35.5" width="199.5" height="20.5"/>
+                                                <rect key="frame" x="0.0" y="30.5" width="199.5" height="20.5"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="①  학교 홈페이지에 있던데요." lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9yx-21-ik5">
-                                                <rect key="frame" x="0.0" y="71" width="199.5" height="20.5"/>
+                                                <rect key="frame" x="0.0" y="61" width="199.5" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="①  학교 홈페이지에 있던데요." lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8Pg-jU-yBS">
-                                                <rect key="frame" x="0.0" y="106.5" width="199.5" height="20.5"/>
+                                                <rect key="frame" x="0.0" y="91.5" width="199.5" height="20.5"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="①  학교 홈페이지에 있던데요." lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="G7h-bt-qBy">
-                                                <rect key="frame" x="0.0" y="142" width="199.5" height="20.5"/>
+                                                <rect key="frame" x="0.0" y="122" width="199.5" height="20.5"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
@@ -124,10 +125,15 @@
                 <outlet property="option3" destination="9yx-21-ik5" id="RtV-JH-9mX"/>
                 <outlet property="option4" destination="8Pg-jU-yBS" id="FJg-du-3tS"/>
                 <outlet property="option5" destination="G7h-bt-qBy" id="MJ2-oP-9y7"/>
-                <outlet property="questionLabel" destination="QoL-Z9-sWt" id="NMY-34-X57"/>
+                <outlet property="questionLabel" destination="LRj-eF-OZv" id="Po7-XM-jKI"/>
                 <outlet property="sectionLabel" destination="POU-h9-wtT" id="ywN-mN-J4i"/>
             </connections>
             <point key="canvasLocation" x="384" y="111.0944527736132"/>
         </collectionViewCell>
     </objects>
+    <resources>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>

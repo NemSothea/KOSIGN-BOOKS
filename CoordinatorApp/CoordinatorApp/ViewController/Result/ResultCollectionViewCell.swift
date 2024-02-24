@@ -10,7 +10,7 @@ import UIKit
 class ResultCollectionViewCell: UICollectionViewCell {
 
     @IBOutlet weak var sectionLabel     : UILabel!
-    @IBOutlet weak var questionLabel    : UILabel!
+    @IBOutlet weak var questionLabel    : UITextView!
 
     @IBOutlet weak var option1          : UILabel!
     @IBOutlet weak var option2          : UILabel!
@@ -51,7 +51,8 @@ class ResultCollectionViewCell: UICollectionViewCell {
 
         // *** Apply attribute to string ***
         attributedSectionLabel.addAttribute(NSAttributedString.Key.paragraphStyle, value:paragraphStyle, range:NSMakeRange(0, attributedSectionLabel.length))
-        self.questionLabel.numberOfLines    = 0
+//        self.questionLabel.numberOfLines    = 0
+        self.questionLabel.textColor  = .black
         self.questionLabel.attributedText   = attributedSectionLabel
         
 

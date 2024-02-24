@@ -255,7 +255,7 @@
             "option_2"      : "②   예전이었더라면",
             "option_3"      : "③   예전이라고 치고",
             "option_4"      : "④   예전만 못하지만",
-            "detail"        : "\nA : I think there are many students who learn to play the guitar these days. Me: I also played the guitar hard when I was in school. It's not as good as it used to be, but if you have a sheet music, you can still hit it like that. A : I envy you. If you have time, can you teach me?\nB : Of course. I will teach you (Normally) If you learn about a month or two, you can play simple songs.",
+            "detail"        : "\nA : I think there are many students who learn to play the guitar these days. Me: I also played the guitar hard when I was in school. It's not as good as it used to be, but if you have a sheet music, you can still hit it like that.\nA : I envy you. If you have time, can you teach me?\nB : Of course. I will teach you (Normally) If you learn about a month or two, you can play simple songs.",
             "correctAnswer" : "④   예전만 못하지만",
             "score"         : "3",
             "isImg"         : "n"
@@ -267,7 +267,7 @@
             "option_2"      : "②   보통",
             "option_3"      : "③   온통",
             "option_4"      : "④   제법",
-            "detail"        : "\nA : I think there are many students who learn to play the guitar these days. Me: I also played the guitar hard when I was in school. It's not as good as it used to be, but if you have a sheet music, you can still hit it like that. A : I envy you. If you have time, can you teach me?\nB : Of course. I will teach you (Normally) If you learn about a month or two, you can play simple songs.",
+            "detail"        : "\nA : I think there are many students who learn to play the guitar these days. Me: I also played the guitar hard when I was in school. It's not as good as it used to be, but if you have a sheet music, you can still hit it like that.\nA : I envy you. If you have time, can you teach me?\nB : Of course. I will teach you (Normally) If you learn about a month or two, you can play simple songs.",
             "correctAnswer" : "②   보통",
             "score"         : "3",
             "isImg"         : "n"
