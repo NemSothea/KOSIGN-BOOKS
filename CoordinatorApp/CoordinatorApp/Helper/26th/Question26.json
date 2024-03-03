@@ -243,7 +243,7 @@
             "option_2"      : "②   중고라고 하려면",
             "option_3"      : "③   중고인 셈이라서",
             "option_4"      : "④   중고일 뿐만 아니라",
-            "detail"        : "\nA : (I heard it's used) I thought the bike was old, but it's clean. Me: My ex-owner didn't ride a few times, so it's like a new one.",
+            "detail"        : "\nA : (I heard it's used) I thought the bike was old, but it's clean. \nB : My ex-owner didn't ride a few times, so it's like a new one.",
             "correctAnswer" : "①   중고라고 해서",
             "score"         : "3",
             "isImg"         : "n"

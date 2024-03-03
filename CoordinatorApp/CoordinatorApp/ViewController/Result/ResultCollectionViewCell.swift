@@ -7,10 +7,10 @@
 
 import UIKit
 
-class ResultCollectionViewCell: UICollectionViewCell {
+class ResultCollectionViewCell: UICollectionViewCell, UITextViewDelegate {
 
     @IBOutlet weak var sectionLabel     : UILabel!
-    @IBOutlet weak var questionLabel    : UITextView!
+    @IBOutlet weak var questionLabel    : UILabel!
 
     @IBOutlet weak var option1          : UILabel!
     @IBOutlet weak var option2          : UILabel!
@@ -22,8 +22,14 @@ class ResultCollectionViewCell: UICollectionViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
-    }
-    func configureCell(data : ReadingQuestionModel.Question) {
+        self.sectionLabel.textColor = .black
+        self.questionLabel.textColor  = .black
+       
+        questionLabel.tintColor = .black
+        self.option1.textColor      = .black
+        self.option2.textColor      = .black
+        self.option3.textColor      = .black
+        self.option4.textColor      = .black
         
         let fontSize = Share.shared.setFontSize()
         
@@ -35,9 +41,11 @@ class ResultCollectionViewCell: UICollectionViewCell {
         self.option4.font = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
         self.option5.font = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
         
-        self.sectionLabel.text      = data.sections
-        self.sectionLabel.textColor = .black
+    }
+    func configureCell(data : ReadingQuestionModel.Question) {
         
+        self.sectionLabel.text      = data.sections
+       
         let attributedSectionLabel = NSMutableAttributedString(string: "\(data.question ?? "")")
 
         // *** Create instance of `NSMutableParagraphStyle`
@@ -52,7 +60,7 @@ class ResultCollectionViewCell: UICollectionViewCell {
         // *** Apply attribute to string ***
         attributedSectionLabel.addAttribute(NSAttributedString.Key.paragraphStyle, value:paragraphStyle, range:NSMakeRange(0, attributedSectionLabel.length))
 //        self.questionLabel.numberOfLines    = 0
-        self.questionLabel.textColor  = .black
+
         self.questionLabel.attributedText   = attributedSectionLabel
         
 
@@ -61,10 +69,7 @@ class ResultCollectionViewCell: UICollectionViewCell {
         self.option3.text           = data.option_3
         self.option4.text           = data.option_4
         self.option5.text           = "\(data.correctAnswer ?? "") ✅(정답)"
-        self.option1.textColor      = .black
-        self.option2.textColor      = .black
-        self.option3.textColor      = .black
-        self.option4.textColor      = .black
+      
         self.option5.textColor      = UIColor.red
     
     }

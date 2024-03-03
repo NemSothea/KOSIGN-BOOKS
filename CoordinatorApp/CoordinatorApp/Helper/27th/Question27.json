@@ -152,7 +152,7 @@
         },
         {   
             "sections"      : "※ [14~18] 다음 (     )에 알맞은 것을 고르십시오.",
-            "question"      : "15. (4점)\n  가 : 좀 더 긴 의자는 없나요?\n나 : 네. 지금은 이 의자 (    )없습니다.",
+            "question"      : "15. (4점)\n  가 : 좀 더 긴 의자는 없나요?\n나 : 네. 지금은 이 의자 (....)없습니다.",
             "option_1"      : "①   보다",
             "option_2"      : "②   밖에",
             "option_3"      : "③   만큼",
@@ -213,7 +213,7 @@
             "option_3"      : "③  쓰던데",
             "option_4"      : "④  쓰더니",
             "detail"        : "\nA : I'm sorry. Where is Kim Soo-young?\nB : you're over there I'm a person who eats with a hat on.",
-            "correctAnswer" : "②  쓴 채",
+            "correctAnswer" : "③  쓰던데",
             "score"         : "3"
         },
         {   
@@ -224,7 +224,7 @@
             "option_3"      : "③  확인할 뿐이었어요",
             "option_4"      : "④  확인하라고 했어요",
             "detail"        : "\nA : The conference room is too cold.\nB : I was going to check it now. I'll call you right away.",
-            "correctAnswer" : "①  확인할 참이었어요",
+            "correctAnswer" : "④  확인하라고 했어요",
             "score"         : "3"
         },
         {   
@@ -403,7 +403,7 @@
         },
         {
             "sections"      : " ※ [43~45] 다음을 순서대로 맞게 배열한 것을 고르십시오. (각 3점)",
-            "question"      : "(가) 이렇게 버려진 알은 바로 차가워져서 알 속의 새끼가 죽게 된다.\n(나) 그러므로 새의 둥지를 관찰할 때에는 최대한 멀리서 봐야 한다.\n(다) (다) 어미 새가 놀라 알을 버리고 날아가 버릴 수도 있기 때문이다. \n(라) 어미 새가 알을 품고 있을 때 가까이 가면 안 된다.\nQ44.",
+            "question"      : "(가) 이렇게 버려진 알은 바로 차가워져서 알 속의 새끼가 죽게 된다.\n(나) 그러므로 새의 둥지를 관찰할 때에는 최대한 멀리서 봐야 한다.\n(다) 어미 새가 놀라 알을 버리고 날아가 버릴 수도 있기 때문이다. \n(라) 어미 새가 알을 품고 있을 때 가까이 가면 안 된다.\nQ44.",
             "option_1"      : "①  (다)-(가)-(라)-(나)",
             "option_2"      : "②  (다)-(라)-(가)-(나)",
             "option_3"      : "③  (라)-(나)-(다)-(가)",

@@ -19,6 +19,7 @@ class ReadingQuestionCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var questionLabel    : UILabel!
     @IBOutlet weak var questionImg      : UIImageView!
     
+    @IBOutlet weak var stackViewQuestion: UIStackView!
     @IBOutlet weak var option1          : UILabel!
     @IBOutlet weak var option2          : UILabel!
     @IBOutlet weak var option3          : UILabel!
@@ -54,18 +55,19 @@ class ReadingQuestionCollectionViewCell: UICollectionViewCell {
             self.sectionLabel.attributedText  = attributedSectionLabel
             
             if self.setValues?.isImg == "y" {
-                self.questionLabel.text     = nil
-                self.stackImage.isHidden    = false
-                self.emptyStack.isHidden    = true
-                self.questionLabel.isHidden = true
-                self.questionImg.isHidden   = false
+                self.stackViewQuestion.isHidden = true
+                self.questionLabel.text         = nil
+                self.stackImage.isHidden        = false
+                self.emptyStack.isHidden        = true
+                self.questionLabel.isHidden     = true
+                self.questionImg.isHidden       = false
                 self.imgHeightConstraint.constant = UIScreen.main.bounds.height / 2
                 
                 self.questionImg.frame = CGRectMake(0.0, 0.0,UIScreen.main.bounds.width, (UIScreen.main.bounds.height / 2) - 20)
                 
                 self.questionImg.image = UIImage(named:setValues?.question ?? "")
             }else {
-                
+                self.stackViewQuestion.isHidden = false
                 self.stackImage.isHidden        = true
                 self.questionImg.isHidden       = true
                 self.emptyStack.isHidden        = false

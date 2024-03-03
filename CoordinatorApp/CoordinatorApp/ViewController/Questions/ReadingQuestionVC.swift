@@ -97,6 +97,7 @@ class ReadingQuestionVC: UIViewController {
         
         #warning("test resultVC")
 //        guard let resultVC = storyboard?.instantiateViewController(withIdentifier: "ResultVC") as? ResultVC else {return}
+//        resultVC.wrongAnswerArray = self.questionsVM.data?.questions ?? []
 //        resultVC.result          = ["\(resultTopik().0)","\(resultTopik().1)","\(resultTopik().2)"]
 //        self.present(resultVC, animated: true)
         

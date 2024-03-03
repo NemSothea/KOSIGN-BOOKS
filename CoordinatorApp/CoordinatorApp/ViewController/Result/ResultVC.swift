@@ -59,8 +59,9 @@ class ResultVC: UIViewController, StoryBoarded, UICollectionViewDelegate, UIColl
         self.questions.font             = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
         self.congratulationLabel.font   =  UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
         self.impressLabel.font          = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
-        self.scoreLabel.font            = UIFont(name: "BareunBatangOTF 1Light", size: fontSize)
-        self.reCheckLabel.font          = UIFont(name: "BareunBatangOTF 1Light", size: fontSize)
+        self.scoreLabel.font            = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
+        
+        self.reCheckLabel.font          = UIFont(name: "1HoonDdukbokki Regular", size: fontSize)
         
         let attritNextText = NSAttributedString(string: "재테스트", attributes: [NSAttributedString.Key.font: UIFont(name: "1HoonDdukbokki Regular", size: fontSize)!])
         
@@ -68,8 +69,6 @@ class ResultVC: UIViewController, StoryBoarded, UICollectionViewDelegate, UIColl
         
         
         self.collectionView.register(UINib(nibName: "ResultCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "resultCollectionViewCell")
-        
-        
         self.questions.text             = " \n  You have reached \(result[0]) of \(result[1]) questions(s), \(result[2])   \n"
         
         
