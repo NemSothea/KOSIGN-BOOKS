@@ -116,7 +116,7 @@
             "option_2"      : "②   분명하다",
             "option_3"      : "③   정확하다",
             "option_4"      : "④   충분하다",
-            "detail"        : "It's exam period, so we don't have enough time to get together and practice.",
+            "detail"        : "\nIt's exam period, so we don't have enough time to get together and practice.",
             "correctAnswer" : "④   충분하다",
             "isImg"         : "n"
         },
@@ -177,7 +177,7 @@
             "option_3"      : "③    물어보나 마나",
             "option_4"      : "④    물어볼 뿐만 아니라",
             "detail"        : "\nA : Should I ask him to hang out with me tomorrow?\nB : Ask me or not I won't go. He said he had an exam tomorrow.",
-            "correctAnswer" : "④    물어볼 뿐만 아니라",
+            "correctAnswer" : "③    물어보나 마나",
             "isImg"         : "n"
         },
         {   "sections"      : "※ [19~21]다음 밑 줄친 부분과 바꾸어 쓸 수 있는 것을 고르십시오.",

@@ -205,6 +205,14 @@
 		5C22F7FC2B5CA176009E96FF /* HeaderSectionReadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C22F7FA2B5CA176009E96FF /* HeaderSectionReadingCell.xib */; };
 		5C22F7FF2B5CA224009E96FF /* FooterSectionReadingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C22F7FD2B5CA224009E96FF /* FooterSectionReadingCell.swift */; };
 		5C22F8002B5CA224009E96FF /* FooterSectionReadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C22F7FE2B5CA224009E96FF /* FooterSectionReadingCell.xib */; };
+		5C3A174F2B94494900FAADE6 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C3A174E2B94494900FAADE6 /* WidgetKit.framework */; };
+		5C3A17512B94494900FAADE6 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C3A17502B94494900FAADE6 /* SwiftUI.framework */; };
+		5C3A17542B94494900FAADE6 /* TopikWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3A17532B94494900FAADE6 /* TopikWidgetBundle.swift */; };
+		5C3A17562B94494900FAADE6 /* TopikWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3A17552B94494900FAADE6 /* TopikWidgetLiveActivity.swift */; };
+		5C3A17582B94494900FAADE6 /* TopikWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3A17572B94494900FAADE6 /* TopikWidget.swift */; };
+		5C3A175A2B94494900FAADE6 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3A17592B94494900FAADE6 /* AppIntent.swift */; };
+		5C3A175C2B94494A00FAADE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C3A175B2B94494A00FAADE6 /* Assets.xcassets */; };
+		5C3A17602B94494A00FAADE6 /* TopikWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5C3A174C2B94494900FAADE6 /* TopikWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		5C6E50A52B3702A400D84F4D /* 29_4_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C6E509F2B3702A400D84F4D /* 29_4_img.png */; };
 		5C6E50A62B3702A400D84F4D /* 29_7_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C6E50A02B3702A400D84F4D /* 29_7_img.png */; };
 		5C6E50A72B3702A400D84F4D /* 29_3_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C6E50A12B3702A400D84F4D /* 29_3_img.png */; };
@@ -275,6 +283,30 @@
 		5CDA56292B4ABE180052E9BF /* 64_10_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C7077D52B49849600394C56 /* 64_10_img.png */; };
 		5CDA562A2B4ABE1A0052E9BF /* 64_5_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C7077D62B49849600394C56 /* 64_5_img.png */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C3A175E2B94494A00FAADE6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55A99C5E29937D9F00AD4FA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C3A174B2B94494900FAADE6;
+			remoteInfo = TopikWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5C3A17612B94494B00FAADE6 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				5C3A17602B94494A00FAADE6 /* TopikWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		5243B26229BC74A600C615C4 /* 36_7_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 36_7_img.png; sourceTree = "<group>"; };
@@ -477,6 +509,15 @@
 		5C22F7FA2B5CA176009E96FF /* HeaderSectionReadingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderSectionReadingCell.xib; sourceTree = "<group>"; };
 		5C22F7FD2B5CA224009E96FF /* FooterSectionReadingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterSectionReadingCell.swift; sourceTree = "<group>"; };
 		5C22F7FE2B5CA224009E96FF /* FooterSectionReadingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FooterSectionReadingCell.xib; sourceTree = "<group>"; };
+		5C3A174C2B94494900FAADE6 /* TopikWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = TopikWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C3A174E2B94494900FAADE6 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		5C3A17502B94494900FAADE6 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		5C3A17532B94494900FAADE6 /* TopikWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopikWidgetBundle.swift; sourceTree = "<group>"; };
+		5C3A17552B94494900FAADE6 /* TopikWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopikWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		5C3A17572B94494900FAADE6 /* TopikWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopikWidget.swift; sourceTree = "<group>"; };
+		5C3A17592B94494900FAADE6 /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		5C3A175B2B94494A00FAADE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C3A175D2B94494A00FAADE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C6E509F2B3702A400D84F4D /* 29_4_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 29_4_img.png; sourceTree = "<group>"; };
 		5C6E50A02B3702A400D84F4D /* 29_7_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 29_7_img.png; sourceTree = "<group>"; };
 		5C6E50A12B3702A400D84F4D /* 29_3_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 29_3_img.png; sourceTree = "<group>"; };
@@ -553,6 +594,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C3A17492B94494900FAADE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C3A17512B94494900FAADE6 /* SwiftUI.framework in Frameworks */,
+				5C3A174F2B94494900FAADE6 /* WidgetKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -829,6 +879,8 @@
 			children = (
 				5590500829947E5700FE3F0D /* README.md */,
 				55A99C6829937D9F00AD4FA6 /* CoordinatorApp */,
+				5C3A17522B94494900FAADE6 /* TopikWidget */,
+				5C3A174D2B94494900FAADE6 /* Frameworks */,
 				55A99C6729937D9F00AD4FA6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -837,6 +889,7 @@
 			isa = PBXGroup;
 			children = (
 				55A99C6629937D9F00AD4FA6 /* CoordinatorApp.app */,
+				5C3A174C2B94494900FAADE6 /* TopikWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1092,6 +1145,28 @@
 			path = ReadingQuestionCell;
 			sourceTree = "<group>";
 		};
+		5C3A174D2B94494900FAADE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C3A174E2B94494900FAADE6 /* WidgetKit.framework */,
+				5C3A17502B94494900FAADE6 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C3A17522B94494900FAADE6 /* TopikWidget */ = {
+			isa = PBXGroup;
+			children = (
+				5C3A17532B94494900FAADE6 /* TopikWidgetBundle.swift */,
+				5C3A17552B94494900FAADE6 /* TopikWidgetLiveActivity.swift */,
+				5C3A17572B94494900FAADE6 /* TopikWidget.swift */,
+				5C3A17592B94494900FAADE6 /* AppIntent.swift */,
+				5C3A175B2B94494A00FAADE6 /* Assets.xcassets */,
+				5C3A175D2B94494A00FAADE6 /* Info.plist */,
+			);
+			path = TopikWidget;
+			sourceTree = "<group>";
+		};
 		5C7077CA2B49849600394C56 /* 64th */ = {
 			isa = PBXGroup;
 			children = (
@@ -1140,10 +1215,12 @@
 				55A99C6229937D9F00AD4FA6 /* Sources */,
 				55A99C6329937D9F00AD4FA6 /* Frameworks */,
 				55A99C6429937D9F00AD4FA6 /* Resources */,
+				5C3A17612B94494B00FAADE6 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				5C3A175F2B94494A00FAADE6 /* PBXTargetDependency */,
 			);
 			name = CoordinatorApp;
 			packageProductDependencies = (
@@ -1152,6 +1229,23 @@
 			productReference = 55A99C6629937D9F00AD4FA6 /* CoordinatorApp.app */;
 			productType = "com.apple.product-type.application";
 		};
+		5C3A174B2B94494900FAADE6 /* TopikWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C3A17642B94494B00FAADE6 /* Build configuration list for PBXNativeTarget "TopikWidgetExtension" */;
+			buildPhases = (
+				5C3A17482B94494900FAADE6 /* Sources */,
+				5C3A17492B94494900FAADE6 /* Frameworks */,
+				5C3A174A2B94494900FAADE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TopikWidgetExtension;
+			productName = TopikWidgetExtension;
+			productReference = 5C3A174C2B94494900FAADE6 /* TopikWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1159,11 +1253,14 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1420;
+				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
 					55A99C6529937D9F00AD4FA6 = {
 						CreatedOnToolsVersion = 14.2;
+					};
+					5C3A174B2B94494900FAADE6 = {
+						CreatedOnToolsVersion = 15.0.1;
 					};
 				};
 			};
@@ -1183,6 +1280,7 @@
 			projectRoot = "";
 			targets = (
 				55A99C6529937D9F00AD4FA6 /* CoordinatorApp */,
+				5C3A174B2B94494900FAADE6 /* TopikWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -1433,6 +1531,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5C3A174A2B94494900FAADE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C3A175C2B94494A00FAADE6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -1472,7 +1578,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5C3A17482B94494900FAADE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C3A17562B94494900FAADE6 /* TopikWidgetLiveActivity.swift in Sources */,
+				5C3A175A2B94494900FAADE6 /* AppIntent.swift in Sources */,
+				5C3A17542B94494900FAADE6 /* TopikWidgetBundle.swift in Sources */,
+				5C3A17582B94494900FAADE6 /* TopikWidget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C3A175F2B94494A00FAADE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C3A174B2B94494900FAADE6 /* TopikWidgetExtension */;
+			targetProxy = 5C3A175E2B94494A00FAADE6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		55A99C6F29937D9F00AD4FA6 /* Main.storyboard */ = {
@@ -1611,6 +1736,7 @@
 		55A99C7B29937DA100AD4FA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -1643,6 +1769,7 @@
 		55A99C7C29937DA100AD4FA6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
@@ -1672,6 +1799,73 @@
 			};
 			name = Release;
 		};
+		5C3A17622B94494B00FAADE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 62EMNW6G6D;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TopikWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TopikWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kosignbook.CoordinatorApp.TopikWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5C3A17632B94494B00FAADE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 62EMNW6G6D;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TopikWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = TopikWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kosignbook.CoordinatorApp.TopikWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1689,6 +1883,15 @@
 			buildConfigurations = (
 				55A99C7B29937DA100AD4FA6 /* Debug */,
 				55A99C7C29937DA100AD4FA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C3A17642B94494B00FAADE6 /* Build configuration list for PBXNativeTarget "TopikWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C3A17622B94494B00FAADE6 /* Debug */,
+				5C3A17632B94494B00FAADE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
