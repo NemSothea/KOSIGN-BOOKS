@@ -305,7 +305,7 @@
             "isImg"         : "y"
         },
         {   "sections"      : "※ [35~38] 다음을 보고 내용이 같은 것을 고르십시오.",
-            "question"      : " 서울시는 청소년들을 위해 지은 도서관의 이름을 찾는다. 응모 기간은 2월 1일부터 2월 10일까지로 서울 시민이면 누구나 응모할 수 있다. 응모를 원하는 사람은 신청서에 도서관 이름을 적고 그 의미를 풀이한 뒤 서울 시청 홈페이지에 접수하면 된다. 선정 결과는 2월 29일 홈페이지를 통해 발표된다.\nQ35. ",
+            "question"      : " 서울시는 청소년들을 위해 지은 도서관의 이름을 찾는다. 응모 기간은 2월 1일부터 2월 10일까지로 서울 시민이면 누구나 응모할 수 있다. 응모를 원하는 사람은 신청서에 도서관 이름을 적고 그 의미를 풀이한 뒤 서울 시청 홈페이지에 접수하면 된다. 선정 결과는 2월 29일 홈페이지를 통해 발표된다.\nQ37. ",
             "option_1"      : "①  접수는 한 달 동안 진행된다.",
             "option_2"      : "②  선정 결과는 개인에게 직접 알려 준다.",
             "option_3"      : "③  이름에 대한 의미 설명도 함께 써야 한다.",
@@ -314,7 +314,7 @@
             "detail"        : "\n  The city of Seoul looks for the name of the library built for teenagers. The application period is from February 1st to February 10th, and any Seoul citizen can apply. If you want to apply, you can write the name of the library on the application form, interpret the meaning, and submit it on the Seoul City Hall website. The selection results will be announced on the website on February 29."
         },
         {   "sections"      : "※ [35~38] 다음을 보고 내용이 같은 것을 고르십시오.",
-            "question"      : " ‘가족 나들이’ 행사가 1월 1일부터 2월 말까지 은빛공원에서 열린다. 은빛 공원에서는 행사 기간 동안 예년보다 10미터 길어진 눈썰매장에서 눈썰매를 탈 수 있다. 또한 연날리기, 그네 타기 등의 한국 전통 놀이도 할 수 있다. 은빛공원 입장과 전통 놀이 체험은 무료이며 눈썰매장 이용료는 1인당 오천 원이다. 이용 시간은 오전 9시부터 오후 6시까지이며 월요일은 쉰다.\nQ36. ",
+            "question"      : " ‘가족 나들이’ 행사가 1월 1일부터 2월 말까지 은빛공원에서 열린다. 은빛 공원에서는 행사 기간 동안 예년보다 10미터 길어진 눈썰매장에서 눈썰매를 탈 수 있다. 또한 연날리기, 그네 타기 등의 한국 전통 놀이도 할 수 있다. 은빛공원 입장과 전통 놀이 체험은 무료이며 눈썰매장 이용료는 1인당 오천 원이다. 이용 시간은 오전 9시부터 오후 6시까지이며 월요일은 쉰다.\nQ38. ",
             "option_1"      : "①  주말에는 연날리기를 할 수 없다.",
             "option_2"      : "②  눈썰매장의 크기는 이전보다 작아졌다.",
             "option_3"      : "③  은빛공원에 들어갈 때는 돈을 내지 않는다.",
@@ -323,16 +323,7 @@
             "detail"        : "\n The 'Family Outing' event will be held at Silverlight Park from January 1st to the end of February. In the silver park, you can ride a snow sled at a snow sledding site that is 10 meters longer than usual during the event. You can also play traditional Korean games such as kite flying and swinging. Admission to Eunbit Park and traditional play experience are free, and the use of the snow sledding sleigh is 5,000 won per person. Hours of use are from 9 a.m. to 6 p.m. and closed on Mondays."
         },
         {   "sections"      : "※ [39~42] 다음을 읽고 중심 생각을 고르십시오. (각 4점) ",
-            "question"      : " 밖에서 다른 아이들과 뛰어노는 아이들은 집에서 혼자 노는 아이들보다 감기에 걸리기가 쉽다. 하지만 이런 아이들은 집에만 있는 아이들보다 오히려 더 건강하게 자랄 가능성이 높다고 한다. 밖에서 다른 아이들과 생활하는 과정에서 아이들의 몸속에 질병을 이겨 낼 수 있는 힘이 생기기 때문이다. \nQ37.",
-            "option_1"      : "①  주말에는 연날리기를 할 수 없다.",
-            "option_2"      : "②  눈썰매장의 크기는 이전보다 작아졌다.",
-            "option_3"      : "③  은빛공원에 들어갈 때는 돈을 내지 않는다.",
-            "option_4"      : "④  이 행사에서는 여러 나라의 놀이를 즐길 수 있다.",
-            "correctAnswer" : "③  은빛공원에 들어갈 때는 돈을 내지 않는다.",
-            "detail"        : "\n Children who play outside with other children are more likely to catch a cold than those who play alone at home. But these children are more likely to grow up healthier than those who are only at home. This is because in the process of living with other children outside, children have the power to overcome diseases in their bodies."
-        },
-        {   "sections"      : "※ [39~42] 다음을 읽고 중심 생각을 고르십시오. (각 4점) ",
-            "question"      : " 밖에서 다른 아이들과 뛰어노는 아이들은 집에서 혼자 노는 아이들보다 감기에 걸리기가 쉽다. 하지만 이런 아이들은 집에만 있는 아이들보다 오히려 더 건강하게 자랄 가능성이 높다고 한다. 밖에서 다른 아이들과 생활하는 과정에서 아이들의 몸속에 질병을 이겨 낼 수 있는 힘이 생기기 때문이다.\nQ38. ",
+            "question"      : " 밖에서 다른 아이들과 뛰어노는 아이들은 집에서 혼자 노는 아이들보다 감기에 걸리기가 쉽다. 하지만 이런 아이들은 집에만 있는 아이들보다 오히려 더 건강하게 자랄 가능성이 높다고 한다. 밖에서 다른 아이들과 생활하는 과정에서 아이들의 몸속에 질병을 이겨 낼 수 있는 힘이 생기기 때문이다.\nQ39. ",
             "option_1"      : "①  밖에서 놀면 감기를 쉽게 이길 수 있다.",
             "option_2"      : "②  아이들은 깨끗한 환경에서 키우는 것이 좋다.",
             "option_3"      : "③  밖에서 여럿이 놀다 보면 병을 이겨 낼 힘이 생긴다.",
@@ -342,7 +333,7 @@
         },
         {
             "sections"      : "※ [39~42] 다음을 읽고 중심 생각을 고르십시오. (각 4점) ",
-                "question"      : " 바쁜 현대인들은 시간을 내서 공연장에 가는 것을 다소 부담스럽게 느끼 기도 한다. 이런 현대인들을 위해 요즘 ‘찾아가는 공연’이나 ‘거리 공연’ 같은 작은 공연들이 생겨나 인기를 끌고 있다. 생활공간에서 좀 더 쉽고 친근하게 공연을 즐길 수 있기 때문이다. 이처럼 가까운 곳에서 가벼운 마음으로 즐길 수 있는 공연들이 많아질 필요가 있다.\nQ39.",
+                "question"      : " 바쁜 현대인들은 시간을 내서 공연장에 가는 것을 다소 부담스럽게 느끼 기도 한다. 이런 현대인들을 위해 요즘 ‘찾아가는 공연’이나 ‘거리 공연’ 같은 작은 공연들이 생겨나 인기를 끌고 있다. 생활공간에서 좀 더 쉽고 친근하게 공연을 즐길 수 있기 때문이다. 이처럼 가까운 곳에서 가벼운 마음으로 즐길 수 있는 공연들이 많아질 필요가 있다.\nQ40.",
                 "option_1"      : "①  일상생활에서 문화 활동을 하는 것이 바람직하다.",
                 "option_2"      : "②  사람들이 편안하게 즐길 수 있는 공연을 늘려야 한다.",
                 "option_3"      : "③  공연장을 자주 찾아야 공연을 친숙하게 즐길 수 있다.",
@@ -352,7 +343,7 @@
         },
         {
             "sections"      : "※ [39~42] 다음을 읽고 중심 생각을 고르십시오. (각 4점) ",
-                "question"      : " 주변 사람들이 모두 듣기 좋은 말만을 해 준다면 현실을 제대로 보지 못하고 일을 그르치기 쉽다. 현명한 기업가는 조직 안팎의 의견과 평가를 있는 그대로 전해 주는 사람들을 가까이에 두고 활용한다. 자신을 향한 비판과 냉정한 평가를 통해 스스로를 돌아 보기 위해서 이다.\nQ40.",
+                "question"      : " 주변 사람들이 모두 듣기 좋은 말만을 해 준다면 현실을 제대로 보지 못하고 일을 그르치기 쉽다. 현명한 기업가는 조직 안팎의 의견과 평가를 있는 그대로 전해 주는 사람들을 가까이에 두고 활용한다. 자신을 향한 비판과 냉정한 평가를 통해 스스로를 돌아 보기 위해서 이다.\nQ41.",
                 "option_1"      : "①  기업가는 자신을 냉정하게 판단할 수 있다.",
                 "option_2"      : "②  기업가는 조직 내의 사람들을 잘 활용한다.",
                 "option_3"      : "③  기업가는 사람들을 평가하는 눈이 정확하다.",
@@ -362,7 +353,7 @@
         },
         {
             "sections"      : "※ [39~42] 다음을 읽고 중심 생각을 고르십시오. (각 4점) ",
-                "question"      : " 사람들과 좋은관계를 만드는 방법은 그리 어렵지않다. 길을 가다 사람 들을 마주치면 먼저 인사를 건네고, 시간을 내어 가까운 사람들에게 안부 전화를 거는 것부터 시작하면 된다. 상대방의 친절에 고마운 마음을 표현 하는 등 실생활에서 쉽게 할 수있는 일부터 실천에 옮기는 게좋다. 이런 행동으로 우리는 주위 사람들과 더 나은 관계를 유지할 수 있다.\nQ41.",
+                "question"      : " 사람들과 좋은관계를 만드는 방법은 그리 어렵지않다. 길을 가다 사람 들을 마주치면 먼저 인사를 건네고, 시간을 내어 가까운 사람들에게 안부 전화를 거는 것부터 시작하면 된다. 상대방의 친절에 고마운 마음을 표현 하는 등 실생활에서 쉽게 할 수있는 일부터 실천에 옮기는 게좋다. 이런 행동으로 우리는 주위 사람들과 더 나은 관계를 유지할 수 있다.\nQ42.",
                 "option_1"      : "①  작은 행동의 실천으로 인간관계를 좋게 만들 수 있다.",
                 "option_2"      : "②  먼 사람보다는 가까운 사람에게 친절을 베풀어야 한다.",
                 "option_3"      : "③  사람들과 잘 지내려면 감정을 솔직하게 표현하는 것이 좋다.",
