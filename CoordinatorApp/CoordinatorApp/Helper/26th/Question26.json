@@ -1,7 +1,7 @@
 {
     "questions" : [
         {   "sections"      : "※ [1~5] 다음 (   ) 에 알맞은 것을 고르십시오. ",
-            "question"      : "1. 지난주에 실시된 글쓰기 대회의 (   )가 조금 전에 나왔다. (3점)",
+            "question"      : "1. 지난주에 실시된 글쓰기 대회의 (....)가 조금 전에 나왔다. (3점)",
             "option_1"      : "①   차이",
             "option_2"      : "②   인기",
             "option_3"      : "③   주위",
@@ -12,7 +12,7 @@
             "isImg"         : "n"
         },
         {   "sections"      : "※ [1~5] 다음 (   ) 에 알맞은 것을 고르십시오.",
-            "question"      : "2. 김 과장은 회사를 (    ) 자신의 사업을 시작하였다. (3점)",
+            "question"      : "2. 김 과장은 회사를 (....) 자신의 사업을 시작하였다. (3점)",
             "option_1"      : "①   자르고",
             "option_2"      : "②   그치고",
             "option_3"      : "③   그만두고",
@@ -23,7 +23,7 @@
             "isImg"         : "n"
         },
         {   "sections"      : "※ [1~5] 다음 (   ) 에 알맞은 것을 고르십시오.",
-            "question"      : "3. 오랜만에 만난 친구가 (    ) 처음 만난 사람처럼 어색하게 느껴졌다. (3점)",
+            "question"      : "3. 오랜만에 만난 친구가 (....) 처음 만난 사람처럼 어색하게 느껴졌다. (3점)",
             "option_1"      : "①   마치",
             "option_2"      : "②   먼저",
             "option_3"      : "③   만약",
@@ -35,7 +35,7 @@
         },
         {   
             "sections"      : "※ [1~5] 다음 (   ) 에 알맞은 것을 고르십시오.",
-            "question"      : "4. 책상 위쪽에 손이 (    ) 않아서 책을 꺼내기가 어렵다. (3점)",
+            "question"      : "4. 책상 위쪽에 손이 (....) 않아서 책을 꺼내기가 어렵다. (3점)",
             "option_1"      : "①   맞지",
             "option_2"      : "②   닿지",
             "option_3"      : "③   떨리지",
@@ -46,7 +46,7 @@
             "isImg"         : "n"
         },
         {   "sections"      : "※ [1~5] 다음 (   ) 에 알맞은 것을 고르십시오.",
-            "question"      : "5. 학교 운동장은 늘 (    ) 뛰노는 학생들로 가득하다. (4점)",
+            "question"      : "5. 학교 운동장은 늘 (....) 뛰노는 학생들로 가득하다. (4점)",
             "option_1"      : "①    활발하게",
             "option_2"      : "②    고소하게",
             "option_3"      : "③    자세하게",
@@ -255,7 +255,7 @@
             "option_2"      : "②   예전이었더라면",
             "option_3"      : "③   예전이라고 치고",
             "option_4"      : "④   예전만 못하지만",
-            "detail"        : "\nA : I think there are many students who learn to play the guitar these days. Me: I also played the guitar hard when I was in school. It's not as good as it used to be, but if you have a sheet music, you can still hit it like that.\nA : I envy you. If you have time, can you teach me?\nB : Of course. I will teach you (Normally) If you learn about a month or two, you can play simple songs.",
+            "detail"        : "\nA : I think there are many students who learn to play the guitar these days.\nB : I also played the guitar hard when I was in school. It's not as good as it used to be, but if you have a sheet music, you can still hit it like that.\nA : I envy you. If you have time, can you teach me?\nB : Of course. I will teach you (Normally) If you learn about a month or two, you can play simple songs.",
             "correctAnswer" : "④   예전만 못하지만",
             "score"         : "3",
             "isImg"         : "n"
@@ -267,7 +267,7 @@
             "option_2"      : "②   보통",
             "option_3"      : "③   온통",
             "option_4"      : "④   제법",
-            "detail"        : "\nA : I think there are many students who learn to play the guitar these days. Me: I also played the guitar hard when I was in school. It's not as good as it used to be, but if you have a sheet music, you can still hit it like that.\nA : I envy you. If you have time, can you teach me?\nB : Of course. I will teach you (Normally) If you learn about a month or two, you can play simple songs.",
+            "detail"        : "\nA : I think there are many students who learn to play the guitar these days.\nB : I also played the guitar hard when I was in school. It's not as good as it used to be, but if you have a sheet music, you can still hit it like that.\nA : I envy you. If you have time, can you teach me?\nB : Of course. I will teach you (Normally) If you learn about a month or two, you can play simple songs.",
             "correctAnswer" : "②   보통",
             "score"         : "3",
             "isImg"         : "n"
