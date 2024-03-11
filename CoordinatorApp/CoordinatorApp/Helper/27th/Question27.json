@@ -196,7 +196,7 @@
         },
         {   
             "sections"      : "※ [19~21]다음 밑 줄친 부분과 바꾸어 쓸 수 있는 것을 고르십시오.",
-            "question"      : "19. (4점)\n   가 : 일요일에도 회사에 가세요?\n나 : 네. 일이 많아서 (나갈 수밖에 없어요).",
+            "question"      : "19. (4점)\n가 : 일요일에도 회사에 가세요?\n나 : 네. 일이 많아서 (나갈 수밖에 없어요).",
             "option_1"      : "①  나가면 돼요",
             "option_2"      : "②  나가나 봐요",
             "option_3"      : "③  나가기 쉬워요",
@@ -212,8 +212,8 @@
             "option_2"      : "②  쓴 채",
             "option_3"      : "③  쓰던데",
             "option_4"      : "④  쓰더니",
-            "detail"        : "\nA : I'm sorry. Where is Kim Soo-young?\nB : you're over there I'm a person who eats with a hat on.",
-            "correctAnswer" : "③  쓰던데",
+            "detail"        : "\nA : I'm sorry. Where is Kim Soo-young?\nB : you're over there he's a person who eats with a hat on.",
+            "correctAnswer" : "②  쓴 채",
             "score"         : "3"
         },
         {   
