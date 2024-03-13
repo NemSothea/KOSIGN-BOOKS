@@ -25,8 +25,8 @@ class ViewController: UIViewController, StoryBoarded {
         self.tileLabel.textColor        = UIColor.random()
         self.subTitleLabel.textColor    = UIColor.random()
         
-        DispatchQueue.main.asyncAfter(deadline: .now() + 1) { [weak self] in
-            self?.waveView.animationStart(direction: .right, speed: 10)
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+            self.waveView.animationStart(direction: .right, speed: 10)
         }
         
     }
@@ -34,8 +34,8 @@ class ViewController: UIViewController, StoryBoarded {
     
     @IBAction func clickTap(_ sender : UIButton) {
         
-        sender.showAnimation { [weak self] in
-            self?.gotoMain?(true)
+        sender.showAnimation {
+            self.gotoMain?(true)
         }
 
     }

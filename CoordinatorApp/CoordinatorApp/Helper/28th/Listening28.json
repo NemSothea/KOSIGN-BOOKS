@@ -31,7 +31,7 @@
             "option_2"      : "②  여기에서 기다리면 되겠죠?",
             "option_3"      : "③  그럼 이따가 저녁에 찾으러 갈게요.",
             "option_4"      : "④  죄송한데 한번 찾아봐 주시겠어요?",
-            "detail"        : "",
+            "detail"        : "\nMan : It's a Seoul restaurant, right? I had lunch there, and my bag I think I left it. Do you have a black bag there?\nWoman : Oh, yeah. Here it is.",
             "correctAnswer" : "③  그럼 이따가 저녁에 찾으러 갈게요.",
             "score"         : "3"
         },        
@@ -42,7 +42,7 @@
             "option_2"      : "②  글쎄요. 이번 주는 시간이 없어서요.",
             "option_3"      : "③  그럼 설악산에 다녀오는 게 어때요?",
             "option_4"      : "④  부러워요. 저도 어디라도 가고 싶어요.",
-            "detail"        : "",
+            "detail"        : "\nnWoman: I saw it on TV yesterday and the autumn leaves on Mt. Seorak were so beautiful.\nMan : Yes. I went to Mt. Seorak with my family over the weekend and it was really nice.\nWoman:....",
             "correctAnswer" : "④  부러워요. 저도 어디라도 가고 싶어요.",
             "score"         : "3"
         },
@@ -53,7 +53,7 @@
             "option_2"      : "②  오늘도 길이 많이 막혔나 보네요.",
             "option_3"      : "③  우리가 좀 더 일찍 나올걸 그랬어요.",
             "option_4"      : "④  버스로 오다가 지하철로 갈아탔어요. ",
-            "detail"        : "\nMan : That's really weird. Mina, didn't you see my dictionary on the desk?\nWoman : Oh, the dictionary? You lent it to Minsu yesterday.\nMan : I didn't even know that and I looked for it for a long time.",
+            "detail"        : "\nMan : Why is there so much traffic?\nWoman : I know. I might be late at this rate.\nMan :....",
             "correctAnswer" : "③  우리가 좀 더 일찍 나올걸 그랬어요.",
             "score"         : "3"
         },
@@ -64,7 +64,7 @@
             "option_2"      : "②  그래서 그렇게 계속 고민하고 있었군요.",
             "option_3"      : "③  전부터 외국에 나가서 일하고 싶었대요.",
             "option_4"      : "④  이번에는 신청자가 예년보다 훨씬 많았대요.",
-            "detail"        : "\nWoman : Well, even if I turn on the boiler, it doesn't get warm. I fixed it last time, and it happens again.\nMan : Oh, do you? Then can we visit now?\nWoman : I want to go out in the afternoon.",
+            "detail"        : "\nWoman : The manager said that Minsu applied for a job at a foreign branch yesterday.\nMan : Really? Why did you suddenly make that decision?\nWoman : ...",
             "correctAnswer" : "③  전부터 외국에 나가서 일하고 싶었대요.",
             "score"         : "3"
         },
