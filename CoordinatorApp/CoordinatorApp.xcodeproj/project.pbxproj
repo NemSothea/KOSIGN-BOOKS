@@ -188,6 +188,10 @@
 		55E120C729B015AE009BEFBC /* 35_7_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 55E1208329B015AE009BEFBC /* 35_7_img.png */; };
 		55E120C829B015AE009BEFBC /* Listening35.json in Resources */ = {isa = PBXBuildFile; fileRef = 55E1208429B015AE009BEFBC /* Listening35.json */; };
 		55E64E6E299B7A7D004481E3 /* ReadingQuestionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E64E6D299B7A7D004481E3 /* ReadingQuestionCollectionViewCell.swift */; };
+		5C06F8C92D54B2F100F72B1A /* DefaultIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C06F8C82D54B2F100F72B1A /* DefaultIntent.swift */; };
+		5C06F8CA2D54B2F100F72B1A /* DefaultIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C06F8C82D54B2F100F72B1A /* DefaultIntent.swift */; };
+		5C06F8CC2D54B3CC00F72B1A /* CoordinatorShortcuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C06F8CB2D54B3CC00F72B1A /* CoordinatorShortcuts.swift */; };
+		5C06F8CD2D54B3CC00F72B1A /* CoordinatorShortcuts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C06F8CB2D54B3CC00F72B1A /* CoordinatorShortcuts.swift */; };
 		5C1121EC2B367DF200B98F11 /* Share.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1121EB2B367DF200B98F11 /* Share.swift */; };
 		5C1121F32B369ED000B98F11 /* 27_4_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C1121ED2B369ED000B98F11 /* 27_4_img.png */; };
 		5C1121F42B369ED000B98F11 /* 27_5_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C1121EE2B369ED000B98F11 /* 27_5_img.png */; };
@@ -208,7 +212,6 @@
 		5C3A174F2B94494900FAADE6 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C3A174E2B94494900FAADE6 /* WidgetKit.framework */; };
 		5C3A17512B94494900FAADE6 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C3A17502B94494900FAADE6 /* SwiftUI.framework */; };
 		5C3A17542B94494900FAADE6 /* TopikWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3A17532B94494900FAADE6 /* TopikWidgetBundle.swift */; };
-		5C3A17562B94494900FAADE6 /* TopikWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3A17552B94494900FAADE6 /* TopikWidgetLiveActivity.swift */; };
 		5C3A17582B94494900FAADE6 /* TopikWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3A17572B94494900FAADE6 /* TopikWidget.swift */; };
 		5C3A175A2B94494900FAADE6 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3A17592B94494900FAADE6 /* AppIntent.swift */; };
 		5C3A175C2B94494A00FAADE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C3A175B2B94494A00FAADE6 /* Assets.xcassets */; };
@@ -492,6 +495,8 @@
 		55E120C929B0972A009BEFBC /* Listening28.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Listening28.json; sourceTree = "<group>"; };
 		55E120CA29B09732009BEFBC /* Listening29.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Listening29.json; sourceTree = "<group>"; };
 		55E64E6D299B7A7D004481E3 /* ReadingQuestionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingQuestionCollectionViewCell.swift; sourceTree = "<group>"; };
+		5C06F8C82D54B2F100F72B1A /* DefaultIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultIntent.swift; sourceTree = "<group>"; };
+		5C06F8CB2D54B3CC00F72B1A /* CoordinatorShortcuts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoordinatorShortcuts.swift; sourceTree = "<group>"; };
 		5C1121EB2B367DF200B98F11 /* Share.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Share.swift; sourceTree = "<group>"; };
 		5C1121ED2B369ED000B98F11 /* 27_4_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 27_4_img.png; sourceTree = "<group>"; };
 		5C1121EE2B369ED000B98F11 /* 27_5_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 27_5_img.png; sourceTree = "<group>"; };
@@ -513,7 +518,6 @@
 		5C3A174E2B94494900FAADE6 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		5C3A17502B94494900FAADE6 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		5C3A17532B94494900FAADE6 /* TopikWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopikWidgetBundle.swift; sourceTree = "<group>"; };
-		5C3A17552B94494900FAADE6 /* TopikWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopikWidgetLiveActivity.swift; sourceTree = "<group>"; };
 		5C3A17572B94494900FAADE6 /* TopikWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopikWidget.swift; sourceTree = "<group>"; };
 		5C3A17592B94494900FAADE6 /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
 		5C3A175B2B94494A00FAADE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -1145,6 +1149,15 @@
 			path = ReadingQuestionCell;
 			sourceTree = "<group>";
 		};
+		5C06F8C72D54B2C500F72B1A /* AppShortCut */ = {
+			isa = PBXGroup;
+			children = (
+				5C06F8C82D54B2F100F72B1A /* DefaultIntent.swift */,
+				5C06F8CB2D54B3CC00F72B1A /* CoordinatorShortcuts.swift */,
+			);
+			path = AppShortCut;
+			sourceTree = "<group>";
+		};
 		5C3A174D2B94494900FAADE6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -1157,8 +1170,8 @@
 		5C3A17522B94494900FAADE6 /* TopikWidget */ = {
 			isa = PBXGroup;
 			children = (
+				5C06F8C72D54B2C500F72B1A /* AppShortCut */,
 				5C3A17532B94494900FAADE6 /* TopikWidgetBundle.swift */,
-				5C3A17552B94494900FAADE6 /* TopikWidgetLiveActivity.swift */,
 				5C3A17572B94494900FAADE6 /* TopikWidget.swift */,
 				5C3A17592B94494900FAADE6 /* AppIntent.swift */,
 				5C3A175B2B94494A00FAADE6 /* Assets.xcassets */,
@@ -1549,6 +1562,7 @@
 				55591B042999BDCE00023195 /* Reading24QuestionModel.swift in Sources */,
 				55591B15299A07CF00023195 /* ResultVC.swift in Sources */,
 				55A99C8229938B1100AD4FA6 /* Coordinator.swift in Sources */,
+				5C06F8CC2D54B3CC00F72B1A /* CoordinatorShortcuts.swift in Sources */,
 				559050162994C81A00FE3F0D /* BookmarkCoordinator.swift in Sources */,
 				5CB4CE0B2B61652400C503A4 /* UIView.swift in Sources */,
 				55BBF3AF2995D18F00A7E991 /* BookMarkTabVC.swift in Sources */,
@@ -1567,6 +1581,7 @@
 				55591B11299A071A00023195 /* ReadingQuestionVC.swift in Sources */,
 				553B24C129A5B51500F4ED4A /* PopupCell.swift in Sources */,
 				5590500D29948CB800FE3F0D /* StoryBoarded.swift in Sources */,
+				5C06F8CA2D54B2F100F72B1A /* DefaultIntent.swift in Sources */,
 				55450206299C6090000B48B6 /* QuestionViewModel.swift in Sources */,
 				55E64E6E299B7A7D004481E3 /* ReadingQuestionCollectionViewCell.swift in Sources */,
 				5590500B29948BF900FE3F0D /* MainCoordinator.swift in Sources */,
@@ -1582,7 +1597,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C3A17562B94494900FAADE6 /* TopikWidgetLiveActivity.swift in Sources */,
+				5C06F8C92D54B2F100F72B1A /* DefaultIntent.swift in Sources */,
+				5C06F8CD2D54B3CC00F72B1A /* CoordinatorShortcuts.swift in Sources */,
 				5C3A175A2B94494900FAADE6 /* AppIntent.swift in Sources */,
 				5C3A17542B94494900FAADE6 /* TopikWidgetBundle.swift in Sources */,
 				5C3A17582B94494900FAADE6 /* TopikWidget.swift in Sources */,

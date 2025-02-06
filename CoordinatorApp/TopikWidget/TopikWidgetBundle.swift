@@ -12,6 +12,5 @@ import SwiftUI
 struct TopikWidgetBundle: WidgetBundle {
     var body: some Widget {
         TopikWidget()
-        TopikWidgetLiveActivity()
     }
 }

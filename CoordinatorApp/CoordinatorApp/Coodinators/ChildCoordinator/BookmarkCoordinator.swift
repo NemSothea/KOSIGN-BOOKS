@@ -22,7 +22,15 @@ class BookmarkCoordinator : Coordinator {
         let vc = BookMarkTabVC.instantiate()
         
         let fontSize = Share.shared.setFontSize()
-        UITabBarItem.appearance().setTitleTextAttributes([NSAttributedString.Key.font: UIFont(name: "1HoonDdukbokki Regular", size: fontSize)!], for: .normal)
+        
+        if let font = UIFont(name: "1HoonDdukbokki Regular", size: fontSize) {
+            UITabBarItem.appearance().setTitleTextAttributes([.font: font], for: .normal)
+        } else {
+            // Fallback to system font if custom font isn't found
+            let fallbackFont = UIFont.systemFont(ofSize: fontSize)
+            UITabBarItem.appearance().setTitleTextAttributes([.font: fallbackFont], for: .normal)
+            print("Custom font not found. Using system font.")
+        }
         
         vc.tabBarItem = UITabBarItem(title: "읽기", image: UIImage(systemName: "books.vertical"), tag: 0)
         
