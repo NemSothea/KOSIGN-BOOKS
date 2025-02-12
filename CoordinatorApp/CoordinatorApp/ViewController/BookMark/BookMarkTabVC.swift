@@ -4,8 +4,9 @@
 //
 //  Created by Bizplay on 2023/02/10.
 //
-
 import UIKit
+import WidgetKit
+
 
 class BookMarkTabVC : UIViewController, StoryBoarded {
     
@@ -14,19 +15,82 @@ class BookMarkTabVC : UIViewController, StoryBoarded {
     
     //MARK: - Properties
     private var questionsViewModel = QuestionViewModel()
+    
+    var indexPath : IndexPath?
   
     //MARK: - ViewLifeCycle
     override func viewDidLoad() {
          super.viewDidLoad()
         self.questionsViewModel.initReadingData()
+        
+        self.sendReadingDataToWidget()
     
     }
+
+    
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        
+      
         
         self.animateTable()
         
     }
+    private func readingData() {
+        
+    
+        
+        let userDefaults = UserDefaults.appGroupIdentifier
+        
+        if let data = userDefaults?.data(forKey: "ReadingWidgetData") {
+            
+            do {
+          
+                
+                let decoder = JSONDecoder()
+                let readingData = try decoder.decode([ReadingWidgetModel].self, from: data)
+               
+                print("Decoded Data: \(readingData)") // For basic inspection
+
+                // ... continue to step 2 to format it nicely
+            } catch {
+                print("Error decoding data: \(error)")
+            }
+        }
+    }
+    private func mapToReadingModel() -> [ReadingWidgetModel] {
+        
+        var readingData = [ReadingWidgetModel]()
+        
+        self.questionsViewModel.TOPIKQuestionArray.forEach { value in
+            readingData.append(contentsOf: [ReadingWidgetModel(topikID: value.caseRawValue, topikName: value.titleReading)])
+        }
+        
+        return readingData
+    }
+    private func sendReadingDataToWidget() {
+        
+        let readingData = mapToReadingModel()
+
+        
+        do {
+            let encoder = JSONEncoder()
+            let data = try encoder.encode(readingData)
+            let userDefaults = UserDefaults.appGroupIdentifier
+            userDefaults?.set(data, forKey: "ReadingWidgetData")
+            
+            self.readingData()
+        
+            // Notify the widget to reload if needed
+            DispatchQueue.main.async {
+                WidgetCenter.shared.reloadTimelines(ofKind: WidgetType.reading.rawValue)
+            }
+        } catch {
+            print("Failed to encode objects: \(error)")
+            
+        }
+    }
+    
     private func animateTable() {
         self.myTableView.reloadData()
         

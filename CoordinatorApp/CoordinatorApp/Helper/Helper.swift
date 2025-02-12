@@ -7,7 +7,7 @@
 
 import Foundation
 
-enum QuestionType: Int, CaseIterable {
+enum QuestionType: Int,Codable, CaseIterable {
         case question24 = 24
         case question25 = 25
         case question26 = 26
@@ -28,7 +28,10 @@ enum QuestionType: Int, CaseIterable {
         case question60 = 60
         case question64 = 64
         case question83 = 83
-        
+    
+    var caseRawValue: Int {
+        return rawValue
+    }
     var titleReading: String {
         return "읽기 \(rawValue)th"
     }

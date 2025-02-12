@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22155" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
-    <device id="retina4_7" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="iPad13_0rounded" orientation="portrait" layout="fullscreen" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22131"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="collection view cell content view" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -11,20 +11,20 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="resultCollectionViewCell" id="JrO-Fa-6F9" customClass="ResultCollectionViewCell" customModule="CoordinatorApp" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="473" height="511"/>
+            <rect key="frame" x="0.0" y="0.0" width="558" height="574"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="CTK-QG-uhY">
-                <rect key="frame" x="0.0" y="0.0" width="473" height="511"/>
+                <rect key="frame" x="0.0" y="0.0" width="558" height="574"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="soD-ww-bFa">
-                        <rect key="frame" x="10" y="25" width="453" height="481"/>
+                        <rect key="frame" x="10" y="29" width="538" height="520"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="gJp-Cb-7gc">
-                                <rect key="frame" x="10" y="10" width="433" height="461"/>
+                                <rect key="frame" x="10" y="10" width="518" height="500"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="※ [4~8]다음 대화를 잘듣고 이어질 수있는 말을 고르십시오.(각2점)" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="POU-h9-wtT">
-                                        <rect key="frame" x="0.0" y="0.0" width="433" height="60"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="518" height="60"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="60" id="ZfL-Ja-YSb"/>
                                         </constraints>
@@ -33,14 +33,14 @@
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" textAlignment="justified" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MrL-Ac-fhp">
-                                        <rect key="frame" x="0.0" y="70" width="433" height="238.5"/>
-                                        <mutableString key="text">지난 20일 서울가정법원 소년 법정에서 열린 재판의 결과가 뒤늦게 알려져 화제이다. 박 모 양(16)은 친구들과 함께 오토바이를 훔쳐 달아난 혐의로 법정에 섰다. 재판장인 김 모(47) 판사는 처벌 대신 불처분 결정을 내리면서, 박 양에게 앞에 나와 큰 소리로 “나는 소중한 사람이다.”라고 외치게 하였다. 작년 초까지만 해도 박 양은 간호사를 꿈꾸던 활발한 여고생이었다. 그러나 교통사고로 아버지가 갑작스럽게 사망한 뒤 박 양은 비행 청소년들과 어울리면서 범행을 저지르기 시작하였다. 박 양은 이미 작년 가을 한 차례 소년 법정에 서기도 하였다. 김 판사는 박 양에게 자기를 사랑하는 마음을 되찾아 주려고 이와 같은 결정을 내렸다고 밝혔다.\n50.이 글의 내용과 같은 것을 고르십시오.</mutableString>
+                                        <rect key="frame" x="0.0" y="70" width="518" height="277.5"/>
+                                        <string key="text">지난 20일 서울가정법원 소년 법정에서 열린 재판의 결과가 뒤늦게 알려져 화제이다. 박 모 양(16)은 친구들과 함께 오토바이를 훔쳐 달아난 혐의로 법정에 섰다. 재판장인 김 모(47) 판사는 처벌 대신 불처분 결정을 내리면서, 박 양에게 앞에 나와 큰 소리로 “나는 소중한 사람이다.”라고 외치게 하였다. 작년 초까지만 해도 박 양은 간호사를 꿈꾸던 활발한 여고생이었다. 그러나 교통사고로 아버지가 갑작스럽게 사망한 뒤 박 양은 비행 청소년들과 어울리면서 범행을 저지르기 시작하였다. 박 양은 이미 작년 가을 한 차례 소년 법정에 서기도 하였다. 김 판사는 박 양에게 자기를 사랑하는 마음을 되찾아 주려고 이와 같은 결정을 내렸다고 밝혔다.\n50.이 글의 내용과 같은 것을 고르십시오.</string>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="naQ-K2-nzY">
-                                        <rect key="frame" x="0.0" y="318.5" width="433" height="142.5"/>
+                                        <rect key="frame" x="0.0" y="357.5" width="518" height="142.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="①  학교 홈페이지에 있던데요." lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uyh-xP-7Zh">
                                                 <rect key="frame" x="0.0" y="0.0" width="199.5" height="20.5"/>
@@ -105,7 +105,7 @@
                     <constraint firstItem="NLD-4P-i6F" firstAttribute="bottom" secondItem="soD-ww-bFa" secondAttribute="bottom" constant="5" id="bSb-rm-XA5"/>
                 </constraints>
             </collectionViewCellContentView>
-            <size key="customSize" width="473" height="514"/>
+            <size key="customSize" width="558" height="577"/>
             <connections>
                 <outlet property="option1" destination="Uyh-xP-7Zh" id="oW1-RO-oBx"/>
                 <outlet property="option2" destination="Ej8-Aa-q6M" id="MxH-hU-x5z"/>
@@ -115,7 +115,7 @@
                 <outlet property="questionLabel" destination="MrL-Ac-fhp" id="jYm-ZL-mjl"/>
                 <outlet property="sectionLabel" destination="POU-h9-wtT" id="ywN-mN-J4i"/>
             </connections>
-            <point key="canvasLocation" x="212" y="45.42728635682159"/>
+            <point key="canvasLocation" x="236.62790697674419" y="58.866279069767437"/>
         </collectionViewCell>
     </objects>
 </document>

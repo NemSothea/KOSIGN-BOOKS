@@ -8,7 +8,11 @@
 import Foundation
 import AppIntents
 struct OrderAppShortcuts: AppShortcutsProvider {
+    
     @available(iOS 16, *)
+    static var shortcutTileColor: ShortcutTileColor = .lime
+    
+    @available(iOS 16.0, *)
     static var appShortcuts: [AppShortcut] {
     
         AppShortcut(
@@ -23,8 +27,7 @@ struct OrderAppShortcuts: AppShortcutsProvider {
       
     }
     
-    @available(iOS 16.0, *)
-    static var shortcutTileColor: ShortcutTileColor = .blue
+
     
    
 }

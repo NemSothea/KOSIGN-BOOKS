@@ -10,7 +10,10 @@ import SwiftUI
 
 @main
 struct TopikWidgetBundle: WidgetBundle {
+    
+    @WidgetBundleBuilder
     var body: some Widget {
-        TopikWidget()
+        ReadingWidget()
     }
+    
 }

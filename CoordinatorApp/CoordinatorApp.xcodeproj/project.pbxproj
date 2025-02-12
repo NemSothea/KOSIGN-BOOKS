@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -212,7 +212,6 @@
 		5C3A174F2B94494900FAADE6 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C3A174E2B94494900FAADE6 /* WidgetKit.framework */; };
 		5C3A17512B94494900FAADE6 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C3A17502B94494900FAADE6 /* SwiftUI.framework */; };
 		5C3A17542B94494900FAADE6 /* TopikWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3A17532B94494900FAADE6 /* TopikWidgetBundle.swift */; };
-		5C3A17582B94494900FAADE6 /* TopikWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3A17572B94494900FAADE6 /* TopikWidget.swift */; };
 		5C3A175A2B94494900FAADE6 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3A17592B94494900FAADE6 /* AppIntent.swift */; };
 		5C3A175C2B94494A00FAADE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C3A175B2B94494A00FAADE6 /* Assets.xcassets */; };
 		5C3A17602B94494A00FAADE6 /* TopikWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5C3A174C2B94494900FAADE6 /* TopikWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -274,7 +273,29 @@
 		5C91BF942B4FEEE90051B3A5 /* Listening64th.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5C91BF932B4FEEE90051B3A5 /* Listening64th.mp3 */; };
 		5C9B465F2B3FBEE600610BCD /* ResultCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9B465D2B3FBEE600610BCD /* ResultCollectionViewCell.swift */; };
 		5C9B46602B3FBEE600610BCD /* ResultCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C9B465E2B3FBEE600610BCD /* ResultCollectionViewCell.xib */; };
+		5CA4D2122D5B3F9800377287 /* ReadingWidgetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCEE5172D55BC5C001E4BAB /* ReadingWidgetModel.swift */; };
+		5CA4D2142D5B406400377287 /* ReadingWidgetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCEE4E92D55AED5001E4BAB /* ReadingWidgetViewModel.swift */; };
+		5CA4D2152D5B407E00377287 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCEE4E42D55A851001E4BAB /* UserDefaults.swift */; };
+		5CA4D2162D5B57E600377287 /* ReadingWidgetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCEE5172D55BC5C001E4BAB /* ReadingWidgetModel.swift */; };
 		5CB4CE0B2B61652400C503A4 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CB4CE0A2B61652400C503A4 /* UIView.swift */; };
+		5CCEE4E52D55A851001E4BAB /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCEE4E42D55A851001E4BAB /* UserDefaults.swift */; };
+		5CCEE4E62D55A851001E4BAB /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCEE4E42D55A851001E4BAB /* UserDefaults.swift */; };
+		5CCEE4EA2D55AED5001E4BAB /* ReadingWidgetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCEE4E92D55AED5001E4BAB /* ReadingWidgetViewModel.swift */; };
+		5CCEE4EC2D55B415001E4BAB /* WidgetIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 5CCEE4EB2D55B415001E4BAB /* WidgetIntents.intentdefinition */; };
+		5CCEE4F32D55B6F2001E4BAB /* Intents.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CCEE4F22D55B6F2001E4BAB /* Intents.framework */; };
+		5CCEE50B2D55B6F3001E4BAB /* CustomIntentHandler.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5CCEE4F12D55B6F2001E4BAB /* CustomIntentHandler.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		5CCEE5142D55B758001E4BAB /* WidgetIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 5CCEE4EB2D55B415001E4BAB /* WidgetIntents.intentdefinition */; };
+		5CCEE5182D55BC5C001E4BAB /* ReadingWidgetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCEE5172D55BC5C001E4BAB /* ReadingWidgetModel.swift */; };
+		5CCEE51A2D55BCB8001E4BAB /* ReadingEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCEE5192D55BCB8001E4BAB /* ReadingEntry.swift */; };
+		5CCEE51C2D55BF77001E4BAB /* ReadingWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCEE51B2D55BF77001E4BAB /* ReadingWidget.swift */; };
+		5CCEE51E2D55C3E2001E4BAB /* ReadingProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCEE51D2D55C3E2001E4BAB /* ReadingProvider.swift */; };
+		5CCEE5202D55CD17001E4BAB /* ReadingWidgetEntryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCEE51F2D55CD17001E4BAB /* ReadingWidgetEntryView.swift */; };
+		5CCEE5222D55CEA9001E4BAB /* HOST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCEE5212D55CEA9001E4BAB /* HOST.swift */; };
+		5CCEE5252D55DA79001E4BAB /* HelperWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCEE5232D55DA79001E4BAB /* HelperWidget.swift */; };
+		5CCEE5262D55DA79001E4BAB /* HelperWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCEE5232D55DA79001E4BAB /* HelperWidget.swift */; };
+		5CCEE5292D55F2B4001E4BAB /* WidgetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCEE5282D55F2B4001E4BAB /* WidgetType.swift */; };
+		5CCEE52A2D55F2B4001E4BAB /* WidgetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCEE5282D55F2B4001E4BAB /* WidgetType.swift */; };
+		5CCEE52B2D55F2B4001E4BAB /* WidgetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCEE5282D55F2B4001E4BAB /* WidgetType.swift */; };
 		5CDA56212B4ABDF50052E9BF /* Listening64.json in Resources */ = {isa = PBXBuildFile; fileRef = 5C7077D82B49849600394C56 /* Listening64.json */; };
 		5CDA56222B4ABE0B0052E9BF /* 64_9_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C7077CC2B49849600394C56 /* 64_9_img.png */; };
 		5CDA56232B4ABE0D0052E9BF /* 64_8_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C7077CD2B49849600394C56 /* 64_8_img.png */; };
@@ -295,6 +316,13 @@
 			remoteGlobalIDString = 5C3A174B2B94494900FAADE6;
 			remoteInfo = TopikWidgetExtension;
 		};
+		5CCEE5092D55B6F3001E4BAB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55A99C5E29937D9F00AD4FA6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5CCEE4F02D55B6F2001E4BAB;
+			remoteInfo = CustomIntentHandler;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -304,6 +332,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
+				5CCEE50B2D55B6F3001E4BAB /* CustomIntentHandler.appex in Embed Foundation Extensions */,
 				5C3A17602B94494A00FAADE6 /* TopikWidgetExtension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
@@ -518,7 +547,6 @@
 		5C3A174E2B94494900FAADE6 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		5C3A17502B94494900FAADE6 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		5C3A17532B94494900FAADE6 /* TopikWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopikWidgetBundle.swift; sourceTree = "<group>"; };
-		5C3A17572B94494900FAADE6 /* TopikWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopikWidget.swift; sourceTree = "<group>"; };
 		5C3A17592B94494900FAADE6 /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
 		5C3A175B2B94494A00FAADE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C3A175D2B94494A00FAADE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -590,8 +618,45 @@
 		5C91BF932B4FEEE90051B3A5 /* Listening64th.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Listening64th.mp3; sourceTree = "<group>"; };
 		5C9B465D2B3FBEE600610BCD /* ResultCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultCollectionViewCell.swift; sourceTree = "<group>"; };
 		5C9B465E2B3FBEE600610BCD /* ResultCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultCollectionViewCell.xib; sourceTree = "<group>"; };
+		5CA4D2132D5B3FDE00377287 /* TopikWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TopikWidgetExtension.entitlements; sourceTree = "<group>"; };
 		5CB4CE0A2B61652400C503A4 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		5CCEE4E02D55A6A6001E4BAB /* CoordinatorApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CoordinatorApp.entitlements; sourceTree = "<group>"; };
+		5CCEE4E42D55A851001E4BAB /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		5CCEE4E92D55AED5001E4BAB /* ReadingWidgetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingWidgetViewModel.swift; sourceTree = "<group>"; };
+		5CCEE4EB2D55B415001E4BAB /* WidgetIntents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = WidgetIntents.intentdefinition; sourceTree = "<group>"; };
+		5CCEE4F12D55B6F2001E4BAB /* CustomIntentHandler.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CustomIntentHandler.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CCEE4F22D55B6F2001E4BAB /* Intents.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Intents.framework; path = System/Library/Frameworks/Intents.framework; sourceTree = SDKROOT; };
+		5CCEE4FD2D55B6F3001E4BAB /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		5CCEE5172D55BC5C001E4BAB /* ReadingWidgetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingWidgetModel.swift; sourceTree = "<group>"; };
+		5CCEE5192D55BCB8001E4BAB /* ReadingEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingEntry.swift; sourceTree = "<group>"; };
+		5CCEE51B2D55BF77001E4BAB /* ReadingWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingWidget.swift; sourceTree = "<group>"; };
+		5CCEE51D2D55C3E2001E4BAB /* ReadingProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingProvider.swift; sourceTree = "<group>"; };
+		5CCEE51F2D55CD17001E4BAB /* ReadingWidgetEntryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingWidgetEntryView.swift; sourceTree = "<group>"; };
+		5CCEE5212D55CEA9001E4BAB /* HOST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HOST.swift; sourceTree = "<group>"; };
+		5CCEE5232D55DA79001E4BAB /* HelperWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperWidget.swift; sourceTree = "<group>"; };
+		5CCEE5282D55F2B4001E4BAB /* WidgetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetType.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		5CCEE50C2D55B6F3001E4BAB /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 5CCEE4F02D55B6F2001E4BAB /* CustomIntentHandler */;
+		};
+		5CCEE5162D55B799001E4BAB /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				IntentHandler.swift,
+			);
+			target = 5C3A174B2B94494900FAADE6 /* TopikWidgetExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		5CCEE4F42D55B6F2001E4BAB /* CustomIntentHandler */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (5CCEE5162D55B799001E4BAB /* PBXFileSystemSynchronizedBuildFileExceptionSet */, 5CCEE50C2D55B6F3001E4BAB /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = CustomIntentHandler; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		55A99C6329937D9F00AD4FA6 /* Frameworks */ = {
@@ -607,6 +672,14 @@
 			files = (
 				5C3A17512B94494900FAADE6 /* SwiftUI.framework in Frameworks */,
 				5C3A174F2B94494900FAADE6 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CCEE4EE2D55B6F2001E4BAB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CCEE4F32D55B6F2001E4BAB /* Intents.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -881,9 +954,11 @@
 		55A99C5D29937D9F00AD4FA6 = {
 			isa = PBXGroup;
 			children = (
+				5CA4D2132D5B3FDE00377287 /* TopikWidgetExtension.entitlements */,
 				5590500829947E5700FE3F0D /* README.md */,
 				55A99C6829937D9F00AD4FA6 /* CoordinatorApp */,
 				5C3A17522B94494900FAADE6 /* TopikWidget */,
+				5CCEE4F42D55B6F2001E4BAB /* CustomIntentHandler */,
 				5C3A174D2B94494900FAADE6 /* Frameworks */,
 				55A99C6729937D9F00AD4FA6 /* Products */,
 			);
@@ -894,6 +969,7 @@
 			children = (
 				55A99C6629937D9F00AD4FA6 /* CoordinatorApp.app */,
 				5C3A174C2B94494900FAADE6 /* TopikWidgetExtension.appex */,
+				5CCEE4F12D55B6F2001E4BAB /* CustomIntentHandler.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -901,6 +977,7 @@
 		55A99C6829937D9F00AD4FA6 /* CoordinatorApp */ = {
 			isa = PBXGroup;
 			children = (
+				5CCEE4E02D55A6A6001E4BAB /* CoordinatorApp.entitlements */,
 				55E1203529B015AE009BEFBC /* Helper */,
 				55591B052999C11500023195 /* ViewModel */,
 				55591B012999BD5700023195 /* Model */,
@@ -987,6 +1064,7 @@
 				55E1207129B015AE009BEFBC /* 25th */,
 				55E1203629B015AE009BEFBC /* 24th */,
 				5C1121EB2B367DF200B98F11 /* Share.swift */,
+				5CCEE5212D55CEA9001E4BAB /* HOST.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -1163,6 +1241,8 @@
 			children = (
 				5C3A174E2B94494900FAADE6 /* WidgetKit.framework */,
 				5C3A17502B94494900FAADE6 /* SwiftUI.framework */,
+				5CCEE4F22D55B6F2001E4BAB /* Intents.framework */,
+				5CCEE4FD2D55B6F3001E4BAB /* IntentsUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1170,12 +1250,15 @@
 		5C3A17522B94494900FAADE6 /* TopikWidget */ = {
 			isa = PBXGroup;
 			children = (
+				5CCEE4E82D55AE8F001E4BAB /* ListeningWidget */,
+				5CCEE4E72D55AE82001E4BAB /* ReadingWidget */,
+				5CCEE4E12D55A80F001E4BAB /* Helper */,
 				5C06F8C72D54B2C500F72B1A /* AppShortCut */,
 				5C3A17532B94494900FAADE6 /* TopikWidgetBundle.swift */,
-				5C3A17572B94494900FAADE6 /* TopikWidget.swift */,
 				5C3A17592B94494900FAADE6 /* AppIntent.swift */,
 				5C3A175B2B94494A00FAADE6 /* Assets.xcassets */,
 				5C3A175D2B94494A00FAADE6 /* Info.plist */,
+				5CCEE4EB2D55B415001E4BAB /* WidgetIntents.intentdefinition */,
 			);
 			path = TopikWidget;
 			sourceTree = "<group>";
@@ -1218,6 +1301,36 @@
 			path = 83th;
 			sourceTree = "<group>";
 		};
+		5CCEE4E12D55A80F001E4BAB /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				5CCEE4E42D55A851001E4BAB /* UserDefaults.swift */,
+				5CCEE5232D55DA79001E4BAB /* HelperWidget.swift */,
+				5CCEE5282D55F2B4001E4BAB /* WidgetType.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		5CCEE4E72D55AE82001E4BAB /* ReadingWidget */ = {
+			isa = PBXGroup;
+			children = (
+				5CCEE51B2D55BF77001E4BAB /* ReadingWidget.swift */,
+				5CCEE5172D55BC5C001E4BAB /* ReadingWidgetModel.swift */,
+				5CCEE4E92D55AED5001E4BAB /* ReadingWidgetViewModel.swift */,
+				5CCEE5192D55BCB8001E4BAB /* ReadingEntry.swift */,
+				5CCEE51D2D55C3E2001E4BAB /* ReadingProvider.swift */,
+				5CCEE51F2D55CD17001E4BAB /* ReadingWidgetEntryView.swift */,
+			);
+			path = ReadingWidget;
+			sourceTree = "<group>";
+		};
+		5CCEE4E82D55AE8F001E4BAB /* ListeningWidget */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ListeningWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1234,6 +1347,7 @@
 			);
 			dependencies = (
 				5C3A175F2B94494A00FAADE6 /* PBXTargetDependency */,
+				5CCEE50A2D55B6F3001E4BAB /* PBXTargetDependency */,
 			);
 			name = CoordinatorApp;
 			packageProductDependencies = (
@@ -1259,6 +1373,28 @@
 			productReference = 5C3A174C2B94494900FAADE6 /* TopikWidgetExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
+		5CCEE4F02D55B6F2001E4BAB /* CustomIntentHandler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CCEE50D2D55B6F3001E4BAB /* Build configuration list for PBXNativeTarget "CustomIntentHandler" */;
+			buildPhases = (
+				5CCEE4ED2D55B6F2001E4BAB /* Sources */,
+				5CCEE4EE2D55B6F2001E4BAB /* Frameworks */,
+				5CCEE4EF2D55B6F2001E4BAB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				5CCEE4F42D55B6F2001E4BAB /* CustomIntentHandler */,
+			);
+			name = CustomIntentHandler;
+			packageProductDependencies = (
+			);
+			productName = CustomIntentHandler;
+			productReference = 5CCEE4F12D55B6F2001E4BAB /* CustomIntentHandler.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1266,7 +1402,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1500;
+				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
 					55A99C6529937D9F00AD4FA6 = {
@@ -1274,6 +1410,9 @@
 					};
 					5C3A174B2B94494900FAADE6 = {
 						CreatedOnToolsVersion = 15.0.1;
+					};
+					5CCEE4F02D55B6F2001E4BAB = {
+						CreatedOnToolsVersion = 16.2;
 					};
 				};
 			};
@@ -1294,6 +1433,7 @@
 			targets = (
 				55A99C6529937D9F00AD4FA6 /* CoordinatorApp */,
 				5C3A174B2B94494900FAADE6 /* TopikWidgetExtension */,
+				5CCEE4F02D55B6F2001E4BAB /* CustomIntentHandler */,
 			);
 		};
 /* End PBXProject section */
@@ -1552,6 +1692,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		5CCEE4EF2D55B6F2001E4BAB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -1563,6 +1710,8 @@
 				55591B15299A07CF00023195 /* ResultVC.swift in Sources */,
 				55A99C8229938B1100AD4FA6 /* Coordinator.swift in Sources */,
 				5C06F8CC2D54B3CC00F72B1A /* CoordinatorShortcuts.swift in Sources */,
+				5CCEE5222D55CEA9001E4BAB /* HOST.swift in Sources */,
+				5CCEE4E62D55A851001E4BAB /* UserDefaults.swift in Sources */,
 				559050162994C81A00FE3F0D /* BookmarkCoordinator.swift in Sources */,
 				5CB4CE0B2B61652400C503A4 /* UIView.swift in Sources */,
 				55BBF3AF2995D18F00A7E991 /* BookMarkTabVC.swift in Sources */,
@@ -1580,6 +1729,7 @@
 				553AF9DE299F6EE4006C6EC0 /* ListeningViewModel.swift in Sources */,
 				55591B11299A071A00023195 /* ReadingQuestionVC.swift in Sources */,
 				553B24C129A5B51500F4ED4A /* PopupCell.swift in Sources */,
+				5CCEE52A2D55F2B4001E4BAB /* WidgetType.swift in Sources */,
 				5590500D29948CB800FE3F0D /* StoryBoarded.swift in Sources */,
 				5C06F8CA2D54B2F100F72B1A /* DefaultIntent.swift in Sources */,
 				55450206299C6090000B48B6 /* QuestionViewModel.swift in Sources */,
@@ -1588,6 +1738,7 @@
 				5C9B465F2B3FBEE600610BCD /* ResultCollectionViewCell.swift in Sources */,
 				55BBF3B129962C4000A7E991 /* FavoriteCoordinator.swift in Sources */,
 				55A99C6C29937D9F00AD4FA6 /* SceneDelegate.swift in Sources */,
+				5CA4D2162D5B57E600377287 /* ReadingWidgetModel.swift in Sources */,
 				55A6977E2A79F50400302BF1 /* Helper.swift in Sources */,
 				5C22F7FF2B5CA224009E96FF /* FooterSectionReadingCell.swift in Sources */,
 			);
@@ -1597,11 +1748,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CCEE51C2D55BF77001E4BAB /* ReadingWidget.swift in Sources */,
+				5CCEE4EC2D55B415001E4BAB /* WidgetIntents.intentdefinition in Sources */,
+				5CCEE5292D55F2B4001E4BAB /* WidgetType.swift in Sources */,
+				5CCEE5202D55CD17001E4BAB /* ReadingWidgetEntryView.swift in Sources */,
+				5CCEE5182D55BC5C001E4BAB /* ReadingWidgetModel.swift in Sources */,
 				5C06F8C92D54B2F100F72B1A /* DefaultIntent.swift in Sources */,
 				5C06F8CD2D54B3CC00F72B1A /* CoordinatorShortcuts.swift in Sources */,
+				5CCEE51E2D55C3E2001E4BAB /* ReadingProvider.swift in Sources */,
+				5CCEE4E52D55A851001E4BAB /* UserDefaults.swift in Sources */,
+				5CCEE5252D55DA79001E4BAB /* HelperWidget.swift in Sources */,
+				5CCEE4EA2D55AED5001E4BAB /* ReadingWidgetViewModel.swift in Sources */,
 				5C3A175A2B94494900FAADE6 /* AppIntent.swift in Sources */,
 				5C3A17542B94494900FAADE6 /* TopikWidgetBundle.swift in Sources */,
-				5C3A17582B94494900FAADE6 /* TopikWidget.swift in Sources */,
+				5CCEE51A2D55BCB8001E4BAB /* ReadingEntry.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5CCEE4ED2D55B6F2001E4BAB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CCEE5142D55B758001E4BAB /* WidgetIntents.intentdefinition in Sources */,
+				5CCEE52B2D55F2B4001E4BAB /* WidgetType.swift in Sources */,
+				5CA4D2122D5B3F9800377287 /* ReadingWidgetModel.swift in Sources */,
+				5CA4D2142D5B406400377287 /* ReadingWidgetViewModel.swift in Sources */,
+				5CA4D2152D5B407E00377287 /* UserDefaults.swift in Sources */,
+				5CCEE5262D55DA79001E4BAB /* HelperWidget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1612,6 +1785,11 @@
 			isa = PBXTargetDependency;
 			target = 5C3A174B2B94494900FAADE6 /* TopikWidgetExtension */;
 			targetProxy = 5C3A175E2B94494A00FAADE6 /* PBXContainerItemProxy */;
+		};
+		5CCEE50A2D55B6F3001E4BAB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5CCEE4F02D55B6F2001E4BAB /* CustomIntentHandler */;
+			targetProxy = 5CCEE5092D55B6F3001E4BAB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1752,9 +1930,9 @@
 		55A99C7B29937DA100AD4FA6 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CoordinatorApp/CoordinatorApp.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1.0.0;
@@ -1767,7 +1945,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1785,9 +1963,9 @@
 		55A99C7C29937DA100AD4FA6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CoordinatorApp/CoordinatorApp.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1.0.0;
@@ -1800,7 +1978,7 @@
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1821,6 +1999,7 @@
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = TopikWidgetExtension.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1855,6 +2034,7 @@
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = TopikWidgetExtension.entitlements;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1874,6 +2054,71 @@
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kosignbook.CoordinatorApp.TopikWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5CCEE50E2D55B6F3001E4BAB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_ENTITLEMENTS = CustomIntentHandler/CustomIntentHandler.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 62EMNW6G6D;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CustomIntentHandler/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CustomIntentHandler;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kosignbook.CoordinatorApp.CustomIntentHandler;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5CCEE50F2D55B6F3001E4BAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_ENTITLEMENTS = CustomIntentHandler/CustomIntentHandler.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 62EMNW6G6D;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CustomIntentHandler/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CustomIntentHandler;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kosignbook.CoordinatorApp.CustomIntentHandler;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -1908,6 +2153,15 @@
 			buildConfigurations = (
 				5C3A17622B94494B00FAADE6 /* Debug */,
 				5C3A17632B94494B00FAADE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CCEE50D2D55B6F3001E4BAB /* Build configuration list for PBXNativeTarget "CustomIntentHandler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CCEE50E2D55B6F3001E4BAB /* Debug */,
+				5CCEE50F2D55B6F3001E4BAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
