@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SwiftUI
 
 class ReadingQuestionVC: UIViewController {
     
@@ -165,12 +166,16 @@ class ReadingQuestionVC: UIViewController {
            
             self.collectionView.scrollToItem(at: IndexPath(row: index, section: 0), at: .right, animated: true)
         }else {
-            guard let resultVC = storyboard?.instantiateViewController(withIdentifier: "ResultVC") as? ResultVC else {return}
-            resultVC.result          = ["\(resultTopik().0)","\(resultTopik().1)","\(resultTopik().2)"]
-            resultVC.wrongAnswerArray = wrongAnswerArray.removingDuplicates()
+//            guard let resultVC = storyboard?.instantiateViewController(withIdentifier: "ResultVC") as? ResultVC else {return}
+//            resultVC.result          = ["\(resultTopik().0)","\(resultTopik().1)","\(resultTopik().2)"]
+//            resultVC.wrongAnswerArray = wrongAnswerArray.removingDuplicates()
+//            
+//            resultVC.modalPresentationStyle = .fullScreen
+//            self.present(resultVC, animated: true)
             
-            resultVC.modalPresentationStyle = .fullScreen
-            self.present(resultVC, animated: true)
+            let resultView = UIHostingController(rootView: ResultView(result: ["\(resultTopik().0)","\(resultTopik().1)","\(resultTopik().2)"], wrongAnswerArray: wrongAnswerArray.removingDuplicates()))
+            
+            self.present(resultView, animated: true)
         }
     }
     func resultTopik() -> (String,String,String) {

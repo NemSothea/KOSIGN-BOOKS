@@ -82,6 +82,8 @@ class FooterSectionReadingCell: UICollectionViewCell {
         changeBorder(selectedOption: .optionD)
     }
     
+    /// Description : changeBorder
+    /// - Parameter selectedOption: optionA will have white border round
     func changeBorder(selectedOption : SelectionOption) {
         switch selectedOption {
         case .optionA :
@@ -106,6 +108,7 @@ class FooterSectionReadingCell: UICollectionViewCell {
             self.updateBorder(myView: optionC)
         }
     }
+    /// Description : setUpFont
     private func setUpFont() {
         
         let fontSize = Share.shared.setFontSize()

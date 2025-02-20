@@ -23,22 +23,22 @@ struct ReadingWidgetEntryView: View {
             
         case .systemSmall:
             VStack(alignment: .leading, spacing: 0) {
-                ReadingView(items: entry.items)
+                ReadingSystemSmallView(items: entry.items)
             }
             .widgetBackground(Color.clear)
         case .systemMedium:
             VStack(alignment: .leading, spacing: 0) {
-                ReadingView(items: entry.items)
+                ReadingSystemLargeView(items: entry.items)
             }
             .widgetBackground(Color.clear)
         case .systemLarge :
             VStack(alignment: .leading, spacing: 0) {
-                ReadingView(items: entry.items)
+                ReadingSystemLargeView(items: entry.items)
             }
             .widgetBackground(Color.clear)
         case .systemExtraLarge :
             VStack(alignment: .leading, spacing: 0) {
-                ReadingView(items: entry.items)
+                ReadingSystemLargeView(items: entry.items)
             }
             .widgetBackground(Color.clear)
         case .accessoryCircular :
@@ -52,8 +52,10 @@ struct ReadingWidgetEntryView: View {
     }
 }
 
+#warning("Build for systemSmall size only")
 @available(iOSApplicationExtension 16.0, *)
-struct ReadingView : View {
+
+struct ReadingSystemSmallView : View {
     
     @Environment(\.colorScheme) private var colorScheme
 //    var urlString : String
@@ -61,19 +63,121 @@ struct ReadingView : View {
    
     
     var body: some View {
-        VStack(alignment: .leading, spacing: 0) {
-            
-            ForEach(items.prefix(5).indices,id:\.self) { index in
-                let item = items[index]
-                HStack {
-                    Text(item.title)
-                        .font(.caption2)
-                
+        
+        HStack(spacing: 5){
+            VStack(alignment: .leading, spacing: 0) {
+                Section(content: {
+                    ForEach(items.suffix(3).indices.reversed(),id: \.self) { index in
+                        let item = items[index]
+                            HStack {
+                                Image(systemName: "smallcircle.filled.circle.fill")
+                                    .font(.footnote)
+                                    .foregroundStyle(Color.accentColor)
+                                Text("\(item.title)")
+                                    .font(.subheadline)
+                                
+                                Image(systemName: "book.closed.circle")
+                                    .font(.caption)
+                                    .foregroundStyle(Color(UIColor.random()))
+                            }
+                        Spacer(minLength: 5)
+                            Divider()
+                        }
                     
-                }
+                }, header: {
+                    Text("읽기 ")
+                        .font(.largeTitle)
+                        .fontWeight(.bold)
+                        .frame(maxWidth: .infinity, alignment: .center)
+                     
+                })
             }
-            
+
         }
+        .padding(.all,5)
+      
+     
+        
+
+//        .widgetURL(URL(string: urlString))
+        .applyForegroundStyle(colorScheme: colorScheme)
+        
+    }
+}
+
+#warning("Build for Large size only")
+@available(iOSApplicationExtension 16.0, *)
+
+struct ReadingSystemLargeView : View {
+    
+    @Environment(\.colorScheme) private var colorScheme
+//    var urlString : String
+    var items: [(topikID : String,title:String)]
+   
+    
+    var body: some View {
+        
+        HStack(spacing: 5){
+            VStack(alignment: .leading, spacing: 0) {
+                Section(content: {
+                    ForEach(items.dropFirst(10).indices.reversed(),id: \.self) { index in
+                        let item = items[index]
+                            HStack {
+                                Image(systemName: "smallcircle.filled.circle.fill")
+                                    .font(.footnote)
+                                    .foregroundStyle(Color.accentColor)
+                                Text("\(item.title)")
+                                    .font(.subheadline)
+                                
+                                Image(systemName: "book.closed.circle")
+                                    .font(.caption)
+                                    .foregroundStyle(Color(UIColor.random()))
+                            }
+                        Spacer(minLength: 5)
+                            Divider()
+                        }
+                    
+                }, header: {
+                    Text("읽기 ")
+                        .font(.largeTitle)
+                        .fontWeight(.bold)
+                     
+                })
+            }
+            Spacer()
+            VStack(alignment: .leading, spacing: 0) {
+                
+
+                Section(content: {
+                 
+                    ForEach(items.dropLast(10).indices,id: \.self) { index in
+                        let item = items[index]
+                        HStack {
+                            Image(systemName: "smallcircle.filled.circle.fill")
+                                .font(.footnote)
+                                .foregroundStyle(Color.accentColor)
+                            Text("\(item.title)")
+                                .font(.subheadline)
+                            
+                            Image(systemName: "book.closed.circle")
+                                .font(.caption)
+                                .foregroundStyle(Color(UIColor.random()))
+                        }
+                        Spacer(minLength: 5)
+                        Divider()
+                        }
+                    
+                }, header: {
+                    Text(Date.now.formatted(.dateTime.weekday(.wide)))
+                        .font(.footnote)
+                        .foregroundStyle(Color(UIColor.random()))
+                })
+                
+            }
+        }
+        .padding(.all,5)
+      
+     
         
 
 //        .widgetURL(URL(string: urlString))
@@ -116,6 +220,6 @@ struct ReadingWidgetEntryViewPreviews: PreviewProvider {
                 // Fallback on earlier versions
             }
         }
-        .previewContext(WidgetPreviewContext(family: .systemSmall))
+        .previewContext(WidgetPreviewContext(family: .systemExtraLarge))
     }
 }

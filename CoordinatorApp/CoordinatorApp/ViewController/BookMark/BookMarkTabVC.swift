@@ -36,6 +36,7 @@ class BookMarkTabVC : UIViewController, StoryBoarded {
         self.animateTable()
         
     }
+#warning("Will delete this function")
     private func readingData() {
         
     
@@ -79,7 +80,7 @@ class BookMarkTabVC : UIViewController, StoryBoarded {
             let userDefaults = UserDefaults.appGroupIdentifier
             userDefaults?.set(data, forKey: "ReadingWidgetData")
             
-            self.readingData()
+//            self.readingData()
         
             // Notify the widget to reload if needed
             DispatchQueue.main.async {

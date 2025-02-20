@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SwiftUI
 
 class ListeningQuestionVC: UIViewController {
    
@@ -184,12 +185,18 @@ class ListeningQuestionVC: UIViewController {
             /** TODO -:
              - Show final result with score, Number of question, Wrong selected
              */
-            guard let resultVC = storyboard?.instantiateViewController(withIdentifier: "ResultVC") as? ResultVC else {return}
-            resultVC.result          = ["\(resultTopik().0)","\(resultTopik().1)","\(resultTopik().2)"]
-            resultVC.wrongAnswerArray = wrongAnswerArray.removingDuplicates()
+//            guard let resultVC = storyboard?.instantiateViewController(withIdentifier: "ResultVC") as? ResultVC else {return}
+//            resultVC.result          = ["\(resultTopik().0)","\(resultTopik().1)","\(resultTopik().2)"]
+//            resultVC.wrongAnswerArray = wrongAnswerArray.removingDuplicates()
+//            self.listeningViewModel.stopAllCurrentPlay()
+//            resultVC.modalPresentationStyle = .fullScreen
+//            self.present(resultVC, animated: true)
             self.listeningViewModel.stopAllCurrentPlay()
-            resultVC.modalPresentationStyle = .fullScreen
-            self.present(resultVC, animated: true)
+            
+            let resultView = UIHostingController(rootView: ResultView(result: ["\(resultTopik().0)","\(resultTopik().1)","\(resultTopik().2)"], wrongAnswerArray: wrongAnswerArray.removingDuplicates()))
+            
+            self.present(resultView, animated: true)
+            
         }
     }
     func resultTopik() -> (String,String,String) {

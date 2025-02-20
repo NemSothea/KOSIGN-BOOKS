@@ -212,7 +212,6 @@
 		5C3A174F2B94494900FAADE6 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C3A174E2B94494900FAADE6 /* WidgetKit.framework */; };
 		5C3A17512B94494900FAADE6 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C3A17502B94494900FAADE6 /* SwiftUI.framework */; };
 		5C3A17542B94494900FAADE6 /* TopikWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3A17532B94494900FAADE6 /* TopikWidgetBundle.swift */; };
-		5C3A175A2B94494900FAADE6 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C3A17592B94494900FAADE6 /* AppIntent.swift */; };
 		5C3A175C2B94494A00FAADE6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C3A175B2B94494A00FAADE6 /* Assets.xcassets */; };
 		5C3A17602B94494A00FAADE6 /* TopikWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 5C3A174C2B94494900FAADE6 /* TopikWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		5C6E50A52B3702A400D84F4D /* 29_4_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C6E509F2B3702A400D84F4D /* 29_4_img.png */; };
@@ -273,6 +272,7 @@
 		5C91BF942B4FEEE90051B3A5 /* Listening64th.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 5C91BF932B4FEEE90051B3A5 /* Listening64th.mp3 */; };
 		5C9B465F2B3FBEE600610BCD /* ResultCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9B465D2B3FBEE600610BCD /* ResultCollectionViewCell.swift */; };
 		5C9B46602B3FBEE600610BCD /* ResultCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C9B465E2B3FBEE600610BCD /* ResultCollectionViewCell.xib */; };
+		5CA019542D6702E6001AA495 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA019532D6702DE001AA495 /* ResultView.swift */; };
 		5CA4D2122D5B3F9800377287 /* ReadingWidgetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCEE5172D55BC5C001E4BAB /* ReadingWidgetModel.swift */; };
 		5CA4D2142D5B406400377287 /* ReadingWidgetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCEE4E92D55AED5001E4BAB /* ReadingWidgetViewModel.swift */; };
 		5CA4D2152D5B407E00377287 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCEE4E42D55A851001E4BAB /* UserDefaults.swift */; };
@@ -306,6 +306,10 @@
 		5CDA56282B4ABE160052E9BF /* 64_6_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C7077D32B49849600394C56 /* 64_6_img.png */; };
 		5CDA56292B4ABE180052E9BF /* 64_10_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C7077D52B49849600394C56 /* 64_10_img.png */; };
 		5CDA562A2B4ABE1A0052E9BF /* 64_5_img.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C7077D62B49849600394C56 /* 64_5_img.png */; };
+		5CEF93762D5C95B50001AE9D /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEF93752D5C95B50001AE9D /* Color.swift */; };
+		5CEF93772D5C95D40001AE9D /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEF93752D5C95B50001AE9D /* Color.swift */; };
+		5CEF93782D5C95D40001AE9D /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEF93752D5C95B50001AE9D /* Color.swift */; };
+		5CEF93812D5CAF400001AE9D /* ReadingQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEF93802D5CAF320001AE9D /* ReadingQuestionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -547,7 +551,6 @@
 		5C3A174E2B94494900FAADE6 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		5C3A17502B94494900FAADE6 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
 		5C3A17532B94494900FAADE6 /* TopikWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopikWidgetBundle.swift; sourceTree = "<group>"; };
-		5C3A17592B94494900FAADE6 /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
 		5C3A175B2B94494A00FAADE6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5C3A175D2B94494A00FAADE6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C6E509F2B3702A400D84F4D /* 29_4_img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 29_4_img.png; sourceTree = "<group>"; };
@@ -618,6 +621,7 @@
 		5C91BF932B4FEEE90051B3A5 /* Listening64th.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Listening64th.mp3; sourceTree = "<group>"; };
 		5C9B465D2B3FBEE600610BCD /* ResultCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultCollectionViewCell.swift; sourceTree = "<group>"; };
 		5C9B465E2B3FBEE600610BCD /* ResultCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultCollectionViewCell.xib; sourceTree = "<group>"; };
+		5CA019532D6702DE001AA495 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
 		5CA4D2132D5B3FDE00377287 /* TopikWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TopikWidgetExtension.entitlements; sourceTree = "<group>"; };
 		5CB4CE0A2B61652400C503A4 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		5CCEE4E02D55A6A6001E4BAB /* CoordinatorApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CoordinatorApp.entitlements; sourceTree = "<group>"; };
@@ -635,6 +639,8 @@
 		5CCEE5212D55CEA9001E4BAB /* HOST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HOST.swift; sourceTree = "<group>"; };
 		5CCEE5232D55DA79001E4BAB /* HelperWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperWidget.swift; sourceTree = "<group>"; };
 		5CCEE5282D55F2B4001E4BAB /* WidgetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetType.swift; sourceTree = "<group>"; };
+		5CEF93752D5C95B50001AE9D /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		5CEF93802D5CAF320001AE9D /* ReadingQuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingQuestionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -887,6 +893,7 @@
 		55591B0F299A06DC00023195 /* Questions */ = {
 			isa = PBXGroup;
 			children = (
+				5CEF937F2D5CAF230001AE9D /* ReadingView */,
 				55E64E6C299B7A55004481E3 /* ReadingQuestionCell */,
 				55591B10299A071A00023195 /* ReadingQuestionVC.swift */,
 				55484BB129A4A552005DBE68 /* ListeningQuestionVC.swift */,
@@ -897,6 +904,7 @@
 		55591B12299A079400023195 /* Result */ = {
 			isa = PBXGroup;
 			children = (
+				5CA019532D6702DE001AA495 /* ResultView.swift */,
 				55591B14299A07CF00023195 /* ResultVC.swift */,
 				5C9B465D2B3FBEE600610BCD /* ResultCollectionViewCell.swift */,
 				5C9B465E2B3FBEE600610BCD /* ResultCollectionViewCell.xib */,
@@ -1038,6 +1046,7 @@
 		55E1203529B015AE009BEFBC /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				5CEF93752D5C95B50001AE9D /* Color.swift */,
 				55DBF21E29DA5DDE00906A8D /* 1HoonDdukbokki Regular.ttf */,
 				55DBF22029DA631E00906A8D /* BareunBatangOTF 1Light.otf */,
 				5C7077E32B49A90C00394C56 /* 83th */,
@@ -1255,7 +1264,6 @@
 				5CCEE4E12D55A80F001E4BAB /* Helper */,
 				5C06F8C72D54B2C500F72B1A /* AppShortCut */,
 				5C3A17532B94494900FAADE6 /* TopikWidgetBundle.swift */,
-				5C3A17592B94494900FAADE6 /* AppIntent.swift */,
 				5C3A175B2B94494A00FAADE6 /* Assets.xcassets */,
 				5C3A175D2B94494A00FAADE6 /* Info.plist */,
 				5CCEE4EB2D55B415001E4BAB /* WidgetIntents.intentdefinition */,
@@ -1329,6 +1337,14 @@
 			children = (
 			);
 			path = ListeningWidget;
+			sourceTree = "<group>";
+		};
+		5CEF937F2D5CAF230001AE9D /* ReadingView */ = {
+			isa = PBXGroup;
+			children = (
+				5CEF93802D5CAF320001AE9D /* ReadingQuestionView.swift */,
+			);
+			path = ReadingView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1709,6 +1725,7 @@
 				55591B042999BDCE00023195 /* Reading24QuestionModel.swift in Sources */,
 				55591B15299A07CF00023195 /* ResultVC.swift in Sources */,
 				55A99C8229938B1100AD4FA6 /* Coordinator.swift in Sources */,
+				5CA019542D6702E6001AA495 /* ResultView.swift in Sources */,
 				5C06F8CC2D54B3CC00F72B1A /* CoordinatorShortcuts.swift in Sources */,
 				5CCEE5222D55CEA9001E4BAB /* HOST.swift in Sources */,
 				5CCEE4E62D55A851001E4BAB /* UserDefaults.swift in Sources */,
@@ -1721,6 +1738,7 @@
 				55BBF3B329962D4A00A7E991 /* FavoriteTabVC.swift in Sources */,
 				559050122994B66F00FE3F0D /* TabBarCoordinator.swift in Sources */,
 				55591B0C2999F8F600023195 /* BookMarkTabTableViewCell.swift in Sources */,
+				5CEF93812D5CAF400001AE9D /* ReadingQuestionView.swift in Sources */,
 				55484BB229A4A552005DBE68 /* ListeningQuestionVC.swift in Sources */,
 				55A99C6A29937D9F00AD4FA6 /* AppDelegate.swift in Sources */,
 				55E120BC29B015AE009BEFBC /* Bundle.swift in Sources */,
@@ -1731,6 +1749,7 @@
 				553B24C129A5B51500F4ED4A /* PopupCell.swift in Sources */,
 				5CCEE52A2D55F2B4001E4BAB /* WidgetType.swift in Sources */,
 				5590500D29948CB800FE3F0D /* StoryBoarded.swift in Sources */,
+				5CEF93762D5C95B50001AE9D /* Color.swift in Sources */,
 				5C06F8CA2D54B2F100F72B1A /* DefaultIntent.swift in Sources */,
 				55450206299C6090000B48B6 /* QuestionViewModel.swift in Sources */,
 				55E64E6E299B7A7D004481E3 /* ReadingQuestionCollectionViewCell.swift in Sources */,
@@ -1755,11 +1774,11 @@
 				5CCEE5182D55BC5C001E4BAB /* ReadingWidgetModel.swift in Sources */,
 				5C06F8C92D54B2F100F72B1A /* DefaultIntent.swift in Sources */,
 				5C06F8CD2D54B3CC00F72B1A /* CoordinatorShortcuts.swift in Sources */,
+				5CEF93772D5C95D40001AE9D /* Color.swift in Sources */,
 				5CCEE51E2D55C3E2001E4BAB /* ReadingProvider.swift in Sources */,
 				5CCEE4E52D55A851001E4BAB /* UserDefaults.swift in Sources */,
 				5CCEE5252D55DA79001E4BAB /* HelperWidget.swift in Sources */,
 				5CCEE4EA2D55AED5001E4BAB /* ReadingWidgetViewModel.swift in Sources */,
-				5C3A175A2B94494900FAADE6 /* AppIntent.swift in Sources */,
 				5C3A17542B94494900FAADE6 /* TopikWidgetBundle.swift in Sources */,
 				5CCEE51A2D55BCB8001E4BAB /* ReadingEntry.swift in Sources */,
 			);
@@ -1773,6 +1792,7 @@
 				5CCEE52B2D55F2B4001E4BAB /* WidgetType.swift in Sources */,
 				5CA4D2122D5B3F9800377287 /* ReadingWidgetModel.swift in Sources */,
 				5CA4D2142D5B406400377287 /* ReadingWidgetViewModel.swift in Sources */,
+				5CEF93782D5C95D40001AE9D /* Color.swift in Sources */,
 				5CA4D2152D5B407E00377287 /* UserDefaults.swift in Sources */,
 				5CCEE5262D55DA79001E4BAB /* HelperWidget.swift in Sources */,
 			);
@@ -1954,6 +1974,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kosignbook.CoordinatorApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				REGISTER_APP_GROUPS = NO;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1987,6 +2013,12 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.kosignbook.CoordinatorApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
+				REGISTER_APP_GROUPS = NO;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

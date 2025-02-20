@@ -15,7 +15,11 @@ class Share {
     
     func setFontSize() -> CGFloat {
         let isiPad  = UIDevice.current.userInterfaceIdiom == .pad
-        return isiPad ? 31.0 : 19.0
+        return isiPad ? 34.0 : 17.0
+    }
+    func setLineSpacing() -> CGFloat {
+        let isiPad  = UIDevice.current.userInterfaceIdiom == .pad
+        return isiPad ? 12.0 : 8.0
     }
     
 }
