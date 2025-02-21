@@ -349,8 +349,6 @@ struct ResultView_Previews: PreviewProvider {
 
        
         ResultView(result: sampleResult, wrongAnswerArray: sampleWrongAnswers)
-        
-        //Empty wrong answer
-        ResultView(result: sampleResult, wrongAnswerArray: [])
+      
     }
 }

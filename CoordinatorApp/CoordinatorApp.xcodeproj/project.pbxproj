@@ -273,6 +273,7 @@
 		5C9B465F2B3FBEE600610BCD /* ResultCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C9B465D2B3FBEE600610BCD /* ResultCollectionViewCell.swift */; };
 		5C9B46602B3FBEE600610BCD /* ResultCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C9B465E2B3FBEE600610BCD /* ResultCollectionViewCell.xib */; };
 		5CA019542D6702E6001AA495 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA019532D6702DE001AA495 /* ResultView.swift */; };
+		5CA019582D6738A4001AA495 /* PopupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CA019572D6738A4001AA495 /* PopupView.swift */; };
 		5CA4D2122D5B3F9800377287 /* ReadingWidgetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCEE5172D55BC5C001E4BAB /* ReadingWidgetModel.swift */; };
 		5CA4D2142D5B406400377287 /* ReadingWidgetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCEE4E92D55AED5001E4BAB /* ReadingWidgetViewModel.swift */; };
 		5CA4D2152D5B407E00377287 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCEE4E42D55A851001E4BAB /* UserDefaults.swift */; };
@@ -622,6 +623,7 @@
 		5C9B465D2B3FBEE600610BCD /* ResultCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultCollectionViewCell.swift; sourceTree = "<group>"; };
 		5C9B465E2B3FBEE600610BCD /* ResultCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ResultCollectionViewCell.xib; sourceTree = "<group>"; };
 		5CA019532D6702DE001AA495 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
+		5CA019572D6738A4001AA495 /* PopupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupView.swift; sourceTree = "<group>"; };
 		5CA4D2132D5B3FDE00377287 /* TopikWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TopikWidgetExtension.entitlements; sourceTree = "<group>"; };
 		5CB4CE0A2B61652400C503A4 /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		5CCEE4E02D55A6A6001E4BAB /* CoordinatorApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CoordinatorApp.entitlements; sourceTree = "<group>"; };
@@ -843,6 +845,7 @@
 		55484BAD29A47B70005DBE68 /* Popup */ = {
 			isa = PBXGroup;
 			children = (
+				5CA019572D6738A4001AA495 /* PopupView.swift */,
 				55484BAF29A47BC0005DBE68 /* PopupVC.swift */,
 			);
 			path = Popup;
@@ -1737,6 +1740,7 @@
 				55A99C6E29937D9F00AD4FA6 /* ViewController.swift in Sources */,
 				55BBF3B329962D4A00A7E991 /* FavoriteTabVC.swift in Sources */,
 				559050122994B66F00FE3F0D /* TabBarCoordinator.swift in Sources */,
+				5CA019582D6738A4001AA495 /* PopupView.swift in Sources */,
 				55591B0C2999F8F600023195 /* BookMarkTabTableViewCell.swift in Sources */,
 				5CEF93812D5CAF400001AE9D /* ReadingQuestionView.swift in Sources */,
 				55484BB229A4A552005DBE68 /* ListeningQuestionVC.swift in Sources */,
