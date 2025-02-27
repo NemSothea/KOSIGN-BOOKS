@@ -6,7 +6,7 @@
 //
 import UIKit
 import WidgetKit
-
+import SwiftUI
 
 class BookMarkTabVC : UIViewController, StoryBoarded {
     
@@ -166,10 +166,22 @@ extension BookMarkTabVC : UITableViewDataSource, UITableViewDelegate {
         return cell
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        guard let vc = storyboard?.instantiateViewController(withIdentifier: "ReadingQuestionVC") as? ReadingQuestionVC else { return }
-        vc.modalPresentationStyle = .fullScreen
-        vc.indexTopic        = self.questionsViewModel.TOPIKQuestionArray[indexPath.row].rawValue
-        self.present(vc, animated: true)
+//        guard let vc = storyboard?.instantiateViewController(withIdentifier: "ReadingQuestionVC") as? ReadingQuestionVC else { return }
+//        vc.modalPresentationStyle = .fullScreen
+//        vc.indexTopic        = self.questionsViewModel.TOPIKQuestionArray[indexPath.row].rawValue
+//        self.present(vc, animated: true)
+        
+        let selectedTopic = questionsViewModel.TOPIKQuestionArray[indexPath.row].rawValue
+        
+        // Create an instance of your SwiftUI view
+        let readingQuestionView = ReadingQuestionView(indexTopic: selectedTopic)
+        
+        // Embed the SwiftUI view in a UIHostingController
+        let hostingController = UIHostingController(rootView: readingQuestionView)
+        hostingController.modalPresentationStyle = .fullScreen
+        
+        // Present the UIHostingController
+        self.present(hostingController, animated: true, completion: nil)
     }
 
 }

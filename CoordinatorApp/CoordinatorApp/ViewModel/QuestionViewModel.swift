@@ -6,17 +6,21 @@
 //
 
 import UIKit
+
 struct QuestionModel  {
     var questions        : [String]?
 }
-class QuestionViewModel {
+class QuestionViewModel : ObservableObject {
     
-    var data    : ReadingQuestionModel.QuestionModel?
+    @Published var data: ReadingQuestionModel?
     
     var TOPIKQuestionArray : [QuestionType] = []
     
+    init () {
+        self.initReadingData()
+    }
+    
     func initReadingData() {
-        TOPIKQuestionArray = []
         TOPIKQuestionArray = QuestionType.allCases
     }
         
@@ -28,7 +32,7 @@ class QuestionViewModel {
         }
         
         let fileName = "Question\(question.rawValue)"
-        self.data = Bundle.main.decode(ReadingQuestionModel.QuestionModel.self, from: "\(fileName).json")
+        self.data = Bundle.main.decode(ReadingQuestionModel.self, from: "\(fileName).json")
     }
     
 }

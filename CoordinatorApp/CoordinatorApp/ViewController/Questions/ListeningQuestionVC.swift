@@ -150,29 +150,29 @@ class ListeningQuestionVC: UIViewController {
             if self.listeningViewModel.data?.questions?[index].detail == nil {
                 return
             }
-            guard let popUpVC = storyboard?.instantiateViewController(withIdentifier: "PopupVC") as? PopupVC else { return }
-            if self.listeningViewModel.data?.questions?[index].detail == nil {
-                popUpVC.detail0 = "조심하게 선택해주십시오."
-            }else {
-                popUpVC.detail0 = self.listeningViewModel.data?.questions?[index].question ?? ""
-                popUpVC.detail1 = self.listeningViewModel.data?.questions?[index].detail ?? ""
-            }
+//            guard let popUpVC = storyboard?.instantiateViewController(withIdentifier: "PopupVC") as? PopupVC else { return }
+//            if self.listeningViewModel.data?.questions?[index].detail == nil {
+//                popUpVC.detail0 = "조심하게 선택해주십시오."
+//            }else {
+//                popUpVC.detail0 = self.listeningViewModel.data?.questions?[index].question ?? ""
+//                popUpVC.detail1 = self.listeningViewModel.data?.questions?[index].detail ?? ""
+//            }
             
-            guard let objs = self.listeningViewModel.data?.questions?[index] else {
-                return
-            }
-            
-            self.wrongAnswerArray.append(objs)
-         
-            if let sheet = popUpVC.sheetPresentationController {
-              
-                sheet.detents = [.large()]
-              
-                sheet.prefersGrabberVisible = true
-                sheet.preferredCornerRadius = 32
-            }
-            self.present(popUpVC, animated: true)
-            return
+//            guard let objs = self.listeningViewModel.data?.questions?[index] else {
+//                return
+//            }
+//            
+//            self.wrongAnswerArray.append(objs)
+//         
+//            if let sheet = popUpVC.sheetPresentationController {
+//              
+////                sheet.detents = [.large()]
+//              
+//                sheet.prefersGrabberVisible = true
+//                sheet.preferredCornerRadius = 32
+//            }
+//            self.present(popUpVC, animated: true)
+//            return
         }
         /** TODO -:
          - When click next move to other questions
@@ -237,20 +237,21 @@ extension ListeningQuestionVC : UICollectionViewDelegate, UICollectionViewDataSo
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         
-        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as? ReadingQuestionCollectionViewCell else {
-            return ReadingQuestionCollectionViewCell()
-        }
-        cell.optionA.layer.cornerRadius = 5
-        cell.optionB.layer.cornerRadius = 5
-        cell.optionC.layer.cornerRadius = 5
-        cell.optionD.layer.cornerRadius = 5
-        cell.setValues = self.listeningViewModel.data?.questions?[indexPath.row]
-        cell.selectedOption = { [weak self] isCorrect in
-            self?.answerSelected    = true
-            self?.isCorrectAnswer   = isCorrect
-        }
+//        guard let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as? ReadingQuestionCollectionViewCell else {
+//            return ReadingQuestionCollectionViewCell()
+//        }
+//        cell.optionA.layer.cornerRadius = 5
+//        cell.optionB.layer.cornerRadius = 5
+//        cell.optionC.layer.cornerRadius = 5
+//        cell.optionD.layer.cornerRadius = 5
+//        cell.setValues = self.listeningViewModel.data?.questions?[indexPath.row]
+//        cell.selectedOption = { [weak self] isCorrect in
+//            self?.answerSelected    = true
+//            self?.isCorrectAnswer   = isCorrect
+//        }
         
-        return cell
+//        return cell
+        return UICollectionViewCell()
     }
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         return CGSize(width: collectionView.frame.width, height: collectionView.frame.height)

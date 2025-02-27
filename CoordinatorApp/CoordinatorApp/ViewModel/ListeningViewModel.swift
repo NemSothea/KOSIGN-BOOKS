@@ -47,7 +47,7 @@ class ListeningViewModel : NSObject, ObservableObject {
     private var currentPosition     : AVAudioFramePosition = 0
     private var audioLengthSamples  : AVAudioFramePosition = 0
     
-    var data                        : ReadingQuestionModel.QuestionModel?
+    @Published var data: ReadingQuestionModel?
     
     var TOPIKQuestionArray : [QuestionType] = []
     
@@ -73,9 +73,9 @@ class ListeningViewModel : NSObject, ObservableObject {
             return
         }
         
-        let fileName = "Listening\(question.rawValue)"
-        self.data =  Bundle.main.decode(ReadingQuestionModel.QuestionModel.self, from:"\(fileName).json")
-        self.setupAudio(index: question.rawValue)
+//        let fileName = "Listening\(question.rawValue)"
+//        self.data =  Bundle.main.decode(ReadingQuestionModel.QuestionModel.self, from:"\(fileName).json")
+//        self.setupAudio(index: question.rawValue)
     }
     
     private func setupAudio(index : Int) {

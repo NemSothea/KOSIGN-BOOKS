@@ -1,99 +1,291 @@
-//
-//  ReadingQuestionView.swift
-//  CoordinatorApp
-//
-//  Created by NEMSOTHEA on 2/12/25.
-//
-
 import SwiftUI
 
-struct ReadingQuestioniPhoneView: View {
-    
-    @Binding var selectedOption: ((_ selectedAnswer: Bool) -> Void)?
-    
-    var setValues: ReadingQuestionModel.Question
-    @State private var correctionAnswer: String?
+enum SelectionOption {
+    case optionA
+    case optionB
+    case optionC
+    case optionD
+}
 
+struct ReadingQuestionView: View {
+    
+    @StateObject var viewModelVM = QuestionViewModel()
+    
+    @State private var answerSelected = false
+    @State private var isCorrectAnswer = false
+    @State private var correctAnswer = 0
+    @State private var index = 0
+    @State private var indexTopic = 0
+    @State private var wrongAnswerArray: [ReadingQuestionModel.Question] = []
+    @State private var showLeaveDialog = false
+    @State private var showNoAnswerConfirmation = false
+    @State private var showResult = false
+    
+    @Environment(\.presentationMode) var presentationMode
+    
+    init(indexTopic: Int) {
+        self._indexTopic = State(initialValue: indexTopic)
+    }
+    
     var body: some View {
-        GeometryReader { _ in
+        VStack {
+            HStack {
+                Button {
+                    showLeaveDialog = true
+                } label: {
+                    Text("나가기")
+                        .font(Font.custom("1HoonDdukbokki Regular", size: Share.shared.setFontSize()))
+                        .padding()
+                        .foregroundColor(.white)
+                        .background(
+                            Color.blue.opacity(0.8),
+                            in: RoundedRectangle(cornerRadius: 16)
+                        )
+                }
+                .alert("진행 확인", isPresented: $showLeaveDialog) {
+                    Button("넵", role: .destructive) {  presentationMode.wrappedValue.dismiss() }
+                    Button("취소", role: .cancel) {
+                        
+                    }
+                } message: {
+                    Text("퀼팅 작업을 진행하시겠습니까?")
+                }
+                .padding(.leading)
+                
+                Spacer()
+                
+                Text(QuestionType(rawValue: indexTopic)?.titleReading ?? "")
+                    .font(Font.custom("1HoonDdukbokki Regular", size: Share.shared.setFontSize()))
+                
+                Spacer()
+                
+                Button(action: handleNextButton) {
+                    Text("다음")
+                        .font(Font.custom("1HoonDdukbokki Regular", size: Share.shared.setFontSize()))
+                        .padding()
+                        .foregroundColor(.white)
+                        .background(
+                            Color.blue.opacity(0.8),
+                            in: RoundedRectangle(cornerRadius: 16)
+                        )
+                }
+                .padding(.trailing)
+            }
+            .padding(.top)
             
-            VStack {
-                // Section Label
-                Text(setValues.sections ?? "")
-                    .font(.custom("1HoonDdukbokki Regular", size: 19))
-                    .lineSpacing(1)
+            TabView(selection: $index) {
+                if let questions = viewModelVM.data?.questions {
+                    ForEach(0..<questions.count, id: \.self) { questionIndex in
+                        
+                        if questions[index].isImg == "y" {
+                            ReadingImageQuestionCell(question: questions[questionIndex]) { isCorrect in
+                                answerSelected = true
+                                isCorrectAnswer = isCorrect
+                                
+
+                            }
+                            .tag(questionIndex)
+                        }else {
+                            ReadingTextQuestionCell(question: questions[questionIndex]) { isCorrect in
+                                answerSelected = true
+                                isCorrectAnswer = isCorrect
+                                
+
+                            }
+                            .tag(questionIndex)
+                        }
+                       
+                    }
+                }
+            }
+            .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
+        }
+        .alert("진행 확인", isPresented: $showNoAnswerConfirmation) {
+            Button("계속하기", role: .destructive) { advanceToNextQuestion() }
+            Button("취소하기", role: .cancel) {}
+        } message: {
+            Text("답변을 선택하지 않았습니다. 계속하시겠습니까?")
+        }
+        .fullScreenCover(isPresented: $showResult) {
+            ResultView(result: resultTopik(), wrongAnswerArray: wrongAnswerArray.removingDuplicates())
+        }
+        
+        .onChange(of: index) { _ in
+            answerSelected = false
+            isCorrectAnswer = false
+        }
+        
+        .onAppear {
+            viewModelVM.getData(for: indexTopic)
+            wrongAnswerArray.removeAll()
+        }
+    }
+    
+    private func handleNextButton() {
+        guard answerSelected else {
+            showNoAnswerConfirmation = true
+            return
+        }
+        
+        if !isCorrectAnswer, let question = viewModelVM.data?.questions?[index] {
+            if !wrongAnswerArray.contains(where: { $0.id == question.id }) {
+                wrongAnswerArray.append(question)
+            }
+        }
+        
+        advanceToNextQuestion()
+    }
+    
+    private func advanceToNextQuestion() {
+        if index < (viewModelVM.data?.questions?.count ?? 0) - 1 {
+            index += 1
+        } else {
+            showResult = true
+        }
+    }
+    
+    private func resultTopik() -> [String] {
+        let totalQuestions = viewModelVM.data?.questions?.count ?? 0
+        let wrongAnswers = wrongAnswerArray.removingDuplicates().count
+        let correctAnswers = totalQuestions - wrongAnswers
+        let percentage = 100 * (Float(correctAnswers) / Float(totalQuestions))
+        return [
+            String(correctAnswers),
+            String(totalQuestions),
+            String(format: "%.0f%%", percentage)
+        ]
+    }
+}
+struct ReadingImageQuestionCell: View {
+    
+    let question: ReadingQuestionModel.Question
+    let selectedOption: (Bool) -> Void
+    @State private var selectedOptionType: SelectionOption?
+    let setLineSpacing  = Share.shared.setLineSpacing()
+    
+    var body: some View {
+        ScrollView {
+            VStack(alignment: .leading) {
+                Text(question.sections)
+                    .font(Font.custom("1HoonDdukbokki Regular", size: Share.shared.setFontSize()))
                     .padding()
                 
-                if setValues.isImg == "y" {
-                    // Image View
-                    Image(setValues.question ?? "")
-                        .resizable()
-                        .scaledToFit()
-                        .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height / 2 - 20)
+                if let isImg = question.isImg?.lowercased(), isImg == "y" {
+                    if UIImage(named: question.question) != nil {
+                        Image(question.question)
+                            .resizable()
+                            .scaledToFit()
+                            .frame(maxHeight: UIScreen.main.bounds.height / 2)
+                    } else {
+                        Text("Missing image: \(question.question)")
+                            .foregroundColor(.red)
+                    }
                 } else {
-                    // Question Label
-                    Text("  \(setValues.question ?? "")")
-                        .font(.custom("1HoonDdukbokki Regular", size: 18))
-                        .lineSpacing(7)
-                        .multilineTextAlignment(.leading)
-                        .lineLimit(nil)
-                        .padding()
+                    Text(question.question)
                 }
-
-                // Options Stack
-                VStack {
-                    OptionView(option: setValues.option_1 ?? "", selectedOption: $selectedOption, isCorrect: setValues.correctAnswer == setValues.option_1)
-                    OptionView(option: setValues.option_2 ?? "", selectedOption: $selectedOption, isCorrect: setValues.correctAnswer == setValues.option_2)
-                    OptionView(option: setValues.option_3 ?? "", selectedOption: $selectedOption, isCorrect: setValues.correctAnswer == setValues.option_3)
-                    OptionView(option: setValues.option_4 ?? "", selectedOption: $selectedOption, isCorrect: setValues.correctAnswer == setValues.option_4)
+                VStack(alignment: .leading,spacing: 10) {
+                    OptionButton(
+                        text: question.option_1,
+                        optionType: .optionA,
+                        correctAnswer: question.correctAnswer,
+                        selectedOptionType: $selectedOptionType,
+                        selectedOption: selectedOption
+                    )
+                    
+                    OptionButton(text: question.option_2, optionType: .optionB, correctAnswer: question.correctAnswer, selectedOptionType: $selectedOptionType, selectedOption: selectedOption)
+                    
+                    OptionButton(text: question.option_3, optionType: .optionC, correctAnswer: question.correctAnswer, selectedOptionType: $selectedOptionType, selectedOption: selectedOption)
+                    OptionButton(text: question.option_4, optionType: .optionD, correctAnswer: question.correctAnswer, selectedOptionType: $selectedOptionType, selectedOption: selectedOption)
                 }
+                
+                .frame(maxWidth: .infinity) // Add this to ensure button takes full width
+                .padding()
             }
-        }
-
-        .onAppear {
-            self.correctionAnswer = setValues.correctAnswer
+            .frame(maxWidth: .infinity)
         }
     }
 }
 
-struct OptionView: View {
-    var option: String
-    @Binding var selectedOption: ((_ selectedAnswer: Bool) -> Void)?
-    var isCorrect: Bool
-    @State private var borderColor: Color = .white
-
+struct ReadingTextQuestionCell: View {
+    let question: ReadingQuestionModel.Question
+    let selectedOption: (Bool) -> Void
+    @State private var selectedOptionType: SelectionOption?
+    let setLineSpacing  = Share.shared.setLineSpacing()
+    
     var body: some View {
-        Text(option)
-            .font(.custom("1HoonDdukbokki Regular", size: 18))
-            .lineLimit(nil)
-            .lineSpacing(5)
-            .padding(5)
-            .background(RoundedRectangle(cornerRadius: 10).stroke(borderColor, lineWidth: 1))
-            .padding(.bottom, 10)
-            .onTapGesture {
-                let isCorrect = self.isCorrect
-                self.selectedOption?(isCorrect)
-                self.borderColor = isCorrect ? .green : .red
+        ScrollView {
+            VStack(alignment: .leading) {
+                Text(question.sections)
+                    .font(Font.custom("1HoonDdukbokki Regular", size: Share.shared.setFontSize()))
+                    .padding()
+                
+             
+                    Text(question.question)
+                        .font(Font.custom("1HoonDdukbokki Regular", size: Share.shared.setFontSize()))
+                        .padding()
+                        .lineLimit(nil)
+                        .lineSpacing(setLineSpacing)
+            
+                
+                VStack(alignment: .leading,spacing: 10) {
+                    OptionButton(
+                        text: question.option_1,
+                        optionType: .optionA,
+                        correctAnswer: question.correctAnswer,
+                        selectedOptionType: $selectedOptionType,
+                        selectedOption: selectedOption
+                    )
+                    
+                    OptionButton(text: question.option_2, optionType: .optionB, correctAnswer: question.correctAnswer, selectedOptionType: $selectedOptionType, selectedOption: selectedOption)
+                    
+                    OptionButton(text: question.option_3, optionType: .optionC, correctAnswer: question.correctAnswer, selectedOptionType: $selectedOptionType, selectedOption: selectedOption)
+                    OptionButton(text: question.option_4, optionType: .optionD, correctAnswer: question.correctAnswer, selectedOptionType: $selectedOptionType, selectedOption: selectedOption)
+                }
+                
+                .frame(maxWidth: .infinity) // Add this to ensure button takes full width
+                .padding()
             }
+            .frame(maxWidth: .infinity)
+        }
     }
 }
+
+struct OptionButton: View {
+    let text                        : String
+    let optionType                  : SelectionOption
+    let correctAnswer               : String?
+    @Binding var selectedOptionType : SelectionOption?
+    let selectedOption: (_ isCorrect: Bool) -> Void
+    
+    let setLineSpacing  = Share.shared.setLineSpacing()
+    
+    var body: some View {
+        
+        Button(action: {
+            selectedOptionType = optionType
+            let isCorrect = correctAnswer == text
+            selectedOption(isCorrect)
+        }) {
+            Text(text)
+                .font(Font.custom("1HoonDdukbokki Regular", size: Share.shared.setFontSize()))
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .padding()
+                .lineLimit(nil)
+                .lineSpacing(setLineSpacing)
+                .background(selectedOptionType  == optionType ? Color.blue.opacity(0.2) : Color.clear)
+                .border(selectedOptionType      == optionType ? Color.blue : Color.white, width: selectedOptionType == optionType ? 1 : 0)
+                .cornerRadius(5)
+        }
+        .frame(maxWidth: .infinity) // Add this to ensure button takes full width
+
+    }
+}
+
+
 
 struct ReadingQuestionView_Previews: PreviewProvider {
     static var previews: some View {
-        Group {
-            // Test with text iPhone 16 Pro
-            ReadingQuestioniPhoneView(selectedOption: .constant(nil), setValues: ReadingQuestionModel.Question(correctAnswer: "A programming language", option_1: "1 ) 할머니를 시골에 두고 혼자 서울로 올라오는 발걸음은 가볍지 않았다.", option_2: "2 ) 할머니를 시골에 두고 혼자 서울로 올라오는 발걸음은 가볍지 않았다.", option_3: "3 ) 할머니를 시골에 두고 혼자 서울로 올라오는 발걸음은 가볍지 않았다.", option_4: "4 ) 할머니를 시골에 두고 혼자 서울로 올라오는 발걸음은 가볍지 않았다.", question: "할머니를 시골에 두고 혼자 서울로 올라오는 발걸음은 가볍지 않았다. 하지만 무거웠던 마음은 며칠 가지 않았다. 할머니는 날마다 전화를 하더니 급기야 서울로 올라오시고 말았다. 할머니의 손자 사랑은 어쩔 수 없나 보다. 할머니는 청소며 빨래며 나에게는 안 보이던 온갖 집안일들을 찾아서 하기 시작했다. 그냥 쉬다가 내려가시라고 (아무리 말해도 들은 척도 하지 않았다). 서른이 넘은 나는 할머니가 보기엔 여전히 아이에 불과했다. 서울 살이 몇 주 만에 낯선 동네에서 친구까지 사귄 할머니는 친구를 따라 시장에 갔다가 넘어지시고 말았다. 병원에서 온 연락을 받고 걱정이 되어 정신없이 달려갔더니 할머니는 같은 병실 사람들을 모아 놓고 환하게 웃으며 이야기하고 있었다. 다리에 붕대를 감고서 말이다. 그 광경을 보고 난 할 말을 잃었다.", sections: "[5~8] (   ) 다음은 무엇에 대한 글인지 고르십시오.(각 2점).", isImg: "n"))
-                .previewDevice(PreviewDevice(rawValue: "iPhone 16 Pro"))
-            
-          
-            
-            // Test with image iPhone 16 Pro
-            
-            ReadingQuestioniPhoneView(selectedOption: .constant(nil), setValues: ReadingQuestionModel.Question(correctAnswer: "A programming language", option_1: "할머니를 시골에 두고 혼자 서울로 올라오는 발걸음은 가볍지 않았다.", option_2: "할머니를 시골에 두고 혼자 서울로 올라오는 발걸음은 가볍지 않았다.", option_3: "할머니를 시골에 두고 혼자 서울로 올라오는 발걸음은 가볍지 않았다.", option_4: "할머니를 시골에 두고 혼자 서울로 올라오는 발걸음은 가볍지 않았다.", question: "36_2_img.png", sections: "[5~8] (   ) 다음은 무엇에 대한 글인지 고르십시오.(각 2점).", isImg: "y"))
-                .previewDevice(PreviewDevice(rawValue: "iPhone 16 Pro"))
-            
-            
-        }
-        
+        // Provide a sample indexTopic value
+        ReadingQuestionView(indexTopic: 24)
     }
 }
