@@ -73,9 +73,11 @@ class ListeningViewModel : NSObject, ObservableObject {
             return
         }
         
-//        let fileName = "Listening\(question.rawValue)"
-//        self.data =  Bundle.main.decode(ReadingQuestionModel.QuestionModel.self, from:"\(fileName).json")
-//        self.setupAudio(index: question.rawValue)
+        let fileName = "Listening\(question.rawValue)"
+        
+        self.data =  Bundle.main.decode(ReadingQuestionModel.self, from:"\(fileName).json")
+        
+        self.setupAudio(index: question.rawValue)
     }
     
     private func setupAudio(index : Int) {

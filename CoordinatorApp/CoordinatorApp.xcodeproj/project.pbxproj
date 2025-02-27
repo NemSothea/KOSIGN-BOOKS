@@ -28,7 +28,6 @@
 		55439E9C29B86C6E0031D74B /* Listening60.json in Resources */ = {isa = PBXBuildFile; fileRef = 55439E8629B86C6E0031D74B /* Listening60.json */; };
 		55439EA429B86C6E0031D74B /* Question60.json in Resources */ = {isa = PBXBuildFile; fileRef = 55439E8E29B86C6E0031D74B /* Question60.json */; };
 		55450206299C6090000B48B6 /* QuestionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55450205299C6090000B48B6 /* QuestionViewModel.swift */; };
-		55484BB229A4A552005DBE68 /* ListeningQuestionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55484BB129A4A552005DBE68 /* ListeningQuestionVC.swift */; };
 		55591B042999BDCE00023195 /* Reading24QuestionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55591B032999BDCE00023195 /* Reading24QuestionModel.swift */; };
 		55591B0C2999F8F600023195 /* BookMarkTabTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55591B0B2999F8F600023195 /* BookMarkTabTableViewCell.swift */; };
 		556C12AA29B5942900CE49EE /* Listening31th.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 556C12A629B5942900CE49EE /* Listening31th.mp3 */; };
@@ -124,6 +123,7 @@
 		5CCEE5292D55F2B4001E4BAB /* WidgetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCEE5282D55F2B4001E4BAB /* WidgetType.swift */; };
 		5CCEE52A2D55F2B4001E4BAB /* WidgetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCEE5282D55F2B4001E4BAB /* WidgetType.swift */; };
 		5CCEE52B2D55F2B4001E4BAB /* WidgetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CCEE5282D55F2B4001E4BAB /* WidgetType.swift */; };
+		5CD691D52D70715100123276 /* ListeningQuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CD691D42D70715100123276 /* ListeningQuestionView.swift */; };
 		5CDA56212B4ABDF50052E9BF /* Listening64.json in Resources */ = {isa = PBXBuildFile; fileRef = 5C7077D82B49849600394C56 /* Listening64.json */; };
 		5CEF93762D5C95B50001AE9D /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEF93752D5C95B50001AE9D /* Color.swift */; };
 		5CEF93772D5C95D40001AE9D /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CEF93752D5C95B50001AE9D /* Color.swift */; };
@@ -183,7 +183,6 @@
 		55439E8629B86C6E0031D74B /* Listening60.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Listening60.json; sourceTree = "<group>"; };
 		55439E8E29B86C6E0031D74B /* Question60.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Question60.json; sourceTree = "<group>"; };
 		55450205299C6090000B48B6 /* QuestionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewModel.swift; sourceTree = "<group>"; };
-		55484BB129A4A552005DBE68 /* ListeningQuestionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListeningQuestionVC.swift; sourceTree = "<group>"; };
 		55591B032999BDCE00023195 /* Reading24QuestionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reading24QuestionModel.swift; sourceTree = "<group>"; };
 		55591B0B2999F8F600023195 /* BookMarkTabTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookMarkTabTableViewCell.swift; sourceTree = "<group>"; };
 		556C12A629B5942900CE49EE /* Listening31th.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Listening31th.mp3; sourceTree = "<group>"; };
@@ -277,6 +276,7 @@
 		5CCEE5212D55CEA9001E4BAB /* HOST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HOST.swift; sourceTree = "<group>"; };
 		5CCEE5232D55DA79001E4BAB /* HelperWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperWidget.swift; sourceTree = "<group>"; };
 		5CCEE5282D55F2B4001E4BAB /* WidgetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetType.swift; sourceTree = "<group>"; };
+		5CD691D42D70715100123276 /* ListeningQuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListeningQuestionView.swift; sourceTree = "<group>"; };
 		5CEF93752D5C95B50001AE9D /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		5CEF93802D5CAF320001AE9D /* ReadingQuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadingQuestionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -455,8 +455,8 @@
 		55591B0F299A06DC00023195 /* Questions */ = {
 			isa = PBXGroup;
 			children = (
-				5CEF937F2D5CAF230001AE9D /* ReadingView */,
-				55484BB129A4A552005DBE68 /* ListeningQuestionVC.swift */,
+				5CEF93802D5CAF320001AE9D /* ReadingQuestionView.swift */,
+				5CD691D42D70715100123276 /* ListeningQuestionView.swift */,
 			);
 			path = Questions;
 			sourceTree = "<group>";
@@ -780,14 +780,6 @@
 			path = ListeningWidget;
 			sourceTree = "<group>";
 		};
-		5CEF937F2D5CAF230001AE9D /* ReadingView */ = {
-			isa = PBXGroup;
-			children = (
-				5CEF93802D5CAF320001AE9D /* ReadingQuestionView.swift */,
-			);
-			path = ReadingView;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1005,7 +997,6 @@
 				559050122994B66F00FE3F0D /* TabBarCoordinator.swift in Sources */,
 				55591B0C2999F8F600023195 /* BookMarkTabTableViewCell.swift in Sources */,
 				5CEF93812D5CAF400001AE9D /* ReadingQuestionView.swift in Sources */,
-				55484BB229A4A552005DBE68 /* ListeningQuestionVC.swift in Sources */,
 				55A99C6A29937D9F00AD4FA6 /* AppDelegate.swift in Sources */,
 				55E120BC29B015AE009BEFBC /* Bundle.swift in Sources */,
 				559050102994AD4700FE3F0D /* MainTabBarViewController.swift in Sources */,
@@ -1020,6 +1011,7 @@
 				55A99C6C29937D9F00AD4FA6 /* SceneDelegate.swift in Sources */,
 				5CA4D2162D5B57E600377287 /* ReadingWidgetModel.swift in Sources */,
 				55A6977E2A79F50400302BF1 /* Helper.swift in Sources */,
+				5CD691D52D70715100123276 /* ListeningQuestionView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

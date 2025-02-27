@@ -19,7 +19,7 @@ struct ReadingWidget: Widget {
         .configurationDisplayName("Reading TOPIK II")
         .description("Easily place tests and get more scores from TOPIK.")
         .contentMarginsDisabledIfAvailable()
-        .supportedFamilies([.systemSmall,.systemMedium,.systemLarge,.accessoryCircular])
+        .supportedFamilies([.systemSmall,.systemLarge,.accessoryCircular])
     }
     
 }

@@ -26,11 +26,7 @@ struct ReadingWidgetEntryView: View {
                 ReadingSystemSmallView(items: entry.items)
             }
             .widgetBackground(Color.clear)
-        case .systemMedium:
-            VStack(alignment: .leading, spacing: 0) {
-                ReadingSystemLargeView(items: entry.items)
-            }
-            .widgetBackground(Color.clear)
+     
         case .systemLarge :
             VStack(alignment: .leading, spacing: 0) {
                 ReadingSystemLargeView(items: entry.items)
@@ -141,6 +137,7 @@ struct ReadingSystemLargeView : View {
                     Text("읽기 ")
                         .font(.largeTitle)
                         .fontWeight(.bold)
+                        .frame(maxWidth: .infinity, alignment: .center)
                      
                 })
             }
@@ -168,9 +165,7 @@ struct ReadingSystemLargeView : View {
                         }
                     
                 }, header: {
-                    Text(Date.now.formatted(.dateTime.weekday(.wide)))
-                        .font(.footnote)
-                        .foregroundStyle(Color(UIColor.random()))
+                    Text("")
                 })
                 
             }
