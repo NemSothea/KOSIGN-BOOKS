@@ -105,7 +105,7 @@ extension FavoriteTabVC : UITableViewDataSource, UITableViewDelegate {
         let selectedTopic = listeningViewModel.TOPIKQuestionArray[indexPath.row].rawValue
         
         // Create an instance of your SwiftUI view
-        let listeningQuestionView = ReadingQuestionView(indexTopic: selectedTopic)
+        let listeningQuestionView = ListeningQuestionView(indexTopic: selectedTopic)
         
         // Embed the SwiftUI view in a UIHostingController
         let hostingController = UIHostingController(rootView: listeningQuestionView)
