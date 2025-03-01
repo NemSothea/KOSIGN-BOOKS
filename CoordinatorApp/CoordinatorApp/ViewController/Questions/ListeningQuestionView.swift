@@ -153,7 +153,7 @@ struct ListeningQuestionView: View {
         }
         
         if !isCorrectAnswer, let question = viewModelVM.data?.questions?[index] {
-            if !wrongAnswerArray.contains(where: { $0.id == question.id }) {
+            if !wrongAnswerArray.contains(where: { $0.correctAnswer == question.correctAnswer }) {
                 wrongAnswerArray.append(question)
             }
         }

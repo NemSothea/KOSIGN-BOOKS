@@ -128,8 +128,9 @@ struct ReadingQuestionView: View {
         }
         
         if !isCorrectAnswer, let question = viewModelVM.data?.questions?[index] {
-            if !wrongAnswerArray.contains(where: { $0.id == question.id }) {
+            if !wrongAnswerArray.contains(where: { $0.correctAnswer == question.correctAnswer }) {
                 wrongAnswerArray.append(question)
+              /*  print("wrongAnswerArray : \(wrongAnswerArray)")*/
             }
         }
         
@@ -286,6 +287,6 @@ struct OptionButton: View {
 struct ReadingQuestionView_Previews: PreviewProvider {
     static var previews: some View {
         // Provide a sample indexTopic value
-        ReadingQuestionView(indexTopic: 24)
+        ReadingQuestionView(indexTopic: 41)
     }
 }
