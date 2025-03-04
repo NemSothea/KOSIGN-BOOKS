@@ -166,10 +166,7 @@ extension BookMarkTabVC : UITableViewDataSource, UITableViewDelegate {
         return cell
     }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-//        guard let vc = storyboard?.instantiateViewController(withIdentifier: "ReadingQuestionVC") as? ReadingQuestionVC else { return }
-//        vc.modalPresentationStyle = .fullScreen
-//        vc.indexTopic        = self.questionsViewModel.TOPIKQuestionArray[indexPath.row].rawValue
-//        self.present(vc, animated: true)
+
         
         let selectedTopic = questionsViewModel.TOPIKQuestionArray[indexPath.row].rawValue
         

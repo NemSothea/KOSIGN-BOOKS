@@ -21,7 +21,7 @@ class TabBarCoordinator : Coordinator {
         
         let vc = MainTabBarController.instantiate()
         vc.coordinator = self
-        vc.viewControllers = [getBookMark(),getFavorite()]
+        vc.viewControllers = [getBookMark(),getFavorite(),getBook()]
         self.navigationViewController.pushViewController(vc, animated: true)
         
     }
@@ -44,7 +44,15 @@ class TabBarCoordinator : Coordinator {
         return favoriteVC.navigationViewController
         
     }
- 
+    func getBook() -> UINavigationController {
+        
+        let bookVC = BookCoordinator(navigationViewController: UINavigationController())
+        bookVC.parentCoordinators = self
+        addChildCoordinator(bookVC)
+        bookVC.start()
+        return bookVC.navigationViewController
+        
+    }
     
     
 }
