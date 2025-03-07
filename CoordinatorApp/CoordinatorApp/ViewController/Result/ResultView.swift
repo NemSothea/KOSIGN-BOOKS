@@ -6,7 +6,35 @@
 //
 
 import SwiftUI
-import Charts
+import TipKit
+
+@available(iOS 17.0, *)
+struct QuestionTip: Tip {
+    
+    let question : ReadingQuestionModel.Question
+    
+    init(question: ReadingQuestionModel.Question) {
+        self.question = question
+    }
+    
+    var title: Text {
+        Text("Hint : ")
+    }
+
+    var message: Text? {
+        Text(question.detail ?? "")
+    }
+
+        var image: Image? {
+        Image(systemName: "questionmark.text.page")
+    }
+    
+    var rules: [Rule] {
+        #Rule(Self.$hasViewedGetStartedTip) { $0 == false }
+       }
+    @Parameter
+    static var hasViewedGetStartedTip: Bool = false
+}
 
 struct ResultView: View {
     
@@ -157,10 +185,11 @@ struct ResultImageiPadCellView: View {
         // Customize this based on your ResultCollectionViewCell's UI
         VStack(alignment: .leading, spacing: 10) {
             
-            Text("\( question.sections)")
+            Text("\(question.sections)")
                 .font(.custom("1HoonDdukbokki Regular", size: fontSize))
                 .font(.headline)
                 .padding()
+            
             Image(question.question)
                 .resizable()
                 .scaledToFit()
@@ -239,19 +268,40 @@ struct ResultImageiPhoneCellView: View {
 
 // MARK: - ResultTextiPhoneCellView
 
+@available(iOS 17.0, *)
 struct ResultTextiPhoneCellView: View {
     
     let question        : ReadingQuestionModel.Question
     let fontSize        = Share.shared.setFontSize()
     let setLineSpacing  = Share.shared.setLineSpacing()
     
+    var questionTip : QuestionTip {
+        QuestionTip(question: question)
+    }
+    
     var body: some View {
         // Customize this based on your ResultCollectionViewCell's UI
         VStack(alignment: .leading, spacing: 10) {
-            Text("\( question.sections)")
-                .font(.custom("1HoonDdukbokki Regular", size: fontSize))
-                .font(.headline)
-                .padding(.bottom)
+            
+            HStack {
+                Text("\(question.sections)")
+                    .font(.custom("1HoonDdukbokki Regular", size: fontSize))
+                    .font(.headline)
+                    .padding(.bottom)
+                
+                Button {
+                    QuestionTip.hasViewedGetStartedTip = true
+                } label : {
+                    Image(systemName: "info.bubble.fill")
+                        .font(.system(size: 40))
+                        .foregroundStyle(.purple)
+                        .padding()
+                    
+                       
+                }
+                .tip(questionTip)
+            }
+           
             
             Text("\( question.question)") // Replace with actual question text
                 .font(.custom("1HoonDdukbokki Regular", size: fontSize))
@@ -260,6 +310,7 @@ struct ResultTextiPhoneCellView: View {
                 .lineSpacing(setLineSpacing)
                 .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
                 .padding(.bottom)
+            
             VStack(alignment: .leading,spacing: setLineSpacing) {
                 Text("\(question.option_1)") // Display user's answer (handle optional)
                     .font(.custom("1HoonDdukbokki Regular", size: fontSize))
@@ -287,19 +338,48 @@ struct ResultTextiPhoneCellView: View {
 }
 
 //MARK: - ResultTextiPadCellView
+
 struct ResultTextiPadCellView: View {
     
     let question        : ReadingQuestionModel.Question
     let fontSize        = Share.shared.setFontSize()
     let setLineSpacing  = Share.shared.setLineSpacing()
     
+    @State var isQuestion: Bool = false
+    
+    
+    var questionTip : QuestionTip {
+        QuestionTip(question: question)
+    }
+   
+    
     var body: some View {
         // Customize this based on your ResultCollectionViewCell's UI
         VStack(alignment: .leading, spacing: 10) {
-            Text("\( question.sections)")
-                .font(.custom("1HoonDdukbokki Regular", size: fontSize))
-                .font(.headline)
-                .padding(.bottom,20)
+            
+            HStack {
+                Text("\( question.sections)")
+                    .font(.custom("1HoonDdukbokki Regular", size: fontSize))
+                    .font(.headline)
+                Button {
+                    QuestionTip.hasViewedGetStartedTip = true
+                } label : {
+                    Image(systemName: "info.bubble.fill")
+                        .font(.system(size: 40))
+                        .foregroundStyle(.purple)
+                        .padding()
+                    
+                       
+                }
+                
+               
+               
+               
+            }
+          
+            .padding(.bottom,20)
+            
+          
             
             Text("\( question.question)") // Replace with actual question text
                 .font(.custom("1HoonDdukbokki Regular", size: fontSize))
@@ -330,6 +410,8 @@ struct ResultTextiPadCellView: View {
         .background(Color.gray.opacity(0.1)) // Light background
         .cornerRadius(10)
         .padding(.horizontal)
+        
+       
     }
 }
 
@@ -379,6 +461,14 @@ struct ResultView_Previews: PreviewProvider {
         
         
         ResultView(result: sampleResult, wrongAnswerArray: sampleWrongAnswers)
+            .task {
+                try? Tips.resetDatastore()
+                
+                try? Tips.configure([
+                                       .displayFrequency(.immediate),
+                                       .datastoreLocation(.applicationDefault)
+                                   ])
+            }
         
     }
 }

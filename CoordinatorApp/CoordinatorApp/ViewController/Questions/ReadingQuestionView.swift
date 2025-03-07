@@ -1,10 +1,28 @@
 import SwiftUI
+import TipKit
 
 enum SelectionOption {
     case optionA
     case optionB
     case optionC
     case optionD
+}
+
+struct ReadingTip: Tip {
+    
+    let question : ReadingQuestionModel.Question
+    
+    var title: Text {
+        Text("Hint : ")
+    }
+
+    var message: Text? {
+        Text(question.detail ?? "")
+    }
+
+        var image: Image? {
+        Image(systemName: "info.bubble.fill")
+    }
 }
 
 struct ReadingQuestionView: View {
@@ -20,6 +38,11 @@ struct ReadingQuestionView: View {
     @State private var showLeaveDialog = false
     @State private var showNoAnswerConfirmation = false
     @State private var showResult = false
+    
+
+  
+   
+    
     
     @Environment(\.presentationMode) var presentationMode
     
