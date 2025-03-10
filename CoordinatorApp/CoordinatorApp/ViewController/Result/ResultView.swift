@@ -6,34 +6,46 @@
 //
 
 import SwiftUI
-import TipKit
 
-@available(iOS 17.0, *)
-struct QuestionTip: Tip {
+struct QuestionHint: View {
     
     let question : ReadingQuestionModel.Question
+    let fontSize = Share.shared.setFontSize()
     
-    init(question: ReadingQuestionModel.Question) {
-        self.question = question
-    }
+    @Environment(\.dismiss) var dismiss
     
-    var title: Text {
-        Text("Hint : ")
+    var body: some View {
+        
+        VStack {
+            HStack {
+                Spacer()
+                Text("Hint : ")
+                    .font(.headline)
+                Spacer()
+                Button {
+                    dismiss()
+                }label: {
+                    Text("확인")
+                        .font(.custom("1HoonDdukbokki Regular", size: fontSize))
+                }
+                
+            }
+            .padding()
+            
+            GeometryReader { geometry in
+                ScrollView {
+                    Text(question.detail ?? "")
+                    
+                        .frame(maxWidth: .infinity, alignment: .topLeading)
+                        .padding()
+                }
+                
+                .background(Color.blue.opacity(0.1))
+                .cornerRadius(20)
+            }
+        }
+        Spacer()
     }
-
-    var message: Text? {
-        Text(question.detail ?? "")
-    }
-
-        var image: Image? {
-        Image(systemName: "questionmark.text.page")
-    }
-    
-    var rules: [Rule] {
-        #Rule(Self.$hasViewedGetStartedTip) { $0 == false }
-       }
-    @Parameter
-    static var hasViewedGetStartedTip: Bool = false
 }
 
 struct ResultView: View {
@@ -62,7 +74,6 @@ struct ResultView: View {
                             EmptyView()
                             
                         }
-                        
                         
                     }
                     .padding()
@@ -103,8 +114,6 @@ struct HeaderView: View {
                         }
                 }
                 .frame(height: 50)
-                
-                
                 
                 Text("You have reached \(result[0]) of \(result[1]) question(s), \(result[2])")
                     .font(.custom("1HoonDdukbokki Regular", size: fontSize))
@@ -174,52 +183,6 @@ struct WrongAnswersListView: View {
     }
 }
 
-// MARK: - ResultImageiPadCellView
-struct ResultImageiPadCellView: View {
-    
-    let question: ReadingQuestionModel.Question
-    let fontSize        = Share.shared.setFontSize()
-    let setLineSpacing  = Share.shared.setLineSpacing()
-    
-    var body: some View {
-        // Customize this based on your ResultCollectionViewCell's UI
-        VStack(alignment: .leading, spacing: 10) {
-            
-            Text("\(question.sections)")
-                .font(.custom("1HoonDdukbokki Regular", size: fontSize))
-                .font(.headline)
-                .padding()
-            
-            Image(question.question)
-                .resizable()
-                .scaledToFit()
-                .frame(width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height / 2 - 30)
-            
-            VStack(alignment: .leading,spacing: setLineSpacing) {
-                Text("\(question.option_1)") // Display user's answer (handle optional)
-                    .font(.custom("1HoonDdukbokki Regular", size: fontSize))
-                Text("\(question.option_2)") // Display user's answer (handle optional)
-                    .font(.custom("1HoonDdukbokki Regular", size: fontSize))
-                Text("\(question.option_3)") // Display user's answer (handle optional)
-                    .font(.custom("1HoonDdukbokki Regular", size: fontSize))
-                Text("\(question.option_4)") // Display user's answer (handle optional)
-                    .font(.custom("1HoonDdukbokki Regular", size: fontSize))
-                
-                Text("Correct Answer : \(question.correctAnswer ?? "")")
-                    .font(.custom("1HoonDdukbokki Regular", size: fontSize))
-                    .font(.headline)
-                    .foregroundStyle(.red)
-            }
-            .padding()
-            
-        }
-        .padding(.leading)
-        .background(Color.gray.opacity(0.1)) // Light background
-        .cornerRadius(10)
-        .padding(.horizontal)
-    }
-}
-
 //MARK: - ResultImageiPhoneCellView
 struct ResultImageiPhoneCellView: View {
     
@@ -255,163 +218,11 @@ struct ResultImageiPhoneCellView: View {
                     .font(.headline)
                     .foregroundStyle(.red)
             }
-            
-            
-            
         }
         .padding() // Apply padding to the entire VStack
         .background(Color.gray.opacity(0.1))
         .cornerRadius(10)
         .padding(.horizontal)
-    }
-}
-
-// MARK: - ResultTextiPhoneCellView
-
-@available(iOS 17.0, *)
-struct ResultTextiPhoneCellView: View {
-    
-    let question        : ReadingQuestionModel.Question
-    let fontSize        = Share.shared.setFontSize()
-    let setLineSpacing  = Share.shared.setLineSpacing()
-    
-    var questionTip : QuestionTip {
-        QuestionTip(question: question)
-    }
-    
-    var body: some View {
-        // Customize this based on your ResultCollectionViewCell's UI
-        VStack(alignment: .leading, spacing: 10) {
-            
-            HStack {
-                Text("\(question.sections)")
-                    .font(.custom("1HoonDdukbokki Regular", size: fontSize))
-                    .font(.headline)
-                    .padding(.bottom)
-                
-                Button {
-                    QuestionTip.hasViewedGetStartedTip = true
-                } label : {
-                    Image(systemName: "info.bubble.fill")
-                        .font(.system(size: 40))
-                        .foregroundStyle(.purple)
-                        .padding()
-                    
-                       
-                }
-                .tip(questionTip)
-            }
-           
-            
-            Text("\( question.question)") // Replace with actual question text
-                .font(.custom("1HoonDdukbokki Regular", size: fontSize))
-                .font(.headline)
-                .lineLimit(nil)
-                .lineSpacing(setLineSpacing)
-                .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
-                .padding(.bottom)
-            
-            VStack(alignment: .leading,spacing: setLineSpacing) {
-                Text("\(question.option_1)") // Display user's answer (handle optional)
-                    .font(.custom("1HoonDdukbokki Regular", size: fontSize))
-                Text("\(question.option_2)") // Display user's answer (handle optional)
-                    .font(.custom("1HoonDdukbokki Regular", size: fontSize))
-                Text("\(question.option_3)") // Display user's answer (handle optional)
-                    .font(.custom("1HoonDdukbokki Regular", size: fontSize))
-                Text("\(question.option_4)") // Display user's answer (handle optional)
-                    .font(.custom("1HoonDdukbokki Regular", size: fontSize))
-                    .padding(.bottom)
-                Text("Correct Answer : \(question.correctAnswer ?? "")")
-                    .font(.custom("1HoonDdukbokki Regular", size: fontSize))
-                    .font(.headline)
-                    .foregroundStyle(.red)
-            }
-            .lineSpacing(10)
-            
-            
-        }
-        .padding()
-        .background(Color.gray.opacity(0.1)) // Light background
-        .cornerRadius(10)
-        .padding(.horizontal)
-    }
-}
-
-//MARK: - ResultTextiPadCellView
-
-struct ResultTextiPadCellView: View {
-    
-    let question        : ReadingQuestionModel.Question
-    let fontSize        = Share.shared.setFontSize()
-    let setLineSpacing  = Share.shared.setLineSpacing()
-    
-    @State var isQuestion: Bool = false
-    
-    
-    var questionTip : QuestionTip {
-        QuestionTip(question: question)
-    }
-   
-    
-    var body: some View {
-        // Customize this based on your ResultCollectionViewCell's UI
-        VStack(alignment: .leading, spacing: 10) {
-            
-            HStack {
-                Text("\( question.sections)")
-                    .font(.custom("1HoonDdukbokki Regular", size: fontSize))
-                    .font(.headline)
-                Button {
-                    QuestionTip.hasViewedGetStartedTip = true
-                } label : {
-                    Image(systemName: "info.bubble.fill")
-                        .font(.system(size: 40))
-                        .foregroundStyle(.purple)
-                        .padding()
-                    
-                       
-                }
-                
-               
-               
-               
-            }
-          
-            .padding(.bottom,20)
-            
-          
-            
-            Text("\( question.question)") // Replace with actual question text
-                .font(.custom("1HoonDdukbokki Regular", size: fontSize))
-                .font(.headline)
-                .lineLimit(nil)
-                .lineSpacing(setLineSpacing)
-                .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
-                .padding(.bottom,20)
-            VStack(alignment: .leading,spacing: setLineSpacing) {
-                Text("\(question.option_1)") // Display user's answer (handle optional)
-                    .font(.custom("1HoonDdukbokki Regular", size: fontSize))
-                Text("\(question.option_2)") // Display user's answer (handle optional)
-                    .font(.custom("1HoonDdukbokki Regular", size: fontSize))
-                Text("\(question.option_3)") // Display user's answer (handle optional)
-                    .font(.custom("1HoonDdukbokki Regular", size: fontSize))
-                Text("\(question.option_4)") // Display user's answer (handle optional)
-                    .font(.custom("1HoonDdukbokki Regular", size: fontSize))
-                
-                Text("Correct Answer : \(question.correctAnswer ?? "")")
-                    .font(.custom("1HoonDdukbokki Regular", size: fontSize))
-                    .font(.headline)
-                    .foregroundStyle(.red)
-            }
-            //             .padding()
-            
-        }
-        .padding()
-        .background(Color.gray.opacity(0.1)) // Light background
-        .cornerRadius(10)
-        .padding(.horizontal)
-        
-       
     }
 }
 
@@ -455,20 +266,13 @@ struct ResultView_Previews: PreviewProvider {
         let sampleResult = ["3", "5", "60%"]
         
         let sampleWrongAnswers: [ReadingQuestionModel.Question] = [
-            ReadingQuestionModel.Question(correctAnswer: "①  그래요? 한번 가 봐야겠어요. ✅(정답)", option_1: "1 ) 할머니를 시골에 두고 혼자 서울로 올라오는 발걸음은 가볍지 않았다.", option_2: "2 ) 할머니를 시골에 두고 혼자 서울로 올라오는 발걸음은 가볍지 않았다.", option_3: "3 ) 할머니를 시골에 두고 혼자 서울로 올라오는 발걸음은 가볍지 않았다.", option_4: "4 ) 할머니를 시골에 두고 혼자 서울로 올라오는 발걸음은 가볍지 않았다.", question: "할머니를 시골에 두고 혼자 서울로 올라오는 발걸음은 가볍지 않았다. 하지만 무거웠던 마음은 며칠 가지 않았다. 할머니는 날마다 전화를 하더니 급기야 서울로 올라오시고 말았다. 할머니의 손자 사랑은 어쩔 수 없나 보다. 할머니는 청소며 빨래며 나에게는 안 보이던 온갖 집안일들을 찾아서 하기 시작했다. 그냥 쉬다가 내려가시라고 (아무리 말해도 들은 척도 하지 않았다). 서른이 넘은 나는 할머니가 보기엔 여전히 아이에 불과했다. 서울 살이 몇 주 만에 낯선 동네에서 친구까지 사귄 할머니는 친구를 따라 시장에 갔다가 넘어지시고 말았다. 병원에서 온 연락을 받고 걱정이 되어 정신없이 달려갔더니 할머니는 같은 병실 사람들을 모아 놓고 환하게 웃으며 이야기하고 있었다. 다리에 붕대를 감고서 말이다. 그 광경을 보고 난 할 말을 잃었다.", sections: "[5~8] (   ) 다음은 무엇에 대한 글인지 고르십시오.(각 2점).", score: "", isImg: "n"),
-            ReadingQuestionModel.Question(correctAnswer: "①  그래요? 한번 가 봐야겠어요. ✅(정답)", option_1: "1 ) 할머니를 시골에 두고 혼자 서울로 올라오는 발걸음은 가볍지 않았다.", option_2: "2 ) 할머니를 시골에 두고 혼자 서울로 올라오는 발걸음은 가볍지 않았다.", option_3: "3 ) 할머니를 시골에 두고 혼자 서울로 올라오는 발걸음은 가볍지 않았다.", option_4: "4 ) 할머니를 시골에 두고 혼자 서울로 올라오는 발걸음은 가볍지 않았다.", question: "36_9_img", sections: "[5~8] (   ) 다음은 무엇에 대한 글인지 고르십시오.(각 2점).", score: "", isImg: "y")
+            ReadingQuestionModel.Question(correctAnswer: "①  그래요? 한번 가 봐야겠어요. ✅(정답)", option_1: "1 ) 할머니를 시골에 두고 혼자 서울로 올라오는 발걸음은 가볍지 않았다.", option_2: "2 ) 할머니를 시골에 두고 혼자 서울로 올라오는 발걸음은 가볍지 않았다.", option_3: "3 ) 할머니를 시골에 두고 혼자 서울로 올라오는 발걸음은 가볍지 않았다.", option_4: "4 ) 할머니를 시골에 두고 혼자 서울로 올라오는 발걸음은 가볍지 않았다.", question: "할머니를 시골에 두고 혼자 서울로 올라오는 발걸음은 가볍지 않았다. 하지만 무거웠던 마음은 며칠 가지 않았다. 할머니는 날마다 전화를 하더니 급기야 서울로 올라오시고 말았다. 할머니의 손자 사랑은 어쩔 수 없나 보다. 할머니는 청소며 빨래며 나에게는 안 보이던 온갖 집안일들을 찾아서 하기 시작했다. 그냥 쉬다가 내려가시라고 (아무리 말해도 들은 척도 하지 않았다). 서른이 넘은 나는 할머니가 보기엔 여전히 아이에 불과했다. 서울 살이 몇 주 만에 낯선 동네에서 친구까지 사귄 할머니는 친구를 따라 시장에 갔다가 넘어지시고 말았다. 병원에서 온 연락을 받고 걱정이 되어 정신없이 달려갔더니 할머니는 같은 병실 사람들을 모아 놓고 환하게 웃으며 이야기하고 있었다. 다리에 붕대를 감고서 말이다. 그 광경을 보고 난 할 말을 잃었다.", detail : "text question", sections: "[5~8] (   ) 다음은 무엇에 대한 글인지 고르십시오.(각 2점).", score: "", isImg: "n"),
+            ReadingQuestionModel.Question(correctAnswer: "①  그래요? 한번 가 봐야겠어요. ✅(정답)", option_1: "1 ) 할머니를 시골에 두고 혼자 서울로 올라오는 발걸음은 가볍지 않았다.", option_2: "2 ) 할머니를 시골에 두고 혼자 서울로 올라오는 발걸음은 가볍지 않았다.", option_3: "3 ) 할머니를 시골에 두고 혼자 서울로 올라오는 발걸음은 가볍지 않았다.", option_4: "4 ) 할머니를 시골에 두고 혼자 서울로 올라오는 발걸음은 가볍지 않았다.", question: "36_9_img", detail :"Image section", sections: "[5~8] (   ) 다음은 무엇에 대한 글인지 고르십시오.(각 2점).", score: "", isImg: "y")
         ]
         
         
         ResultView(result: sampleResult, wrongAnswerArray: sampleWrongAnswers)
-            .task {
-                try? Tips.resetDatastore()
-                
-                try? Tips.configure([
-                                       .displayFrequency(.immediate),
-                                       .datastoreLocation(.applicationDefault)
-                                   ])
-            }
+          
         
     }
 }
