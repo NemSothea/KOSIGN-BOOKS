@@ -8,7 +8,7 @@
 import SwiftUI
 import Charts
 
-struct BookView: View {
+struct TopicView: View {
     
     // MARK: - Properties
     var questions: [ReadingQuestionModel.Question]
@@ -261,7 +261,7 @@ struct BookView_Previews: PreviewProvider {
         ]
         
         
-        BookView( questions: sampleWrongAnswers)
+        TopicView( questions: sampleWrongAnswers)
         
     }
 }

@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, StoryBoarded {
+class ViewController: UIViewController {
 
     @IBOutlet weak var  playButton      : UIButton!
     @IBOutlet weak var  tileLabel       : UILabel!

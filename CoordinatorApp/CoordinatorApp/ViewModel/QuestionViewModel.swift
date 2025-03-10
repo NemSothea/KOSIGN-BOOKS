@@ -12,13 +12,26 @@ struct QuestionModel  {
 }
 class QuestionViewModel : ObservableObject {
     
-    @Published var data: ReadingQuestionModel?
+    @Published var data                 : ReadingQuestionModel?
     
-    var TOPIKQuestionArray : [QuestionType] = []
+    @Published var TOPIKQuestionArray : [QuestionType] = []
+    
     
     init () {
         self.initReadingData()
     }
+    
+    // For setting previews
+    static func sample() -> QuestionViewModel {
+        let sampleVM = QuestionViewModel()
+        sampleVM.TOPIKQuestionArray = [
+            QuestionType.question64,
+            QuestionType.question83
+        ]
+        return sampleVM
+    }
+    
+  
     
     func initReadingData() {
         TOPIKQuestionArray = QuestionType.allCases

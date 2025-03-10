@@ -40,10 +40,6 @@ struct ReadingQuestionView: View {
     @State private var showResult = false
     
 
-  
-   
-    
-    
     @Environment(\.presentationMode) var presentationMode
     
     init(indexTopic: Int) {
