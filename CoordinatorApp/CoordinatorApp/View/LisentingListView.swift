@@ -25,10 +25,10 @@ struct LisentingListView : View {
                 
                 ScrollView {
                     LazyVGrid(columns: columns) {
-                        ForEach(readingModel.TOPIKQuestionArray, id: \.titleReading) { item in
+                        ForEach(readingModel.TOPIKQuestionArray, id: \.titleListening) { item in
                             
                             NavigationLink {
-                                ReadingQuestionView(indexTopic: item.rawValue)
+                                ListeningQuestionView(indexTopic: item.rawValue)
                             } label : {
                                 
                                 VStack(alignment: .center) {
@@ -40,7 +40,7 @@ struct LisentingListView : View {
                                         .padding()
                                     
                                     VStack {
-                                        Text("\(item.titleReading)")
+                                        Text("\(item.titleListening)")
                                             .font(.custom("1HoonDdukbokki Regular", size: fontSize))
                                             .fontWeight(.bold)
                                     }
