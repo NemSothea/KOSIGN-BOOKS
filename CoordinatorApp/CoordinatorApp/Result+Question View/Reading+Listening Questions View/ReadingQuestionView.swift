@@ -8,22 +8,6 @@ enum SelectionOption {
     case optionD
 }
 
-struct ReadingTip: Tip {
-    
-    let question : ReadingQuestionModel.Question
-    
-    var title: Text {
-        Text("Hint : ")
-    }
-
-    var message: Text? {
-        Text(question.detail ?? "")
-    }
-
-        var image: Image? {
-        Image(systemName: "info.bubble.fill")
-    }
-}
 
 struct ReadingQuestionView: View {
     

@@ -59,7 +59,7 @@ struct ResultView: View {
         GeometryReader { _ in
             VStack(alignment: .center){
                 // Header Section
-                HeaderView(result: result)
+                HeaderView(result: result, questions: wrongAnswerArray)
                 
                 ScrollView {
                     VStack(alignment: .center) {
@@ -92,6 +92,8 @@ struct ResultView: View {
 
 struct HeaderView: View {
     var result: [String]
+    
+    var questions: [ReadingQuestionModel.Question]
     let fontSize = Share.shared.setFontSize()
     
     @State private var strength = 0.0
@@ -107,6 +109,8 @@ struct HeaderView: View {
                         .font(.custom("1HoonDdukbokki Regular", size: fontSize))
                     
                         .textRenderer(QuakeRenderer(moveAmount: strength))
+                    
+                   
                         .onAppear {
                             withAnimation(.easeInOut(duration: 1).repeatForever(autoreverses: true)) {
                                 strength = 10
@@ -117,10 +121,30 @@ struct HeaderView: View {
                 
                 Text("You have reached \(result[0]) of \(result[1]) question(s), \(result[2])")
                     .font(.custom("1HoonDdukbokki Regular", size: fontSize))
-                
+                HStack {
+                    Button("Copy Results ") {
+                        copyQuestionsToClipboard(questions: questions)
+                    }
+                   
+                }
+               
             } else {
                 // Fallback on earlier versions
             }
+        }
+    }
+    
+    func copyQuestionsToClipboard(questions: [ReadingQuestionModel.Question]) {
+        do {
+            let encoder = JSONEncoder()
+            encoder.outputFormatting = .prettyPrinted // Optional: for readability
+            let jsonData = try encoder.encode(questions)
+            let jsonString = String(data: jsonData, encoding: .utf8)
+            
+            UIPasteboard.general.string = jsonString
+            print("Copied array to clipboard as JSON!")
+        } catch {
+            print("Failed to encode array: \(error)")
         }
     }
 }
