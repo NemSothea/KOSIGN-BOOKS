@@ -226,7 +226,13 @@ struct ResultImageiPhoneCellView: View {
                 .scaledToFit()
                 .frame(maxWidth: .infinity) // Use maxWidth: .infinity
                 .padding(.bottom, setLineSpacing)  //Add Some Space
-            
+                .clipShape(
+                        RoundedRectangle(cornerRadius: 6)
+                    )
+                .overlay(
+                    RoundedRectangle(cornerRadius: 6)
+                        .stroke(.teal.opacity(0.6), lineWidth: 5)
+                )
             VStack(alignment: .leading, spacing: setLineSpacing) {
                 Text("\(question.option_1)")
                     .font(.custom("1HoonDdukbokki Regular", size: fontSize))

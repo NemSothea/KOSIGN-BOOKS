@@ -178,8 +178,16 @@ struct ReadingImageQuestionCell: View {
                     if UIImage(named: question.question) != nil {
                         Image(question.question)
                             .resizable()
-                            .scaledToFit()
+                            .aspectRatio(contentMode: .fit)
                             .frame(maxHeight: UIScreen.main.bounds.height / 2)
+                        
+                            .clipShape(
+                                    RoundedRectangle(cornerRadius: 6)
+                                )
+                            .overlay(
+                                RoundedRectangle(cornerRadius: 6)
+                                    .stroke(.teal.opacity(0.6), lineWidth: 5)
+                            )
                     } else {
                         Text("Missing image: \(question.question)")
                             .foregroundColor(.red)

@@ -29,20 +29,20 @@ struct HomeView: View {
                 } label: {
                     Image(systemName: "circle.hexagonpath")
                         .padding()
-                        .foregroundStyle(Color.pink) .frame(width: UIScreen.main.bounds.width / 2 - 60, height: 40)
+                        .foregroundStyle(Color.black) .frame(width: UIScreen.main.bounds.width / 2 - 60, height: 40)
                         .overlay(
                             RoundedRectangle(cornerRadius: 25)
                                 .stroke(Color.white, lineWidth: 2)
                         )
                 }
-                .background(Color(UIColor.random()))
+                .background(.blue.opacity(0.9))
                 .cornerRadius(25)
                 
               
             }
         }
         .navigationBarBackButtonHidden(true) // Hide back button
-        .navigationTitle("") // Explicitly remove title
+        
         
     }
 }
