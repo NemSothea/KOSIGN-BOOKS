@@ -13,12 +13,14 @@ struct ReadingQuestionView: View {
     
     @StateObject var viewModelVM = QuestionViewModel()
     
+    @StateObject private var navManager = NavigationManager()
+    
     @State private var answerSelected = false
     @State private var isCorrectAnswer = false
     @State private var correctAnswer = 0
     @State private var index = 0
     @State private var indexTopic = 0
-    @State private var wrongAnswerArray: [ReadingQuestionModel.Question] = []
+
     @State private var showLeaveDialog = false
     @State private var showNoAnswerConfirmation = false
     @State private var showResult = false
@@ -109,9 +111,10 @@ struct ReadingQuestionView: View {
         } message: {
             Text("답변을 선택하지 않았습니다. 계속하시겠습니까?")
         }
-        .fullScreenCover(isPresented: $showResult) {
-            ResultView(result: resultTopik(), wrongAnswerArray: wrongAnswerArray.removingDuplicates())
-        }
+//        .fullScreenCover(isPresented: $showResult) {
+//            ResultView()
+//        }
+        
         
         .onChange(of: index) { _ in
             answerSelected = false
@@ -120,8 +123,10 @@ struct ReadingQuestionView: View {
         
         .onAppear {
             viewModelVM.getData(for: indexTopic)
-            wrongAnswerArray.removeAll()
+            
+            
         }
+        
     }
     
     private func handleNextButton() {
@@ -131,8 +136,8 @@ struct ReadingQuestionView: View {
         }
         
         if !isCorrectAnswer, let question = viewModelVM.data?.questions?[index] {
-            if !wrongAnswerArray.contains(where: { $0.correctAnswer == question.correctAnswer }) {
-                wrongAnswerArray.append(question)
+            if !viewModelVM.wrongAnswerArray.contains(where: { $0.correctAnswer == question.correctAnswer }) {
+                viewModelVM.wrongAnswerArray.append(question)
               /*  print("wrongAnswerArray : \(wrongAnswerArray)")*/
             }
         }
@@ -148,17 +153,7 @@ struct ReadingQuestionView: View {
         }
     }
     
-    private func resultTopik() -> [String] {
-        let totalQuestions = viewModelVM.data?.questions?.count ?? 0
-        let wrongAnswers = wrongAnswerArray.removingDuplicates().count
-        let correctAnswers = totalQuestions - wrongAnswers
-        let percentage = 100 * (Float(correctAnswers) / Float(totalQuestions))
-        return [
-            String(correctAnswers),
-            String(totalQuestions),
-            String(format: "%.0f%%", percentage)
-        ]
-    }
+   
 }
 struct ReadingImageQuestionCell: View {
     

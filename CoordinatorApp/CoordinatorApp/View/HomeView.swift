@@ -18,6 +18,9 @@ enum LoadingType {
 struct HUBView: View {
     
     // MARK: - Propertiest
+    
+  
+    
     let dotSize         : CGFloat
     let timing          : CGFloat
     let animationTimer  : Publishers.Autoconnect<Timer.TimerPublisher>
@@ -138,6 +141,8 @@ struct HomeView: View {
     
     @State private var isLoading: Bool = true
     
+    @StateObject private var navState = NavigationState()
+    
     var body: some View {
         ZStack {
             if isLoading {
@@ -189,9 +194,11 @@ struct HomeView: View {
                 isLoading = false // Hide loading and show the CustomTabView
             }
         }
+        .environmentObject(navState)
 
         
     }
+    
 }
 
 #Preview {

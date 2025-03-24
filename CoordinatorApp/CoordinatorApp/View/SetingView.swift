@@ -59,12 +59,12 @@ struct SetingView: View {
                 ForEach(items,id: \.titleReading) { item in
                     HStack {
                         Text("\(item.titleReading)")
-                            .font(.custom("1HoonDdukbokki Regular", size: fontSize))
+                            
                             .fontWeight(.bold)
                         Spacer()
                         
                         Image(systemName: "book.pages")
-                            .font(.custom("1HoonDdukbokki Regular", size: fontSize))
+                          
                             .fontWeight(.medium)
                             .foregroundStyle(Color(UIColor.random()))
                     }

@@ -8,6 +8,10 @@
 import SwiftUI
 import TipKit
 
+class NavigationState: ObservableObject {
+    @Published var isActive = false // Controls root navigation
+}
+
 struct AddTip: Tip {
     
     
@@ -31,12 +35,14 @@ struct ReadingListView: View {
     //MARK: - Properties
     @StateObject var readingModel = QuestionViewModel()
     
+    @EnvironmentObject private var navState: NavigationState
+    
     let fontSize = Share.shared.setFontSize()
     
     let addTipe = AddTip()
     
     var body: some View {
-        NavigationStack {
+       
             GeometryReader
             { geometry in
                 
@@ -47,24 +53,46 @@ struct ReadingListView: View {
                             .tipBackground(.teal.opacity(0.2))
                         
                         ForEach(readingModel.TOPIKQuestionArray, id: \.titleReading) { item in
+                            NavigationLink(
+                                        destination:  ReadingQuestionView(indexTopic: item.rawValue),
+                                        isActive: $navState.isActive,
+                                        label: {
+                                            HStack {
+                                                Image(systemName: "book.pages")
+                                                    .font(.custom("1HoonDdukbokki Regular", size: fontSize))
+                                                    .fontWeight(.medium)
+                                                    .foregroundStyle(Color(UIColor.random()))
+                                                    .padding(.trailing)
+                                                Text("\(item.titleReading)")
+                                                    .font(.custom("1HoonDdukbokki Regular", size: fontSize))
+                                                    .fontWeight(.bold)
+                                                
+                                            }
+                                            .frame( height: 50)
+                                            
+                                        }
+                                    )
                             
-                            NavigationLink {
-                                ReadingQuestionView(indexTopic: item.rawValue)
-                            } label : {
-                                HStack {
-                                    Image(systemName: "book.pages")
-                                        .font(.custom("1HoonDdukbokki Regular", size: fontSize))
-                                        .fontWeight(.medium)
-                                        .foregroundStyle(Color(UIColor.random()))
-                                        .padding(.trailing)
-                                    Text("\(item.titleReading)")
-                                        .font(.custom("1HoonDdukbokki Regular", size: fontSize))
-                                        .fontWeight(.bold)
-                                    
-                                }
-                                .frame( height: 50)
-                            }
-                            .buttonStyle(.plain)
+//                            NavigationLink {
+//                                ReadingQuestionView(indexTopic: item.rawValue)
+//                            } isActive: $navState.isActive {
+//                                
+//                            }
+//                            label : {
+//                                HStack {
+//                                    Image(systemName: "book.pages")
+//                                        .font(.custom("1HoonDdukbokki Regular", size: fontSize))
+//                                        .fontWeight(.medium)
+//                                        .foregroundStyle(Color(UIColor.random()))
+//                                        .padding(.trailing)
+//                                    Text("\(item.titleReading)")
+//                                        .font(.custom("1HoonDdukbokki Regular", size: fontSize))
+//                                        .fontWeight(.bold)
+//                                    
+//                                }
+//                                .frame( height: 50)
+//                            }
+//                            .buttonStyle(.plain)
                             
                             
                         }
@@ -81,8 +109,6 @@ struct ReadingListView: View {
                 
             }
             
-        }
-        .navigationTitle("읽기")
         .task {
             try? Tips.resetDatastore()
             try?  Tips.configure([

@@ -23,7 +23,7 @@ struct ResultTextiPadCellView: View {
             
             HStack {
                 Text("\( question.sections)")
-                    .font(.custom("1HoonDdukbokki Regular", size: fontSize))
+                  
                     .font(.headline)
                 Button {
                 
@@ -40,7 +40,7 @@ struct ResultTextiPadCellView: View {
           
             
             Text("\( question.question)") // Replace with actual question text
-                .font(.custom("1HoonDdukbokki Regular", size: fontSize))
+               
                 .font(.headline)
                 .lineLimit(nil)
                 .lineSpacing(setLineSpacing)
@@ -48,16 +48,16 @@ struct ResultTextiPadCellView: View {
                 .padding(.bottom,20)
             VStack(alignment: .leading,spacing: setLineSpacing) {
                 Text("\(question.option_1)") // Display user's answer (handle optional)
-                    .font(.custom("1HoonDdukbokki Regular", size: fontSize))
+                  
                 Text("\(question.option_2)") // Display user's answer (handle optional)
-                    .font(.custom("1HoonDdukbokki Regular", size: fontSize))
+                  
                 Text("\(question.option_3)") // Display user's answer (handle optional)
-                    .font(.custom("1HoonDdukbokki Regular", size: fontSize))
+                    
                 Text("\(question.option_4)") // Display user's answer (handle optional)
-                    .font(.custom("1HoonDdukbokki Regular", size: fontSize))
+                   
                 
                 Text("Correct Answer : \(question.correctAnswer ?? "")")
-                    .font(.custom("1HoonDdukbokki Regular", size: fontSize))
+                   
                     .font(.headline)
                     .foregroundStyle(.red)
             }

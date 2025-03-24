@@ -21,7 +21,7 @@ struct ResultTextiPhoneCellView: View {
             
             HStack {
                 Text("\(question.sections)")
-                    .font(.custom("1HoonDdukbokki Regular", size: fontSize))
+                  
                     .font(.headline)
                     .padding(.bottom)
                 
@@ -42,7 +42,7 @@ struct ResultTextiPhoneCellView: View {
            
             
             Text("\( question.question)") // Replace with actual question text
-                .font(.custom("1HoonDdukbokki Regular", size: fontSize))
+            
                 .font(.headline)
                 .lineLimit(nil)
                 .lineSpacing(setLineSpacing)
@@ -51,16 +51,16 @@ struct ResultTextiPhoneCellView: View {
             
             VStack(alignment: .leading,spacing: setLineSpacing) {
                 Text("\(question.option_1)") // Display user's answer (handle optional)
-                    .font(.custom("1HoonDdukbokki Regular", size: fontSize))
+                   
                 Text("\(question.option_2)") // Display user's answer (handle optional)
-                    .font(.custom("1HoonDdukbokki Regular", size: fontSize))
+                    
                 Text("\(question.option_3)") // Display user's answer (handle optional)
-                    .font(.custom("1HoonDdukbokki Regular", size: fontSize))
+                    
                 Text("\(question.option_4)") // Display user's answer (handle optional)
-                    .font(.custom("1HoonDdukbokki Regular", size: fontSize))
+                    
                     .padding(.bottom)
                 Text("Correct Answer : \(question.correctAnswer ?? "")")
-                    .font(.custom("1HoonDdukbokki Regular", size: fontSize))
+                    
                     .font(.headline)
                     .foregroundStyle(.red)
             }

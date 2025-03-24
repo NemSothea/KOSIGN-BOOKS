@@ -131,9 +131,9 @@ struct ListeningQuestionView: View {
         } message: {
             Text("답변을 선택하지 않았습니다. 계속하시겠습니까?")
         }
-        .fullScreenCover(isPresented: $showResult) {
-            ResultView(result: resultTopik(), wrongAnswerArray: wrongAnswerArray.removingDuplicates())
-        }
+//        .fullScreenCover(isPresented: $showResult) {
+//            ResultView()
+//        }
         
         .onChange(of: index) { _ in
             answerSelected = false

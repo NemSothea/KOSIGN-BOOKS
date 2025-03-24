@@ -6,6 +6,14 @@
 //
 import SwiftUI
 
+
+enum Route: Hashable {
+    case  ReadingList
+    case  LisentingList
+    case  Seting
+}
+
+
 struct TabMenuView : View {
     
     var body: some View {

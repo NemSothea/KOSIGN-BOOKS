@@ -41,7 +41,7 @@ struct LisentingListView : View {
                                     
                                     VStack {
                                         Text("\(item.titleListening)")
-                                            .font(.custom("1HoonDdukbokki Regular", size: fontSize))
+                                          
                                             .fontWeight(.bold)
                                     }
                                     .padding()

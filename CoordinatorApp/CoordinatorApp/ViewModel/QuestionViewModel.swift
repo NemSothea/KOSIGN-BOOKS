@@ -14,6 +14,8 @@ class QuestionViewModel : ObservableObject {
     
     @Published var data                 : ReadingQuestionModel?
     
+    @Published var wrongAnswerArray    : [ReadingQuestionModel.Question] = []
+    
     @Published var TOPIKQuestionArray : [QuestionType] = []
     
     
@@ -46,6 +48,18 @@ class QuestionViewModel : ObservableObject {
         
         let fileName = "Question\(question.rawValue)"
         self.data = Bundle.main.decode(ReadingQuestionModel.self, from: "\(fileName).json")
+    }
+    
+    private func resultTopik() -> [String] {
+        let totalQuestions = data?.questions?.count ?? 0
+        let wrongAnswers = wrongAnswerArray.removingDuplicates().count
+        let correctAnswers = totalQuestions - wrongAnswers
+        let percentage = 100 * (Float(correctAnswers) / Float(totalQuestions))
+        return [
+            String(correctAnswers),
+            String(totalQuestions),
+            String(format: "%.0f%%", percentage)
+        ]
     }
     
 }
