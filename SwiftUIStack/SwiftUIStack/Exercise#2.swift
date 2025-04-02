@@ -11,27 +11,36 @@ import SwiftUI
 struct Exercise_2: View {
     
     var body: some View {
-        ScrollView {
-            HStack {
-                ZStack {
-                    Header1View(title:  "network", subtitle: "Team", price: "$299", description: "per month", textColor: .white,backgroundColor: Color.black)
-                        .padding(.top, 100)
-                        .zIndex(1)
-                    Header1View(title:  "network", subtitle: "Team", price: "$299", description: "per month", textColor: .white,backgroundColor: Color.yellow)
-                        .zIndex(0)
-                        .offset(x:0, y:230)
-                    
-                    Header1View(title:  "network", subtitle: "Team", price: "$299", description: "per month", textColor: .white,backgroundColor: Color.purple)
-                        .zIndex(-1)
-                        .offset(x:0, y:410)
-                }
-              
+        VStack(alignment: .center){
+            Spacer()
+            ScrollViewReader { _ in
                
+                    ZStack {
+                        Header1View(title:  "network", subtitle: "Team", icon:  "network", price: "$299", description: "per month", textColor: .white,backgroundColor: Color.gray.opacity(0.5))
+    //                        .padding(.top, 100)
+    //                        .zIndex(1)
+                            .padding()
+                            .offset(x:0, y:180)
+                        Header1View(title:  "network", subtitle: "Team", icon:  "network", price: "$299", description: "per month", textColor: .white,backgroundColor: Color.yellow)
+                            .padding()
+                            .scaleEffect(0.95)
+    //                        .zIndex(0)
+    //                        .offset(x:0, y:230)
+                        
+                        Header1View(title:  "network", subtitle: "Team", icon:  "network", price: "$299", description: "per month", textColor: .white,backgroundColor: Color.purple)
+                            .padding()
+                            .scaleEffect(0.9)
+    //                        .zIndex(-1)
+                            .offset(x:0, y:-180)
+                    }
+                    .frame(maxWidth: .infinity)
             }
-            .padding(.horizontal)
-         
+            Spacer()
             
         }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .ignoresSafeArea(.container)
+   
       
     }
 }
@@ -44,17 +53,20 @@ struct Header1View: View {
     
     let title : String
     let subtitle : String
+    let icon        : String
     let price : String
     let description : String
     let textColor : Color
     let backgroundColor : Color
     
     var body: some View {
-        GeometryReader { geometry in
+     
             VStack {
-                Image(systemName:title)
+                Image(systemName:icon)
                     .font(.title)
                     .foregroundStyle(textColor)
+                
+             
                 Text(subtitle)
                     .font(.system(.largeTitle,design: .rounded))
                     .fontWeight(.black)
@@ -69,11 +81,11 @@ struct Header1View: View {
                     .foregroundStyle(textColor)
                 
             }
-            .padding()
-            .frame(minWidth: 0,maxWidth: geometry.size.width * 0.8)
+            .padding(40)
+            .frame(minWidth: 0,maxWidth: .infinity,minHeight: 100)
             .background(backgroundColor)
             .cornerRadius(10)
-        }
+        
         
      
     }
